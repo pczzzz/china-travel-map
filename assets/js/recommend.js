@@ -425,6 +425,7 @@
     CUR = null;
     $("#recList").innerHTML = "";
     $("#recDetail").style.display = "none";
+    var _sh = $("#shared"); if (_sh) _sh.style.display = "none";
     if (F.src === "local") { runLocal(want); return; }
     BUSY = true; $("#btnRec").disabled = true;
     stat("AI 正在翻物候日历，挑当季最值得去的地方…");
@@ -638,6 +639,7 @@
     var want = collectWant();
     var det = $("#recDetail");
     det.style.display = "";
+    var _sh = $("#shared"); if (_sh) _sh.style.display = "";
     $("#recHead").innerHTML =
       "<h2>" + esc(it.icon + " " + it.title) + "</h2>" +
       '<div class="rec-tags">' + tagsHtml(it) + "</div>" +
@@ -732,11 +734,12 @@
       else if (b.id === "btnPick") roll();
       else if (b.id === "btnBack") {
         $("#recDetail").style.display = "none";
+        var _sh = $("#shared"); if (_sh) _sh.style.display = "none";
         try { $("#recList").scrollIntoView({ behavior: "smooth", block: "start" }); } catch (x) { }
       }
     });
     var hint = $("#recHint");
-    if (hint) hint.textContent = "AI 走本地代理 /api/llm（tools/serve.py），不可用时自动用本地物候引擎";
+    if (hint) hint.textContent = "AI 走可配置网关（本地 tools/serve.py 或云端 Worker，点右上角「⚙ AI 设置」配置），不可用时自动用本地物候引擎";
     if (HZ.param("go") === "1") run();
   }
 

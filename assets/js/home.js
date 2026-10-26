@@ -144,20 +144,8 @@
         '<div class="ec-ft"><a class="btn btn-sm btn-primary" href="' + x.href + '">' + esc(x.btn) + "</a>" + x.more + "</div>" +
         "</div></article>";
     }).join("");
-    var sw = $("#entrySwitch");
-    if (sw) {
-      sw.innerHTML = "第 " + ((SEED % 7) + 1) + " 批 · 换一批";
-      sw.title = "每天自动换一批，也可手动切换（国道 / 省份 / 主题三卡联动轮换）";
-    }
   }
   renderEntries();
-  var swBtn = $("#entrySwitch");
-  if (swBtn) swBtn.addEventListener("click", function () {
-    seedShift++;
-    try { localStorage.setItem("hz_entry_shift", String(seedShift)); } catch (e) {}
-    SEED = dayOfYear + seedShift;
-    renderEntries();
-  });
 
   /* ---------- 六类入口（两排大图卡片） ---------- */
   var CATDESC = {

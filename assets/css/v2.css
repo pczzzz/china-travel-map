@@ -258,6 +258,7 @@ select.sel{padding:5px 9px;border:1px solid var(--line);border-radius:var(--r-bt
   box-shadow:var(--sh);transition:.2s;display:flex;flex-direction:column}
 .acard:hover{transform:translateY(-4px);box-shadow:var(--sh-h)}
 .acard .im{height:158px;background:#E4E0D8 center/cover no-repeat;position:relative;flex:0 0 auto;cursor:pointer}
+.acard .im img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 .acard .im.none{display:grid;place-items:center;color:#fff;font-size:34px;background:var(--cc)}
 .acard .im .ct{position:absolute;left:10px;top:10px;font-size:11px;font-weight:700;color:#fff;
   background:rgba(20,33,43,.72);padding:3px 9px;border-radius:12px}

@@ -985,8 +985,7 @@ var HZ = (function () {
         { href: "theme.html?id=xhb", t: "夏冰寒 · 经典环线", tg: "13 条" }
       ]) +
       '<a href="favorites.html">收藏 · 图鉴<span class="navfav" id="navFav"></span></a>' +
-      '<a href="plan.html"' + (key === "plan" ? ' class="act"' : "") + '>行程规划</a>' +
-      '<a href="recommend.html"' + (key === "rec" ? ' class="act"' : "") + ' title="不知道去哪？按季节开盲盒">旅行推荐</a>' +
+      '<a href="plan.html"' + (key === "plan" ? ' class="act"' : "") + '>行程规划<span class="navfav" style="font-weight:400;opacity:.65" title="一个入口：自己定目的地，或只给出发日期开旅行盲盒">＋推荐</span></a>' +
       '<a href="guide.html">实用攻略</a>';
   }
 
@@ -1125,6 +1124,25 @@ var HZ = (function () {
     return '<span class="badge dist" title="' + tt + '">' + poiDistText(n, p, label) + "</span>";
   }
 
+  /* 收藏原始映射（key -> 时间戳），备份用 */
+  function favIds() {
+    var o = new Object(); Object.keys(favs).forEach(function (k) { o[k] = favs[k]; }); return o;
+  }
+  /* 批量导入（备份恢复）：visited/favs 为 {key:value} 映射，整体覆盖 */
+  function importData(d) {
+    d = d || new Object();
+    if (d.visited && typeof d.visited === "object") {
+      visited = new Object();
+      Object.keys(d.visited).forEach(function (k) { visited[k] = d.visited[k]; });
+      saveVisited();
+    }
+    if (d.favs && typeof d.favs === "object") {
+      favs = new Object();
+      Object.keys(d.favs).forEach(function (k) { favs[k] = d.favs[k]; });
+      saveFav();
+    }
+  }
+
   return {
     D: D, CATS: CATS, CATNAME: CATNAME, Caticon: Caticon, KINDNAME: KINDNAME, PROVS: PROVS,
     nodesById: nodesById, poisById: poisById, routesById: routesById, poisByNode: poisByNode, nodesByRoute: nodesByRoute,
@@ -1133,7 +1151,7 @@ var HZ = (function () {
     isFav: isFav, toggleFav: toggleFav, onFav: onFav, favCount: favCount, favList: favList, syncFav: syncFav,
     isVisited: isVisited, setVisited: setVisited, toggleVisited: toggleVisited, onVisited: onVisited,
     visitedCount: visitedCount, visitedTotal: visitedTotal, visitedIds: visitedIds,
-    clearVisited: clearVisited, exportVisited: exportVisited,
+    clearVisited: clearVisited, exportVisited: exportVisited, favIds: favIds, importData: importData,
     initMap: initMap, drawRoutes: drawRoutes, nodeIcon: nodeIcon, poiIcon: poiIcon,
     addNodes: addNodes, addPois: addPois, autoPois: autoPois, fitNodes: fitNodes,
     nodePopup: nodePopup, poiPopup: poiPopup, wirePopup: wirePopup,

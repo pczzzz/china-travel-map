@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>行程规划｜环中国 · 黄金大外环</title>
-<meta name="description" content="按每日里程上限自动排程：环中国黄金大外环 G331+G219+G228 逐日行程、停靠节点、亮点与住宿建议，可导出清单。" />
+<meta name="description" content="一个入口两个功能：自己定目的地排逐日行程，或只给出发日期开旅行盲盒。AI 智能规划 + 本地引擎双保险。" />
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
 <link rel="stylesheet" href="assets/css/main.css" />
 <link rel="stylesheet" href="assets/css/v2.css" />
@@ -14,6 +14,26 @@
 <meta name="theme-color" content="#14212B" />
 <link rel="apple-touch-icon" href="assets/pwa/apple-touch-icon.png" />
 <script src="assets/js/pwa.js" defer></script>
+<style>
+  /* 页签按钮化（原 .pl-tab 是 a 标签样式） */
+  .pl-tab{font-family:inherit;text-align:left;cursor:pointer;line-height:1.35}
+  /* AI 设置面板 */
+  .aicfg{position:fixed;inset:0;z-index:2000;display:none;align-items:center;justify-content:center;background:rgba(10,16,22,.55);padding:16px}
+  .aicfg.open{display:flex}
+  .aicfg-card{background:#fff;border-radius:16px;box-shadow:0 18px 60px rgba(0,0,0,.35);width:min(560px,100%);max-height:86vh;overflow:auto;padding:22px 24px}
+  .aicfg-card h3{margin:0 0 10px;font-size:19px}
+  .aicfg-tip{font-size:13px;color:var(--muted,#5c6670);line-height:1.7;margin:0 0 14px}
+  .aicfg-tip code{background:#f2efe9;border-radius:4px;padding:1px 6px;font-size:12px}
+  .aicfg-card label{display:block;font-size:13px;font-weight:700;color:#3a424a;margin:12px 0 4px}
+  .aicfg-card input{width:100%;box-sizing:border-box;padding:9px 12px;border:1px solid #d8d2c8;border-radius:9px;font-size:14px;background:#fbfaf7}
+  .aicfg-card input:focus{outline:none;border-color:var(--cta,#d9772b)}
+  .aicfg-acts{display:flex;align-items:center;gap:8px;margin:18px 0 0;flex-wrap:wrap}
+  .aicfg-stat{font-size:12.5px;color:var(--muted,#5c6670);margin-left:auto}
+  .aicfg-card details{margin-top:16px;border-top:1px dashed #ddd6c8;padding-top:12px}
+  .aicfg-card details summary{cursor:pointer;font-size:13px;font-weight:700;color:var(--cta,#d9772b)}
+  .aicfg-card pre{background:#14212b;color:#e8e4da;border-radius:10px;padding:12px 14px;font-size:11.5px;line-height:1.55;overflow:auto;white-space:pre}
+  .rec-hint{margin-top:10px;font-size:12.5px;color:var(--muted,#5c6670)}
+</style>
 </head>
 <body>
 
@@ -22,59 +42,142 @@
     <span class="brand-mark">旅</span>
     <span class="brand-txt">中国旅行地图<em>国道 · 省份 · 主题</em></span>
   </a>
+
   <nav class="nav" id="mainnav"></nav>
   <a class="btn btn-ghost btn-sm" href="favorites.html?tab=visited" id="navVisited" title="查看我的已去清单">已去 0</a>
 </header>
 
 <section class="page-head">
   <div class="wrap">
-    <div class="eyebrow">PLANNER · 行程规划专家</div>
-    <h1>告诉专家<span style="color:var(--cta)">想去哪</span>，拿回一份逐日可执行的行程</h1>
-    <p class="lead">起点终点自由输入、中途加途经点、指定出发与返程日期；再勾选车型 / 露营 / 预算 / 拍摄等偏好，本地排程引擎 + AI 专家共同产出：每天开多久、停哪里、看什么、在哪睡、大概花多少。</p>
-    <div class="pl-tabs" role="tablist">
-      <a class="pl-tab on" href="plan.html" role="tab" aria-selected="true">🧭 行程规划<span>我已知目的地</span></a>
-      <a class="pl-tab" href="recommend.html" role="tab">🎁 旅行推荐<span>帮我开盲盒</span></a>
+    <div id="headPlan">
+      <div class="eyebrow">PLANNER · 行程规划专家</div>
+      <h1>告诉专家<span style="color:var(--cta)">想去哪</span>，拿回一份逐日可执行的行程</h1>
+      <p class="lead" style="margin-bottom:0">一个入口两个功能：自己定目的地，或只给出发日期开旅行盲盒。</p>
     </div>
-    <div class="ph-tags" id="pTags"></div>
+    <div id="headRec" style="display:none">
+      <div class="eyebrow">BLIND BOX · 旅行推荐</div>
+      <h1>不知道去哪？<span style="color:var(--cta)">开个盲盒</span>，让季节替你决定</h1>
+      <p class="lead" style="margin-bottom:0">只填出发日期和大致出发地，AI 按季节物候挑出最值得去的地方并排出往返行程。</p>
+    </div>
+    <div class="pl-tabs" role="tablist">
+      <button class="pl-tab on" data-tab="plan" role="tab" aria-selected="true" type="button">🧭 行程规划<span>我已知目的地</span></button>
+      <button class="pl-tab" data-tab="rec" role="tab" aria-selected="false" type="button">🎁 旅行推荐<span>帮我开盲盒</span></button>
+      <span style="flex:1"></span>
+      <button class="btn btn-ghost btn-sm" id="btnAiCfg" type="button" style="align-self:center" title="配置 AI 规划的网关 / 模型 / 密钥">⚙ AI 设置</button>
+    </div>
   </div>
 </section>
 
 <section class="sec sec-tight">
   <div class="wrap">
-    <div class="planform" id="planform"></div>
-    <div class="plan-sum" id="psum"></div>
-    <div class="tipbox" id="pwarn" style="display:none"></div>
-    <div class="planacts" id="pacts"></div>
+    <!-- 行程规划视图 -->
+    <div id="view-plan">
+      <div class="planform" id="planform"></div>
+    </div>
 
-    <!-- 行程地图：生成/AI 规划后显示整条路线，可按天切换查看停靠点、过夜点与沿途景色 -->
-    <section class="pmapsec" id="planmapsec" style="display:none">
-      <div class="pmaphead">
-        <h3>🗺️ 行程地图</h3>
-        <div class="pmaptools">
-          <label class="pmchk"><input type="checkbox" id="pmPoi" checked /> 沿途景色</label>
-          <button class="btn btn-sm" id="pmAll" type="button">全览</button>
-          <button class="btn btn-sm" id="pmPlay" type="button">▶ 按天播放</button>
+    <!-- 旅行推荐视图（与规划共用同一个引擎） -->
+    <div id="view-rec" style="display:none">
+      <div class="planform recform" id="recForm"></div>
+      <div class="recstat" id="recStat"></div>
+      <div class="rec-list" id="recList" style="display:none"></div>
+      <div class="rec-detail" id="recDetail" style="display:none">
+        <div class="rec-head" id="recHead"></div>
+      </div>
+      <div class="rec-hint" id="recHint"></div>
+    </div>
+
+    <!-- 共享结果区：规划/推荐两个模式共用一套行程结果与地图 -->
+    <div id="shared">
+      <div class="tipbox" id="pwarn" style="display:none"></div>
+      <div class="planacts" id="pacts"></div>
+
+      <!-- 行程地图：生成/AI 规划后显示整条路线，可按天切换查看停靠点、过夜点与沿途景色 -->
+      <section class="pmapsec" id="planmapsec" style="display:none">
+        <div class="pmaphead">
+          <h3>🗺️ 行程地图</h3>
+          <div class="pmaptools">
+            <label class="pmchk"><input type="checkbox" id="pmPoi" checked /> 沿途景色</label>
+            <button class="btn btn-sm" id="pmAll" type="button">全览</button>
+            <button class="btn btn-sm" id="pmPlay" type="button">▶ 按天播放</button>
+          </div>
         </div>
-      </div>
-      <div class="pmapdays" id="pmDays"></div>
-      <div class="pmapwrap">
-        <div id="planMap" class="leaflet-map pmap"></div>
-        <div class="pmaplegend" id="pmLegend"></div>
-      </div>
-      <div class="pmapnote" id="pmNote"></div>
-    </section>
+        <div class="pmapdays" id="pmDays"></div>
+        <div class="pmapwrap">
+          <div id="planMap" class="leaflet-map pmap"></div>
+          <div class="pmaplegend" id="pmLegend"></div>
+        </div>
+        <div class="pmapnote" id="pmNote"></div>
+      </section>
 
-    <div class="wxpanel" id="wxpanel" style="display:none"></div>
-    <div class="days" id="days"></div>
-    <div class="tipbox" id="pempty" style="display:none">当前条件下排不出行程，请放宽每日里程上限或减少停靠密度。</div>
+      <div class="wxpanel" id="wxpanel" style="display:none"></div>
+      <div class="days" id="days"></div>
+      <div class="tipbox" id="pempty" style="display:none">当前条件下排不出行程，请放宽每日里程上限或减少停靠密度。</div>
+    </div>
   </div>
 </section>
+
+<!-- AI 网关设置 -->
+<div class="aicfg" id="aiCfg" role="dialog" aria-modal="true">
+  <div class="aicfg-card">
+    <h3>⚙ AI 智能规划设置</h3>
+    <p class="aicfg-tip">AI 规划走 <b>OpenAI 兼容接口</b>（/chat/completions）。<br>· <b>本地体验</b>：保持默认，用 <code>python tools/serve.py</code> 启动站点，密钥放服务端，前端零密钥。<br>· <b>线上使用</b>：部署一个免费的 Cloudflare Worker 当网关（见下方步骤），把 Worker 地址填到「网关地址」。</p>
+    <label>网关地址</label>
+    <input id="aiEndpoint" placeholder="/api/llm 或 https://你的名字.workers.dev/llm" autocomplete="off" />
+    <label>模型</label>
+    <input id="aiModel" placeholder="tw-Qwen3 / qwen-turbo / deepseek-chat / gpt-4o-mini" autocomplete="off" />
+    <label>API Key（直连官方接口时才需要；走 Worker 可留空）</label>
+    <input id="aiKey" type="password" placeholder="sk-..." autocomplete="off" />
+    <div class="aicfg-acts">
+      <button class="btn btn-primary btn-sm" id="aiCfgSave" type="button">保存</button>
+      <button class="btn btn-line btn-sm" id="aiCfgTest" type="button">测试连接</button>
+      <span class="aicfg-stat" id="aiCfgStat"></span>
+      <button class="btn btn-ghost btn-sm" id="aiCfgClose" type="button">关闭</button>
+    </div>
+    <details>
+      <summary>没有网关？用 Cloudflare Worker 免费搭一个（约 5 分钟）</summary>
+      <p class="aicfg-tip">1) 打开 <b>dash.cloudflare.com</b> → Workers &amp; Pages → 创建 Worker（免费额度足够个人用）。<br>
+      2) 把下面的代码整个粘贴进去 → 部署 → 得到地址 <code>https://你的名字.workers.dev/llm</code>。<br>
+      3) 在该 Worker「设置 → 变量」里配三个变量：<code>OPENAI_KEY</code>=你的模型服务商密钥、<code>OPENAI_BASE</code>=<code>https://api.deepseek.com/v1</code>（或通义等，注意以 /v1 结尾）、<code>OPENAI_MODEL</code>=<code>deepseek-chat</code>。<br>
+      4) 把 Worker 地址填到上面的「网关地址」，模型填对应模型名，API Key 留空即可。</p>
+      <pre>export default {
+  async fetch(req, env) {
+    if (req.method === "OPTIONS") {
+      return new Response("", { status: 204, headers: cors() });
+    }
+    const url = new URL(req.url);
+    if (url.pathname !== "/llm" || req.method !== "POST") {
+      return new Response("Not Found", { status: 404 });
+    }
+    let body;
+    try { body = await req.json(); } catch (e) { return new Response("bad json", { status: 400 }); }
+    const base = env.OPENAI_BASE || "https://api.openai.com/v1";
+    const model = body.model || env.OPENAI_MODEL || "gpt-4o-mini";
+    const key = env.OPENAI_KEY || "";
+    const r = await fetch(base + "/chat/completions", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "Authorization": "Bearer " + key },
+      body: JSON.stringify({ model: model, messages: body.messages, temperature: body.temperature, max_tokens: body.max_tokens || 4000 })
+    });
+    const txt = await r.text();
+    return new Response(txt, { status: r.status, headers: Object.assign({ "Content-Type": "application/json" }, cors()) });
+  }
+};
+function cors() {
+  return {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "Content-Type, Authorization",
+    "Access-Control-Allow-Methods": "POST, OPTIONS"
+  };
+}</pre>
+    </details>
+  </div>
+</div>
 
 <footer class="foot">
   <div class="wrap">
     <div class="cp">
       <span><a href="index.html">← 返回地图路书</a></span>
-      <span>© 2026 环中国路书 · 排程为估算，实际请按天气与管制调整</span>
+      <span>© 2026 环中国路书 · 排程与推荐为估算，实际请按天气与管制调整</span>
       <span><a href="guide.html">实用攻略 →</a></span>
     </div>
   </div>
@@ -89,5 +192,85 @@
 <script src="assets/js/plan_llm.js"></script>
 <script src="assets/js/plan.js"></script>
 <script src="assets/js/plan_map.js"></script>
+<script src="assets/js/recommend.js"></script>
+<script>
+  /* ---------- 单入口双功能：页签运行时切换 ---------- */
+  (function () {
+    function tab(t) {
+      var isPlan = t === "plan";
+      document.querySelectorAll(".pl-tab").forEach(function (b) {
+        var on = b.getAttribute("data-tab") === t;
+        b.classList.toggle("on", on);
+        b.setAttribute("aria-selected", on ? "true" : "false");
+      });
+      var h1 = document.getElementById("headPlan"), h2 = document.getElementById("headRec");
+      var v1 = document.getElementById("view-plan"), v2 = document.getElementById("view-rec");
+      var sh = document.getElementById("shared");
+      if (h1) h1.style.display = isPlan ? "" : "none";
+      if (h2) h2.style.display = isPlan ? "none" : "";
+      if (v1) v1.style.display = isPlan ? "" : "none";
+      if (v2) v2.style.display = isPlan ? "none" : "";
+      /* 共享结果区：规划页常显；推荐页仅在选中方案（recDetail 可见）时显示 */
+      if (sh) {
+        if (isPlan) sh.style.display = "";
+        else {
+          var det = document.getElementById("recDetail");
+          sh.style.display = (det && det.style.display !== "none") ? "" : "none";
+        }
+      }
+      document.title = isPlan ? "行程规划｜环中国 · 黄金大外环" : "旅行推荐｜开盲盒 · 环中国路书";
+      try { history.replaceState(null, "", isPlan ? "#plan" : "#rec"); } catch (e) { }
+    }
+    document.querySelectorAll(".pl-tab").forEach(function (b) {
+      b.addEventListener("click", function () { tab(b.getAttribute("data-tab")); });
+    });
+    /* 初始页签：支持 #rec 直达 */
+    if (location.hash === "#rec" || /[?&]tab=rec/.test(location.search)) tab("rec");
+  })();
+
+  /* ---------- AI 网关设置 ---------- */
+  (function () {
+    function $(id) { return document.getElementById(id); }
+    var box = $("aiCfg");
+    function openCfg() {
+      var cfg = (window.HZLLM && window.HZLLM.cfg) || {};
+      $("aiEndpoint").value = cfg.endpoint || "/api/llm";
+      $("aiModel").value = cfg.model || "tw-Qwen3";
+      $("aiKey").value = cfg.key || "";
+      $("aiCfgStat").textContent = "";
+      box.classList.add("open");
+    }
+    $("btnAiCfg").addEventListener("click", openCfg);
+    $("aiCfgClose").addEventListener("click", function () { box.classList.remove("open"); });
+    box.addEventListener("click", function (e) { if (e.target === box) box.classList.remove("open"); });
+    $("aiCfgSave").addEventListener("click", function () {
+      if (window.HZLLM) {
+        window.HZLLM.setConfig({
+          endpoint: $("aiEndpoint").value,
+          model: $("aiModel").value,
+          key: $("aiKey").value
+        });
+      }
+      $("aiCfgStat").textContent = "✅ 已保存（本机浏览器生效）";
+      box.classList.remove("open");
+    });
+    $("aiCfgTest").addEventListener("click", function () {
+      if (!window.HZLLM) { $("aiCfgStat").textContent = "引擎未就绪"; return; }
+      window.HZLLM.setConfig({
+        endpoint: $("aiEndpoint").value,
+        model: $("aiModel").value,
+        key: $("aiKey").value
+      });
+      var st = $("aiCfgStat");
+      st.textContent = "⏳ 测试中…";
+      window.HZLLM.test().then(function (txt) {
+        st.textContent = "✅ 连通成功：" + String(txt).slice(0, 20);
+      }, function (e) {
+        st.textContent = "❌ " + String((e && e.msg) || e).slice(0, 48);
+      });
+    });
+    if (/[?&]aicfg=1/.test(location.search)) openCfg();
+  })();
+</script>
 </body>
 </html>

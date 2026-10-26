@@ -1337,25 +1337,6 @@
   }
   function render() {
     var all = []; PLAN.forEach(function (d) { d.stops.forEach(function (s) { all.push(s); }); });
-    var totalKm = PLAN.reduce(function (x, d) { return x + d.km; }, 0);
-    var maxDay = PLAN.length ? Math.max.apply(null, PLAN.map(function (d) { return d.km; })) : 0;
-    var maxAlt = all.length ? Math.max.apply(null, all.map(function (s) { return s.n.alt || 0; })) : 0;
-    var altNode = all.filter(function (s) { return (s.n.alt || 0) === maxAlt; })[0];
-    var doneN = all.filter(function (s) { return HZ.isVisited(s.n.id); }).length;
-    var C = costEst(totalKm);
-
-    $("#psum").innerHTML = [
-      [PLAN.length || "—", "预计天数"], [HZ.kmf(totalKm), "总里程"],
-      [PLAN.length ? Math.round(totalKm / PLAN.length) + " km" : "—", "日均里程"],
-      [Math.round(maxDay) + " km", "最长单日"], [all.length, "停靠点"],
-      [maxAlt ? maxAlt + " m" : "—", maxAlt ? "最高海拔·" + (altNode ? altNode.n.name : "") : "最高海拔"],
-      ["≈¥" + C.pp.toLocaleString(), "预估费用/人"],
-      [doneN, "其中已去过"]
-    ].map(function (x) { return '<div class="stat"><b>' + x[0] + "</b><span>" + x[1] + "</span></div>"; }).join("") +
-    '<div class="costnote">估算口径：油/电+过路费 ≈¥' + C.fuel.toLocaleString() + "/车（" + (O.car === "ev" ? "电 0.13" : "油 0.62") +
-    " 元/km + 过路费按 42% 高速估）；住宿 " + C.nights + " 晚" + (C.campN ? "（含 " + C.campN + " 晚露营 ¥60）" : "") +
-    " × " + BUDGETS[O.budget][0] + "档 ¥" + C.rate + "/晚；餐 ¥90/天/人；按每车 2 人计，门票/装备/购物未含。</div>";
-
     var pw = $("#pwarn"), msg = "", cls = "tipbox";
     if (END_ERR) { cls = "tipbox warn"; msg += "<b>名称纠错：</b>" + END_ERR + "　"; }
     if (CORR_NOTE) { if (cls === "tipbox") cls = "tipbox ok"; msg += CORR_NOTE + "　"; }
@@ -1422,19 +1403,7 @@
       });
     }
     $("#navVisited").textContent = "已去 " + HZ.visitedTotal();
-    var planKm = PLAN.reduce(function (x, d) { return x + d.km; }, 0);
-    var tags = [
-      ["当前范围", scopeLabel()], ["本方案里程", HZ.kmf(planKm)],
-      ["停靠点", all.length + " 个"], ["候选点位", seqAll().length + " 个"]
-    ];
-    if (O.date || O.dateEnd) tags.push(["日期窗口", (O.date || "待定") + " ~ " + (O.dateEnd || "待定")]);
-    if (O.via.length) tags.push(["途经点", O.via.length + " 个"]);
-    tags.push(["预算档", BUDGETS[O.budget][0]]);
-    tags.push(["驾驶硬上限", (O.maxHours || 8) + " h/日"]);
-    if (FILLED) tags.push(["分段补给点", FILLED + " 个"]);
-    $("#pTags").innerHTML = tags.map(function (x) { return '<span class="phtag">' + x[0] + " <b>" + x[1] + "</b></span>"; }).join("") +
-      '<span class="phtag">默认每日上限 <b>' + O.maxKm + " km</b></span>" +
-      (AI_ON ? '<span class="phtag">✨ AI 生成 <b>' + PLAN.length + " 天</b></span>" : "");
+
     /* 行程地图同步刷新（plan_map.js） */
     if (window.HZPM) { try { window.HZPM.render(); } catch (e) { if (window.console) console.warn("HZPM", e); } }
   }

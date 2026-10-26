@@ -124,6 +124,38 @@
 
   HZ.onFav(function () { renderFilters(); render(); });
 
+  /* ---------- 备份 / 恢复（收藏 + 已去，JSON） ---------- */
+  $("#favBackup").addEventListener("click", function () {
+    var data = { app: "huanzhongguo", ver: 2, t: Date.now(), visited: HZ.visitedIds(), favs: HZ.favIds() };
+    var blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json;charset=utf-8" });
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "旅行数据备份-" + new Date().toISOString().slice(0, 10) + ".json";
+    a.click();
+    HZ.toast("已导出备份（收藏 " + HZ.favCount() + " 条 · 已去 " + HZ.visitedTotal() + " 条）");
+  });
+  $("#favRestore").addEventListener("click", function () {
+    $("#favRestoreFile").click();
+  });
+  $("#favRestoreFile").addEventListener("change", function () {
+    var f = this.files && this.files[0];
+    if (!f) return;
+    var rd = new FileReader();
+    rd.onload = function () {
+      try {
+        var d = JSON.parse(String(rd.result));
+        if (!d || (typeof d.visited !== "object" && typeof d.favs !== "object")) throw new Error("格式不对");
+        HZ.importData({ visited: d.visited, favs: d.favs });
+        renderFilters(); render();
+        HZ.toast("已恢复（收藏 " + HZ.favCount() + " 条 · 已去 " + HZ.visitedTotal() + " 条）");
+      } catch (e) {
+        HZ.toast("恢复失败：" + String((e && e.message) || e).slice(0, 40));
+      }
+      this.value = "";
+    };
+    rd.readAsText(f);
+  });
+
   /* ---------- 已去清单（环线节点 + 分省景点，按标记时间倒序） ---------- */
   function renderVisitedProvs(pids, spots) {
     var host = $("#visProvGroups");

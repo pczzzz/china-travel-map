@@ -32,6 +32,9 @@
     <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap">
       <button class="btn btn-ghost btn-sm" id="favExport">导出收藏清单</button>
       <button class="btn btn-ghost btn-sm" id="favClear">清空收藏</button>
+      <button class="btn btn-ghost btn-sm" id="favBackup" title="把收藏+已去导出为 JSON 备份文件（换电脑/浏览器迁移用）">💾 备份数据</button>
+      <button class="btn btn-ghost btn-sm" id="favRestore" title="从 JSON 备份恢复收藏+已去">↩ 恢复备份</button>
+      <input type="file" id="favRestoreFile" accept=".json,application/json" style="display:none" />
     </div>
   </div>
 </section>

@@ -1,13 +1,15 @@
 /* ============================================================
    plan_llm.js — 大模型行程规划客户端
-   仅走本地同源代理 /api/llm（tools/serve.py）。密钥只保存在本地服务端，
-   前端不内置任何密钥、也不直连网关，避免凭据随站点分发而泄露。
+   网关地址/模型/密钥均可配置（存 localStorage）：
+   - 本地部署：保持默认 /api/llm，由 tools/serve.py 同源代理（密钥放服务端）
+   - 云端部署：在「AI 设置」填 Cloudflare Worker / 任意 OpenAI 兼容网关地址
    暴露 window.HZLLM
    ============================================================ */
 window.HZLLM = (function () {
   "use strict";
   var CFG = {
-    proxy: "/api/llm",   /* 密钥仅存于本地服务端 tools/serve.py，前端零密钥 */
+    endpoint: (function () { try { return localStorage.getItem("hz_llm_endpoint") || "/api/llm"; } catch (e) { return "/api/llm"; } })(),
+    key: (function () { try { return localStorage.getItem("hz_llm_key") || ""; } catch (e) { return ""; } })(),
     model: (function () {
       try { return localStorage.getItem("hz_llm_model") || "tw-Qwen3"; } catch (e) { return "tw-Qwen3"; }
     })()
@@ -25,9 +27,11 @@ window.HZLLM = (function () {
   function chat(messages, opt) {
     opt = opt || {};
     var body = { model: opt.model || CFG.model, messages: messages, temperature: opt.temp == null ? 0.45 : opt.temp, max_tokens: opt.max || 8000 };
-    return post(CFG.proxy, body).then(function (r) {
-      if (r.status === 404 || r.status === 501) throw { msg: "本地代理未启用：请用 python tools/serve.py 启动站点后再使用 AI 规划。" };
-      if (!r.ok) return r.json().catch(function () { return {}; }).then(function (j) { throw { msg: "代理返回 " + r.status + "：" + (j.error && j.error.message || r.status) }; });
+    var hdrs = {};
+    if (CFG.key) hdrs.Authorization = "Bearer " + CFG.key;
+    return post(CFG.endpoint, body, hdrs).then(function (r) {
+      if (r.status === 404 || r.status === 501) throw { msg: "AI 网关未启用：本地请用 python tools/serve.py 启动站点；云端请在「AI 设置」填写网关地址。" };
+      if (!r.ok) return r.json().catch(function () { return {}; }).then(function (j) { throw { msg: "网关返回 " + r.status + "：" + (j.error && j.error.message || j.message || r.status) }; });
       return r.json();
     }).then(function (j) {
       var c = j.choices && j.choices[0] && j.choices[0].message;
@@ -43,6 +47,10 @@ window.HZLLM = (function () {
           ? "模型仅输出推理过程、未给出最终内容（已加大 max_tokens 重试仍失败），请换 flash 系列模型"
           : "模型未返回内容"
       };
+    }).catch(function (e) {
+      if (e && e.msg) throw e;
+      // fetch 层失败（网络 / CORS / 网关不可达）
+      throw { msg: "无法连接 AI 网关（" + String((e && e.message) || e).slice(0, 40) + "）。本地部署请启动 tools/serve.py；云端请在「AI 设置」填可用网关地址，本次已自动降级本地引擎。" };
     });
   }
 
@@ -159,6 +167,16 @@ window.HZLLM = (function () {
   return {
     chat: chat, plan: plan, enrich: enrich, geocode: geocode, recommend: recommend,
     parseJSON: parseJSON, cfg: CFG,
-    setModel: function (m) { CFG.model = m; try { localStorage.setItem("hz_llm_model", m); } catch (e) { } }
+    /* 设置：endpoint/key/model 任一传入即保存并生效 */
+    setConfig: function (o) {
+      if (o && o.endpoint != null) { CFG.endpoint = String(o.endpoint).trim(); try { localStorage.setItem("hz_llm_endpoint", CFG.endpoint); } catch (e) { } }
+      if (o && o.key != null) { CFG.key = String(o.key).trim(); try { localStorage.setItem("hz_llm_key", CFG.key); } catch (e) { } }
+      if (o && o.model != null) { CFG.model = String(o.model).trim(); try { localStorage.setItem("hz_llm_model", CFG.model); } catch (e) { } }
+    },
+    setModel: function (m) { CFG.model = m; try { localStorage.setItem("hz_llm_model", m); } catch (e) { } },
+    /* 连通性测试：返回 Promise，成功 resolve 模型回答，失败 reject {msg} */
+    test: function () {
+      return chat([{ role: "user", content: "ping，请只回复 ok" }], { max: 50 });
+    }
   };
 })();

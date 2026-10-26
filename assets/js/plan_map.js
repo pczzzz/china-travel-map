@@ -229,11 +229,7 @@
         if (i >= PLAN.length) stopPlay(true);
       }, 2600);
     });
-    /* 天卡 / 停靠卡 → 地图联动 */
-    HZ.on(document.getElementById("days"), ".day-h", "click", function (e, h) {
-      var art = h.closest(".day"); if (!art) return;
-      setTimeout(function () { focusDay(+art.getAttribute("data-day") || 0); }, 30);
-    });
+    /* 停靠卡 → 地图联动（天头点击只做展开/收起，不跳地图） */
     HZ.on(document.getElementById("days"), ".stop", "click", function (e, s) {
       var art = s.closest(".day"); if (!art) return;
       var di = +art.getAttribute("data-day") || 0;

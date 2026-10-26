@@ -153,8 +153,8 @@
     if (p.detour) lo.push("需绕行");
     var go = p.src === "p" ? ' data-gop="' + esc(p.pid) + '" title="打开省份路书"' : ' data-go="' + p.node + "#" + p.id + '"';
     return '<article class="acard' + (v ? " visited" : "") + '" style="--cc:var(--c-' + p.cat + ');--rc:' + (r ? r.color : "#8A8578") + '" data-pid="' + p.id + '">' +
-      '<div class="im' + (p.img ? "" : " none") + '"' + (p.img ? ' style="background-image:url(\'' + p.img + '\')"' : "") + go + '>' +
-      (p.img ? "" : esc(p.icon)) +
+      '<div class="im' + (p.img ? "" : " none") + '"' + go + '>' +
+      (p.img ? '<img loading="lazy" decoding="async" src="' + p.img + '" alt="' + esc(p.name) + '">' : esc(p.icon)) +
       '<span class="ct">' + esc(p.catName) + "</span>" +
       (p.key ? '<span class="kf">★ 重点</span>' : "") +
       (p.node ? '<button class="vt' + (v ? " on" : "") + '" data-v="' + p.node + '" title="标记所在节点去过">' + (v ? "已去" : "标记") + "</button>" : "") +
