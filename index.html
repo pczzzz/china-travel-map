@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>中国旅行地图｜环中国环线 · 分省路书 · 主题玩法</title>
+<meta name="description" content="中国旅行地图：G331 沿边、G219 边疆、G228 沿海三条环线国道，加 G318、G317、G214、G217、G315、G108 六条知名国道构成的全国自驾路书，四川等分省深度路书，以及山岳徒步、边境口岸、味觉地图等主题玩法。支持地图放大查看、搜索筛选、去过标记与收藏。" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%2314212B'/%3E%3Cpath d='M16 5a11 11 0 1 0 0 22 11 11 0 0 0 0-22zm0 3.4a7.6 7.6 0 1 1 0 15.2 7.6 7.6 0 0 1 0-15.2z' fill='%23D98E2B'/%3E%3Ccircle cx='16' cy='16' r='3.4' fill='%23fff'/%3E%3C/svg%3E" />
+<link rel="stylesheet" href="assets/leaflet/leaflet.css" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="assets/css/v2.css" />
+<link rel="manifest" href="manifest.webmanifest" />
+<meta name="theme-color" content="#14212B" />
+<link rel="apple-touch-icon" href="assets/pwa/apple-touch-icon.png" />
+<script src="assets/js/pwa.js" defer></script>
+</head>
+<body>
+
+<header class="topbar on-hero" id="topbar">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">旅</span>
+    <span class="brand-txt">中国旅行地图<em>国道 · 省份 · 主题</em></span>
+  </a>
+  <nav class="nav" id="mainnav"></nav>
+  <a class="btn btn-ghost btn-sm" href="favorites.html?tab=visited" id="navVisited" title="查看我的已去清单">已去 0</a>
+</header>
+
+<!-- ============ 概述 ============ -->
+<section class="page-head" id="overview">
+  <div class="wrap ph-grid">
+    <div class="ph-main">
+      <div class="eyebrow" style="color:var(--cta)">CHINA TRAVEL MAP · 自驾路书</div>
+      <h1>国道 · 省份 · 主题，<span style="color:var(--cta)">三种方式看中国</span></h1>
+      <p class="lead">环中国三条国道（G331 沿边 · G219 边疆 · G228 沿海）首尾相接画出黄金大外环，G318 川藏南线、G317 川藏北线等 <b>6 条知名国道</b>纵贯山河；
+        <b id="s3n">34</b> 个省级行政区已全部铺上分省深度路书。放大地图看路上的风景，缩小地图看整圈中国。</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#mapsec">进入地图路书</a>
+        <a class="btn btn-ghost" href="provinces.html">浏览全部省份</a>
+      </div>
+    </div>
+    <aside class="ph-side">
+      <div class="ph-card">
+        <div class="ph-card-t">收录规模 · 关键数据</div>
+        <div id="phCard"></div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ============ 全览：三条线路 ============ -->
+<section class="sec sec-tight" id="routes">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">三个入口</div>
+        <h2>一条国道、一个省份、一个主题</h2>
+      </div>
+      <div class="right"><a class="btn btn-line btn-sm" href="plan.html">按天排一条环线 →</a></div>
+    </div>
+    <div class="rcards" id="rcards"></div>
+    <div class="entrybar"><button class="btn btn-line btn-sm" id="entrySwitch" type="button">换一批</button></div>
+  </div>
+</section>
+
+<!-- ============ 地图路书 ============ -->
+<section class="sec mapsec" id="mapsec">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">核心视图</div>
+        <h2>地图路书</h2>
+      </div>
+    </div>
+    <div class="workspace tall full">
+      <div class="mapwrap">
+        <div class="leaflet-map" id="map"></div>
+        <div class="map-tools">
+          <button class="mtool on" id="btnRoad">🗺 标准图</button>
+          <button class="mtool" id="btnSat">🛰 卫星图</button>
+          <button class="mtool on" id="btnPoi">◆ 挂载点</button>
+          <select class="mtool prov-sel" id="provSel" title="省份深度点：按需加载单省景点到地图"></select>
+        </div>
+        <div class="map-legend" id="legend"></div>
+        <div class="map-dock">
+          <div class="map-hint" id="hint"></div>
+          <div class="mapfilt" id="mapfilt"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 六类特色 ============ -->
+<section class="sec" id="cats">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">按兴趣挑</div>
+        <h2>六类特色挂载点</h2>
+      </div>
+    </div>
+    <div class="catgrid" id="catgrid"></div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="ft2">
+      <div class="ft2-row">
+        <div class="ft2-t">环线与知名国道</div>
+        <div class="ft2-chips">
+          <a href="route.html?id=g331" title="G331 沿边国道">G331</a>
+          <a href="route.html?id=g219" title="G219 边疆国道">G219</a>
+          <a href="route.html?id=g228" title="G228 沿海国道">G228</a>
+          <a href="route.html?id=g318" title="G318 国民景观大道">G318</a>
+          <a href="route.html?id=g317" title="G317 川藏北线">G317</a>
+          <a href="route.html?id=g214" title="G214 唐蕃古道">G214</a>
+          <a href="route.html?id=g217" title="G217 独库公路">G217</a>
+          <a href="route.html?id=g315" title="G315 青新线">G315</a>
+          <a href="route.html?id=g108" title="G108 京昆线">G108</a>
+        </div>
+      </div>
+      <div class="ft2-row">
+        <div class="ft2-t">省份与主题</div>
+        <div class="ft2-chips">
+          <a href="provinces.html" title="34 个省级行政区深度路书">省份总览</a>
+          <a href="themes.html" title="雪山 / 美食 / 人文等主题玩法">主题玩法</a>
+        </div>
+      </div>
+    </div>
+    <div class="fg">
+      <div>
+        <h4>中国旅行地图</h4>
+        <p style="font-size:13px;line-height:1.9">环中国大环线（G331+G219+G228）与六条知名国道（G318/G317/G214/G217/G315/G108）自驾路书为基底，逐步扩展分省深度路书与主题玩法。数据为整理版本，出行前请以最新官方路况与管制信息为准。</p>
+      </div>
+      <div>
+        <h4>工具</h4>
+        <ul>
+          <li><a href="favorites.html?tab=browse">风景图鉴</a></li>
+          <li><a href="plan.html">行程规划</a></li>
+          <li><a href="guide.html">实用攻略</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>我的标记</h4>
+        <ul>
+          <li id="ftVisited">已去 0 个节点</li>
+          <li><a href="#" id="ftExport">导出已去清单</a></li>
+          <li><a href="#" id="ftClear">清空全部标记</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="cp">
+      <span>© 2026 环中国路书 · 仅供个人旅行规划参考</span>
+      <span>地图瓦片 © 腾讯地图 / 高德地图（按可用性自动切换） · 仅供学习使用</span>
+      <span>坐标系 GCJ-02</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/leaflet/leaflet.js"></script>
+<script src="assets/geo/china_provinces.js"></script>
+<script src="assets/geo/china_outline.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/prov_index.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/home.js"></script>
+</body>
+</html>

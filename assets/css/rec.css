@@ -1,0 +1,102 @@
+/* =============================================================================
+   rec.css — 旅行推荐（盲盒）页专属样式
+   复用 main.css 变量与 v2.css 的 .planform / .pfgroup / .fld / .chip 体系，
+   这里只补：页内 tab、状态条、方案卡、盲盒动画、隐藏的规划引擎表单壳。
+   ============================================================================= */
+
+/* ---------- 与行程规划并列的页内 tab ---------- */
+.pl-tabs{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 4px}
+.pl-tab{position:relative;display:flex;flex-direction:column;gap:3px;
+  padding:11px 20px;border:1px solid var(--line);border-radius:var(--r-card);
+  background:var(--bg2);color:var(--ink);text-decoration:none;font-weight:800;font-size:15px;
+  box-shadow:var(--sh);transition:transform .16s,border-color .16s,box-shadow .16s}
+.pl-tab span{font-size:11.5px;font-weight:600;color:var(--muted);letter-spacing:.02em}
+.pl-tab:hover{transform:translateY(-2px);border-color:var(--cta);box-shadow:var(--sh-h)}
+.pl-tab.on{border-color:var(--cta);background:linear-gradient(180deg,#FFF8EC,#fff)}
+.pl-tab.on span{color:#9A6414}
+.pl-tab.on::after{content:"";position:absolute;left:14px;right:14px;bottom:-1px;height:3px;
+  border-radius:3px;background:var(--cta)}
+
+/* ---------- 状态条 ---------- */
+.recstat{margin:14px 0 0;padding:0;font-size:13.5px;color:var(--muted);min-height:20px;
+  font-weight:600;letter-spacing:.01em}
+.recstat:empty{display:none}
+.recstat.ok{color:#1F7A5C}
+.recstat.warn{color:#9A6414}
+.recstat.err{color:var(--warn)}
+.recstat::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;
+  background:currentColor;margin-right:7px;vertical-align:middle;opacity:.75}
+
+/* ---------- 隐藏的规划引擎表单壳（plan.js 强依赖，但不在本页展示） ---------- */
+.rec-hidden{position:absolute!important;left:-9999px;top:0;width:1px;height:1px;
+  overflow:hidden;opacity:0;pointer-events:none;clip:rect(0 0 0 0)}
+
+/* ---------- 方案卡列表 ---------- */
+.rec-list{display:flex;flex-direction:column;gap:14px;margin-top:16px}
+.rec-card{display:flex;gap:0;overflow:hidden;background:var(--bg2);
+  border:1px solid var(--line);border-radius:var(--r-card);box-shadow:var(--sh);
+  transition:transform .18s,border-color .18s,box-shadow .18s}
+.rec-card:hover{transform:translateY(-2px);border-color:#CBD3D9;box-shadow:var(--sh-h)}
+.rec-card.hot{border-color:var(--cta);box-shadow:0 0 0 3px rgba(217,142,43,.22),var(--sh-h);
+  animation:recPulse .7s ease-in-out 2}
+@keyframes recPulse{
+  0%,100%{box-shadow:0 0 0 3px rgba(217,142,43,.20),var(--sh-h)}
+  50%{box-shadow:0 0 0 9px rgba(217,142,43,.10),var(--sh-h)}
+}
+
+.rec-side{position:relative;flex:0 0 168px;width:168px;background:var(--line2)}
+.rec-img{position:absolute;inset:0;background-size:cover;background-position:center;
+  background-repeat:no-repeat}
+.rec-img.noimg{display:flex;align-items:center;justify-content:center;font-size:44px;
+  background:linear-gradient(150deg,#EFE9DE,#E1E9EC);opacity:.9}
+.rec-no{position:absolute;left:9px;top:9px;min-width:22px;height:22px;padding:0 6px;
+  display:flex;align-items:center;justify-content:center;border-radius:11px;
+  background:rgba(20,33,43,.72);color:#fff;font-size:11.5px;font-weight:800}
+.rec-src{position:absolute;left:9px;bottom:9px;padding:3px 9px;border-radius:11px;
+  font-size:11px;font-weight:800;letter-spacing:.03em;color:#fff}
+.rec-src.ai{background:rgba(107,78,158,.92)}
+.rec-src.local{background:rgba(46,139,111,.92)}
+
+.rec-main{flex:1 1 auto;min-width:0;padding:13px 16px 14px}
+.rec-main h3{margin:0 0 8px;font-size:16.5px;line-height:1.4;color:var(--ink);font-weight:800}
+.rec-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.rtag{padding:2.5px 9px;border-radius:11px;background:var(--grey-bg);color:var(--ink2);
+  font-size:11.5px;font-weight:700;white-space:nowrap}
+.rtag.th{background:#F3EDFB;color:#5A3E8E}
+.rtag.s{background:#FFF3E0;color:#8A5A12}
+.rec-why{margin:0 0 9px;font-size:13px;line-height:1.62;color:var(--muted)}
+.rec-why.big{font-size:13.5px;color:var(--ink2)}
+.rec-route{display:flex;flex-wrap:wrap;align-items:center;gap:5px;
+  padding:8px 10px;margin-bottom:10px;background:#FBFAF7;
+  border:1px dashed var(--line);border-radius:var(--r-btn)}
+.rec-route b{font-size:12.5px;font-weight:700;color:var(--ink2)}
+.rec-route b.o{color:var(--cta);font-weight:800}
+.rec-route i{font-style:normal;color:var(--grey);font-size:12px}
+.rec-acts{display:flex;flex-wrap:wrap;align-items:center;gap:9px}
+.rec-n{font-size:11.5px;color:var(--muted);font-weight:600}
+
+/* ---------- 盲盒抽取条 ---------- */
+.rec-bar{display:flex;flex-wrap:wrap;align-items:center;gap:12px;
+  margin-top:4px;padding:13px 16px;background:linear-gradient(120deg,#FFF8EC,#F4F7F5);
+  border:1px solid var(--line);border-radius:var(--r-card)}
+.rec-tip{flex:1 1 260px;font-size:12px;line-height:1.6;color:var(--muted)}
+.rec-empty{padding:26px 20px;text-align:center;line-height:1.9;color:var(--muted);
+  background:var(--bg2);border:1px dashed var(--line);border-radius:var(--r-card);font-size:13.5px}
+
+/* ---------- 选中方案详情头 ---------- */
+.rec-detail{margin-top:22px;padding-top:20px;border-top:2px solid var(--line)}
+.rec-head{margin-bottom:14px}
+.rec-head h2{margin:0 0 9px;font-size:19px;line-height:1.4;color:var(--ink);font-weight:800}
+.rec-hacts{display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin-top:11px}
+.rec-hacts .aistat{flex:1 1 200px;font-size:12px;color:var(--ink2)}
+
+/* ---------- 响应式 ---------- */
+@media (max-width:720px){
+  .pl-tabs{gap:8px}
+  .pl-tab{flex:1 1 46%;padding:10px 13px;font-size:14px}
+  .rec-card{flex-direction:column}
+  .rec-side{flex:0 0 auto;width:100%;height:132px}
+  .rec-main{padding:12px 13px 13px}
+  .rec-main h3{font-size:15.5px}
+  .rec-acts .btn{flex:1 1 100%}
+}

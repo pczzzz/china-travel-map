@@ -1,0 +1,30 @@
+[
+ {
+  "q": "乌里雅斯太游牧民俗 东乌珠穆沁旗 人文 实景",
+  "slug": "auto_g331_33_p2",
+  "route": "g331",
+  "node": "东乌珠穆沁旗",
+  "cat": "culture"
+ },
+ {
+  "q": "陆丰皮影戏 陆丰 人文 实景",
+  "slug": "auto_g228_91_p2",
+  "route": "g228",
+  "node": "陆丰",
+  "cat": "culture"
+ },
+ {
+  "q": "三圣寺 繁峙 人文 实景",
+  "slug": "auto_g108_2_p2",
+  "route": "g108",
+  "node": "繁峙",
+  "cat": "culture"
+ },
+ {
+  "q": "智果寺 洋县 人文 实景",
+  "slug": "auto_g108_17_p2",
+  "route": "g108",
+  "node": "洋县",
+  "cat": "culture"
+ }
+]

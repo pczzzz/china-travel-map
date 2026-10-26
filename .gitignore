@@ -1,0 +1,14 @@
+# 密钥与本地配置（绝不入库/不随部署包分发）
+tools/llm_key.local
+*.local
+# QA/调试产物
+tools/_qa*/
+tools/_prof*/
+tools/*.log
+tools/_serve.log
+**/_prof*/
+# 备份与临时
+*.bak
+*.bak_*
+_tiletest/
+tools/_*

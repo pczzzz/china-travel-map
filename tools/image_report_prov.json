@@ -1,0 +1,4242 @@
+[
+ {
+  "slug": "yn_xishanlongmen",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinacn20114/384/w2048h1536/20190131/8c4d-hshmsti7715741.jpg",
+  "w": 2048,
+  "h": 1536,
+  "bytes": 131176,
+  "name": "西山龙门",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_jiuxiang",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinacn10117/154/w1080h674/20190731/b854-iaqfzyv3867162.jpg",
+  "w": 1080,
+  "h": 674,
+  "bytes": 184639,
+  "name": "九乡风景区",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_dianchi",
+  "ok": true,
+  "src": "https://5b0988e595225.cdn.sohucs.com/images/20190520/4448be6804f046559dbadd90fddf3186.jpeg",
+  "w": 5184,
+  "h": 3456,
+  "bytes": 93457,
+  "name": "滇池海埂大坝",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_shilin",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinakd20113/215/w2048h1367/20210604/2d1e-kracxeq2069854.jpg",
+  "w": 2048,
+  "h": 1367,
+  "bytes": 146847,
+  "name": "石林风景区",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_shengbo",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinacn20116/213/w2048h1365/20190304/cf7e-htwhfzr8131622.jpg",
+  "w": 2048,
+  "h": 1365,
+  "bytes": 100873,
+  "name": "云南省博物馆",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_chengjiang",
+  "ok": true,
+  "src": "http://img.wenlvnews.com/a/10001/202410/8a168413ec0b55a1e4bac936326a1409.jpeg",
+  "w": 1706,
+  "h": 1279,
+  "bytes": 146210,
+  "name": "澄江化石地世界自然遗产博物馆",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_dongchuan",
+  "ok": true,
+  "src": "https://pic1.zhimg.com/v2-cf244fe14918445f869e20e280fba800_r.jpg",
+  "w": 1269,
+  "h": 842,
+  "bytes": 210589,
+  "name": "东川红土地",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_fuxianhu",
+  "ok": true,
+  "src": "https://rs-channel.huanqiucdn.cn/imageDir/ce8968fc53c68f7b3b476e49ecc088d7u5.jpg",
+  "w": 4000,
+  "h": 2250,
+  "bytes": 114496,
+  "name": "抚仙湖 · 禄充",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_jiulong",
+  "ok": true,
+  "src": "http://source.wengegroup.com/mam/62d1f58ae4b08262a61e225e.jpeg",
+  "w": 1080,
+  "h": 808,
+  "bytes": 179213,
+  "name": "九龙瀑布群",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_puzhehei",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinacn/w1024h547/20180127/2e9a-fyqzcxh0960454.png",
+  "w": 1024,
+  "h": 547,
+  "bytes": 106392,
+  "name": "普者黑",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_luoping",
+  "ok": true,
+  "src": "https://boot-img.xuexi.cn/image/1006/upload/202205/c4da784c9f0847d09bf322440d1b7d4c.png",
+  "w": 1080,
+  "h": 714,
+  "bytes": 116273,
+  "name": "罗平金鸡峰丛",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_bamei",
+  "ok": true,
+  "src": "http://www.yn.xinhuanet.com/original/2023-04/29/1310715262_16827566964011n.jpg",
+  "w": 1023,
+  "h": 575,
+  "bytes": 124993,
+  "name": "坝美村",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_tuanshan",
+  "ok": true,
+  "src": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1412/16/c0/699580_699580_1418693999546_mthumb.jpg",
+  "w": 900,
+  "h": 607,
+  "bytes": 124088,
+  "name": "团山民居",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_jianshui",
+  "ok": true,
+  "src": "http://img.pconline.com.cn/images/upload/upc/tx/photoblog/1412/16/c2/724385_724385_1418716760550.jpg",
+  "w": 4160,
+  "h": 2689,
+  "bytes": 108483,
+  "name": "建水古城朝阳楼",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_bisezhai",
+  "ok": true,
+  "src": "http://img.wenlvnews.com/a/10001/202201/ddd6a94ccd06fe3be11de4601e0c5f26.jpeg",
+  "w": 800,
+  "h": 533,
+  "bytes": 106059,
+  "name": "碧色寨",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_shuanglongqiao",
+  "ok": true,
+  "src": "http://img1.qunarzz.com/travel/d3/1706/23/3f84f330abed43b5.jpg",
+  "w": 2048,
+  "h": 1365,
+  "bytes": 111427,
+  "name": "双龙桥",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_laohuzui",
+  "ok": true,
+  "src": "http://youimg1.c-ctrip.com/target/fd/tg/g5/M08/39/23/CggYr1b7OEKAbGhIAAy0BykAb2o057.jpg",
+  "w": 1920,
+  "h": 1280,
+  "bytes": 168491,
+  "name": "老虎嘴梯田",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_yuanyang",
+  "ok": true,
+  "src": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g2/M00/07/0F/ChMlWlywFr-IIkUWAA16QGwsJpwAAJZpQB7trcADXpY122.jpg",
+  "w": 1200,
+  "h": 801,
+  "bytes": 276130,
+  "name": "元阳哈尼梯田 · 多依树",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_mengzi",
+  "ok": true,
+  "src": "http://www.yn.news.cn/20230825/90814ab36fa548a5aec18297674792bc/2023082590814ab36fa548a5aec18297674792bc_20230824cee8d2b",
+  "w": 900,
+  "h": 506,
+  "bytes": 94132,
+  "name": "蒙自南湖",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_dali_old",
+  "ok": true,
+  "src": "https://preview.qiantucdn.com/58pic/20240604/00358PIC9Y4fabi9FDYbq_PIC2018_PIC2018.jpg!w1024_new_small_1",
+  "w": 1024,
+  "h": 768,
+  "bytes": 183632,
+  "name": "大理古城",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_xizhou",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinakd20117/384/w2048h1536/20200503/dbd3-isyparh5352800.jpg",
+  "w": 2048,
+  "h": 1536,
+  "bytes": 169925,
+  "name": "喜洲古镇",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_shuanglang",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/01041120005rxjfs86EBB_D_10000_1200.jpg?proc=autoorient",
+  "w": 2132,
+  "h": 1200,
+  "bytes": 136055,
+  "name": "双廊",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_santas",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/0106s120005rxsiv376FE_D_10000_1200.jpg?proc=autoorient",
+  "w": 1799,
+  "h": 1200,
+  "bytes": 139511,
+  "name": "崇圣寺三塔",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_dongfengyun",
+  "ok": true,
+  "src": "https://imgs.699pic.com/images/507/737/314.jpg!detail.v1",
+  "w": 1000,
+  "h": 563,
+  "bytes": 174992,
+  "name": "弥勒东风韵",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_shaxi",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinakd20100/214/w2048h1366/20210725/1adf-5f66301581a4d64671c625e72a42f9f2.jpg",
+  "w": 2048,
+  "h": 1366,
+  "bytes": 164225,
+  "name": "沙溪古镇",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_cangshan",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinakd10111/150/w2000h1350/20200804/8846-ixeeisa0747503.jpg",
+  "w": 2000,
+  "h": 1350,
+  "bytes": 92929,
+  "name": "苍山洗马潭索道",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_lijiang_old",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinakd20230508ac/131/w2000h1331/20230508/777b-9a21fef8173e858c98081bddc7aa676d.jpg",
+  "w": 2000,
+  "h": 1331,
+  "bytes": 152396,
+  "name": "丽江古城",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_weishan",
+  "ok": true,
+  "src": "http://img.pconline.com.cn/images/upload/upc/tx/photoblog/1402/23/c1/31482301_31482301_1393125131781.jpg",
+  "w": 1189,
+  "h": 790,
+  "bytes": 139996,
+  "name": "巍山古城",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_shuhe",
+  "ok": true,
+  "src": "https://img95.699pic.com/photo/50161/0893.jpg_wh860.jpg",
+  "w": 860,
+  "h": 573,
+  "bytes": 237469,
+  "name": "束河古镇",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_nuodeng",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinacn08/384/w2048h1536/20180921/e140-hiixpup3198875.jpg",
+  "w": 2048,
+  "h": 1536,
+  "bytes": 162075,
+  "name": "诺邓古村",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_hutiaoxia",
+  "ok": true,
+  "src": "https://lijiang.yunnan.cn/pic/003/076/126/00307612662_ff684398.jpg",
+  "w": 1080,
+  "h": 793,
+  "bytes": 180080,
+  "name": "虎跳峡",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_lugu",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinacn10121/77/w2048h1229/20190807/9e6e-iaxiufn5928325.jpg",
+  "w": 2048,
+  "h": 1229,
+  "bytes": 100718,
+  "name": "泸沽湖（云南侧）",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_yulong",
+  "ok": true,
+  "src": "https://rs-channel.huanqiucdn.cn/imageDir/d8adb6199f15f3cf5eceb61cdc868148u5.jpg",
+  "w": 2048,
+  "h": 1352,
+  "bytes": 129032,
+  "name": "玉龙雪山",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_laomingshan",
+  "ok": true,
+  "src": "https://img1.qunarzz.com/travel/d7/1708/88/eb2f320508ff26b5.jpg",
+  "w": 1102,
+  "h": 735,
+  "bytes": 150754,
+  "name": "老君山黎明景区",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_songzanlin",
+  "ok": true,
+  "src": "https://img95.699pic.com/photo/50074/5377.jpg_wh860.jpg",
+  "w": 860,
+  "h": 573,
+  "bytes": 136824,
+  "name": "松赞林寺",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_dukezong",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinacn21/432/w1232h800/20180805/75b5-hhhczfc0555900.jpg",
+  "w": 1232,
+  "h": 800,
+  "bytes": 147231,
+  "name": "独克宗古城",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_meili",
+  "ok": true,
+  "src": "https://img1.qunarzz.com/travel/d8/1805/92/396c0689aff840b5.jpg",
+  "w": 1800,
+  "h": 1201,
+  "bytes": 118874,
+  "name": "梅里雪山 · 飞来寺观景台",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_napahai",
+  "ok": true,
+  "src": "http://www.xjxy.vip/wp-content/uploads/2022/03/wKgE2l1gKfCAeIFoAA8iMagzB-c659.jpg",
+  "w": 2048,
+  "h": 1365,
+  "bytes": 110565,
+  "name": "纳帕海",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_pudacuo",
+  "ok": true,
+  "src": "http://img.pconline.com.cn/images/upload/upc/tx/photoblog/1411/01/c1/40437566_1414831103510.jpg",
+  "w": 5184,
+  "h": 3456,
+  "bytes": 173826,
+  "name": "普达措国家公园",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_baishuitai",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinacn12/701/w957h544/20180828/8aea-hifuvpi2600316.jpg",
+  "w": 957,
+  "h": 544,
+  "bytes": 87606,
+  "name": "白水台",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_heshun",
+  "ok": true,
+  "src": "https://pic1.zhimg.com/v2-272620fc9244517d17d057826c3141f8_r.jpg",
+  "w": 960,
+  "h": 704,
+  "bytes": 159379,
+  "name": "和顺古镇",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_yubeng",
+  "ok": true,
+  "src": "https://pic.nximg.cn/file/20200830/20716677_092920101087_2.jpg",
+  "w": 1024,
+  "h": 576,
+  "bytes": 95243,
+  "name": "雨崩村",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_rehai",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinakd20115/105/w1024h681/20220819/1e27-a6a36c109e41e562822eed42b9d170b7.jpg",
+  "w": 1024,
+  "h": 681,
+  "bytes": 168723,
+  "name": "腾冲热海",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_beihai",
+  "ok": true,
+  "src": "http://img.pconline.com.cn/images/upload/upc/tx/photoblog/1402/09/c9/31118462_31118462_1391954824975.jpg",
+  "w": 1444,
+  "h": 960,
+  "bytes": 136697,
+  "name": "北海湿地",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_huoshan",
+  "ok": true,
+  "src": "http://www.yn.news.cn/20251212/a48004c74e854a3c81afa030ad73711e/20251212a48004c74e854a3c81afa030ad73711e_202512125be1ddf",
+  "w": 1024,
+  "h": 767,
+  "bytes": 158957,
+  "name": "腾冲火山地热国家公园",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_yizhaiguo",
+  "ok": true,
+  "src": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g7/M00/02/06/ChMkK2YiEZiINxv9AArzmi8nlF0AAdKdwIwfK8ACvOy276.jpg",
+  "w": 1200,
+  "h": 828,
+  "bytes": 139811,
+  "name": "瑞丽一寨两国",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_yinxing",
+  "ok": true,
+  "src": "https://yn.yunnan.cn/pic/003/066/664/00306666413_cb79910e.jpg",
+  "w": 900,
+  "h": 580,
+  "bytes": 206871,
+  "name": "固东银杏村",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_guoshang",
+  "ok": true,
+  "src": "https://img1.qunarzz.com/travel/d7/1603/84/8bdc4d540c0891f7.jpg_r_640x480x70_cabd36dc.jpg",
+  "w": 640,
+  "h": 480,
+  "bytes": 57188,
+  "name": "国殇墓园 · 滇西抗战纪念馆",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_jiegao",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/10020z000000mz2v9CDBD.jpg",
+  "w": 1280,
+  "h": 856,
+  "bytes": 114109,
+  "name": "姐告口岸",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_shiyueliang",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/1A0e1b0000019z3ob349E.jpg",
+  "w": 1920,
+  "h": 1282,
+  "bytes": 159910,
+  "name": "福贡石月亮",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_gaozhuang",
+  "ok": true,
+  "src": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g5/M00/0D/03/ChMkJ13bdyuIOcZIAAuryIqd6zgAAvaFAB6lWEAC6vg913.jpg",
+  "w": 1200,
+  "h": 609,
+  "bytes": 93656,
+  "name": "告庄西双景",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_yexianggu",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinakd10111/252/w1600h1052/20220711/7929-d7eeaf58147929b962ed76d2979f17a1.jpg",
+  "w": 1600,
+  "h": 1052,
+  "bytes": 211981,
+  "name": "野象谷",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_zhiwuyuan",
+  "ok": true,
+  "src": "https://p4.itc.cn/q_70/images03/20210730/1a1761a78171415a9a5f274cbb143960.jpeg",
+  "w": 1080,
+  "h": 810,
+  "bytes": 203317,
+  "name": "中科院西双版纳热带植物园",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_dashanbao",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/100m1f000001gzp9k8264_W_10000_1200.jpg?proc=autoorient",
+  "w": 1797,
+  "h": 1200,
+  "bytes": 101152,
+  "name": "昭通大山包",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_dahai",
+  "ok": true,
+  "src": "https://pic.nximg.cn/file/20260610/30484865_163015727103_2.jpg",
+  "w": 1024,
+  "h": 774,
+  "bytes": 183217,
+  "name": "会泽大海草山",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_wangtianshu",
+  "ok": true,
+  "src": "http://cn.iyunnan.travel/files/content/2023-12/389911006.png",
+  "w": 1220,
+  "h": 813,
+  "bytes": 187755,
+  "name": "望天树景区",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_zhujiangyuan",
+  "ok": true,
+  "src": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1509/10/c17/12463021_12463021_1441895665328.jpg",
+  "w": 5472,
+  "h": 3648,
+  "bytes": 144896,
+  "name": "曲靖珠江源",
+  "route": "yunnan"
+ },
+ {
+  "slug": "yn_tulin",
+  "ok": true,
+  "src": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g2/M00/0C/0E/ChMlWVyE3WOIZYKOABTOer9LusIAAItnAA_FjwAFM6S128.jpg",
+  "w": 1200,
+  "h": 801,
+  "bytes": 144690,
+  "name": "元谋土林",
+  "route": "yunnan"
+ },
+ {
+  "slug": "gz_huangguoshu",
+  "ok": true,
+  "src": "http://vip-public.people.com.cn/photo/2023/6/11/a67380d7d1c4404dba9f3c85d33c1925Lh5A_m.jpg",
+  "w": 800,
+  "h": 497,
+  "bytes": 116952,
+  "name": "黄果树大瀑布",
+  "route": "guizhou"
+ },
+ {
+  "slug": "yn_konglong",
+  "ok": true,
+  "src": "https://so1.360tres.com/t01568efb91ac098e06.jpg",
+  "w": 1280,
+  "h": 896,
+  "bytes": 213683,
+  "name": "禄丰世界恐龙谷",
+  "route": "yunnan"
+ },
+ {
+  "slug": "gz_tianxingqiao",
+  "ok": true,
+  "src": "http://youimg1.c-ctrip.com/target/tg/638/186/077/e070a498e9614e3fa20788f885782025.jpg",
+  "w": 2592,
+  "h": 1728,
+  "bytes": 118208,
+  "name": "天星桥景区",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_longgong",
+  "ok": true,
+  "src": "http://www.sinaimg.cn/dy/slidenews/13_img/2010_17/1758_9790_375222.jpg",
+  "w": 720,
+  "h": 482,
+  "bytes": 82369,
+  "name": "龙宫",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_tianlong",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinacn20119/192/w1024h768/20190110/80d7-hrkkweh9108384.jpg",
+  "w": 1024,
+  "h": 768,
+  "bytes": 149532,
+  "name": "天龙屯堡",
+  "route": "guizhou"
+ },
+ {
+  "slug": "yn_bingzhongluo",
+  "ok": true,
+  "src": "https://www.travphotos.com/picpath/photo/image/2023/05/26/hk_c_1685067816355090829.jpg",
+  "w": 1200,
+  "h": 800,
+  "bytes": 186737,
+  "name": "丙中洛",
+  "route": "yunnan"
+ },
+ {
+  "slug": "gz_zhijin",
+  "ok": true,
+  "src": "http://www.gz.news.cn/20240316/af516e137df2442eb5d9735d6fa1fcfe/20240316af516e137df2442eb5d9735d6fa1fcfe_20240316a00eacc",
+  "w": 1000,
+  "h": 666,
+  "bytes": 153872,
+  "name": "织金洞",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_getuhe",
+  "ok": true,
+  "src": "http://zdimg.lifeweek.com.cn/h5/sys/img/20259/20230630122503559_07104ebdce78448285bc1638f7f9ced8.jpg",
+  "w": 1080,
+  "h": 723,
+  "bytes": 69009,
+  "name": "格凸河",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_feicai",
+  "ok": true,
+  "src": "http://k.sinaimg.cn/n/sinacn14/486/w640h646/20180326/96b5-fysqfnf8459714.jpg/w700d1q75cms.jpg?by=cms_fixed_width",
+  "w": 640,
+  "h": 646,
+  "bytes": 59425,
+  "name": "韭菜坪",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_baili",
+  "ok": true,
+  "src": "http://5b0988e595225.cdn.sohucs.com/images/20180418/66d3eead525f43d3b786b82ea4d01d68.jpeg",
+  "w": 1080,
+  "h": 727,
+  "bytes": 176474,
+  "name": "百里杜鹃",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_caohai",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinacn11/640/w1280h960/20180329/65b5-fyssmmc1136512.jpg",
+  "w": 1280,
+  "h": 960,
+  "bytes": 114854,
+  "name": "威宁草海",
+  "route": "guizhou"
+ },
+ {
+  "slug": "yn_jingmai",
+  "ok": true,
+  "src": "http://www.ncha.gov.cn/picture/0/2309171858542032683.png",
+  "w": 830,
+  "h": 553,
+  "bytes": 158074,
+  "name": "景迈山古茶林",
+  "route": "yunnan"
+ },
+ {
+  "slug": "gz_beipanjiang",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinacn14/266/w1600h1066/20180907/343f-hitesuz7961155.jpg",
+  "w": 1600,
+  "h": 1066,
+  "bytes": 143086,
+  "name": "北盘江大桥",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_wumeng",
+  "ok": true,
+  "src": "https://img95.699pic.com/photo/50160/1412.jpg_wh860.jpg",
+  "w": 860,
+  "h": 573,
+  "bytes": 120401,
+  "name": "乌蒙大草原",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_yushe",
+  "ok": true,
+  "src": "http://img1.qunarzz.com/travel/d9/1705/bd/5b48576f3c2e77b5.jpg",
+  "w": 2048,
+  "h": 1356,
+  "bytes": 268235,
+  "name": "玉舍国家森林公园",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_zunyi",
+  "ok": true,
+  "src": "https://pic.nximg.cn/file/20251011/35856350_093057750101_2.jpg",
+  "w": 1024,
+  "h": 683,
+  "bytes": 170530,
+  "name": "遵义会议会址",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_maotai",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinakd20121/762/w1000h562/20220914/08f0-dcd05be02600d908fc8f5760b847c4f0.jpg",
+  "w": 1000,
+  "h": 562,
+  "bytes": 217229,
+  "name": "茅台镇",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_chishui_pb",
+  "ok": true,
+  "src": "https://rs-channel.huanqiucdn.cn/imageDir/b11dae1deff3843fa844dd40ea2dab18u5.jpg",
+  "w": 860,
+  "h": 573,
+  "bytes": 121496,
+  "name": "赤水大瀑布",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_foguangyan",
+  "ok": true,
+  "src": "https://pic3.zhimg.com/v2-3399941c4c193b22b63d6b3530b18c9a_r.jpg",
+  "w": 1526,
+  "h": 1193,
+  "bytes": 252482,
+  "name": "佛光岩",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_sidonggou",
+  "ok": true,
+  "src": "https://pic3.zhimg.com/v2-28e063b0e446426e3104d58d4a5d8a26_r.jpg",
+  "w": 756,
+  "h": 500,
+  "bytes": 87821,
+  "name": "四洞沟",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_zhuhai",
+  "ok": true,
+  "src": "https://ugc-img.ifengimg.com/img/2022/9/1/8IxFbGUfxa9/f77247d5-c64f-4edb-812d-32eb220e7b54_w2751_h1834.jpeg",
+  "w": 2751,
+  "h": 1834,
+  "bytes": 186383,
+  "name": "赤水竹海",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_hailongtun",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinacn08/369/w2048h1521/20180705/bd92-hevauxk7301516.jpg",
+  "w": 2048,
+  "h": 1521,
+  "bytes": 206211,
+  "name": "海龙屯",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_goubah",
+  "ok": true,
+  "src": "https://tr-osdcp.qunarzz.com/tr-osd-tr-space/img/62b52dea808b6e2d6a25e680cbc35e35.jpg",
+  "w": 1280,
+  "h": 960,
+  "bytes": 233330,
+  "name": "苟坝会议会址",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_fanjing",
+  "ok": true,
+  "src": "http://upload.trwhcy.com/10030/2024/0926/1727321331792989.jpg",
+  "w": 5164,
+  "h": 2962,
+  "bytes": 131516,
+  "name": "梵净山",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_yamugou",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinacn22/213/w2048h1365/20180711/fa65-hfefkqq5449976.jpg",
+  "w": 2048,
+  "h": 1365,
+  "bytes": 182573,
+  "name": "亚木沟",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_xijiang",
+  "ok": true,
+  "src": "http://p9.itc.cn/images01/20201008/c046b0f93ac24fa7b9a56c80dbd551c1.jpeg",
+  "w": 1280,
+  "h": 864,
+  "bytes": 192270,
+  "name": "西江千户苗寨",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_daming",
+  "ok": true,
+  "src": "http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20190910/f04cd6a420214258b5e6dd877c078e93.jpeg",
+  "w": 640,
+  "h": 480,
+  "bytes": 49265,
+  "name": "大明边城",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_loushan",
+  "ok": true,
+  "src": "https://preview.qiantucdn.com/auto_machine/20210723/b81ffd72-dda5-4b06-9dbd-f7784f3d47c0.jpg!w1024_new_small_1",
+  "w": 1024,
+  "h": 576,
+  "bytes": 191232,
+  "name": "娄山关",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_shiqian",
+  "ok": true,
+  "src": "https://puui.qpic.cn/vpic_cover/b3505p16t0c/b3505p16t0c_1696601624_hz.jpg/1280",
+  "w": 1280,
+  "h": 720,
+  "bytes": 124153,
+  "name": "石阡温泉",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_zhaoxing",
+  "ok": true,
+  "src": "http://p0.itc.cn/q_70/images03/20200823/87d9a5dc7a594046b819b0a40e315477.jpeg",
+  "w": 5273,
+  "h": 2966,
+  "bytes": 138913,
+  "name": "肇兴侗寨",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_jiabang",
+  "ok": true,
+  "src": "https://photo.tuchong.com/1890818/f/693642359.jpg",
+  "w": 1200,
+  "h": 801,
+  "bytes": 175612,
+  "name": "加榜梯田",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_longli",
+  "ok": true,
+  "src": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g5/M00/0B/0D/ChMkJljFhuWIcD7nAA07_zBcpDIAAarqAJYfJgADTwX763.jpg",
+  "w": 1200,
+  "h": 877,
+  "bytes": 152388,
+  "name": "隆里古城",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_basha",
+  "ok": true,
+  "src": "https://img95.699pic.com/photo/50159/1364.jpg_wh860.jpg",
+  "w": 860,
+  "h": 573,
+  "bytes": 194061,
+  "name": "岜沙苗寨",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_xiajiang",
+  "ok": true,
+  "src": "http://seopic.699pic.com/photo/50070/9876.jpg_wh1200.jpg",
+  "w": 1200,
+  "h": 1200,
+  "bytes": 227729,
+  "name": "下司古镇",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_leigong",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/100c0t000000infqp2E51.jpg",
+  "w": 4187,
+  "h": 2293,
+  "bytes": 109195,
+  "name": "雷公山",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_qinglong",
+  "ok": true,
+  "src": "https://p7.itc.cn/q_70/images01/20221227/4e2fbbcda2504186a54f887289e4f88c.jpeg",
+  "w": 1024,
+  "h": 768,
+  "bytes": 174839,
+  "name": "青龙洞古建筑群",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_xiaoqikong",
+  "ok": true,
+  "src": "http://img95.699pic.com/photo/50105/4153.jpg_wh860.jpg",
+  "w": 860,
+  "h": 571,
+  "bytes": 222993,
+  "name": "荔波小七孔",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_daqikong",
+  "ok": true,
+  "src": "http://seopic.699pic.com/photo/50104/4955.jpg_wh1200.jpg",
+  "w": 1200,
+  "h": 800,
+  "bytes": 192029,
+  "name": "荔波大七孔",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_zhenyuan",
+  "ok": true,
+  "src": "https://preview.qiantucdn.com/58pic/00/20/23/04w58PICwNrwMrEb8vZWn.jpg!w1024_new_small_1",
+  "w": 1024,
+  "h": 576,
+  "bytes": 132723,
+  "name": "镇远古城",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_maolan",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/100u180000013qlmq805C.jpg",
+  "w": 1920,
+  "h": 1440,
+  "bytes": 149091,
+  "name": "茂兰喀斯特原始森林",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_duyun",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinakd10122/758/w960h598/20200728/bfa6-iwxpesx7564130.jpg",
+  "w": 960,
+  "h": 598,
+  "bytes": 124160,
+  "name": "都匀秦汉影视城",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_fast",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/100411000000qyzz0AA69.jpg",
+  "w": 1440,
+  "h": 1080,
+  "bytes": 103590,
+  "name": "平塘天眼景区",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_wanfenglin",
+  "ok": true,
+  "src": "https://pic2.zhimg.com/v2-86eeb2c7ce9bc6b8f63b3c53ab01224e_r.jpg?source=1940ef5c",
+  "w": 1920,
+  "h": 1080,
+  "bytes": 96920,
+  "name": "万峰林",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_malinghe",
+  "ok": true,
+  "src": "http://vip-public.people.com.cn/photo/2025/7/26/ef6bc858eb1f4284bfc9902c492a952bG0wv_m.jpg",
+  "w": 800,
+  "h": 525,
+  "bytes": 149430,
+  "name": "马岭河峡谷",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_wanfenghu",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinacn/w2048h1259/20180210/df54-fyrkuxt0648441.jpg",
+  "w": 2048,
+  "h": 1259,
+  "bytes": 109785,
+  "name": "万峰湖",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_shuangru",
+  "ok": true,
+  "src": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g7/M00/00/0D/ChMkK2Tko_SId66_AAOY7ZZ52pwAAUCAAELh40AA5kF709.jpg",
+  "w": 1200,
+  "h": 743,
+  "bytes": 116040,
+  "name": "贞丰双乳峰",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_tangan",
+  "ok": true,
+  "src": "http://www.ncha.gov.cn/picture/0/2503231938058722061.jpg",
+  "w": 1200,
+  "h": 1200,
+  "bytes": 281505,
+  "name": "堂安侗寨",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_sanchahe",
+  "ok": true,
+  "src": "http://5b0988e595225.cdn.sohucs.com/images/20180701/bab68cdbc5074ca78ab390ca279c3611.jpeg",
+  "w": 1080,
+  "h": 720,
+  "bytes": 96524,
+  "name": "三岔河",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_huajia",
+  "ok": true,
+  "src": "https://img95.699pic.com/photo/50159/0644.jpg_wh860.jpg",
+  "w": 860,
+  "h": 573,
+  "bytes": 232449,
+  "name": "花嘎大峡谷",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_beipan",
+  "ok": true,
+  "src": "http://ctdsb.clouddiffuse.xyz/c9183acd-b499-4213-9f65-6561f9796e10",
+  "w": 1000,
+  "h": 562,
+  "bytes": 164420,
+  "name": "曲靖珠江源（贵州段）",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_langde",
+  "ok": true,
+  "src": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g6/M00/0C/0B/ChMkKWDv3hGIWAVvABXO5Bd68vcAARzxQHngk4AFc78252.jpg",
+  "w": 1200,
+  "h": 801,
+  "bytes": 196460,
+  "name": "朗德上寨",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_qingyan",
+  "ok": true,
+  "src": "http://img95.699pic.com/photo/50104/5186.jpg_wh860.jpg",
+  "w": 860,
+  "h": 573,
+  "bytes": 165659,
+  "name": "青岩古镇",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_jiaxiu",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinacn17/453/w2048h1605/20180816/1fe2-hhvciiv9956568.jpg",
+  "w": 2048,
+  "h": 1605,
+  "bytes": 180523,
+  "name": "甲秀楼",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_shiqiao",
+  "ok": true,
+  "src": "https://www.travphotos.cn/picpath/big/image/2022/11/08/202211083540bfa75ac9.jpg",
+  "w": 1000,
+  "h": 731,
+  "bytes": 165525,
+  "name": "石桥古法造纸",
+  "route": "guizhou"
+ },
+ {
+  "slug": "gz_qianling",
+  "ok": true,
+  "src": "https://dimg01.c-ctrip.com/images/fd/tg/g4/M04/1E/66/CggYHlYCam-AF59YAB10z0ozKoI401.jpg",
+  "w": 3000,
+  "h": 1987,
+  "bytes": 196085,
+  "name": "黔灵山公园",
+  "route": "guizhou"
+ },
+ {
+  "slug": "cq_hongyadong",
+  "ok": true,
+  "src": "https://pic.nximg.cn/file/20230313/32649478_095041237106_2.jpg",
+  "w": 1024,
+  "h": 658,
+  "bytes": 159303,
+  "name": "洪崖洞",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_jiefangbei",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinacn20110/300/w1620h1080/20190319/1196-hukwxnv4875146.jpg",
+  "w": 1620,
+  "h": 1080,
+  "bytes": 147530,
+  "name": "解放碑步行街",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_suodao",
+  "ok": true,
+  "src": "https://picx.zhimg.com/50/v2-8faf40c3fdd8509b001391c6bb8cd57a_720w.jpg?source=1940ef5c",
+  "w": 720,
+  "h": 540,
+  "bytes": 37936,
+  "name": "长江索道",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_liziba",
+  "ok": true,
+  "src": "https://pic.nximg.cn/file/20190430/3709937_134747678000_2.jpg",
+  "w": 1024,
+  "h": 696,
+  "bytes": 160148,
+  "name": "李子坝轻轨穿楼",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_sanchengxiang",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinacn20115/389/w680h509/20181227/1743-hqtwzee2578721.jpg",
+  "w": 680,
+  "h": 509,
+  "bytes": 106372,
+  "name": "山城巷（第三步道）",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_eling",
+  "ok": true,
+  "src": "https://tr-osdcp.qunarzz.com/tr-osd-tr-touch/img/6ec71fbb0cb6deca99fbf7a633717a24.jpeg",
+  "w": 2048,
+  "h": 1536,
+  "bytes": 201343,
+  "name": "鹅岭二厂文创公园",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_huguang",
+  "ok": true,
+  "src": "https://pic2.zhimg.com/v2-f84aee07d1e3cf2d95081c14e56db482_1440w.jpg?source=172ae18b",
+  "w": 1024,
+  "h": 685,
+  "bytes": 150748,
+  "name": "湖广会馆",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_chaotianmen",
+  "ok": true,
+  "src": "http://p4.itc.cn/images01/20200918/4105f87209c148819d68d293048a30c5.jpeg",
+  "w": 2000,
+  "h": 1322,
+  "bytes": 84056,
+  "name": "朝天门 · 来福士",
+  "route": "chongqing"
+ },
+ {
+  "slug": "gz_yuntai",
+  "ok": true,
+  "src": "https://www.gz007.net/images/upload/20241211160818001800.jpg",
+  "w": 750,
+  "h": 500,
+  "bytes": 75197,
+  "name": "施秉云台山",
+  "route": "guizhou"
+ },
+ {
+  "slug": "cq_baijuyi",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinacn10/213/w2048h1365/20180823/0485-hhzsnec4958239.jpg",
+  "w": 2048,
+  "h": 1365,
+  "bytes": 167473,
+  "name": "白象居 · 通远门古城墙",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_dalitang",
+  "ok": true,
+  "src": "https://tr-osdcp.qunarzz.com/tr-osd-tr-mapi/img/3bcea4d88cf7345277b22b7dcce72d66.jpg_r_720x480x95_364a8253.jpg",
+  "w": 720,
+  "h": 480,
+  "bytes": 67144,
+  "name": "人民大礼堂 · 三峡博物馆",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_hongyan",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/10020t000000ivrk59E0A.jpg",
+  "w": 1280,
+  "h": 854,
+  "bytes": 154081,
+  "name": "红岩革命纪念馆",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_luohan",
+  "ok": true,
+  "src": "https://tr-osdcp.qunarzz.com/tr-osd-tr-space/img/522fb6f986ba8e1b05a6501d66c570f7.jpg_600x600x70_b7165666.jpg",
+  "w": 600,
+  "h": 600,
+  "bytes": 38520,
+  "name": "罗汉寺",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_ciqikou",
+  "ok": true,
+  "src": "http://www.cqzyx.net/u/cms/zyx/201811/27094501bnbb.jpg",
+  "w": 1200,
+  "h": 800,
+  "bytes": 180738,
+  "name": "磁器口古镇",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_gele",
+  "ok": true,
+  "src": "https://img.redocn.com/sheying/20210526/zhongqinggeleshanbaigongguanjianyujiuzhi_11503011.jpg",
+  "w": 700,
+  "h": 497,
+  "bytes": 84130,
+  "name": "歌乐山 · 白公馆渣滓洞",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_danzishi",
+  "ok": true,
+  "src": "https://pic2.zhimg.com/v2-1e0a1d589ad51ff69762aa6f51502eb4_r.jpg",
+  "w": 1080,
+  "h": 810,
+  "bytes": 162290,
+  "name": "弹子石老街 · 龙门浩",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_nanshan",
+  "ok": true,
+  "src": "http://www.tn8.net/u/cms/lyf/201905/23165934j9se.jpg",
+  "w": 1024,
+  "h": 720,
+  "bytes": 119667,
+  "name": "南山一棵树观景台",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_beiwenquan",
+  "ok": true,
+  "src": "http://www.cqjysbwq.com/upload/cqjysbwq/article/20230825/1692943476_883527.jpg_640x3200.jpg",
+  "w": 960,
+  "h": 570,
+  "bytes": 192880,
+  "name": "北温泉公园",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_jinyun",
+  "ok": true,
+  "src": "https://flight-feed.qunarzz.com/as3/313/image/2021/5/edc7b38a-457f-448a-95e5-13f66468d85a.jpeg_640x640_846b7568.jpeg",
+  "w": 640,
+  "h": 640,
+  "bytes": 109349,
+  "name": "缙云山",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_jindaoxia",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinacn17/399/w1280h719/20180821/ceea-hhzsnea3574969.jpg",
+  "w": 1280,
+  "h": 719,
+  "bytes": 142628,
+  "name": "金刀峡",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_beishan",
+  "ok": true,
+  "src": "https://img95.699pic.com/photo/50171/8099.jpg_wh860.jpg",
+  "w": 860,
+  "h": 573,
+  "bytes": 182677,
+  "name": "大足北山石刻",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_diaoyucheng",
+  "ok": true,
+  "src": "http://5b0988e595225.cdn.sohucs.com/images/20190504/00e2711c7092434693fb0d2608c0b60e.jpeg",
+  "w": 1024,
+  "h": 683,
+  "bytes": 191037,
+  "name": "钓鱼城",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_laitan",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinacn10118/435/w650h585/20190803/07fa-iatixpk8104900.jpg",
+  "w": 650,
+  "h": 585,
+  "bytes": 104452,
+  "name": "涞滩古镇",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_baoding",
+  "ok": true,
+  "src": "https://tr-osdcp.qunarzz.com/tr-osd-tr-space/img/6032336ccf87769089e6b4286cc48fcf.jpg",
+  "w": 1440,
+  "h": 1080,
+  "bytes": 239057,
+  "name": "大足宝顶山石刻",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_baisha",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinacn/w800h600/20180125/5a9e-fyqwiqk5877961.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 119399,
+  "name": "白沙古镇",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_simianshan",
+  "ok": true,
+  "src": "http://img.pconline.com.cn/images/upload/upc/tx/itbbs/1807/29/c5/99800438_1532832713647.jpg",
+  "w": 4256,
+  "h": 2832,
+  "bytes": 168700,
+  "name": "四面山",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_zhongshan",
+  "ok": true,
+  "src": "https://img95.699pic.com/photo/50081/9833.jpg_wh860.jpg",
+  "w": 860,
+  "h": 574,
+  "bytes": 149018,
+  "name": "中山古镇",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_chashan",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinacn13/306/w1682h1024/20180412/f8de-fyzeyqa9923998.jpg",
+  "w": 1682,
+  "h": 1024,
+  "bytes": 183960,
+  "name": "茶山竹海",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_songji",
+  "ok": true,
+  "src": "http://img.pconline.com.cn/images/upload/upc/tx/photoblog/1407/22/c2/36564541_36564541_1405993791359.jpg",
+  "w": 1920,
+  "h": 1280,
+  "bytes": 117192,
+  "name": "松溉古镇",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_jinfo",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinakd20112/300/w1620h1080/20210811/cfbc-8186c4f8864c6c8cee45e058063eb47b.jpg",
+  "w": 1620,
+  "h": 1080,
+  "bytes": 161192,
+  "name": "金佛山",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_shanwangping",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/10041g000001hbswa4650.jpg",
+  "w": 1920,
+  "h": 1440,
+  "bytes": 155635,
+  "name": "山王坪喀斯特生态公园",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_tiansheng",
+  "ok": true,
+  "src": "https://pic1.zhimg.com/v2-b7b3f4c9195fed258bfbb5668657c190_1440w.jpg?source=172ae18b",
+  "w": 719,
+  "h": 782,
+  "bytes": 113537,
+  "name": "武隆天生三桥",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_xiannv",
+  "ok": true,
+  "src": "http://5b0988e595225.cdn.sohucs.com/images/20200423/6321f9a5598b4e719084aa061572fc4c.jpeg",
+  "w": 1600,
+  "h": 944,
+  "bytes": 82864,
+  "name": "仙女山国家森林公园",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_furongdong",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinacn20112/133/w2000h1333/20190909/d7d6-iekuaqs7955088.jpg",
+  "w": 2000,
+  "h": 1333,
+  "bytes": 176204,
+  "name": "芙蓉洞",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_ayihe",
+  "ok": true,
+  "src": "http://5b0988e595225.cdn.sohucs.com/images/20170904/9598accacdf14fa8b585e35ef36a8eed.jpeg",
+  "w": 1280,
+  "h": 853,
+  "bytes": 160420,
+  "name": "阿依河",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_zhuoshui",
+  "ok": true,
+  "src": "http://www.qjzsjq.com/upfiles/201705/20170524221325266.jpg",
+  "w": 900,
+  "h": 600,
+  "bytes": 83148,
+  "name": "濯水古镇 · 风雨廊桥",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_chiyou",
+  "ok": true,
+  "src": "https://img95.699pic.com/photo/50067/0478.jpg_wh860.jpg",
+  "w": 860,
+  "h": 555,
+  "bytes": 119213,
+  "name": "蚩尤九黎城",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_difeng",
+  "ok": true,
+  "src": "https://pic.huitu.com/res/20230502/1711793_20230502223436767222_1.jpg",
+  "w": 900,
+  "h": 601,
+  "bytes": 230601,
+  "name": "龙水峡地缝",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_xiaonanhai",
+  "ok": true,
+  "src": "http://p2.itc.cn/images03/20200527/7a7b39fae011491693f4f1e30a8e9d5b.jpeg",
+  "w": 900,
+  "h": 600,
+  "bytes": 153278,
+  "name": "小南海地震遗址",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_puhua",
+  "ok": true,
+  "src": "https://img1.qunarzz.com/travel/d6/1603/be/84d4675275451ff7.jpg_r_680x510x95_2e2a6054.jpg",
+  "w": 680,
+  "h": 510,
+  "bytes": 42029,
+  "name": "蒲花暗河",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_xituo",
+  "ok": true,
+  "src": "http://5b0988e595225.cdn.sohucs.com/images/20190611/ae5a05e7f0584a78b783941d80a40ed5.jpeg",
+  "w": 800,
+  "h": 533,
+  "bytes": 107028,
+  "name": "西沱古镇",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_qjdxg",
+  "ok": true,
+  "src": "https://5b0988e595225.cdn.sohucs.com/images/20190525/ae79e505beef4f7a9612ac9983b3be43.jpeg",
+  "w": 1080,
+  "h": 720,
+  "bytes": 158491,
+  "name": "黔江城市大峡谷",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_huangshui",
+  "ok": true,
+  "src": "http://w.xx-trip.com/jingdianImages/20171214230921765_684.JPG",
+  "w": 993,
+  "h": 570,
+  "bytes": 167033,
+  "name": "黄水国家森林公园",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_qiancao",
+  "ok": true,
+  "src": "https://imgs.699pic.com/images/700/393/339.jpg!detail.v1",
+  "w": 1000,
+  "h": 582,
+  "bytes": 155690,
+  "name": "千野草场",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_xueyu",
+  "ok": true,
+  "src": "https://img2.autoimg.cn/travelplat/g3/M09/BA/A8/750x0_1_autohomecar__ChsEkV3ophGAD1ntAAYmMNtPVKM785.jpg",
+  "w": 750,
+  "h": 521,
+  "bytes": 109267,
+  "name": "雪玉洞",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_shibaozhai",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinacn10008/137/w1024h713/20181227/7b73-hqtwzee0027669.jpg",
+  "w": 1024,
+  "h": 713,
+  "bytes": 148770,
+  "name": "石宝寨",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_fengdu",
+  "ok": true,
+  "src": "https://img1.qunarzz.com/travel/d1/1608/8a/c86109d260c1f3b5.jpg_600x600x70_c31e2932.jpg",
+  "w": 600,
+  "h": 600,
+  "bytes": 112032,
+  "name": "丰都名山",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_zhangfei",
+  "ok": true,
+  "src": "https://www.zhangfeimiao.cn/Uploadfiles/Picture/2019-1-7/20191717035035.jpg",
+  "w": 1920,
+  "h": 950,
+  "bytes": 92503,
+  "name": "张飞庙",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_longgang",
+  "ok": true,
+  "src": "https://www.cqyylg.com/img/banner2.jpg",
+  "w": 1920,
+  "h": 889,
+  "bytes": 142489,
+  "name": "云阳龙缸",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_wanzhou_pb",
+  "ok": true,
+  "src": "https://img1.qunarzz.com/travel/d8/1610/47/a1b8384dda98a4b5.jpg",
+  "w": 1599,
+  "h": 1059,
+  "bytes": 89404,
+  "name": "万州大瀑布群",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_baidi",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/10080b0000005p19b4A7A.jpg",
+  "w": 1280,
+  "h": 960,
+  "bytes": 216201,
+  "name": "白帝城",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_sanzhi",
+  "ok": true,
+  "src": "https://pic.huitu.com/res/20240602/698989_20240602234021496214_1.jpg",
+  "w": 900,
+  "h": 600,
+  "bytes": 81086,
+  "name": "三峡之巅",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_kuimen",
+  "ok": true,
+  "src": "https://pic.nximg.cn/20120625/4957335_093740171132_2.jpg",
+  "w": 1024,
+  "h": 680,
+  "bytes": 130783,
+  "name": "瞿塘峡夔门",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_xiaozhai",
+  "ok": true,
+  "src": "http://www.cqzyx.net/u/cms/www/201602/04105728wt7z.jpg",
+  "w": 490,
+  "h": 588,
+  "bytes": 69517,
+  "name": "小寨天坑 · 龙桥河",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_xiaosanxia",
+  "ok": true,
+  "src": "https://img95.699pic.com/photo/50174/8111.jpg_wh860.jpg",
+  "w": 827,
+  "h": 620,
+  "bytes": 177236,
+  "name": "巫山小三峡 · 小小三峡",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_shennv",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinakd20220622ac/533/w800h533/20220622/246d-f85bc09d7962486bda429242b6e9e021.jpg",
+  "w": 800,
+  "h": 533,
+  "bytes": 87580,
+  "name": "神女峰 · 神女天路",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_hongchi",
+  "ok": true,
+  "src": "http://img.pconline.com.cn/images/upload/upc/tx/photoblog/1108/12/c5/8626664_8626664_1313130145979.jpg",
+  "w": 708,
+  "h": 533,
+  "bytes": 67883,
+  "name": "红池坝",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_ningchang",
+  "ok": true,
+  "src": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1301/16/c2/17445903_17445903_1358306763689.jpg",
+  "w": 1024,
+  "h": 683,
+  "bytes": 168680,
+  "name": "宁厂古镇",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_taohuayuan",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinacn10112/685/w2048h1037/20190717/fd26-hzxsvnn7791587.jpg",
+  "w": 2048,
+  "h": 1037,
+  "bytes": 166011,
+  "name": "酉阳桃花源",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_lanying",
+  "ok": true,
+  "src": "http://www.tianshui.com.cn/Files260/BeyondPic/2020-12/3/1126812022_16068802030001n.jpg",
+  "w": 900,
+  "h": 620,
+  "bytes": 162174,
+  "name": "兰英大峡谷",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_longtan",
+  "ok": true,
+  "src": "http://img.pconline.com.cn/images/upload/upc/tx/photoblog/1402/05/c3/31020549_31020549_1391582528265.jpg",
+  "w": 1200,
+  "h": 830,
+  "bytes": 167268,
+  "name": "龙潭古镇",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_gongtan",
+  "ok": true,
+  "src": "http://www.xx-trip.com/jingdianImages/20161223143002359_575.JPG",
+  "w": 591,
+  "h": 570,
+  "bytes": 113505,
+  "name": "龚滩古镇",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_yintiao",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinakd20109/700/w900h600/20220211/0256-ac4076e818d102f505db6a1bf47c7fa0.jpg",
+  "w": 900,
+  "h": 600,
+  "bytes": 146621,
+  "name": "阴条岭",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_dieshi",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinakd20114/201/w1081h720/20221004/8823-4328e9b09336cb2ad483a3aa8fdcda36.jpg",
+  "w": 1081,
+  "h": 720,
+  "bytes": 139063,
+  "name": "叠石花谷",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_shengui",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinakd20201225ac/795/w1000h595/20201225/6f57-kftfpiw2858178.jpg",
+  "w": 1000,
+  "h": 595,
+  "bytes": 167628,
+  "name": "阿蓬江神龟峡",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_hongan",
+  "ok": true,
+  "src": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1208/16/c11/12969942_12969942_1345125002671.jpg",
+  "w": 750,
+  "h": 510,
+  "bytes": 74551,
+  "name": "洪安边城",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_chuanhe",
+  "ok": true,
+  "src": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1304/15/c13/19892496_19892496_1366036246609_mthumb.jpg",
+  "w": 720,
+  "h": 481,
+  "bytes": 44881,
+  "name": "川河盖草场",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_gujian",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinakd10118/756/w2000h1156/20200729/0baa-iwxpesy0366931.jpg",
+  "w": 2000,
+  "h": 1156,
+  "bytes": 137377,
+  "name": "古剑山",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_hanfeng",
+  "ok": true,
+  "src": "http://cq.news.cn/20230630/b42c3a9c391f430b88c4e522ee469d25/20230630b42c3a9c391f430b88c4e522ee469d25_20230629b6574cb70f5",
+  "w": 900,
+  "h": 600,
+  "bytes": 89722,
+  "name": "汉丰湖",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_dongxi",
+  "ok": true,
+  "src": "http://5b0988e595225.cdn.sohucs.com/images/20171218/c77e0dd951064a8cb1ede28ddeaa77b1.jpeg",
+  "w": 2048,
+  "h": 1274,
+  "bytes": 102315,
+  "name": "东溪古镇",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_shuanggui",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinakd20200929ac/697/w900h597/20200929/50e2-izwfpys5057744.jpg",
+  "w": 900,
+  "h": 597,
+  "bytes": 127058,
+  "name": "双桂堂",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_zhuhai",
+  "ok": true,
+  "src": "https://x0.ifengimg.com/ucms/2024_45/67186AD9B2EB07860AC1C170831A1779F563639F_size43_w1000_h596.jpg",
+  "w": 1000,
+  "h": 596,
+  "bytes": 45871,
+  "name": "百里竹海",
+  "route": "chongqing"
+ },
+ {
+  "slug": "cq_tongjing",
+  "ok": true,
+  "src": "http://img.qianggen.net/uploadfile/2022/0724/20220724095451414.jpg",
+  "w": 1000,
+  "h": 625,
+  "bytes": 137132,
+  "name": "统景温泉",
+  "route": "chongqing"
+ },
+ {
+  "slug": "sx_bmy",
+  "ok": true,
+  "src": "http://img.pconline.com.cn/images/upload/upc/tx/itbbs/2102/18/c3/253873492_1613624060582.jpg",
+  "w": 1500,
+  "h": 1000,
+  "bytes": 131941,
+  "name": "秦始皇兵马俑",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_huqg",
+  "ok": true,
+  "src": "https://img95.699pic.com/photo/50132/2923.jpg_wh860.jpg",
+  "w": 860,
+  "h": 574,
+  "bytes": 136589,
+  "name": "华清宫",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "cq_fengsheng",
+  "ok": true,
+  "src": "http://www.cqzyx.net/u/cms/www/201608/07212932wve2.jpg",
+  "w": 1013,
+  "h": 800,
+  "bytes": 187306,
+  "name": "丰盛古镇",
+  "route": "chongqing"
+ },
+ {
+  "slug": "sx_dayanta",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinacn10117/384/w2048h1536/20190202/82e4-hsmkfyn8003843.jpg",
+  "w": 2048,
+  "h": 1536,
+  "bytes": 195180,
+  "name": "大雁塔 · 大唐不夜城",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_chengqiang",
+  "ok": true,
+  "src": "http://youimg1.c-ctrip.com/target/tg/978/261/901/3cd2ca1d987a4515bdbf73e2ffdee35d.jpg",
+  "w": 4208,
+  "h": 3120,
+  "bytes": 122178,
+  "name": "西安城墙",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_zhonglou",
+  "ok": true,
+  "src": "https://img.pconline.com.cn/images/upload/upc/tx/itbbs/2101/28/c5/251621166_1611812582588_mthumb.jpg",
+  "w": 900,
+  "h": 600,
+  "bytes": 113321,
+  "name": "钟楼 · 鼓楼 · 回民街",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_beilin",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/100v1a0000018uaf5C66C.jpg",
+  "w": 1920,
+  "h": 1440,
+  "bytes": 204674,
+  "name": "碑林博物馆",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_daminggong",
+  "ok": true,
+  "src": "http://www.oct-cts.com/images/up_scenery/UploadImage/39125/largeImg/2019032403068a6e-5a9.jpg",
+  "w": 1920,
+  "h": 1066,
+  "bytes": 123992,
+  "name": "大明宫国家遗址公园",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_sxls",
+  "ok": true,
+  "src": "https://imgs.699pic.com/images/501/041/195.jpg!detail.v1",
+  "w": 1000,
+  "h": 667,
+  "bytes": 109575,
+  "name": "陕西历史博物馆",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_hanyangling",
+  "ok": true,
+  "src": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpeg/A55F93C436F60C11E38C39C2C4E59F67.jpeg",
+  "w": 900,
+  "h": 602,
+  "bytes": 126362,
+  "name": "汉阳陵",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_xiaoyanta",
+  "ok": true,
+  "src": "https://img95.699pic.com/photo/50119/5561.jpg_wh860.jpg",
+  "w": 860,
+  "h": 573,
+  "bytes": 145486,
+  "name": "小雁塔 · 西安博物院",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_banpo",
+  "ok": true,
+  "src": "https://img1.qunarzz.com/travel/poi/1806/b0/38a87fec85ef3f37.jpg",
+  "w": 1267,
+  "h": 950,
+  "bytes": 150313,
+  "name": "半坡遗址博物馆",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_shuyuanmen",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/100m1f000001gzl9a203A.jpg",
+  "w": 1920,
+  "h": 1278,
+  "bytes": 106738,
+  "name": "书院门 · 碑林老街",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_bronze",
+  "ok": true,
+  "src": "https://img1.qunarzz.com/travel/d5/1709/60/7b41948e61920cb5.jpg_r_640x480x70_94d58071.jpg",
+  "w": 640,
+  "h": 480,
+  "bytes": 55515,
+  "name": "宝鸡青铜器博物院",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_taibai",
+  "ok": true,
+  "src": "http://www.lrsdhw.com/uploads/20220719/0aa564f6321ddfb6f47f3609d6b824f4.jpg",
+  "w": 1600,
+  "h": 1536,
+  "bytes": 118680,
+  "name": "太白山",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_famen",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinakd20260124s/580/w1920h1060/20260124/da1b-e90be45f15bdc5116aedf319704e90dc.png",
+  "w": 1920,
+  "h": 1060,
+  "bytes": 99879,
+  "name": "法门寺",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_guanshan",
+  "ok": true,
+  "src": "https://img95.699pic.com/photo/50177/6302.jpg_wh860.jpg",
+  "w": 860,
+  "h": 573,
+  "bytes": 143700,
+  "name": "关山草原",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_zhougongmiao",
+  "ok": true,
+  "src": "https://p1.ssl.qhimg.com/t0112fc1fc99190a0c1.jpg",
+  "w": 950,
+  "h": 633,
+  "bytes": 218488,
+  "name": "周公庙",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_qianling",
+  "ok": true,
+  "src": "https://www.shanxiqianling.com/uploads/images/3e265b35d76741b2a36b95046b4daa94.jpg",
+  "w": 1200,
+  "h": 675,
+  "bytes": 117136,
+  "name": "乾陵",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_maoling",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/10060x000000laz5o4FA6.jpg",
+  "w": 2016,
+  "h": 980,
+  "bytes": 88424,
+  "name": "茂陵",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_zhaoling",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/100t0f0000007k9ot678B.jpg",
+  "w": 1280,
+  "h": 960,
+  "bytes": 101374,
+  "name": "昭陵",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_yuanjiacun",
+  "ok": true,
+  "src": "http://e0.ifengimg.com/05/2019/0630/943083F8D0D6DA7A12AE9D591405F1CDA607616B_size178_w1080_h757.jpeg",
+  "w": 1080,
+  "h": 757,
+  "bytes": 176553,
+  "name": "袁家村",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_zhengguoqu",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinakd20201222s/290/w1080h810/20201222/9812-kftfpiv3075781.jpg",
+  "w": 1080,
+  "h": 810,
+  "bytes": 179143,
+  "name": "郑国渠首遗址",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_dafosi",
+  "ok": true,
+  "src": "https://img95.699pic.com/photo/50164/5969.jpg_wh860.jpg",
+  "w": 860,
+  "h": 483,
+  "bytes": 148865,
+  "name": "彬州大佛寺",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_huashan",
+  "ok": true,
+  "src": "http://img1.bala.cc/allimg/2207/1P95451A-0.png",
+  "w": 700,
+  "h": 507,
+  "bytes": 47213,
+  "name": "华山",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_simaqian",
+  "ok": true,
+  "src": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1005/09/c10/3816942_3816942_1273403121253.jpg",
+  "w": 2240,
+  "h": 1500,
+  "bytes": 103279,
+  "name": "司马迁祠与墓",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_shaohuashan",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/0102m1200086skg2tA4E5_D_10000_1200.jpg?proc=autoorient",
+  "w": 1800,
+  "h": 1200,
+  "bytes": 220710,
+  "name": "少华山",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_dangjiacun",
+  "ok": true,
+  "src": "https://x0.ifengimg.com/ucms/2021_01/08F16162B5795A83A002D98AC870F957C4CA3E45_size535_w1000_h600.jpg",
+  "w": 1000,
+  "h": 600,
+  "bytes": 132673,
+  "name": "党家村",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_tongguan",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/100a170000011y28kD517.jpg",
+  "w": 4608,
+  "h": 2592,
+  "bytes": 103601,
+  "name": "潼关古城",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_zhaojin",
+  "ok": true,
+  "src": "https://www.msweekly.com/upload/store/202301610115859_1024x498.jpeg",
+  "w": 1024,
+  "h": 498,
+  "bytes": 103443,
+  "name": "照金红色小镇",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_yaowang",
+  "ok": true,
+  "src": "https://p0.itc.cn/images01/20220322/e7c46411ec144d198cc16cc3c754ecb3.jpeg",
+  "w": 2048,
+  "h": 1365,
+  "bytes": 133049,
+  "name": "药王山",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_chenlu",
+  "ok": true,
+  "src": "https://img95.699pic.com/photo/50132/4989.jpg_wh860.jpg",
+  "w": 860,
+  "h": 579,
+  "bytes": 186987,
+  "name": "陈炉古镇",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_yuhuagong",
+  "ok": true,
+  "src": "https://x0.ifengimg.com/ucms/2023_40/EBF03C68AB3534D997B02DC708146E40F9DD9E28_size164_w1080_h726.jpg",
+  "w": 1080,
+  "h": 726,
+  "bytes": 146992,
+  "name": "玉华宫",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_hancheng",
+  "ok": true,
+  "src": "http://5b0988e595225.cdn.sohucs.com/images/20180927/6e2740294af04b66a60ef11a4d24d151.jpeg",
+  "w": 903,
+  "h": 499,
+  "bytes": 100692,
+  "name": "韩城古城",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_zaoyuan",
+  "ok": true,
+  "src": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g2/M00/0B/07/ChMlWl5fIXSIH73lAAQkRXblPyMAANjSgFt3dkABCRd945.jpg",
+  "w": 1200,
+  "h": 800,
+  "bytes": 132922,
+  "name": "枣园革命旧址",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_baota",
+  "ok": true,
+  "src": "https://imgs.699pic.com/images/602/582/552.jpg!detail.v1",
+  "w": 1000,
+  "h": 667,
+  "bytes": 216249,
+  "name": "宝塔山",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_qiaquan",
+  "ok": true,
+  "src": "https://img.sxdaily.com.cn/2020-09/16/8691687_4f2cedd0-d000-4b76-8264-53a14370fcd9.jpg",
+  "w": 1606,
+  "h": 1080,
+  "bytes": 146526,
+  "name": "洽川湿地",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_yangjialing",
+  "ok": true,
+  "src": "https://photo.tuchong.com/2303443/f/549183528.jpg",
+  "w": 1200,
+  "h": 800,
+  "bytes": 162962,
+  "name": "杨家岭革命旧址",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_geming",
+  "ok": true,
+  "src": "https://d.ifengimg.com/q100/img1.ugc.ifeng.com/newugc/20210602/10/wemedia/6db72e8a3aa1ec4164e932f6a1d0b62af6e9c76b_size1",
+  "w": 1089,
+  "h": 725,
+  "bytes": 97366,
+  "name": "延安革命纪念馆",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_hukou",
+  "ok": true,
+  "src": "http://vip-public.people.com.cn/photo/2023/7/18/171055aecb6e4f0e83f73ec5c24d513800MW_m.jpg",
+  "w": 800,
+  "h": 534,
+  "bytes": 86762,
+  "name": "壶口瀑布",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_qiankun",
+  "ok": true,
+  "src": "https://img1.qunarzz.com/travel/d5/1707/45/fdc3bd41227f9ab5.jpg_r_1360x1360x95_0e5bf3cb.jpg",
+  "w": 1360,
+  "h": 880,
+  "bytes": 101142,
+  "name": "乾坤湾",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_huangdiling",
+  "ok": true,
+  "src": "https://img95.699pic.com/photo/50249/0754.jpg_wh860.jpg",
+  "w": 860,
+  "h": 573,
+  "bytes": 189192,
+  "name": "黄帝陵",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_zhenbeitai",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/100r1900000167pezF667.jpg",
+  "w": 951,
+  "h": 688,
+  "bytes": 153795,
+  "name": "镇北台",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_wazibao",
+  "ok": true,
+  "src": "https://so1.360tres.com/t01d41c6658b383261e.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 92970,
+  "name": "瓦窑堡革命旧址",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_hongshi",
+  "ok": true,
+  "src": "https://img1.qunarzz.com/travel/d5/1809/4f/96cce3d07721bdb5.jpg",
+  "w": 2048,
+  "h": 1536,
+  "bytes": 167681,
+  "name": "红石峡",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_yulin_gc",
+  "ok": true,
+  "src": "http://5b0988e595225.cdn.sohucs.com/images/20190424/8b0849149e954ce2aa223a4e6fd9bce1.jpg",
+  "w": 1080,
+  "h": 663,
+  "bytes": 146374,
+  "name": "榆林古城",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_bolang",
+  "ok": true,
+  "src": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g6/M00/08/00/ChMkKmG1ZRuISC0hAAvXy4whqM4AAWgogAB_CUAC9fj343.jpg",
+  "w": 1200,
+  "h": 800,
+  "bytes": 154670,
+  "name": "靖边波浪谷",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_baiyun",
+  "ok": true,
+  "src": "http://img.daoisms.org/allimg/150713/78-150G3233J6.jpg",
+  "w": 980,
+  "h": 653,
+  "bytes": 178079,
+  "name": "佳县白云山",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_jiangshi",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/1002190000017i4hq8214.jpg",
+  "w": 1620,
+  "h": 1080,
+  "bytes": 224291,
+  "name": "姜氏庄园",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_shimao",
+  "ok": true,
+  "src": "http://vip-public.people.com.cn/photo/2022/8/8/f7e5adc7e2134f95b06a8638889d37dbO0Mn_m.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 116473,
+  "name": "石峁遗址",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_tongwan",
+  "ok": true,
+  "src": "https://p6.itc.cn/images01/20210915/01530eb8b3e84a438e1ab2c93e44cc7b.png",
+  "w": 910,
+  "h": 683,
+  "bytes": 172389,
+  "name": "统万城遗址",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_hzbw",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/10070t000000isnb9C08E.jpg",
+  "w": 2736,
+  "h": 1824,
+  "bytes": 132021,
+  "name": "汉中博物馆",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_shimen",
+  "ok": true,
+  "src": "https://img1.qunarzz.com/travel/d6/1806/11/59449388247d02b5.jpg_r_1360x1360x95_fd14233e.jpg",
+  "w": 1360,
+  "h": 1020,
+  "bytes": 229150,
+  "name": "石门栈道",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_wuhouci",
+  "ok": true,
+  "src": "https://img1.qunarzz.com/travel/d1/1806/a6/438b226f8ef8bab5.jpg",
+  "w": 2047,
+  "h": 1365,
+  "bytes": 208773,
+  "name": "勉县武侯祠 · 武侯墓",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_zhangqian",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/100113000000uh1s74CAF.jpg",
+  "w": 1920,
+  "h": 1440,
+  "bytes": 126702,
+  "name": "张骞纪念馆",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_zhangliang",
+  "ok": true,
+  "src": "https://boot-img.xuexi.cn/image/1005/process/ab66a3a83bd7478784929999c2b59e61.jpg",
+  "w": 1024,
+  "h": 681,
+  "bytes": 128930,
+  "name": "留坝张良庙",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_qingmuchuan",
+  "ok": true,
+  "src": "http://images.china.cn/site1000/2019-07/19/6865e84f-22dc-40b7-a2cb-a6fb20e9434a.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 113409,
+  "name": "青木川古镇",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_liping",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinakd2021620s/687/w850h637/20210620/84a6-krpikqh1501593.jpg",
+  "w": 850,
+  "h": 637,
+  "bytes": 194298,
+  "name": "黎坪国家森林公园",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_longtou",
+  "ok": true,
+  "src": "http://pic.people.com.cn/NMediaFile/2024/0102/MAIN1704175569194UCUS9T01VM.jpg",
+  "w": 1024,
+  "h": 713,
+  "bytes": 128909,
+  "name": "龙头山",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_nangong",
+  "ok": true,
+  "src": "https://imgs.qunarzz.com/sight/p0/1511/55/550d4df6bc94566990.img.jpg_750x500_edbef532.jpg",
+  "w": 750,
+  "h": 500,
+  "bytes": 76745,
+  "name": "南宫山",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_yinghu",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/100v0z000000nwscs1C57.jpg",
+  "w": 1920,
+  "h": 1282,
+  "bytes": 115500,
+  "name": "瀛湖",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_yanxiang",
+  "ok": true,
+  "src": "http://p2.ifengimg.com/a/2017_20/8dc1e418e150e29_size249_w1200_h800.jpg",
+  "w": 1200,
+  "h": 800,
+  "bytes": 208207,
+  "name": "燕翔洞 · 中坝大峡谷",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_fengyan",
+  "ok": true,
+  "src": "http://img.pconline.com.cn/images/upload/upc/tx/photoblog/1504/03/c15/4869204_1428058672498.jpg",
+  "w": 1500,
+  "h": 1000,
+  "bytes": 215768,
+  "name": "汉阴凤堰古梯田",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_jinsixia",
+  "ok": true,
+  "src": "https://30616677.s21i.faiusr.com/2/ABUIABACGAAg3I2FoQYo8uu60QQwwB840Bc!1500x1500.jpg",
+  "w": 1500,
+  "h": 1125,
+  "bytes": 231778,
+  "name": "金丝峡",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_niubeiliang",
+  "ok": true,
+  "src": "https://pic2.zhimg.com/v2-ee23a93747e7e6490f57faebe7b2ef89_r.jpg",
+  "w": 900,
+  "h": 600,
+  "bytes": 157884,
+  "name": "牛背梁国家森林公园",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "sx_tayun",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinacn21/213/w2048h1365/20180929/9381-hkrzvkv2293992.jpg",
+  "w": 2048,
+  "h": 1365,
+  "bytes": 110493,
+  "name": "塔云山",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "gs_zhongshanqiao",
+  "ok": true,
+  "src": "https://pic.nximg.cn/file/20170505/14677810_172849546000_2.jpg",
+  "w": 1024,
+  "h": 683,
+  "bytes": 159562,
+  "name": "中山桥 · 白塔山",
+  "route": "gansu"
+ },
+ {
+  "slug": "sx_dihua",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/1A0j180000013ub79F54F_W_10000_1200.jpg?proc=autoorient",
+  "w": 1745,
+  "h": 1200,
+  "bytes": 168279,
+  "name": "棣花古镇",
+  "route": "shaanxi"
+ },
+ {
+  "slug": "gs_hhmq",
+  "ok": true,
+  "src": "http://www.oct-cts.com/images/up_scenery/UploadImage/40474/largeImg/202202160428b497-fde.jpg",
+  "w": 1920,
+  "h": 1080,
+  "bytes": 109401,
+  "name": "黄河母亲雕塑",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_tuolugou",
+  "ok": true,
+  "src": "https://puui.qpic.cn/vpic_cover/w0389bccde5/w0389bccde5_hz.jpg/1280",
+  "w": 1273,
+  "h": 720,
+  "bytes": 126725,
+  "name": "吐鲁沟国家森林公园",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_gsbw",
+  "ok": true,
+  "src": "https://you2.autoimg.cn/_autohomecar__zhouyouji/IMG20190810134714.jpg?imageMogr2/crop/!4608.000000x2589.866699a0.000000a",
+  "w": 4608,
+  "h": 2590,
+  "bytes": 109274,
+  "name": "甘肃省博物馆",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_shilin",
+  "ok": true,
+  "src": "https://pic4.zhimg.com/v2-30eb8b6965fd5afc9ad72505e4dd0c49_r.jpg",
+  "w": 790,
+  "h": 808,
+  "bytes": 135913,
+  "name": "景泰黄河石林",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_yongtai",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinakd20110/131/w2000h1331/20210125/4ad4-kicwvzq1935713.jpg",
+  "w": 2000,
+  "h": 1331,
+  "bytes": 123225,
+  "name": "永泰龟城",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_qingcheng",
+  "ok": true,
+  "src": "https://p3.ifengimg.com/l/2018/52/a4fbcfefbe72f87/jgg5.jpg",
+  "w": 800,
+  "h": 500,
+  "bytes": 116541,
+  "name": "青城古镇",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_huining",
+  "ok": true,
+  "src": "https://vod-hszx-xhncloud.voc.com.cn/214/2025/09/21/25120bdcdda03a860030eb3f707cb9bce2a66a1f1758425737.jpg?pid=29974797",
+  "w": 1258,
+  "h": 943,
+  "bytes": 104817,
+  "name": "会宁红军会师旧址",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_maijishan",
+  "ok": true,
+  "src": "https://img.pconline.com.cn/images/upload/upc/tx/itbbs/2002/12/c6/192321670_1581485408995.jpg",
+  "w": 1500,
+  "h": 1000,
+  "bytes": 211778,
+  "name": "麦积山石窟",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_fuximiao",
+  "ok": true,
+  "src": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g5/M00/00/0A/ChMkJ1YGTHSIO9zcAER3RLXdLiIAADCUAM5H0MARHdc709.jpg",
+  "w": 1200,
+  "h": 800,
+  "bytes": 235952,
+  "name": "天水伏羲庙",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_dadiwan",
+  "ok": true,
+  "src": "http://www.tianshui.com.cn/Files261/BeyondPic/2021-10/20/20211020044930744.jpg",
+  "w": 950,
+  "h": 633,
+  "bytes": 190567,
+  "name": "大地湾遗址",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_xianren",
+  "ok": true,
+  "src": "https://gd-hbimg.huaban.com/772c6f532c7a33830f3ac983af15812e82b27e7215a766-zsshvu_fw658",
+  "w": 658,
+  "h": 494,
+  "bytes": 105258,
+  "name": "仙人崖",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_shuiliandong",
+  "ok": true,
+  "src": "http://www.tianshui.com.cn/Files262/BeyondPic/2023-6/21/23062016245f8c816ed528529f.jpg",
+  "w": 950,
+  "h": 535,
+  "bytes": 148626,
+  "name": "武山水帘洞",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_kongtong",
+  "ok": true,
+  "src": "http://vip-public.people.com.cn/photo/2022/7/21/f92a6642b06647d4a827d9c96f0cd27db53p_m.jpg",
+  "w": 800,
+  "h": 533,
+  "bytes": 107182,
+  "name": "崆峒山",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_yunya",
+  "ok": true,
+  "src": "http://www.gscn.com.cn/pic/003/018/692/00301869246_7a1534dd.jpg",
+  "w": 1000,
+  "h": 631,
+  "bytes": 173382,
+  "name": "庄浪云崖寺",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_wangmu",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/10040x000000kyk290E3B.jpg",
+  "w": 1280,
+  "h": 960,
+  "bytes": 130158,
+  "name": "泾川王母宫",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_zhouzu",
+  "ok": true,
+  "src": "http://youimg1.c-ctrip.com/target/100p0q000000gh4w1C994.jpg",
+  "w": 1280,
+  "h": 961,
+  "bytes": 136854,
+  "name": "周祖陵",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_nanliang",
+  "ok": true,
+  "src": "https://pic.nximg.cn/file/20200718/16826461_103342958311_2.jpg",
+  "w": 1024,
+  "h": 768,
+  "bytes": 90310,
+  "name": "南梁革命根据地",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_beishiku",
+  "ok": true,
+  "src": "http://www.gscn.com.cn/pic/0/11/03/70/11037072_915086.jpg",
+  "w": 787,
+  "h": 496,
+  "bytes": 122375,
+  "name": "北石窟寺",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_weiyuan",
+  "ok": true,
+  "src": "http://vote.gszx.gov.cn/HdAtt/img/2017/11/20171127160610462.jpg",
+  "w": 1280,
+  "h": 720,
+  "bytes": 78145,
+  "name": "渭河源",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_guizehao",
+  "ok": true,
+  "src": "https://img2.autoimg.cn/travelplat/g7/M02/B1/0E/750x0_1_autohomecar__wKgH3Vkhf0mAZ0yRABgWk-13a88020.jpg",
+  "w": 750,
+  "h": 562,
+  "bytes": 68247,
+  "name": "漳县贵清山 · 遮阳山",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_majiayao",
+  "ok": true,
+  "src": "http://31104286.s21i.faiusr.com/2/ABUInrrqDhACGAAgh6HnwAYoqpPT7gYwuAg4hgc.jpg",
+  "w": 1080,
+  "h": 902,
+  "bytes": 86648,
+  "name": "临洮马家窑遗址",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_hadapu",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/100c0v000000jr1mc7B3A.jpg",
+  "w": 1024,
+  "h": 1280,
+  "bytes": 123730,
+  "name": "哈达铺",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_guane",
+  "ok": true,
+  "src": "https://images.gegdjq.com/group1/M00/00/22/rBEAAWFECJOAVOrNABL6PP3jc8w888.jpg",
+  "w": 1920,
+  "h": 967,
+  "bytes": 82369,
+  "name": "官鹅沟",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_wanxiang",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/100p0k000000ce4xfC6C6.jpg",
+  "w": 900,
+  "h": 597,
+  "bytes": 154949,
+  "name": "武都万象洞",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_xixia",
+  "ok": true,
+  "src": "https://img1.qunarzz.com/travel/d2/1508/e5/7a71d48e23ef25.jpg_600x600x70_65545941.jpg",
+  "w": 600,
+  "h": 600,
+  "bytes": 76517,
+  "name": "成县西狭颂",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_leitai",
+  "ok": true,
+  "src": "https://img95.699pic.com/photo/50090/1797.jpg_wh860.jpg",
+  "w": 860,
+  "h": 573,
+  "bytes": 202793,
+  "name": "武威雷台汉墓",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_wenmiao",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinacn20108/384/w2048h1536/20191222/005d-ikyziqx3425332.jpg",
+  "w": 2048,
+  "h": 1536,
+  "bytes": 174595,
+  "name": "武威文庙",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_tianti",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinacn20121/298/w1618h1080/20190228/33c4-htstzca5644542.jpg",
+  "w": 1618,
+  "h": 1080,
+  "bytes": 143467,
+  "name": "天梯山石窟",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_baitasi",
+  "ok": true,
+  "src": "http://vip-public.people.com.cn/photo/2020/5/20/36a05beb5d3f4bb4979341c49c91ad6cUeIw_m.jpg",
+  "w": 800,
+  "h": 533,
+  "bytes": 77430,
+  "name": "白塔寺",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_binggou",
+  "ok": true,
+  "src": "http://seopic.699pic.com/photo/50096/6542.jpg_wh1200.jpg",
+  "w": 1200,
+  "h": 800,
+  "bytes": 117374,
+  "name": "冰沟丹霞",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_qingtu",
+  "ok": true,
+  "src": "http://pic.weather.com.cn/images/cn/photo/2014/09/18/6704495CF6CEAC0DD06A8E60440E4054.jpg",
+  "w": 900,
+  "h": 600,
+  "bytes": 99859,
+  "name": "民勤青土湖",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_dafo",
+  "ok": true,
+  "src": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g5/M00/00/0D/ChMkJlXinTOIO858ABFM0tKWP_oAACC9QGWOLQAEUzq897.jpg",
+  "w": 1200,
+  "h": 801,
+  "bytes": 147636,
+  "name": "张掖大佛寺",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_matisi",
+  "ok": true,
+  "src": "https://img95.699pic.com/photo/50048/5472.jpg_wh860.jpg",
+  "w": 860,
+  "h": 572,
+  "bytes": 143931,
+  "name": "马蹄寺石窟",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_qicai",
+  "ok": true,
+  "src": "http://img.pconline.com.cn/images/upload/upc/tx/photoblog/2110/16/c0/280882959_1634353686814.jpg",
+  "w": 2000,
+  "h": 1283,
+  "bytes": 157256,
+  "name": "张掖七彩丹霞",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_pingshan",
+  "ok": true,
+  "src": "http://www.oct-cts.com/images/up_scenery/UploadImage/40043/largeImg/202010190421f9f1-7b1.jpg",
+  "w": 1920,
+  "h": 1280,
+  "bytes": 185481,
+  "name": "平山湖大峡谷",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_shandan",
+  "ok": true,
+  "src": "https://pic.gansudaily.com.cn/003/020/094/00302009499_f8f2d246.jpg",
+  "w": 1000,
+  "h": 563,
+  "bytes": 162290,
+  "name": "山丹军马场",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_dingjiazha",
+  "ok": true,
+  "src": "https://x0.ifengimg.com/ucms/2021_21/58631FF863CD72FA8125938696902C28DD4CCC7C_size124_w960_h588.jpg",
+  "w": 960,
+  "h": 588,
+  "bytes": 127001,
+  "name": "丁家闸魏晋壁画墓",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_jiuquan",
+  "ok": true,
+  "src": "https://pic3.zhimg.com/v2-e506bf6bb241bb9bbf2bc71b0fe7eb72_r.jpg",
+  "w": 3072,
+  "h": 2048,
+  "bytes": 188579,
+  "name": "西汉酒泉胜迹",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_huyang",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinakd10100/568/w1784h1184/20200829/a072-iyhvyva8404692.jpg",
+  "w": 1784,
+  "h": 1184,
+  "bytes": 209127,
+  "name": "金塔胡杨林",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_xuanbi",
+  "ok": true,
+  "src": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/2108/04/c2/273521032_1628052626848.jpg",
+  "w": 4567,
+  "h": 2570,
+  "bytes": 153915,
+  "name": "悬壁长城",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_diyidun",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/100s0b0000005zh8v2AE2.jpg",
+  "w": 800,
+  "h": 534,
+  "bytes": 68881,
+  "name": "长城第一墩",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_yanzhi",
+  "ok": true,
+  "src": "https://nginx-sdx.xgsyun.com/sdx/site1/pad/pic/202509/30/6d10ec0d-849b-46d6-b9a6-90e688208a15.png",
+  "w": 1920,
+  "h": 1080,
+  "bytes": 123382,
+  "name": "焉支山",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_mogaoku",
+  "ok": true,
+  "src": "http://youimg1.c-ctrip.com/target/1005060000001sw6v2148.jpg",
+  "w": 3936,
+  "h": 2624,
+  "bytes": 109249,
+  "name": "莫高窟",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_weijinmu",
+  "ok": true,
+  "src": "https://x0.ifengimg.com/ucms/2021_09/1B2926D783EA085C0D1EE2672BCD5218917A3C26_size106_w1000_h667.jpg",
+  "w": 1000,
+  "h": 667,
+  "bytes": 92459,
+  "name": "魏晋墓 · 地下画廊",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_jiayuguan",
+  "ok": true,
+  "src": "http://www.oct-cts.com/images/up_scenery/UploadImage/38177/largeImg/20190324103006b5-20b.jpg",
+  "w": 1920,
+  "h": 1066,
+  "bytes": 78445,
+  "name": "嘉峪关关城",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_mingsha",
+  "ok": true,
+  "src": "http://seopic.699pic.com/photo/50023/7531.jpg_wh1200.jpg",
+  "w": 1200,
+  "h": 800,
+  "bytes": 120609,
+  "name": "鸣沙山 · 月牙泉",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_yangguan",
+  "ok": true,
+  "src": "http://vip-public.people.com.cn/photo/2025/10/14/b1277cf0eecd4c7bb999c2d3947b15b4mSYc_l.jpg",
+  "w": 1024,
+  "h": 576,
+  "bytes": 154954,
+  "name": "阳关",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_yumen",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/100g0g0000007q2os6763.jpg",
+  "w": 1280,
+  "h": 854,
+  "bytes": 94453,
+  "name": "玉门关",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_yadan",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinakd20112/0/w1440h960/20200507/e30d-iteyfww0263336.jpg",
+  "w": 1440,
+  "h": 960,
+  "bytes": 93759,
+  "name": "雅丹魔鬼城",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_xiqianfo",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinacn20190703s/797/w1934h1263/20190703/7762-hzfekep5990568.jpg",
+  "w": 1934,
+  "h": 1263,
+  "bytes": 179112,
+  "name": "西千佛洞",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_shazhou",
+  "ok": true,
+  "src": "http://5b0988e595225.cdn.sohucs.com/images/20190611/bdd516d4b3ec40b8ab0a4b71229f431c.jpeg",
+  "w": 960,
+  "h": 640,
+  "bytes": 130503,
+  "name": "沙州夜市",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_bafang",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinacn20100/320/w1200h720/20190723/6719-iaantfi8596028.jpg",
+  "w": 1200,
+  "h": 720,
+  "bytes": 143399,
+  "name": "八坊十三巷",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_bingling",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/0103z1200080xnugv2526.jpg",
+  "w": 1440,
+  "h": 1080,
+  "bytes": 167619,
+  "name": "炳灵寺石窟",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_shengrong",
+  "ok": true,
+  "src": "http://img.pconline.com.cn/images/upload/upc/tx/photoblog/1308/11/c3/24362351_24362351_1376194946262.jpg",
+  "w": 2660,
+  "h": 1717,
+  "bytes": 153640,
+  "name": "御山峡圣容寺",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_lijian",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/0101s120006pp36q5E21D_W_10000_1200.jpg?proc=autoorient",
+  "w": 1600,
+  "h": 1200,
+  "bytes": 210424,
+  "name": "骊靬古城",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_liujiaxia",
+  "ok": true,
+  "src": "http://www.gscn.com.cn/pic/003/013/773/00301377346_0dd7a99b.jpg",
+  "w": 1000,
+  "h": 664,
+  "bytes": 124311,
+  "name": "刘家峡黄河三峡",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_songming",
+  "ok": true,
+  "src": "https://x0.ifengimg.com/ucms/2022_20/68E7410CA099CE0A724906752D703DAED47687FA_size189_w1080_h680.jpg",
+  "w": 1080,
+  "h": 680,
+  "bytes": 163669,
+  "name": "松鸣岩",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_sangke",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinakd10116/701/w985h516/20200730/eb74-iwxpesy3500036.jpg",
+  "w": 985,
+  "h": 516,
+  "bytes": 89537,
+  "name": "桑科草原",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_huashiguan",
+  "ok": true,
+  "src": "https://x0.ifengimg.com/ucms/2024_36/74AE29379D56CCB5611B71B8A0B904080BB7561C_size57_w864_h486.jpg",
+  "w": 864,
+  "h": 486,
+  "bytes": 55688,
+  "name": "和政古动物化石博物馆",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_labuleng",
+  "ok": true,
+  "src": "https://p1.ssl.qhimg.com/t0138e05eed6b561f5a.jpg",
+  "w": 750,
+  "h": 500,
+  "bytes": 91487,
+  "name": "拉卜楞寺",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_zhagana",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinacn20106/300/w1620h1080/20190222/60d7-htknpmh2438974.jpg",
+  "w": 1620,
+  "h": 1080,
+  "bytes": 159031,
+  "name": "扎尕那",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_langmu",
+  "ok": true,
+  "src": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g5/M00/0A/07/ChMkJ1tDM1WISU5HAANytmt-oigAApkRwDHd44AA3LO009.jpg",
+  "w": 1024,
+  "h": 683,
+  "bytes": 142786,
+  "name": "郎木寺",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_zezha",
+  "ok": true,
+  "src": "http://www.gnzrmzf.gov.cn/__local/5/7D/59/26BABC6B42B27CDA50D4DAAB5CF_C39E5E40_743D7.jpg",
+  "w": 2254,
+  "h": 1080,
+  "bytes": 138899,
+  "name": "则岔石林",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_yeliguan",
+  "ok": true,
+  "src": "http://www.gnzrmzf.gov.cn/__local/C/3B/D2/8BD0EA8059A0F487A038777965D_D2287F0B_2B8E4.jpg?e=.jpg",
+  "w": 900,
+  "h": 673,
+  "bytes": 112214,
+  "name": "冶力关",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_milariba",
+  "ok": true,
+  "src": "https://tr-osdcp.qunarzz.com/tr-osd-tr-mapi/img/816a3b717a555448a2b7fd63afc3faca.jpg",
+  "w": 3648,
+  "h": 2736,
+  "bytes": 141774,
+  "name": "米拉日巴佛阁",
+  "route": "gansu"
+ },
+ {
+  "slug": "gs_gahai",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/100w1900000166cjb6163.jpg",
+  "w": 1200,
+  "h": 800,
+  "bytes": 67246,
+  "name": "尕海湖",
+  "route": "gansu"
+ },
+ {
+  "slug": "qh_qhbw",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/100f0d0000006u11v7E53.jpg",
+  "w": 1278,
+  "h": 883,
+  "bytes": 115471,
+  "name": "青海省博物馆",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_dangeer",
+  "ok": true,
+  "src": "http://youimg1.c-ctrip.com/target/100u0700000028yxuE365.jpg",
+  "w": 1200,
+  "h": 900,
+  "bytes": 158631,
+  "name": "丹噶尔古城",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_riyue",
+  "ok": true,
+  "src": "https://img1.qunarzz.com/travel/poi/1501/96/e9b84d3d463dea.jpg_r_1024x683x95_155e2758.jpg",
+  "w": 1024,
+  "h": 683,
+  "bytes": 84292,
+  "name": "日月山",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_laoye",
+  "ok": true,
+  "src": "https://www.wasaitrip.com/uploadfile/2023/1023/20231023193901171.jpg",
+  "w": 800,
+  "h": 547,
+  "bytes": 119012,
+  "name": "老爷山",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_zangbw",
+  "ok": true,
+  "src": "https://picx.zhimg.com/v2-363f9759f531fa74a68f5f1642bc49e0_r.jpg?source=1def8aca",
+  "w": 1336,
+  "h": 886,
+  "bytes": 122867,
+  "name": "青海藏文化博物院",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_liuwan",
+  "ok": true,
+  "src": "http://p3.itc.cn/q_70/images03/20201202/d4b3079ad33d4bfe893e7675afdb5c7a.jpeg",
+  "w": 1080,
+  "h": 720,
+  "bytes": 112320,
+  "name": "柳湾遗址",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_qutan",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinacn20/215/w2048h1367/20181019/3eaa-hmrasqs6847317.jpg",
+  "w": 2048,
+  "h": 1367,
+  "bytes": 241084,
+  "name": "瞿昙寺",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_mengda",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinacn01/500/w769h531/20180906/032f-hitesuy8581301.jpg",
+  "w": 769,
+  "h": 531,
+  "bytes": 42007,
+  "name": "孟达天池",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_huzhu",
+  "ok": true,
+  "src": "https://flight-feed.qunarzz.com/as3/180/image/poi_vishnu/498b9fa0-e8de-440a-8e92-c3c6d1844db6.jpg",
+  "w": 900,
+  "h": 600,
+  "bytes": 95066,
+  "name": "互助北山国家森林公园",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_jinyintan",
+  "ok": true,
+  "src": "http://m.tuniucdn.com/fb2/t1/G2/M00/23/91/Cii-T1iv8NuISZqAAAQMpNGtatsAAHjmgLHA6sABAy8829_w640_h480_c1_t0.jpg",
+  "w": 640,
+  "h": 480,
+  "bytes": 63516,
+  "name": "金银滩草原",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_qinghaihu",
+  "ok": true,
+  "src": "http://p0.itc.cn/images01/20201104/0e8309747a474c0bb3cc3252dbc5e752.jpeg",
+  "w": 3846,
+  "h": 2164,
+  "bytes": 86355,
+  "name": "青海湖",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_menyuan",
+  "ok": true,
+  "src": "http://img.pconline.com.cn/images/upload/upc/tx/itbbs/1808/06/c16/101491165_1533535410976.jpg",
+  "w": 1000,
+  "h": 667,
+  "bytes": 196202,
+  "name": "门源百里油菜花海",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_zhuoer",
+  "ok": true,
+  "src": "https://pic3.zhimg.com/v2-60ee414e1c47f0099bc63c6b7d5f569e_r.jpg",
+  "w": 4032,
+  "h": 3024,
+  "bytes": 146812,
+  "name": "卓尔山",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_taer",
+  "ok": true,
+  "src": "https://picb.zhimg.com/v2-5ad67ff407ce061be8b27f5953cfb346_r.jpg",
+  "w": 1024,
+  "h": 682,
+  "bytes": 117746,
+  "name": "塔尔寺",
+  "route": "qinghai"
+ },
+ {
+  "slug": "gs_shouqu",
+  "ok": true,
+  "src": "http://www.gnzrmzf.gov.cn/__local/1/39/B0/05072928066AA09B61407EB39AE_C90953B5_127C93.jpg",
+  "w": 3200,
+  "h": 1762,
+  "bytes": 129578,
+  "name": "玛曲黄河首曲",
+  "route": "gansu"
+ },
+ {
+  "slug": "qh_yuanzicheng",
+  "ok": true,
+  "src": "http://www.qhnews.com/pic/003/001/271/00300127103_d2343fa9.jpg",
+  "w": 1438,
+  "h": 804,
+  "bytes": 96987,
+  "name": "原子城",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_dongguan",
+  "ok": true,
+  "src": "http://youimg1.c-ctrip.com/target/fd/tg/g2/M00/95/FB/Cghzf1Ur6PyAG7qAABT4qxYhCF8202.jpg",
+  "w": 3043,
+  "h": 2282,
+  "bytes": 140987,
+  "name": "东关清真大寺",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_arou",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/10051700000117kuh9D1D.jpg",
+  "w": 1920,
+  "h": 1280,
+  "bytes": 85557,
+  "name": "阿柔大寺",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_daban",
+  "ok": true,
+  "src": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/2008/26/c1/227531735_1598409850149_mthumb.jpg",
+  "w": 708,
+  "h": 633,
+  "bytes": 90802,
+  "name": "达坂山",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_regon",
+  "ok": true,
+  "src": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1507/19/c7/9955103_9955103_1437292850303.jpg",
+  "w": 1417,
+  "h": 1087,
+  "bytes": 105093,
+  "name": "热贡艺术村（吾屯 · 年都乎）",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_longwu",
+  "ok": true,
+  "src": "https://x0.ifengimg.com/ucms/2021_44/67BB5F1A073C3364C2D8B52A3DEEF3AAF7744CD1_size371_w1080_h1275.jpg",
+  "w": 1080,
+  "h": 1275,
+  "bytes": 245923,
+  "name": "隆务寺",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_longyang",
+  "ok": true,
+  "src": "https://imgs.699pic.com/images/700/816/667.jpg!detail.v1",
+  "w": 1000,
+  "h": 667,
+  "bytes": 120652,
+  "name": "龙羊峡",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_guide",
+  "ok": true,
+  "src": "https://pic.nximg.cn/file/20231212/19433707_102434884126_2.jpg",
+  "w": 1024,
+  "h": 593,
+  "bytes": 140546,
+  "name": "贵德 · 阿什贡七彩峰丛",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_saizong",
+  "ok": true,
+  "src": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g7/M00/00/04/ChMkK2MOqROIEuMUAARFZPvN-K8AAHArgNcPl4ABEV8584.jpg",
+  "w": 1200,
+  "h": 785,
+  "bytes": 133003,
+  "name": "赛宗寺",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_amnye",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinakd2021418s/0/w1024h576/20210418/1c0c-knvsnuh3324465.jpg",
+  "w": 1024,
+  "h": 576,
+  "bytes": 92456,
+  "name": "阿尼玛卿雪山",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_nianbao",
+  "ok": true,
+  "src": "https://hellorfimg.zcool.cn/provider_image/large/2236909846.jpg",
+  "w": 1500,
+  "h": 958,
+  "bytes": 152809,
+  "name": "年保玉则",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_sanjiang",
+  "ok": true,
+  "src": "https://p1.ssl.qhimg.com/t01f4c1b708048aa815.jpg",
+  "w": 900,
+  "h": 597,
+  "bytes": 56086,
+  "name": "三江源纪念碑 · 通天河",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_gesal",
+  "ok": true,
+  "src": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1410/17/c3/39801741_39801741_1413560592711.jpg",
+  "w": 1024,
+  "h": 1024,
+  "bytes": 156447,
+  "name": "格萨尔狮龙宫殿",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_jiegu",
+  "ok": true,
+  "src": "http://img.pconline.com.cn/images/upload/upc/tx/photoblog/2207/27/c1/326087794_1658929874708.jpg",
+  "w": 1200,
+  "h": 800,
+  "bytes": 127706,
+  "name": "结古寺",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_kanbula",
+  "ok": true,
+  "src": "http://www.qhnews.com/pic/003/001/785/00300178507_80d4b8c2.jpg",
+  "w": 1599,
+  "h": 805,
+  "bytes": 129289,
+  "name": "坎布拉国家地质公园",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_zhaling",
+  "ok": true,
+  "src": "http://img.pconline.com.cn/images/upload/upc/tx/itbbs/1901/06/c14/127181759_1546760245074.jpg",
+  "w": 1500,
+  "h": 993,
+  "bytes": 98270,
+  "name": "扎陵湖 · 鄂陵湖",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_kekexili",
+  "ok": true,
+  "src": "http://vip-public.people.com.cn/photo/2024/7/2/8c7ecd57f195444ba2af512dda4e92b7oUkR_m.jpg",
+  "w": 800,
+  "h": 533,
+  "bytes": 74895,
+  "name": "可可西里 · 索南达杰保护站",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_wencheng",
+  "ok": true,
+  "src": "https://img1.qunarzz.com/travel/d3/1708/58/a2e263c6b6b1d8b5.jpg",
+  "w": 2100,
+  "h": 1575,
+  "bytes": 134693,
+  "name": "文成公主庙 · 勒巴沟",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_chaerhan",
+  "ok": true,
+  "src": "http://pic.people.com.cn/NMediaFile/2025/1013/MAIN17603166481527AX76KP414.jpg",
+  "w": 1024,
+  "h": 737,
+  "bytes": 129024,
+  "name": "察尔汗盐湖",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_chaka",
+  "ok": true,
+  "src": "https://c-ssl.duitang.com/uploads/item/202005/09/20200509154038_8u3Vi.jpeg",
+  "w": 1600,
+  "h": 1052,
+  "bytes": 108093,
+  "name": "茶卡盐湖",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_feicui",
+  "ok": true,
+  "src": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g6/M00/0D/0F/ChMkKWHs0pOIamW0AARq9IV4kzEAAX2sQKaDrUABGsM380.jpg",
+  "w": 1200,
+  "h": 801,
+  "bytes": 143646,
+  "name": "大柴旦翡翠湖",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_dongtai",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinacn/w1600h1067/20180104/b46f-fyqincu0056381.jpg",
+  "w": 1600,
+  "h": 1067,
+  "bytes": 98168,
+  "name": "东台吉乃尔湖",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_mani",
+  "ok": true,
+  "src": "https://img.pconline.com.cn/images/upload/upc/tx/itbbs/1901/24/c24/129775896_1548336285702.jpg",
+  "w": 1500,
+  "h": 993,
+  "bytes": 182072,
+  "name": "嘉那玛尼石城",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_kunlun",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinakd20220709ac/201/w1080h721/20220709/eb66-2b068071eb6561d3babb87dad586be4e.jpg",
+  "w": 1080,
+  "h": 721,
+  "bytes": 149129,
+  "name": "昆仑山口",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_yadan",
+  "ok": true,
+  "src": "http://img.pconline.com.cn/images/upload/upc/tx/photoblog/2105/16/c0/265026500_1621126402387.jpg",
+  "w": 2001,
+  "h": 1334,
+  "bytes": 90938,
+  "name": "乌素特水上雅丹",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_keluke",
+  "ok": true,
+  "src": "http://s3.xchuxing.com/xchuxing/article/2023/11/02/2d1bf2023110215531063.jpg",
+  "w": 1920,
+  "h": 1440,
+  "bytes": 131399,
+  "name": "可鲁克湖 · 托素湖",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_haizi",
+  "ok": true,
+  "src": "https://img1.qunarzz.com/travel/d7/1809/8d/617e067c4d5b22b5.jpg_600x600x70_2aac9fba.jpg",
+  "w": 600,
+  "h": 600,
+  "bytes": 72767,
+  "name": "海子诗歌馆 · 德令哈",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_gaaer",
+  "ok": true,
+  "src": "https://tr-osdcp.qunarzz.com/tr-osd-tr-mapi/img/5b30c2ae73466425cd1cde5d44e94d11.jpg_r_680x510x95_9fc89855.jpg",
+  "w": 680,
+  "h": 510,
+  "bytes": 55326,
+  "name": "尕尔寺",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_labu",
+  "ok": true,
+  "src": "http://p0.itc.cn/images01/20201009/c3d62391c5e04ac4a5961bcf968f2a99.jpeg",
+  "w": 1024,
+  "h": 768,
+  "bytes": 148052,
+  "name": "拉布寺",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_reshui",
+  "ok": true,
+  "src": "https://img2.voc.com.cn/2023/03/22/7d7e0348a9263670dbd498c111d34b85657f2ecf1679471702.jpg",
+  "w": 930,
+  "h": 620,
+  "bytes": 119643,
+  "name": "都兰热水吐蕃大墓",
+  "route": "qinghai"
+ },
+ {
+  "slug": "qh_xingxiu",
+  "ok": true,
+  "src": "https://imgs.qunarzz.com/sight/p53/201211/05/d187e2b62016a36893835fbb.jpg_750x500_175334b1.jpg",
+  "w": 750,
+  "h": 500,
+  "bytes": 64921,
+  "name": "星宿海",
+  "route": "qinghai"
+ },
+ {
+  "slug": "xz_budala",
+  "ok": true,
+  "src": "http://www.oct-cts.com/images/up_scenery/UploadImage/39237/largeImg/201903240334c8e9-7f2.jpg",
+  "w": 1920,
+  "h": 1066,
+  "bytes": 102720,
+  "name": "布达拉宫",
+  "route": "tibet"
+ },
+ {
+  "slug": "qh_huyang",
+  "ok": true,
+  "src": "http://5b0988e595225.cdn.sohucs.com/images/20180609/0276c85cf55b409ca9eaca082ad1265c.jpeg",
+  "w": 1080,
+  "h": 639,
+  "bytes": 120363,
+  "name": "格尔木胡杨林",
+  "route": "qinghai"
+ },
+ {
+  "slug": "xz_dazhao",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinacn/w1920h1234/20180218/68d6-fyrswmt9517481.jpg",
+  "w": 1920,
+  "h": 1234,
+  "bytes": 141575,
+  "name": "大昭寺",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_bakuo",
+  "ok": true,
+  "src": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1507/04/c12/9311200_9311200_1436022376821.jpg",
+  "w": 4752,
+  "h": 3168,
+  "bytes": 89647,
+  "name": "八廓街转经道",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_luobulin",
+  "ok": true,
+  "src": "https://rs-channel.huanqiucdn.cn/imageDir/0865a58f890b5a4f51c00623ec08793bu5.jpg",
+  "w": 1024,
+  "h": 683,
+  "bytes": 124953,
+  "name": "罗布林卡",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_sela",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinacn20122/384/w2048h1536/20190408/1866-hvhrcxn2783684.jpg",
+  "w": 2048,
+  "h": 1536,
+  "bytes": 211349,
+  "name": "色拉寺",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_zhebang",
+  "ok": true,
+  "src": "https://pic3.zhimg.com/v2-6347715d579719271c74500ed5f87ca2_r.jpg",
+  "w": 5210,
+  "h": 3874,
+  "bytes": 154109,
+  "name": "哲蚌寺",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_gandan",
+  "ok": true,
+  "src": "https://www.tibetway.com/assets/images/gandan-monastery/gandansi-b-850.jpg",
+  "w": 850,
+  "h": 540,
+  "bytes": 102415,
+  "name": "甘丹寺",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_xzbw",
+  "ok": true,
+  "src": "http://m.app.china.com.cn/pic/2025-07/17/117982089_a0e09233-23c0-4be3-addc-fee5fe25202e.jpg",
+  "w": 6240,
+  "h": 4160,
+  "bytes": 125945,
+  "name": "西藏博物馆",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_yaowang",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/10021b000001b6fgr2E98.jpg",
+  "w": 1920,
+  "h": 1440,
+  "bytes": 114509,
+  "name": "药王山观景台",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_namtso",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinacn/20171101/2a30-fynhhaz0971315.jpg",
+  "w": 1600,
+  "h": 1000,
+  "bytes": 91337,
+  "name": "纳木错",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_shengxiang",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinakd20211122s/609/w2048h961/20211122/1ded-b1311ee9e054663e3f2ddbedeb8568dd.jpg",
+  "w": 2048,
+  "h": 961,
+  "bytes": 174392,
+  "name": "圣象天门",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_tashi",
+  "ok": true,
+  "src": "https://www.wasaitrip.com/uploadfile/2023/1020/20231020233105565.jpg",
+  "w": 800,
+  "h": 534,
+  "bytes": 111464,
+  "name": "扎什伦布寺",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_sakya",
+  "ok": true,
+  "src": "https://pic.57tibet.com/images/attraction/sakay-monastery3.jpg",
+  "w": 700,
+  "h": 496,
+  "bytes": 45838,
+  "name": "萨迦寺",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_rongbuk",
+  "ok": true,
+  "src": "https://am.zdmimg.com/202503/21/67dcc608b41da9406.jpg_e1080.jpg",
+  "w": 1080,
+  "h": 720,
+  "bytes": 135444,
+  "name": "绒布寺",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_karola",
+  "ok": true,
+  "src": "https://img1.qunarzz.com/travel/d8/1605/bb/bd138b52d44d9bf7.jpg",
+  "w": 1600,
+  "h": 1102,
+  "bytes": 143190,
+  "name": "卡若拉冰川",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_baiju",
+  "ok": true,
+  "src": "https://img95.699pic.com/photo/50154/6838.jpg_wh860.jpg",
+  "w": 860,
+  "h": 573,
+  "bytes": 150178,
+  "name": "白居寺",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_zhufeng",
+  "ok": true,
+  "src": "https://p6.itc.cn/q_70/images01/20211125/cf66d0c84d4f4a3783a438b4528ea49f.jpeg",
+  "w": 1024,
+  "h": 681,
+  "bytes": 80519,
+  "name": "珠穆朗玛峰大本营",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_yongbu",
+  "ok": true,
+  "src": "http://img.pconline.com.cn/images/upload/upc/tx/photoblog/1209/29/c7/14208374_14208374_1348915494156.jpg",
+  "w": 1000,
+  "h": 671,
+  "bytes": 151356,
+  "name": "雍布拉康",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_jiangzi",
+  "ok": true,
+  "src": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1210/28/c5/14734774_14734774_1351416822262.jpg",
+  "w": 1015,
+  "h": 677,
+  "bytes": 132892,
+  "name": "江孜宗山古堡",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_peiku",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/0105c120000lyfb3hBE4E.jpg",
+  "w": 2262,
+  "h": 1071,
+  "bytes": 90735,
+  "name": "佩枯错",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_changzhu",
+  "ok": true,
+  "src": "https://pic4.zhimg.com/v2-461f2f0f2471e5888528e88084e78ca1_r.jpg",
+  "w": 5184,
+  "h": 3456,
+  "bytes": 105858,
+  "name": "昌珠寺",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_samye",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/1A0215000000xdou82545_W_10000_1200.jpg?proc=autoorient",
+  "w": 1800,
+  "h": 1200,
+  "bytes": 104891,
+  "name": "桑耶寺",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_zangwang",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/100q0h0000008vjl00F89.jpg",
+  "w": 1280,
+  "h": 960,
+  "bytes": 144058,
+  "name": "藏王墓",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_lamla",
+  "ok": true,
+  "src": "http://images1.aoyou.com/productlist/201310/f4l2ft10141844.jpg",
+  "w": 1440,
+  "h": 1080,
+  "bytes": 170115,
+  "name": "拉姆拉错",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_yadong",
+  "ok": true,
+  "src": "https://so1.360tres.com/t01214bd9066b3349c0.jpg",
+  "w": 960,
+  "h": 640,
+  "bytes": 150291,
+  "name": "亚东沟",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_lebu",
+  "ok": true,
+  "src": "https://pic1.zhimg.com/v2-dfdc54535b604474d1a91950775e46e8_r.jpg?source=172ae18b",
+  "w": 1620,
+  "h": 1080,
+  "bytes": 101700,
+  "name": "勒布沟",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_yamdrok",
+  "ok": true,
+  "src": "https://pic3.zhimg.com/v2-b3355c7afbd8f13163be07dbf99c0ade_r.jpg",
+  "w": 1120,
+  "h": 1120,
+  "bytes": 181385,
+  "name": "羊卓雍错",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_daxiagu",
+  "ok": true,
+  "src": "https://rs-channel.huanqiucdn.cn/imageDir/d0624a6677985f5ca2dff9f56dc3687cu5.jpg",
+  "w": 2048,
+  "h": 1366,
+  "bytes": 179579,
+  "name": "雅鲁藏布大峡谷",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_qingpu",
+  "ok": true,
+  "src": "http://img.pconline.com.cn/images/upload/upc/tx/photoblog/1210/11/c18/14378917_14378917_1349966574890.jpg",
+  "w": 1000,
+  "h": 694,
+  "bytes": 166552,
+  "name": "青朴修行地",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_nanjia",
+  "ok": true,
+  "src": "https://so1.360tres.com/t01517830cec699b6f8.jpg",
+  "w": 1000,
+  "h": 659,
+  "bytes": 117290,
+  "name": "南迦巴瓦峰",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_basong",
+  "ok": true,
+  "src": "https://n.sinaimg.cn/sinacn20121/799/w1920h1279/20190330/c80f-huxwryw3512546.jpg",
+  "w": 1920,
+  "h": 1279,
+  "bytes": 91398,
+  "name": "巴松错",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_lulang",
+  "ok": true,
+  "src": "https://img1.qunarzz.com/travel/d1/1704/99/b4788e0c3936c4b5.jpg",
+  "w": 1680,
+  "h": 1120,
+  "bytes": 146266,
+  "name": "鲁朗林海 · 国际小镇",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_sejila",
+  "ok": true,
+  "src": "https://img95.699pic.com/photo/50119/6169.jpg_wh860.jpg",
+  "w": 860,
+  "h": 573,
+  "bytes": 168326,
+  "name": "色季拉山",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_midui",
+  "ok": true,
+  "src": "http://xz.people.com.cn/NMediaFile/2025/0321/LOCAL1742538823755BBM9SVGNWF.jpg",
+  "w": 1267,
+  "h": 714,
+  "bytes": 135325,
+  "name": "米堆冰川",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_ranwu",
+  "ok": true,
+  "src": "https://img95.699pic.com/photo/50132/0081.jpg_wh860.jpg",
+  "w": 860,
+  "h": 571,
+  "bytes": 176651,
+  "name": "然乌湖",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_laigu",
+  "ok": true,
+  "src": "http://n.sinaimg.cn/sinakd20241220s/750/w930h620/20241220/6766-68676636d38802a4086252a24555e379.jpg",
+  "w": 930,
+  "h": 620,
+  "bytes": 118909,
+  "name": "来古冰川",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_nanyi",
+  "ok": true,
+  "src": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1405/16/c2/34309902_34309902_1400251355517.jpg",
+  "w": 1103,
+  "h": 734,
+  "bytes": 163141,
+  "name": "南伊沟",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_taohua",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/100g10000000phljoE3CE_W_10000_1200.jpg?proc=autoorient",
+  "w": 1797,
+  "h": 1200,
+  "bytes": 160962,
+  "name": "嘎拉桃花村",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_motuo",
+  "ok": true,
+  "src": "http://www.tibetcti.com/Attachments/userfiles/image/20170110/20170110203149_64345.jpg",
+  "w": 925,
+  "h": 638,
+  "bytes": 146575,
+  "name": "墨脱",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_72guai",
+  "ok": true,
+  "src": "https://tr-osdcp.qunarzz.com/tr-osd-tr-space/img/125889e380e1cedb9c5e4ef7d097ec67.jpg",
+  "w": 2047,
+  "h": 1366,
+  "bytes": 141334,
+  "name": "怒江七十二拐",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_qiangba",
+  "ok": true,
+  "src": "https://pic1.zhimg.com/v2-2e38e23f2b38e153ead9c7ee3db82ac8_r.jpg",
+  "w": 2048,
+  "h": 1400,
+  "bytes": 157619,
+  "name": "强巴林寺",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_yanjing",
+  "ok": true,
+  "src": "http://pic.people.com.cn/NMediaFile/2025/0726/MAIN1753492714723MEKFP1EZVD.jpg",
+  "w": 1024,
+  "h": 576,
+  "bytes": 188600,
+  "name": "芒康盐井古盐田",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_karuo",
+  "ok": true,
+  "src": "http://www.zhongguociwang.com/upload/2021-03/21032612418659.jpg",
+  "w": 680,
+  "h": 575,
+  "bytes": 105225,
+  "name": "卡若遗址",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_zizhu",
+  "ok": true,
+  "src": "https://p1.ssl.qhimg.com/t01aed5a8c22ea9c174.jpg",
+  "w": 1464,
+  "h": 1430,
+  "bytes": 226083,
+  "name": "孜珠寺",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_dangra",
+  "ok": true,
+  "src": "http://vip-public.people.com.cn/photo/2024/8/23/1a65b8be24bd40fe8a3beef51b2e0389hUgG_m.jpg",
+  "w": 800,
+  "h": 599,
+  "bytes": 78190,
+  "name": "当惹雍错",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_selin",
+  "ok": true,
+  "src": "https://so1.360tres.com/t013f5ac8826874fa17.jpg",
+  "w": 1200,
+  "h": 800,
+  "bytes": 72991,
+  "name": "色林错",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_sapu",
+  "ok": true,
+  "src": "http://vip-public.people.com.cn/photo/2021/9/18/d8b3f925ce3d4f92961a2182a0d6fe49BDYK_m.jpg",
+  "w": 800,
+  "h": 533,
+  "bytes": 70655,
+  "name": "萨普神山",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_kulou",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/100v0v000000k0rmg064C.jpg",
+  "w": 1280,
+  "h": 854,
+  "bytes": 117369,
+  "name": "比如骷髅墙",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_gangren",
+  "ok": true,
+  "src": "https://wlt.xizang.gov.cn/xccx/lytg/202507/W020250728366402285176.jpg",
+  "w": 1080,
+  "h": 1080,
+  "bytes": 188521,
+  "name": "冈仁波齐",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_laang",
+  "ok": true,
+  "src": "https://www.57tibet.com/skin/57tibet/images/titlepic/newstext28.jpg",
+  "w": 888,
+  "h": 590,
+  "bytes": 76814,
+  "name": "拉昂错",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_guge",
+  "ok": true,
+  "src": "https://clubimg.club.vmall.com/pic/2017/10/30/ebdb41b758bf162c9e9501e263636133_IMG_20170930_094248-01-01.jpeg?mode=downl",
+  "w": 2267,
+  "h": 1280,
+  "bytes": 156865,
+  "name": "古格王朝遗址",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_mapang",
+  "ok": true,
+  "src": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/2106/21/c0/268899754_1624236636706.jpg",
+  "w": 8256,
+  "h": 5504,
+  "bytes": 94816,
+  "name": "玛旁雍错",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_bangong",
+  "ok": true,
+  "src": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1212/20/c4/16750982_16750982_1355987529155.jpg",
+  "w": 1020,
+  "h": 680,
+  "bytes": 161381,
+  "name": "班公错",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_ritu",
+  "ok": true,
+  "src": "https://wlt.xizang.gov.cn/xccx/lytg/202104/W020210423374756208737.jpg",
+  "w": 1080,
+  "h": 720,
+  "bytes": 197797,
+  "name": "日土岩画",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_shiquanhe",
+  "ok": true,
+  "src": "http://puui.qpic.cn/vpic_cover/o3224cr5eth/o3224cr5eth_hz.jpg/1280",
+  "w": 1280,
+  "h": 720,
+  "bytes": 101529,
+  "name": "狮泉河",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_zhada",
+  "ok": true,
+  "src": "https://img1.qunarzz.com/travel/d8/1605/19/2322fc0198e558f7.jpg",
+  "w": 1600,
+  "h": 914,
+  "bytes": 120102,
+  "name": "扎达土林",
+  "route": "tibet"
+ },
+ {
+  "slug": "xz_tuolin",
+  "ok": true,
+  "src": "https://youimg1.c-ctrip.com/target/10070m000000dydi20EE0.jpg",
+  "w": 1280,
+  "h": 960,
+  "bytes": 115659,
+  "name": "托林寺",
+  "route": "tibet"
+ }
+]

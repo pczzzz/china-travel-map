@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>线路详情｜环中国 · 黄金大外环</title>
+<meta name="description" content="G331/G219/G228 三条环线与 G318/G317/G214/G217/G315/G108 六条知名国道的线路详情：里程、分段、站点全表、亮点与注意事项。" />
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+<link rel="stylesheet" href="assets/leaflet/leaflet.css" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="assets/css/v2.css" />
+<link rel="manifest" href="manifest.webmanifest" />
+<meta name="theme-color" content="#14212B" />
+<link rel="apple-touch-icon" href="assets/pwa/apple-touch-icon.png" />
+<script src="assets/js/pwa.js" defer></script>
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">旅</span>
+    <span class="brand-txt">中国旅行地图<em>国道 · 省份 · 主题</em></span>
+  </a>
+  <nav class="nav" id="mainnav"></nav>
+  <a class="btn btn-ghost btn-sm" href="favorites.html?tab=visited" id="navVisited" title="查看我的已去清单">已去 0</a>
+</header>
+
+<section class="rhero" id="rhero">
+  <div class="bg" id="rBg"></div>
+  <div class="msk"></div>
+  <div class="in wrap">
+    <div class="cd" id="rCode">G331</div>
+    <h1 id="rTitle">加载中…</h1>
+    <div class="tg" id="rTag"></div>
+    <div class="stats" id="rStats"></div>
+    <div class="racts" id="rActs"></div>
+  </div>
+</section>
+
+<section class="sec sec-tight" id="overview">
+  <div class="wrap">
+    <div class="statbar" id="rStat"></div>
+    <div class="rlayout">
+      <div class="rmain">
+        <section class="panel"><div class="panel-h"><h3>线路概况</h3></div>
+          <div class="panel-b" id="rIntro"></div></section>
+        <section class="panel"><div class="panel-h"><h3>亮点看点</h3><span class="n" id="rHighN"></span></div>
+          <div class="panel-b" id="rHigh"></div></section>
+        <section class="panel"><div class="panel-h"><h3>驾驶与季节提示</h3></div>
+          <div class="panel-b" id="rTips"></div></section>
+        <section class="panel"><div class="panel-h"><h3>站点全表</h3>
+          <span class="n" id="rTblN"></span></div>
+          <div class="panel-b" id="rTblTools"></div>
+          <div class="tblwrap"><table class="ntbl" id="ntbl"></table></div></section>
+      </div>
+      <aside class="rside">
+        <section class="panel"><div class="panel-h"><h3>分段（按省）</h3><span class="n" id="rSecN"></span></div>
+          <div class="panel-b" id="rSecs" style="padding:12px 16px"></div></section>
+        <section class="panel"><div class="panel-h"><h3>六类挂载点</h3></div>
+          <div class="panel-b" id="rCats"></div></section>
+        <section class="panel"><div class="panel-h"><h3>切换线路</h3></div>
+          <div class="panel-b" id="rSwitch"></div></section>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-tight" id="mapsec">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">线路地图</div>
+        <h2 id="mapTitle">线路路书地图</h2>
+      </div>
+      <div class="right">
+        <button class="btn btn-line btn-sm" id="btnFit">全览本线</button>
+        <a class="btn btn-primary btn-sm" id="btnPlan" href="plan.html">按这条线排行程</a>
+      </div>
+    </div>
+    <div class="workspace tall">
+      <aside class="sidebar" id="sidebar"></aside>
+      <div class="mapwrap">
+        <div class="leaflet-map" id="map"></div>
+        <div class="map-tools">
+          <button class="mtool on" id="btnRoad">🗺 标准图</button>
+          <button class="mtool" id="btnSat">🛰 卫星图</button>
+        </div>
+        <div class="map-legend" id="legend"></div>
+        <div class="map-hint" id="hint"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="cp">
+      <span><a href="index.html">← 返回地图路书</a></span>
+      <span>© 2026 环中国路书 · 仅供个人旅行规划参考</span>
+      <span>里程为整理估算值，实际以导航与路牌为准</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/leaflet/leaflet.js"></script>
+<script src="assets/geo/china_provinces.js"></script>
+<script src="assets/geo/china_outline.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/prov_index.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/route.js"></script>
+</body>
+</html>

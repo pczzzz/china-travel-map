@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title id="pgTitle">主题路书｜中国旅行地图</title>
+<meta name="description" content="中国旅行地图 · 主题路书：跟着人民币、徐霞客、课本与神话去旅行，名山、名人、博物馆、水色与夏冰寒经典环线，每条主题都有站点、地图与季节建议。" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%2314212B'/%3E%3Cpath d='M16 5a11 11 0 1 0 0 22 11 11 0 0 0 0-22zm0 3.4a7.6 7.6 0 1 1 0 15.2 7.6 7.6 0 0 1 0-15.2z' fill='%23D98E2B'/%3E%3Ccircle cx='16' cy='16' r='3.4' fill='%23fff'/%3E%3C/svg%3E" />
+<link rel="stylesheet" href="assets/leaflet/leaflet.css" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="assets/css/v2.css" />
+<style>
+  /* ---- 主题页专属样式 ---- */
+  .th-hero-ic{display:inline-flex;align-items:center;justify-content:center;width:52px;height:52px;
+    border-radius:14px;color:#fff;font-size:26px;font-weight:800;margin-bottom:14px;box-shadow:var(--sh)}
+  .th-meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+  .th-meta .mchip{background:var(--bg2);border:1px solid var(--line);border-radius:18px;
+    padding:6px 13px;font-size:12.5px;color:var(--ink2)}
+  .th-meta .mchip b{color:var(--ink);margin-right:4px}
+  .th-src{margin-top:12px;font-size:12px;color:var(--muted)}
+  .th-back{display:inline-flex;align-items:center;gap:8px;font-size:15px;font-weight:700;
+    color:#fff;background:var(--cta);padding:11px 22px;border-radius:999px;margin-bottom:16px;
+    text-decoration:none;box-shadow:0 3px 12px rgba(217,142,43,.32);transition:.18s}
+  .th-back:hover{background:#c07e22;transform:translateY(-1px);box-shadow:0 5px 16px rgba(217,142,43,.4);text-decoration:none}
+  .th-back .ar{font-size:17px;line-height:1}
+  .tstops{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:16px}
+  .tstop{background:var(--bg2);border:1px solid var(--line);border-radius:var(--r-card);
+    overflow:hidden;display:flex;flex-direction:column;transition:.2s}
+  .tstop:hover{transform:translateY(-3px);box-shadow:var(--sh-h)}
+  .tstop .timg{height:150px;background-size:cover;background-position:center;position:relative;flex:0 0 auto}
+  .tstop .timg.none{display:flex;align-items:center;justify-content:center;font-size:40px;color:#fff;height:96px}
+  .tstop .tnum{position:absolute;left:12px;top:12px;width:30px;height:30px;border-radius:50%;
+    background:rgba(20,33,43,.82);color:#fff;font-weight:800;font-size:14px;
+    display:flex;align-items:center;justify-content:center;backdrop-filter:blur(4px)}
+  .tstop .tbody{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
+  .tstop .t1{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+  .tstop .t1 b{font-size:16.5px}
+  .tstop .t1 .tag{font-size:11px;font-weight:700;color:#fff;border-radius:10px;padding:2px 9px}
+  .tstop .prov{font-size:12px;color:var(--muted)}
+  .tstop .tst-d{font-size:13px;line-height:1.75;color:var(--ink2)}
+  .tstop .tst-ft{margin-top:auto;display:flex;gap:8px;align-items:center;padding-top:6px}
+  .tstop .stbtn{border:1px solid var(--line);background:#fff;border-radius:16px;padding:4px 12px;
+    font-size:12px;cursor:pointer;color:var(--ink2);transition:.15s}
+  .tstop .stbtn:hover{border-color:var(--cta);color:var(--cta)}
+  .tstop .stbtn.on{background:var(--cta);border-color:var(--cta);color:#fff}
+  .tipbox{background:linear-gradient(135deg,#FDF6EC,#F7EFE2);border:1px solid #EBD9BE;
+    border-radius:var(--r-card);padding:20px 24px}
+  .tipbox h3{font-size:16px;margin-bottom:10px;color:#8A5A2B}
+  .tipbox li{font-size:13.5px;line-height:1.9;color:var(--ink2);margin-left:18px}
+  .th-nav{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+  .th-nav a{flex:1;min-width:240px;background:var(--bg2);border:1px solid var(--line);
+    border-radius:var(--r-card);padding:14px 18px;text-decoration:none;color:var(--ink);transition:.2s}
+  .th-nav a:hover{border-color:var(--cta);transform:translateY(-2px)}
+  .th-nav a .dir{font-size:11.5px;color:var(--muted);display:block;margin-bottom:3px}
+  .th-nav a .nm{font-size:14.5px;font-weight:700}
+  #thMap{height:520px;width:100%}
+  .tnum-icon{display:flex;align-items:center;justify-content:center;width:28px;height:28px;
+    border-radius:50%;color:#fff;font-weight:800;font-size:13px;border:2px solid #fff;
+    box-shadow:0 2px 8px rgba(0,0,0,.3)}
+  @media (max-width:640px){ #thMap{height:380px} .tstops{grid-template-columns:1fr} }
+</style>
+<link rel="manifest" href="manifest.webmanifest" />
+<meta name="theme-color" content="#14212B" />
+<link rel="apple-touch-icon" href="assets/pwa/apple-touch-icon.png" />
+<script src="assets/js/pwa.js" defer></script>
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">旅</span>
+    <span class="brand-txt">中国旅行地图<em>国道 · 省份 · 主题</em></span>
+  </a>
+  <nav class="nav" id="mainnav"></nav>
+  <a class="btn btn-ghost btn-sm" href="favorites.html?tab=visited" id="navVisited" title="查看我的已去清单">已去 0</a>
+</header>
+
+<section class="page-head" id="thHero">
+  <div class="wrap">
+    <a class="th-back" id="thBack" href="themes.html" style="display:none">← 返回主题总览</a>
+    <div class="th-hero-ic" id="thIc" style="display:none"></div>
+    <div class="eyebrow" id="thEyebrow">THEME · 主题玩法</div>
+    <h1 id="thTitle">主题路书</h1>
+    <p class="lead" id="thLead"></p>
+    <div class="th-meta" id="thMeta"></div>
+    <div class="th-src" id="thSrc"></div>
+  </div>
+</section>
+
+<!-- 组页：环线卡片 -->
+<section class="sec sec-tight" id="thGroupSec" style="display:none">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">环线清单</div>
+      <h2 style="font-size:24px">点击进入各环线路书</h2>
+    </div>
+    <div class="thgrid" id="thGroupGrid"></div>
+  </div>
+</section>
+
+<!-- 地图 -->
+<section class="sec sec-tight" id="thMapSec" style="display:none;padding-top:24px">
+  <div class="wrap">
+    <div class="sec-head" style="margin-bottom:16px">
+      <div class="eyebrow">路线地图</div>
+      <h2 style="font-size:22px">站点分布与行进顺序</h2>
+    </div>
+    <div class="map-wrap">
+      <div id="thMap"></div>
+    </div>
+  </div>
+</section>
+
+<!-- 站点列表 -->
+<section class="sec sec-tight" id="thStopsSec" style="display:none">
+  <div class="wrap">
+    <div class="sec-head" style="margin-bottom:20px">
+      <div class="eyebrow">站点详情</div>
+      <h2 style="font-size:24px" id="thStopsTitle">站点清单</h2>
+    </div>
+    <div class="tstops" id="thStops"></div>
+  </div>
+</section>
+
+<!-- 贴士 + 上下主题 -->
+<section class="sec sec-tight" id="thTipsSec" style="display:none;padding-top:0">
+  <div class="wrap">
+    <div class="tipbox" id="thTips"></div>
+    <div class="th-nav" id="thNav"></div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="cp">
+      <span><a href="themes.html">← 主题总览</a></span>
+      <span>© 2026 中国旅行地图 · 主题内容为旅行规划参考 · 图片仅用于个人旅行规划</span>
+      <span><a href="index.html">回到首页 →</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/leaflet/leaflet.js"></script>
+<script src="assets/geo/china_provinces.js"></script>
+<script src="assets/geo/china_outline.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/prov_index.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/theme_data.js"></script>
+<script src="assets/js/theme_img.js"></script>
+<script src="assets/js/theme.js"></script>
+</body>
+</html>

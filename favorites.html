@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>我的收藏 · 风景图鉴｜中国旅行地图</title>
+<meta name="description" content="集中查看收藏的节点、挂载点与省份停靠点，并可按线路、省份、类别浏览 969 个风景图鉴挂载点。" />
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="assets/css/v2.css" />
+<link rel="manifest" href="manifest.webmanifest" />
+<meta name="theme-color" content="#14212B" />
+<link rel="apple-touch-icon" href="assets/pwa/apple-touch-icon.png" />
+<script src="assets/js/pwa.js" defer></script>
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">旅</span>
+    <span class="brand-txt">中国旅行地图<em>国道 · 省份 · 主题</em></span>
+  </a>
+  <nav class="nav" id="mainnav"></nav>
+  <a class="btn btn-ghost btn-sm" href="favorites.html?tab=visited" id="navVisited" title="查看我的已去清单">已去 0</a>
+</header>
+
+<section class="page-head">
+  <div class="wrap">
+    <div class="eyebrow">FAVORITES · 收藏与图鉴</div>
+    <h1>收藏与风景图鉴</h1>
+    <p class="lead">「我的收藏」集中你点过 ☆ 的地方；「风景图鉴」可按线路 / 省份 / 类别浏览全部挂载点并快速收藏。数据保存在本机浏览器，可导出清单。</p>
+    <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap">
+      <button class="btn btn-ghost btn-sm" id="favExport">导出收藏清单</button>
+      <button class="btn btn-ghost btn-sm" id="favClear">清空收藏</button>
+    </div>
+  </div>
+</section>
+
+<!-- 双 Tab：收藏 / 图鉴 -->
+<section class="sec sec-tight">
+  <div class="wrap">
+    <div class="seg tabs" id="favTabs" style="margin-bottom:18px">
+      <button class="seg-btn on" data-tab="fav">☆ 我的收藏 <span id="favCnt"></span></button>
+      <button class="seg-btn" data-tab="visited">✓ 已去清单 <span id="visCnt"></span></button>
+      <button class="seg-btn" data-tab="browse">🧭 风景图鉴</button>
+    </div>
+
+    <!-- Tab 1：我的收藏 -->
+    <div class="tabpane" id="pane-fav">
+      <div class="sec-head" style="padding:0;border:none">
+        <div>
+          <div class="eyebrow">集中查看</div>
+          <h2 style="font-size:20px">收藏清单</h2>
+        </div>
+        <div class="right" id="favFilters" style="display:flex;gap:8px;flex-wrap:wrap"></div>
+      </div>
+      <div class="acards" id="favGrid"></div>
+      <div id="favEmpty" style="display:none;padding:60px 0;text-align:center;color:var(--muted)">
+        <div style="font-size:42px;margin-bottom:10px">☆</div>
+        还没有收藏。去「风景图鉴」或
+        <a href="index.html#mapsec" style="color:var(--cta)">地图路书</a> 点星星收藏想去的地方。
+      </div>
+    </div>
+
+    <!-- Tab：已去清单 -->
+    <div class="tabpane" id="pane-visited" style="display:none">
+      <div class="sec-head" style="padding:0;border:none">
+        <div>
+          <div class="eyebrow">足迹存档</div>
+          <h2 style="font-size:20px">已去清单</h2>
+        </div>
+        <div class="right" style="display:flex;gap:8px;flex-wrap:wrap">
+          <button class="btn btn-line btn-sm" id="visExport" type="button">⤴ 导出清单</button>
+          <button class="btn btn-line btn-sm" id="visClear" type="button">清空标记</button>
+        </div>
+      </div>
+      <div id="visBody"></div>
+      <div id="visEmpty" style="display:none;padding:60px 0;text-align:center;color:var(--muted)">
+        <div style="font-size:42px;margin-bottom:10px">✓</div>
+        还没有「已去」标记。去<a href="province.html?id=sichuan" style="color:var(--cta)">省份路书</a>或
+        <a href="index.html#mapsec" style="color:var(--cta)">地图路书</a> 点「标记」，就会自动归档到这里。
+      </div>
+    </div>
+
+    <!-- Tab 2：风景图鉴（复用 atlas 能力） -->
+    <div class="tabpane" id="pane-browse" style="display:none">
+      <div class="page-head" style="padding:0 0 8px;border:none">
+        <div class="eyebrow" style="color:var(--cta)">ATLAS · 风景图鉴</div>
+        <h2 style="font-size:20px">路上值得停车的 <span style="color:var(--cta)" id="aTotal">969</span> 个地方</h2>
+        <p class="lead">景色、山岳徒步、人文古迹、在地美食、地标、博物馆六类挂载点，按线路 / 省份 / 类别 / 关键词筛选。点卡片直达所在节点详情，可就地标记「去过」并收藏。</p>
+        <div class="ph-tags" id="aTags"></div>
+      </div>
+      <div class="atlas-bar" id="atbar"><div class="wrap" id="atfilter"></div></div>
+      <div class="acards" id="acards"></div>
+      <button class="btn btn-line loadmore" id="more" style="display:none">加载更多</button>
+      <div class="tipbox" id="empty" style="display:none">没有命中的挂载点，试试放宽筛选条件。</div>
+      <div class="footStat-line" id="footStat" style="margin-top:14px;font-size:12px;color:var(--muted)"></div>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="cp">
+      <span><a href="index.html">← 返回地图路书</a></span>
+      <span>© 2026 中国旅行地图 · 收藏保存在本机浏览器 · 图片仅用于个人旅行规划</span>
+      <span><a href="index.html">回到首页 →</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/prov_index.js"></script>
+<script src="assets/js/prov_pts.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/prov_sichuan.js"></script>
+<script src="assets/js/atlas.js"></script>
+<script src="assets/js/favorites.js"></script>
+</body>
+</html>

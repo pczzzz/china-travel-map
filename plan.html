@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>行程规划｜环中国 · 黄金大外环</title>
+<meta name="description" content="按每日里程上限自动排程：环中国黄金大外环 G331+G219+G228 逐日行程、停靠节点、亮点与住宿建议，可导出清单。" />
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="assets/css/v2.css" />
+<link rel="stylesheet" href="assets/css/rec.css" />
+<link rel="stylesheet" href="assets/leaflet/leaflet.css" />
+<link rel="manifest" href="manifest.webmanifest" />
+<meta name="theme-color" content="#14212B" />
+<link rel="apple-touch-icon" href="assets/pwa/apple-touch-icon.png" />
+<script src="assets/js/pwa.js" defer></script>
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">旅</span>
+    <span class="brand-txt">中国旅行地图<em>国道 · 省份 · 主题</em></span>
+  </a>
+  <nav class="nav" id="mainnav"></nav>
+  <a class="btn btn-ghost btn-sm" href="favorites.html?tab=visited" id="navVisited" title="查看我的已去清单">已去 0</a>
+</header>
+
+<section class="page-head">
+  <div class="wrap">
+    <div class="eyebrow">PLANNER · 行程规划专家</div>
+    <h1>告诉专家<span style="color:var(--cta)">想去哪</span>，拿回一份逐日可执行的行程</h1>
+    <p class="lead">起点终点自由输入、中途加途经点、指定出发与返程日期；再勾选车型 / 露营 / 预算 / 拍摄等偏好，本地排程引擎 + AI 专家共同产出：每天开多久、停哪里、看什么、在哪睡、大概花多少。</p>
+    <div class="pl-tabs" role="tablist">
+      <a class="pl-tab on" href="plan.html" role="tab" aria-selected="true">🧭 行程规划<span>我已知目的地</span></a>
+      <a class="pl-tab" href="recommend.html" role="tab">🎁 旅行推荐<span>帮我开盲盒</span></a>
+    </div>
+    <div class="ph-tags" id="pTags"></div>
+  </div>
+</section>
+
+<section class="sec sec-tight">
+  <div class="wrap">
+    <div class="planform" id="planform"></div>
+    <div class="plan-sum" id="psum"></div>
+    <div class="tipbox" id="pwarn" style="display:none"></div>
+    <div class="planacts" id="pacts"></div>
+
+    <!-- 行程地图：生成/AI 规划后显示整条路线，可按天切换查看停靠点、过夜点与沿途景色 -->
+    <section class="pmapsec" id="planmapsec" style="display:none">
+      <div class="pmaphead">
+        <h3>🗺️ 行程地图</h3>
+        <div class="pmaptools">
+          <label class="pmchk"><input type="checkbox" id="pmPoi" checked /> 沿途景色</label>
+          <button class="btn btn-sm" id="pmAll" type="button">全览</button>
+          <button class="btn btn-sm" id="pmPlay" type="button">▶ 按天播放</button>
+        </div>
+      </div>
+      <div class="pmapdays" id="pmDays"></div>
+      <div class="pmapwrap">
+        <div id="planMap" class="leaflet-map pmap"></div>
+        <div class="pmaplegend" id="pmLegend"></div>
+      </div>
+      <div class="pmapnote" id="pmNote"></div>
+    </section>
+
+    <div class="wxpanel" id="wxpanel" style="display:none"></div>
+    <div class="days" id="days"></div>
+    <div class="tipbox" id="pempty" style="display:none">当前条件下排不出行程，请放宽每日里程上限或减少停靠密度。</div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="cp">
+      <span><a href="index.html">← 返回地图路书</a></span>
+      <span>© 2026 环中国路书 · 排程为估算，实际请按天气与管制调整</span>
+      <span><a href="guide.html">实用攻略 →</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/leaflet/leaflet.js"></script>
+<script src="assets/js/prov_index.js"></script>
+<script src="assets/js/prov_pts.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/plan_assist.js"></script>
+<script src="assets/js/plan_llm.js"></script>
+<script src="assets/js/plan.js"></script>
+<script src="assets/js/plan_map.js"></script>
+</body>
+</html>

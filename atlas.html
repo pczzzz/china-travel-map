@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>风景图鉴｜中国旅行地图</title>
+<meta name="description" content="风景图鉴已并入「收藏与图鉴」页，自动跳转中。" />
+<meta http-equiv="refresh" content="0; url=favorites.html?tab=browse" />
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+<script>
+  // 保留原参数（route / cat / q / prov / key / img / done），转发到收藏页图鉴 tab
+  (function () {
+    var q = location.search.replace(/^\?/, "");
+    var keep = ["route", "cat", "q", "prov", "key", "img", "done"];
+    var parts = [];
+    q.split("&").forEach(function (kv) {
+      if (!kv) return;
+      var k = kv.split("=")[0];
+      if (keep.indexOf(k) >= 0) parts.push(kv);
+    });
+    location.replace("favorites.html?tab=browse" + (parts.length ? "&" + parts.join("&") : ""));
+  })();
+</script>
+<link rel="manifest" href="manifest.webmanifest" />
+<meta name="theme-color" content="#14212B" />
+<link rel="apple-touch-icon" href="assets/pwa/apple-touch-icon.png" />
+<script src="assets/js/pwa.js" defer></script>
+</head>
+<body>
+<p style="font-family:sans-serif;padding:40px;text-align:center">风景图鉴已并入「收藏与图鉴」页，正在跳转…</p>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>旅行推荐｜开盲盒 · 环中国路书</title>
+<meta name="description" content="只填出发日期与大致出发地，AI 按物候节气挑当季最值得去的目的地，并直接排出完整往返行程：春看花海萤火虫、夏避暑、秋红叶、冬冰雪。" />
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="assets/css/v2.css" />
+<link rel="stylesheet" href="assets/css/rec.css" />
+<link rel="stylesheet" href="assets/leaflet/leaflet.css" />
+<link rel="manifest" href="manifest.webmanifest" />
+<meta name="theme-color" content="#14212B" />
+<link rel="apple-touch-icon" href="assets/pwa/apple-touch-icon.png" />
+<script src="assets/js/pwa.js" defer></script>
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">旅</span>
+    <span class="brand-txt">中国旅行地图<em>国道 · 省份 · 主题</em></span>
+  </a>
+  <nav class="nav" id="mainnav"></nav>
+  <a class="btn btn-ghost btn-sm" href="favorites.html?tab=visited" id="navVisited" title="查看我的已去清单">已去 0</a>
+</header>
+
+<section class="page-head">
+  <div class="wrap">
+    <div class="eyebrow">BLIND BOX · 旅行推荐</div>
+    <h1>不知道去哪？<span style="color:var(--cta)">开个盲盒</span>，让季节替你决定</h1>
+    <p class="lead">只填<b>出发日期</b>和<b>大致出发地</b>（城市 / 省份都行），AI 按物候节气、路况季节管制与摄影黄金期，挑出这段时间最值得去的目的地，并直接排出可执行的往返行程——春看油菜花海与萤火虫、夏上山下海避暑、秋追红叶彩林、冬看雪与雾凇。</p>
+    <div class="pl-tabs" role="tablist">
+      <a class="pl-tab" href="plan.html" role="tab">🧭 行程规划<span>我已知目的地</span></a>
+      <a class="pl-tab on" href="recommend.html" role="tab" aria-selected="true">🎁 旅行推荐<span>帮我开盲盒</span></a>
+    </div>
+    <div class="ph-tags" id="pTags"></div>
+  </div>
+</section>
+
+<section class="sec sec-tight">
+  <div class="wrap">
+    <!-- 推荐表单：由 recommend.js 构建 -->
+    <div class="planform recform" id="recForm"></div>
+    <div class="recstat" id="recStat"></div>
+
+    <!-- 方案卡列表 -->
+    <div class="rec-list" id="recList" style="display:none"></div>
+
+    <!-- 选中方案后的完整行程（复用 plan.js 引擎与 plan_map.js 地图） -->
+    <div class="rec-detail" id="recDetail" style="display:none">
+      <div class="rec-head" id="recHead"></div>
+      <div class="plan-sum" id="psum"></div>
+      <div class="tipbox" id="pwarn" style="display:none"></div>
+      <div class="planacts" id="pacts"></div>
+
+      <section class="pmapsec" id="planmapsec" style="display:none">
+        <div class="pmaphead">
+          <h3>🗺️ 行程地图</h3>
+          <div class="pmaptools">
+            <label class="pmchk"><input type="checkbox" id="pmPoi" checked /> 沿途景色</label>
+            <button class="btn btn-sm" id="pmAll" type="button">全览</button>
+            <button class="btn btn-sm" id="pmPlay" type="button">▶ 按天播放</button>
+          </div>
+        </div>
+        <div class="pmapdays" id="pmDays"></div>
+        <div class="pmapwrap">
+          <div id="planMap" class="leaflet-map pmap"></div>
+          <div class="pmaplegend" id="pmLegend"></div>
+        </div>
+        <div class="pmapnote" id="pmNote"></div>
+      </section>
+
+      <div class="wxpanel" id="wxpanel" style="display:none"></div>
+      <div class="days" id="days"></div>
+      <div class="tipbox" id="pempty" style="display:none">当前条件下排不出行程，请放宽每日里程上限或减少停靠密度。</div>
+    </div>
+
+    <!-- 隐藏的规划引擎表单壳：plan.js buildForm()/事件绑定强依赖这些控件 -->
+    <div class="planform rec-hidden" id="planform" aria-hidden="true"></div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="cp">
+      <span><a href="index.html">← 返回地图路书</a></span>
+      <span>© 2026 环中国路书 · 推荐与排程为估算，实际请按天气与管制调整</span>
+      <span><a href="plan.html">行程规划 →</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/leaflet/leaflet.js"></script>
+<script src="assets/js/prov_index.js"></script>
+<script src="assets/js/prov_pts.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/plan_assist.js"></script>
+<script src="assets/js/plan_llm.js"></script>
+<script>window.__HZ_REC = true; /* 告诉 plan.js：本页是推荐页内嵌模式，不要自动跑默认规划 */</script>
+<script src="assets/js/plan.js"></script>
+<script src="assets/js/plan_map.js"></script>
+<script src="assets/js/recommend.js"></script>
+</body>
+</html>

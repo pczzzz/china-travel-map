@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>四川 · 深度路书｜中国旅行地图</title>
+<meta name="description" content="四川分省深度路书：12 个地市州、40+ 景点、代表美食与 5 条省内环线（川西小环线、稻城亚丁、九寨黄龙、蜀道三国、攀西阳光），含地图、海拔、门票与季节建议。" />
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="assets/css/v2.css" />
+<link rel="stylesheet" href="assets/leaflet/leaflet.css" />
+<link rel="manifest" href="manifest.webmanifest" />
+<meta name="theme-color" content="#14212B" />
+<link rel="apple-touch-icon" href="assets/pwa/apple-touch-icon.png" />
+<script src="assets/js/pwa.js" defer></script>
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">旅</span>
+    <span class="brand-txt">中国旅行地图<em>国道 · 省份 · 主题</em></span>
+  </a>
+  <nav class="nav" id="mainnav"></nav>
+  <a class="btn btn-ghost btn-sm" href="favorites.html?tab=visited" id="navVisited" title="查看我的已去清单">已去 0</a>
+</header>
+
+<section class="page-head" id="pvHead"></section>
+
+<section class="sec sec-tight" id="geo">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">GEOGRAPHY · 地理速览</div>
+        <h2 id="geoH2">三大板块，一省三种玩法</h2>
+      </div>
+    </div>
+    <div class="grows" id="regions"></div>
+  </div>
+</section>
+
+<section class="sec" id="cities" style="background:var(--bg2)">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">CITIES · 城市与景点</div>
+        <h2 id="cityTitle"></h2>
+      </div>
+    </div>
+    <div class="pv-top">
+      <div class="pv-map pv-map-big"><div class="leaflet-map" id="pvMap"></div></div>
+      <aside class="pv-rail pv-rail-single">
+        <div class="railbox citynav" id="cityNav">
+          <div class="tt">城市筛选 · 与分类可叠加</div>
+          <div class="cnav-scroll">
+            <div class="citybar" id="cityBar"></div>
+          </div>
+          <div class="catrow"><span class="catlbl">分类</span><div class="catpicks" id="catChips"></div></div>
+          <div class="cityintro" id="cityIntro"></div>
+        </div>
+      </aside>
+    </div>
+    <div class="acards" id="spotGrid" style="margin-top:16px"></div>
+    <div class="spotmore" id="spotMore"></div>
+  </div>
+</section>
+
+<section class="sec sec-tight" id="foods">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">FOOD · 代表味道</div>
+        <h2 id="foodH2">13 味地方代表，吃到哪算哪</h2>
+      </div>
+    </div>
+    <div class="foodlist" id="foodList"></div>
+    <p class="foodnote" id="foodNote"></p>
+  </div>
+</section>
+
+<section class="sec" id="loops" style="background:var(--bg2)">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">LOOPS · 省内环线</div>
+        <h2 id="loopH2">5 条环线，从 4 天到 9 天</h2>
+      </div>
+    </div>
+    <div class="looplist" id="loopList"></div>
+  </div>
+</section>
+
+<section class="sec sec-tight" id="tips">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">TIPS · 实用提示</div>
+        <h2 id="tipH2">出发前读一遍的七件事</h2>
+      </div>
+    </div>
+    <div class="grows" id="tipList"></div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="cp">
+      <span><a href="provinces.html">← 省份总览</a></span>
+      <span id="pvFoot">© 2026 中国旅行地图 · 四川数据为整理版本，欢迎纠错</span>
+      <span><a href="themes.html">主题玩法 →</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/leaflet/leaflet.js"></script>
+<script src="assets/geo/china_provinces.js"></script>
+<script src="assets/geo/china_outline.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/prov_index.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/province.js"></script>
+</body>
+</html>

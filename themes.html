@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>主题玩法｜中国旅行地图</title>
+<meta name="description" content="主题化旅行玩法：环中国三线、分省路书、山岳徒步图鉴、跟着人民币、跟着徐霞客、爬名山、寻名人、课本上的中国、神话传说、国宝寻踪、水色之旅、三国文化线、古茶马古道、红色足迹与夏冰寒经典环线 13 条均已上线。" />
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="assets/css/v2.css" />
+<link rel="manifest" href="manifest.webmanifest" />
+<meta name="theme-color" content="#14212B" />
+<link rel="apple-touch-icon" href="assets/pwa/apple-touch-icon.png" />
+<script src="assets/js/pwa.js" defer></script>
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">旅</span>
+    <span class="brand-txt">中国旅行地图<em>国道 · 省份 · 主题</em></span>
+  </a>
+  <nav class="nav" id="mainnav"></nav>
+  <a class="btn btn-ghost btn-sm" href="favorites.html?tab=visited" id="navVisited" title="查看我的已去清单">已去 0</a>
+</header>
+
+<section class="page-head">
+  <div class="wrap">
+    <div class="eyebrow">THEMES · 主题</div>
+    <h1>不止按地图玩，也按兴趣玩</h1>
+    <p class="lead">主题是把地理、历史与文化重新穿成线：人民币背面的风景、徐霞客走过的路、课本与神话里的中国、三国与茶马古道、红色足迹时间轴、夏冰寒的 13 条经典环线……每条主题都带地图、站点与季节建议，点卡即进。</p>
+  </div>
+</section>
+
+<section class="sec sec-tight">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">已上线</div>
+        <h2>现在就能玩的主题</h2>
+      </div>
+    </div>
+    <div class="thgrid" id="liveGrid"></div>
+  </div>
+</section>
+
+<section class="sec" id="soonSec" style="background:var(--bg2)">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">规划中</div>
+        <h2>正在排队制作的主题</h2>
+      </div>
+    </div>
+    <div class="thgrid" id="soonGrid"></div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="cp">
+      <span><a href="provinces.html">← 省份总览</a></span>
+      <span>© 2026 中国旅行地图 · 主题玩法持续上新</span>
+      <span><a href="favorites.html?tab=browse">风景图鉴 →</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/prov_index.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/prov_sichuan.js"></script>
+<script src="assets/js/hiking_data.js"></script>
+<script src="assets/js/theme_data.js"></script>
+<script src="assets/js/themes.js"></script>
+</body>
+</html>

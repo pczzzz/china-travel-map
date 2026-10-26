@@ -1,0 +1,1378 @@
+[
+ {
+  "q": "天山天池 昌吉 新疆 风景景点 实景",
+  "slug": "xj_tianchi",
+  "route": "xinjiang",
+  "node": "昌吉",
+  "cat": "scenery",
+  "name": "天山天池"
+ },
+ {
+  "q": "新疆维吾尔自治区博物馆 乌鲁木齐 新疆 博物馆景点 实景",
+  "slug": "xj_mus",
+  "route": "xinjiang",
+  "node": "乌鲁木齐",
+  "cat": "museum",
+  "name": "新疆维吾尔自治区博物馆"
+ },
+ {
+  "q": "国际大巴扎 乌鲁木齐 新疆 人文景点 实景",
+  "slug": "xj_bazaar",
+  "route": "xinjiang",
+  "node": "乌鲁木齐",
+  "cat": "culture",
+  "name": "国际大巴扎"
+ },
+ {
+  "q": "南山牧场 · 西白杨沟 乌鲁木齐 新疆 风景景点 实景",
+  "slug": "xj_nanshan",
+  "route": "xinjiang",
+  "node": "乌鲁木齐",
+  "cat": "scenery",
+  "name": "南山牧场 · 西白杨沟"
+ },
+ {
+  "q": "坎儿井乐园 吐鲁番 新疆 人文景点 实景",
+  "slug": "xj_karez",
+  "route": "xinjiang",
+  "node": "吐鲁番",
+  "cat": "culture",
+  "name": "坎儿井乐园"
+ },
+ {
+  "q": "火焰山 吐鲁番 新疆 风景景点 实景",
+  "slug": "xj_flame",
+  "route": "xinjiang",
+  "node": "吐鲁番",
+  "cat": "scenery",
+  "name": "火焰山"
+ },
+ {
+  "q": "交河故城 吐鲁番 新疆 人文景点 实景",
+  "slug": "xj_jiaohe",
+  "route": "xinjiang",
+  "node": "吐鲁番",
+  "cat": "culture",
+  "name": "交河故城"
+ },
+ {
+  "q": "葡萄沟 吐鲁番 新疆 风景景点 实景",
+  "slug": "xj_grape",
+  "route": "xinjiang",
+  "node": "吐鲁番",
+  "cat": "scenery",
+  "name": "葡萄沟"
+ },
+ {
+  "q": "巴里坤草原 哈密 新疆 风景景点 实景",
+  "slug": "xj_barkol",
+  "route": "xinjiang",
+  "node": "哈密",
+  "cat": "scenery",
+  "name": "巴里坤草原"
+ },
+ {
+  "q": "巴音布鲁克 巴音郭楞 新疆 风景景点 实景",
+  "slug": "xj_bayin",
+  "route": "xinjiang",
+  "node": "巴音郭楞",
+  "cat": "scenery",
+  "name": "巴音布鲁克"
+ },
+ {
+  "q": "博斯腾湖 巴音郭楞 新疆 风景景点 实景",
+  "slug": "xj_bosten",
+  "route": "xinjiang",
+  "node": "巴音郭楞",
+  "cat": "scenery",
+  "name": "博斯腾湖"
+ },
+ {
+  "q": "轮台胡杨林 巴音郭楞 新疆 风景景点 实景",
+  "slug": "xj_luntai",
+  "route": "xinjiang",
+  "node": "巴音郭楞",
+  "cat": "scenery",
+  "name": "轮台胡杨林"
+ },
+ {
+  "q": "库车天山神秘大峡谷 阿克苏 新疆 风景景点 实景",
+  "slug": "xj_kuche",
+  "route": "xinjiang",
+  "node": "阿克苏",
+  "cat": "scenery",
+  "name": "库车天山神秘大峡谷"
+ },
+ {
+  "q": "克孜尔千佛洞 阿克苏 新疆 人文景点 实景",
+  "slug": "xj_kizil",
+  "route": "xinjiang",
+  "node": "阿克苏",
+  "cat": "culture",
+  "name": "克孜尔千佛洞"
+ },
+ {
+  "q": "喀什老城 喀什 新疆 人文景点 实景",
+  "slug": "xj_oldtown",
+  "route": "xinjiang",
+  "node": "喀什",
+  "cat": "culture",
+  "name": "喀什老城"
+ },
+ {
+  "q": "艾提尕尔清真寺 喀什 新疆 人文景点 实景",
+  "slug": "xj_idkah",
+  "route": "xinjiang",
+  "node": "喀什",
+  "cat": "culture",
+  "name": "艾提尕尔清真寺"
+ },
+ {
+  "q": "喀拉库勒湖 喀什 新疆 风景景点 实景",
+  "slug": "xj_karakul",
+  "route": "xinjiang",
+  "node": "喀什",
+  "cat": "scenery",
+  "name": "喀拉库勒湖"
+ },
+ {
+  "q": "盘龙古道 喀什 新疆 风景景点 实景",
+  "slug": "xj_panlong",
+  "route": "xinjiang",
+  "node": "喀什",
+  "cat": "scenery",
+  "name": "盘龙古道"
+ },
+ {
+  "q": "红其拉甫口岸 喀什 新疆 地标景点 实景",
+  "slug": "xj_khun",
+  "route": "xinjiang",
+  "node": "喀什",
+  "cat": "landmark",
+  "name": "红其拉甫口岸"
+ },
+ {
+  "q": "和田团城 和田 新疆 人文景点 实景",
+  "slug": "xj_hetuan",
+  "route": "xinjiang",
+  "node": "和田",
+  "cat": "culture",
+  "name": "和田团城"
+ },
+ {
+  "q": "玉龙喀什河玉巴扎 和田 新疆 人文景点 实景",
+  "slug": "xj_yubar",
+  "route": "xinjiang",
+  "node": "和田",
+  "cat": "culture",
+  "name": "玉龙喀什河玉巴扎"
+ },
+ {
+  "q": "那拉提草原 伊犁 新疆 风景景点 实景",
+  "slug": "xj_nalati",
+  "route": "xinjiang",
+  "node": "伊犁",
+  "cat": "scenery",
+  "name": "那拉提草原"
+ },
+ {
+  "q": "喀拉峻草原 伊犁 新疆 风景景点 实景",
+  "slug": "xj_kalajun",
+  "route": "xinjiang",
+  "node": "伊犁",
+  "cat": "scenery",
+  "name": "喀拉峻草原"
+ },
+ {
+  "q": "霍城薰衣草 伊犁 新疆 风景景点 实景",
+  "slug": "xj_lavender",
+  "route": "xinjiang",
+  "node": "伊犁",
+  "cat": "scenery",
+  "name": "霍城薰衣草"
+ },
+ {
+  "q": "赛里木湖 博尔塔拉 新疆 风景景点 实景",
+  "slug": "xj_sayram",
+  "route": "xinjiang",
+  "node": "博尔塔拉",
+  "cat": "scenery",
+  "name": "赛里木湖"
+ },
+ {
+  "q": "果子沟大桥 博尔塔拉 新疆 地标景点 实景",
+  "slug": "xj_guozigou",
+  "route": "xinjiang",
+  "node": "博尔塔拉",
+  "cat": "landmark",
+  "name": "果子沟大桥"
+ },
+ {
+  "q": "喀纳斯湖 阿勒泰 新疆 风景景点 实景",
+  "slug": "xj_kanas",
+  "route": "xinjiang",
+  "node": "阿勒泰",
+  "cat": "scenery",
+  "name": "喀纳斯湖"
+ },
+ {
+  "q": "禾木村 阿勒泰 新疆 风景景点 实景",
+  "slug": "xj_hemu",
+  "route": "xinjiang",
+  "node": "阿勒泰",
+  "cat": "scenery",
+  "name": "禾木村"
+ },
+ {
+  "q": "五彩滩 阿勒泰 新疆 风景景点 实景",
+  "slug": "xj_wucai",
+  "route": "xinjiang",
+  "node": "阿勒泰",
+  "cat": "scenery",
+  "name": "五彩滩"
+ },
+ {
+  "q": "可可托海 阿勒泰 新疆 风景景点 实景",
+  "slug": "xj_keke",
+  "route": "xinjiang",
+  "node": "阿勒泰",
+  "cat": "scenery",
+  "name": "可可托海"
+ },
+ {
+  "q": "云冈石窟 大同 山西 人文景点 实景",
+  "slug": "sxi_yungang",
+  "route": "shanxi",
+  "node": "大同",
+  "cat": "culture",
+  "name": "云冈石窟"
+ },
+ {
+  "q": "悬空寺 大同 山西 人文景点 实景",
+  "slug": "sxi_xuankong",
+  "route": "shanxi",
+  "node": "大同",
+  "cat": "culture",
+  "name": "悬空寺"
+ },
+ {
+  "q": "华严寺 大同 山西 人文景点 实景",
+  "slug": "sxi_huayan",
+  "route": "shanxi",
+  "node": "大同",
+  "cat": "culture",
+  "name": "华严寺"
+ },
+ {
+  "q": "大同古城墙 大同 山西 人文景点 实景",
+  "slug": "sxi_dtwall",
+  "route": "shanxi",
+  "node": "大同",
+  "cat": "culture",
+  "name": "大同古城墙"
+ },
+ {
+  "q": "晋祠 太原 山西 人文景点 实景",
+  "slug": "sxi_jinci",
+  "route": "shanxi",
+  "node": "太原",
+  "cat": "culture",
+  "name": "晋祠"
+ },
+ {
+  "q": "山西博物院 太原 山西 博物馆景点 实景",
+  "slug": "sxi_mus",
+  "route": "shanxi",
+  "node": "太原",
+  "cat": "museum",
+  "name": "山西博物院"
+ },
+ {
+  "q": "双塔寺（永祚寺） 太原 山西 人文景点 实景",
+  "slug": "sxi_shuangta",
+  "route": "shanxi",
+  "node": "太原",
+  "cat": "culture",
+  "name": "双塔寺（永祚寺）"
+ },
+ {
+  "q": "五台山 忻州 山西 人文景点 实景",
+  "slug": "sxi_wutai",
+  "route": "shanxi",
+  "node": "忻州",
+  "cat": "culture",
+  "name": "五台山"
+ },
+ {
+  "q": "雁门关 忻州 山西 人文景点 实景",
+  "slug": "sxi_yanmen",
+  "route": "shanxi",
+  "node": "忻州",
+  "cat": "culture",
+  "name": "雁门关"
+ },
+ {
+  "q": "平遥古城 晋中 山西 人文景点 实景",
+  "slug": "sxi_pingyao",
+  "route": "shanxi",
+  "node": "晋中",
+  "cat": "culture",
+  "name": "平遥古城"
+ },
+ {
+  "q": "乔家大院 晋中 山西 人文景点 实景",
+  "slug": "sxi_qiao",
+  "route": "shanxi",
+  "node": "晋中",
+  "cat": "culture",
+  "name": "乔家大院"
+ },
+ {
+  "q": "王家大院 晋中 山西 人文景点 实景",
+  "slug": "sxi_wang",
+  "route": "shanxi",
+  "node": "晋中",
+  "cat": "culture",
+  "name": "王家大院"
+ },
+ {
+  "q": "绵山 晋中 山西 风景景点 实景",
+  "slug": "sxi_mianshan",
+  "route": "shanxi",
+  "node": "晋中",
+  "cat": "scenery",
+  "name": "绵山"
+ },
+ {
+  "q": "壶口瀑布 临汾 山西 风景景点 实景",
+  "slug": "sxi_hukou",
+  "route": "shanxi",
+  "node": "临汾",
+  "cat": "scenery",
+  "name": "壶口瀑布"
+ },
+ {
+  "q": "洪洞大槐树 临汾 山西 人文景点 实景",
+  "slug": "sxi_locust",
+  "route": "shanxi",
+  "node": "临汾",
+  "cat": "culture",
+  "name": "洪洞大槐树"
+ },
+ {
+  "q": "隰县小西天 临汾 山西 人文景点 实景",
+  "slug": "sxi_xiaoxi",
+  "route": "shanxi",
+  "node": "临汾",
+  "cat": "culture",
+  "name": "隰县小西天"
+ },
+ {
+  "q": "广胜寺 临汾 山西 人文景点 实景",
+  "slug": "sxi_guangsheng",
+  "route": "shanxi",
+  "node": "临汾",
+  "cat": "culture",
+  "name": "广胜寺"
+ },
+ {
+  "q": "永乐宫 运城 山西 人文景点 实景",
+  "slug": "sxi_yongle",
+  "route": "shanxi",
+  "node": "运城",
+  "cat": "culture",
+  "name": "永乐宫"
+ },
+ {
+  "q": "解州关帝庙 运城 山西 人文景点 实景",
+  "slug": "sxi_guandi",
+  "route": "shanxi",
+  "node": "运城",
+  "cat": "culture",
+  "name": "解州关帝庙"
+ },
+ {
+  "q": "运城盐湖 运城 山西 风景景点 实景",
+  "slug": "sxi_xiechi",
+  "route": "shanxi",
+  "node": "运城",
+  "cat": "scenery",
+  "name": "运城盐湖"
+ },
+ {
+  "q": "太行山大峡谷 · 八泉峡 长治 山西 风景景点 实景",
+  "slug": "sxi_baquan",
+  "route": "shanxi",
+  "node": "长治",
+  "cat": "scenery",
+  "name": "太行山大峡谷 · 八泉峡"
+ },
+ {
+  "q": "皇城相府 晋城 山西 人文景点 实景",
+  "slug": "sxi_huangcheng",
+  "route": "shanxi",
+  "node": "晋城",
+  "cat": "culture",
+  "name": "皇城相府"
+ },
+ {
+  "q": "湘峪古堡 晋城 山西 人文景点 实景",
+  "slug": "sxi_xiangyu",
+  "route": "shanxi",
+  "node": "晋城",
+  "cat": "culture",
+  "name": "湘峪古堡"
+ },
+ {
+  "q": "大同土林 大同 山西 风景景点 实景",
+  "slug": "sxi_tulin",
+  "route": "shanxi",
+  "node": "大同",
+  "cat": "scenery",
+  "name": "大同土林"
+ },
+ {
+  "q": "岳麓山 · 岳麓书院 长沙 湖南 人文景点 实景",
+  "slug": "hn_yuelu",
+  "route": "hunan",
+  "node": "长沙",
+  "cat": "culture",
+  "name": "岳麓山 · 岳麓书院"
+ },
+ {
+  "q": "橘子洲 长沙 湖南 风景景点 实景",
+  "slug": "hn_juzizhou",
+  "route": "hunan",
+  "node": "长沙",
+  "cat": "scenery",
+  "name": "橘子洲"
+ },
+ {
+  "q": "湖南博物院 长沙 湖南 博物馆景点 实景",
+  "slug": "hn_mus",
+  "route": "hunan",
+  "node": "长沙",
+  "cat": "museum",
+  "name": "湖南博物院"
+ },
+ {
+  "q": "岳阳楼 · 洞庭湖 岳阳 湖南 人文景点 实景",
+  "slug": "hn_yyl",
+  "route": "hunan",
+  "node": "岳阳",
+  "cat": "culture",
+  "name": "岳阳楼 · 洞庭湖"
+ },
+ {
+  "q": "君山岛 岳阳 湖南 风景景点 实景",
+  "slug": "hn_junshan",
+  "route": "hunan",
+  "node": "岳阳",
+  "cat": "scenery",
+  "name": "君山岛"
+ },
+ {
+  "q": "桃花源 常德 湖南 风景景点 实景",
+  "slug": "hn_thy",
+  "route": "hunan",
+  "node": "常德",
+  "cat": "scenery",
+  "name": "桃花源"
+ },
+ {
+  "q": "武陵源 · 袁家界 张家界 湖南 风景景点 实景",
+  "slug": "hn_yjj",
+  "route": "hunan",
+  "node": "张家界",
+  "cat": "scenery",
+  "name": "武陵源 · 袁家界"
+ },
+ {
+  "q": "天门山 张家界 湖南 风景景点 实景",
+  "slug": "hn_tianmen",
+  "route": "hunan",
+  "node": "张家界",
+  "cat": "scenery",
+  "name": "天门山"
+ },
+ {
+  "q": "张家界大峡谷 · 玻璃桥 张家界 湖南 风景景点 实景",
+  "slug": "hn_glass",
+  "route": "hunan",
+  "node": "张家界",
+  "cat": "scenery",
+  "name": "张家界大峡谷 · 玻璃桥"
+ },
+ {
+  "q": "黄龙洞 张家界 湖南 风景景点 实景",
+  "slug": "hn_hld",
+  "route": "hunan",
+  "node": "张家界",
+  "cat": "scenery",
+  "name": "黄龙洞"
+ },
+ {
+  "q": "凤凰古城 湘西州 湖南 人文景点 实景",
+  "slug": "hn_fenghuang",
+  "route": "hunan",
+  "node": "湘西州",
+  "cat": "culture",
+  "name": "凤凰古城"
+ },
+ {
+  "q": "芙蓉镇 湘西州 湖南 人文景点 实景",
+  "slug": "hn_furong",
+  "route": "hunan",
+  "node": "湘西州",
+  "cat": "culture",
+  "name": "芙蓉镇"
+ },
+ {
+  "q": "矮寨大桥 · 德夯苗寨 湘西州 湖南 地标景点 实景",
+  "slug": "hn_aizhai",
+  "route": "hunan",
+  "node": "湘西州",
+  "cat": "landmark",
+  "name": "矮寨大桥 · 德夯苗寨"
+ },
+ {
+  "q": "洪江古商城 怀化 湖南 人文景点 实景",
+  "slug": "hn_hongjiang",
+  "route": "hunan",
+  "node": "怀化",
+  "cat": "culture",
+  "name": "洪江古商城"
+ },
+ {
+  "q": "芷江受降纪念坊 怀化 湖南 人文景点 实景",
+  "slug": "hn_zhijiang",
+  "route": "hunan",
+  "node": "怀化",
+  "cat": "culture",
+  "name": "芷江受降纪念坊"
+ },
+ {
+  "q": "崀山 邵阳 湖南 风景景点 实景",
+  "slug": "hn_langshan",
+  "route": "hunan",
+  "node": "邵阳",
+  "cat": "scenery",
+  "name": "崀山"
+ },
+ {
+  "q": "城步南山牧场 邵阳 湖南 风景景点 实景",
+  "slug": "hn_nanshan",
+  "route": "hunan",
+  "node": "邵阳",
+  "cat": "scenery",
+  "name": "城步南山牧场"
+ },
+ {
+  "q": "南岳衡山 衡阳 湖南 人文景点 实景",
+  "slug": "hn_hengshan",
+  "route": "hunan",
+  "node": "衡阳",
+  "cat": "culture",
+  "name": "南岳衡山"
+ },
+ {
+  "q": "东江湖 · 雾漫小东江 郴州 湖南 风景景点 实景",
+  "slug": "hn_xdj",
+  "route": "hunan",
+  "node": "郴州",
+  "cat": "scenery",
+  "name": "东江湖 · 雾漫小东江"
+ },
+ {
+  "q": "高椅岭 郴州 湖南 风景景点 实景",
+  "slug": "hn_gyl",
+  "route": "hunan",
+  "node": "郴州",
+  "cat": "scenery",
+  "name": "高椅岭"
+ },
+ {
+  "q": "莽山 郴州 湖南 风景景点 实景",
+  "slug": "hn_mangshan",
+  "route": "hunan",
+  "node": "郴州",
+  "cat": "scenery",
+  "name": "莽山"
+ },
+ {
+  "q": "漓江 · 兴坪段 桂林 广西 风景景点 实景",
+  "slug": "gx_liriver",
+  "route": "guangxi",
+  "node": "桂林",
+  "cat": "scenery",
+  "name": "漓江 · 兴坪段"
+ },
+ {
+  "q": "相公山 桂林 广西 风景景点 实景",
+  "slug": "gx_xianggong",
+  "route": "guangxi",
+  "node": "桂林",
+  "cat": "scenery",
+  "name": "相公山"
+ },
+ {
+  "q": "象鼻山 桂林 广西 地标景点 实景",
+  "slug": "gx_elephant",
+  "route": "guangxi",
+  "node": "桂林",
+  "cat": "landmark",
+  "name": "象鼻山"
+ },
+ {
+  "q": "龙脊梯田 桂林 广西 风景景点 实景",
+  "slug": "gx_longji",
+  "route": "guangxi",
+  "node": "桂林",
+  "cat": "scenery",
+  "name": "龙脊梯田"
+ },
+ {
+  "q": "阳朔西街 桂林 广西 人文景点 实景",
+  "slug": "gx_weststreet",
+  "route": "guangxi",
+  "node": "桂林",
+  "cat": "culture",
+  "name": "阳朔西街"
+ },
+ {
+  "q": "遇龙河竹筏 桂林 广西 风景景点 实景",
+  "slug": "gx_yulong",
+  "route": "guangxi",
+  "node": "桂林",
+  "cat": "scenery",
+  "name": "遇龙河竹筏"
+ },
+ {
+  "q": "程阳八寨 · 风雨桥 柳州 广西 人文景点 实景",
+  "slug": "gx_chengyang",
+  "route": "guangxi",
+  "node": "柳州",
+  "cat": "culture",
+  "name": "程阳八寨 · 风雨桥"
+ },
+ {
+  "q": "青秀山 南宁 广西 风景景点 实景",
+  "slug": "gx_qingxiu",
+  "route": "guangxi",
+  "node": "南宁",
+  "cat": "scenery",
+  "name": "青秀山"
+ },
+ {
+  "q": "广西民族博物馆 南宁 广西 博物馆景点 实景",
+  "slug": "gx_mus",
+  "route": "guangxi",
+  "node": "南宁",
+  "cat": "museum",
+  "name": "广西民族博物馆"
+ },
+ {
+  "q": "北海银滩 北海 广西 风景景点 实景",
+  "slug": "gx_silver",
+  "route": "guangxi",
+  "node": "北海",
+  "cat": "scenery",
+  "name": "北海银滩"
+ },
+ {
+  "q": "涠洲岛 北海 广西 风景景点 实景",
+  "slug": "gx_weizhou",
+  "route": "guangxi",
+  "node": "北海",
+  "cat": "scenery",
+  "name": "涠洲岛"
+ },
+ {
+  "q": "北海老街 北海 广西 人文景点 实景",
+  "slug": "gx_oldstreet",
+  "route": "guangxi",
+  "node": "北海",
+  "cat": "culture",
+  "name": "北海老街"
+ },
+ {
+  "q": "德天跨国瀑布 崇左 广西 风景景点 实景",
+  "slug": "gx_detian",
+  "route": "guangxi",
+  "node": "崇左",
+  "cat": "scenery",
+  "name": "德天跨国瀑布"
+ },
+ {
+  "q": "明仕田园 崇左 广西 风景景点 实景",
+  "slug": "gx_mingshi",
+  "route": "guangxi",
+  "node": "崇左",
+  "cat": "scenery",
+  "name": "明仕田园"
+ },
+ {
+  "q": "左江花山岩画 崇左 广西 人文景点 实景",
+  "slug": "gx_huashan",
+  "route": "guangxi",
+  "node": "崇左",
+  "cat": "culture",
+  "name": "左江花山岩画"
+ },
+ {
+  "q": "友谊关 崇左 广西 地标景点 实景",
+  "slug": "gx_youyi",
+  "route": "guangxi",
+  "node": "崇左",
+  "cat": "landmark",
+  "name": "友谊关"
+ },
+ {
+  "q": "巴马长寿村 河池 广西 风景景点 实景",
+  "slug": "gx_bama",
+  "route": "guangxi",
+  "node": "河池",
+  "cat": "scenery",
+  "name": "巴马长寿村"
+ },
+ {
+  "q": "通灵大峡谷 百色 广西 风景景点 实景",
+  "slug": "gx_tongling",
+  "route": "guangxi",
+  "node": "百色",
+  "cat": "scenery",
+  "name": "通灵大峡谷"
+ },
+ {
+  "q": "靖西鹅泉 百色 广西 风景景点 实景",
+  "slug": "gx_eqquan",
+  "route": "guangxi",
+  "node": "百色",
+  "cat": "scenery",
+  "name": "靖西鹅泉"
+ },
+ {
+  "q": "黄姚古镇 贺州 广西 人文景点 实景",
+  "slug": "gx_huangyao",
+  "route": "guangxi",
+  "node": "贺州",
+  "cat": "culture",
+  "name": "黄姚古镇"
+ },
+ {
+  "q": "三坊七巷 福州 福建 人文景点 实景",
+  "slug": "fj_sanfang",
+  "route": "fujian",
+  "node": "福州",
+  "cat": "culture",
+  "name": "三坊七巷"
+ },
+ {
+  "q": "鼓山 · 涌泉寺 福州 福建 风景景点 实景",
+  "slug": "fj_gushan",
+  "route": "fujian",
+  "node": "福州",
+  "cat": "scenery",
+  "name": "鼓山 · 涌泉寺"
+ },
+ {
+  "q": "平潭岛 · 坛南湾 福州 福建 风景景点 实景",
+  "slug": "fj_pingtan",
+  "route": "fujian",
+  "node": "福州",
+  "cat": "scenery",
+  "name": "平潭岛 · 坛南湾"
+ },
+ {
+  "q": "鼓浪屿 厦门 福建 人文景点 实景",
+  "slug": "fj_gulangyu",
+  "route": "fujian",
+  "node": "厦门",
+  "cat": "culture",
+  "name": "鼓浪屿"
+ },
+ {
+  "q": "南普陀寺 · 厦大 厦门 福建 人文景点 实景",
+  "slug": "fj_nanputuo",
+  "route": "fujian",
+  "node": "厦门",
+  "cat": "culture",
+  "name": "南普陀寺 · 厦大"
+ },
+ {
+  "q": "环岛路 · 曾厝垵 厦门 福建 风景景点 实景",
+  "slug": "fj_huandao",
+  "route": "fujian",
+  "node": "厦门",
+  "cat": "scenery",
+  "name": "环岛路 · 曾厝垵"
+ },
+ {
+  "q": "开元寺 · 西街 泉州 福建 人文景点 实景",
+  "slug": "fj_kaiyuan",
+  "route": "fujian",
+  "node": "泉州",
+  "cat": "culture",
+  "name": "开元寺 · 西街"
+ },
+ {
+  "q": "清源山 · 老君岩 泉州 福建 风景景点 实景",
+  "slug": "fj_qingyuan",
+  "route": "fujian",
+  "node": "泉州",
+  "cat": "scenery",
+  "name": "清源山 · 老君岩"
+ },
+ {
+  "q": "洛阳桥 泉州 福建 地标景点 实景",
+  "slug": "fj_luoyang",
+  "route": "fujian",
+  "node": "泉州",
+  "cat": "landmark",
+  "name": "洛阳桥"
+ },
+ {
+  "q": "崇武古城 泉州 福建 人文景点 实景",
+  "slug": "fj_chongwu",
+  "route": "fujian",
+  "node": "泉州",
+  "cat": "culture",
+  "name": "崇武古城"
+ },
+ {
+  "q": "浔埔村 泉州 福建 人文景点 实景",
+  "slug": "fj_xunpu",
+  "route": "fujian",
+  "node": "泉州",
+  "cat": "culture",
+  "name": "浔埔村"
+ },
+ {
+  "q": "南靖土楼 · 田螺坑 漳州 福建 人文景点 实景",
+  "slug": "fj_tulou",
+  "route": "fujian",
+  "node": "漳州",
+  "cat": "culture",
+  "name": "南靖土楼 · 田螺坑"
+ },
+ {
+  "q": "云水谣古镇 漳州 福建 人文景点 实景",
+  "slug": "fj_ysy",
+  "route": "fujian",
+  "node": "漳州",
+  "cat": "culture",
+  "name": "云水谣古镇"
+ },
+ {
+  "q": "东山岛 · 风动石 漳州 福建 风景景点 实景",
+  "slug": "fj_dongshan",
+  "route": "fujian",
+  "node": "漳州",
+  "cat": "scenery",
+  "name": "东山岛 · 风动石"
+ },
+ {
+  "q": "古田会议会址 龙岩 福建 人文景点 实景",
+  "slug": "fj_gutian",
+  "route": "fujian",
+  "node": "龙岩",
+  "cat": "culture",
+  "name": "古田会议会址"
+ },
+ {
+  "q": "永定土楼 · 承启楼 龙岩 福建 人文景点 实景",
+  "slug": "fj_chengqi",
+  "route": "fujian",
+  "node": "龙岩",
+  "cat": "culture",
+  "name": "永定土楼 · 承启楼"
+ },
+ {
+  "q": "武夷山 · 九曲溪 南平 福建 风景景点 实景",
+  "slug": "fj_wuyi",
+  "route": "fujian",
+  "node": "南平",
+  "cat": "scenery",
+  "name": "武夷山 · 九曲溪"
+ },
+ {
+  "q": "下梅古村 南平 福建 人文景点 实景",
+  "slug": "fj_xiamei",
+  "route": "fujian",
+  "node": "南平",
+  "cat": "culture",
+  "name": "下梅古村"
+ },
+ {
+  "q": "泰宁大金湖 三明 福建 风景景点 实景",
+  "slug": "fj_dajin",
+  "route": "fujian",
+  "node": "三明",
+  "cat": "scenery",
+  "name": "泰宁大金湖"
+ },
+ {
+  "q": "太姥山 宁德 福建 风景景点 实景",
+  "slug": "fj_taimu",
+  "route": "fujian",
+  "node": "宁德",
+  "cat": "scenery",
+  "name": "太姥山"
+ },
+ {
+  "q": "霞浦滩涂 宁德 福建 风景景点 实景",
+  "slug": "fj_xiapu",
+  "route": "fujian",
+  "node": "宁德",
+  "cat": "scenery",
+  "name": "霞浦滩涂"
+ },
+ {
+  "q": "白水洋 宁德 福建 风景景点 实景",
+  "slug": "fj_bsy",
+  "route": "fujian",
+  "node": "宁德",
+  "cat": "scenery",
+  "name": "白水洋"
+ },
+ {
+  "q": "成都火锅 成都 四川美食 实拍",
+  "slug": "fd_sc_01",
+  "route": "sichuan",
+  "node": "成都",
+  "cat": "food",
+  "name": "成都火锅"
+ },
+ {
+  "q": "串串香 成都 四川美食 实拍",
+  "slug": "fd_sc_02",
+  "route": "sichuan",
+  "node": "成都",
+  "cat": "food",
+  "name": "串串香"
+ },
+ {
+  "q": "麻婆豆腐 成都 四川美食 实拍",
+  "slug": "fd_sc_03",
+  "route": "sichuan",
+  "node": "成都",
+  "cat": "food",
+  "name": "麻婆豆腐"
+ },
+ {
+  "q": "担担面 成都 四川美食 实拍",
+  "slug": "fd_sc_04",
+  "route": "sichuan",
+  "node": "成都",
+  "cat": "food",
+  "name": "担担面"
+ },
+ {
+  "q": "甜水面 成都 四川美食 实拍",
+  "slug": "fd_sc_05",
+  "route": "sichuan",
+  "node": "成都",
+  "cat": "food",
+  "name": "甜水面"
+ },
+ {
+  "q": "钟水饺 · 龙抄手 成都 四川美食 实拍",
+  "slug": "fd_sc_06",
+  "route": "sichuan",
+  "node": "成都",
+  "cat": "food",
+  "name": "钟水饺 · 龙抄手"
+ },
+ {
+  "q": "跷脚牛肉 乐山 四川美食 实拍",
+  "slug": "fd_sc_07",
+  "route": "sichuan",
+  "node": "乐山",
+  "cat": "food",
+  "name": "跷脚牛肉"
+ },
+ {
+  "q": "钵钵鸡 乐山 四川美食 实拍",
+  "slug": "fd_sc_08",
+  "route": "sichuan",
+  "node": "乐山",
+  "cat": "food",
+  "name": "钵钵鸡"
+ },
+ {
+  "q": "宜宾燃面 宜宾 四川美食 实拍",
+  "slug": "fd_sc_09",
+  "route": "sichuan",
+  "node": "宜宾",
+  "cat": "food",
+  "name": "宜宾燃面"
+ },
+ {
+  "q": "自贡冷吃兔 自贡 四川美食 实拍",
+  "slug": "fd_sc_10",
+  "route": "sichuan",
+  "node": "自贡",
+  "cat": "food",
+  "name": "自贡冷吃兔"
+ },
+ {
+  "q": "简阳羊肉汤 成都 四川美食 实拍",
+  "slug": "fd_sc_11",
+  "route": "sichuan",
+  "node": "成都",
+  "cat": "food",
+  "name": "简阳羊肉汤"
+ },
+ {
+  "q": "西昌火盆烧烤 凉山州 四川美食 实拍",
+  "slug": "fd_sc_12",
+  "route": "sichuan",
+  "node": "凉山州",
+  "cat": "food",
+  "name": "西昌火盆烧烤"
+ },
+ {
+  "q": "保宁醋 · 张飞牛肉 南充 四川美食 实拍",
+  "slug": "fd_sc_13",
+  "route": "sichuan",
+  "node": "南充",
+  "cat": "food",
+  "name": "保宁醋 · 张飞牛肉"
+ },
+ {
+  "q": "大盘鸡 乌鲁木齐 新疆美食 实拍",
+  "slug": "fd_xj_01",
+  "route": "xinjiang",
+  "node": "乌鲁木齐",
+  "cat": "food",
+  "name": "大盘鸡"
+ },
+ {
+  "q": "手抓饭 乌鲁木齐 新疆美食 实拍",
+  "slug": "fd_xj_02",
+  "route": "xinjiang",
+  "node": "乌鲁木齐",
+  "cat": "food",
+  "name": "手抓饭"
+ },
+ {
+  "q": "烤包子（萨姆萨） 喀什 新疆美食 实拍",
+  "slug": "fd_xj_03",
+  "route": "xinjiang",
+  "node": "喀什",
+  "cat": "food",
+  "name": "烤包子（萨姆萨）"
+ },
+ {
+  "q": "纳仁 · 熏马肉 伊犁 新疆美食 实拍",
+  "slug": "fd_xj_04",
+  "route": "xinjiang",
+  "node": "伊犁",
+  "cat": "food",
+  "name": "纳仁 · 熏马肉"
+ },
+ {
+  "q": "拉条子 乌鲁木齐 新疆美食 实拍",
+  "slug": "fd_xj_05",
+  "route": "xinjiang",
+  "node": "乌鲁木齐",
+  "cat": "food",
+  "name": "拉条子"
+ },
+ {
+  "q": "酸奶粽子 喀什 新疆美食 实拍",
+  "slug": "fd_xj_06",
+  "route": "xinjiang",
+  "node": "喀什",
+  "cat": "food",
+  "name": "酸奶粽子"
+ },
+ {
+  "q": "烤羊肉串（卡瓦普） 喀什 新疆美食 实拍",
+  "slug": "fd_xj_07",
+  "route": "xinjiang",
+  "node": "喀什",
+  "cat": "food",
+  "name": "烤羊肉串（卡瓦普）"
+ },
+ {
+  "q": "油塔子 乌鲁木齐 新疆美食 实拍",
+  "slug": "fd_xj_08",
+  "route": "xinjiang",
+  "node": "乌鲁木齐",
+  "cat": "food",
+  "name": "油塔子"
+ },
+ {
+  "q": "哈密瓜 哈密 新疆美食 实拍",
+  "slug": "fd_xj_09",
+  "route": "xinjiang",
+  "node": "哈密",
+  "cat": "food",
+  "name": "哈密瓜"
+ },
+ {
+  "q": "和田烤蛋 和田 新疆美食 实拍",
+  "slug": "fd_xj_10",
+  "route": "xinjiang",
+  "node": "和田",
+  "cat": "food",
+  "name": "和田烤蛋"
+ },
+ {
+  "q": "刀削面 太原 山西美食 实拍",
+  "slug": "fd_sxi_01",
+  "route": "shanxi",
+  "node": "太原",
+  "cat": "food",
+  "name": "刀削面"
+ },
+ {
+  "q": "头脑 太原 山西美食 实拍",
+  "slug": "fd_sxi_02",
+  "route": "shanxi",
+  "node": "太原",
+  "cat": "food",
+  "name": "头脑"
+ },
+ {
+  "q": "平遥牛肉 晋中 山西美食 实拍",
+  "slug": "fd_sxi_03",
+  "route": "shanxi",
+  "node": "晋中",
+  "cat": "food",
+  "name": "平遥牛肉"
+ },
+ {
+  "q": "稷山麻花 运城 山西美食 实拍",
+  "slug": "fd_sxi_04",
+  "route": "shanxi",
+  "node": "运城",
+  "cat": "food",
+  "name": "稷山麻花"
+ },
+ {
+  "q": "大同羊杂 大同 山西美食 实拍",
+  "slug": "fd_sxi_05",
+  "route": "shanxi",
+  "node": "大同",
+  "cat": "food",
+  "name": "大同羊杂"
+ },
+ {
+  "q": "碗托 晋中 山西美食 实拍",
+  "slug": "fd_sxi_06",
+  "route": "shanxi",
+  "node": "晋中",
+  "cat": "food",
+  "name": "碗托"
+ },
+ {
+  "q": "过油肉 太原 山西美食 实拍",
+  "slug": "fd_sxi_07",
+  "route": "shanxi",
+  "node": "太原",
+  "cat": "food",
+  "name": "过油肉"
+ },
+ {
+  "q": "汾阳厨烧 · 葱烧羊肉 临汾 山西美食 实拍",
+  "slug": "fd_sxi_08",
+  "route": "shanxi",
+  "node": "临汾",
+  "cat": "food",
+  "name": "汾阳厨烧 · 葱烧羊肉"
+ },
+ {
+  "q": "臭豆腐 长沙 湖南美食 实拍",
+  "slug": "fd_hn_01",
+  "route": "hunan",
+  "node": "长沙",
+  "cat": "food",
+  "name": "臭豆腐"
+ },
+ {
+  "q": "剁椒鱼头 长沙 湖南美食 实拍",
+  "slug": "fd_hn_02",
+  "route": "hunan",
+  "node": "长沙",
+  "cat": "food",
+  "name": "剁椒鱼头"
+ },
+ {
+  "q": "口味虾 长沙 湖南美食 实拍",
+  "slug": "fd_hn_03",
+  "route": "hunan",
+  "node": "长沙",
+  "cat": "food",
+  "name": "口味虾"
+ },
+ {
+  "q": "常德米粉 常德 湖南美食 实拍",
+  "slug": "fd_hn_04",
+  "route": "hunan",
+  "node": "常德",
+  "cat": "food",
+  "name": "常德米粉"
+ },
+ {
+  "q": "凤凰血粑鸭 湘西州 湖南美食 实拍",
+  "slug": "fd_hn_05",
+  "route": "hunan",
+  "node": "湘西州",
+  "cat": "food",
+  "name": "凤凰血粑鸭"
+ },
+ {
+  "q": "武冈卤菜 邵阳 湖南美食 实拍",
+  "slug": "fd_hn_06",
+  "route": "hunan",
+  "node": "邵阳",
+  "cat": "food",
+  "name": "武冈卤菜"
+ },
+ {
+  "q": "郴州鱼粉 郴州 湖南美食 实拍",
+  "slug": "fd_hn_07",
+  "route": "hunan",
+  "node": "郴州",
+  "cat": "food",
+  "name": "郴州鱼粉"
+ },
+ {
+  "q": "湘西腊肉 湘西州 湖南美食 实拍",
+  "slug": "fd_hn_08",
+  "route": "hunan",
+  "node": "湘西州",
+  "cat": "food",
+  "name": "湘西腊肉"
+ },
+ {
+  "q": "桂林米粉 桂林 广西美食 实拍",
+  "slug": "fd_gx_01",
+  "route": "guangxi",
+  "node": "桂林",
+  "cat": "food",
+  "name": "桂林米粉"
+ },
+ {
+  "q": "阳朔啤酒鱼 桂林 广西美食 实拍",
+  "slug": "fd_gx_02",
+  "route": "guangxi",
+  "node": "桂林",
+  "cat": "food",
+  "name": "阳朔啤酒鱼"
+ },
+ {
+  "q": "柳州螺蛳粉 柳州 广西美食 实拍",
+  "slug": "fd_gx_03",
+  "route": "guangxi",
+  "node": "柳州",
+  "cat": "food",
+  "name": "柳州螺蛳粉"
+ },
+ {
+  "q": "南宁老友粉 南宁 广西美食 实拍",
+  "slug": "fd_gx_04",
+  "route": "guangxi",
+  "node": "南宁",
+  "cat": "food",
+  "name": "南宁老友粉"
+ },
+ {
+  "q": "武鸣柠檬鸭 南宁 广西美食 实拍",
+  "slug": "fd_gx_05",
+  "route": "guangxi",
+  "node": "南宁",
+  "cat": "food",
+  "name": "武鸣柠檬鸭"
+ },
+ {
+  "q": "北海虾饼 北海 广西美食 实拍",
+  "slug": "fd_gx_06",
+  "route": "guangxi",
+  "node": "北海",
+  "cat": "food",
+  "name": "北海虾饼"
+ },
+ {
+  "q": "五色糯米饭 崇左 广西美食 实拍",
+  "slug": "fd_gx_07",
+  "route": "guangxi",
+  "node": "崇左",
+  "cat": "food",
+  "name": "五色糯米饭"
+ },
+ {
+  "q": "贺州酿菜 贺州 广西美食 实拍",
+  "slug": "fd_gx_08",
+  "route": "guangxi",
+  "node": "贺州",
+  "cat": "food",
+  "name": "贺州酿菜"
+ },
+ {
+  "q": "鱼丸 · 肉燕 福州 福建美食 实拍",
+  "slug": "fd_fj_01",
+  "route": "fujian",
+  "node": "福州",
+  "cat": "food",
+  "name": "鱼丸 · 肉燕"
+ },
+ {
+  "q": "沙茶面 厦门 福建美食 实拍",
+  "slug": "fd_fj_02",
+  "route": "fujian",
+  "node": "厦门",
+  "cat": "food",
+  "name": "沙茶面"
+ },
+ {
+  "q": "土笋冻 厦门 福建美食 实拍",
+  "slug": "fd_fj_03",
+  "route": "fujian",
+  "node": "厦门",
+  "cat": "food",
+  "name": "土笋冻"
+ },
+ {
+  "q": "面线糊 泉州 福建美食 实拍",
+  "slug": "fd_fj_04",
+  "route": "fujian",
+  "node": "泉州",
+  "cat": "food",
+  "name": "面线糊"
+ },
+ {
+  "q": "手抓面 漳州 福建美食 实拍",
+  "slug": "fd_fj_05",
+  "route": "fujian",
+  "node": "漳州",
+  "cat": "food",
+  "name": "手抓面"
+ },
+ {
+  "q": "沙县小吃 三明 福建美食 实拍",
+  "slug": "fd_fj_06",
+  "route": "fujian",
+  "node": "三明",
+  "cat": "food",
+  "name": "沙县小吃"
+ },
+ {
+  "q": "武夷熏鹅 南平 福建美食 实拍",
+  "slug": "fd_fj_07",
+  "route": "fujian",
+  "node": "南平",
+  "cat": "food",
+  "name": "武夷熏鹅"
+ },
+ {
+  "q": "霞浦海鲜 宁德 福建美食 实拍",
+  "slug": "fd_fj_08",
+  "route": "fujian",
+  "node": "宁德",
+  "cat": "food",
+  "name": "霞浦海鲜"
+ }
+]

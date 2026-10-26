@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>徒步登山｜路线库 · 户外知识｜中国旅行地图</title>
+<meta name="description" content="个人徒步路线库与户外知识库：贡嘎各坡向重装线、成都周边 18 条实操路线（住宿/向导/强度/水源）、全国经典长线清单、体感温度与高反失温等户外技能，以及海螺沟—木格措车露营路书。" />
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="assets/css/v2.css" />
+<style>
+/* 徒步页专属样式，命名前缀 hk-，避免污染全站 */
+.hk-hero{position:relative;min-height:clamp(260px,38vh,400px);overflow:hidden;background:#101A22;display:flex;align-items:flex-end}
+.hk-hero .bg{position:absolute;inset:0;background:center 40%/cover no-repeat;opacity:.5}
+.hk-hero .msk{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,17,23,.35),rgba(10,17,23,.88))}
+.hk-hero .in{position:relative;width:100%;padding:0 var(--gut) 30px;color:#fff}
+.hk-hero h1{color:#fff;font-size:clamp(27px,4.4vw,46px);line-height:1.18}
+.hk-hero .lead{color:rgba(255,255,255,.8);font-size:15px;max-width:84ch;line-height:1.85;margin-top:11px}
+.hk-facts{display:flex;gap:26px;flex-wrap:wrap;margin-top:18px}
+.hk-facts div{font-size:11.5px;color:rgba(255,255,255,.6);letter-spacing:.05em}
+.hk-facts b{display:block;font-size:21px;color:#fff;font-weight:800;font-variant-numeric:tabular-nums}
+.hk-warn{margin:0 0 22px;padding:12px 16px;border-radius:var(--r-card);background:#FFF6E3;border:1px solid #F0D9A0;
+  color:#7A5200;font-size:13.2px;line-height:1.8}
+.hk-zone{margin-bottom:26px}
+.hk-zone-h{display:flex;align-items:baseline;gap:10px;margin-bottom:12px;flex-wrap:wrap}
+.hk-zone-h h3{font-size:19px}
+.hk-zone-h span{font-size:12.5px;color:var(--muted)}
+.hk-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.hk-card{background:var(--bg2);border:1px solid var(--line);border-radius:var(--r-card);padding:15px 17px 16px;
+  box-shadow:var(--sh);display:flex;flex-direction:column;gap:9px;transition:.2s}
+.hk-card:hover{transform:translateY(-3px);box-shadow:var(--sh-h);border-color:var(--cta)}
+.hk-card h4{font-size:16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.hk-mm{display:flex;gap:6px;flex-wrap:wrap}
+.hk-mm span{font-size:11.5px;padding:2.5px 9px;border-radius:11px;background:#F2EFE9;color:var(--ink2);
+  border:1px solid var(--line);white-space:nowrap}
+.hk-mm span.lv{font-weight:800;color:#fff;border-color:transparent}
+.hk-lv1{background:#3E8E5A}.hk-lv2{background:#5C9A3F}.hk-lv3{background:#C99A2E}
+.hk-lv4{background:#C4703A}.hk-lv5{background:#B03A2E}.hk-lv0{background:#8A939B}
+.hk-card .sp{font-size:12.8px;color:var(--ink2);line-height:1.8}
+.hk-card ul{padding-left:0;display:flex;flex-direction:column;gap:5px;margin-top:2px}
+.hk-card li{font-size:12.4px;color:var(--muted);line-height:1.75;padding-left:14px;position:relative}
+.hk-card li::before{content:"";position:absolute;left:1px;top:9px;width:5px;height:5px;border-radius:50%;background:var(--cta);opacity:.55}
+/* 折叠路线详情 */
+.hk-row{border:1px solid var(--line);border-radius:var(--r-card);background:var(--bg2);overflow:hidden;box-shadow:var(--sh)}
+.hk-row+.hk-row{margin-top:10px}
+.hk-rh{display:flex;align-items:center;gap:12px;padding:12px 16px;cursor:pointer;flex-wrap:wrap}
+.hk-rh:hover{background:#FAF8F4}
+.hk-rh .nm{font-size:15.5px;font-weight:800;color:var(--ink)}
+.hk-rh .km{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.hk-rh .ar{margin-left:auto;color:var(--muted);font-size:12px;transition:.2s}
+.hk-row.on .hk-rh{border-bottom:1px solid var(--line2);background:#FAF8F4}
+.hk-row.on .hk-rh .ar{transform:rotate(90deg);color:var(--cta)}
+.hk-rb{display:none;padding:14px 17px 16px}
+.hk-row.on .hk-rb{display:block}
+.hk-rb .kv .k{flex:0 0 76px}
+.hk-plan{display:flex;flex-direction:column;gap:6px;margin:4px 0 10px}
+.hk-plan div{font-size:13.2px;color:var(--ink2);line-height:1.8;padding:8px 12px;background:#FBFAF8;
+  border-left:3px solid var(--cta);border-radius:0 6px 6px 0}
+.hk-note{margin-top:10px;font-size:12.8px;color:#7A5200;background:#FFF9EC;border:1px solid #F0E2C0;
+  border-radius:8px;padding:9px 12px;line-height:1.8}
+/* 知识卡 */
+.hk-k ul{padding-left:0;gap:4px}
+.hk-k li{font-size:13px;line-height:1.8;color:var(--ink2);padding-left:0;position:relative}
+.hk-k li::before{display:none}
+.hk-k li .bd{display:inline-block;width:14px;color:var(--cta);font-weight:800}
+.hk-k li.l1{padding-left:14px}
+.hk-k li.l2{padding-left:30px;color:var(--muted)}
+.hk-k li.l3{padding-left:46px;color:var(--muted);font-size:12.4px}
+.hk-k li.l0 .tx{font-weight:700;color:var(--ink)}
+.hk-formula{font-family:ui-monospace,Consolas,monospace;background:#F4F1EC;border-radius:6px;padding:1px 6px;font-size:12.5px}
+/* 经典长线 */
+.hk-classic{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.hk-cc{border:1px dashed var(--line);border-radius:var(--r-card);padding:14px 16px;background:#FCFBF9}
+.hk-cc b{display:block;font-size:15px;color:var(--ink);margin-bottom:4px}
+.hk-cc span{font-size:12px;color:var(--muted);line-height:1.7}
+/* 路书 */
+.hk-step{display:flex;gap:12px;padding:10px 16px;border-bottom:1px dashed var(--line2)}
+.hk-step:last-child{border-bottom:0}
+.hk-step .ph{flex:0 0 46px;font-size:12px;font-weight:800;color:var(--cta);padding-top:2px}
+.hk-step .tx{flex:1;font-size:13.4px;color:var(--ink2);line-height:1.85}
+.hk-gear{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px;margin-top:14px}
+.hk-gear div{border:1px solid var(--line);border-radius:8px;padding:10px 13px;background:#FCFBF9}
+.hk-gear b{display:block;font-size:13px;color:var(--ink);margin-bottom:4px}
+.hk-gear span{font-size:12.4px;color:var(--muted);line-height:1.75}
+.hk-peaks table td,.hk-peaks table th{font-size:12.8px;padding:8px 10px}
+@media(max-width:760px){
+  .hk-cards{grid-template-columns:1fr}
+  .hk-step{flex-direction:column;gap:3px}
+  .hk-step .ph{flex:none}
+}
+</style>
+<link rel="manifest" href="manifest.webmanifest" />
+<meta name="theme-color" content="#14212B" />
+<link rel="apple-touch-icon" href="assets/pwa/apple-touch-icon.png" />
+<script src="assets/js/pwa.js" defer></script>
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">旅</span>
+    <span class="brand-txt">中国旅行地图<em>国道 · 省份 · 主题</em></span>
+  </a>
+  <nav class="nav" id="mainnav"></nav>
+  <a class="btn btn-ghost btn-sm" href="favorites.html?tab=visited" id="navVisited" title="查看我的已去清单">已去 0</a>
+</header>
+
+<section class="hk-hero">
+  <div class="bg" id="hkBg"></div>
+  <div class="msk"></div>
+  <div class="in wrap">
+    <div class="eyebrow">HIKING · 徒步登山</div>
+    <h1>把车开到山脚，把腿交给山脊</h1>
+    <p class="lead" id="hkLead"></p>
+    <div class="hk-facts" id="hkFacts"></div>
+  </div>
+</section>
+
+<section class="sec sec-tight">
+  <div class="wrap">
+    <div class="hk-warn" id="hkWarn"></div>
+    <div class="gtabs" id="hktabs"></div>
+    <div id="hkpanes"></div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="cp">
+      <span><a href="themes.html">← 主题玩法</a></span>
+      <span>© 2026 中国旅行地图 · 徒步资料来自本人实测与整理</span>
+      <span><a href="guide.html?tab=ck">行前物资清单 →</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/prov_index.js"></script>
+<script src="assets/js/hiking_data.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/hiking.js"></script>
+</body>
+</html>

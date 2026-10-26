@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>省份总览｜中国旅行地图</title>
+<meta name="description" content="按省份浏览旅行内容：已上线的分省深度路书（城市×景点×美食×省内环线）与环中国环线穿过的省级行政区，一键进入图鉴筛选。" />
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="assets/css/v2.css" />
+<link rel="manifest" href="manifest.webmanifest" />
+<meta name="theme-color" content="#14212B" />
+<link rel="apple-touch-icon" href="assets/pwa/apple-touch-icon.png" />
+<script src="assets/js/pwa.js" defer></script>
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">旅</span>
+    <span class="brand-txt">中国旅行地图<em>国道 · 省份 · 主题</em></span>
+  </a>
+  <nav class="nav" id="mainnav"></nav>
+  <a class="btn btn-ghost btn-sm" href="favorites.html?tab=visited" id="navVisited" title="查看我的已去清单">已去 0</a>
+</header>
+
+<section class="page-head">
+  <div class="wrap">
+    <div class="eyebrow">PROVINCES · 省份</div>
+    <h1>一个省，就是一条完整的旅行线</h1>
+    <p class="lead">分省深度路书把省份拆成城市、景点、美食与省内环线，可独立成行；环中国环线穿过的省级行政区可直接进入图鉴筛选。四川是第一站，后续按热度逐省补充。</p>
+  </div>
+</section>
+
+<section class="sec sec-tight">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">分省深度路书</div>
+        <h2>已上线与规划中</h2>
+      </div>
+    </div>
+    <div class="provgrid" id="featGrid"></div>
+  </div>
+</section>
+
+<section class="sec" style="background:var(--bg2)">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">环线覆盖</div>
+        <h2>环中国穿过的省级行政区 <span id="pCnt" style="color:var(--cta)"></span></h2>
+      </div>
+      <div class="right"><a class="btn btn-line btn-sm" href="favorites.html?tab=browse">打开图鉴全览 →</a></div>
+    </div>
+    <div class="provgrid" id="provGrid"></div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="cp">
+      <span><a href="themes.html">← 主题玩法</a></span>
+      <span>© 2026 中国旅行地图 · 分省内容持续补充</span>
+      <span><a href="province.html?id=sichuan">四川 · 深度路书 →</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/prov_index.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/prov_sichuan.js"></script>
+<script src="assets/js/prov_neighbors_index.js"></script>
+<script src="assets/js/prov_extra_index.js"></script>
+<script src="assets/js/prov_batch3_index.js"></script>
+<script src="assets/js/prov_batch4_index.js"></script>
+<script src="assets/js/prov_batch5_index.js"></script>
+<script src="assets/js/prov_batch6_index.js"></script>
+<script src="assets/js/provinces.js"></script>
+</body>
+</html>

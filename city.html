@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>节点详情｜环中国 · 黄金大外环</title>
+<meta name="description" content="环中国黄金大外环路上的节点详情：景色、山岳徒步、人文、美食、地标与博物馆挂载点。" />
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+<link rel="stylesheet" href="assets/leaflet/leaflet.css" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="assets/css/v2.css" />
+<link rel="manifest" href="manifest.webmanifest" />
+<meta name="theme-color" content="#14212B" />
+<link rel="apple-touch-icon" href="assets/pwa/apple-touch-icon.png" />
+<script src="assets/js/pwa.js" defer></script>
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">旅</span>
+    <span class="brand-txt">中国旅行地图<em>国道 · 省份 · 主题</em></span>
+  </a>
+  <nav class="nav" id="mainnav"></nav>
+  <a class="btn btn-ghost btn-sm" href="favorites.html?tab=visited" id="navVisited" title="查看我的已去清单">已去 0</a>
+</header>
+
+<div class="chead" id="chead">
+  <div class="bg" id="cheadBg"></div>
+  <div class="msk"></div>
+  <div class="in wrap">
+    <div class="crumb" id="crumb"></div>
+    <h1 id="cTitle">加载中…</h1>
+    <div class="role" id="cRole"></div>
+    <div class="facts" id="cFacts"></div>
+  </div>
+  <div class="acts" id="cActs"></div>
+</div>
+
+<main class="sec sec-tight">
+  <div class="wrap clayout">
+    <div class="cmain" id="cmain"></div>
+    <aside class="cside" id="cside"></aside>
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="cp">
+      <span><a href="index.html">← 返回地图路书</a></span>
+      <span>© 2026 环中国路书 · 仅供个人旅行规划参考</span>
+      <span>坐标系 GCJ-02 · 出行前请核对最新路况与管制信息</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/leaflet/leaflet.js"></script>
+<script src="assets/geo/china_provinces.js"></script>
+<script src="assets/geo/china_outline.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/prov_index.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/city.js"></script>
+</body>
+</html>

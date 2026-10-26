@@ -1,0 +1,3394 @@
+[
+ {
+  "q": "石林风景区 昆明 云南 scenery景点 实景",
+  "slug": "yn_shilin",
+  "route": "yunnan",
+  "node": "昆明",
+  "cat": "scenery",
+  "name": "石林风景区"
+ },
+ {
+  "q": "九乡风景区 昆明 云南 scenery景点 实景",
+  "slug": "yn_jiuxiang",
+  "route": "yunnan",
+  "node": "昆明",
+  "cat": "scenery",
+  "name": "九乡风景区"
+ },
+ {
+  "q": "滇池海埂大坝 昆明 云南 scenery景点 实景",
+  "slug": "yn_dianchi",
+  "route": "yunnan",
+  "node": "昆明",
+  "cat": "scenery",
+  "name": "滇池海埂大坝"
+ },
+ {
+  "q": "西山龙门 昆明 云南 mountain景点 实景",
+  "slug": "yn_xishanlongmen",
+  "route": "yunnan",
+  "node": "昆明",
+  "cat": "mountain",
+  "name": "西山龙门"
+ },
+ {
+  "q": "云南省博物馆 昆明 云南 museum景点 实景",
+  "slug": "yn_shengbo",
+  "route": "yunnan",
+  "node": "昆明",
+  "cat": "museum",
+  "name": "云南省博物馆"
+ },
+ {
+  "q": "澄江化石地世界自然遗产博物馆 玉溪 云南 museum景点 实景",
+  "slug": "yn_chengjiang",
+  "route": "yunnan",
+  "node": "玉溪",
+  "cat": "museum",
+  "name": "澄江化石地世界自然遗产博物馆"
+ },
+ {
+  "q": "抚仙湖 · 禄充 玉溪 云南 scenery景点 实景",
+  "slug": "yn_fuxianhu",
+  "route": "yunnan",
+  "node": "玉溪",
+  "cat": "scenery",
+  "name": "抚仙湖 · 禄充"
+ },
+ {
+  "q": "东川红土地 昆明 云南 scenery景点 实景",
+  "slug": "yn_dongchuan",
+  "route": "yunnan",
+  "node": "昆明",
+  "cat": "scenery",
+  "name": "东川红土地"
+ },
+ {
+  "q": "罗平金鸡峰丛 曲靖 云南 scenery景点 实景",
+  "slug": "yn_luoping",
+  "route": "yunnan",
+  "node": "曲靖",
+  "cat": "scenery",
+  "name": "罗平金鸡峰丛"
+ },
+ {
+  "q": "九龙瀑布群 曲靖 云南 scenery景点 实景",
+  "slug": "yn_jiulong",
+  "route": "yunnan",
+  "node": "曲靖",
+  "cat": "scenery",
+  "name": "九龙瀑布群"
+ },
+ {
+  "q": "普者黑 文山 云南 scenery景点 实景",
+  "slug": "yn_puzhehei",
+  "route": "yunnan",
+  "node": "文山",
+  "cat": "scenery",
+  "name": "普者黑"
+ },
+ {
+  "q": "坝美村 文山 云南 culture景点 实景",
+  "slug": "yn_bamei",
+  "route": "yunnan",
+  "node": "文山",
+  "cat": "culture",
+  "name": "坝美村"
+ },
+ {
+  "q": "建水古城朝阳楼 蒙自 云南 culture景点 实景",
+  "slug": "yn_jianshui",
+  "route": "yunnan",
+  "node": "蒙自",
+  "cat": "culture",
+  "name": "建水古城朝阳楼"
+ },
+ {
+  "q": "团山民居 蒙自 云南 culture景点 实景",
+  "slug": "yn_tuanshan",
+  "route": "yunnan",
+  "node": "蒙自",
+  "cat": "culture",
+  "name": "团山民居"
+ },
+ {
+  "q": "双龙桥 蒙自 云南 landmark景点 实景",
+  "slug": "yn_shuanglongqiao",
+  "route": "yunnan",
+  "node": "蒙自",
+  "cat": "landmark",
+  "name": "双龙桥"
+ },
+ {
+  "q": "元阳哈尼梯田 · 多依树 蒙自 云南 scenery景点 实景",
+  "slug": "yn_yuanyang",
+  "route": "yunnan",
+  "node": "蒙自",
+  "cat": "scenery",
+  "name": "元阳哈尼梯田 · 多依树"
+ },
+ {
+  "q": "老虎嘴梯田 蒙自 云南 scenery景点 实景",
+  "slug": "yn_laohuzui",
+  "route": "yunnan",
+  "node": "蒙自",
+  "cat": "scenery",
+  "name": "老虎嘴梯田"
+ },
+ {
+  "q": "碧色寨 蒙自 云南 culture景点 实景",
+  "slug": "yn_bisezhai",
+  "route": "yunnan",
+  "node": "蒙自",
+  "cat": "culture",
+  "name": "碧色寨"
+ },
+ {
+  "q": "蒙自南湖 蒙自 云南 scenery景点 实景",
+  "slug": "yn_mengzi",
+  "route": "yunnan",
+  "node": "蒙自",
+  "cat": "scenery",
+  "name": "蒙自南湖"
+ },
+ {
+  "q": "弥勒东风韵 蒙自 云南 landmark景点 实景",
+  "slug": "yn_dongfengyun",
+  "route": "yunnan",
+  "node": "蒙自",
+  "cat": "landmark",
+  "name": "弥勒东风韵"
+ },
+ {
+  "q": "大理古城 大理 云南 culture景点 实景",
+  "slug": "yn_dali_old",
+  "route": "yunnan",
+  "node": "大理",
+  "cat": "culture",
+  "name": "大理古城"
+ },
+ {
+  "q": "喜洲古镇 大理 云南 culture景点 实景",
+  "slug": "yn_xizhou",
+  "route": "yunnan",
+  "node": "大理",
+  "cat": "culture",
+  "name": "喜洲古镇"
+ },
+ {
+  "q": "双廊 大理 云南 scenery景点 实景",
+  "slug": "yn_shuanglang",
+  "route": "yunnan",
+  "node": "大理",
+  "cat": "scenery",
+  "name": "双廊"
+ },
+ {
+  "q": "崇圣寺三塔 大理 云南 landmark景点 实景",
+  "slug": "yn_santas",
+  "route": "yunnan",
+  "node": "大理",
+  "cat": "landmark",
+  "name": "崇圣寺三塔"
+ },
+ {
+  "q": "苍山洗马潭索道 大理 云南 mountain景点 实景",
+  "slug": "yn_cangshan",
+  "route": "yunnan",
+  "node": "大理",
+  "cat": "mountain",
+  "name": "苍山洗马潭索道"
+ },
+ {
+  "q": "沙溪古镇 大理 云南 culture景点 实景",
+  "slug": "yn_shaxi",
+  "route": "yunnan",
+  "node": "大理",
+  "cat": "culture",
+  "name": "沙溪古镇"
+ },
+ {
+  "q": "诺邓古村 大理 云南 culture景点 实景",
+  "slug": "yn_nuodeng",
+  "route": "yunnan",
+  "node": "大理",
+  "cat": "culture",
+  "name": "诺邓古村"
+ },
+ {
+  "q": "巍山古城 大理 云南 culture景点 实景",
+  "slug": "yn_weishan",
+  "route": "yunnan",
+  "node": "大理",
+  "cat": "culture",
+  "name": "巍山古城"
+ },
+ {
+  "q": "丽江古城 丽江 云南 culture景点 实景",
+  "slug": "yn_lijiang_old",
+  "route": "yunnan",
+  "node": "丽江",
+  "cat": "culture",
+  "name": "丽江古城"
+ },
+ {
+  "q": "束河古镇 丽江 云南 culture景点 实景",
+  "slug": "yn_shuhe",
+  "route": "yunnan",
+  "node": "丽江",
+  "cat": "culture",
+  "name": "束河古镇"
+ },
+ {
+  "q": "玉龙雪山 丽江 云南 mountain景点 实景",
+  "slug": "yn_yulong",
+  "route": "yunnan",
+  "node": "丽江",
+  "cat": "mountain",
+  "name": "玉龙雪山"
+ },
+ {
+  "q": "泸沽湖（云南侧） 丽江 云南 scenery景点 实景",
+  "slug": "yn_lugu",
+  "route": "yunnan",
+  "node": "丽江",
+  "cat": "scenery",
+  "name": "泸沽湖（云南侧）"
+ },
+ {
+  "q": "虎跳峡 丽江 云南 mountain景点 实景",
+  "slug": "yn_hutiaoxia",
+  "route": "yunnan",
+  "node": "丽江",
+  "cat": "mountain",
+  "name": "虎跳峡"
+ },
+ {
+  "q": "老君山黎明景区 丽江 云南 mountain景点 实景",
+  "slug": "yn_laomingshan",
+  "route": "yunnan",
+  "node": "丽江",
+  "cat": "mountain",
+  "name": "老君山黎明景区"
+ },
+ {
+  "q": "独克宗古城 香格里拉 云南 culture景点 实景",
+  "slug": "yn_dukezong",
+  "route": "yunnan",
+  "node": "香格里拉",
+  "cat": "culture",
+  "name": "独克宗古城"
+ },
+ {
+  "q": "松赞林寺 香格里拉 云南 culture景点 实景",
+  "slug": "yn_songzanlin",
+  "route": "yunnan",
+  "node": "香格里拉",
+  "cat": "culture",
+  "name": "松赞林寺"
+ },
+ {
+  "q": "普达措国家公园 香格里拉 云南 scenery景点 实景",
+  "slug": "yn_pudacuo",
+  "route": "yunnan",
+  "node": "香格里拉",
+  "cat": "scenery",
+  "name": "普达措国家公园"
+ },
+ {
+  "q": "纳帕海 香格里拉 云南 scenery景点 实景",
+  "slug": "yn_napahai",
+  "route": "yunnan",
+  "node": "香格里拉",
+  "cat": "scenery",
+  "name": "纳帕海"
+ },
+ {
+  "q": "梅里雪山 · 飞来寺观景台 香格里拉 云南 mountain景点 实景",
+  "slug": "yn_meili",
+  "route": "yunnan",
+  "node": "香格里拉",
+  "cat": "mountain",
+  "name": "梅里雪山 · 飞来寺观景台"
+ },
+ {
+  "q": "雨崩村 香格里拉 云南 mountain景点 实景",
+  "slug": "yn_yubeng",
+  "route": "yunnan",
+  "node": "香格里拉",
+  "cat": "mountain",
+  "name": "雨崩村"
+ },
+ {
+  "q": "白水台 香格里拉 云南 scenery景点 实景",
+  "slug": "yn_baishuitai",
+  "route": "yunnan",
+  "node": "香格里拉",
+  "cat": "scenery",
+  "name": "白水台"
+ },
+ {
+  "q": "和顺古镇 保山 云南 culture景点 实景",
+  "slug": "yn_heshun",
+  "route": "yunnan",
+  "node": "保山",
+  "cat": "culture",
+  "name": "和顺古镇"
+ },
+ {
+  "q": "腾冲热海 保山 云南 scenery景点 实景",
+  "slug": "yn_rehai",
+  "route": "yunnan",
+  "node": "保山",
+  "cat": "scenery",
+  "name": "腾冲热海"
+ },
+ {
+  "q": "腾冲火山地热国家公园 保山 云南 mountain景点 实景",
+  "slug": "yn_huoshan",
+  "route": "yunnan",
+  "node": "保山",
+  "cat": "mountain",
+  "name": "腾冲火山地热国家公园"
+ },
+ {
+  "q": "北海湿地 保山 云南 scenery景点 实景",
+  "slug": "yn_beihai",
+  "route": "yunnan",
+  "node": "保山",
+  "cat": "scenery",
+  "name": "北海湿地"
+ },
+ {
+  "q": "固东银杏村 保山 云南 scenery景点 实景",
+  "slug": "yn_yinxing",
+  "route": "yunnan",
+  "node": "保山",
+  "cat": "scenery",
+  "name": "固东银杏村"
+ },
+ {
+  "q": "国殇墓园 · 滇西抗战纪念馆 保山 云南 museum景点 实景",
+  "slug": "yn_guoshang",
+  "route": "yunnan",
+  "node": "保山",
+  "cat": "museum",
+  "name": "国殇墓园 · 滇西抗战纪念馆"
+ },
+ {
+  "q": "瑞丽一寨两国 芒市 云南 landmark景点 实景",
+  "slug": "yn_yizhaiguo",
+  "route": "yunnan",
+  "node": "芒市",
+  "cat": "landmark",
+  "name": "瑞丽一寨两国"
+ },
+ {
+  "q": "姐告口岸 芒市 云南 landmark景点 实景",
+  "slug": "yn_jiegao",
+  "route": "yunnan",
+  "node": "芒市",
+  "cat": "landmark",
+  "name": "姐告口岸"
+ },
+ {
+  "q": "丙中洛 泸水 云南 scenery景点 实景",
+  "slug": "yn_bingzhongluo",
+  "route": "yunnan",
+  "node": "泸水",
+  "cat": "scenery",
+  "name": "丙中洛"
+ },
+ {
+  "q": "福贡石月亮 泸水 云南 mountain景点 实景",
+  "slug": "yn_shiyueliang",
+  "route": "yunnan",
+  "node": "泸水",
+  "cat": "mountain",
+  "name": "福贡石月亮"
+ },
+ {
+  "q": "景迈山古茶林 普洱 云南 culture景点 实景",
+  "slug": "yn_jingmai",
+  "route": "yunnan",
+  "node": "普洱",
+  "cat": "culture",
+  "name": "景迈山古茶林"
+ },
+ {
+  "q": "告庄西双景 景洪 云南 landmark景点 实景",
+  "slug": "yn_gaozhuang",
+  "route": "yunnan",
+  "node": "景洪",
+  "cat": "landmark",
+  "name": "告庄西双景"
+ },
+ {
+  "q": "野象谷 景洪 云南 scenery景点 实景",
+  "slug": "yn_yexianggu",
+  "route": "yunnan",
+  "node": "景洪",
+  "cat": "scenery",
+  "name": "野象谷"
+ },
+ {
+  "q": "中科院西双版纳热带植物园 景洪 云南 scenery景点 实景",
+  "slug": "yn_zhiwuyuan",
+  "route": "yunnan",
+  "node": "景洪",
+  "cat": "scenery",
+  "name": "中科院西双版纳热带植物园"
+ },
+ {
+  "q": "望天树景区 景洪 云南 scenery景点 实景",
+  "slug": "yn_wangtianshu",
+  "route": "yunnan",
+  "node": "景洪",
+  "cat": "scenery",
+  "name": "望天树景区"
+ },
+ {
+  "q": "昭通大山包 昭通 云南 scenery景点 实景",
+  "slug": "yn_dashanbao",
+  "route": "yunnan",
+  "node": "昭通",
+  "cat": "scenery",
+  "name": "昭通大山包"
+ },
+ {
+  "q": "会泽大海草山 曲靖 云南 scenery景点 实景",
+  "slug": "yn_dahai",
+  "route": "yunnan",
+  "node": "曲靖",
+  "cat": "scenery",
+  "name": "会泽大海草山"
+ },
+ {
+  "q": "曲靖珠江源 曲靖 云南 scenery景点 实景",
+  "slug": "yn_zhujiangyuan",
+  "route": "yunnan",
+  "node": "曲靖",
+  "cat": "scenery",
+  "name": "曲靖珠江源"
+ },
+ {
+  "q": "元谋土林 楚雄 云南 scenery景点 实景",
+  "slug": "yn_tulin",
+  "route": "yunnan",
+  "node": "楚雄",
+  "cat": "scenery",
+  "name": "元谋土林"
+ },
+ {
+  "q": "禄丰世界恐龙谷 楚雄 云南 museum景点 实景",
+  "slug": "yn_konglong",
+  "route": "yunnan",
+  "node": "楚雄",
+  "cat": "museum",
+  "name": "禄丰世界恐龙谷"
+ },
+ {
+  "q": "黄果树大瀑布 安顺 贵州 scenery景点 实景",
+  "slug": "gz_huangguoshu",
+  "route": "guizhou",
+  "node": "安顺",
+  "cat": "scenery",
+  "name": "黄果树大瀑布"
+ },
+ {
+  "q": "天星桥景区 安顺 贵州 scenery景点 实景",
+  "slug": "gz_tianxingqiao",
+  "route": "guizhou",
+  "node": "安顺",
+  "cat": "scenery",
+  "name": "天星桥景区"
+ },
+ {
+  "q": "龙宫 安顺 贵州 scenery景点 实景",
+  "slug": "gz_longgong",
+  "route": "guizhou",
+  "node": "安顺",
+  "cat": "scenery",
+  "name": "龙宫"
+ },
+ {
+  "q": "格凸河 安顺 贵州 scenery景点 实景",
+  "slug": "gz_getuhe",
+  "route": "guizhou",
+  "node": "安顺",
+  "cat": "scenery",
+  "name": "格凸河"
+ },
+ {
+  "q": "天龙屯堡 安顺 贵州 culture景点 实景",
+  "slug": "gz_tianlong",
+  "route": "guizhou",
+  "node": "安顺",
+  "cat": "culture",
+  "name": "天龙屯堡"
+ },
+ {
+  "q": "织金洞 毕节 贵州 scenery景点 实景",
+  "slug": "gz_zhijin",
+  "route": "guizhou",
+  "node": "毕节",
+  "cat": "scenery",
+  "name": "织金洞"
+ },
+ {
+  "q": "韭菜坪 毕节 贵州 mountain景点 实景",
+  "slug": "gz_feicai",
+  "route": "guizhou",
+  "node": "毕节",
+  "cat": "mountain",
+  "name": "韭菜坪"
+ },
+ {
+  "q": "百里杜鹃 毕节 贵州 scenery景点 实景",
+  "slug": "gz_baili",
+  "route": "guizhou",
+  "node": "毕节",
+  "cat": "scenery",
+  "name": "百里杜鹃"
+ },
+ {
+  "q": "威宁草海 毕节 贵州 scenery景点 实景",
+  "slug": "gz_caohai",
+  "route": "guizhou",
+  "node": "毕节",
+  "cat": "scenery",
+  "name": "威宁草海"
+ },
+ {
+  "q": "乌蒙大草原 六盘水 贵州 scenery景点 实景",
+  "slug": "gz_wumeng",
+  "route": "guizhou",
+  "node": "六盘水",
+  "cat": "scenery",
+  "name": "乌蒙大草原"
+ },
+ {
+  "q": "北盘江大桥 六盘水 贵州 landmark景点 实景",
+  "slug": "gz_beipanjiang",
+  "route": "guizhou",
+  "node": "六盘水",
+  "cat": "landmark",
+  "name": "北盘江大桥"
+ },
+ {
+  "q": "玉舍国家森林公园 六盘水 贵州 mountain景点 实景",
+  "slug": "gz_yushe",
+  "route": "guizhou",
+  "node": "六盘水",
+  "cat": "mountain",
+  "name": "玉舍国家森林公园"
+ },
+ {
+  "q": "遵义会议会址 遵义 贵州 museum景点 实景",
+  "slug": "gz_zunyi",
+  "route": "guizhou",
+  "node": "遵义",
+  "cat": "museum",
+  "name": "遵义会议会址"
+ },
+ {
+  "q": "茅台镇 遵义 贵州 culture景点 实景",
+  "slug": "gz_maotai",
+  "route": "guizhou",
+  "node": "遵义",
+  "cat": "culture",
+  "name": "茅台镇"
+ },
+ {
+  "q": "赤水大瀑布 遵义 贵州 scenery景点 实景",
+  "slug": "gz_chishui_pb",
+  "route": "guizhou",
+  "node": "遵义",
+  "cat": "scenery",
+  "name": "赤水大瀑布"
+ },
+ {
+  "q": "佛光岩 遵义 贵州 scenery景点 实景",
+  "slug": "gz_foguangyan",
+  "route": "guizhou",
+  "node": "遵义",
+  "cat": "scenery",
+  "name": "佛光岩"
+ },
+ {
+  "q": "四洞沟 遵义 贵州 scenery景点 实景",
+  "slug": "gz_sidonggou",
+  "route": "guizhou",
+  "node": "遵义",
+  "cat": "scenery",
+  "name": "四洞沟"
+ },
+ {
+  "q": "赤水竹海 遵义 贵州 scenery景点 实景",
+  "slug": "gz_zhuhai",
+  "route": "guizhou",
+  "node": "遵义",
+  "cat": "scenery",
+  "name": "赤水竹海"
+ },
+ {
+  "q": "海龙屯 遵义 贵州 museum景点 实景",
+  "slug": "gz_hailongtun",
+  "route": "guizhou",
+  "node": "遵义",
+  "cat": "museum",
+  "name": "海龙屯"
+ },
+ {
+  "q": "苟坝会议会址 遵义 贵州 museum景点 实景",
+  "slug": "gz_goubah",
+  "route": "guizhou",
+  "node": "遵义",
+  "cat": "museum",
+  "name": "苟坝会议会址"
+ },
+ {
+  "q": "娄山关 遵义 贵州 landmark景点 实景",
+  "slug": "gz_loushan",
+  "route": "guizhou",
+  "node": "遵义",
+  "cat": "landmark",
+  "name": "娄山关"
+ },
+ {
+  "q": "梵净山 铜仁 贵州 mountain景点 实景",
+  "slug": "gz_fanjing",
+  "route": "guizhou",
+  "node": "铜仁",
+  "cat": "mountain",
+  "name": "梵净山"
+ },
+ {
+  "q": "亚木沟 铜仁 贵州 scenery景点 实景",
+  "slug": "gz_yamugou",
+  "route": "guizhou",
+  "node": "铜仁",
+  "cat": "scenery",
+  "name": "亚木沟"
+ },
+ {
+  "q": "石阡温泉 铜仁 贵州 scenery景点 实景",
+  "slug": "gz_shiqian",
+  "route": "guizhou",
+  "node": "铜仁",
+  "cat": "scenery",
+  "name": "石阡温泉"
+ },
+ {
+  "q": "大明边城 铜仁 贵州 culture景点 实景",
+  "slug": "gz_daming",
+  "route": "guizhou",
+  "node": "铜仁",
+  "cat": "culture",
+  "name": "大明边城"
+ },
+ {
+  "q": "西江千户苗寨 凯里 贵州 culture景点 实景",
+  "slug": "gz_xijiang",
+  "route": "guizhou",
+  "node": "凯里",
+  "cat": "culture",
+  "name": "西江千户苗寨"
+ },
+ {
+  "q": "肇兴侗寨 凯里 贵州 culture景点 实景",
+  "slug": "gz_zhaoxing",
+  "route": "guizhou",
+  "node": "凯里",
+  "cat": "culture",
+  "name": "肇兴侗寨"
+ },
+ {
+  "q": "堂安侗寨 凯里 贵州 culture景点 实景",
+  "slug": "gz_tangan",
+  "route": "guizhou",
+  "node": "凯里",
+  "cat": "culture",
+  "name": "堂安侗寨"
+ },
+ {
+  "q": "加榜梯田 凯里 贵州 scenery景点 实景",
+  "slug": "gz_jiabang",
+  "route": "guizhou",
+  "node": "凯里",
+  "cat": "scenery",
+  "name": "加榜梯田"
+ },
+ {
+  "q": "岜沙苗寨 凯里 贵州 culture景点 实景",
+  "slug": "gz_basha",
+  "route": "guizhou",
+  "node": "凯里",
+  "cat": "culture",
+  "name": "岜沙苗寨"
+ },
+ {
+  "q": "隆里古城 凯里 贵州 culture景点 实景",
+  "slug": "gz_longli",
+  "route": "guizhou",
+  "node": "凯里",
+  "cat": "culture",
+  "name": "隆里古城"
+ },
+ {
+  "q": "镇远古城 凯里 贵州 culture景点 实景",
+  "slug": "gz_zhenyuan",
+  "route": "guizhou",
+  "node": "凯里",
+  "cat": "culture",
+  "name": "镇远古城"
+ },
+ {
+  "q": "青龙洞古建筑群 凯里 贵州 culture景点 实景",
+  "slug": "gz_qinglong",
+  "route": "guizhou",
+  "node": "凯里",
+  "cat": "culture",
+  "name": "青龙洞古建筑群"
+ },
+ {
+  "q": "施秉云台山 凯里 贵州 mountain景点 实景",
+  "slug": "gz_yuntai",
+  "route": "guizhou",
+  "node": "凯里",
+  "cat": "mountain",
+  "name": "施秉云台山"
+ },
+ {
+  "q": "下司古镇 凯里 贵州 culture景点 实景",
+  "slug": "gz_xiajiang",
+  "route": "guizhou",
+  "node": "凯里",
+  "cat": "culture",
+  "name": "下司古镇"
+ },
+ {
+  "q": "雷公山 凯里 贵州 mountain景点 实景",
+  "slug": "gz_leigong",
+  "route": "guizhou",
+  "node": "凯里",
+  "cat": "mountain",
+  "name": "雷公山"
+ },
+ {
+  "q": "荔波小七孔 都匀 贵州 scenery景点 实景",
+  "slug": "gz_xiaoqikong",
+  "route": "guizhou",
+  "node": "都匀",
+  "cat": "scenery",
+  "name": "荔波小七孔"
+ },
+ {
+  "q": "荔波大七孔 都匀 贵州 scenery景点 实景",
+  "slug": "gz_daqikong",
+  "route": "guizhou",
+  "node": "都匀",
+  "cat": "scenery",
+  "name": "荔波大七孔"
+ },
+ {
+  "q": "茂兰喀斯特原始森林 都匀 贵州 mountain景点 实景",
+  "slug": "gz_maolan",
+  "route": "guizhou",
+  "node": "都匀",
+  "cat": "mountain",
+  "name": "茂兰喀斯特原始森林"
+ },
+ {
+  "q": "平塘天眼景区 都匀 贵州 museum景点 实景",
+  "slug": "gz_fast",
+  "route": "guizhou",
+  "node": "都匀",
+  "cat": "museum",
+  "name": "平塘天眼景区"
+ },
+ {
+  "q": "都匀秦汉影视城 都匀 贵州 culture景点 实景",
+  "slug": "gz_duyun",
+  "route": "guizhou",
+  "node": "都匀",
+  "cat": "culture",
+  "name": "都匀秦汉影视城"
+ },
+ {
+  "q": "万峰林 兴义 贵州 scenery景点 实景",
+  "slug": "gz_wanfenglin",
+  "route": "guizhou",
+  "node": "兴义",
+  "cat": "scenery",
+  "name": "万峰林"
+ },
+ {
+  "q": "马岭河峡谷 兴义 贵州 scenery景点 实景",
+  "slug": "gz_malinghe",
+  "route": "guizhou",
+  "node": "兴义",
+  "cat": "scenery",
+  "name": "马岭河峡谷"
+ },
+ {
+  "q": "万峰湖 兴义 贵州 scenery景点 实景",
+  "slug": "gz_wanfenghu",
+  "route": "guizhou",
+  "node": "兴义",
+  "cat": "scenery",
+  "name": "万峰湖"
+ },
+ {
+  "q": "贞丰双乳峰 兴义 贵州 scenery景点 实景",
+  "slug": "gz_shuangru",
+  "route": "guizhou",
+  "node": "兴义",
+  "cat": "scenery",
+  "name": "贞丰双乳峰"
+ },
+ {
+  "q": "三岔河 兴义 贵州 scenery景点 实景",
+  "slug": "gz_sanchahe",
+  "route": "guizhou",
+  "node": "兴义",
+  "cat": "scenery",
+  "name": "三岔河"
+ },
+ {
+  "q": "花嘎大峡谷 六盘水 贵州 scenery景点 实景",
+  "slug": "gz_huajia",
+  "route": "guizhou",
+  "node": "六盘水",
+  "cat": "scenery",
+  "name": "花嘎大峡谷"
+ },
+ {
+  "q": "曲靖珠江源（贵州段） 六盘水 贵州 scenery景点 实景",
+  "slug": "gz_beipan",
+  "route": "guizhou",
+  "node": "六盘水",
+  "cat": "scenery",
+  "name": "曲靖珠江源（贵州段）"
+ },
+ {
+  "q": "石桥古法造纸 凯里 贵州 culture景点 实景",
+  "slug": "gz_shiqiao",
+  "route": "guizhou",
+  "node": "凯里",
+  "cat": "culture",
+  "name": "石桥古法造纸"
+ },
+ {
+  "q": "朗德上寨 凯里 贵州 culture景点 实景",
+  "slug": "gz_langde",
+  "route": "guizhou",
+  "node": "凯里",
+  "cat": "culture",
+  "name": "朗德上寨"
+ },
+ {
+  "q": "青岩古镇 贵阳 贵州 culture景点 实景",
+  "slug": "gz_qingyan",
+  "route": "guizhou",
+  "node": "贵阳",
+  "cat": "culture",
+  "name": "青岩古镇"
+ },
+ {
+  "q": "甲秀楼 贵阳 贵州 landmark景点 实景",
+  "slug": "gz_jiaxiu",
+  "route": "guizhou",
+  "node": "贵阳",
+  "cat": "landmark",
+  "name": "甲秀楼"
+ },
+ {
+  "q": "黔灵山公园 贵阳 贵州 scenery景点 实景",
+  "slug": "gz_qianling",
+  "route": "guizhou",
+  "node": "贵阳",
+  "cat": "scenery",
+  "name": "黔灵山公园"
+ },
+ {
+  "q": "洪崖洞 渝中 重庆 landmark景点 实景",
+  "slug": "cq_hongyadong",
+  "route": "chongqing",
+  "node": "渝中",
+  "cat": "landmark",
+  "name": "洪崖洞"
+ },
+ {
+  "q": "解放碑步行街 渝中 重庆 landmark景点 实景",
+  "slug": "cq_jiefangbei",
+  "route": "chongqing",
+  "node": "渝中",
+  "cat": "landmark",
+  "name": "解放碑步行街"
+ },
+ {
+  "q": "长江索道 渝中 重庆 landmark景点 实景",
+  "slug": "cq_suodao",
+  "route": "chongqing",
+  "node": "渝中",
+  "cat": "landmark",
+  "name": "长江索道"
+ },
+ {
+  "q": "李子坝轻轨穿楼 渝中 重庆 landmark景点 实景",
+  "slug": "cq_liziba",
+  "route": "chongqing",
+  "node": "渝中",
+  "cat": "landmark",
+  "name": "李子坝轻轨穿楼"
+ },
+ {
+  "q": "山城巷（第三步道） 渝中 重庆 culture景点 实景",
+  "slug": "cq_sanchengxiang",
+  "route": "chongqing",
+  "node": "渝中",
+  "cat": "culture",
+  "name": "山城巷（第三步道）"
+ },
+ {
+  "q": "鹅岭二厂文创公园 渝中 重庆 culture景点 实景",
+  "slug": "cq_eling",
+  "route": "chongqing",
+  "node": "渝中",
+  "cat": "culture",
+  "name": "鹅岭二厂文创公园"
+ },
+ {
+  "q": "朝天门 · 来福士 渝中 重庆 landmark景点 实景",
+  "slug": "cq_chaotianmen",
+  "route": "chongqing",
+  "node": "渝中",
+  "cat": "landmark",
+  "name": "朝天门 · 来福士"
+ },
+ {
+  "q": "湖广会馆 渝中 重庆 museum景点 实景",
+  "slug": "cq_huguang",
+  "route": "chongqing",
+  "node": "渝中",
+  "cat": "museum",
+  "name": "湖广会馆"
+ },
+ {
+  "q": "人民大礼堂 · 三峡博物馆 渝中 重庆 landmark景点 实景",
+  "slug": "cq_dalitang",
+  "route": "chongqing",
+  "node": "渝中",
+  "cat": "landmark",
+  "name": "人民大礼堂 · 三峡博物馆"
+ },
+ {
+  "q": "白象居 · 通远门古城墙 渝中 重庆 culture景点 实景",
+  "slug": "cq_baijuyi",
+  "route": "chongqing",
+  "node": "渝中",
+  "cat": "culture",
+  "name": "白象居 · 通远门古城墙"
+ },
+ {
+  "q": "罗汉寺 渝中 重庆 culture景点 实景",
+  "slug": "cq_luohan",
+  "route": "chongqing",
+  "node": "渝中",
+  "cat": "culture",
+  "name": "罗汉寺"
+ },
+ {
+  "q": "红岩革命纪念馆 渝中 重庆 museum景点 实景",
+  "slug": "cq_hongyan",
+  "route": "chongqing",
+  "node": "渝中",
+  "cat": "museum",
+  "name": "红岩革命纪念馆"
+ },
+ {
+  "q": "磁器口古镇 沙坪坝 重庆 culture景点 实景",
+  "slug": "cq_ciqikou",
+  "route": "chongqing",
+  "node": "沙坪坝",
+  "cat": "culture",
+  "name": "磁器口古镇"
+ },
+ {
+  "q": "歌乐山 · 白公馆渣滓洞 沙坪坝 重庆 museum景点 实景",
+  "slug": "cq_gele",
+  "route": "chongqing",
+  "node": "沙坪坝",
+  "cat": "museum",
+  "name": "歌乐山 · 白公馆渣滓洞"
+ },
+ {
+  "q": "南山一棵树观景台 渝中 重庆 scenery景点 实景",
+  "slug": "cq_nanshan",
+  "route": "chongqing",
+  "node": "渝中",
+  "cat": "scenery",
+  "name": "南山一棵树观景台"
+ },
+ {
+  "q": "弹子石老街 · 龙门浩 渝中 重庆 culture景点 实景",
+  "slug": "cq_danzishi",
+  "route": "chongqing",
+  "node": "渝中",
+  "cat": "culture",
+  "name": "弹子石老街 · 龙门浩"
+ },
+ {
+  "q": "缙云山 北碚 重庆 mountain景点 实景",
+  "slug": "cq_jinyun",
+  "route": "chongqing",
+  "node": "北碚",
+  "cat": "mountain",
+  "name": "缙云山"
+ },
+ {
+  "q": "北温泉公园 北碚 重庆 scenery景点 实景",
+  "slug": "cq_beiwenquan",
+  "route": "chongqing",
+  "node": "北碚",
+  "cat": "scenery",
+  "name": "北温泉公园"
+ },
+ {
+  "q": "金刀峡 北碚 重庆 scenery景点 实景",
+  "slug": "cq_jindaoxia",
+  "route": "chongqing",
+  "node": "北碚",
+  "cat": "scenery",
+  "name": "金刀峡"
+ },
+ {
+  "q": "大足宝顶山石刻 大足 重庆 museum景点 实景",
+  "slug": "cq_baoding",
+  "route": "chongqing",
+  "node": "大足",
+  "cat": "museum",
+  "name": "大足宝顶山石刻"
+ },
+ {
+  "q": "大足北山石刻 大足 重庆 museum景点 实景",
+  "slug": "cq_beishan",
+  "route": "chongqing",
+  "node": "大足",
+  "cat": "museum",
+  "name": "大足北山石刻"
+ },
+ {
+  "q": "钓鱼城 合川 重庆 culture景点 实景",
+  "slug": "cq_diaoyucheng",
+  "route": "chongqing",
+  "node": "合川",
+  "cat": "culture",
+  "name": "钓鱼城"
+ },
+ {
+  "q": "涞滩古镇 合川 重庆 culture景点 实景",
+  "slug": "cq_laitan",
+  "route": "chongqing",
+  "node": "合川",
+  "cat": "culture",
+  "name": "涞滩古镇"
+ },
+ {
+  "q": "四面山 江津 重庆 mountain景点 实景",
+  "slug": "cq_simianshan",
+  "route": "chongqing",
+  "node": "江津",
+  "cat": "mountain",
+  "name": "四面山"
+ },
+ {
+  "q": "中山古镇 江津 重庆 culture景点 实景",
+  "slug": "cq_zhongshan",
+  "route": "chongqing",
+  "node": "江津",
+  "cat": "culture",
+  "name": "中山古镇"
+ },
+ {
+  "q": "白沙古镇 江津 重庆 culture景点 实景",
+  "slug": "cq_baisha",
+  "route": "chongqing",
+  "node": "江津",
+  "cat": "culture",
+  "name": "白沙古镇"
+ },
+ {
+  "q": "茶山竹海 永川 重庆 mountain景点 实景",
+  "slug": "cq_chashan",
+  "route": "chongqing",
+  "node": "永川",
+  "cat": "mountain",
+  "name": "茶山竹海"
+ },
+ {
+  "q": "松溉古镇 永川 重庆 culture景点 实景",
+  "slug": "cq_songji",
+  "route": "chongqing",
+  "node": "永川",
+  "cat": "culture",
+  "name": "松溉古镇"
+ },
+ {
+  "q": "金佛山 南川 重庆 mountain景点 实景",
+  "slug": "cq_jinfo",
+  "route": "chongqing",
+  "node": "南川",
+  "cat": "mountain",
+  "name": "金佛山"
+ },
+ {
+  "q": "山王坪喀斯特生态公园 南川 重庆 scenery景点 实景",
+  "slug": "cq_shanwangping",
+  "route": "chongqing",
+  "node": "南川",
+  "cat": "scenery",
+  "name": "山王坪喀斯特生态公园"
+ },
+ {
+  "q": "武隆天生三桥 武隆 重庆 scenery景点 实景",
+  "slug": "cq_tiansheng",
+  "route": "chongqing",
+  "node": "武隆",
+  "cat": "scenery",
+  "name": "武隆天生三桥"
+ },
+ {
+  "q": "龙水峡地缝 武隆 重庆 scenery景点 实景",
+  "slug": "cq_difeng",
+  "route": "chongqing",
+  "node": "武隆",
+  "cat": "scenery",
+  "name": "龙水峡地缝"
+ },
+ {
+  "q": "仙女山国家森林公园 武隆 重庆 mountain景点 实景",
+  "slug": "cq_xiannv",
+  "route": "chongqing",
+  "node": "武隆",
+  "cat": "mountain",
+  "name": "仙女山国家森林公园"
+ },
+ {
+  "q": "芙蓉洞 武隆 重庆 scenery景点 实景",
+  "slug": "cq_furongdong",
+  "route": "chongqing",
+  "node": "武隆",
+  "cat": "scenery",
+  "name": "芙蓉洞"
+ },
+ {
+  "q": "阿依河 彭水 重庆 scenery景点 实景",
+  "slug": "cq_ayihe",
+  "route": "chongqing",
+  "node": "彭水",
+  "cat": "scenery",
+  "name": "阿依河"
+ },
+ {
+  "q": "蚩尤九黎城 彭水 重庆 culture景点 实景",
+  "slug": "cq_chiyou",
+  "route": "chongqing",
+  "node": "彭水",
+  "cat": "culture",
+  "name": "蚩尤九黎城"
+ },
+ {
+  "q": "濯水古镇 · 风雨廊桥 黔江 重庆 culture景点 实景",
+  "slug": "cq_zhuoshui",
+  "route": "chongqing",
+  "node": "黔江",
+  "cat": "culture",
+  "name": "濯水古镇 · 风雨廊桥"
+ },
+ {
+  "q": "蒲花暗河 黔江 重庆 scenery景点 实景",
+  "slug": "cq_puhua",
+  "route": "chongqing",
+  "node": "黔江",
+  "cat": "scenery",
+  "name": "蒲花暗河"
+ },
+ {
+  "q": "黔江城市大峡谷 黔江 重庆 scenery景点 实景",
+  "slug": "cq_qjdxg",
+  "route": "chongqing",
+  "node": "黔江",
+  "cat": "scenery",
+  "name": "黔江城市大峡谷"
+ },
+ {
+  "q": "小南海地震遗址 黔江 重庆 scenery景点 实景",
+  "slug": "cq_xiaonanhai",
+  "route": "chongqing",
+  "node": "黔江",
+  "cat": "scenery",
+  "name": "小南海地震遗址"
+ },
+ {
+  "q": "黄水国家森林公园 石柱 重庆 mountain景点 实景",
+  "slug": "cq_huangshui",
+  "route": "chongqing",
+  "node": "石柱",
+  "cat": "mountain",
+  "name": "黄水国家森林公园"
+ },
+ {
+  "q": "西沱古镇 石柱 重庆 culture景点 实景",
+  "slug": "cq_xituo",
+  "route": "chongqing",
+  "node": "石柱",
+  "cat": "culture",
+  "name": "西沱古镇"
+ },
+ {
+  "q": "千野草场 石柱 重庆 scenery景点 实景",
+  "slug": "cq_qiancao",
+  "route": "chongqing",
+  "node": "石柱",
+  "cat": "scenery",
+  "name": "千野草场"
+ },
+ {
+  "q": "丰都名山 丰都 重庆 culture景点 实景",
+  "slug": "cq_fengdu",
+  "route": "chongqing",
+  "node": "丰都",
+  "cat": "culture",
+  "name": "丰都名山"
+ },
+ {
+  "q": "雪玉洞 丰都 重庆 scenery景点 实景",
+  "slug": "cq_xueyu",
+  "route": "chongqing",
+  "node": "丰都",
+  "cat": "scenery",
+  "name": "雪玉洞"
+ },
+ {
+  "q": "石宝寨 忠县 重庆 landmark景点 实景",
+  "slug": "cq_shibaozhai",
+  "route": "chongqing",
+  "node": "忠县",
+  "cat": "landmark",
+  "name": "石宝寨"
+ },
+ {
+  "q": "云阳龙缸 云阳 重庆 museum景点 实景",
+  "slug": "cq_longgang",
+  "route": "chongqing",
+  "node": "云阳",
+  "cat": "museum",
+  "name": "云阳龙缸"
+ },
+ {
+  "q": "张飞庙 云阳 重庆 museum景点 实景",
+  "slug": "cq_zhangfei",
+  "route": "chongqing",
+  "node": "云阳",
+  "cat": "museum",
+  "name": "张飞庙"
+ },
+ {
+  "q": "万州大瀑布群 万州 重庆 scenery景点 实景",
+  "slug": "cq_wanzhou_pb",
+  "route": "chongqing",
+  "node": "万州",
+  "cat": "scenery",
+  "name": "万州大瀑布群"
+ },
+ {
+  "q": "白帝城 奉节 重庆 culture景点 实景",
+  "slug": "cq_baidi",
+  "route": "chongqing",
+  "node": "奉节",
+  "cat": "culture",
+  "name": "白帝城"
+ },
+ {
+  "q": "瞿塘峡夔门 奉节 重庆 scenery景点 实景",
+  "slug": "cq_kuimen",
+  "route": "chongqing",
+  "node": "奉节",
+  "cat": "scenery",
+  "name": "瞿塘峡夔门"
+ },
+ {
+  "q": "三峡之巅 奉节 重庆 mountain景点 实景",
+  "slug": "cq_sanzhi",
+  "route": "chongqing",
+  "node": "奉节",
+  "cat": "mountain",
+  "name": "三峡之巅"
+ },
+ {
+  "q": "小寨天坑 · 龙桥河 奉节 重庆 scenery景点 实景",
+  "slug": "cq_xiaozhai",
+  "route": "chongqing",
+  "node": "奉节",
+  "cat": "scenery",
+  "name": "小寨天坑 · 龙桥河"
+ },
+ {
+  "q": "巫山小三峡 · 小小三峡 巫山 重庆 scenery景点 实景",
+  "slug": "cq_xiaosanxia",
+  "route": "chongqing",
+  "node": "巫山",
+  "cat": "scenery",
+  "name": "巫山小三峡 · 小小三峡"
+ },
+ {
+  "q": "神女峰 · 神女天路 巫山 重庆 mountain景点 实景",
+  "slug": "cq_shennv",
+  "route": "chongqing",
+  "node": "巫山",
+  "cat": "mountain",
+  "name": "神女峰 · 神女天路"
+ },
+ {
+  "q": "红池坝 巫溪 重庆 scenery景点 实景",
+  "slug": "cq_hongchi",
+  "route": "chongqing",
+  "node": "巫溪",
+  "cat": "scenery",
+  "name": "红池坝"
+ },
+ {
+  "q": "宁厂古镇 巫溪 重庆 culture景点 实景",
+  "slug": "cq_ningchang",
+  "route": "chongqing",
+  "node": "巫溪",
+  "cat": "culture",
+  "name": "宁厂古镇"
+ },
+ {
+  "q": "兰英大峡谷 巫溪 重庆 scenery景点 实景",
+  "slug": "cq_lanying",
+  "route": "chongqing",
+  "node": "巫溪",
+  "cat": "scenery",
+  "name": "兰英大峡谷"
+ },
+ {
+  "q": "阴条岭 巫溪 重庆 mountain景点 实景",
+  "slug": "cq_yintiao",
+  "route": "chongqing",
+  "node": "巫溪",
+  "cat": "mountain",
+  "name": "阴条岭"
+ },
+ {
+  "q": "酉阳桃花源 酉阳 重庆 scenery景点 实景",
+  "slug": "cq_taohuayuan",
+  "route": "chongqing",
+  "node": "酉阳",
+  "cat": "scenery",
+  "name": "酉阳桃花源"
+ },
+ {
+  "q": "龚滩古镇 酉阳 重庆 culture景点 实景",
+  "slug": "cq_gongtan",
+  "route": "chongqing",
+  "node": "酉阳",
+  "cat": "culture",
+  "name": "龚滩古镇"
+ },
+ {
+  "q": "龙潭古镇 酉阳 重庆 culture景点 实景",
+  "slug": "cq_longtan",
+  "route": "chongqing",
+  "node": "酉阳",
+  "cat": "culture",
+  "name": "龙潭古镇"
+ },
+ {
+  "q": "叠石花谷 酉阳 重庆 scenery景点 实景",
+  "slug": "cq_dieshi",
+  "route": "chongqing",
+  "node": "酉阳",
+  "cat": "scenery",
+  "name": "叠石花谷"
+ },
+ {
+  "q": "阿蓬江神龟峡 酉阳 重庆 scenery景点 实景",
+  "slug": "cq_shengui",
+  "route": "chongqing",
+  "node": "酉阳",
+  "cat": "scenery",
+  "name": "阿蓬江神龟峡"
+ },
+ {
+  "q": "洪安边城 秀山 重庆 culture景点 实景",
+  "slug": "cq_hongan",
+  "route": "chongqing",
+  "node": "秀山",
+  "cat": "culture",
+  "name": "洪安边城"
+ },
+ {
+  "q": "川河盖草场 秀山 重庆 scenery景点 实景",
+  "slug": "cq_chuanhe",
+  "route": "chongqing",
+  "node": "秀山",
+  "cat": "scenery",
+  "name": "川河盖草场"
+ },
+ {
+  "q": "东溪古镇 綦江 重庆 culture景点 实景",
+  "slug": "cq_dongxi",
+  "route": "chongqing",
+  "node": "綦江",
+  "cat": "culture",
+  "name": "东溪古镇"
+ },
+ {
+  "q": "古剑山 綦江 重庆 mountain景点 实景",
+  "slug": "cq_gujian",
+  "route": "chongqing",
+  "node": "綦江",
+  "cat": "mountain",
+  "name": "古剑山"
+ },
+ {
+  "q": "汉丰湖 开州 重庆 scenery景点 实景",
+  "slug": "cq_hanfeng",
+  "route": "chongqing",
+  "node": "开州",
+  "cat": "scenery",
+  "name": "汉丰湖"
+ },
+ {
+  "q": "双桂堂 梁平 重庆 museum景点 实景",
+  "slug": "cq_shuanggui",
+  "route": "chongqing",
+  "node": "梁平",
+  "cat": "museum",
+  "name": "双桂堂"
+ },
+ {
+  "q": "百里竹海 梁平 重庆 scenery景点 实景",
+  "slug": "cq_zhuhai",
+  "route": "chongqing",
+  "node": "梁平",
+  "cat": "scenery",
+  "name": "百里竹海"
+ },
+ {
+  "q": "统景温泉 渝北 重庆 scenery景点 实景",
+  "slug": "cq_tongjing",
+  "route": "chongqing",
+  "node": "渝北",
+  "cat": "scenery",
+  "name": "统景温泉"
+ },
+ {
+  "q": "丰盛古镇 巴南 重庆 culture景点 实景",
+  "slug": "cq_fengsheng",
+  "route": "chongqing",
+  "node": "巴南",
+  "cat": "culture",
+  "name": "丰盛古镇"
+ },
+ {
+  "q": "秦始皇兵马俑 西安 陕西 museum景点 实景",
+  "slug": "sx_bmy",
+  "route": "shaanxi",
+  "node": "西安",
+  "cat": "museum",
+  "name": "秦始皇兵马俑"
+ },
+ {
+  "q": "华清宫 西安 陕西 culture景点 实景",
+  "slug": "sx_huqg",
+  "route": "shaanxi",
+  "node": "西安",
+  "cat": "culture",
+  "name": "华清宫"
+ },
+ {
+  "q": "大雁塔 · 大唐不夜城 西安 陕西 landmark景点 实景",
+  "slug": "sx_dayanta",
+  "route": "shaanxi",
+  "node": "西安",
+  "cat": "landmark",
+  "name": "大雁塔 · 大唐不夜城"
+ },
+ {
+  "q": "西安城墙 西安 陕西 landmark景点 实景",
+  "slug": "sx_chengqiang",
+  "route": "shaanxi",
+  "node": "西安",
+  "cat": "landmark",
+  "name": "西安城墙"
+ },
+ {
+  "q": "钟楼 · 鼓楼 · 回民街 西安 陕西 culture景点 实景",
+  "slug": "sx_zhonglou",
+  "route": "shaanxi",
+  "node": "西安",
+  "cat": "culture",
+  "name": "钟楼 · 鼓楼 · 回民街"
+ },
+ {
+  "q": "碑林博物馆 西安 陕西 museum景点 实景",
+  "slug": "sx_beilin",
+  "route": "shaanxi",
+  "node": "西安",
+  "cat": "museum",
+  "name": "碑林博物馆"
+ },
+ {
+  "q": "陕西历史博物馆 西安 陕西 museum景点 实景",
+  "slug": "sx_sxls",
+  "route": "shaanxi",
+  "node": "西安",
+  "cat": "museum",
+  "name": "陕西历史博物馆"
+ },
+ {
+  "q": "大明宫国家遗址公园 西安 陕西 museum景点 实景",
+  "slug": "sx_daminggong",
+  "route": "shaanxi",
+  "node": "西安",
+  "cat": "museum",
+  "name": "大明宫国家遗址公园"
+ },
+ {
+  "q": "汉阳陵 西安 陕西 museum景点 实景",
+  "slug": "sx_hanyangling",
+  "route": "shaanxi",
+  "node": "西安",
+  "cat": "museum",
+  "name": "汉阳陵"
+ },
+ {
+  "q": "小雁塔 · 西安博物院 西安 陕西 landmark景点 实景",
+  "slug": "sx_xiaoyanta",
+  "route": "shaanxi",
+  "node": "西安",
+  "cat": "landmark",
+  "name": "小雁塔 · 西安博物院"
+ },
+ {
+  "q": "半坡遗址博物馆 西安 陕西 museum景点 实景",
+  "slug": "sx_banpo",
+  "route": "shaanxi",
+  "node": "西安",
+  "cat": "museum",
+  "name": "半坡遗址博物馆"
+ },
+ {
+  "q": "书院门 · 碑林老街 西安 陕西 culture景点 实景",
+  "slug": "sx_shuyuanmen",
+  "route": "shaanxi",
+  "node": "西安",
+  "cat": "culture",
+  "name": "书院门 · 碑林老街"
+ },
+ {
+  "q": "法门寺 宝鸡 陕西 museum景点 实景",
+  "slug": "sx_famen",
+  "route": "shaanxi",
+  "node": "宝鸡",
+  "cat": "museum",
+  "name": "法门寺"
+ },
+ {
+  "q": "宝鸡青铜器博物院 宝鸡 陕西 museum景点 实景",
+  "slug": "sx_bronze",
+  "route": "shaanxi",
+  "node": "宝鸡",
+  "cat": "museum",
+  "name": "宝鸡青铜器博物院"
+ },
+ {
+  "q": "太白山 宝鸡 陕西 mountain景点 实景",
+  "slug": "sx_taibai",
+  "route": "shaanxi",
+  "node": "宝鸡",
+  "cat": "mountain",
+  "name": "太白山"
+ },
+ {
+  "q": "关山草原 宝鸡 陕西 scenery景点 实景",
+  "slug": "sx_guanshan",
+  "route": "shaanxi",
+  "node": "宝鸡",
+  "cat": "scenery",
+  "name": "关山草原"
+ },
+ {
+  "q": "周公庙 宝鸡 陕西 culture景点 实景",
+  "slug": "sx_zhougongmiao",
+  "route": "shaanxi",
+  "node": "宝鸡",
+  "cat": "culture",
+  "name": "周公庙"
+ },
+ {
+  "q": "乾陵 咸阳 陕西 culture景点 实景",
+  "slug": "sx_qianling",
+  "route": "shaanxi",
+  "node": "咸阳",
+  "cat": "culture",
+  "name": "乾陵"
+ },
+ {
+  "q": "昭陵 咸阳 陕西 culture景点 实景",
+  "slug": "sx_zhaoling",
+  "route": "shaanxi",
+  "node": "咸阳",
+  "cat": "culture",
+  "name": "昭陵"
+ },
+ {
+  "q": "茂陵 咸阳 陕西 culture景点 实景",
+  "slug": "sx_maoling",
+  "route": "shaanxi",
+  "node": "咸阳",
+  "cat": "culture",
+  "name": "茂陵"
+ },
+ {
+  "q": "袁家村 咸阳 陕西 culture景点 实景",
+  "slug": "sx_yuanjiacun",
+  "route": "shaanxi",
+  "node": "咸阳",
+  "cat": "culture",
+  "name": "袁家村"
+ },
+ {
+  "q": "郑国渠首遗址 咸阳 陕西 museum景点 实景",
+  "slug": "sx_zhengguoqu",
+  "route": "shaanxi",
+  "node": "咸阳",
+  "cat": "museum",
+  "name": "郑国渠首遗址"
+ },
+ {
+  "q": "彬州大佛寺 咸阳 陕西 museum景点 实景",
+  "slug": "sx_dafosi",
+  "route": "shaanxi",
+  "node": "咸阳",
+  "cat": "museum",
+  "name": "彬州大佛寺"
+ },
+ {
+  "q": "华山 渭南 陕西 mountain景点 实景",
+  "slug": "sx_huashan",
+  "route": "shaanxi",
+  "node": "渭南",
+  "cat": "mountain",
+  "name": "华山"
+ },
+ {
+  "q": "少华山 渭南 陕西 mountain景点 实景",
+  "slug": "sx_shaohuashan",
+  "route": "shaanxi",
+  "node": "渭南",
+  "cat": "mountain",
+  "name": "少华山"
+ },
+ {
+  "q": "司马迁祠与墓 渭南 陕西 culture景点 实景",
+  "slug": "sx_simaqian",
+  "route": "shaanxi",
+  "node": "渭南",
+  "cat": "culture",
+  "name": "司马迁祠与墓"
+ },
+ {
+  "q": "党家村 渭南 陕西 culture景点 实景",
+  "slug": "sx_dangjiacun",
+  "route": "shaanxi",
+  "node": "渭南",
+  "cat": "culture",
+  "name": "党家村"
+ },
+ {
+  "q": "韩城古城 渭南 陕西 museum景点 实景",
+  "slug": "sx_hancheng",
+  "route": "shaanxi",
+  "node": "渭南",
+  "cat": "museum",
+  "name": "韩城古城"
+ },
+ {
+  "q": "洽川湿地 渭南 陕西 scenery景点 实景",
+  "slug": "sx_qiaquan",
+  "route": "shaanxi",
+  "node": "渭南",
+  "cat": "scenery",
+  "name": "洽川湿地"
+ },
+ {
+  "q": "潼关古城 渭南 陕西 landmark景点 实景",
+  "slug": "sx_tongguan",
+  "route": "shaanxi",
+  "node": "渭南",
+  "cat": "landmark",
+  "name": "潼关古城"
+ },
+ {
+  "q": "药王山 铜川 陕西 culture景点 实景",
+  "slug": "sx_yaowang",
+  "route": "shaanxi",
+  "node": "铜川",
+  "cat": "culture",
+  "name": "药王山"
+ },
+ {
+  "q": "照金红色小镇 铜川 陕西 museum景点 实景",
+  "slug": "sx_zhaojin",
+  "route": "shaanxi",
+  "node": "铜川",
+  "cat": "museum",
+  "name": "照金红色小镇"
+ },
+ {
+  "q": "陈炉古镇 铜川 陕西 culture景点 实景",
+  "slug": "sx_chenlu",
+  "route": "shaanxi",
+  "node": "铜川",
+  "cat": "culture",
+  "name": "陈炉古镇"
+ },
+ {
+  "q": "玉华宫 铜川 陕西 culture景点 实景",
+  "slug": "sx_yuhuagong",
+  "route": "shaanxi",
+  "node": "铜川",
+  "cat": "culture",
+  "name": "玉华宫"
+ },
+ {
+  "q": "宝塔山 延安 陕西 landmark景点 实景",
+  "slug": "sx_baota",
+  "route": "shaanxi",
+  "node": "延安",
+  "cat": "landmark",
+  "name": "宝塔山"
+ },
+ {
+  "q": "枣园革命旧址 延安 陕西 museum景点 实景",
+  "slug": "sx_zaoyuan",
+  "route": "shaanxi",
+  "node": "延安",
+  "cat": "museum",
+  "name": "枣园革命旧址"
+ },
+ {
+  "q": "杨家岭革命旧址 延安 陕西 museum景点 实景",
+  "slug": "sx_yangjialing",
+  "route": "shaanxi",
+  "node": "延安",
+  "cat": "museum",
+  "name": "杨家岭革命旧址"
+ },
+ {
+  "q": "延安革命纪念馆 延安 陕西 museum景点 实景",
+  "slug": "sx_geming",
+  "route": "shaanxi",
+  "node": "延安",
+  "cat": "museum",
+  "name": "延安革命纪念馆"
+ },
+ {
+  "q": "壶口瀑布 延安 陕西 scenery景点 实景",
+  "slug": "sx_hukou",
+  "route": "shaanxi",
+  "node": "延安",
+  "cat": "scenery",
+  "name": "壶口瀑布"
+ },
+ {
+  "q": "乾坤湾 延安 陕西 scenery景点 实景",
+  "slug": "sx_qiankun",
+  "route": "shaanxi",
+  "node": "延安",
+  "cat": "scenery",
+  "name": "乾坤湾"
+ },
+ {
+  "q": "黄帝陵 延安 陕西 culture景点 实景",
+  "slug": "sx_huangdiling",
+  "route": "shaanxi",
+  "node": "延安",
+  "cat": "culture",
+  "name": "黄帝陵"
+ },
+ {
+  "q": "瓦窑堡革命旧址 延安 陕西 museum景点 实景",
+  "slug": "sx_wazibao",
+  "route": "shaanxi",
+  "node": "延安",
+  "cat": "museum",
+  "name": "瓦窑堡革命旧址"
+ },
+ {
+  "q": "镇北台 榆林 陕西 landmark景点 实景",
+  "slug": "sx_zhenbeitai",
+  "route": "shaanxi",
+  "node": "榆林",
+  "cat": "landmark",
+  "name": "镇北台"
+ },
+ {
+  "q": "红石峡 榆林 陕西 museum景点 实景",
+  "slug": "sx_hongshi",
+  "route": "shaanxi",
+  "node": "榆林",
+  "cat": "museum",
+  "name": "红石峡"
+ },
+ {
+  "q": "榆林古城 榆林 陕西 culture景点 实景",
+  "slug": "sx_yulin_gc",
+  "route": "shaanxi",
+  "node": "榆林",
+  "cat": "culture",
+  "name": "榆林古城"
+ },
+ {
+  "q": "靖边波浪谷 榆林 陕西 scenery景点 实景",
+  "slug": "sx_bolang",
+  "route": "shaanxi",
+  "node": "榆林",
+  "cat": "scenery",
+  "name": "靖边波浪谷"
+ },
+ {
+  "q": "统万城遗址 榆林 陕西 museum景点 实景",
+  "slug": "sx_tongwan",
+  "route": "shaanxi",
+  "node": "榆林",
+  "cat": "museum",
+  "name": "统万城遗址"
+ },
+ {
+  "q": "佳县白云山 榆林 陕西 culture景点 实景",
+  "slug": "sx_baiyun",
+  "route": "shaanxi",
+  "node": "榆林",
+  "cat": "culture",
+  "name": "佳县白云山"
+ },
+ {
+  "q": "姜氏庄园 榆林 陕西 museum景点 实景",
+  "slug": "sx_jiangshi",
+  "route": "shaanxi",
+  "node": "榆林",
+  "cat": "museum",
+  "name": "姜氏庄园"
+ },
+ {
+  "q": "石峁遗址 榆林 陕西 museum景点 实景",
+  "slug": "sx_shimao",
+  "route": "shaanxi",
+  "node": "榆林",
+  "cat": "museum",
+  "name": "石峁遗址"
+ },
+ {
+  "q": "汉中博物馆 汉中 陕西 museum景点 实景",
+  "slug": "sx_hzbw",
+  "route": "shaanxi",
+  "node": "汉中",
+  "cat": "museum",
+  "name": "汉中博物馆"
+ },
+ {
+  "q": "石门栈道 汉中 陕西 scenery景点 实景",
+  "slug": "sx_shimen",
+  "route": "shaanxi",
+  "node": "汉中",
+  "cat": "scenery",
+  "name": "石门栈道"
+ },
+ {
+  "q": "勉县武侯祠 · 武侯墓 汉中 陕西 culture景点 实景",
+  "slug": "sx_wuhouci",
+  "route": "shaanxi",
+  "node": "汉中",
+  "cat": "culture",
+  "name": "勉县武侯祠 · 武侯墓"
+ },
+ {
+  "q": "张骞纪念馆 汉中 陕西 museum景点 实景",
+  "slug": "sx_zhangqian",
+  "route": "shaanxi",
+  "node": "汉中",
+  "cat": "museum",
+  "name": "张骞纪念馆"
+ },
+ {
+  "q": "留坝张良庙 汉中 陕西 culture景点 实景",
+  "slug": "sx_zhangliang",
+  "route": "shaanxi",
+  "node": "汉中",
+  "cat": "culture",
+  "name": "留坝张良庙"
+ },
+ {
+  "q": "青木川古镇 汉中 陕西 culture景点 实景",
+  "slug": "sx_qingmuchuan",
+  "route": "shaanxi",
+  "node": "汉中",
+  "cat": "culture",
+  "name": "青木川古镇"
+ },
+ {
+  "q": "黎坪国家森林公园 汉中 陕西 mountain景点 实景",
+  "slug": "sx_liping",
+  "route": "shaanxi",
+  "node": "汉中",
+  "cat": "mountain",
+  "name": "黎坪国家森林公园"
+ },
+ {
+  "q": "龙头山 汉中 陕西 mountain景点 实景",
+  "slug": "sx_longtou",
+  "route": "shaanxi",
+  "node": "汉中",
+  "cat": "mountain",
+  "name": "龙头山"
+ },
+ {
+  "q": "瀛湖 安康 陕西 scenery景点 实景",
+  "slug": "sx_yinghu",
+  "route": "shaanxi",
+  "node": "安康",
+  "cat": "scenery",
+  "name": "瀛湖"
+ },
+ {
+  "q": "南宫山 安康 陕西 mountain景点 实景",
+  "slug": "sx_nangong",
+  "route": "shaanxi",
+  "node": "安康",
+  "cat": "mountain",
+  "name": "南宫山"
+ },
+ {
+  "q": "汉阴凤堰古梯田 安康 陕西 scenery景点 实景",
+  "slug": "sx_fengyan",
+  "route": "shaanxi",
+  "node": "安康",
+  "cat": "scenery",
+  "name": "汉阴凤堰古梯田"
+ },
+ {
+  "q": "燕翔洞 · 中坝大峡谷 安康 陕西 scenery景点 实景",
+  "slug": "sx_yanxiang",
+  "route": "shaanxi",
+  "node": "安康",
+  "cat": "scenery",
+  "name": "燕翔洞 · 中坝大峡谷"
+ },
+ {
+  "q": "金丝峡 商洛 陕西 scenery景点 实景",
+  "slug": "sx_jinsixia",
+  "route": "shaanxi",
+  "node": "商洛",
+  "cat": "scenery",
+  "name": "金丝峡"
+ },
+ {
+  "q": "牛背梁国家森林公园 商洛 陕西 mountain景点 实景",
+  "slug": "sx_niubeiliang",
+  "route": "shaanxi",
+  "node": "商洛",
+  "cat": "mountain",
+  "name": "牛背梁国家森林公园"
+ },
+ {
+  "q": "塔云山 商洛 陕西 culture景点 实景",
+  "slug": "sx_tayun",
+  "route": "shaanxi",
+  "node": "商洛",
+  "cat": "culture",
+  "name": "塔云山"
+ },
+ {
+  "q": "棣花古镇 商洛 陕西 culture景点 实景",
+  "slug": "sx_dihua",
+  "route": "shaanxi",
+  "node": "商洛",
+  "cat": "culture",
+  "name": "棣花古镇"
+ },
+ {
+  "q": "中山桥 · 白塔山 兰州 甘肃 landmark景点 实景",
+  "slug": "gs_zhongshanqiao",
+  "route": "gansu",
+  "node": "兰州",
+  "cat": "landmark",
+  "name": "中山桥 · 白塔山"
+ },
+ {
+  "q": "黄河母亲雕塑 兰州 甘肃 landmark景点 实景",
+  "slug": "gs_hhmq",
+  "route": "gansu",
+  "node": "兰州",
+  "cat": "landmark",
+  "name": "黄河母亲雕塑"
+ },
+ {
+  "q": "甘肃省博物馆 兰州 甘肃 museum景点 实景",
+  "slug": "gs_gsbw",
+  "route": "gansu",
+  "node": "兰州",
+  "cat": "museum",
+  "name": "甘肃省博物馆"
+ },
+ {
+  "q": "吐鲁沟国家森林公园 兰州 甘肃 mountain景点 实景",
+  "slug": "gs_tuolugou",
+  "route": "gansu",
+  "node": "兰州",
+  "cat": "mountain",
+  "name": "吐鲁沟国家森林公园"
+ },
+ {
+  "q": "青城古镇 兰州 甘肃 culture景点 实景",
+  "slug": "gs_qingcheng",
+  "route": "gansu",
+  "node": "兰州",
+  "cat": "culture",
+  "name": "青城古镇"
+ },
+ {
+  "q": "景泰黄河石林 白银 甘肃 scenery景点 实景",
+  "slug": "gs_shilin",
+  "route": "gansu",
+  "node": "白银",
+  "cat": "scenery",
+  "name": "景泰黄河石林"
+ },
+ {
+  "q": "永泰龟城 白银 甘肃 museum景点 实景",
+  "slug": "gs_yongtai",
+  "route": "gansu",
+  "node": "白银",
+  "cat": "museum",
+  "name": "永泰龟城"
+ },
+ {
+  "q": "会宁红军会师旧址 白银 甘肃 museum景点 实景",
+  "slug": "gs_huining",
+  "route": "gansu",
+  "node": "白银",
+  "cat": "museum",
+  "name": "会宁红军会师旧址"
+ },
+ {
+  "q": "麦积山石窟 天水 甘肃 museum景点 实景",
+  "slug": "gs_maijishan",
+  "route": "gansu",
+  "node": "天水",
+  "cat": "museum",
+  "name": "麦积山石窟"
+ },
+ {
+  "q": "天水伏羲庙 天水 甘肃 culture景点 实景",
+  "slug": "gs_fuximiao",
+  "route": "gansu",
+  "node": "天水",
+  "cat": "culture",
+  "name": "天水伏羲庙"
+ },
+ {
+  "q": "大地湾遗址 天水 甘肃 museum景点 实景",
+  "slug": "gs_dadiwan",
+  "route": "gansu",
+  "node": "天水",
+  "cat": "museum",
+  "name": "大地湾遗址"
+ },
+ {
+  "q": "仙人崖 天水 甘肃 mountain景点 实景",
+  "slug": "gs_xianren",
+  "route": "gansu",
+  "node": "天水",
+  "cat": "mountain",
+  "name": "仙人崖"
+ },
+ {
+  "q": "武山水帘洞 天水 甘肃 museum景点 实景",
+  "slug": "gs_shuiliandong",
+  "route": "gansu",
+  "node": "天水",
+  "cat": "museum",
+  "name": "武山水帘洞"
+ },
+ {
+  "q": "崆峒山 平凉 甘肃 mountain景点 实景",
+  "slug": "gs_kongtong",
+  "route": "gansu",
+  "node": "平凉",
+  "cat": "mountain",
+  "name": "崆峒山"
+ },
+ {
+  "q": "庄浪云崖寺 平凉 甘肃 museum景点 实景",
+  "slug": "gs_yunya",
+  "route": "gansu",
+  "node": "平凉",
+  "cat": "museum",
+  "name": "庄浪云崖寺"
+ },
+ {
+  "q": "泾川王母宫 平凉 甘肃 culture景点 实景",
+  "slug": "gs_wangmu",
+  "route": "gansu",
+  "node": "平凉",
+  "cat": "culture",
+  "name": "泾川王母宫"
+ },
+ {
+  "q": "北石窟寺 庆阳 甘肃 museum景点 实景",
+  "slug": "gs_beishiku",
+  "route": "gansu",
+  "node": "庆阳",
+  "cat": "museum",
+  "name": "北石窟寺"
+ },
+ {
+  "q": "周祖陵 庆阳 甘肃 culture景点 实景",
+  "slug": "gs_zhouzu",
+  "route": "gansu",
+  "node": "庆阳",
+  "cat": "culture",
+  "name": "周祖陵"
+ },
+ {
+  "q": "南梁革命根据地 庆阳 甘肃 museum景点 实景",
+  "slug": "gs_nanliang",
+  "route": "gansu",
+  "node": "庆阳",
+  "cat": "museum",
+  "name": "南梁革命根据地"
+ },
+ {
+  "q": "渭河源 定西 甘肃 scenery景点 实景",
+  "slug": "gs_weiyuan",
+  "route": "gansu",
+  "node": "定西",
+  "cat": "scenery",
+  "name": "渭河源"
+ },
+ {
+  "q": "漳县贵清山 · 遮阳山 定西 甘肃 mountain景点 实景",
+  "slug": "gs_guizehao",
+  "route": "gansu",
+  "node": "定西",
+  "cat": "mountain",
+  "name": "漳县贵清山 · 遮阳山"
+ },
+ {
+  "q": "临洮马家窑遗址 定西 甘肃 museum景点 实景",
+  "slug": "gs_majiayao",
+  "route": "gansu",
+  "node": "定西",
+  "cat": "museum",
+  "name": "临洮马家窑遗址"
+ },
+ {
+  "q": "官鹅沟 陇南 甘肃 scenery景点 实景",
+  "slug": "gs_guane",
+  "route": "gansu",
+  "node": "陇南",
+  "cat": "scenery",
+  "name": "官鹅沟"
+ },
+ {
+  "q": "哈达铺 陇南 甘肃 museum景点 实景",
+  "slug": "gs_hadapu",
+  "route": "gansu",
+  "node": "陇南",
+  "cat": "museum",
+  "name": "哈达铺"
+ },
+ {
+  "q": "武都万象洞 陇南 甘肃 scenery景点 实景",
+  "slug": "gs_wanxiang",
+  "route": "gansu",
+  "node": "陇南",
+  "cat": "scenery",
+  "name": "武都万象洞"
+ },
+ {
+  "q": "成县西狭颂 陇南 甘肃 culture景点 实景",
+  "slug": "gs_xixia",
+  "route": "gansu",
+  "node": "陇南",
+  "cat": "culture",
+  "name": "成县西狭颂"
+ },
+ {
+  "q": "武威雷台汉墓 武威 甘肃 museum景点 实景",
+  "slug": "gs_leitai",
+  "route": "gansu",
+  "node": "武威",
+  "cat": "museum",
+  "name": "武威雷台汉墓"
+ },
+ {
+  "q": "武威文庙 武威 甘肃 museum景点 实景",
+  "slug": "gs_wenmiao",
+  "route": "gansu",
+  "node": "武威",
+  "cat": "museum",
+  "name": "武威文庙"
+ },
+ {
+  "q": "天梯山石窟 武威 甘肃 museum景点 实景",
+  "slug": "gs_tianti",
+  "route": "gansu",
+  "node": "武威",
+  "cat": "museum",
+  "name": "天梯山石窟"
+ },
+ {
+  "q": "白塔寺 武威 甘肃 museum景点 实景",
+  "slug": "gs_baitasi",
+  "route": "gansu",
+  "node": "武威",
+  "cat": "museum",
+  "name": "白塔寺"
+ },
+ {
+  "q": "民勤青土湖 武威 甘肃 scenery景点 实景",
+  "slug": "gs_qingtu",
+  "route": "gansu",
+  "node": "武威",
+  "cat": "scenery",
+  "name": "民勤青土湖"
+ },
+ {
+  "q": "张掖七彩丹霞 张掖 甘肃 scenery景点 实景",
+  "slug": "gs_qicai",
+  "route": "gansu",
+  "node": "张掖",
+  "cat": "scenery",
+  "name": "张掖七彩丹霞"
+ },
+ {
+  "q": "冰沟丹霞 张掖 甘肃 scenery景点 实景",
+  "slug": "gs_binggou",
+  "route": "gansu",
+  "node": "张掖",
+  "cat": "scenery",
+  "name": "冰沟丹霞"
+ },
+ {
+  "q": "张掖大佛寺 张掖 甘肃 museum景点 实景",
+  "slug": "gs_dafo",
+  "route": "gansu",
+  "node": "张掖",
+  "cat": "museum",
+  "name": "张掖大佛寺"
+ },
+ {
+  "q": "马蹄寺石窟 张掖 甘肃 museum景点 实景",
+  "slug": "gs_matisi",
+  "route": "gansu",
+  "node": "张掖",
+  "cat": "museum",
+  "name": "马蹄寺石窟"
+ },
+ {
+  "q": "平山湖大峡谷 张掖 甘肃 scenery景点 实景",
+  "slug": "gs_pingshan",
+  "route": "gansu",
+  "node": "张掖",
+  "cat": "scenery",
+  "name": "平山湖大峡谷"
+ },
+ {
+  "q": "山丹军马场 张掖 甘肃 scenery景点 实景",
+  "slug": "gs_shandan",
+  "route": "gansu",
+  "node": "张掖",
+  "cat": "scenery",
+  "name": "山丹军马场"
+ },
+ {
+  "q": "焉支山 张掖 甘肃 museum景点 实景",
+  "slug": "gs_yanzhi",
+  "route": "gansu",
+  "node": "张掖",
+  "cat": "museum",
+  "name": "焉支山"
+ },
+ {
+  "q": "金塔胡杨林 酒泉 甘肃 scenery景点 实景",
+  "slug": "gs_huyang",
+  "route": "gansu",
+  "node": "酒泉",
+  "cat": "scenery",
+  "name": "金塔胡杨林"
+ },
+ {
+  "q": "西汉酒泉胜迹 酒泉 甘肃 museum景点 实景",
+  "slug": "gs_jiuquan",
+  "route": "gansu",
+  "node": "酒泉",
+  "cat": "museum",
+  "name": "西汉酒泉胜迹"
+ },
+ {
+  "q": "丁家闸魏晋壁画墓 酒泉 甘肃 museum景点 实景",
+  "slug": "gs_dingjiazha",
+  "route": "gansu",
+  "node": "酒泉",
+  "cat": "museum",
+  "name": "丁家闸魏晋壁画墓"
+ },
+ {
+  "q": "嘉峪关关城 嘉峪关 甘肃 landmark景点 实景",
+  "slug": "gs_jiayuguan",
+  "route": "gansu",
+  "node": "嘉峪关",
+  "cat": "landmark",
+  "name": "嘉峪关关城"
+ },
+ {
+  "q": "悬壁长城 嘉峪关 甘肃 museum景点 实景",
+  "slug": "gs_xuanbi",
+  "route": "gansu",
+  "node": "嘉峪关",
+  "cat": "museum",
+  "name": "悬壁长城"
+ },
+ {
+  "q": "长城第一墩 嘉峪关 甘肃 museum景点 实景",
+  "slug": "gs_diyidun",
+  "route": "gansu",
+  "node": "嘉峪关",
+  "cat": "museum",
+  "name": "长城第一墩"
+ },
+ {
+  "q": "魏晋墓 · 地下画廊 嘉峪关 甘肃 museum景点 实景",
+  "slug": "gs_weijinmu",
+  "route": "gansu",
+  "node": "嘉峪关",
+  "cat": "museum",
+  "name": "魏晋墓 · 地下画廊"
+ },
+ {
+  "q": "莫高窟 敦煌 甘肃 museum景点 实景",
+  "slug": "gs_mogaoku",
+  "route": "gansu",
+  "node": "敦煌",
+  "cat": "museum",
+  "name": "莫高窟"
+ },
+ {
+  "q": "鸣沙山 · 月牙泉 敦煌 甘肃 scenery景点 实景",
+  "slug": "gs_mingsha",
+  "route": "gansu",
+  "node": "敦煌",
+  "cat": "scenery",
+  "name": "鸣沙山 · 月牙泉"
+ },
+ {
+  "q": "阳关 敦煌 甘肃 museum景点 实景",
+  "slug": "gs_yangguan",
+  "route": "gansu",
+  "node": "敦煌",
+  "cat": "museum",
+  "name": "阳关"
+ },
+ {
+  "q": "玉门关 敦煌 甘肃 museum景点 实景",
+  "slug": "gs_yumen",
+  "route": "gansu",
+  "node": "敦煌",
+  "cat": "museum",
+  "name": "玉门关"
+ },
+ {
+  "q": "雅丹魔鬼城 敦煌 甘肃 scenery景点 实景",
+  "slug": "gs_yadan",
+  "route": "gansu",
+  "node": "敦煌",
+  "cat": "scenery",
+  "name": "雅丹魔鬼城"
+ },
+ {
+  "q": "西千佛洞 敦煌 甘肃 museum景点 实景",
+  "slug": "gs_xiqianfo",
+  "route": "gansu",
+  "node": "敦煌",
+  "cat": "museum",
+  "name": "西千佛洞"
+ },
+ {
+  "q": "沙州夜市 敦煌 甘肃 food景点 实景",
+  "slug": "gs_shazhou",
+  "route": "gansu",
+  "node": "敦煌",
+  "cat": "food",
+  "name": "沙州夜市"
+ },
+ {
+  "q": "骊靬古城 金昌 甘肃 museum景点 实景",
+  "slug": "gs_lijian",
+  "route": "gansu",
+  "node": "金昌",
+  "cat": "museum",
+  "name": "骊靬古城"
+ },
+ {
+  "q": "御山峡圣容寺 金昌 甘肃 culture景点 实景",
+  "slug": "gs_shengrong",
+  "route": "gansu",
+  "node": "金昌",
+  "cat": "culture",
+  "name": "御山峡圣容寺"
+ },
+ {
+  "q": "炳灵寺石窟 临夏 甘肃 museum景点 实景",
+  "slug": "gs_bingling",
+  "route": "gansu",
+  "node": "临夏",
+  "cat": "museum",
+  "name": "炳灵寺石窟"
+ },
+ {
+  "q": "刘家峡黄河三峡 临夏 甘肃 scenery景点 实景",
+  "slug": "gs_liujiaxia",
+  "route": "gansu",
+  "node": "临夏",
+  "cat": "scenery",
+  "name": "刘家峡黄河三峡"
+ },
+ {
+  "q": "八坊十三巷 临夏 甘肃 culture景点 实景",
+  "slug": "gs_bafang",
+  "route": "gansu",
+  "node": "临夏",
+  "cat": "culture",
+  "name": "八坊十三巷"
+ },
+ {
+  "q": "松鸣岩 临夏 甘肃 mountain景点 实景",
+  "slug": "gs_songming",
+  "route": "gansu",
+  "node": "临夏",
+  "cat": "mountain",
+  "name": "松鸣岩"
+ },
+ {
+  "q": "和政古动物化石博物馆 临夏 甘肃 museum景点 实景",
+  "slug": "gs_huashiguan",
+  "route": "gansu",
+  "node": "临夏",
+  "cat": "museum",
+  "name": "和政古动物化石博物馆"
+ },
+ {
+  "q": "拉卜楞寺 合作（甘南州） 甘肃 culture景点 实景",
+  "slug": "gs_labuleng",
+  "route": "gansu",
+  "node": "合作（甘南州）",
+  "cat": "culture",
+  "name": "拉卜楞寺"
+ },
+ {
+  "q": "桑科草原 合作（甘南州） 甘肃 scenery景点 实景",
+  "slug": "gs_sangke",
+  "route": "gansu",
+  "node": "合作（甘南州）",
+  "cat": "scenery",
+  "name": "桑科草原"
+ },
+ {
+  "q": "郎木寺 合作（甘南州） 甘肃 culture景点 实景",
+  "slug": "gs_langmu",
+  "route": "gansu",
+  "node": "合作（甘南州）",
+  "cat": "culture",
+  "name": "郎木寺"
+ },
+ {
+  "q": "扎尕那 合作（甘南州） 甘肃 mountain景点 实景",
+  "slug": "gs_zhagana",
+  "route": "gansu",
+  "node": "合作（甘南州）",
+  "cat": "mountain",
+  "name": "扎尕那"
+ },
+ {
+  "q": "则岔石林 合作（甘南州） 甘肃 mountain景点 实景",
+  "slug": "gs_zezha",
+  "route": "gansu",
+  "node": "合作（甘南州）",
+  "cat": "mountain",
+  "name": "则岔石林"
+ },
+ {
+  "q": "米拉日巴佛阁 合作（甘南州） 甘肃 culture景点 实景",
+  "slug": "gs_milariba",
+  "route": "gansu",
+  "node": "合作（甘南州）",
+  "cat": "culture",
+  "name": "米拉日巴佛阁"
+ },
+ {
+  "q": "冶力关 合作（甘南州） 甘肃 scenery景点 实景",
+  "slug": "gs_yeliguan",
+  "route": "gansu",
+  "node": "合作（甘南州）",
+  "cat": "scenery",
+  "name": "冶力关"
+ },
+ {
+  "q": "尕海湖 合作（甘南州） 甘肃 scenery景点 实景",
+  "slug": "gs_gahai",
+  "route": "gansu",
+  "node": "合作（甘南州）",
+  "cat": "scenery",
+  "name": "尕海湖"
+ },
+ {
+  "q": "玛曲黄河首曲 合作（甘南州） 甘肃 landmark景点 实景",
+  "slug": "gs_shouqu",
+  "route": "gansu",
+  "node": "合作（甘南州）",
+  "cat": "landmark",
+  "name": "玛曲黄河首曲"
+ },
+ {
+  "q": "塔尔寺 西宁 青海 culture景点 实景",
+  "slug": "qh_taer",
+  "route": "qinghai",
+  "node": "西宁",
+  "cat": "culture",
+  "name": "塔尔寺"
+ },
+ {
+  "q": "东关清真大寺 西宁 青海 culture景点 实景",
+  "slug": "qh_dongguan",
+  "route": "qinghai",
+  "node": "西宁",
+  "cat": "culture",
+  "name": "东关清真大寺"
+ },
+ {
+  "q": "青海省博物馆 西宁 青海 museum景点 实景",
+  "slug": "qh_qhbw",
+  "route": "qinghai",
+  "node": "西宁",
+  "cat": "museum",
+  "name": "青海省博物馆"
+ },
+ {
+  "q": "丹噶尔古城 西宁 青海 culture景点 实景",
+  "slug": "qh_dangeer",
+  "route": "qinghai",
+  "node": "西宁",
+  "cat": "culture",
+  "name": "丹噶尔古城"
+ },
+ {
+  "q": "日月山 西宁 青海 landmark景点 实景",
+  "slug": "qh_riyue",
+  "route": "qinghai",
+  "node": "西宁",
+  "cat": "landmark",
+  "name": "日月山"
+ },
+ {
+  "q": "老爷山 西宁 青海 mountain景点 实景",
+  "slug": "qh_laoye",
+  "route": "qinghai",
+  "node": "西宁",
+  "cat": "mountain",
+  "name": "老爷山"
+ },
+ {
+  "q": "青海藏文化博物院 西宁 青海 museum景点 实景",
+  "slug": "qh_zangbw",
+  "route": "qinghai",
+  "node": "西宁",
+  "cat": "museum",
+  "name": "青海藏文化博物院"
+ },
+ {
+  "q": "柳湾遗址 海东 青海 museum景点 实景",
+  "slug": "qh_liuwan",
+  "route": "qinghai",
+  "node": "海东",
+  "cat": "museum",
+  "name": "柳湾遗址"
+ },
+ {
+  "q": "瞿昙寺 海东 青海 museum景点 实景",
+  "slug": "qh_qutan",
+  "route": "qinghai",
+  "node": "海东",
+  "cat": "museum",
+  "name": "瞿昙寺"
+ },
+ {
+  "q": "孟达天池 海东 青海 scenery景点 实景",
+  "slug": "qh_mengda",
+  "route": "qinghai",
+  "node": "海东",
+  "cat": "scenery",
+  "name": "孟达天池"
+ },
+ {
+  "q": "互助北山国家森林公园 海东 青海 mountain景点 实景",
+  "slug": "qh_huzhu",
+  "route": "qinghai",
+  "node": "海东",
+  "cat": "mountain",
+  "name": "互助北山国家森林公园"
+ },
+ {
+  "q": "青海湖 海晏（海北州） 青海 scenery景点 实景",
+  "slug": "qh_qinghaihu",
+  "route": "qinghai",
+  "node": "海晏（海北州）",
+  "cat": "scenery",
+  "name": "青海湖"
+ },
+ {
+  "q": "金银滩草原 海晏（海北州） 青海 scenery景点 实景",
+  "slug": "qh_jinyintan",
+  "route": "qinghai",
+  "node": "海晏（海北州）",
+  "cat": "scenery",
+  "name": "金银滩草原"
+ },
+ {
+  "q": "原子城 海晏（海北州） 青海 museum景点 实景",
+  "slug": "qh_yuanzicheng",
+  "route": "qinghai",
+  "node": "海晏（海北州）",
+  "cat": "museum",
+  "name": "原子城"
+ },
+ {
+  "q": "卓尔山 海晏（海北州） 青海 mountain景点 实景",
+  "slug": "qh_zhuoer",
+  "route": "qinghai",
+  "node": "海晏（海北州）",
+  "cat": "mountain",
+  "name": "卓尔山"
+ },
+ {
+  "q": "门源百里油菜花海 海晏（海北州） 青海 scenery景点 实景",
+  "slug": "qh_menyuan",
+  "route": "qinghai",
+  "node": "海晏（海北州）",
+  "cat": "scenery",
+  "name": "门源百里油菜花海"
+ },
+ {
+  "q": "达坂山 海晏（海北州） 青海 landmark景点 实景",
+  "slug": "qh_daban",
+  "route": "qinghai",
+  "node": "海晏（海北州）",
+  "cat": "landmark",
+  "name": "达坂山"
+ },
+ {
+  "q": "阿柔大寺 海晏（海北州） 青海 culture景点 实景",
+  "slug": "qh_arou",
+  "route": "qinghai",
+  "node": "海晏（海北州）",
+  "cat": "culture",
+  "name": "阿柔大寺"
+ },
+ {
+  "q": "隆务寺 同仁（黄南州） 青海 culture景点 实景",
+  "slug": "qh_longwu",
+  "route": "qinghai",
+  "node": "同仁（黄南州）",
+  "cat": "culture",
+  "name": "隆务寺"
+ },
+ {
+  "q": "热贡艺术村（吾屯 · 年都乎） 同仁（黄南州） 青海 culture景点 实景",
+  "slug": "qh_regon",
+  "route": "qinghai",
+  "node": "同仁（黄南州）",
+  "cat": "culture",
+  "name": "热贡艺术村（吾屯 · 年都乎）"
+ },
+ {
+  "q": "坎布拉国家地质公园 同仁（黄南州） 青海 scenery景点 实景",
+  "slug": "qh_kanbula",
+  "route": "qinghai",
+  "node": "同仁（黄南州）",
+  "cat": "scenery",
+  "name": "坎布拉国家地质公园"
+ },
+ {
+  "q": "龙羊峡 共和（海南州） 青海 scenery景点 实景",
+  "slug": "qh_longyang",
+  "route": "qinghai",
+  "node": "共和（海南州）",
+  "cat": "scenery",
+  "name": "龙羊峡"
+ },
+ {
+  "q": "贵德 · 阿什贡七彩峰丛 共和（海南州） 青海 scenery景点 实景",
+  "slug": "qh_guide",
+  "route": "qinghai",
+  "node": "共和（海南州）",
+  "cat": "scenery",
+  "name": "贵德 · 阿什贡七彩峰丛"
+ },
+ {
+  "q": "赛宗寺 共和（海南州） 青海 culture景点 实景",
+  "slug": "qh_saizong",
+  "route": "qinghai",
+  "node": "共和（海南州）",
+  "cat": "culture",
+  "name": "赛宗寺"
+ },
+ {
+  "q": "阿尼玛卿雪山 玛沁（果洛州） 青海 mountain景点 实景",
+  "slug": "qh_amnye",
+  "route": "qinghai",
+  "node": "玛沁（果洛州）",
+  "cat": "mountain",
+  "name": "阿尼玛卿雪山"
+ },
+ {
+  "q": "年保玉则 玛沁（果洛州） 青海 mountain景点 实景",
+  "slug": "qh_nianbao",
+  "route": "qinghai",
+  "node": "玛沁（果洛州）",
+  "cat": "mountain",
+  "name": "年保玉则"
+ },
+ {
+  "q": "扎陵湖 · 鄂陵湖 玛沁（果洛州） 青海 museum景点 实景",
+  "slug": "qh_zhaling",
+  "route": "qinghai",
+  "node": "玛沁（果洛州）",
+  "cat": "museum",
+  "name": "扎陵湖 · 鄂陵湖"
+ },
+ {
+  "q": "星宿海 玛沁（果洛州） 青海 scenery景点 实景",
+  "slug": "qh_xingxiu",
+  "route": "qinghai",
+  "node": "玛沁（果洛州）",
+  "cat": "scenery",
+  "name": "星宿海"
+ },
+ {
+  "q": "格萨尔狮龙宫殿 玛沁（果洛州） 青海 culture景点 实景",
+  "slug": "qh_gesal",
+  "route": "qinghai",
+  "node": "玛沁（果洛州）",
+  "cat": "culture",
+  "name": "格萨尔狮龙宫殿"
+ },
+ {
+  "q": "三江源纪念碑 · 通天河 玉树 青海 landmark景点 实景",
+  "slug": "qh_sanjiang",
+  "route": "qinghai",
+  "node": "玉树",
+  "cat": "landmark",
+  "name": "三江源纪念碑 · 通天河"
+ },
+ {
+  "q": "结古寺 玉树 青海 culture景点 实景",
+  "slug": "qh_jiegu",
+  "route": "qinghai",
+  "node": "玉树",
+  "cat": "culture",
+  "name": "结古寺"
+ },
+ {
+  "q": "文成公主庙 · 勒巴沟 玉树 青海 culture景点 实景",
+  "slug": "qh_wencheng",
+  "route": "qinghai",
+  "node": "玉树",
+  "cat": "culture",
+  "name": "文成公主庙 · 勒巴沟"
+ },
+ {
+  "q": "嘉那玛尼石城 玉树 青海 culture景点 实景",
+  "slug": "qh_mani",
+  "route": "qinghai",
+  "node": "玉树",
+  "cat": "culture",
+  "name": "嘉那玛尼石城"
+ },
+ {
+  "q": "可可西里 · 索南达杰保护站 格尔木 青海 scenery景点 实景",
+  "slug": "qh_kekexili",
+  "route": "qinghai",
+  "node": "格尔木",
+  "cat": "scenery",
+  "name": "可可西里 · 索南达杰保护站"
+ },
+ {
+  "q": "昆仑山口 格尔木 青海 landmark景点 实景",
+  "slug": "qh_kunlun",
+  "route": "qinghai",
+  "node": "格尔木",
+  "cat": "landmark",
+  "name": "昆仑山口"
+ },
+ {
+  "q": "察尔汗盐湖 格尔木 青海 scenery景点 实景",
+  "slug": "qh_chaerhan",
+  "route": "qinghai",
+  "node": "格尔木",
+  "cat": "scenery",
+  "name": "察尔汗盐湖"
+ },
+ {
+  "q": "茶卡盐湖 德令哈（海西州） 青海 scenery景点 实景",
+  "slug": "qh_chaka",
+  "route": "qinghai",
+  "node": "德令哈（海西州）",
+  "cat": "scenery",
+  "name": "茶卡盐湖"
+ },
+ {
+  "q": "大柴旦翡翠湖 德令哈（海西州） 青海 scenery景点 实景",
+  "slug": "qh_feicui",
+  "route": "qinghai",
+  "node": "德令哈（海西州）",
+  "cat": "scenery",
+  "name": "大柴旦翡翠湖"
+ },
+ {
+  "q": "乌素特水上雅丹 德令哈（海西州） 青海 scenery景点 实景",
+  "slug": "qh_yadan",
+  "route": "qinghai",
+  "node": "德令哈（海西州）",
+  "cat": "scenery",
+  "name": "乌素特水上雅丹"
+ },
+ {
+  "q": "东台吉乃尔湖 德令哈（海西州） 青海 scenery景点 实景",
+  "slug": "qh_dongtai",
+  "route": "qinghai",
+  "node": "德令哈（海西州）",
+  "cat": "scenery",
+  "name": "东台吉乃尔湖"
+ },
+ {
+  "q": "可鲁克湖 · 托素湖 德令哈（海西州） 青海 scenery景点 实景",
+  "slug": "qh_keluke",
+  "route": "qinghai",
+  "node": "德令哈（海西州）",
+  "cat": "scenery",
+  "name": "可鲁克湖 · 托素湖"
+ },
+ {
+  "q": "海子诗歌馆 · 德令哈 德令哈（海西州） 青海 culture景点 实景",
+  "slug": "qh_haizi",
+  "route": "qinghai",
+  "node": "德令哈（海西州）",
+  "cat": "culture",
+  "name": "海子诗歌馆 · 德令哈"
+ },
+ {
+  "q": "都兰热水吐蕃大墓 德令哈（海西州） 青海 museum景点 实景",
+  "slug": "qh_reshui",
+  "route": "qinghai",
+  "node": "德令哈（海西州）",
+  "cat": "museum",
+  "name": "都兰热水吐蕃大墓"
+ },
+ {
+  "q": "格尔木胡杨林 格尔木 青海 scenery景点 实景",
+  "slug": "qh_huyang",
+  "route": "qinghai",
+  "node": "格尔木",
+  "cat": "scenery",
+  "name": "格尔木胡杨林"
+ },
+ {
+  "q": "尕尔寺 玉树 青海 culture景点 实景",
+  "slug": "qh_gaaer",
+  "route": "qinghai",
+  "node": "玉树",
+  "cat": "culture",
+  "name": "尕尔寺"
+ },
+ {
+  "q": "拉布寺 玉树 青海 museum景点 实景",
+  "slug": "qh_labu",
+  "route": "qinghai",
+  "node": "玉树",
+  "cat": "museum",
+  "name": "拉布寺"
+ },
+ {
+  "q": "布达拉宫 拉萨 西藏 culture景点 实景",
+  "slug": "xz_budala",
+  "route": "tibet",
+  "node": "拉萨",
+  "cat": "culture",
+  "name": "布达拉宫"
+ },
+ {
+  "q": "大昭寺 拉萨 西藏 culture景点 实景",
+  "slug": "xz_dazhao",
+  "route": "tibet",
+  "node": "拉萨",
+  "cat": "culture",
+  "name": "大昭寺"
+ },
+ {
+  "q": "八廓街转经道 拉萨 西藏 culture景点 实景",
+  "slug": "xz_bakuo",
+  "route": "tibet",
+  "node": "拉萨",
+  "cat": "culture",
+  "name": "八廓街转经道"
+ },
+ {
+  "q": "罗布林卡 拉萨 西藏 culture景点 实景",
+  "slug": "xz_luobulin",
+  "route": "tibet",
+  "node": "拉萨",
+  "cat": "culture",
+  "name": "罗布林卡"
+ },
+ {
+  "q": "色拉寺 拉萨 西藏 culture景点 实景",
+  "slug": "xz_sela",
+  "route": "tibet",
+  "node": "拉萨",
+  "cat": "culture",
+  "name": "色拉寺"
+ },
+ {
+  "q": "哲蚌寺 拉萨 西藏 culture景点 实景",
+  "slug": "xz_zhebang",
+  "route": "tibet",
+  "node": "拉萨",
+  "cat": "culture",
+  "name": "哲蚌寺"
+ },
+ {
+  "q": "甘丹寺 拉萨 西藏 culture景点 实景",
+  "slug": "xz_gandan",
+  "route": "tibet",
+  "node": "拉萨",
+  "cat": "culture",
+  "name": "甘丹寺"
+ },
+ {
+  "q": "西藏博物馆 拉萨 西藏 museum景点 实景",
+  "slug": "xz_xzbw",
+  "route": "tibet",
+  "node": "拉萨",
+  "cat": "museum",
+  "name": "西藏博物馆"
+ },
+ {
+  "q": "药王山观景台 拉萨 西藏 landmark景点 实景",
+  "slug": "xz_yaowang",
+  "route": "tibet",
+  "node": "拉萨",
+  "cat": "landmark",
+  "name": "药王山观景台"
+ },
+ {
+  "q": "纳木错 拉萨 西藏 scenery景点 实景",
+  "slug": "xz_namtso",
+  "route": "tibet",
+  "node": "拉萨",
+  "cat": "scenery",
+  "name": "纳木错"
+ },
+ {
+  "q": "圣象天门 拉萨 西藏 scenery景点 实景",
+  "slug": "xz_shengxiang",
+  "route": "tibet",
+  "node": "拉萨",
+  "cat": "scenery",
+  "name": "圣象天门"
+ },
+ {
+  "q": "扎什伦布寺 日喀则 西藏 culture景点 实景",
+  "slug": "xz_tashi",
+  "route": "tibet",
+  "node": "日喀则",
+  "cat": "culture",
+  "name": "扎什伦布寺"
+ },
+ {
+  "q": "萨迦寺 日喀则 西藏 culture景点 实景",
+  "slug": "xz_sakya",
+  "route": "tibet",
+  "node": "日喀则",
+  "cat": "culture",
+  "name": "萨迦寺"
+ },
+ {
+  "q": "江孜宗山古堡 日喀则 西藏 museum景点 实景",
+  "slug": "xz_jiangzi",
+  "route": "tibet",
+  "node": "日喀则",
+  "cat": "museum",
+  "name": "江孜宗山古堡"
+ },
+ {
+  "q": "白居寺 日喀则 西藏 museum景点 实景",
+  "slug": "xz_baiju",
+  "route": "tibet",
+  "node": "日喀则",
+  "cat": "museum",
+  "name": "白居寺"
+ },
+ {
+  "q": "绒布寺 日喀则 西藏 culture景点 实景",
+  "slug": "xz_rongbuk",
+  "route": "tibet",
+  "node": "日喀则",
+  "cat": "culture",
+  "name": "绒布寺"
+ },
+ {
+  "q": "珠穆朗玛峰大本营 日喀则 西藏 mountain景点 实景",
+  "slug": "xz_zhufeng",
+  "route": "tibet",
+  "node": "日喀则",
+  "cat": "mountain",
+  "name": "珠穆朗玛峰大本营"
+ },
+ {
+  "q": "佩枯错 日喀则 西藏 scenery景点 实景",
+  "slug": "xz_peiku",
+  "route": "tibet",
+  "node": "日喀则",
+  "cat": "scenery",
+  "name": "佩枯错"
+ },
+ {
+  "q": "卡若拉冰川 日喀则 西藏 scenery景点 实景",
+  "slug": "xz_karola",
+  "route": "tibet",
+  "node": "日喀则",
+  "cat": "scenery",
+  "name": "卡若拉冰川"
+ },
+ {
+  "q": "亚东沟 日喀则 西藏 scenery景点 实景",
+  "slug": "xz_yadong",
+  "route": "tibet",
+  "node": "日喀则",
+  "cat": "scenery",
+  "name": "亚东沟"
+ },
+ {
+  "q": "雍布拉康 山南（泽当） 西藏 culture景点 实景",
+  "slug": "xz_yongbu",
+  "route": "tibet",
+  "node": "山南（泽当）",
+  "cat": "culture",
+  "name": "雍布拉康"
+ },
+ {
+  "q": "桑耶寺 山南（泽当） 西藏 culture景点 实景",
+  "slug": "xz_samye",
+  "route": "tibet",
+  "node": "山南（泽当）",
+  "cat": "culture",
+  "name": "桑耶寺"
+ },
+ {
+  "q": "昌珠寺 山南（泽当） 西藏 culture景点 实景",
+  "slug": "xz_changzhu",
+  "route": "tibet",
+  "node": "山南（泽当）",
+  "cat": "culture",
+  "name": "昌珠寺"
+ },
+ {
+  "q": "藏王墓 山南（泽当） 西藏 museum景点 实景",
+  "slug": "xz_zangwang",
+  "route": "tibet",
+  "node": "山南（泽当）",
+  "cat": "museum",
+  "name": "藏王墓"
+ },
+ {
+  "q": "拉姆拉错 山南（泽当） 西藏 scenery景点 实景",
+  "slug": "xz_lamla",
+  "route": "tibet",
+  "node": "山南（泽当）",
+  "cat": "scenery",
+  "name": "拉姆拉错"
+ },
+ {
+  "q": "羊卓雍错 山南（泽当） 西藏 scenery景点 实景",
+  "slug": "xz_yamdrok",
+  "route": "tibet",
+  "node": "山南（泽当）",
+  "cat": "scenery",
+  "name": "羊卓雍错"
+ },
+ {
+  "q": "青朴修行地 山南（泽当） 西藏 culture景点 实景",
+  "slug": "xz_qingpu",
+  "route": "tibet",
+  "node": "山南（泽当）",
+  "cat": "culture",
+  "name": "青朴修行地"
+ },
+ {
+  "q": "勒布沟 山南（泽当） 西藏 scenery景点 实景",
+  "slug": "xz_lebu",
+  "route": "tibet",
+  "node": "山南（泽当）",
+  "cat": "scenery",
+  "name": "勒布沟"
+ },
+ {
+  "q": "雅鲁藏布大峡谷 林芝 西藏 scenery景点 实景",
+  "slug": "xz_daxiagu",
+  "route": "tibet",
+  "node": "林芝",
+  "cat": "scenery",
+  "name": "雅鲁藏布大峡谷"
+ },
+ {
+  "q": "南迦巴瓦峰 林芝 西藏 mountain景点 实景",
+  "slug": "xz_nanjia",
+  "route": "tibet",
+  "node": "林芝",
+  "cat": "mountain",
+  "name": "南迦巴瓦峰"
+ },
+ {
+  "q": "鲁朗林海 · 国际小镇 林芝 西藏 scenery景点 实景",
+  "slug": "xz_lulang",
+  "route": "tibet",
+  "node": "林芝",
+  "cat": "scenery",
+  "name": "鲁朗林海 · 国际小镇"
+ },
+ {
+  "q": "巴松错 林芝 西藏 scenery景点 实景",
+  "slug": "xz_basong",
+  "route": "tibet",
+  "node": "林芝",
+  "cat": "scenery",
+  "name": "巴松错"
+ },
+ {
+  "q": "色季拉山 林芝 西藏 landmark景点 实景",
+  "slug": "xz_sejila",
+  "route": "tibet",
+  "node": "林芝",
+  "cat": "landmark",
+  "name": "色季拉山"
+ },
+ {
+  "q": "米堆冰川 林芝 西藏 scenery景点 实景",
+  "slug": "xz_midui",
+  "route": "tibet",
+  "node": "林芝",
+  "cat": "scenery",
+  "name": "米堆冰川"
+ },
+ {
+  "q": "然乌湖 昌都 西藏 scenery景点 实景",
+  "slug": "xz_ranwu",
+  "route": "tibet",
+  "node": "昌都",
+  "cat": "scenery",
+  "name": "然乌湖"
+ },
+ {
+  "q": "来古冰川 昌都 西藏 scenery景点 实景",
+  "slug": "xz_laigu",
+  "route": "tibet",
+  "node": "昌都",
+  "cat": "scenery",
+  "name": "来古冰川"
+ },
+ {
+  "q": "嘎拉桃花村 林芝 西藏 scenery景点 实景",
+  "slug": "xz_taohua",
+  "route": "tibet",
+  "node": "林芝",
+  "cat": "scenery",
+  "name": "嘎拉桃花村"
+ },
+ {
+  "q": "南伊沟 林芝 西藏 scenery景点 实景",
+  "slug": "xz_nanyi",
+  "route": "tibet",
+  "node": "林芝",
+  "cat": "scenery",
+  "name": "南伊沟"
+ },
+ {
+  "q": "墨脱 林芝 西藏 scenery景点 实景",
+  "slug": "xz_motuo",
+  "route": "tibet",
+  "node": "林芝",
+  "cat": "scenery",
+  "name": "墨脱"
+ },
+ {
+  "q": "强巴林寺 昌都 西藏 culture景点 实景",
+  "slug": "xz_qiangba",
+  "route": "tibet",
+  "node": "昌都",
+  "cat": "culture",
+  "name": "强巴林寺"
+ },
+ {
+  "q": "卡若遗址 昌都 西藏 museum景点 实景",
+  "slug": "xz_karuo",
+  "route": "tibet",
+  "node": "昌都",
+  "cat": "museum",
+  "name": "卡若遗址"
+ },
+ {
+  "q": "怒江七十二拐 昌都 西藏 landmark景点 实景",
+  "slug": "xz_72guai",
+  "route": "tibet",
+  "node": "昌都",
+  "cat": "landmark",
+  "name": "怒江七十二拐"
+ },
+ {
+  "q": "芒康盐井古盐田 昌都 西藏 culture景点 实景",
+  "slug": "xz_yanjing",
+  "route": "tibet",
+  "node": "昌都",
+  "cat": "culture",
+  "name": "芒康盐井古盐田"
+ },
+ {
+  "q": "孜珠寺 昌都 西藏 culture景点 实景",
+  "slug": "xz_zizhu",
+  "route": "tibet",
+  "node": "昌都",
+  "cat": "culture",
+  "name": "孜珠寺"
+ },
+ {
+  "q": "色林错 那曲 西藏 scenery景点 实景",
+  "slug": "xz_selin",
+  "route": "tibet",
+  "node": "那曲",
+  "cat": "scenery",
+  "name": "色林错"
+ },
+ {
+  "q": "当惹雍错 那曲 西藏 scenery景点 实景",
+  "slug": "xz_dangra",
+  "route": "tibet",
+  "node": "那曲",
+  "cat": "scenery",
+  "name": "当惹雍错"
+ },
+ {
+  "q": "萨普神山 那曲 西藏 mountain景点 实景",
+  "slug": "xz_sapu",
+  "route": "tibet",
+  "node": "那曲",
+  "cat": "mountain",
+  "name": "萨普神山"
+ },
+ {
+  "q": "比如骷髅墙 那曲 西藏 museum景点 实景",
+  "slug": "xz_kulou",
+  "route": "tibet",
+  "node": "那曲",
+  "cat": "museum",
+  "name": "比如骷髅墙"
+ },
+ {
+  "q": "冈仁波齐 狮泉河（阿里） 西藏 mountain景点 实景",
+  "slug": "xz_gangren",
+  "route": "tibet",
+  "node": "狮泉河（阿里）",
+  "cat": "mountain",
+  "name": "冈仁波齐"
+ },
+ {
+  "q": "玛旁雍错 狮泉河（阿里） 西藏 scenery景点 实景",
+  "slug": "xz_mapang",
+  "route": "tibet",
+  "node": "狮泉河（阿里）",
+  "cat": "scenery",
+  "name": "玛旁雍错"
+ },
+ {
+  "q": "拉昂错 狮泉河（阿里） 西藏 scenery景点 实景",
+  "slug": "xz_laang",
+  "route": "tibet",
+  "node": "狮泉河（阿里）",
+  "cat": "scenery",
+  "name": "拉昂错"
+ },
+ {
+  "q": "古格王朝遗址 狮泉河（阿里） 西藏 museum景点 实景",
+  "slug": "xz_guge",
+  "route": "tibet",
+  "node": "狮泉河（阿里）",
+  "cat": "museum",
+  "name": "古格王朝遗址"
+ },
+ {
+  "q": "托林寺 狮泉河（阿里） 西藏 culture景点 实景",
+  "slug": "xz_tuolin",
+  "route": "tibet",
+  "node": "狮泉河（阿里）",
+  "cat": "culture",
+  "name": "托林寺"
+ },
+ {
+  "q": "扎达土林 狮泉河（阿里） 西藏 scenery景点 实景",
+  "slug": "xz_zhada",
+  "route": "tibet",
+  "node": "狮泉河（阿里）",
+  "cat": "scenery",
+  "name": "扎达土林"
+ },
+ {
+  "q": "班公错 狮泉河（阿里） 西藏 scenery景点 实景",
+  "slug": "xz_bangong",
+  "route": "tibet",
+  "node": "狮泉河（阿里）",
+  "cat": "scenery",
+  "name": "班公错"
+ },
+ {
+  "q": "日土岩画 狮泉河（阿里） 西藏 museum景点 实景",
+  "slug": "xz_ritu",
+  "route": "tibet",
+  "node": "狮泉河（阿里）",
+  "cat": "museum",
+  "name": "日土岩画"
+ },
+ {
+  "q": "狮泉河 狮泉河（阿里） 西藏 landmark景点 实景",
+  "slug": "xz_shiquanhe",
+  "route": "tibet",
+  "node": "狮泉河（阿里）",
+  "cat": "landmark",
+  "name": "狮泉河"
+ }
+]
