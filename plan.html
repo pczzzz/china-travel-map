@@ -6,14 +6,14 @@
 <title>行程规划｜环中国 · 黄金大外环</title>
 <meta name="description" content="一个入口两个功能：自己定目的地排逐日行程，或只给出发日期开旅行盲盒。AI 智能规划 + 本地引擎双保险。" />
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
-<link rel="stylesheet" href="assets/css/main.css" />
-<link rel="stylesheet" href="assets/css/v2.css" />
-<link rel="stylesheet" href="assets/css/rec.css" />
-<link rel="stylesheet" href="assets/leaflet/leaflet.css" />
+<link rel="stylesheet" href="assets/css/main.css?v=20261026b" />
+<link rel="stylesheet" href="assets/css/v2.css?v=20261026b" />
+<link rel="stylesheet" href="assets/css/rec.css?v=20261026b" />
+<link rel="stylesheet" href="assets/leaflet/leaflet.css?v=20261026b" />
 <link rel="manifest" href="manifest.webmanifest" />
 <meta name="theme-color" content="#14212B" />
 <link rel="apple-touch-icon" href="assets/pwa/apple-touch-icon.png" />
-<script src="assets/js/pwa.js" defer></script>
+<script src="assets/js/pwa.js?v=20261026b" defer></script>
 <style>
   /* 页签按钮化（原 .pl-tab 是 a 标签样式） */
   .pl-tab{font-family:inherit;text-align:left;cursor:pointer;line-height:1.35}
@@ -183,16 +183,16 @@ function cors() {
   </div>
 </footer>
 
-<script src="assets/js/data.js"></script>
-<script src="assets/leaflet/leaflet.js"></script>
-<script src="assets/js/prov_index.js"></script>
-<script src="assets/js/prov_pts.js"></script>
-<script src="assets/js/core.js"></script>
-<script src="assets/js/plan_assist.js"></script>
-<script src="assets/js/plan_llm.js"></script>
-<script src="assets/js/plan.js"></script>
-<script src="assets/js/plan_map.js"></script>
-<script src="assets/js/recommend.js"></script>
+<script src="assets/js/data.js?v=20261026b"></script>
+<script src="assets/leaflet/leaflet.js?v=20261026b"></script>
+<script src="assets/js/prov_index.js?v=20261026b"></script>
+<script src="assets/js/prov_pts.js?v=20261026b"></script>
+<script src="assets/js/core.js?v=20261026b"></script>
+<script src="assets/js/plan_assist.js?v=20261026b"></script>
+<script src="assets/js/plan_llm.js?v=20261026b"></script>
+<script src="assets/js/plan.js?v=20261026b"></script>
+<script src="assets/js/plan_map.js?v=20261026b"></script>
+<script src="assets/js/recommend.js?v=20261026b"></script>
 <script>
   /* ---------- 单入口双功能：页签运行时切换 ---------- */
   (function () {
@@ -226,6 +226,11 @@ function cors() {
     });
     /* 初始页签：支持 #rec 直达 */
     if (location.hash === "#rec" || /[?&]tab=rec/.test(location.search)) tab("rec");
+    /* 运行中 hash 变化：外部自动化/回退前进可切页签（QA-2 修复） */
+    window.addEventListener("hashchange", function () {
+      if (location.hash === "#rec") tab("rec");
+      else if (location.hash === "#plan") tab("plan");
+    });
   })();
 
   /* ---------- AI 网关设置 ---------- */

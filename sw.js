@@ -1,11 +1,13 @@
-/* 中国旅行地图 · Service Worker
-   策略：
-   - 预缓存站点骨架（首页 + 公共资源），保证离线可开壳
-   - 同源 GET：stale-while-revalidate（先回缓存秒开，后台更新）
-   - 导航请求：网络优先，断网回退缓存页/首页
-   - 跨源（地图瓦片等）：只走网络，不落缓存（避免配额膨胀）
+/* 中国旅行地图 · Service Worker（版本化缓存策略）
+   2026-10 事故教训：旧版 SW 对 JS/CSS 用 stale-while-revalidate，发版后浏览器把
+   「旧 JS」配「新 HTML」一起跑，出现导航双入口、推荐地图/行程明细丢失的坏页面。
+   现策略：
+   - 导航(HTML) 与 代码/数据(js/css/json)：**network-first**，断网才回退缓存；
+   - 缓存键剥离 ?v= 版本参数，带版本与不带版本的 URL 共用同一份离线副本；
+   - 图片/字体：cache-first + 后台更新（提速，且不参与代码一致性）；
+   - 地图瓦片 / 跨源请求：只走网络，不落缓存（避免配额膨胀）。
 */
-var CACHE = 'hzmap-v1';
+var CACHE = 'hzmap-v2';
 var PRECACHE = [
   './',
   './index.html',
@@ -21,6 +23,16 @@ var PRECACHE = [
   './assets/leaflet/leaflet.css',
   './assets/leaflet/leaflet.js'
 ];
+
+/* 缓存键归一化：剥离同源 URL 的查询串（?v=xxx），保证版本化请求也能命中离线缓存 */
+function keyOf(url) {
+  try {
+    var u = new URL(url, self.location.href);
+    if (u.origin === self.location.origin) u.search = '';
+    return u.href;
+  } catch (e) { return url; }
+}
+function isCode(path) { return /\.(js|css|json|html?)$/.test(path) || /\/$/.test(path); }
 
 self.addEventListener('install', function (e) {
   e.waitUntil(
@@ -48,15 +60,21 @@ self.addEventListener('fetch', function (e) {
   if (req.method !== 'GET') return;
   var url = new URL(req.url);
   if (url.origin !== self.location.origin) return; // 瓦片等跨源：纯网络
+  if (/\/(tile|tiles)\//.test(url.pathname)) return; // 地图瓦片不缓存
 
-  if (req.mode === 'navigate') {
+  var key = keyOf(url.href);
+
+  /* 网络优先：页面与代码/数据 —— 保证发版后 HTML 与 JS 永远同版本 */
+  if (req.mode === 'navigate' || isCode(url.pathname)) {
     e.respondWith(
       fetch(req).then(function (resp) {
-        var copy = resp.clone();
-        caches.open(CACHE).then(function (c) { c.put(req, copy); }).catch(function () {});
+        if (resp && resp.status === 200) {
+          var copy = resp.clone();
+          caches.open(CACHE).then(function (c) { c.put(key, copy); }).catch(function () {});
+        }
         return resp;
       }).catch(function () {
-        return caches.match(req).then(function (hit) {
+        return caches.match(key).then(function (hit) {
           return hit || caches.match('./index.html');
         });
       })
@@ -64,13 +82,13 @@ self.addEventListener('fetch', function (e) {
     return;
   }
 
-  // stale-while-revalidate
+  /* 缓存优先 + 后台更新：图片/字体等静态资源 */
   e.respondWith(
-    caches.match(req).then(function (hit) {
+    caches.match(key).then(function (hit) {
       var net = fetch(req).then(function (resp) {
         if (resp && resp.status === 200) {
           var copy = resp.clone();
-          caches.open(CACHE).then(function (c) { c.put(req, copy); }).catch(function () {});
+          caches.open(CACHE).then(function (c) { c.put(key, copy); }).catch(function () {});
         }
         return resp;
       }).catch(function () { return null; });
