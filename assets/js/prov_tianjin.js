@@ -1,2 +1,1278 @@
 window.PROV_DATA = window.PROV_DATA || {};
-PROV_DATA.tianjin = {"meta":{"id":"tianjin","name":"天津","en":"Tianjin","capital":"和平 · 南开","tagline":"九河下梢 · 租界洋楼与蓟州山水","geoTitle":"市区看百年洋楼，蓟州看千年山水","geoSub":"先分两块：中心城区是海河两岸的近代建筑群与市井小吃，北部蓟州是燕山里的长城、盘山与辽代木构。","intro":["天津的城市价值被严重低估：海河两岸 2000 余幢近代建筑、九国租界的历史街区，加上五大道 230 多幢小洋楼，构成中国保存最完整的近代城市景观，密度远超上海外滩。","另一面是蓟州——天津唯一的山区，独乐寺观音阁是中国现存最古老的木结构楼阁（辽代 984 年），盘山是乾隆「早知有盘山，何必下江南」的地方，黄崖关长城则是戚继光改建的明代边镇精华。","自驾在天津很划算：市区景点集中、停车比北京容易，蓟州与滨海新区各需半天到一天车程（约 1.5 小时）；本页按 9 个城区/郊区分组，把洋楼、市井、长城与海港四种完全不同的玩法分开列。"],"facts":[["面积","1.19 万 km²"],["常住人口","1364 万（2023 年末）"],["行政区","16 个市辖区"],["近代建筑","海河两岸 2000 余幢 · 九国租界"],["最高峰","蓟州九山顶 1078.5 m"],["建城","1404 年筑城，中国唯一有确切建城时间的城市"]],"regions":[["海河两岸 · 近代建筑群","解放北路金融街、意式风情区、津湾广场与天津之眼：一条河串起九国租界遗迹，夜游海河是最省力的看法。"],["五大道 · 小洋楼街区","成都道、重庆道、大理道一带 230 余幢花园洋房，民园广场为中心，骑自行车或坐马车逛最合适。"],["老城厢 · 市井天津","古文化街、鼓楼、大悲院与西北角早点摊：津味最浓的一片，泥人张、杨柳青年画与各种老字号小吃都在这里。"],["蓟州山区 · 长城与古建","独乐寺、盘山、黄崖关、梨木台与九山顶：天津唯一的山，也是京津冀自驾最被低估的一段。"],["滨海新区 · 海港与展馆","国家海洋博物馆、滨海图书馆、泰达航母主题公园与大沽口炮台：新建筑与近代海防史同框。"]],"capLabel":"中心城区"},"cities":[{"id":"heping","name":"和平 · 五大道","lat":39.10901,"lng":117.21529,"role":"洋楼核心","desc":"五大道小洋楼群、民园广场、瓷房子、西开教堂与解放北路金融街：天津近代建筑的精华都在这一片，适合步行与骑行。","spots":["wudadao","minyuan","cichengzi","xikai","jiefangbei","jinyuan","lishunda","jingyuan","xianong","zhangxueliang"],"cap":true},{"id":"nankai","name":"南开 · 老城厢","lat":39.14109,"lng":117.17836,"role":"市井天津","desc":"古文化街、鼓楼、天津之眼、大悲院、南开大学与西北角早点：津味最浓的一片，早晨来吃早点是正确打开方式。","spots":["guloutj","guwenhua","tianjin_eye","dabeiyuan","xibeijiao","nankaiuniv"]},{"id":"hebei","name":"河北 · 海河北岸","lat":39.13905,"lng":117.20231,"role":"租界与名人故居","desc":"意式风情区、望海楼教堂、梁启超与曹禺故居、静园与张学良故居：近代名人在天津的居所密集分布在海河两岸。","spots":["yifengqu","wanghailou","liangqichao","haihe"]},{"id":"hexi","name":"河西 · 文化中心","lat":39.09098,"lng":117.22628,"role":"展馆与新地标","desc":"天津博物馆、美术馆、自然博物馆、大剧院与周邓纪念馆：四馆一场集中，是天津最新的一片文化区，适合半天连看。","spots":["zhoungguan","tianjinbowuguan","ziranbowuguan"]},{"id":"binhai","name":"滨海新区 · 海港","lat":38.99087,"lng":117.70626,"role":"海洋与近代海防","desc":"国家海洋博物馆、滨海图书馆、泰达航母主题公园、大沽口炮台与东疆港沙滩：新建筑与海防史同框，距市区约 1 小时。","spots":["haiyangbowuguan","binhailibrary","teda","dagukou","dongjiang"]},{"id":"jizhou","name":"蓟州 · 山水古建","lat":40.04843,"lng":117.41469,"role":"独乐寺与盘山","desc":"独乐寺、盘山、黄崖关长城、梨木台、九龙山与九山顶：天津唯一的山区，辽代木构、乾隆名山与明代长城都在此。","spots":["dulesi","panshan","huangyaguan","limutai","jiushanding","jiulongshan","jizhougucheng"]},{"id":"xiqing","name":"西青 · 杨柳青","lat":39.14102,"lng":117.01417,"role":"年画与大院","desc":"石家大院、杨柳青年画馆、精武门·中华武林园与水高庄园：京杭运河畔的商镇旧貌与国家级非遗年画产地。","spots":["shijiayuan","nianhuaguan","jingwumen"]},{"id":"wuqing","name":"武清 · 京东门户","lat":39.38121,"lng":117.03629,"role":"购物与湿地","desc":"佛罗伦萨小镇、南湖绿博园与津溪桃源：京津之间的中转地，适合从北京方向进天津时顺路停留半天。","spots":["folunsa","nanhu"]},{"id":"ninghe","name":"宝坻宁河 · 潮白河","lat":39.30096,"lng":117.65619,"role":"湿地观鸟","desc":"七里海湿地与潮白河国家湿地公园：华北最大的古泻湖湿地之一，芦苇荡与候鸟迁徙，游客极少。","spots":["qilihai","chaobaihe"]}],"spots":[{"id":"wudadao","name":"五大道历史文化街区","cat":"culture","catName":"人文","city":"heping","desc":"成都道、重庆道、大理道、睦南道与马场道五条街的合称：230 余幢英法风格花园洋房，多为 1920–30 年代下野政客与富商所建，民园广场是中心。","img":"assets/images/tj_wudadao.jpg","ticket":"免费","season":"全年","free":true,"key":true,"lat":39.10901,"lng":117.21529},{"id":"minyuan","name":"民园广场 · 民园大楼","cat":"landmark","catName":"地标","city":"heping","desc":"原英租界体育场改建的开放式广场：罗马柱廊与下沉草坪，晚上有灯光与街头艺人，是五大道最舒服的歇脚点。","img":"assets/images/tj_minyuan.jpg","ticket":"免费","season":"全年","free":true,"lat":39.10951,"lng":117.21479},{"id":"cichengzi","name":"瓷房子","cat":"culture","catName":"人文","city":"heping","desc":"赤峰道上把 7 亿片古瓷片、水晶与汉白玉石雕贴满整幢法式洋楼的私人收藏馆：审美极具争议，但作为「奇观建筑」值得一看外观。","img":"assets/images/tj_cichengzi.jpg","ticket":"50 元","season":"全年","lat":39.11502,"lng":117.21229},{"id":"xikai","name":"西开教堂","cat":"culture","catName":"人文","city":"heping","desc":"1917 年建成，天津最大的天主教堂，法国罗曼式三座穹顶：内部壁画与彩色玻璃保存完好，弥撒时段不对游客开放。","img":"assets/images/tj_xikai.jpg","ticket":"免费","season":"全年","free":true,"lat":39.12503,"lng":117.20531},{"id":"jiefangbei","name":"解放北路金融街","cat":"culture","catName":"人文","city":"heping","desc":"旧时的「东方华尔街」：49 家银行与洋行的历史建筑沿路排开，横滨正金银行、汇丰银行与利顺德大饭店（1863 年）都在，晚上灯光极佳。","img":"assets/images/tj_jiefangbei.jpg","ticket":"免费","season":"全年","free":true,"key":true,"lat":39.12602,"lng":117.2113},{"id":"jinyuan","name":"津湾广场 · 解放桥","cat":"scenery","catName":"景色","city":"heping","desc":"海河边的欧式建筑群与百年开启桥：解放桥是 1927 年法国设计的立转式钢桥，重大节日会开启；夜里从对岸拍津湾全景是天津最经典机位。","img":"assets/images/tj_jinyuan.jpg","ticket":"免费","season":"全年","free":true,"lat":39.13002,"lng":117.21329},{"id":"lishunda","name":"利顺德大饭店博物馆","cat":"culture","catName":"人文","city":"heping","desc":"1863 年创建，中国第一家涉外饭店：孙中山、末代皇帝溥仪、卓别林都住过，馆内 3000 余件文物与老电梯、老账簿构成一部近代史。","img":"assets/images/tj_lishunda.jpg","ticket":"30 元（含参观）","season":"全年","lat":39.12853,"lng":117.2093},{"id":"jingyuan","name":"静园 · 溥仪旧居","cat":"culture","catName":"人文","city":"heping","desc":"末代皇帝溥仪 1929–1931 年在天津的居所，西班牙式洋楼：复原了溥仪与婉容的居室，展览讲清了他在天津三年的政治活动。","img":"assets/images/tj_jingyuan.jpg","ticket":"20 元","season":"全年，周一闭馆","lat":39.12405,"lng":117.19632},{"id":"xianong","name":"先农大院","cat":"culture","catName":"人文","city":"heping","desc":"1920 年代英国先农公司建的里弄住宅区，现为餐厅与小店聚落：红砖拱廊与庭院保存完好，是五大道最安静的一处院子。","img":"assets/images/tj_xianong.jpg","ticket":"免费","season":"全年","free":true,"lat":39.11101,"lng":117.21729},{"id":"guloutj","name":"天津鼓楼 · 老城厢","cat":"culture","catName":"人文","city":"nankai","desc":"明代天津卫三座城门之一，2001 年重建：四面牌楼写着「镇东」「安西」「定南」「拱北」，周边商业街已改造，但仍是老城中心坐标。","img":"assets/images/tj_guloutj.jpg","ticket":"免费","season":"全年","free":true,"lat":39.14109,"lng":117.17836},{"id":"guwenhua","name":"古文化街","cat":"culture","catName":"人文","city":"nankai","desc":"以天后宫为中心的仿清商业街：泥人张、杨柳青年画、风筝魏与各种津味小吃集中，天后宫（1326 年）是天津城市起源的标志。","img":"assets/images/tj_guwenhua.jpg","ticket":"免费，天后宫 10 元","season":"全年","key":true,"lat":39.14608,"lng":117.18335},{"id":"tianjin_eye","name":"天津之眼摩天轮","cat":"landmark","catName":"地标","city":"nankai","desc":"建在永乐桥上的全球唯一桥上摩天轮，直径 110 米：转一圈 30 分钟，夜间亮灯后与海河灯光带同框，需网上提前购票。","img":"assets/images/tj_tianjin_eye.jpg","ticket":"70 元","season":"全年","key":true,"lat":39.1501,"lng":117.17836},{"id":"dabeiyuan","name":"大悲禅院","cat":"culture","catName":"人文","city":"nankai","desc":"天津市区最大的佛教寺院，始建于清初：玄奘法师纪念堂曾供奉其灵骨，天王殿与大雄宝殿为清代风格，香火旺盛。","img":"assets/images/tj_dabeiyuan.jpg","ticket":"5 元","season":"全年","lat":39.15609,"lng":117.18435},{"id":"xibeijiao","name":"西北角早点街","cat":"food","catName":"美食","city":"nankai","desc":"天津早点密度最高的一条街：锅巴菜、老豆腐、煎饼果子、卷圈、茶鸡蛋与豆浆从早五点排到十点，本地人与游客混排。","img":"assets/images/tj_xibeijiao.jpg","ticket":"人均 10–20 元","season":"全年","key":true,"lat":39.15111,"lng":117.17137},{"id":"nankaiuniv","name":"南开大学 · 天津大学","cat":"landmark","catName":"地标","city":"nankai","desc":"两所百年名校相邻：南开马蹄湖与大中路、北洋园校区的天津大学主楼，秋天银杏大道是天津校园最好看的两段。","img":"assets/images/tj_nankaiuniv.jpg","ticket":"免费","season":"全年，10–11 月银杏","free":true,"lat":39.10308,"lng":117.17037},{"id":"zhoungguan","name":"周恩来邓颖超纪念馆","cat":"museum","catName":"博物馆","city":"hexi","desc":"水上公园旁的国家级纪念馆：复原了中南海西花厅，展出两人往来书信与生活遗物，展览叙事克制而有分量。","img":"assets/images/tj_zhoungguan.jpg","ticket":"免费","season":"全年，周一闭馆","free":true,"lat":39.09604,"lng":117.18933},{"id":"tianjinbowuguan","name":"天津博物馆","cat":"museum","catName":"博物馆","city":"hexi","desc":"馆藏 20 余万件，镇馆三宝是《雪景寒林图》（范宽）、太保鼎与清乾隆珐琅彩芍药雉鸡纹玉壶春瓶：新馆建筑本身像一只展翅天鹅。","img":"assets/images/tj_tianjinbowuguan.jpg","ticket":"免费","season":"全年，周一闭馆","free":true,"key":true,"lat":39.09098,"lng":117.22628},{"id":"ziranbowuguan","name":"天津自然博物馆","cat":"museum","catName":"博物馆","city":"hexi","desc":"中国北方最大的自然博物馆之一，恐龙化石厅与古哺乳动物厅是重点：肯尼斯标本与「中华龙鸟」复制品值得一看，亲子首选。","img":"assets/images/tj_ziranbowuguan.jpg","ticket":"免费","season":"全年，周一闭馆","free":true,"lat":39.09149,"lng":117.22128},{"id":"yifengqu","name":"意式风情区","cat":"culture","catName":"人文","city":"hebei","desc":"原意大利租界，200 余幢地中海风格建筑保存完整：马可波罗广场、梁启超与曹禺故居在区内，晚上餐厅与酒吧最热闹。","img":"assets/images/tj_yifengqu.jpg","ticket":"免费","season":"全年","free":true,"key":true,"lat":39.13604,"lng":117.20231},{"id":"wanghailou","name":"望海楼教堂","cat":"culture","catName":"人文","city":"hebei","desc":"1869 年建成，1870 年「天津教案」中被焚、后重建：哥特式砖木结构，是中国近代史的重要现场，就在海河边。","img":"assets/images/tj_wanghailou.jpg","ticket":"免费","season":"全年","free":true,"lat":39.14806,"lng":117.19632},{"id":"liangqichao","name":"梁启超纪念馆","cat":"culture","catName":"人文","city":"hebei","desc":"意租界西马路的梁启超旧居与「饮冰室」书斋：复原了他 1915–1929 年在天津的写作与政治生活环境，展览做得扎实。","img":"assets/images/tj_liangqichao.jpg","ticket":"10 元","season":"全年，周一闭馆","lat":39.13705,"lng":117.19982},{"id":"zhangxueliang","name":"张学良故居博物馆","cat":"culture","catName":"人文","city":"heping","desc":"赤峰道上的三层洋楼，张学良与赵四小姐 1925–1931 年在津居所：按原貌复原 30 余间房，配真人蜡像与情景演出。","img":"assets/images/tj_zhangxueliang.jpg","ticket":"60 元","season":"全年","lat":39.12203,"lng":117.2083},{"id":"haihe","name":"海河游船 · 夜景","cat":"scenery","catName":"景色","city":"hebei","desc":"天津站码头上船，40 分钟穿过多座风格各异的海河桥与两岸灯光带：从水上一次看完天津近代建筑群，性价比高于逐个走。","img":"assets/images/tj_haihe.jpg","ticket":"80–100 元","season":"全年（冬季停运）","key":true,"lat":39.13403,"lng":117.2113},{"id":"dulesi","name":"独乐寺","cat":"culture","catName":"人文","city":"jizhou","desc":"辽代 984 年重建，观音阁是中国现存最古老的木结构楼阁，全楼不用一根钉子：阁内 16 米高的泥塑观音是中国最大古代泥塑之一，梁思成曾多次测绘。","img":"assets/images/tj_dulesi.jpg","ticket":"37 元","season":"全年","level":"全国重点文保","key":true,"lat":40.04843,"lng":117.41469},{"id":"panshan","name":"盘山风景名胜区","cat":"mountain","catName":"山岳·徒步","city":"jizhou","desc":"乾隆 32 次登临并说「早知有盘山，何必下江南」：三盘（下盘水、中盘石、上盘松）景观分层，主峰挂月峰 864 米，索道可省大半爬升。","img":"assets/images/tj_panshan.jpg","diff":2,"ticket":"100 元（索道另收）","season":"4–11 月","key":true,"lat":40.08925,"lng":117.2634},{"id":"huangyaguan","name":"黄崖关长城","cat":"culture","catName":"人文","city":"jizhou","desc":"明代蓟镇总兵戚继光改建的长城精华段：八卦城布局的关城、水关与敌楼形式最多样，被称为「万里长城缩影」，每年有国际马拉松。","img":"assets/images/tj_huangyaguan.jpg","ticket":"65 元","season":"4–10 月","level":"世界遗产（长城）","key":true,"lat":40.22445,"lng":117.41871},{"id":"limutai","name":"梨木台风景区","cat":"mountain","catName":"山岳·徒步","city":"jizhou","desc":"蓟州最深处的峡谷森林，「天津的神农架」：石英岩峰林、瀑布与原始次生林，秋天红叶密度极高，步道沿溪而上较为平缓。","img":"assets/images/tj_limutai.jpg","diff":2,"ticket":"70 元","season":"5–10 月","lat":40.24118,"lng":117.53638},{"id":"jiushanding","name":"九山顶自然风景区","cat":"mountain","catName":"山岳·徒步","city":"jizhou","desc":"天津最高峰（1078.5 米）：玻璃栈道悬于山脊，可看燕山层峦，云雾天有云海，秋季红叶与春季山花是两个高峰。","img":"assets/images/tj_jiushanding.jpg","elev":1078,"diff":3,"ticket":"60 元","season":"5–10 月","lat":40.26133,"lng":117.48657},{"id":"jiulongshan","name":"九龙山国家森林公园","cat":"mountain","catName":"山岳·徒步","city":"jizhou","desc":"蓟州城南的森林保护区，九条山脊如九龙汇聚：步道成熟、游客少，适合半日轻徒步，可与独乐寺串成一天。","img":"assets/images/tj_jiulongshan.jpg","diff":1,"ticket":"45 元","season":"4–11 月","lat":40.10141,"lng":117.44666},{"id":"jizhougucheng","name":"蓟州古城 · 白塔寺","cat":"culture","catName":"人文","city":"jizhou","desc":"独乐寺周边的老街区：白塔寺辽代白塔造型独特（亭阁式与密檐式合体），渔阳古街与武定街还保留着老县城的尺度。","img":"assets/images/tj_jizhougucheng.jpg","ticket":"白塔寺 10 元","season":"全年","lat":40.04643,"lng":117.41169},{"id":"haiyangbowuguan","name":"国家海洋博物馆","cat":"museum","catName":"博物馆","city":"binhai","desc":"中国唯一的国家级综合性海洋博物馆，建筑像跃出水面的鱼群：古海洋生物化石、鲸骨标本与深海装备展陈水平很高，需提前预约。","img":"assets/images/tj_haiyangbowuguan.jpg","ticket":"免费","season":"全年，周一闭馆","free":true,"key":true,"lat":38.99092,"lng":117.7563},{"id":"binhailibrary","name":"滨海图书馆","cat":"landmark","catName":"地标","city":"binhai","desc":"MVRDV 设计的「滨海之眼」：巨型球体被层层白色书山包裹，是全球被拍摄最多的图书馆之一，实际藏书在上层书库。","img":"assets/images/tj_binhailibrary.jpg","ticket":"免费","season":"全年","free":true,"lat":38.99086,"lng":117.69624},{"id":"teda","name":"泰达航母主题公园","cat":"landmark","catName":"地标","city":"binhai","desc":"以退役「基辅号」航母为主体的军事主题公园：可进入舰内看机库、舱室与作战指挥室，另有实景海战表演与潜艇。","img":"assets/images/tj_teda.jpg","ticket":"168 元","season":"全年","key":true,"lat":38.99591,"lng":117.7363},{"id":"dagukou","name":"大沽口炮台遗址","cat":"museum","catName":"博物馆","city":"binhai","desc":"1858–1900 年四次大沽口保卫战的发生地，「海门古塞」：现存炮台、铁钟与博物馆，是理解中国近代海防史的现场。","img":"assets/images/tj_dagukou.jpg","ticket":"30 元","season":"全年","lat":38.95076,"lng":117.65614},{"id":"dongjiang","name":"东疆港沙滩公园","cat":"scenery","catName":"景色","city":"binhai","desc":"人工填海造出的 2 公里沙滩，京津最近的看海处：水质一般但适合带孩子玩沙，旁边是东疆湾观景平台与国际邮轮母港。","img":"assets/images/tj_dongjiang.jpg","ticket":"50 元（夏季）","season":"6–9 月","lat":39.0309,"lng":117.80623},{"id":"shijiayuan","name":"石家大院","cat":"culture","catName":"人文","city":"xiqing","desc":"清代津门八大家之一石万程家族的宅院，「华北第一宅」：12 个院落、278 间房，砖雕、木雕与戏楼保存极好，是杨柳青最值得一看的建筑。","img":"assets/images/tj_shijiayuan.jpg","ticket":"27 元","season":"全年","key":true,"lat":39.14102,"lng":117.01417},{"id":"nianhuaguan","name":"杨柳青年画馆","cat":"culture","catName":"人文","city":"xiqing","desc":"国家级非遗杨柳青木版年画的产地与展馆：半印半画工艺（木版套印后手工开脸）是它区别于其他年画的关键，可看现场绘制。","img":"assets/images/tj_nianhuaguan.jpg","ticket":"20 元","season":"全年","lat":39.14302,"lng":117.01618},{"id":"jingwumen","name":"精武门 · 中华武林园","cat":"culture","catName":"人文","city":"xiqing","desc":"霍元甲故乡西青精武镇建的武术文化园：霍元甲陵园、纪念馆与演武场，每天有武术表演，是了解津门武术传统的窗口。","img":"assets/images/tj_jingwumen.jpg","ticket":"40 元","season":"全年","lat":39.09115,"lng":117.09642},{"id":"folunsa","name":"佛罗伦萨小镇","cat":"landmark","catName":"地标","city":"wuqing","desc":"京津之间的意式奥特莱斯：仿意大利小镇布局，建筑与运河造景比购物本身更值得拍，周末客流极大。","img":"assets/images/tj_folunsa.jpg","ticket":"免费","season":"全年","free":true,"lat":39.38121,"lng":117.03629},{"id":"nanhu","name":"南湖绿博园","cat":"scenery","catName":"景色","city":"wuqing","desc":"2015 年全国绿博会原址，14 平方公里湖面与各省园林展园：免费开放，环湖骑行道与大片草坪适合野餐，人少清净。","img":"assets/images/tj_nanhu.jpg","ticket":"免费","season":"4–10 月","free":true,"lat":39.41131,"lng":117.08644},{"id":"qilihai","name":"七里海湿地","cat":"scenery","catName":"景色","city":"ninghe","desc":"华北最大的古泻湖湿地，世界三大古海岸之一：芦苇荡面积 40 余平方公里，候鸟迁徙季数十万只水鸟过境，现为保护区、部分区域不开放。","img":"assets/images/tj_qilihai.jpg","ticket":"保护区（外围观鸟）","season":"4–5 月、9–11 月","lat":39.30096,"lng":117.65619},{"id":"chaobaihe","name":"潮白河国家湿地公园","cat":"scenery","catName":"景色","city":"ninghe","desc":"沿潮白河两岸建成的免费湿地公园：大片林地、草坪与河岸步道，是宝坻与京津周边最常见的露营与骑行目的地。","img":"assets/images/tj_chaobaihe.jpg","ticket":"免费","season":"4–10 月","free":true,"lat":39.45129,"lng":117.35653}],"foods":[{"name":"煎饼果子","city":"nankai","cityName":"南开 · 老城厢","desc":"绿豆面摊成薄饼、磕一个鸡蛋，裹上酥脆的果子（油条）或果篦儿：只刷面酱、腐乳与葱花，加生菜火腿的都不是天津做法。","img":"assets/images/fd_tj_01.jpg"},{"name":"锅巴菜（嘎巴菜）","city":"nankai","cityName":"南开 · 老城厢","desc":"绿豆面煎饼切条，浇上十几种香料熬的卤汁，配麻酱、腐乳、辣油与香菜：天津独有的早餐，别处吃不到。","img":"assets/images/fd_tj_02.jpg"},{"name":"狗不理包子","city":"heping","cityName":"和平 · 五大道","desc":"1858 年创号的十八个褶灌汤包：本地人评价分化，但作为天津符号值得一试，总店在山东路。","img":"assets/images/fd_tj_03.jpg"},{"name":"耳朵眼炸糕","city":"nankai","cityName":"南开 · 老城厢","desc":"清真老店，糯米皮包红小豆馅炸到金黄起壳：外脆内糯、豆沙不齁，趁热吃，凉了口感减半。","img":"assets/images/fd_tj_04.jpg"},{"name":"桂发祥十八街麻花","city":"hexi","cityName":"河西 · 文化中心","desc":"什锦夹馅大麻花，中间夹冰糖、桂花、青红丝与核桃仁：可放数月不软，是天津最标准的伴手礼。","img":"assets/images/fd_tj_05.jpg"},{"name":"罾蹦鲤鱼","city":"nankai","cityName":"南开 · 老城厢","desc":"整条鲤鱼带鳞下油锅炸到骨架酥透，再浇糖醋汁：上桌时鱼仍保持跃起的形状，鳞可食，是津菜代表之一。","img":"assets/images/fd_tj_06.jpg"},{"name":"独面筋","city":"nankai","cityName":"南开 · 老城厢","desc":"静海独流镇产的面筋切成薄片，与木耳、笋片同炒或做烩菜：口感韧而有孔吸汁，是津菜里最朴素的功夫菜。","img":"assets/images/fd_tj_07.jpg"},{"name":"四大扒","city":"heping","cityName":"和平 · 五大道","desc":"津菜宴席的统称——扒整鸡、扒整鸭、扒肘子、扒方肉：讲究「扒」的火功，汤汁浓而不腻，老字号宴席才吃得到。","img":"assets/images/fd_tj_08.jpg"},{"name":"茶汤 · 面茶","city":"nankai","cityName":"南开 · 老城厢","desc":"龙嘴大铜壶冲出的糜子面茶，撒红糖、桂花与青红丝：街头表演性质强，冬天一碗暖手又暖胃。","img":"assets/images/fd_tj_09.jpg"},{"name":"北塘海鲜","city":"binhai","cityName":"滨海新区 · 海港","desc":"北塘渔村的渤海湾海鲜：皮皮虾、梭子蟹、海肠与铁板蛏子，4–5 月与 9–10 月是两个旺季，渔家院按当天渔获定价。","img":"assets/images/fd_tj_10.jpg"},{"name":"贴饽饽熬小鱼","city":"binhai","cityName":"滨海新区 · 海港","desc":"农家铁锅一面贴玉米饼、一面熬河海小鱼：饼底焦脆吸足鱼汤，是天津郊县最朴实的一餐，蓟州与宝坻农家院常见。","img":"assets/images/fd_tj_11.jpg"},{"name":"杨柳青酥糖 · 沙窝萝卜","city":"xiqing","cityName":"西青 · 杨柳青","desc":"杨柳青酥糖层层起酥、入口即化；西青沙窝萝卜脆甜多汁，天津人冬天当水果生吃，「赛鸭梨」不是玩笑。","img":"assets/images/fd_tj_12.jpg"},{"name":"老豆腐与卷圈","city":"nankai","cityName":"南开 · 老城厢","desc":"老豆腐浇卤汁配麻酱、辣椒油与韭菜花；卷圈是豆皮裹豆芽菜、粉丝与香菜炸成，两样是西北角早点的标配组合。","img":"assets/images/fd_tj_13.jpg"}],"loops":[{"name":"海河两岸 · 近代建筑步行线","days":"1–2 天","km":"步行约 10 km","desc":"天津最核心的一天：五大道小洋楼 → 瓷房子 → 西开教堂 → 解放北路金融街 → 津湾广场 → 意式风情区 → 古文化街 → 天津之眼夜景。","path":"民园广场 → 五大道 → 瓷房子 → 西开教堂 → 解放北路 → 津湾广场 → 意式风情区 → 望海楼 → 古文化街 → 天津之眼","note":"全程地铁+步行即可；海河游船与天津之眼建议傍晚，灯光比白天好；西北角早点要早上 7 点前去，晚了排队久。","pts":[[39.10951,117.21479,"民园广场"],[39.10901,117.21529,"五大道"],[39.11502,117.21229,"瓷房子"],[39.12503,117.20531,"西开教堂"],[39.12602,117.2113,"解放北路"],[39.13002,117.21329,"津湾广场"],[39.13604,117.20231,"意式风情区"],[39.14806,117.19632,"望海楼教堂"],[39.14608,117.18335,"古文化街"],[39.1501,117.17836,"天津之眼"]]},{"name":"蓟州山水 · 长城古建环线","days":"2–3 天","km":"约 260 km","desc":"天津唯一的山区，也是京津冀最被低估的自驾段：独乐寺辽代木构 → 盘山 → 黄崖关长城 → 梨木台 → 九山顶，住蓟州一晚。","path":"市区 → 独乐寺 → 蓟州古城 → 盘山 → 黄崖关长城 → 梨木台 → 九山顶 → 九龙山 → 市区","note":"津蓟高速（S1）约 1.5 小时到蓟州；盘山与黄崖关各需大半天，梨木台与九山顶步道长，三天更从容；秋季周末房价翻倍。","pts":[[39.13104,117.2063,"天津"],[40.04843,117.41469,"独乐寺"],[40.04643,117.41169,"蓟州古城"],[40.08925,117.2634,"盘山"],[40.22445,117.41871,"黄崖关长城"],[40.24118,117.53638,"梨木台"],[40.26133,117.48657,"九山顶"],[40.10141,117.44666,"九龙山"],[39.13104,117.2063,"天津"]]},{"name":"滨海新区 · 海洋与海防线","days":"1–2 天","km":"约 140 km","desc":"新建筑与近代海防史同框：国家海洋博物馆 → 滨海图书馆 → 泰达航母 → 大沽口炮台 → 东疆港沙滩，夏季可加北塘海鲜。","path":"市区 → 国家海洋博物馆 → 滨海图书馆 → 泰达航母主题公园 → 大沽口炮台 → 东疆港沙滩 → 北塘渔村 → 市区","note":"海洋博物馆需提前在官方公众号预约（周一闭馆）；滨海图书馆内禁止大声与商业拍摄；东疆港沙滩仅夏季开放。","pts":[[39.13104,117.2063,"天津"],[38.99092,117.7563,"国家海洋博物馆"],[38.99086,117.69624,"滨海图书馆"],[38.99591,117.7363,"泰达航母主题公园"],[38.95076,117.65614,"大沽口炮台"],[39.0309,117.80623,"东疆港沙滩"],[39.02089,117.70626,"北塘渔村"],[39.13104,117.2063,"天津"]]},{"name":"天津全境 · 四日大环线","days":"4 天","km":"约 620 km","desc":"把洋楼、市井、运河古镇、山区长城与海港一次走完，是环中国渤海段（G228）在天津境内的完整衔接路线。","path":"市区(五大道+海河) → 古文化街 → 杨柳青(石家大院+年画) → 武清南湖 → 蓟州(独乐寺+盘山+黄崖关) → 滨海(海洋博物馆+航母) → 市区","note":"日均控制在 150 km 以内；杨柳青与武清在市区西/北，蓟州在北，滨海在东，按此顺序走回头路最少。","pts":[[39.13104,117.2063,"天津"],[39.10901,117.21529,"五大道"],[39.14608,117.18335,"古文化街"],[39.14102,117.01417,"石家大院"],[39.41131,117.08644,"南湖绿博园"],[40.04843,117.41469,"独乐寺"],[40.08925,117.2634,"盘山"],[40.22445,117.41871,"黄崖关长城"],[38.99092,117.7563,"国家海洋博物馆"],[38.99591,117.7363,"泰达航母主题公园"],[39.13104,117.2063,"天津"]]}],"tips":[["早点","天津是「早点城市」：煎饼果子、锅巴菜、老豆腐、卷圈、茶鸡蛋集中在西北角与南市一带，多数摊位卖完就收，7:30 前最稳。"],["季节","最佳是 4–5 月与 9–10 月；蓟州山区 10 月中下旬红叶最好，冬季海河游船停运、盘山索道可能因风关闭。"],["限行","工作日 7:00–19:00 尾号限行（与北京同步轮换），外地车需办通行证且早晚高峰禁入外环线以内，出发前查当日政策。"],["自驾","市区海河两岸单行道与桥多，导航优先；到蓟州走津蓟高速 S1、到滨海走津滨高速，均约 1–1.5 小时，节假日返程拥堵。"],["预约","天津博物馆、自然博物馆、海洋博物馆、周邓纪念馆均需实名预约且周一闭馆；利顺德博物馆与张学良故居现场购票即可。"],["避坑","古文化街与南市食品街小吃价格偏高、口味一般，本地人更推荐西北角与居民区老店；狗不理包子争议大，可按符号打卡心态处理。"],["住宿","市区住和平区（五大道/滨江道）最方便；蓟州线住盘山脚下或蓟州古城民宿；滨海线住于家堡或响螺湾，靠展馆与地铁。"]]};
+PROV_DATA.tianjin = {
+ "meta": {
+  "id": "tianjin",
+  "name": "天津",
+  "en": "Tianjin",
+  "capital": "和平 · 南开",
+  "tagline": "九河下梢 · 租界洋楼与蓟州山水",
+  "geoTitle": "市区看百年洋楼，蓟州看千年山水",
+  "geoSub": "先分两块：中心城区是海河两岸的近代建筑群与市井小吃，北部蓟州是燕山里的长城、盘山与辽代木构。",
+  "intro": [
+   "天津的城市价值被严重低估：海河两岸 2000 余幢近代建筑、九国租界的历史街区，加上五大道 230 多幢小洋楼，构成中国保存最完整的近代城市景观，密度远超上海外滩。",
+   "另一面是蓟州——天津唯一的山区，独乐寺观音阁是中国现存最古老的木结构楼阁（辽代 984 年），盘山是乾隆「早知有盘山，何必下江南」的地方，黄崖关长城则是戚继光改建的明代边镇精华。",
+   "自驾在天津很划算：市区景点集中、停车比北京容易，蓟州与滨海新区各需半天到一天车程（约 1.5 小时）；本页按 9 个城区/郊区分组，把洋楼、市井、长城与海港四种完全不同的玩法分开列。"
+  ],
+  "facts": [
+   [
+    "面积",
+    "1.19 万 km²"
+   ],
+   [
+    "常住人口",
+    "1364 万（2023 年末）"
+   ],
+   [
+    "行政区",
+    "16 个市辖区"
+   ],
+   [
+    "近代建筑",
+    "海河两岸 2000 余幢 · 九国租界"
+   ],
+   [
+    "最高峰",
+    "蓟州九山顶 1078.5 m"
+   ],
+   [
+    "建城",
+    "1404 年筑城，中国唯一有确切建城时间的城市"
+   ]
+  ],
+  "regions": [
+   [
+    "海河两岸 · 近代建筑群",
+    "解放北路金融街、意式风情区、津湾广场与天津之眼：一条河串起九国租界遗迹，夜游海河是最省力的看法。"
+   ],
+   [
+    "五大道 · 小洋楼街区",
+    "成都道、重庆道、大理道一带 230 余幢花园洋房，民园广场为中心，骑自行车或坐马车逛最合适。"
+   ],
+   [
+    "老城厢 · 市井天津",
+    "古文化街、鼓楼、大悲院与西北角早点摊：津味最浓的一片，泥人张、杨柳青年画与各种老字号小吃都在这里。"
+   ],
+   [
+    "蓟州山区 · 长城与古建",
+    "独乐寺、盘山、黄崖关、梨木台与九山顶：天津唯一的山，也是京津冀自驾最被低估的一段。"
+   ],
+   [
+    "滨海新区 · 海港与展馆",
+    "国家海洋博物馆、滨海图书馆、泰达航母主题公园与大沽口炮台：新建筑与近代海防史同框。"
+   ]
+  ],
+  "capLabel": "中心城区"
+ },
+ "cities": [
+  {
+   "id": "heping",
+   "name": "和平 · 五大道",
+   "lat": 39.10901,
+   "lng": 117.21529,
+   "role": "洋楼核心",
+   "desc": "五大道小洋楼群、民园广场、瓷房子、西开教堂与解放北路金融街：天津近代建筑的精华都在这一片，适合步行与骑行。",
+   "spots": [
+    "wudadao",
+    "minyuan",
+    "cichengzi",
+    "xikai",
+    "jiefangbei",
+    "jinyuan",
+    "lishunda",
+    "jingyuan",
+    "xianong",
+    "zhangxueliang"
+   ],
+   "cap": true
+  },
+  {
+   "id": "nankai",
+   "name": "南开 · 老城厢",
+   "lat": 39.14109,
+   "lng": 117.17836,
+   "role": "市井天津",
+   "desc": "古文化街、鼓楼、天津之眼、大悲院、南开大学与西北角早点：津味最浓的一片，早晨来吃早点是正确打开方式。",
+   "spots": [
+    "guloutj",
+    "guwenhua",
+    "tianjin_eye",
+    "dabeiyuan",
+    "xibeijiao",
+    "nankaiuniv"
+   ]
+  },
+  {
+   "id": "hebei",
+   "name": "河北 · 海河北岸",
+   "lat": 39.13905,
+   "lng": 117.20231,
+   "role": "租界与名人故居",
+   "desc": "意式风情区、望海楼教堂、梁启超与曹禺故居、静园与张学良故居：近代名人在天津的居所密集分布在海河两岸。",
+   "spots": [
+    "yifengqu",
+    "wanghailou",
+    "liangqichao",
+    "haihe"
+   ]
+  },
+  {
+   "id": "hexi",
+   "name": "河西 · 文化中心",
+   "lat": 39.09098,
+   "lng": 117.22628,
+   "role": "展馆与新地标",
+   "desc": "天津博物馆、美术馆、自然博物馆、大剧院与周邓纪念馆：四馆一场集中，是天津最新的一片文化区，适合半天连看。",
+   "spots": [
+    "zhoungguan",
+    "tianjinbowuguan",
+    "ziranbowuguan"
+   ]
+  },
+  {
+   "id": "binhai",
+   "name": "滨海新区 · 海港",
+   "lat": 38.99087,
+   "lng": 117.70626,
+   "role": "海洋与近代海防",
+   "desc": "国家海洋博物馆、滨海图书馆、泰达航母主题公园、大沽口炮台与东疆港沙滩：新建筑与海防史同框，距市区约 1 小时。",
+   "spots": [
+    "haiyangbowuguan",
+    "binhailibrary",
+    "teda",
+    "dagukou",
+    "dongjiang"
+   ]
+  },
+  {
+   "id": "jizhou",
+   "name": "蓟州 · 山水古建",
+   "lat": 40.04843,
+   "lng": 117.41469,
+   "role": "独乐寺与盘山",
+   "desc": "独乐寺、盘山、黄崖关长城、梨木台、九龙山与九山顶：天津唯一的山区，辽代木构、乾隆名山与明代长城都在此。",
+   "spots": [
+    "dulesi",
+    "panshan",
+    "huangyaguan",
+    "limutai",
+    "jiushanding",
+    "jiulongshan",
+    "jizhougucheng"
+   ]
+  },
+  {
+   "id": "xiqing",
+   "name": "西青 · 杨柳青",
+   "lat": 39.14102,
+   "lng": 117.01417,
+   "role": "年画与大院",
+   "desc": "石家大院、杨柳青年画馆、精武门·中华武林园与水高庄园：京杭运河畔的商镇旧貌与国家级非遗年画产地。",
+   "spots": [
+    "shijiayuan",
+    "nianhuaguan",
+    "jingwumen"
+   ]
+  },
+  {
+   "id": "wuqing",
+   "name": "武清 · 京东门户",
+   "lat": 39.38121,
+   "lng": 117.03629,
+   "role": "购物与湿地",
+   "desc": "佛罗伦萨小镇、南湖绿博园与津溪桃源：京津之间的中转地，适合从北京方向进天津时顺路停留半天。",
+   "spots": [
+    "folunsa",
+    "nanhu"
+   ]
+  },
+  {
+   "id": "ninghe",
+   "name": "宝坻宁河 · 潮白河",
+   "lat": 39.30096,
+   "lng": 117.65619,
+   "role": "湿地观鸟",
+   "desc": "七里海湿地与潮白河国家湿地公园：华北最大的古泻湖湿地之一，芦苇荡与候鸟迁徙，游客极少。",
+   "spots": [
+    "qilihai",
+    "chaobaihe"
+   ]
+  }
+ ],
+ "spots": [
+  {
+   "id": "wudadao",
+   "name": "五大道历史文化街区",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "heping",
+   "desc": "成都道、重庆道、大理道、睦南道与马场道五条街的合称：230 余幢英法风格花园洋房，多为 1920–30 年代下野政客与富商所建，民园广场是中心。",
+   "img": "assets/images/tj_wudadao.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "key": true,
+   "lat": 39.10901,
+   "lng": 117.21529
+  },
+  {
+   "id": "minyuan",
+   "name": "民园广场 · 民园大楼",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "heping",
+   "desc": "原英租界体育场改建的开放式广场：罗马柱廊与下沉草坪，晚上有灯光与街头艺人，是五大道最舒服的歇脚点。",
+   "img": "assets/images/tj_minyuan.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 39.10951,
+   "lng": 117.21479
+  },
+  {
+   "id": "cichengzi",
+   "name": "瓷房子",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "heping",
+   "desc": "赤峰道上把 7 亿片古瓷片、水晶与汉白玉石雕贴满整幢法式洋楼的私人收藏馆：审美极具争议，但作为「奇观建筑」值得一看外观。",
+   "img": "assets/images/tj_cichengzi.jpg",
+   "ticket": "50 元",
+   "season": "全年",
+   "lat": 39.11502,
+   "lng": 117.21229
+  },
+  {
+   "id": "xikai",
+   "name": "西开教堂",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "heping",
+   "desc": "1917 年建成，天津最大的天主教堂，法国罗曼式三座穹顶：内部壁画与彩色玻璃保存完好，弥撒时段不对游客开放。",
+   "img": "assets/images/tj_xikai.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 39.12503,
+   "lng": 117.20531
+  },
+  {
+   "id": "jiefangbei",
+   "name": "解放北路金融街",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "heping",
+   "desc": "旧时的「东方华尔街」：49 家银行与洋行的历史建筑沿路排开，横滨正金银行、汇丰银行与利顺德大饭店（1863 年）都在，晚上灯光极佳。",
+   "img": "assets/images/tj_jiefangbei.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "key": true,
+   "lat": 39.12602,
+   "lng": 117.2113
+  },
+  {
+   "id": "jinyuan",
+   "name": "津湾广场 · 解放桥",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "heping",
+   "desc": "海河边的欧式建筑群与百年开启桥：解放桥是 1927 年法国设计的立转式钢桥，重大节日会开启；夜里从对岸拍津湾全景是天津最经典机位。",
+   "img": "assets/images/tj_jinyuan.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 39.13002,
+   "lng": 117.21329
+  },
+  {
+   "id": "lishunda",
+   "name": "利顺德大饭店博物馆",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "heping",
+   "desc": "1863 年创建，中国第一家涉外饭店：孙中山、末代皇帝溥仪、卓别林都住过，馆内 3000 余件文物与老电梯、老账簿构成一部近代史。",
+   "img": "assets/images/tj_lishunda.jpg",
+   "ticket": "30 元（含参观）",
+   "season": "全年",
+   "lat": 39.12853,
+   "lng": 117.2093
+  },
+  {
+   "id": "jingyuan",
+   "name": "静园 · 溥仪旧居",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "heping",
+   "desc": "末代皇帝溥仪 1929–1931 年在天津的居所，西班牙式洋楼：复原了溥仪与婉容的居室，展览讲清了他在天津三年的政治活动。",
+   "img": "assets/images/tj_jingyuan.jpg",
+   "ticket": "20 元",
+   "season": "全年，周一闭馆",
+   "lat": 39.12405,
+   "lng": 117.19632
+  },
+  {
+   "id": "xianong",
+   "name": "先农大院",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "heping",
+   "desc": "1920 年代英国先农公司建的里弄住宅区，现为餐厅与小店聚落：红砖拱廊与庭院保存完好，是五大道最安静的一处院子。",
+   "img": "assets/images/tj_xianong.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 39.11101,
+   "lng": 117.21729
+  },
+  {
+   "id": "guloutj",
+   "name": "天津鼓楼 · 老城厢",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "nankai",
+   "desc": "明代天津卫三座城门之一，2001 年重建：四面牌楼写着「镇东」「安西」「定南」「拱北」，周边商业街已改造，但仍是老城中心坐标。",
+   "img": "assets/images/tj_guloutj.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 39.14109,
+   "lng": 117.17836
+  },
+  {
+   "id": "guwenhua",
+   "name": "古文化街",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "nankai",
+   "desc": "以天后宫为中心的仿清商业街：泥人张、杨柳青年画、风筝魏与各种津味小吃集中，天后宫（1326 年）是天津城市起源的标志。",
+   "img": "assets/images/tj_guwenhua.jpg",
+   "ticket": "免费，天后宫 10 元",
+   "season": "全年",
+   "key": true,
+   "lat": 39.14608,
+   "lng": 117.18335
+  },
+  {
+   "id": "tianjin_eye",
+   "name": "天津之眼摩天轮",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "nankai",
+   "desc": "建在永乐桥上的全球唯一桥上摩天轮，直径 110 米：转一圈 30 分钟，夜间亮灯后与海河灯光带同框，需网上提前购票。",
+   "img": "assets/images/tj_tianjin_eye.jpg",
+   "ticket": "70 元",
+   "season": "全年",
+   "key": true,
+   "lat": 39.1501,
+   "lng": 117.17836
+  },
+  {
+   "id": "dabeiyuan",
+   "name": "大悲禅院",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "nankai",
+   "desc": "天津市区最大的佛教寺院，始建于清初：玄奘法师纪念堂曾供奉其灵骨，天王殿与大雄宝殿为清代风格，香火旺盛。",
+   "img": "assets/images/tj_dabeiyuan.jpg",
+   "ticket": "5 元",
+   "season": "全年",
+   "lat": 39.15609,
+   "lng": 117.18435
+  },
+  {
+   "id": "xibeijiao",
+   "name": "西北角早点街",
+   "cat": "food",
+   "catName": "美食",
+   "city": "nankai",
+   "desc": "天津早点密度最高的一条街：锅巴菜、老豆腐、煎饼果子、卷圈、茶鸡蛋与豆浆从早五点排到十点，本地人与游客混排。",
+   "img": "assets/images/tj_xibeijiao.jpg",
+   "ticket": "人均 10–20 元",
+   "season": "全年",
+   "key": true,
+   "lat": 39.15111,
+   "lng": 117.17137
+  },
+  {
+   "id": "nankaiuniv",
+   "name": "南开大学 · 天津大学",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "nankai",
+   "desc": "两所百年名校相邻：南开马蹄湖与大中路、北洋园校区的天津大学主楼，秋天银杏大道是天津校园最好看的两段。",
+   "img": "assets/images/tj_nankaiuniv.jpg",
+   "ticket": "免费",
+   "season": "全年，10–11 月银杏",
+   "free": true,
+   "lat": 39.10308,
+   "lng": 117.17037
+  },
+  {
+   "id": "zhoungguan",
+   "name": "周恩来邓颖超纪念馆",
+   "cat": "museum",
+   "catName": "博物馆",
+   "city": "hexi",
+   "desc": "水上公园旁的国家级纪念馆：复原了中南海西花厅，展出两人往来书信与生活遗物，展览叙事克制而有分量。",
+   "img": "assets/images/tj_zhoungguan.jpg",
+   "ticket": "免费",
+   "season": "全年，周一闭馆",
+   "free": true,
+   "lat": 39.09604,
+   "lng": 117.18933
+  },
+  {
+   "id": "tianjinbowuguan",
+   "name": "天津博物馆",
+   "cat": "museum",
+   "catName": "博物馆",
+   "city": "hexi",
+   "desc": "馆藏 20 余万件，镇馆三宝是《雪景寒林图》（范宽）、太保鼎与清乾隆珐琅彩芍药雉鸡纹玉壶春瓶：新馆建筑本身像一只展翅天鹅。",
+   "img": "assets/images/tj_tianjinbowuguan.jpg",
+   "ticket": "免费",
+   "season": "全年，周一闭馆",
+   "free": true,
+   "key": true,
+   "lat": 39.09098,
+   "lng": 117.22628
+  },
+  {
+   "id": "ziranbowuguan",
+   "name": "天津自然博物馆",
+   "cat": "museum",
+   "catName": "博物馆",
+   "city": "hexi",
+   "desc": "中国北方最大的自然博物馆之一，恐龙化石厅与古哺乳动物厅是重点：肯尼斯标本与「中华龙鸟」复制品值得一看，亲子首选。",
+   "img": "assets/images/tj_ziranbowuguan.jpg",
+   "ticket": "免费",
+   "season": "全年，周一闭馆",
+   "free": true,
+   "lat": 39.09149,
+   "lng": 117.22128
+  },
+  {
+   "id": "yifengqu",
+   "name": "意式风情区",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "hebei",
+   "desc": "原意大利租界，200 余幢地中海风格建筑保存完整：马可波罗广场、梁启超与曹禺故居在区内，晚上餐厅与酒吧最热闹。",
+   "img": "assets/images/tj_yifengqu.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "key": true,
+   "lat": 39.13604,
+   "lng": 117.20231
+  },
+  {
+   "id": "wanghailou",
+   "name": "望海楼教堂",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "hebei",
+   "desc": "1869 年建成，1870 年「天津教案」中被焚、后重建：哥特式砖木结构，是中国近代史的重要现场，就在海河边。",
+   "img": "assets/images/tj_wanghailou.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 39.14806,
+   "lng": 117.19632
+  },
+  {
+   "id": "liangqichao",
+   "name": "梁启超纪念馆",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "hebei",
+   "desc": "意租界西马路的梁启超旧居与「饮冰室」书斋：复原了他 1915–1929 年在天津的写作与政治生活环境，展览做得扎实。",
+   "img": "assets/images/tj_liangqichao.jpg",
+   "ticket": "10 元",
+   "season": "全年，周一闭馆",
+   "lat": 39.13705,
+   "lng": 117.19982
+  },
+  {
+   "id": "zhangxueliang",
+   "name": "张学良故居博物馆",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "heping",
+   "desc": "赤峰道上的三层洋楼，张学良与赵四小姐 1925–1931 年在津居所：按原貌复原 30 余间房，配真人蜡像与情景演出。",
+   "img": "assets/images/tj_zhangxueliang.jpg",
+   "ticket": "60 元",
+   "season": "全年",
+   "lat": 39.12203,
+   "lng": 117.2083
+  },
+  {
+   "id": "haihe",
+   "name": "海河游船 · 夜景",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "hebei",
+   "desc": "天津站码头上船，40 分钟穿过多座风格各异的海河桥与两岸灯光带：从水上一次看完天津近代建筑群，性价比高于逐个走。",
+   "img": "assets/images/tj_haihe.jpg",
+   "ticket": "80–100 元",
+   "season": "全年（冬季停运）",
+   "key": true,
+   "lat": 39.13403,
+   "lng": 117.2113
+  },
+  {
+   "id": "dulesi",
+   "name": "独乐寺",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "jizhou",
+   "desc": "辽代 984 年重建，观音阁是中国现存最古老的木结构楼阁，全楼不用一根钉子：阁内 16 米高的泥塑观音是中国最大古代泥塑之一，梁思成曾多次测绘。",
+   "img": "assets/images/tj_dulesi.jpg",
+   "ticket": "37 元",
+   "season": "全年",
+   "level": "全国重点文保",
+   "key": true,
+   "lat": 40.04843,
+   "lng": 117.41469
+  },
+  {
+   "id": "panshan",
+   "name": "盘山风景名胜区",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "jizhou",
+   "desc": "乾隆 32 次登临并说「早知有盘山，何必下江南」：三盘（下盘水、中盘石、上盘松）景观分层，主峰挂月峰 864 米，索道可省大半爬升。",
+   "img": "assets/images/tj_panshan.jpg",
+   "diff": 2,
+   "ticket": "100 元（索道另收）",
+   "season": "4–11 月",
+   "key": true,
+   "lat": 40.08925,
+   "lng": 117.2634
+  },
+  {
+   "id": "huangyaguan",
+   "name": "黄崖关长城",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "jizhou",
+   "desc": "明代蓟镇总兵戚继光改建的长城精华段：八卦城布局的关城、水关与敌楼形式最多样，被称为「万里长城缩影」，每年有国际马拉松。",
+   "img": "assets/images/tj_huangyaguan.jpg",
+   "ticket": "65 元",
+   "season": "4–10 月",
+   "level": "世界遗产（长城）",
+   "key": true,
+   "lat": 40.22445,
+   "lng": 117.41871
+  },
+  {
+   "id": "limutai",
+   "name": "梨木台风景区",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "jizhou",
+   "desc": "蓟州最深处的峡谷森林，「天津的神农架」：石英岩峰林、瀑布与原始次生林，秋天红叶密度极高，步道沿溪而上较为平缓。",
+   "img": "assets/images/tj_limutai.jpg",
+   "diff": 2,
+   "ticket": "70 元",
+   "season": "5–10 月",
+   "lat": 40.24118,
+   "lng": 117.53638
+  },
+  {
+   "id": "jiushanding",
+   "name": "九山顶自然风景区",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "jizhou",
+   "desc": "天津最高峰（1078.5 米）：玻璃栈道悬于山脊，可看燕山层峦，云雾天有云海，秋季红叶与春季山花是两个高峰。",
+   "img": "assets/images/tj_jiushanding.jpg",
+   "elev": 1078,
+   "diff": 3,
+   "ticket": "60 元",
+   "season": "5–10 月",
+   "lat": 40.26133,
+   "lng": 117.48657
+  },
+  {
+   "id": "jiulongshan",
+   "name": "九龙山国家森林公园",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "jizhou",
+   "desc": "蓟州城南的森林保护区，九条山脊如九龙汇聚：步道成熟、游客少，适合半日轻徒步，可与独乐寺串成一天。",
+   "img": "assets/images/tj_jiulongshan.jpg",
+   "diff": 1,
+   "ticket": "45 元",
+   "season": "4–11 月",
+   "lat": 40.10141,
+   "lng": 117.44666
+  },
+  {
+   "id": "jizhougucheng",
+   "name": "蓟州古城 · 白塔寺",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "jizhou",
+   "desc": "独乐寺周边的老街区：白塔寺辽代白塔造型独特（亭阁式与密檐式合体），渔阳古街与武定街还保留着老县城的尺度。",
+   "img": "assets/images/tj_jizhougucheng.jpg",
+   "ticket": "白塔寺 10 元",
+   "season": "全年",
+   "lat": 40.04643,
+   "lng": 117.41169
+  },
+  {
+   "id": "haiyangbowuguan",
+   "name": "国家海洋博物馆",
+   "cat": "museum",
+   "catName": "博物馆",
+   "city": "binhai",
+   "desc": "中国唯一的国家级综合性海洋博物馆，建筑像跃出水面的鱼群：古海洋生物化石、鲸骨标本与深海装备展陈水平很高，需提前预约。",
+   "img": "assets/images/tj_haiyangbowuguan.jpg",
+   "ticket": "免费",
+   "season": "全年，周一闭馆",
+   "free": true,
+   "key": true,
+   "lat": 38.99092,
+   "lng": 117.7563
+  },
+  {
+   "id": "binhailibrary",
+   "name": "滨海图书馆",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "binhai",
+   "desc": "MVRDV 设计的「滨海之眼」：巨型球体被层层白色书山包裹，是全球被拍摄最多的图书馆之一，实际藏书在上层书库。",
+   "img": "assets/images/tj_binhailibrary.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 38.99086,
+   "lng": 117.69624
+  },
+  {
+   "id": "teda",
+   "name": "泰达航母主题公园",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "binhai",
+   "desc": "以退役「基辅号」航母为主体的军事主题公园：可进入舰内看机库、舱室与作战指挥室，另有实景海战表演与潜艇。",
+   "img": "assets/images/tj_teda.jpg",
+   "ticket": "168 元",
+   "season": "全年",
+   "key": true,
+   "lat": 38.99591,
+   "lng": 117.7363
+  },
+  {
+   "id": "dagukou",
+   "name": "大沽口炮台遗址",
+   "cat": "museum",
+   "catName": "博物馆",
+   "city": "binhai",
+   "desc": "1858–1900 年四次大沽口保卫战的发生地，「海门古塞」：现存炮台、铁钟与博物馆，是理解中国近代海防史的现场。",
+   "img": "assets/images/tj_dagukou.jpg",
+   "ticket": "30 元",
+   "season": "全年",
+   "lat": 38.95076,
+   "lng": 117.65614
+  },
+  {
+   "id": "dongjiang",
+   "name": "东疆港沙滩公园",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "binhai",
+   "desc": "人工填海造出的 2 公里沙滩，京津最近的看海处：水质一般但适合带孩子玩沙，旁边是东疆湾观景平台与国际邮轮母港。",
+   "img": "assets/images/tj_dongjiang.jpg",
+   "ticket": "50 元（夏季）",
+   "season": "6–9 月",
+   "lat": 39.0309,
+   "lng": 117.80623
+  },
+  {
+   "id": "shijiayuan",
+   "name": "石家大院",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "xiqing",
+   "desc": "清代津门八大家之一石万程家族的宅院，「华北第一宅」：12 个院落、278 间房，砖雕、木雕与戏楼保存极好，是杨柳青最值得一看的建筑。",
+   "img": "assets/images/tj_shijiayuan.jpg",
+   "ticket": "27 元",
+   "season": "全年",
+   "key": true,
+   "lat": 39.14102,
+   "lng": 117.01417
+  },
+  {
+   "id": "nianhuaguan",
+   "name": "杨柳青年画馆",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "xiqing",
+   "desc": "国家级非遗杨柳青木版年画的产地与展馆：半印半画工艺（木版套印后手工开脸）是它区别于其他年画的关键，可看现场绘制。",
+   "img": "assets/images/tj_nianhuaguan.jpg",
+   "ticket": "20 元",
+   "season": "全年",
+   "lat": 39.14302,
+   "lng": 117.01618
+  },
+  {
+   "id": "jingwumen",
+   "name": "精武门 · 中华武林园",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "xiqing",
+   "desc": "霍元甲故乡西青精武镇建的武术文化园：霍元甲陵园、纪念馆与演武场，每天有武术表演，是了解津门武术传统的窗口。",
+   "img": "assets/images/tj_jingwumen.jpg",
+   "ticket": "40 元",
+   "season": "全年",
+   "lat": 39.09115,
+   "lng": 117.09642
+  },
+  {
+   "id": "folunsa",
+   "name": "佛罗伦萨小镇",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "wuqing",
+   "desc": "京津之间的意式奥特莱斯：仿意大利小镇布局，建筑与运河造景比购物本身更值得拍，周末客流极大。",
+   "img": "assets/images/tj_folunsa.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 39.38121,
+   "lng": 117.03629
+  },
+  {
+   "id": "nanhu",
+   "name": "南湖绿博园",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "wuqing",
+   "desc": "2015 年全国绿博会原址，14 平方公里湖面与各省园林展园：免费开放，环湖骑行道与大片草坪适合野餐，人少清净。",
+   "img": "assets/images/tj_nanhu.jpg",
+   "ticket": "免费",
+   "season": "4–10 月",
+   "free": true,
+   "lat": 39.41131,
+   "lng": 117.08644
+  },
+  {
+   "id": "qilihai",
+   "name": "七里海湿地",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "ninghe",
+   "desc": "华北最大的古泻湖湿地，世界三大古海岸之一：芦苇荡面积 40 余平方公里，候鸟迁徙季数十万只水鸟过境，现为保护区、部分区域不开放。",
+   "img": "assets/images/tj_qilihai.jpg",
+   "ticket": "保护区（外围观鸟）",
+   "season": "4–5 月、9–11 月",
+   "lat": 39.30096,
+   "lng": 117.65619
+  },
+  {
+   "id": "chaobaihe",
+   "name": "潮白河国家湿地公园",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "ninghe",
+   "desc": "沿潮白河两岸建成的免费湿地公园：大片林地、草坪与河岸步道，是宝坻与京津周边最常见的露营与骑行目的地。",
+   "img": "assets/images/tj_chaobaihe.jpg",
+   "ticket": "免费",
+   "season": "4–10 月",
+   "free": true,
+   "lat": 39.45129,
+   "lng": 117.35653
+  }
+ ],
+ "foods": [
+  {
+   "name": "煎饼果子",
+   "city": "nankai",
+   "cityName": "南开 · 老城厢",
+   "desc": "绿豆面摊成薄饼、磕一个鸡蛋，裹上酥脆的果子（油条）或果篦儿：只刷面酱、腐乳与葱花，加生菜火腿的都不是天津做法。",
+   "img": "assets/images/fd_tj_01.jpg"
+  },
+  {
+   "name": "锅巴菜（嘎巴菜）",
+   "city": "nankai",
+   "cityName": "南开 · 老城厢",
+   "desc": "绿豆面煎饼切条，浇上十几种香料熬的卤汁，配麻酱、腐乳、辣油与香菜：天津独有的早餐，别处吃不到。",
+   "img": "assets/images/fd_tj_02.jpg"
+  },
+  {
+   "name": "狗不理包子",
+   "city": "heping",
+   "cityName": "和平 · 五大道",
+   "desc": "1858 年创号的十八个褶灌汤包：本地人评价分化，但作为天津符号值得一试，总店在山东路。",
+   "img": "assets/images/fd_tj_03.jpg"
+  },
+  {
+   "name": "耳朵眼炸糕",
+   "city": "nankai",
+   "cityName": "南开 · 老城厢",
+   "desc": "清真老店，糯米皮包红小豆馅炸到金黄起壳：外脆内糯、豆沙不齁，趁热吃，凉了口感减半。",
+   "img": "assets/images/fd_tj_04.jpg"
+  },
+  {
+   "name": "桂发祥十八街麻花",
+   "city": "hexi",
+   "cityName": "河西 · 文化中心",
+   "desc": "什锦夹馅大麻花，中间夹冰糖、桂花、青红丝与核桃仁：可放数月不软，是天津最标准的伴手礼。",
+   "img": "assets/images/fd_tj_05.jpg"
+  },
+  {
+   "name": "罾蹦鲤鱼",
+   "city": "nankai",
+   "cityName": "南开 · 老城厢",
+   "desc": "整条鲤鱼带鳞下油锅炸到骨架酥透，再浇糖醋汁：上桌时鱼仍保持跃起的形状，鳞可食，是津菜代表之一。",
+   "img": "assets/images/fd_tj_06.jpg"
+  },
+  {
+   "name": "独面筋",
+   "city": "nankai",
+   "cityName": "南开 · 老城厢",
+   "desc": "静海独流镇产的面筋切成薄片，与木耳、笋片同炒或做烩菜：口感韧而有孔吸汁，是津菜里最朴素的功夫菜。",
+   "img": "assets/images/fd_tj_07.jpg"
+  },
+  {
+   "name": "四大扒",
+   "city": "heping",
+   "cityName": "和平 · 五大道",
+   "desc": "津菜宴席的统称——扒整鸡、扒整鸭、扒肘子、扒方肉：讲究「扒」的火功，汤汁浓而不腻，老字号宴席才吃得到。",
+   "img": "assets/images/fd_tj_08.jpg"
+  },
+  {
+   "name": "茶汤 · 面茶",
+   "city": "nankai",
+   "cityName": "南开 · 老城厢",
+   "desc": "龙嘴大铜壶冲出的糜子面茶，撒红糖、桂花与青红丝：街头表演性质强，冬天一碗暖手又暖胃。",
+   "img": "assets/images/fd_tj_09.jpg"
+  },
+  {
+   "name": "北塘海鲜",
+   "city": "binhai",
+   "cityName": "滨海新区 · 海港",
+   "desc": "北塘渔村的渤海湾海鲜：皮皮虾、梭子蟹、海肠与铁板蛏子，4–5 月与 9–10 月是两个旺季，渔家院按当天渔获定价。",
+   "img": "assets/images/fd_tj_10.jpg"
+  },
+  {
+   "name": "贴饽饽熬小鱼",
+   "city": "binhai",
+   "cityName": "滨海新区 · 海港",
+   "desc": "农家铁锅一面贴玉米饼、一面熬河海小鱼：饼底焦脆吸足鱼汤，是天津郊县最朴实的一餐，蓟州与宝坻农家院常见。",
+   "img": "assets/images/fd_tj_11.jpg"
+  },
+  {
+   "name": "杨柳青酥糖 · 沙窝萝卜",
+   "city": "xiqing",
+   "cityName": "西青 · 杨柳青",
+   "desc": "杨柳青酥糖层层起酥、入口即化；西青沙窝萝卜脆甜多汁，天津人冬天当水果生吃，「赛鸭梨」不是玩笑。",
+   "img": "assets/images/fd_tj_12.jpg"
+  },
+  {
+   "name": "老豆腐与卷圈",
+   "city": "nankai",
+   "cityName": "南开 · 老城厢",
+   "desc": "老豆腐浇卤汁配麻酱、辣椒油与韭菜花；卷圈是豆皮裹豆芽菜、粉丝与香菜炸成，两样是西北角早点的标配组合。",
+   "img": "assets/images/fd_tj_13.jpg"
+  }
+ ],
+ "loops": [
+  {
+   "name": "海河两岸 · 近代建筑步行线",
+   "days": "1–2 天",
+   "km": "步行约 10 km",
+   "desc": "天津最核心的一天：五大道小洋楼 → 瓷房子 → 西开教堂 → 解放北路金融街 → 津湾广场 → 意式风情区 → 古文化街 → 天津之眼夜景。",
+   "path": "民园广场 → 五大道 → 瓷房子 → 西开教堂 → 解放北路 → 津湾广场 → 意式风情区 → 望海楼 → 古文化街 → 天津之眼",
+   "note": "全程地铁+步行即可；海河游船与天津之眼建议傍晚，灯光比白天好；西北角早点要早上 7 点前去，晚了排队久。",
+   "pts": [
+    [
+     39.10951,
+     117.21479,
+     "民园广场"
+    ],
+    [
+     39.10901,
+     117.21529,
+     "五大道"
+    ],
+    [
+     39.11502,
+     117.21229,
+     "瓷房子"
+    ],
+    [
+     39.12503,
+     117.20531,
+     "西开教堂"
+    ],
+    [
+     39.12602,
+     117.2113,
+     "解放北路"
+    ],
+    [
+     39.13002,
+     117.21329,
+     "津湾广场"
+    ],
+    [
+     39.13604,
+     117.20231,
+     "意式风情区"
+    ],
+    [
+     39.14806,
+     117.19632,
+     "望海楼教堂"
+    ],
+    [
+     39.14608,
+     117.18335,
+     "古文化街"
+    ],
+    [
+     39.1501,
+     117.17836,
+     "天津之眼"
+    ]
+   ]
+  },
+  {
+   "name": "蓟州山水 · 长城古建环线",
+   "days": "2–3 天",
+   "km": "约 260 km",
+   "desc": "天津唯一的山区，也是京津冀最被低估的自驾段：独乐寺辽代木构 → 盘山 → 黄崖关长城 → 梨木台 → 九山顶，住蓟州一晚。",
+   "path": "市区 → 独乐寺 → 蓟州古城 → 盘山 → 黄崖关长城 → 梨木台 → 九山顶 → 九龙山 → 市区",
+   "note": "津蓟高速（S1）约 1.5 小时到蓟州；盘山与黄崖关各需大半天，梨木台与九山顶步道长，三天更从容；秋季周末房价翻倍。",
+   "pts": [
+    [
+     39.13104,
+     117.2063,
+     "天津"
+    ],
+    [
+     40.04843,
+     117.41469,
+     "独乐寺"
+    ],
+    [
+     40.04643,
+     117.41169,
+     "蓟州古城"
+    ],
+    [
+     40.08925,
+     117.2634,
+     "盘山"
+    ],
+    [
+     40.22445,
+     117.41871,
+     "黄崖关长城"
+    ],
+    [
+     40.24118,
+     117.53638,
+     "梨木台"
+    ],
+    [
+     40.26133,
+     117.48657,
+     "九山顶"
+    ],
+    [
+     40.10141,
+     117.44666,
+     "九龙山"
+    ],
+    [
+     39.13104,
+     117.2063,
+     "天津"
+    ]
+   ]
+  },
+  {
+   "name": "滨海新区 · 海洋与海防线",
+   "days": "1–2 天",
+   "km": "约 140 km",
+   "desc": "新建筑与近代海防史同框：国家海洋博物馆 → 滨海图书馆 → 泰达航母 → 大沽口炮台 → 东疆港沙滩，夏季可加北塘海鲜。",
+   "path": "市区 → 国家海洋博物馆 → 滨海图书馆 → 泰达航母主题公园 → 大沽口炮台 → 东疆港沙滩 → 北塘渔村 → 市区",
+   "note": "海洋博物馆需提前在官方公众号预约（周一闭馆）；滨海图书馆内禁止大声与商业拍摄；东疆港沙滩仅夏季开放。",
+   "pts": [
+    [
+     39.13104,
+     117.2063,
+     "天津"
+    ],
+    [
+     38.99092,
+     117.7563,
+     "国家海洋博物馆"
+    ],
+    [
+     38.99086,
+     117.69624,
+     "滨海图书馆"
+    ],
+    [
+     38.99591,
+     117.7363,
+     "泰达航母主题公园"
+    ],
+    [
+     38.95076,
+     117.65614,
+     "大沽口炮台"
+    ],
+    [
+     39.0309,
+     117.80623,
+     "东疆港沙滩"
+    ],
+    [
+     39.02089,
+     117.70626,
+     "北塘渔村"
+    ],
+    [
+     39.13104,
+     117.2063,
+     "天津"
+    ]
+   ]
+  },
+  {
+   "name": "天津全境 · 四日大环线",
+   "days": "4 天",
+   "km": "约 620 km",
+   "desc": "把洋楼、市井、运河古镇、山区长城与海港一次走完，是环中国渤海段（G228）在天津境内的完整衔接路线。",
+   "path": "市区(五大道+海河) → 古文化街 → 杨柳青(石家大院+年画) → 武清南湖 → 蓟州(独乐寺+盘山+黄崖关) → 滨海(海洋博物馆+航母) → 市区",
+   "note": "日均控制在 150 km 以内；杨柳青与武清在市区西/北，蓟州在北，滨海在东，按此顺序走回头路最少。",
+   "pts": [
+    [
+     39.13104,
+     117.2063,
+     "天津"
+    ],
+    [
+     39.10901,
+     117.21529,
+     "五大道"
+    ],
+    [
+     39.14608,
+     117.18335,
+     "古文化街"
+    ],
+    [
+     39.14102,
+     117.01417,
+     "石家大院"
+    ],
+    [
+     39.41131,
+     117.08644,
+     "南湖绿博园"
+    ],
+    [
+     40.04843,
+     117.41469,
+     "独乐寺"
+    ],
+    [
+     40.08925,
+     117.2634,
+     "盘山"
+    ],
+    [
+     40.22445,
+     117.41871,
+     "黄崖关长城"
+    ],
+    [
+     38.99092,
+     117.7563,
+     "国家海洋博物馆"
+    ],
+    [
+     38.99591,
+     117.7363,
+     "泰达航母主题公园"
+    ],
+    [
+     39.13104,
+     117.2063,
+     "天津"
+    ]
+   ]
+  }
+ ],
+ "tips": [
+  [
+   "早点",
+   "天津是「早点城市」：煎饼果子、锅巴菜、老豆腐、卷圈、茶鸡蛋集中在西北角与南市一带，多数摊位卖完就收，7:30 前最稳。"
+  ],
+  [
+   "季节",
+   "最佳是 4–5 月与 9–10 月；蓟州山区 10 月中下旬红叶最好，冬季海河游船停运、盘山索道可能因风关闭。"
+  ],
+  [
+   "限行",
+   "工作日 7:00–19:00 尾号限行（与北京同步轮换），外地车需办通行证且早晚高峰禁入外环线以内，出发前查当日政策。"
+  ],
+  [
+   "自驾",
+   "市区海河两岸单行道与桥多，导航优先；到蓟州走津蓟高速 S1、到滨海走津滨高速，均约 1–1.5 小时，节假日返程拥堵。"
+  ],
+  [
+   "预约",
+   "天津博物馆、自然博物馆、海洋博物馆、周邓纪念馆均需实名预约且周一闭馆；利顺德博物馆与张学良故居现场购票即可。"
+  ],
+  [
+   "避坑",
+   "古文化街与南市食品街小吃价格偏高、口味一般，本地人更推荐西北角与居民区老店；狗不理包子争议大，可按符号打卡心态处理。"
+  ],
+  [
+   "住宿",
+   "市区住和平区（五大道/滨江道）最方便；蓟州线住盘山脚下或蓟州古城民宿；滨海线住于家堡或响螺湾，靠展馆与地铁。"
+  ]
+ ],
+ "features": {
+  "intro": "天津是九河下梢、渤海之滨的近代名城：海河两岸矗立着上千栋西洋建筑，五大道浓缩了百年风云，蓟州山水藏着千年古刹与长城雄关，相声茶馆里的笑声和煎饼果子的香气，构成了这座城市独有的烟火底色。",
+  "groups": [
+   {
+    "name": "海河近代建筑",
+    "icon": "楼",
+    "color": "#8B6914",
+    "intro": "天津现存近代历史风貌建筑逾千栋，集中在解放北路、意式风情区等区域，是中国近代建筑博物馆。",
+    "items": [
+     {
+      "name": "解放北路金融街",
+      "tag": "东方华尔街 · 百年银行群",
+      "spot": "jiefangbei",
+      "text": "解放北路全长约 2300 米，清末至民国时期汇集了汇丰、花旗、横滨正金等中外银行数十家，被誉为「东方华尔街」；沿街保留有哥特式、罗马式、巴洛克式等风格的近代建筑 50 余栋，是全国重点文物保护单位。"
+     },
+     {
+      "name": "利顺德大饭店",
+      "tag": "1863 年开业 · 中国最早涉外饭店",
+      "spot": "lishunda",
+      "text": "利顺德大饭店始建于 1863 年，是中国近代第一家外商经营的大饭店，孙中山、周恩来、溥仪等均曾下榻于此；现辟为博物馆，展出客房原貌与历史文物，见证了天津开埠以来的百年风云。"
+     },
+     {
+      "name": "意式风情区",
+      "tag": "亚洲唯一意式建筑群 · 200 余栋",
+      "spot": "yifengqu",
+      "text": "意式风情区占地约 28 公顷，保留了 200 余栋意大利风格的小洋楼，是亚洲唯一的意式建筑群落；梁启超饮冰室、曹禺故居等名人旧居散布其间，马可·波罗广场上的科林斯石柱仍为原物。"
+     }
+    ]
+   },
+   {
+    "name": "五大道万国建筑",
+    "icon": "宅",
+    "color": "#A0522D",
+    "intro": "五大道汇聚 2000 多栋花园洋房，涵盖英法意德西等国建筑风格，被称为「万国建筑博览苑」。",
+    "items": [
+     {
+      "name": "五大道历史文化街区",
+      "tag": "2000 栋洋房 · 9 国建筑风格",
+      "spot": "wudadao",
+      "text": "五大道由马场道、睦南道等五条并列道路组成，总面积 1.28 平方公里，保存有 2000 余栋 20 世纪二三十年代的花园洋房，涵盖英、法、意、德、西班牙等 9 国建筑风格，是全国规模最大的近代建筑保护区。"
+     },
+     {
+      "name": "民园广场",
+      "tag": "1920 年建成 · 欧式体育场改造",
+      "spot": "minyuan",
+      "text": "民园广场原为民园体育场，1920 年由英国工程师设计建造，跑道周长 500 米，曾是远东最先进的综合性体育场之一；2014 年改造为开放式文化休闲广场，保留了欧式拱廊与看台轮廓，成为五大道的地标入口。"
+     },
+     {
+      "name": "瓷房子",
+      "tag": "7 亿片古瓷贴面 · 法式小楼",
+      "spot": "cichengzi",
+      "text": "瓷房子是一栋建于 1920 年代的法国折衷主义小楼，外墙镶嵌了 7 亿多片历代古瓷片、13000 多个古瓷瓶和 4000 余件古瓷器，覆盖面积超过 3000 平方米，被外媒称为「全球最奇特的建筑之一」。"
+     }
+    ]
+   },
+   {
+    "name": "曲艺津味",
+    "icon": "艺",
+    "color": "#CD5C5C",
+    "intro": "天津是相声的发源地和曲艺之乡，茶馆相声、京韵大鼓、天津时调代代相传，西北角的早点更是碳水天堂。",
+    "items": [
+     {
+      "name": "古文化街",
+      "tag": "天后宫 · 泥人张杨柳青",
+      "spot": "guwenhua",
+      "text": "古文化街全长 687 米，以元代天后宫为中心，汇集了泥人张彩塑、杨柳青年画、风筝魏等国家级非遗老字号；天后宫始建于元泰定三年（1326 年），是中国三大妈祖庙之一，也是天津城市发祥地。"
+     },
+     {
+      "name": "西北角早点街",
+      "tag": "锅巴菜煎饼果子 · 百年老味道",
+      "spot": "xibeijiao",
+      "text": "西北角聚集了数十家传承百年的早点铺，锅巴菜、煎饼果子、老豆腐、卷圈等天津传统小吃一应俱全；每天清晨排队长达百米，是本地人和游客体验「津味早餐」的首选地，日均客流量过万。"
+     },
+     {
+      "name": "杨柳青年画馆",
+      "tag": "始于明代 · 半印半绘非遗",
+      "spot": "nianhuaguan",
+      "text": "杨柳青年画始于明代、盛于清代乾隆年间，采用木版套印与手工彩绘相结合的「半印半绘」技法，题材涵盖仕女、娃娃、戏曲、吉祥图案等；2006 年列入首批国家级非物质文化遗产名录，年产量曾达百万张。"
+     }
+    ]
+   },
+   {
+    "name": "蓟州山水",
+    "icon": "山",
+    "color": "#2F6B4F",
+    "intro": "蓟州区拥有盘山、黄崖关长城、独乐寺等名胜，集千年古刹、万里长城与北方山水于一体，是天津的后花园。",
+    "items": [
+     {
+      "name": "独乐寺",
+      "tag": "辽代观音阁 · 984 年重建",
+      "spot": "dulesi",
+      "text": "独乐寺观音阁重建于辽统和二年（984 年），高 23 米、外观两层内部三层，是中国现存最古老的木结构楼阁式建筑；阁内十一面观音像高 16.08 米，为中国现存最大的古代泥塑佛像之一。"
+     },
+     {
+      "name": "盘山风景名胜区",
+      "tag": "京东第一山 · 乾隆 32 次登临",
+      "spot": "panshan",
+      "text": "盘山主峰挂月峰海拔 864 米，自汉代起即为名山，清乾隆皇帝一生 32 次登临并留下「早知有盘山，何必下江南」的诗句；现存寺庙遗址 20 余处、摩崖石刻数百处，是国家 5A 级旅游景区。"
+     },
+     {
+      "name": "黄崖关长城",
+      "tag": "42 公里 · 蓟北雄关",
+      "spot": "huangyaguan",
+      "text": "黄崖关长城全长约 42 公里，始建于北齐、明代大修，因东侧山崖在夕阳下呈金黄色而得名；关城设有八卦迷宫、凤凰楼等独特防御设施，每年举办国际马拉松赛事，赛道沿城墙蜿蜒而上。"
+     }
+    ]
+   },
+   {
+    "name": "滨海新貌",
+    "icon": "港",
+    "color": "#1C6EA4",
+    "intro": "天津港是世界十大港口之一，滨海新区的国家海洋博物馆、滨海图书馆等地标展现了这座城市的未来感。",
+    "items": [
+     {
+      "name": "国家海洋博物馆",
+      "tag": "海上故宫 · 展厅 2.3 万平方米",
+      "spot": "haiyangbowuguan",
+      "text": "国家海洋博物馆 2019 年开放，展厅面积约 2.3 万平方米，藏品超 5 万件，涵盖天文、地理、生物、航海等领域，被称为「海上故宫」；建筑造型如跃入海中的鱼群，由四幢跨水面建筑组成，总长 336 米。"
+     },
+     {
+      "name": "滨海图书馆",
+      "tag": "书山梯田 · 藏书 135 万册",
+      "spot": "binhailibrary",
+      "text": "滨海图书馆 2017 年开放，由荷兰 MVRDV 事务所设计，中庭「书山」由 34 层白色阶梯构成，视觉藏书量达 135 万册；球形报告厅直径 21 米嵌入书山之中，被《时代》杂志评为「2018 年全球最佳目的地」之一。"
+     },
+     {
+      "name": "大沽口炮台遗址",
+      "tag": "1816 年始建 · 近代海防要塞",
+      "spot": "dagukou",
+      "text": "大沽口炮台始建于明嘉靖年间、清道光十六年（1836 年）大规模重修，是近代中国北方最重要的海防要塞；1858 年至 1900 年间经历了四次外敌入侵战役，现存威字炮台基座与铁炮为全国重点文物保护单位。"
+     }
+    ]
+   }
+  ]
+ }
+};

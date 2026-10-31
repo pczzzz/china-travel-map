@@ -1,2 +1,1169 @@
 window.PROV_DATA = window.PROV_DATA || {};
-PROV_DATA.xinjiang = {"meta":{"id":"xinjiang","name":"新疆","en":"Xinjiang","capital":"乌鲁木齐","tagline":"三山夹两盆 · 一天四季的辽阔","geoTitle":"三山夹两盆，一天四季","geoSub":"先认清地形再排行程：北疆看草原与湖泊、东疆看火焰山与葡萄沟、南疆看古城与沙漠。","intro":["新疆占中国陆地面积的六分之一：北有阿尔泰山的森林草原，中有天山横贯，南有昆仑与塔克拉玛干。伊犁河谷的雪山草甸、喀什老城的市井烟火、吐鲁番的火焰与葡萄、独库公路一天四季的垂直景观，让新疆成为自驾者的终极目的地之一。","本页按 11 个地州市整理精选停靠点、地方代表味道与省内环线；带 ★ 的是重点停靠点，免费景点标「免费」；数据为整理版本（坐标 GCJ-02），门票与区间车价格随季节调整，出行前以景区与官方公告为准。"],"facts":[["面积","166.5 万 km²"],["常住人口","2598 万（2023 年末）"],["地级行政区","14 个（4 市 + 5 州 + 5 地区）"],["首府","乌鲁木齐"],["最高峰","托木尔峰 7443 m"],["最长公路景观带","独库公路 561 km"]],"regions":[["北疆 · 阿勒泰与伊犁","阿尔泰山与天山之间的草原森林带：喀纳斯湖湾、禾木村炊烟、赛里木湖蓝冰与伊犁花海，是摄影与自驾的黄金区。"],["东疆 · 吐鲁番与哈密","火焰山与葡萄沟并存的低洼盆地：艾丁湖 -154 m 为中国陆地最低点，坎儿井与瓜果是这里的千年名片。"],["南疆 · 环塔里木","塔克拉玛干四周的绿洲链：喀什老城、库车大峡谷、和田玉石与沙漠公路，人文厚度与荒漠尺度都到顶。"]]},"cities":[{"id":"urumqi","name":"乌鲁木齐","lat":43.82721,"lng":87.61985,"role":"首府 · 枢纽","desc":"亚心之都，进出新疆的总门户；博物馆看西域通史，大巴扎看市井，南山牧场看天山北坡第一片草原。","spots":["xjmus","bazaar","nanshan"],"cap":true},{"id":"changji","name":"昌吉","lat":44.01331,"lng":87.3071,"role":"天山北坡","desc":"首府近邻，天山天池即在其境内阜康；回民小吃街与江布拉克麦田是顺路加餐。","spots":["tianchi","jblk"]},{"id":"turpan","name":"吐鲁番","lat":42.95255,"lng":89.19184,"role":"火洲 · 绿洲","desc":"中国最热也最甜的盆地：火焰山、葡萄沟、坎儿井与交河故城，一天读完西域水利史。","spots":["karez","flame","jiaohe","grape"]},{"id":"hami","name":"哈密","lat":42.83452,"lng":93.5166,"role":"东大门","desc":"进疆第一站，哈密瓜故乡；巴里坤草原与古城是东天山下的凉快后花园。","spots":["barkol"]},{"id":"bayingolin","name":"巴音郭楞","lat":41.76551,"lng":86.14366,"role":"南疆枢纽","desc":"全国面积最大的地级行政区：博斯腾湖、巴音布鲁克九曲十八弯与轮台胡杨林都在境内。","spots":["bayinbulak","bosten","luntai"]},{"id":"aksu","name":"阿克苏","lat":41.16998,"lng":80.26517,"role":"龟兹故地","desc":"库车大峡谷与克孜尔千佛洞所在，古龟兹乐舞之乡；冰糖心苹果是秋天的暗号。","spots":["kuche","kizil"]},{"id":"kashgar","name":"喀什","lat":39.47023,"lng":75.99296,"role":"南疆核心","desc":"「不到喀什不算到新疆」：老城土巷、百年茶馆与周日大巴扎，帕米尔高原由此出发。","spots":["oldtown","idkah","karakul","panlong","khunjerab","tashkst"]},{"id":"hotan","name":"和田","lat":37.11166,"lng":79.92392,"role":"玉石之乡","desc":"玉龙喀什河畔的团城与玉巴扎，沙漠公路南端终点；玫瑰与地毯同样出名。","spots":["hetuan","yubar"]},{"id":"ili","name":"伊犁","lat":43.92225,"lng":81.32705,"role":"塞外江南","desc":"天山最美的河谷：那拉提空中草原、喀拉峻人体山、霍城薰衣草，6 月是花期顶点。","spots":["nalati","kalajun","lavender","qkst","xiata","lxj","dukuhw"]},{"id":"altay","name":"阿勒泰","lat":47.8493,"lng":88.14336,"role":"雪山牧歌","desc":"喀纳斯、禾木、五彩滩与可可托海所在，中国雪都；秋金黄、冬粉雪，四季皆景。","spots":["kanas","hemu","wucaitan","keketuohai","bhaba","sanwan"]},{"id":"bortala","name":"博尔塔拉","lat":44.90703,"lng":82.07729,"role":"西境湖光","desc":"赛里木湖与果子沟大桥所在，大西洋最后一滴眼泪；口岸城市博乐是补给点。","spots":["sayram","guozigou"]}],"spots":[{"id":"tianchi","name":"天山天池","cat":"scenery","catName":"景色","city":"changji","desc":"天山博格达峰北侧的高山冰碛湖，海拔 1910 m，云杉环抱、雪峰倒映；区间车约 40 分钟上山，环湖栈道 1 小时。","img":"assets/images/xj_tianchi.jpg","ticket":"155 元含区间车","season":"5–10 月，冬看蓝冰","level":"世界遗产 · 5A","key":true,"lat":43.88453,"lng":88.13313},{"id":"xjmus","name":"新疆维吾尔自治区博物馆","cat":"museum","catName":"博物馆","city":"urumqi","desc":"「楼兰美女」干尸与「五星出东方利中国」锦护臂的真身所在，西域通史一馆读完；免费但需预约。","img":"assets/images/xj_mus.jpg","season":"全年（周一闭馆）","free":true,"key":true,"lat":43.82321,"lng":87.58385},{"id":"bazaar","name":"国际大巴扎","cat":"culture","catName":"人文","city":"urumqi","desc":"世界规模最大的巴扎建筑群：干果、铜器、艾德莱斯绸与烤包子一条街，登上观光塔可俯瞰全城。","img":"assets/images/xj_bazaar.jpg","season":"全年","free":true,"lat":43.78924,"lng":87.63287},{"id":"nanshan","name":"南山牧场 · 西白杨沟","cat":"scenery","catName":"景色","city":"urumqi","desc":"天山北坡离首府最近的草原：云杉、毡房与骑马线路，夏季均温 20℃ 出头，半日即可往返。","img":"assets/images/xj_nanshan.jpg","ticket":"30 元","season":"5–9 月","lat":43.28463,"lng":87.4652},{"id":"karez","name":"坎儿井乐园","cat":"culture","catName":"人文","city":"turpan","desc":"与长城、运河并称的地下水利工程：暗渠、竖井与明渠三段结构在地下参观廊里一次看懂。","img":"assets/images/xj_karez.jpg","ticket":"40 元","season":"全年","lat":42.95054,"lng":89.19883},{"id":"flame","name":"火焰山","cat":"scenery","catName":"景色","city":"turpan","desc":"《西游记》名场面：赤红色砂岩在盛夏地表温度可达 70℃，巨型温度计是标配打卡点。","img":"assets/images/xj_flame.jpg","ticket":"40 元","season":"全年，7–8 月最热","lat":42.94143,"lng":89.52558},{"id":"jiaohe","name":"交河故城","cat":"culture","catName":"人文","city":"turpan","desc":"世界上最大最古老的生土建筑城市，车师前国与唐安西都护府旧址；黄昏光线最壮。","img":"assets/images/xj_jiaohe.jpg","ticket":"70 元","season":"4–10 月","level":"世界遗产","key":true,"lat":42.95364,"lng":89.06296},{"id":"grape","name":"葡萄沟","cat":"scenery","catName":"景色","city":"turpan","desc":"火焰山裂缝里的清凉绿洲：百年葡萄架长廊与晾房群，8 月葡萄熟时最甜。","img":"assets/images/xj_grape.jpg","ticket":"60 元","season":"6–9 月","lat":42.98452,"lng":89.22478},{"id":"barkol","name":"巴里坤草原","cat":"scenery","catName":"景色","city":"hami","desc":"东天山下的湿地草原：雪山、松林与哈萨克毡房同框，盛夏油菜花铺到山脚。","img":"assets/images/xj_barkol.jpg","season":"6–8 月","lat":43.60163,"lng":93.00148},{"id":"bayinbulak","name":"巴音布鲁克","cat":"scenery","catName":"景色","city":"bayingolin","desc":"中国第二大草原：开都河九曲十八弯的落日可拍出「九个太阳」，天鹅湖保护区同在内。","img":"assets/images/xj_bayin.jpg","ticket":"140 元含区间车","season":"5–9 月","key":true,"lat":42.85147,"lng":84.1529},{"id":"bosten","name":"博斯腾湖","cat":"scenery","catName":"景色","city":"bayingolin","desc":"中国最大的内陆淡水湖：芦苇荡、莲海与沙滩并存，大河口景区可乘船入湖。","img":"assets/images/xj_bosten.jpg","ticket":"45 元","season":"5–10 月","lat":42.00118,"lng":86.90241},{"id":"luntai","name":"轮台胡杨林","cat":"scenery","catName":"景色","city":"bayingolin","desc":"塔里木河畔 40 万亩胡杨：10 月中下旬满城尽带黄金甲，小火车穿林是经典机位。","img":"assets/images/xj_luntai.jpg","ticket":"45 元+小火车","season":"10 月中–11 月初","key":true,"lat":41.78132,"lng":84.2526},{"id":"kuche","name":"库车天山神秘大峡谷","cat":"scenery","catName":"景色","city":"aksu","desc":"红褐色岩壁夹出一线天光，谷内徒步约 3 km；雨后岩色最艳，正午光柱最佳。","img":"assets/images/xj_kuche.jpg","ticket":"40 元","season":"4–10 月","lat":42.41133,"lng":83.33326},{"id":"kizil","name":"克孜尔千佛洞","cat":"culture","catName":"人文","city":"aksu","desc":"比敦煌更早的龟兹佛教石窟：菱格本生故事画与券顶天相图是招牌，讲解必听。","img":"assets/images/xj_kizil.jpg","ticket":"70 元","season":"全年","level":"世界遗产","lat":41.78426,"lng":82.50783},{"id":"oldtown","name":"喀什老城","cat":"culture","catName":"人文","city":"kashgar","desc":"活着的生土迷宫：土巷、雕花门与百年老茶馆，清晨的开城仪式与周日大巴扎最出片。","img":"assets/images/xj_oldtown.jpg","season":"全年","free":true,"key":true,"lat":39.47064,"lng":75.99857},{"id":"idkah","name":"艾提尕尔清真寺","cat":"culture","catName":"人文","city":"kashgar","desc":"中国规模最大的清真寺之一：黄绿门楼与广场鸽群是喀什地标，节日期间礼拜场面庄严。","img":"assets/images/xj_idkah.jpg","ticket":"45 元","season":"全年","lat":39.47073,"lng":75.99245},{"id":"karakul","name":"喀拉库勒湖","cat":"scenery","catName":"景色","city":"kashgar","desc":"帕米尔高原上的冰碛湖：慕士塔格峰 7546 m 倒映湖中，中巴公路直达湖畔。","img":"assets/images/xj_karakul.jpg","ticket":"50 元","season":"5–10 月","key":true,"lat":38.43293,"lng":75.05314},{"id":"panlong","name":"盘龙古道","cat":"scenery","catName":"景色","city":"kashgar","desc":"塔县境内的 600 多个弯道：「今日走过了所有弯路，从此人生尽是坦途」路牌在此。","img":"assets/images/xj_panlong.jpg","season":"5–10 月","free":true,"lat":37.41993,"lng":75.3031},{"id":"khunjerab","name":"红其拉甫口岸","cat":"landmark","catName":"地标","city":"kashgar","desc":"中巴边境 4733 m 的国门与界碑，世界上海拔最高的口岸之一；需边防证。","img":"assets/images/xj_khun.jpg","season":"5–10 月","lat":36.84975,"lng":75.42328},{"id":"hetuan","name":"和田团城","cat":"culture","catName":"人文","city":"hotan","desc":"环形放射状的老城街区：鸽子巷、阿以旺民居与玉雕作坊，傍晚炊烟与鸽群同飞。","img":"assets/images/xj_hetuan.jpg","season":"全年","free":true,"lat":37.10366,"lng":79.92692},{"id":"yubar","name":"玉龙喀什河玉巴扎","cat":"culture","catName":"人文","city":"hotan","desc":"「籽料」原产地：河滩捡玉人与夜市玉石交易并存，看砍价比看玉还有戏。","img":"assets/images/xj_yubar.jpg","season":"全年","free":true,"lat":37.11769,"lng":79.94194},{"id":"nalati","name":"那拉提草原","cat":"scenery","catName":"景色","city":"ili","desc":"天山腹地的空中草原：雪岭云杉与哈萨克牧群层层铺展，区间车+骑马半日游刚好。","img":"assets/images/xj_nalati.jpg","ticket":"95 元+区间车","season":"5–9 月","key":true,"lat":43.3215,"lng":84.02292},{"id":"kalajun","name":"喀拉峻草原","cat":"scenery","catName":"景色","city":"ili","desc":"「人体草原」的柔曲线与五花草甸：阔克苏大峡谷的鳄鱼湾是航拍名场面。","img":"assets/images/xj_kalajun.jpg","ticket":"80 元+区间车","season":"5–6 月花期","level":"世界遗产","lat":43.02152,"lng":82.10321},{"id":"lavender","name":"霍城薰衣草","cat":"scenery","catName":"景色","city":"ili","desc":"中国薰衣草之乡：6 月中–7 月初紫色花海与雪山同框，解忧公主农场是主产区。","img":"assets/images/xj_lavender.jpg","season":"6 月中–7 月初","lat":44.05089,"lng":80.8823},{"id":"sayram","name":"赛里木湖","cat":"scenery","catName":"景色","city":"bortala","desc":"「大西洋最后一滴眼泪」：海拔 2073 m 的高山冷水湖，环湖公路 90 km 随处停车皆景。","img":"assets/images/xj_sayram.jpg","ticket":"70 元","season":"5–10 月，冬看蓝冰","key":true,"lat":44.60095,"lng":81.16299},{"id":"guozigou","name":"果子沟大桥","cat":"landmark","catName":"地标","city":"bortala","desc":"连霍高速上的双塔双索斜拉桥：桥身从峡谷云杉间穿过，观景台在松树头栈道。","img":"assets/images/xj_guozigou.jpg","season":"全年","free":true,"lat":44.47101,"lng":81.06294},{"id":"kanas","name":"喀纳斯湖","cat":"scenery","catName":"景色","city":"altay","desc":"阿尔泰山深处的变色湖：三道湾、观鱼台 1068 级台阶与「湖怪」传说，9 月白桦金黄最盛。","img":"assets/images/xj_kanas.jpg","ticket":"160 元+区间车","season":"6–10 月","key":true,"lat":48.72096,"lng":87.0232},{"id":"hemu","name":"禾木村","cat":"scenery","catName":"景色","city":"altay","desc":"图瓦人木屋村落：清晨观景台的炊烟与晨雾是北疆封面照，冬季为粉雪天堂。","img":"assets/images/xj_hemu.jpg","ticket":"50 元+区间车","season":"6–10 月，12–2 月雪季","key":true,"lat":48.57108,"lng":87.43362},{"id":"wucaitan","name":"五彩滩","cat":"scenery","catName":"景色","city":"altay","desc":"额尔齐斯河畔的雅丹彩丘：落日时分红黄紫灰层次全开，隔河对岸是绿洲白桦。","img":"assets/images/xj_wucai.jpg","ticket":"45 元","season":"5–10 月，日落前 2 小时","lat":47.84097,"lng":86.8627},{"id":"keketuohai","name":"可可托海","cat":"scenery","catName":"景色","city":"altay","desc":"额尔齐斯大峡谷的花岗岩奇峰与三号矿坑：「功勋矿」曾偿还巨额外债，地质与历史双料。","img":"assets/images/xj_keke.jpg","ticket":"90 元+区间车","season":"5–10 月","level":"世界地质公园","lat":47.22106,"lng":89.84245},{"id":"qkst","name":"琼库什台村","cat":"culture","catName":"人文","city":"ili","desc":"天山深处的原木哈萨克村落：国家历史文化名村，后山草原是徒步乌孙古道起点。","img":"assets/images/xj_qkst.jpg","ticket":"免费","season":"6–9 月","key":true,"lat":42.97146,"lng":82.15312},{"id":"xiata","name":"夏塔古道","cat":"scenery","catName":"景色","city":"ili","desc":"玄奘走过的天山隘口：木扎尔特河谷尽头仰望汗腾格里雪峰，温泉与冰川同路。","img":"assets/images/xj_xiata.jpg","ticket":"40 元+区间车","season":"6–9 月","lat":42.94111,"lng":80.88227},{"id":"bhaba","name":"白哈巴村","cat":"culture","catName":"人文","city":"altay","desc":"西北第一村：图瓦木屋与界河铁桥，秋色不输喀纳斯且安静得多。","img":"assets/images/xj_bhaba.jpg","ticket":"50 元+边防证","season":"6–10 月","key":true,"lat":48.81075,"lng":86.86275},{"id":"jblk","name":"江布拉克","cat":"scenery","catName":"景色","city":"changji","desc":"天山北坡麦浪与雪山：万亩旱田随山起伏，怪坡与黑涝坝藏在花海尽头。","img":"assets/images/xj_jblk.jpg","ticket":"55 元","season":"6–9 月","level":"4A","lat":43.73147,"lng":89.72254},{"id":"sanwan","name":"喀纳斯三湾","cat":"scenery","catName":"景色","city":"altay","desc":"神仙湾晨雾、月亮湾碧水、卧龙湾秋桦：喀纳斯河最上镜的一段栈道。","img":"assets/images/xj_sanwan.jpg","ticket":"含喀纳斯门票","season":"6–10 月","key":true,"lat":48.72096,"lng":87.0232},{"id":"lxj","name":"伊宁六星街","cat":"culture","catName":"人文","city":"ili","desc":"手风琴与冰淇淋的彩色街区：俄式民居放射状街巷，塞外江南的松弛感。","img":"assets/images/xj_lxj.jpg","ticket":"免费","season":"全年","lat":43.91828,"lng":81.34009},{"id":"dukuhw","name":"独库公路·乔尔玛段","cat":"scenery","catName":"景色","city":"ili","desc":"中国最美公路纵穿天山：一日历四季，乔尔玛纪念碑处雪山峡谷同框。","img":"assets/images/xj_duku.jpg","ticket":"免费","season":"6–10 月通车","level":"网红公路","key":true,"lat":43.83148,"lng":84.39286},{"id":"tashkst","name":"塔什库尔干石头城·金草滩","cat":"culture","catName":"人文","city":"kashgar","desc":"丝路葱岭古国遗址：残垣立在帕米尔高原，脚下金草滩湿地映慕士塔格。","img":"assets/images/xj_tashkst.jpg","ticket":"65 元联票","season":"5–10 月","key":true,"lat":37.77592,"lng":75.23104}],"foods":[{"name":"大盘鸡","city":"urumqi","cityName":"乌鲁木齐","desc":"沙湾发源的硬菜：土鸡、土豆与皮带面同盘，辣子香而不燥，是新疆餐桌的社交货币。","img":"assets/images/fd_xj_01.jpg"},{"name":"手抓饭","city":"urumqi","cityName":"乌鲁木齐","desc":"羊肉、黄萝卜与葡萄干焖出的油亮米饭，早餐摊的碎肉抓饭配薄皮包子是本地人吃法。","img":"assets/images/fd_xj_02.jpg"},{"name":"烤包子（萨姆萨）","city":"kashgar","cityName":"喀什","desc":"馕坑里贴烤的方包子：死面皮裹羊肉洋葱馅，出炉十分钟内的酥皮最香。","img":"assets/images/fd_xj_03.jpg"},{"name":"纳仁 · 熏马肉","city":"ili","cityName":"伊犁","desc":"哈萨克待客大菜：熏马肠、马肉铺在面片上，马奶酒配食，冬季进补首选。","img":"assets/images/fd_xj_04.jpg"},{"name":"拉条子","city":"urumqi","cityName":"乌鲁木齐","desc":"手工拉制的拌面：过油肉、碎肉、皮辣红任选，面可免费加一次是行规。","img":"assets/images/fd_xj_05.jpg"},{"name":"酸奶粽子","city":"kashgar","cityName":"喀什","desc":"糯米粽压扁淋酸奶与蜂蜜，撒上坚果碎，老城茶馆里的解暑甜品。","img":"assets/images/fd_xj_06.jpg"},{"name":"烤羊肉串（卡瓦普）","city":"kashgar","cityName":"喀什","desc":"红柳枝或铁签串肥瘦相间的羊肉，只撒盐、孜然与辣面三样，炭火决定上限。","img":"assets/images/fd_xj_07.jpg"},{"name":"油塔子","city":"urumqi","cityName":"乌鲁木齐","desc":"层薄如纸的油面卷，配粉汤或丸子汤同食，早茶桌上的经典组合。","img":"assets/images/fd_xj_08.jpg"},{"name":"哈密瓜","city":"hami","cityName":"哈密","desc":"吐鲁番葡萄哈密瓜：淖毛湖与南湖瓜地的晚熟瓜甜度最高，7–9 月瓜地直购最鲜。","img":"assets/images/fd_xj_09.jpg"},{"name":"和田烤蛋","city":"hotan","cityName":"和田","desc":"沙埋慢烤的鹅蛋鸭蛋，敲开撒盐或蜂蜜，夜市摊前的仪式感小吃。","img":"assets/images/fd_xj_10.jpg"},{"name":"新疆馕","city":"kashgar","cityName":"喀什","desc":"丝路干粮之王：窝窝馕芝麻馕玫瑰花馕，喀什老城的馕坑现打现烤。","img":"assets/images/fd_xj_11.jpg"},{"name":"喀什馕包肉","city":"kashgar","cityName":"喀什","desc":"馕铺底羊肉盖顶：肉汁浸透馕心，一盘顶饱的喀什硬核吃法。","img":"assets/images/fd_xj_12.jpg"}],"loops":[{"name":"北疆 · 伊犁草原环线","days":"8–10 天","km":"约 2600 km","desc":"雪山、湖泊、草原与花海一次集齐：赛里木湖进、独库公路出，6 月花期版本最佳。","path":"乌鲁木齐 → 赛里木湖 → 果子沟 → 伊宁 → 喀拉峻 → 那拉提 → 巴音布鲁克 → 独库公路 → 独山子 → 乌鲁木齐","note":"独库公路仅 6–10 月开放且限 7 座以下；那拉提与喀拉峻二选一可省 1 天。","pts":[[43.82721,87.61985,"乌鲁木齐"],[44.60095,81.16299,"赛里木湖"],[44.47101,81.06294,"果子沟"],[43.90926,81.33106,"伊宁"],[43.02152,82.10321,"喀拉峻"],[43.3215,84.02292,"那拉提"],[42.85147,84.1529,"巴音布鲁克"],[44.32783,84.88835,"独库公路 · 独山子"],[43.82721,87.61985,"乌鲁木齐"]]},{"name":"阿勒泰 · 喀纳斯秋色环线","days":"6–8 天","km":"约 2000 km","desc":"9 月中–10 月初的黄金季：可可托海、五彩滩、喀纳斯与禾木串成北疆秋景天花板。","path":"乌鲁木齐 → 天山天池 → 富蕴(可可托海) → 布尔津(五彩滩) → 喀纳斯 → 禾木 → 魔鬼城 → 乌鲁木齐","note":"秋色窗口仅约 3 周，住宿需提前 1 个月订；禾木晨雾要在日出前 1 小时上观景台。","pts":[[43.82721,87.61985,"乌鲁木齐"],[43.88453,88.13313,"天山天池"],[47.22106,89.84245,"富蕴 · 可可托海"],[47.84097,86.8627,"布尔津 · 五彩滩"],[48.72096,87.0232,"喀纳斯"],[48.57108,87.43362,"禾木"],[43.82721,87.61985,"乌鲁木齐"]]},{"name":"南疆 · 喀什帕米尔环线","days":"7–9 天","km":"约 2200 km","desc":"人文与高原双线：喀什老城慢逛两天，再上帕米尔看慕士塔格与盘龙古道。","path":"乌鲁木齐 → 库尔勒 → 库车(大峡谷+克孜尔) → 阿克苏 → 喀什(2 天) → 喀拉库勒湖 → 塔县(盘龙古道) → 喀什","note":"塔县需边防证（喀什可办）；帕米尔海拔 3000–4700 m，首晚建议住喀什适应。","pts":[[43.82721,87.61985,"乌鲁木齐"],[41.76551,86.14366,"库尔勒"],[41.71917,82.96083,"库车"],[41.16998,80.26517,"阿克苏"],[39.47023,75.99296,"喀什"],[38.43293,75.05314,"喀拉库勒湖"],[37.41993,75.3031,"塔县 · 盘龙古道"],[39.47023,75.99296,"喀什"]]},{"name":"吐鲁番 · 哈密东疆短线","days":"3–4 天","km":"约 900 km","desc":"进出疆顺路的加餐环：火焰山、故城与草原一次打包，四季可走。","path":"乌鲁木齐 → 吐鲁番(交河+火焰山+葡萄沟) → 鄯善(库木塔格沙漠) → 哈密(巴里坤) → 乌鲁木齐","note":"7–8 月吐鲁番地表超 60℃，行程放早晚；库木塔格沙漠可玩沙疗与越野冲沙。","pts":[[43.82721,87.61985,"乌鲁木齐"],[42.95255,89.19184,"吐鲁番"],[42.86751,90.21704,"鄯善 · 库木塔格"],[43.60163,93.00148,"哈密 · 巴里坤"],[43.82721,87.61985,"乌鲁木齐"]]}],"tips":[["时差","新疆用北京时间但作息晚 2 小时：午饭 14 点、日落夏季 22 点后，排行程按「新疆时间」换算。"],["安检与证件","身份证随身、油箱过半就加油；边境县（塔县、哈巴河等）提前办边防证。"],["独库公路","仅 6–10 月开放、限 7 座以下，全程 561 km 一天跑完太赶，建议拆成两晚。"],["区间车","喀纳斯、那拉提等景区私家车禁入，门票+区间车要一起预算；末班车时间决定返程。"],["瓜果季","6 月桑葚杏子、7–8 月葡萄哈密瓜、9 月无花果石榴、10 月冰糖心苹果，按季排路线。"],["住宿","旺季（7–8 月与国庆）喀纳斯/禾木房价翻倍且满房，提前 30 天订或改住布尔津/贾登峪。"]]};
+PROV_DATA.xinjiang = {
+ "meta": {
+  "id": "xinjiang",
+  "name": "新疆",
+  "en": "Xinjiang",
+  "capital": "乌鲁木齐",
+  "tagline": "三山夹两盆 · 一天四季的辽阔",
+  "geoTitle": "三山夹两盆，一天四季",
+  "geoSub": "先认清地形再排行程：北疆看草原与湖泊、东疆看火焰山与葡萄沟、南疆看古城与沙漠。",
+  "intro": [
+   "新疆占中国陆地面积的六分之一：北有阿尔泰山的森林草原，中有天山横贯，南有昆仑与塔克拉玛干。伊犁河谷的雪山草甸、喀什老城的市井烟火、吐鲁番的火焰与葡萄、独库公路一天四季的垂直景观，让新疆成为自驾者的终极目的地之一。",
+   "本页按 11 个地州市整理精选停靠点、地方代表味道与省内环线；带 ★ 的是重点停靠点，免费景点标「免费」；数据为整理版本（坐标 GCJ-02），门票与区间车价格随季节调整，出行前以景区与官方公告为准。"
+  ],
+  "facts": [
+   [
+    "面积",
+    "166.5 万 km²"
+   ],
+   [
+    "常住人口",
+    "2598 万（2023 年末）"
+   ],
+   [
+    "地级行政区",
+    "14 个（4 市 + 5 州 + 5 地区）"
+   ],
+   [
+    "首府",
+    "乌鲁木齐"
+   ],
+   [
+    "最高峰",
+    "托木尔峰 7443 m"
+   ],
+   [
+    "最长公路景观带",
+    "独库公路 561 km"
+   ]
+  ],
+  "regions": [
+   [
+    "北疆 · 阿勒泰与伊犁",
+    "阿尔泰山与天山之间的草原森林带：喀纳斯湖湾、禾木村炊烟、赛里木湖蓝冰与伊犁花海，是摄影与自驾的黄金区。"
+   ],
+   [
+    "东疆 · 吐鲁番与哈密",
+    "火焰山与葡萄沟并存的低洼盆地：艾丁湖 -154 m 为中国陆地最低点，坎儿井与瓜果是这里的千年名片。"
+   ],
+   [
+    "南疆 · 环塔里木",
+    "塔克拉玛干四周的绿洲链：喀什老城、库车大峡谷、和田玉石与沙漠公路，人文厚度与荒漠尺度都到顶。"
+   ]
+  ]
+ },
+ "cities": [
+  {
+   "id": "urumqi",
+   "name": "乌鲁木齐",
+   "lat": 43.82721,
+   "lng": 87.61985,
+   "role": "首府 · 枢纽",
+   "desc": "亚心之都，进出新疆的总门户；博物馆看西域通史，大巴扎看市井，南山牧场看天山北坡第一片草原。",
+   "spots": [
+    "xjmus",
+    "bazaar",
+    "nanshan"
+   ],
+   "cap": true
+  },
+  {
+   "id": "changji",
+   "name": "昌吉",
+   "lat": 44.01331,
+   "lng": 87.3071,
+   "role": "天山北坡",
+   "desc": "首府近邻，天山天池即在其境内阜康；回民小吃街与江布拉克麦田是顺路加餐。",
+   "spots": [
+    "tianchi",
+    "jblk"
+   ]
+  },
+  {
+   "id": "turpan",
+   "name": "吐鲁番",
+   "lat": 42.95255,
+   "lng": 89.19184,
+   "role": "火洲 · 绿洲",
+   "desc": "中国最热也最甜的盆地：火焰山、葡萄沟、坎儿井与交河故城，一天读完西域水利史。",
+   "spots": [
+    "karez",
+    "flame",
+    "jiaohe",
+    "grape"
+   ]
+  },
+  {
+   "id": "hami",
+   "name": "哈密",
+   "lat": 42.83452,
+   "lng": 93.5166,
+   "role": "东大门",
+   "desc": "进疆第一站，哈密瓜故乡；巴里坤草原与古城是东天山下的凉快后花园。",
+   "spots": [
+    "barkol"
+   ]
+  },
+  {
+   "id": "bayingolin",
+   "name": "巴音郭楞",
+   "lat": 41.76551,
+   "lng": 86.14366,
+   "role": "南疆枢纽",
+   "desc": "全国面积最大的地级行政区：博斯腾湖、巴音布鲁克九曲十八弯与轮台胡杨林都在境内。",
+   "spots": [
+    "bayinbulak",
+    "bosten",
+    "luntai"
+   ]
+  },
+  {
+   "id": "aksu",
+   "name": "阿克苏",
+   "lat": 41.16998,
+   "lng": 80.26517,
+   "role": "龟兹故地",
+   "desc": "库车大峡谷与克孜尔千佛洞所在，古龟兹乐舞之乡；冰糖心苹果是秋天的暗号。",
+   "spots": [
+    "kuche",
+    "kizil"
+   ]
+  },
+  {
+   "id": "kashgar",
+   "name": "喀什",
+   "lat": 39.47023,
+   "lng": 75.99296,
+   "role": "南疆核心",
+   "desc": "「不到喀什不算到新疆」：老城土巷、百年茶馆与周日大巴扎，帕米尔高原由此出发。",
+   "spots": [
+    "oldtown",
+    "idkah",
+    "karakul",
+    "panlong",
+    "khunjerab",
+    "tashkst"
+   ]
+  },
+  {
+   "id": "hotan",
+   "name": "和田",
+   "lat": 37.11166,
+   "lng": 79.92392,
+   "role": "玉石之乡",
+   "desc": "玉龙喀什河畔的团城与玉巴扎，沙漠公路南端终点；玫瑰与地毯同样出名。",
+   "spots": [
+    "hetuan",
+    "yubar"
+   ]
+  },
+  {
+   "id": "ili",
+   "name": "伊犁",
+   "lat": 43.92225,
+   "lng": 81.32705,
+   "role": "塞外江南",
+   "desc": "天山最美的河谷：那拉提空中草原、喀拉峻人体山、霍城薰衣草，6 月是花期顶点。",
+   "spots": [
+    "nalati",
+    "kalajun",
+    "lavender",
+    "qkst",
+    "xiata",
+    "lxj",
+    "dukuhw"
+   ]
+  },
+  {
+   "id": "altay",
+   "name": "阿勒泰",
+   "lat": 47.8493,
+   "lng": 88.14336,
+   "role": "雪山牧歌",
+   "desc": "喀纳斯、禾木、五彩滩与可可托海所在，中国雪都；秋金黄、冬粉雪，四季皆景。",
+   "spots": [
+    "kanas",
+    "hemu",
+    "wucaitan",
+    "keketuohai",
+    "bhaba",
+    "sanwan"
+   ]
+  },
+  {
+   "id": "bortala",
+   "name": "博尔塔拉",
+   "lat": 44.90703,
+   "lng": 82.07729,
+   "role": "西境湖光",
+   "desc": "赛里木湖与果子沟大桥所在，大西洋最后一滴眼泪；口岸城市博乐是补给点。",
+   "spots": [
+    "sayram",
+    "guozigou"
+   ]
+  }
+ ],
+ "spots": [
+  {
+   "id": "tianchi",
+   "name": "天山天池",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "changji",
+   "desc": "天山博格达峰北侧的高山冰碛湖，海拔 1910 m，云杉环抱、雪峰倒映；区间车约 40 分钟上山，环湖栈道 1 小时。",
+   "img": "assets/images/xj_tianchi.jpg",
+   "ticket": "155 元含区间车",
+   "season": "5–10 月，冬看蓝冰",
+   "level": "世界遗产 · 5A",
+   "key": true,
+   "lat": 43.88453,
+   "lng": 88.13313
+  },
+  {
+   "id": "xjmus",
+   "name": "新疆维吾尔自治区博物馆",
+   "cat": "museum",
+   "catName": "博物馆",
+   "city": "urumqi",
+   "desc": "「楼兰美女」干尸与「五星出东方利中国」锦护臂的真身所在，西域通史一馆读完；免费但需预约。",
+   "img": "assets/images/xj_mus.jpg",
+   "season": "全年（周一闭馆）",
+   "free": true,
+   "key": true,
+   "lat": 43.82321,
+   "lng": 87.58385
+  },
+  {
+   "id": "bazaar",
+   "name": "国际大巴扎",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "urumqi",
+   "desc": "世界规模最大的巴扎建筑群：干果、铜器、艾德莱斯绸与烤包子一条街，登上观光塔可俯瞰全城。",
+   "img": "assets/images/xj_bazaar.jpg",
+   "season": "全年",
+   "free": true,
+   "lat": 43.78924,
+   "lng": 87.63287
+  },
+  {
+   "id": "nanshan",
+   "name": "南山牧场 · 西白杨沟",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "urumqi",
+   "desc": "天山北坡离首府最近的草原：云杉、毡房与骑马线路，夏季均温 20℃ 出头，半日即可往返。",
+   "img": "assets/images/xj_nanshan.jpg",
+   "ticket": "30 元",
+   "season": "5–9 月",
+   "lat": 43.28463,
+   "lng": 87.4652
+  },
+  {
+   "id": "karez",
+   "name": "坎儿井乐园",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "turpan",
+   "desc": "与长城、运河并称的地下水利工程：暗渠、竖井与明渠三段结构在地下参观廊里一次看懂。",
+   "img": "assets/images/xj_karez.jpg",
+   "ticket": "40 元",
+   "season": "全年",
+   "lat": 42.95054,
+   "lng": 89.19883
+  },
+  {
+   "id": "flame",
+   "name": "火焰山",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "turpan",
+   "desc": "《西游记》名场面：赤红色砂岩在盛夏地表温度可达 70℃，巨型温度计是标配打卡点。",
+   "img": "assets/images/xj_flame.jpg",
+   "ticket": "40 元",
+   "season": "全年，7–8 月最热",
+   "lat": 42.94143,
+   "lng": 89.52558
+  },
+  {
+   "id": "jiaohe",
+   "name": "交河故城",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "turpan",
+   "desc": "世界上最大最古老的生土建筑城市，车师前国与唐安西都护府旧址；黄昏光线最壮。",
+   "img": "assets/images/xj_jiaohe.jpg",
+   "ticket": "70 元",
+   "season": "4–10 月",
+   "level": "世界遗产",
+   "key": true,
+   "lat": 42.95364,
+   "lng": 89.06296
+  },
+  {
+   "id": "grape",
+   "name": "葡萄沟",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "turpan",
+   "desc": "火焰山裂缝里的清凉绿洲：百年葡萄架长廊与晾房群，8 月葡萄熟时最甜。",
+   "img": "assets/images/xj_grape.jpg",
+   "ticket": "60 元",
+   "season": "6–9 月",
+   "lat": 42.98452,
+   "lng": 89.22478
+  },
+  {
+   "id": "barkol",
+   "name": "巴里坤草原",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "hami",
+   "desc": "东天山下的湿地草原：雪山、松林与哈萨克毡房同框，盛夏油菜花铺到山脚。",
+   "img": "assets/images/xj_barkol.jpg",
+   "season": "6–8 月",
+   "lat": 43.60163,
+   "lng": 93.00148
+  },
+  {
+   "id": "bayinbulak",
+   "name": "巴音布鲁克",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "bayingolin",
+   "desc": "中国第二大草原：开都河九曲十八弯的落日可拍出「九个太阳」，天鹅湖保护区同在内。",
+   "img": "assets/images/xj_bayin.jpg",
+   "ticket": "140 元含区间车",
+   "season": "5–9 月",
+   "key": true,
+   "lat": 42.85147,
+   "lng": 84.1529
+  },
+  {
+   "id": "bosten",
+   "name": "博斯腾湖",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "bayingolin",
+   "desc": "中国最大的内陆淡水湖：芦苇荡、莲海与沙滩并存，大河口景区可乘船入湖。",
+   "img": "assets/images/xj_bosten.jpg",
+   "ticket": "45 元",
+   "season": "5–10 月",
+   "lat": 42.00118,
+   "lng": 86.90241
+  },
+  {
+   "id": "luntai",
+   "name": "轮台胡杨林",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "bayingolin",
+   "desc": "塔里木河畔 40 万亩胡杨：10 月中下旬满城尽带黄金甲，小火车穿林是经典机位。",
+   "img": "assets/images/xj_luntai.jpg",
+   "ticket": "45 元+小火车",
+   "season": "10 月中–11 月初",
+   "key": true,
+   "lat": 41.78132,
+   "lng": 84.2526
+  },
+  {
+   "id": "kuche",
+   "name": "库车天山神秘大峡谷",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "aksu",
+   "desc": "红褐色岩壁夹出一线天光，谷内徒步约 3 km；雨后岩色最艳，正午光柱最佳。",
+   "img": "assets/images/xj_kuche.jpg",
+   "ticket": "40 元",
+   "season": "4–10 月",
+   "lat": 42.41133,
+   "lng": 83.33326
+  },
+  {
+   "id": "kizil",
+   "name": "克孜尔千佛洞",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "aksu",
+   "desc": "比敦煌更早的龟兹佛教石窟：菱格本生故事画与券顶天相图是招牌，讲解必听。",
+   "img": "assets/images/xj_kizil.jpg",
+   "ticket": "70 元",
+   "season": "全年",
+   "level": "世界遗产",
+   "lat": 41.78426,
+   "lng": 82.50783
+  },
+  {
+   "id": "oldtown",
+   "name": "喀什老城",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "kashgar",
+   "desc": "活着的生土迷宫：土巷、雕花门与百年老茶馆，清晨的开城仪式与周日大巴扎最出片。",
+   "img": "assets/images/xj_oldtown.jpg",
+   "season": "全年",
+   "free": true,
+   "key": true,
+   "lat": 39.47064,
+   "lng": 75.99857
+  },
+  {
+   "id": "idkah",
+   "name": "艾提尕尔清真寺",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "kashgar",
+   "desc": "中国规模最大的清真寺之一：黄绿门楼与广场鸽群是喀什地标，节日期间礼拜场面庄严。",
+   "img": "assets/images/xj_idkah.jpg",
+   "ticket": "45 元",
+   "season": "全年",
+   "lat": 39.47073,
+   "lng": 75.99245
+  },
+  {
+   "id": "karakul",
+   "name": "喀拉库勒湖",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "kashgar",
+   "desc": "帕米尔高原上的冰碛湖：慕士塔格峰 7546 m 倒映湖中，中巴公路直达湖畔。",
+   "img": "assets/images/xj_karakul.jpg",
+   "ticket": "50 元",
+   "season": "5–10 月",
+   "key": true,
+   "lat": 38.43293,
+   "lng": 75.05314
+  },
+  {
+   "id": "panlong",
+   "name": "盘龙古道",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "kashgar",
+   "desc": "塔县境内的 600 多个弯道：「今日走过了所有弯路，从此人生尽是坦途」路牌在此。",
+   "img": "assets/images/xj_panlong.jpg",
+   "season": "5–10 月",
+   "free": true,
+   "lat": 37.41993,
+   "lng": 75.3031
+  },
+  {
+   "id": "khunjerab",
+   "name": "红其拉甫口岸",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "kashgar",
+   "desc": "中巴边境 4733 m 的国门与界碑，世界上海拔最高的口岸之一；需边防证。",
+   "img": "assets/images/xj_khun.jpg",
+   "season": "5–10 月",
+   "lat": 36.84975,
+   "lng": 75.42328
+  },
+  {
+   "id": "hetuan",
+   "name": "和田团城",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "hotan",
+   "desc": "环形放射状的老城街区：鸽子巷、阿以旺民居与玉雕作坊，傍晚炊烟与鸽群同飞。",
+   "img": "assets/images/xj_hetuan.jpg",
+   "season": "全年",
+   "free": true,
+   "lat": 37.10366,
+   "lng": 79.92692
+  },
+  {
+   "id": "yubar",
+   "name": "玉龙喀什河玉巴扎",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "hotan",
+   "desc": "「籽料」原产地：河滩捡玉人与夜市玉石交易并存，看砍价比看玉还有戏。",
+   "img": "assets/images/xj_yubar.jpg",
+   "season": "全年",
+   "free": true,
+   "lat": 37.11769,
+   "lng": 79.94194
+  },
+  {
+   "id": "nalati",
+   "name": "那拉提草原",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "ili",
+   "desc": "天山腹地的空中草原：雪岭云杉与哈萨克牧群层层铺展，区间车+骑马半日游刚好。",
+   "img": "assets/images/xj_nalati.jpg",
+   "ticket": "95 元+区间车",
+   "season": "5–9 月",
+   "key": true,
+   "lat": 43.3215,
+   "lng": 84.02292
+  },
+  {
+   "id": "kalajun",
+   "name": "喀拉峻草原",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "ili",
+   "desc": "「人体草原」的柔曲线与五花草甸：阔克苏大峡谷的鳄鱼湾是航拍名场面。",
+   "img": "assets/images/xj_kalajun.jpg",
+   "ticket": "80 元+区间车",
+   "season": "5–6 月花期",
+   "level": "世界遗产",
+   "lat": 43.02152,
+   "lng": 82.10321
+  },
+  {
+   "id": "lavender",
+   "name": "霍城薰衣草",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "ili",
+   "desc": "中国薰衣草之乡：6 月中–7 月初紫色花海与雪山同框，解忧公主农场是主产区。",
+   "img": "assets/images/xj_lavender.jpg",
+   "season": "6 月中–7 月初",
+   "lat": 44.05089,
+   "lng": 80.8823
+  },
+  {
+   "id": "sayram",
+   "name": "赛里木湖",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "bortala",
+   "desc": "「大西洋最后一滴眼泪」：海拔 2073 m 的高山冷水湖，环湖公路 90 km 随处停车皆景。",
+   "img": "assets/images/xj_sayram.jpg",
+   "ticket": "70 元",
+   "season": "5–10 月，冬看蓝冰",
+   "key": true,
+   "lat": 44.60095,
+   "lng": 81.16299
+  },
+  {
+   "id": "guozigou",
+   "name": "果子沟大桥",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "bortala",
+   "desc": "连霍高速上的双塔双索斜拉桥：桥身从峡谷云杉间穿过，观景台在松树头栈道。",
+   "img": "assets/images/xj_guozigou.jpg",
+   "season": "全年",
+   "free": true,
+   "lat": 44.47101,
+   "lng": 81.06294
+  },
+  {
+   "id": "kanas",
+   "name": "喀纳斯湖",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "altay",
+   "desc": "阿尔泰山深处的变色湖：三道湾、观鱼台 1068 级台阶与「湖怪」传说，9 月白桦金黄最盛。",
+   "img": "assets/images/xj_kanas.jpg",
+   "ticket": "160 元+区间车",
+   "season": "6–10 月",
+   "key": true,
+   "lat": 48.72096,
+   "lng": 87.0232
+  },
+  {
+   "id": "hemu",
+   "name": "禾木村",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "altay",
+   "desc": "图瓦人木屋村落：清晨观景台的炊烟与晨雾是北疆封面照，冬季为粉雪天堂。",
+   "img": "assets/images/xj_hemu.jpg",
+   "ticket": "50 元+区间车",
+   "season": "6–10 月，12–2 月雪季",
+   "key": true,
+   "lat": 48.57108,
+   "lng": 87.43362
+  },
+  {
+   "id": "wucaitan",
+   "name": "五彩滩",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "altay",
+   "desc": "额尔齐斯河畔的雅丹彩丘：落日时分红黄紫灰层次全开，隔河对岸是绿洲白桦。",
+   "img": "assets/images/xj_wucai.jpg",
+   "ticket": "45 元",
+   "season": "5–10 月，日落前 2 小时",
+   "lat": 47.84097,
+   "lng": 86.8627
+  },
+  {
+   "id": "keketuohai",
+   "name": "可可托海",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "altay",
+   "desc": "额尔齐斯大峡谷的花岗岩奇峰与三号矿坑：「功勋矿」曾偿还巨额外债，地质与历史双料。",
+   "img": "assets/images/xj_keke.jpg",
+   "ticket": "90 元+区间车",
+   "season": "5–10 月",
+   "level": "世界地质公园",
+   "lat": 47.22106,
+   "lng": 89.84245
+  },
+  {
+   "id": "qkst",
+   "name": "琼库什台村",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "ili",
+   "desc": "天山深处的原木哈萨克村落：国家历史文化名村，后山草原是徒步乌孙古道起点。",
+   "img": "assets/images/xj_qkst.jpg",
+   "ticket": "免费",
+   "season": "6–9 月",
+   "key": true,
+   "lat": 42.97146,
+   "lng": 82.15312
+  },
+  {
+   "id": "xiata",
+   "name": "夏塔古道",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "ili",
+   "desc": "玄奘走过的天山隘口：木扎尔特河谷尽头仰望汗腾格里雪峰，温泉与冰川同路。",
+   "img": "assets/images/xj_xiata.jpg",
+   "ticket": "40 元+区间车",
+   "season": "6–9 月",
+   "lat": 42.94111,
+   "lng": 80.88227
+  },
+  {
+   "id": "bhaba",
+   "name": "白哈巴村",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "altay",
+   "desc": "西北第一村：图瓦木屋与界河铁桥，秋色不输喀纳斯且安静得多。",
+   "img": "assets/images/xj_bhaba.jpg",
+   "ticket": "50 元+边防证",
+   "season": "6–10 月",
+   "key": true,
+   "lat": 48.81075,
+   "lng": 86.86275
+  },
+  {
+   "id": "jblk",
+   "name": "江布拉克",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "changji",
+   "desc": "天山北坡麦浪与雪山：万亩旱田随山起伏，怪坡与黑涝坝藏在花海尽头。",
+   "img": "assets/images/xj_jblk.jpg",
+   "ticket": "55 元",
+   "season": "6–9 月",
+   "level": "4A",
+   "lat": 43.73147,
+   "lng": 89.72254
+  },
+  {
+   "id": "sanwan",
+   "name": "喀纳斯三湾",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "altay",
+   "desc": "神仙湾晨雾、月亮湾碧水、卧龙湾秋桦：喀纳斯河最上镜的一段栈道。",
+   "img": "assets/images/xj_sanwan.jpg",
+   "ticket": "含喀纳斯门票",
+   "season": "6–10 月",
+   "key": true,
+   "lat": 48.72096,
+   "lng": 87.0232
+  },
+  {
+   "id": "lxj",
+   "name": "伊宁六星街",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "ili",
+   "desc": "手风琴与冰淇淋的彩色街区：俄式民居放射状街巷，塞外江南的松弛感。",
+   "img": "assets/images/xj_lxj.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "lat": 43.91828,
+   "lng": 81.34009
+  },
+  {
+   "id": "dukuhw",
+   "name": "独库公路·乔尔玛段",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "ili",
+   "desc": "中国最美公路纵穿天山：一日历四季，乔尔玛纪念碑处雪山峡谷同框。",
+   "img": "assets/images/xj_duku.jpg",
+   "ticket": "免费",
+   "season": "6–10 月通车",
+   "level": "网红公路",
+   "key": true,
+   "lat": 43.83148,
+   "lng": 84.39286
+  },
+  {
+   "id": "tashkst",
+   "name": "塔什库尔干石头城·金草滩",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "kashgar",
+   "desc": "丝路葱岭古国遗址：残垣立在帕米尔高原，脚下金草滩湿地映慕士塔格。",
+   "img": "assets/images/xj_tashkst.jpg",
+   "ticket": "65 元联票",
+   "season": "5–10 月",
+   "key": true,
+   "lat": 37.77592,
+   "lng": 75.23104
+  }
+ ],
+ "foods": [
+  {
+   "name": "大盘鸡",
+   "city": "urumqi",
+   "cityName": "乌鲁木齐",
+   "desc": "沙湾发源的硬菜：土鸡、土豆与皮带面同盘，辣子香而不燥，是新疆餐桌的社交货币。",
+   "img": "assets/images/fd_xj_01.jpg"
+  },
+  {
+   "name": "手抓饭",
+   "city": "urumqi",
+   "cityName": "乌鲁木齐",
+   "desc": "羊肉、黄萝卜与葡萄干焖出的油亮米饭，早餐摊的碎肉抓饭配薄皮包子是本地人吃法。",
+   "img": "assets/images/fd_xj_02.jpg"
+  },
+  {
+   "name": "烤包子（萨姆萨）",
+   "city": "kashgar",
+   "cityName": "喀什",
+   "desc": "馕坑里贴烤的方包子：死面皮裹羊肉洋葱馅，出炉十分钟内的酥皮最香。",
+   "img": "assets/images/fd_xj_03.jpg"
+  },
+  {
+   "name": "纳仁 · 熏马肉",
+   "city": "ili",
+   "cityName": "伊犁",
+   "desc": "哈萨克待客大菜：熏马肠、马肉铺在面片上，马奶酒配食，冬季进补首选。",
+   "img": "assets/images/fd_xj_04.jpg"
+  },
+  {
+   "name": "拉条子",
+   "city": "urumqi",
+   "cityName": "乌鲁木齐",
+   "desc": "手工拉制的拌面：过油肉、碎肉、皮辣红任选，面可免费加一次是行规。",
+   "img": "assets/images/fd_xj_05.jpg"
+  },
+  {
+   "name": "酸奶粽子",
+   "city": "kashgar",
+   "cityName": "喀什",
+   "desc": "糯米粽压扁淋酸奶与蜂蜜，撒上坚果碎，老城茶馆里的解暑甜品。",
+   "img": "assets/images/fd_xj_06.jpg"
+  },
+  {
+   "name": "烤羊肉串（卡瓦普）",
+   "city": "kashgar",
+   "cityName": "喀什",
+   "desc": "红柳枝或铁签串肥瘦相间的羊肉，只撒盐、孜然与辣面三样，炭火决定上限。",
+   "img": "assets/images/fd_xj_07.jpg"
+  },
+  {
+   "name": "油塔子",
+   "city": "urumqi",
+   "cityName": "乌鲁木齐",
+   "desc": "层薄如纸的油面卷，配粉汤或丸子汤同食，早茶桌上的经典组合。",
+   "img": "assets/images/fd_xj_08.jpg"
+  },
+  {
+   "name": "哈密瓜",
+   "city": "hami",
+   "cityName": "哈密",
+   "desc": "吐鲁番葡萄哈密瓜：淖毛湖与南湖瓜地的晚熟瓜甜度最高，7–9 月瓜地直购最鲜。",
+   "img": "assets/images/fd_xj_09.jpg"
+  },
+  {
+   "name": "和田烤蛋",
+   "city": "hotan",
+   "cityName": "和田",
+   "desc": "沙埋慢烤的鹅蛋鸭蛋，敲开撒盐或蜂蜜，夜市摊前的仪式感小吃。",
+   "img": "assets/images/fd_xj_10.jpg"
+  },
+  {
+   "name": "新疆馕",
+   "city": "kashgar",
+   "cityName": "喀什",
+   "desc": "丝路干粮之王：窝窝馕芝麻馕玫瑰花馕，喀什老城的馕坑现打现烤。",
+   "img": "assets/images/fd_xj_11.jpg"
+  },
+  {
+   "name": "喀什馕包肉",
+   "city": "kashgar",
+   "cityName": "喀什",
+   "desc": "馕铺底羊肉盖顶：肉汁浸透馕心，一盘顶饱的喀什硬核吃法。",
+   "img": "assets/images/fd_xj_12.jpg"
+  }
+ ],
+ "loops": [
+  {
+   "name": "北疆 · 伊犁草原环线",
+   "days": "8–10 天",
+   "km": "约 2600 km",
+   "desc": "雪山、湖泊、草原与花海一次集齐：赛里木湖进、独库公路出，6 月花期版本最佳。",
+   "path": "乌鲁木齐 → 赛里木湖 → 果子沟 → 伊宁 → 喀拉峻 → 那拉提 → 巴音布鲁克 → 独库公路 → 独山子 → 乌鲁木齐",
+   "note": "独库公路仅 6–10 月开放且限 7 座以下；那拉提与喀拉峻二选一可省 1 天。",
+   "pts": [
+    [
+     43.82721,
+     87.61985,
+     "乌鲁木齐"
+    ],
+    [
+     44.60095,
+     81.16299,
+     "赛里木湖"
+    ],
+    [
+     44.47101,
+     81.06294,
+     "果子沟"
+    ],
+    [
+     43.90926,
+     81.33106,
+     "伊宁"
+    ],
+    [
+     43.02152,
+     82.10321,
+     "喀拉峻"
+    ],
+    [
+     43.3215,
+     84.02292,
+     "那拉提"
+    ],
+    [
+     42.85147,
+     84.1529,
+     "巴音布鲁克"
+    ],
+    [
+     44.32783,
+     84.88835,
+     "独库公路 · 独山子"
+    ],
+    [
+     43.82721,
+     87.61985,
+     "乌鲁木齐"
+    ]
+   ]
+  },
+  {
+   "name": "阿勒泰 · 喀纳斯秋色环线",
+   "days": "6–8 天",
+   "km": "约 2000 km",
+   "desc": "9 月中–10 月初的黄金季：可可托海、五彩滩、喀纳斯与禾木串成北疆秋景天花板。",
+   "path": "乌鲁木齐 → 天山天池 → 富蕴(可可托海) → 布尔津(五彩滩) → 喀纳斯 → 禾木 → 魔鬼城 → 乌鲁木齐",
+   "note": "秋色窗口仅约 3 周，住宿需提前 1 个月订；禾木晨雾要在日出前 1 小时上观景台。",
+   "pts": [
+    [
+     43.82721,
+     87.61985,
+     "乌鲁木齐"
+    ],
+    [
+     43.88453,
+     88.13313,
+     "天山天池"
+    ],
+    [
+     47.22106,
+     89.84245,
+     "富蕴 · 可可托海"
+    ],
+    [
+     47.84097,
+     86.8627,
+     "布尔津 · 五彩滩"
+    ],
+    [
+     48.72096,
+     87.0232,
+     "喀纳斯"
+    ],
+    [
+     48.57108,
+     87.43362,
+     "禾木"
+    ],
+    [
+     43.82721,
+     87.61985,
+     "乌鲁木齐"
+    ]
+   ]
+  },
+  {
+   "name": "南疆 · 喀什帕米尔环线",
+   "days": "7–9 天",
+   "km": "约 2200 km",
+   "desc": "人文与高原双线：喀什老城慢逛两天，再上帕米尔看慕士塔格与盘龙古道。",
+   "path": "乌鲁木齐 → 库尔勒 → 库车(大峡谷+克孜尔) → 阿克苏 → 喀什(2 天) → 喀拉库勒湖 → 塔县(盘龙古道) → 喀什",
+   "note": "塔县需边防证（喀什可办）；帕米尔海拔 3000–4700 m，首晚建议住喀什适应。",
+   "pts": [
+    [
+     43.82721,
+     87.61985,
+     "乌鲁木齐"
+    ],
+    [
+     41.76551,
+     86.14366,
+     "库尔勒"
+    ],
+    [
+     41.71917,
+     82.96083,
+     "库车"
+    ],
+    [
+     41.16998,
+     80.26517,
+     "阿克苏"
+    ],
+    [
+     39.47023,
+     75.99296,
+     "喀什"
+    ],
+    [
+     38.43293,
+     75.05314,
+     "喀拉库勒湖"
+    ],
+    [
+     37.41993,
+     75.3031,
+     "塔县 · 盘龙古道"
+    ],
+    [
+     39.47023,
+     75.99296,
+     "喀什"
+    ]
+   ]
+  },
+  {
+   "name": "吐鲁番 · 哈密东疆短线",
+   "days": "3–4 天",
+   "km": "约 900 km",
+   "desc": "进出疆顺路的加餐环：火焰山、故城与草原一次打包，四季可走。",
+   "path": "乌鲁木齐 → 吐鲁番(交河+火焰山+葡萄沟) → 鄯善(库木塔格沙漠) → 哈密(巴里坤) → 乌鲁木齐",
+   "note": "7–8 月吐鲁番地表超 60℃，行程放早晚；库木塔格沙漠可玩沙疗与越野冲沙。",
+   "pts": [
+    [
+     43.82721,
+     87.61985,
+     "乌鲁木齐"
+    ],
+    [
+     42.95255,
+     89.19184,
+     "吐鲁番"
+    ],
+    [
+     42.86751,
+     90.21704,
+     "鄯善 · 库木塔格"
+    ],
+    [
+     43.60163,
+     93.00148,
+     "哈密 · 巴里坤"
+    ],
+    [
+     43.82721,
+     87.61985,
+     "乌鲁木齐"
+    ]
+   ]
+  }
+ ],
+ "tips": [
+  [
+   "时差",
+   "新疆用北京时间但作息晚 2 小时：午饭 14 点、日落夏季 22 点后，排行程按「新疆时间」换算。"
+  ],
+  [
+   "安检与证件",
+   "身份证随身、油箱过半就加油；边境县（塔县、哈巴河等）提前办边防证。"
+  ],
+  [
+   "独库公路",
+   "仅 6–10 月开放、限 7 座以下，全程 561 km 一天跑完太赶，建议拆成两晚。"
+  ],
+  [
+   "区间车",
+   "喀纳斯、那拉提等景区私家车禁入，门票+区间车要一起预算；末班车时间决定返程。"
+  ],
+  [
+   "瓜果季",
+   "6 月桑葚杏子、7–8 月葡萄哈密瓜、9 月无花果石榴、10 月冰糖心苹果，按季排路线。"
+  ],
+  [
+   "住宿",
+   "旺季（7–8 月与国庆）喀纳斯/禾木房价翻倍且满房，提前 30 天订或改住布尔津/贾登峪。"
+  ]
+ ],
+ "features": {
+  "intro": "新疆是中国面积最大的省级行政区，166.49 万平方公里的土地上分布着阿尔泰山、天山、昆仑山三大山脉和准噶尔、塔里木两大盆地。这里有中国最长的内陆河塔里木河、世界第二大流动沙漠塔克拉玛干、海拔 8611 米的乔戈里峰，以及喀纳斯、赛里木湖等绝美湖泊——三山夹两盆的地貌格局造就了举世无双的自然与人文景观。",
+  "groups": [
+   {
+    "name": "天山与高山湖泊",
+    "icon": "山",
+    "color": "#1A6B8A",
+    "intro": "天山横贯新疆中部，全长 2500 公里，是世界自然遗产；天池、赛里木湖、喀纳斯等高山湖泊如蓝宝石镶嵌其间。",
+    "items": [
+     {
+      "name": "天山天池",
+      "tag": "世界自然遗产 · 2013",
+      "spot": "tianchi",
+      "text": "天山天池位于阜康市博格达峰北坡，湖面海拔 1910 米、面积 4.9 平方公里、最深 105 米，是典型的高山冰碛堰塞湖；2013 年作为「新疆天山」组成部分列入世界自然遗产，博格达峰海拔 5445 米倒映湖中，构成经典画面。"
+     },
+     {
+      "name": "赛里木湖",
+      "tag": "大西洋最后一滴眼泪 · 海拔 2073m",
+      "spot": "sayram",
+      "text": "赛里木湖湖面海拔 2073 米、面积 458 平方公里、水深最深处 92 米，是新疆海拔最高、面积最大的高山冷水湖；因是大西洋暖湿气流最后眷顾之地，被称为「大西洋最后一滴眼泪」，湖水透明度可达 12 米。"
+     },
+     {
+      "name": "喀纳斯湖",
+      "tag": "变色湖 · 最深 188.5 米",
+      "spot": "kanas",
+      "text": "喀纳斯湖位于阿尔泰山南麓，湖面海拔 1374 米、长 24.5 公里、最深 188.5 米，是中国最深的冰碛堰塞湖；湖水随季节和天气呈现蓝、绿、乳白等不同色彩，传说中的「湖怪」实为大型哲罗鲑，体长可达 3 米以上。"
+     },
+     {
+      "name": "独库公路",
+      "tag": "全长 561 公里 · 翻越 4 个达坂",
+      "spot": "dukuhw",
+      "text": "独库公路北起独山子、南至库车，全长 561 公里，纵贯天山南北，翻越哈希勒根、玉希莫勒盖、拉尔敦、铁力买提四个达坂，其中哈希勒根隧道海拔 3390 米；每年仅 6-10 月通车，被誉为「中国最美公路」。"
+     }
+    ]
+   },
+   {
+    "name": "丝绸之路与古城",
+    "icon": "路",
+    "color": "#C44D3F",
+    "intro": "新疆是古丝绸之路的核心路段，交河故城、高昌故城、克孜尔千佛洞等遗迹见证了东西方文明在此交汇的千年历史。",
+    "items": [
+     {
+      "name": "交河故城",
+      "tag": "世界文化遗产 · 2014",
+      "spot": "jiaohe",
+      "text": "交河故城位于吐鲁番市西郊，始建于公元前 2 世纪，是世界上最大、最古老、保存最完好的生土建筑城市遗址，面积约 37 万平方米；整座城市从天然台地上向下挖凿而成，无需砖石即屹立两千余年，2014 年列入世界文化遗产。"
+     },
+     {
+      "name": "克孜尔千佛洞",
+      "tag": "中国开凿最早石窟 · 约公元 3 世纪",
+      "spot": "kizil",
+      "text": "克孜尔千佛洞位于拜城县，现存洞窟 349 个、壁画面积约 1 万平方米，始凿于约公元 3 世纪，比敦煌莫高窟早近一个世纪，是中国开凿最早的大型石窟群；壁画以菱格构图和本生故事画著称，融合了犍陀罗与龟兹艺术风格。"
+     },
+     {
+      "name": "喀什老城",
+      "tag": "国家 5A 景区 · 2000+ 年历史",
+      "spot": "oldtown",
+      "text": "喀什老城核心区面积约 4.25 平方公里，已有 2000 多年历史，是中国唯一保存完整的迷宫式城市街区；城内巷道纵横、土木建筑鳞次栉比，2015 年完成保护性改造后成为国家 5A 级景区，保留了维吾尔族传统生活方式。"
+     },
+     {
+      "name": "艾提尕尔清真寺",
+      "tag": "新疆最大清真寺 · 始建于 1442 年",
+      "spot": "idkah",
+      "text": "艾提尕尔清真寺始建于明正统七年（1442 年），占地 16800 平方米，可同时容纳 7000 人礼拜，是新疆规模最大的清真寺；寺门两侧的宣礼塔高 18 米，正面拱形门廊宽 4.3 米、高 4.7 米，是喀什老城的标志性建筑。"
+     }
+    ]
+   },
+   {
+    "name": "草原与牧场",
+    "icon": "牧",
+    "color": "#4CAF50",
+    "intro": "新疆拥有全国三分之一的天然草场，那拉提、巴音布鲁克、喀拉峻等草原各具特色，是哈萨克族、蒙古族游牧文化的活态展示地。",
+    "items": [
+     {
+      "name": "那拉提草原",
+      "tag": "世界四大高山草甸之一 · 海拔2000m",
+      "spot": "nalati",
+      "text": "那拉提草原位于伊犁河谷东端，平均海拔 2000 米，是世界四大高山河谷草甸植物区之一，草场面积达 1000 余平方公里；每年 6-9 月野花遍地，哈萨克牧民转场至此放牧，空中草原与雪山森林构成立体画卷。"
+     },
+     {
+      "name": "巴音布鲁克",
+      "tag": "中国第二大草原 · 天鹅湖",
+      "spot": "bayinbulak",
+      "text": "巴音布鲁克草原面积 23835 平方公里，是中国第二大草原，其中的天鹅湖是全国唯一的天鹅自然保护区，每年春夏有数千只大天鹅在此繁殖栖息；九曲十八弯的开都河在草原上蜿蜒流淌，日落时可同时看到九个太阳倒影。"
+     },
+     {
+      "name": "喀拉峻草原",
+      "tag": "人体草原 · 世界自然遗产",
+      "spot": "kalajun",
+      "text": "喀拉峻草原位于特克斯县，2013 年作为「新疆天山」组成部分列入世界自然遗产；起伏的草甸线条如人体曲线般柔美，被摄影师称为「人体草原」，阔克苏大峡谷内鳄鱼湾、九曲十八弯等景观与草原相映成趣。"
+     }
+    ]
+   },
+   {
+    "name": "瓜果与物产",
+    "icon": "果",
+    "color": "#E67E22",
+    "intro": "新疆日照时间长、昼夜温差大，孕育了哈密瓜、葡萄、红枣、核桃等顶级果品；吐鲁番葡萄沟与和田玉石巴扎是最具代表性的物产体验地。",
+    "items": [
+     {
+      "name": "葡萄沟",
+      "tag": "年产鲜葡萄 6000 吨 · 火焰山下",
+      "spot": "grape",
+      "text": "吐鲁番葡萄沟全长 8 公里、宽约 2 公里，种植葡萄品种达 600 余个，年产鲜葡萄 6000 吨以上；沟内晾房密布，无核白葡萄经 40 天自然阴干制成的葡萄干含糖量高达 60%，是新疆最具代表性的特产。"
+     },
+     {
+      "name": "火焰山",
+      "tag": "地表最高温 89℃ · 西游记取景地",
+      "spot": "flame",
+      "text": "火焰山位于吐鲁番盆地北缘，主峰海拔 831.7 米，山体由红色砂岩构成，夏季地表温度最高可达 89℃，是中国最热的地方之一；86 版《西游记》在此取景后名声大噪，景区内巨型温度计实时显示地表温度。"
+     },
+     {
+      "name": "和田团城·玉巴扎",
+      "tag": "和田玉交易中心 · 千年玉都",
+      "spot": "hetuan",
+      "text": "和田是「丝绸之路」上的千年玉都，玉龙喀什河出产的籽料和田玉自古闻名；团城改造后保留了传统维吾尔族民居风貌，玉巴扎每周日开市，来自各地的玉石商人与匠人在此交易切磋，是体验和田玉文化的首选之地。"
+     }
+    ]
+   },
+   {
+    "name": "雅丹与沙漠奇观",
+    "icon": "漠",
+    "color": "#D4A017",
+    "intro": "塔克拉玛干沙漠面积 33.76 万平方公里，是世界第二大流动沙漠；五彩滩、可可托海等地则以独特的地质地貌展现新疆的另一面。",
+    "items": [
+     {
+      "name": "五彩滩",
+      "tag": "雅丹与额尔齐斯河 · 日落奇观",
+      "spot": "wucaitan",
+      "text": "五彩滩位于布尔津县额尔齐斯河北岸，河岸一侧是葱郁的河谷林，另一侧是红、黄、绿、白、灰五色相间的雅丹地貌，面积约 3 平方公里；日落时分岩体色彩变幻最为绚丽，被称为「天下第一滩」。"
+     },
+     {
+      "name": "可可托海",
+      "tag": "世界地质公园 · 三号矿坑",
+      "spot": "keketuohai",
+      "text": "可可托海世界地质公园位于富蕴县，核心景观三号矿坑深 200 米、直径 250 米，曾开采出锂、铍、钽、铌等稀有金属 84 种，为中国「两弹一星」工程提供了关键原料；额尔齐斯大峡谷内神钟山、飞来石等花岗岩地貌蔚为壮观。"
+     },
+     {
+      "name": "禾木村",
+      "tag": "中国最美村落 · 图瓦人聚居地",
+      "spot": "hemu",
+      "text": "禾木村位于布尔津县喀纳斯湖畔，是中国仅存的三个图瓦人村落之一，现有原木垒起的木屋 300 余栋；清晨炊烟袅袅、晨雾缭绕，秋季白桦林金黄一片，被《中国国家地理》评为中国最美的六大古镇古村之一。"
+     }
+    ]
+   }
+  ]
+ }
+};

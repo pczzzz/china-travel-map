@@ -1,2 +1,1053 @@
 window.PROV_DATA = window.PROV_DATA || {};
-PROV_DATA.hainan = {"meta":{"id":"hainan","name":"海南","en":"Hainan","capital":"海口","tagline":"热带海岛 · 阳光海岸 · 自贸港","geoTitle":"热带海岛，中国唯一的自由贸易港","geoSub":"先认清格局再排行程：东线玩阳光海岸、中线探雨林民族、西线看原始秘境。","intro":["海南是中国唯一的热带海岛省：三亚的亚龙湾与蜈支洲岛、海口的骑楼老街与火山口撑起东线阳光海岸；保亭呀诺达与五指山是中线的热带雨林与黎苗村寨；儋州古盐田、昌江棋子湾与乐东尖峰岭则是人少景美的原始西线，再加上文昌航天城与博鳌论坛，海岛多元而年轻。","本页按 12 个市县整理精选停靠点、地方代表味道与省内环线；带 ★ 的是重点停靠点，免费景点标「免费」；数据为整理版本（坐标 GCJ-02），门票与邮轮政策随季节调整，出行前以景区与官方公告为准。"],"facts":[["面积","陆地 3.54 万 km² + 海域约 200 万 km²"],["常住人口","1043 万（2023 年末）"],["行政区","4 地级市 + 5 县级市 + 4 县 + 6 自治县（省直辖）"],["省会","海口"],["最高峰","五指山 1867 m"],["定位","海南自由贸易港（2025 全岛封关运作）"]],"regions":[["东线 · 阳光海岸","海口、文昌、琼海、万宁、陵水、三亚：椰林、海湾与航天城，海南最成熟的度假海岸带。"],["中线 · 雨林民族","五指山、保亭：热带雨林国家公园与黎苗村寨，海南的绿色心脏与民族文化。"],["西线 · 原始秘境","儋州、昌江、乐东：古盐田、棋子湾与尖峰岭，人少景美的原始西海岸。"]]},"cities":[{"id":"haikou","name":"海口","lat":20.04189,"lng":110.20329,"role":"省会 · 椰城","desc":"骑楼老街、火山口与观澜湖：海南门户，南洋风情的百年商埠与免税城。","spots":["qilou","huoshankou","guanyinhu"],"cap":true},{"id":"sanya","name":"三亚","lat":18.25129,"lng":109.51608,"role":"东方夏威夷 · 度假天堂","desc":"亚龙湾、蜈支洲岛与天涯海角：中国最南的热带滨海度假城市。","spots":["yalongwan","wuzhizhou","tianyahaijiao","nanshan","dadonghai"]},{"id":"danzhou","name":"儋州","lat":19.51903,"lng":109.58501,"role":"西部中心 · 诗乡","desc":"千年古盐田与东坡书院：苏东坡谪居地，洋浦港与海花岛的西部门户。","spots":["gumyantian","dongpo"]},{"id":"qionghai","name":"琼海","lat":19.25636,"lng":110.47636,"role":"博鳌论坛 · 万泉河","desc":"博鳌亚洲论坛会址与玉带滩：万泉河入海口的小城，医疗旅游先行区。","spots":["boao","yudaitan"]},{"id":"wanning","name":"万宁","lat":18.79444,"lng":110.39341,"role":"冲浪之都 · 侨乡","desc":"石梅湾、日月湾与东山岭：中国冲浪胜地，兴隆咖啡与东南亚归侨风情。","spots":["shimeiwan","riyuewan","dongshanling"]},{"id":"wenchang","name":"文昌","lat":19.61116,"lng":110.75745,"role":"航天城 · 椰子之乡","desc":"文昌航天发射场、铜鼓岭与东郊椰林：中国最南的航天母港与文昌鸡故乡。","spots":["hangtian","tongguling","dongjiao"]},{"id":"lingshui","name":"陵水","lat":18.50437,"lng":110.04128,"role":"珍珠海岸","desc":"分界洲岛、清水湾与南湾猴岛：会唱歌的沙滩与潜水海岛，黎族聚居地。","spots":["fenjiezhou","qingshuiwan","nanwan"]},{"id":"baoting","name":"保亭","lat":18.63521,"lng":109.70713,"role":"雨林温泉 · 黎苗之乡","desc":"呀诺达、槟榔谷与七仙岭：热带雨林、黎苗非遗与雨林温泉的秘境。","spots":["yanoda","binglanggu","qixianling"]},{"id":"wuzhishan","name":"五指山","lat":18.7732,"lng":109.52109,"role":"海南屋脊 · 翡翠山城","desc":"五指山热带雨林与牙胡梯田：海南最高峰，黎族文化与雨林国家公园核心。","spots":["wuzhishanfeng","yahu"]},{"id":"changjiang","name":"昌江","lat":19.29641,"lng":109.05811,"role":"山海黎乡 · 西海岸","desc":"棋子湾与霸王岭：西海岸最美落日海湾，海南长臂猿的雨林家园。","spots":["qiziwan","bawangling"]},{"id":"ledong","name":"乐东","lat":18.74434,"lng":109.1791,"role":"尖峰天池 · 盐场","desc":"尖峰岭与莺歌海盐场：中国最美森林之一的天池，南方最大海盐场。","spots":["jianfengling","yinggehai"]},{"id":"chengmai","name":"澄迈","lat":19.7361,"lng":110.01025,"role":"长寿之乡 · 咖啡","desc":"福山咖啡与永庆寺：世界长寿之乡，海口西郊的咖啡小镇与火山古村。","spots":["fushan"]}],"spots":[{"id":"qilou","name":"骑楼老街","cat":"culture","catName":"人文","city":"haikou","desc":"南洋风格百年商埠：中山路与得胜沙的骑楼群，海口的烟火与历史。","img":"assets/images/hai_qilou.jpg","season":"全年","free":true,"key":true,"lat":20.03397,"lng":110.34639},{"id":"huoshankou","name":"雷琼火山口","cat":"mountain","catName":"山岳·徒步","city":"haikou","desc":"万年火山地质公园：火山口与熔岩隧道，海口石山镇的黑豆腐与荔枝。","img":"assets/images/hai_huoshankou.jpg","ticket":"60 元","season":"全年","lat":19.89797,"lng":110.27425},{"id":"guanyinhu","name":"观澜湖电影公社","cat":"culture","catName":"人文","city":"haikou","desc":"冯小刚电影主题街区：民国街与南洋街，电影取景地与温泉度假区。","img":"assets/images/hai_guanlanhu.jpg","ticket":"各街区","season":"全年","lat":19.93797,"lng":110.3043},{"id":"yalongwan","name":"亚龙湾","cat":"scenery","catName":"景色","city":"sanya","desc":"「天下第一湾」：7 公里银沙与清澈海水，海南最高端的度假海湾。","img":"assets/images/hai_yalongwan.jpg","season":"11 月–次年 4 月","free":true,"key":true,"lat":18.2082,"lng":109.64399},{"id":"wuzhizhou","name":"蜈支洲岛","cat":"scenery","catName":"景色","city":"sanya","desc":"中国的马尔代夫：潜水天堂与情人岛，海水能见度与珊瑚礁最佳。","img":"assets/images/hai_wuzhizhou.jpg","ticket":"船票+门票 168 元","season":"全年，潜水","key":true,"lat":18.31831,"lng":109.76416},{"id":"tianyahaijiao","name":"天涯海角","cat":"landmark","catName":"地标","city":"sanya","desc":"「天涯」与「海角」巨石：中国最南的浪漫地标，爱情的象征。","img":"assets/images/hai_tianyahaijiao.jpg","ticket":"81 元","season":"全年","key":true,"lat":18.23452,"lng":109.40428},{"id":"nanshan","name":"南山文化旅游区","cat":"culture","catName":"人文","city":"sanya","desc":"108 米海上观音：佛教文化园与不二法门，三亚湾西端的地标。","img":"assets/images/hai_nanshan.jpg","ticket":"129 元","season":"全年","key":true,"lat":18.28835,"lng":109.21403},{"id":"dadonghai","name":"大东海","cat":"scenery","catName":"景色","city":"sanya","desc":"市区最方便的海湾：免费开放，沙滩平缓、夜生活丰富，背包客聚集地。","img":"assets/images/hai_dadonghai.jpg","season":"全年","free":true,"lat":18.22831,"lng":109.51409},{"id":"gumyantian","name":"千年古盐田","cat":"culture","catName":"人文","city":"danzhou","desc":"洋浦 1200 年古法晒盐：千余个砚式石盐槽，中国保存最完整的古盐场。","img":"assets/images/hai_gumyantian.jpg","season":"全年","free":true,"key":true,"lat":19.72813,"lng":109.20411},{"id":"dongpo","name":"东坡书院","cat":"culture","catName":"人文","city":"danzhou","desc":"苏轼谪居儋州讲学处：载酒堂与东坡井，海南文脉的源头之一。","img":"assets/images/hai_dongpo.jpg","ticket":"10 元","season":"全年","lat":19.67813,"lng":109.28412},{"id":"boao","name":"博鳌亚洲论坛会址","cat":"landmark","catName":"地标","city":"qionghai","desc":"博鳌亚洲论坛永久会址：万泉河入海口，中国面向亚洲的外交小镇。","img":"assets/images/hai_boao.jpg","ticket":"128 元","season":"全年，年会期","key":true,"lat":19.15811,"lng":110.58413},{"id":"yudaitan","name":"玉带滩","cat":"scenery","catName":"景色","city":"qionghai","desc":"博鳌河海分界沙洲：一侧万泉河一侧南海， Guinness 记录的狭长沙滩。","img":"assets/images/hai_yudaitan.jpg","season":"全年","lat":19.1681,"lng":110.59413},{"id":"shimeiwan","name":"石梅湾","cat":"scenery","catName":"景色","city":"wanning","desc":"青皮林与加井岛：《非诚勿扰2》取景地，艾美酒店与宁静海湾。","img":"assets/images/hai_shimeiwan.jpg","season":"11 月–次年 4 月","key":true,"lat":18.6983,"lng":110.30424},{"id":"riyuewan","name":"日月湾","cat":"scenery","catName":"景色","city":"wanning","desc":"中国冲浪之都：常年浪况稳定，国内外冲浪爱好者的聚集海湾。","img":"assets/images/hai_riyuewan.jpg","season":"全年冲浪","key":true,"lat":18.61842,"lng":110.37438},{"id":"dongshanling","name":"东山岭","cat":"mountain","catName":"山岳·徒步","city":"wanning","desc":"「海南第一山」：摩崖石刻与潮音寺，东山羊的原产地。","img":"assets/images/hai_dongshanling.jpg","ticket":"50 元","season":"全年","lat":18.78844,"lng":110.39441},{"id":"hangtian","name":"文昌航天发射场","cat":"landmark","catName":"地标","city":"wenchang","desc":"中国最南的航天母港：龙楼镇可近距离观看火箭发射，航天科普中心。","img":"assets/images/hai_hangtian.jpg","ticket":"发射观礼另计","season":"看发射日历","key":true,"lat":19.61803,"lng":110.85438},{"id":"tongguling","name":"铜鼓岭","cat":"mountain","catName":"山岳·徒步","city":"wenchang","desc":"海南东海岸最高峰：俯瞰月亮湾与铜鼓角，原始海岸与观日胜地。","img":"assets/images/hai_tongguling.jpg","ticket":"40 元","season":"全年","lat":19.65797,"lng":110.87437},{"id":"dongjiao","name":"东郊椰林","cat":"scenery","catName":"景色","city":"wenchang","desc":"「文昌椰子半海南」：十里椰林海岸与清澜港，文昌鸡与椰子饭。","img":"assets/images/hai_dongjiao.jpg","season":"全年","lat":19.58808,"lng":110.8344},{"id":"fenjiezhou","name":"分界洲岛","cat":"scenery","catName":"景色","city":"lingshui","desc":"潜水与海洋动物互动：海南南北气候分界岭下的海岛，水质清澈。","img":"assets/images/hai_fenjiezhou.jpg","ticket":"船票+门票 150 元","season":"全年","key":true,"lat":18.57834,"lng":110.18425},{"id":"qingshuiwan","name":"清水湾","cat":"scenery","catName":"景色","city":"lingshui","desc":"「会唱歌的沙滩」：沙质细腻走上去发声，高端度假与高尔夫。","img":"assets/images/hai_qingshuiwan.jpg","season":"11 月–次年 4 月","key":true,"lat":18.4984,"lng":110.05431},{"id":"nanwan","name":"南湾猴岛","cat":"scenery","catName":"景色","city":"lingshui","desc":"猕猴自然保护区：跨海缆车与猕猴表演，半岛上的野生猴群。","img":"assets/images/hai_nanwan.jpg","ticket":"158 元含缆车","season":"全年","lat":18.39838,"lng":110.03425},{"id":"yanoda","name":"呀诺达雨林","cat":"scenery","catName":"景色","city":"baoting","desc":"热带雨林文化区：踏瀑戏水与高空滑索，北纬 18° 的雨林奇观。","img":"assets/images/hai_yanoda.jpg","ticket":"155 元","season":"全年","key":true,"lat":18.41828,"lng":109.74416},{"id":"binglanggu","name":"槟榔谷","cat":"culture","catName":"人文","city":"baoting","desc":"黎苗文化活态博物馆：非遗村寨与实景演出，海南原住民文化窗口。","img":"assets/images/hai_binglanggu.jpg","ticket":"98 元","season":"全年","key":true,"lat":18.46823,"lng":109.70412},{"id":"qixianling","name":"七仙岭","cat":"mountain","catName":"山岳·徒步","city":"baoting","desc":"雨林温泉：七座山峰如指，山脚的天然热泉与热带植物园。","img":"assets/images/hai_qixianling.jpg","ticket":"各温泉分售","season":"全年，温泉","lat":18.61824,"lng":109.72415},{"id":"wuzhishanfeng","name":"五指山热带雨林","cat":"mountain","catName":"山岳·徒步","city":"wuzhishan","desc":"海南最高峰 1867 m：热带雨林国家公园核心，五指状峰峦与云雾。","img":"assets/images/hai_wuzhishanfeng.jpg","ticket":"各景点","season":"全年","key":true,"lat":18.87818,"lng":109.6841},{"id":"yahu","name":"牙胡梯田","cat":"scenery","catName":"景色","city":"wuzhishan","desc":"海南最美梯田：层层叠叠的稻浪与云雾，摄影与农耕景观。","img":"assets/images/hai_yahu.jpg","season":"5–6 月灌水，9–10 月稻黄","free":true,"lat":18.94808,"lng":109.60398},{"id":"qiziwan","name":"棋子湾","cat":"scenery","catName":"景色","city":"changjiang","desc":"西海岸最美海湾：落日、礁石与银沙，海南最干净的原始海岸之一。","img":"assets/images/hai_qiziwan.jpg","season":"11 月–次年 4 月","key":true,"lat":19.34812,"lng":108.95376},{"id":"bawangling","name":"霸王岭","cat":"mountain","catName":"山岳·徒步","city":"changjiang","desc":"热带雨林与海南长臂猿：中国唯一长臂猿栖息地，原始森林徒步。","img":"assets/images/hai_bawangling.jpg","ticket":"40 元","season":"全年","lat":19.14841,"lng":109.05409},{"id":"jianfengling","name":"尖峰岭","cat":"mountain","catName":"山岳·徒步","city":"ledong","desc":"中国最美十大森林：主峰天池与热带雨林，避暑与观鸟胜地。","img":"assets/images/hai_jianfengling.jpg","ticket":"50 元","season":"全年","key":true,"lat":18.72809,"lng":108.87366},{"id":"yinggehai","name":"莺歌海盐场","cat":"scenery","catName":"景色","city":"ledong","desc":"南方最大海盐场：天空之镜般的盐田与落日，工业景观摄影地。","img":"assets/images/hai_yinggehai.jpg","season":"全年，傍晚","free":true,"lat":18.49822,"lng":108.7037},{"id":"fushan","name":"福山咖啡小镇","cat":"culture","catName":"人文","city":"chengmai","desc":"中国咖啡文化名镇：福山咖啡与长寿之乡，火山岩土壤的咖啡馆。","img":"assets/images/hai_fushan.jpg","season":"全年","lat":19.74802,"lng":109.98417}],"foods":[{"name":"文昌鸡","city":"wenchang","cityName":"文昌","desc":"海南四大名菜之首：白切皮黄骨酥、肉质嫩滑，配鸡油饭与橘酱。","img":"assets/images/fd_hai_01.jpg"},{"name":"东山羊","city":"wanning","cityName":"万宁","desc":"四大名菜：东山岭放养黑山羊，红焖或白切，皮脆肉嫩、无膻味。","img":"assets/images/fd_hai_02.jpg"},{"name":"和乐蟹","city":"wanning","cityName":"万宁","desc":"四大名菜：港北港青蟹膏满肉肥，清蒸最鲜，海南蟹中之王。","img":"assets/images/fd_hai_03.jpg"},{"name":"嘉积鸭","city":"qionghai","cityName":"琼海","desc":"四大名菜：万泉河番鸭，白切或板鸭，皮薄肉嫩、肥而不腻。","img":"assets/images/fd_hai_04.jpg"},{"name":"海南粉","city":"haikou","cityName":"海口","desc":"腌粉配酸菜花生与牛肉干：海口人的早餐，拌粉与汤粉两吃。","img":"assets/images/fd_hai_05.jpg"},{"name":"三亚海鲜","city":"sanya","cityName":"三亚","desc":"第一市场自选海鲜加工：和乐蟹、龙虾与芒果螺，现挑现做最划算。","img":"assets/images/fd_hai_06.jpg"},{"name":"陵水酸粉","city":"lingshui","cityName":"陵水","desc":"细粉配酸汤与小鱼干、牛肉干：酸辣开胃，海南南部的特色腌粉。","img":"assets/images/fd_hai_07.jpg"},{"name":"福山咖啡","city":"chengmai","cityName":"澄迈","desc":"火山岩土壤种的罗布斯塔咖啡：炭烧浓香，配咖啡糕的长寿乡味道。","img":"assets/images/fd_hai_08.jpg"}],"loops":[{"name":"东线阳光海岸环线","days":"5–6 天","km":"约 400 km","desc":"海口→文昌→琼海→万宁→陵水→三亚的经典东线：航天城、博鳌、冲浪与海岛。","path":"海口(骑楼·火山口) → 文昌(航天发射场·铜鼓岭) → 琼海(博鳌·玉带滩) → 万宁(石梅湾·日月湾) → 陵水(分界洲岛) → 三亚 → 海口","note":"东线高速最成熟；文昌看火箭发射查日历；蜈支洲岛与分界洲岛潜水需提前订船票。","pts":[[20.04189,110.20329,"海口"],[19.61116,110.75745,"文昌"],[19.61803,110.85438,"文昌航天发射场"],[19.25636,110.47636,"琼海"],[19.15811,110.58413,"博鳌"],[18.79444,110.39341,"万宁"],[18.6983,110.30424,"石梅湾"],[18.50437,110.04128,"陵水"],[18.57834,110.18425,"分界洲岛"],[18.25129,109.51608,"三亚"],[20.04189,110.20329,"海口"]]},{"name":"西线原始秘境环线","days":"4–5 天","km":"约 500 km","desc":"三亚→乐东→昌江→儋州→海口的西线：尖峰岭、棋子湾、古盐田，人少景美。","path":"三亚 → 乐东(尖峰岭·莺歌海盐场) → 昌江(棋子湾·霸王岭) → 儋州(千年古盐田·东坡书院) → 海口 → 三亚","note":"西线高速路况好但景点分散；尖峰岭天池需上山；棋子湾看落日；古盐田在洋浦。","pts":[[18.25129,109.51608,"三亚"],[18.74434,109.1791,"乐东"],[18.72809,108.87366,"尖峰岭"],[19.29641,109.05811,"昌江"],[19.34812,108.95376,"棋子湾"],[19.51903,109.58501,"儋州"],[19.72813,109.20411,"千年古盐田"],[20.04189,110.20329,"海口"],[18.25129,109.51608,"三亚"]]},{"name":"中线雨林民族环线","days":"3–4 天","km":"约 350 km","desc":"三亚→保亭→五指山的中线：呀诺达、槟榔谷与五指山雨林，黎苗文化与温泉。","path":"三亚 → 保亭(呀诺达·槟榔谷·七仙岭温泉) → 五指山(热带雨林·牙胡梯田) → 海口 → 三亚","note":"中线山路弯多备晕车药；呀诺达踏瀑戏水备换洗衣物；五指山雨林徒步防滑防蚊。","pts":[[18.25129,109.51608,"三亚"],[18.63521,109.70713,"保亭"],[18.41828,109.74416,"呀诺达"],[18.46823,109.70412,"槟榔谷"],[18.61824,109.72415,"七仙岭"],[18.7732,109.52109,"五指山"],[18.87818,109.6841,"五指山雨林"],[20.04189,110.20329,"海口"],[18.25129,109.51608,"三亚"]]},{"name":"三亚海岛度假短线","days":"2–3 天","km":"约 120 km","desc":"三亚市内的海湾与海岛精华：亚龙湾、蜈支洲岛、天涯海角与南山。","path":"三亚(亚龙湾) → 蜈支洲岛 → 天涯海角 → 南山文化旅游区 → 三亚","note":"蜈支洲岛潜水与水上项目最全；南山海上观音需大半天；天涯海角与南山同在市区西。","pts":[[18.25129,109.51608,"三亚"],[18.2082,109.64399,"亚龙湾"],[18.31831,109.76416,"蜈支洲岛"],[18.23452,109.40428,"天涯海角"],[18.28835,109.21403,"南山"],[18.25129,109.51608,"三亚"]]}],"tips":[["三亚","亚龙湾沙质最好、蜈支洲岛潜水最美、大东海最方便；旺季（春节）房价翻数倍需早订。"],["海岛潜水","蜈支洲岛、分界洲岛、西岛需坐船，晕船备药；潜水选正规俱乐部，遵守珊瑚保护规定。"],["雨林","呀诺达、五指山、霸王岭是热带雨林，徒步防滑防蚊；霸王岭与尖峰岭可遇海南长臂猿。"],["西沙","三沙西沙群岛仅对中国公民开放，需从三亚凤凰岛坐邮轮并提前政审，行程受海况影响大。"],["季节","11 月–次年 4 月是黄金季（干爽避寒）；5–10 月炎热多雨且有台风，出行务必看台风预警。"]]};
+PROV_DATA.hainan = {
+ "meta": {
+  "id": "hainan",
+  "name": "海南",
+  "en": "Hainan",
+  "capital": "海口",
+  "tagline": "热带海岛 · 阳光海岸 · 自贸港",
+  "geoTitle": "热带海岛，中国唯一的自由贸易港",
+  "geoSub": "先认清格局再排行程：东线玩阳光海岸、中线探雨林民族、西线看原始秘境。",
+  "intro": [
+   "海南是中国唯一的热带海岛省：三亚的亚龙湾与蜈支洲岛、海口的骑楼老街与火山口撑起东线阳光海岸；保亭呀诺达与五指山是中线的热带雨林与黎苗村寨；儋州古盐田、昌江棋子湾与乐东尖峰岭则是人少景美的原始西线，再加上文昌航天城与博鳌论坛，海岛多元而年轻。",
+   "本页按 12 个市县整理精选停靠点、地方代表味道与省内环线；带 ★ 的是重点停靠点，免费景点标「免费」；数据为整理版本（坐标 GCJ-02），门票与邮轮政策随季节调整，出行前以景区与官方公告为准。"
+  ],
+  "facts": [
+   [
+    "面积",
+    "陆地 3.54 万 km² + 海域约 200 万 km²"
+   ],
+   [
+    "常住人口",
+    "1043 万（2023 年末）"
+   ],
+   [
+    "行政区",
+    "4 地级市 + 5 县级市 + 4 县 + 6 自治县（省直辖）"
+   ],
+   [
+    "省会",
+    "海口"
+   ],
+   [
+    "最高峰",
+    "五指山 1867 m"
+   ],
+   [
+    "定位",
+    "海南自由贸易港（2025 全岛封关运作）"
+   ]
+  ],
+  "regions": [
+   [
+    "东线 · 阳光海岸",
+    "海口、文昌、琼海、万宁、陵水、三亚：椰林、海湾与航天城，海南最成熟的度假海岸带。"
+   ],
+   [
+    "中线 · 雨林民族",
+    "五指山、保亭：热带雨林国家公园与黎苗村寨，海南的绿色心脏与民族文化。"
+   ],
+   [
+    "西线 · 原始秘境",
+    "儋州、昌江、乐东：古盐田、棋子湾与尖峰岭，人少景美的原始西海岸。"
+   ]
+  ]
+ },
+ "cities": [
+  {
+   "id": "haikou",
+   "name": "海口",
+   "lat": 20.04189,
+   "lng": 110.20329,
+   "role": "省会 · 椰城",
+   "desc": "骑楼老街、火山口与观澜湖：海南门户，南洋风情的百年商埠与免税城。",
+   "spots": [
+    "qilou",
+    "huoshankou",
+    "guanyinhu"
+   ],
+   "cap": true
+  },
+  {
+   "id": "sanya",
+   "name": "三亚",
+   "lat": 18.25129,
+   "lng": 109.51608,
+   "role": "东方夏威夷 · 度假天堂",
+   "desc": "亚龙湾、蜈支洲岛与天涯海角：中国最南的热带滨海度假城市。",
+   "spots": [
+    "yalongwan",
+    "wuzhizhou",
+    "tianyahaijiao",
+    "nanshan",
+    "dadonghai"
+   ]
+  },
+  {
+   "id": "danzhou",
+   "name": "儋州",
+   "lat": 19.51903,
+   "lng": 109.58501,
+   "role": "西部中心 · 诗乡",
+   "desc": "千年古盐田与东坡书院：苏东坡谪居地，洋浦港与海花岛的西部门户。",
+   "spots": [
+    "gumyantian",
+    "dongpo"
+   ]
+  },
+  {
+   "id": "qionghai",
+   "name": "琼海",
+   "lat": 19.25636,
+   "lng": 110.47636,
+   "role": "博鳌论坛 · 万泉河",
+   "desc": "博鳌亚洲论坛会址与玉带滩：万泉河入海口的小城，医疗旅游先行区。",
+   "spots": [
+    "boao",
+    "yudaitan"
+   ]
+  },
+  {
+   "id": "wanning",
+   "name": "万宁",
+   "lat": 18.79444,
+   "lng": 110.39341,
+   "role": "冲浪之都 · 侨乡",
+   "desc": "石梅湾、日月湾与东山岭：中国冲浪胜地，兴隆咖啡与东南亚归侨风情。",
+   "spots": [
+    "shimeiwan",
+    "riyuewan",
+    "dongshanling"
+   ]
+  },
+  {
+   "id": "wenchang",
+   "name": "文昌",
+   "lat": 19.61116,
+   "lng": 110.75745,
+   "role": "航天城 · 椰子之乡",
+   "desc": "文昌航天发射场、铜鼓岭与东郊椰林：中国最南的航天母港与文昌鸡故乡。",
+   "spots": [
+    "hangtian",
+    "tongguling",
+    "dongjiao"
+   ]
+  },
+  {
+   "id": "lingshui",
+   "name": "陵水",
+   "lat": 18.50437,
+   "lng": 110.04128,
+   "role": "珍珠海岸",
+   "desc": "分界洲岛、清水湾与南湾猴岛：会唱歌的沙滩与潜水海岛，黎族聚居地。",
+   "spots": [
+    "fenjiezhou",
+    "qingshuiwan",
+    "nanwan"
+   ]
+  },
+  {
+   "id": "baoting",
+   "name": "保亭",
+   "lat": 18.63521,
+   "lng": 109.70713,
+   "role": "雨林温泉 · 黎苗之乡",
+   "desc": "呀诺达、槟榔谷与七仙岭：热带雨林、黎苗非遗与雨林温泉的秘境。",
+   "spots": [
+    "yanoda",
+    "binglanggu",
+    "qixianling"
+   ]
+  },
+  {
+   "id": "wuzhishan",
+   "name": "五指山",
+   "lat": 18.7732,
+   "lng": 109.52109,
+   "role": "海南屋脊 · 翡翠山城",
+   "desc": "五指山热带雨林与牙胡梯田：海南最高峰，黎族文化与雨林国家公园核心。",
+   "spots": [
+    "wuzhishanfeng",
+    "yahu"
+   ]
+  },
+  {
+   "id": "changjiang",
+   "name": "昌江",
+   "lat": 19.29641,
+   "lng": 109.05811,
+   "role": "山海黎乡 · 西海岸",
+   "desc": "棋子湾与霸王岭：西海岸最美落日海湾，海南长臂猿的雨林家园。",
+   "spots": [
+    "qiziwan",
+    "bawangling"
+   ]
+  },
+  {
+   "id": "ledong",
+   "name": "乐东",
+   "lat": 18.74434,
+   "lng": 109.1791,
+   "role": "尖峰天池 · 盐场",
+   "desc": "尖峰岭与莺歌海盐场：中国最美森林之一的天池，南方最大海盐场。",
+   "spots": [
+    "jianfengling",
+    "yinggehai"
+   ]
+  },
+  {
+   "id": "chengmai",
+   "name": "澄迈",
+   "lat": 19.7361,
+   "lng": 110.01025,
+   "role": "长寿之乡 · 咖啡",
+   "desc": "福山咖啡与永庆寺：世界长寿之乡，海口西郊的咖啡小镇与火山古村。",
+   "spots": [
+    "fushan"
+   ]
+  }
+ ],
+ "spots": [
+  {
+   "id": "qilou",
+   "name": "骑楼老街",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "haikou",
+   "desc": "南洋风格百年商埠：中山路与得胜沙的骑楼群，海口的烟火与历史。",
+   "img": "assets/images/hai_qilou.jpg",
+   "season": "全年",
+   "free": true,
+   "key": true,
+   "lat": 20.03397,
+   "lng": 110.34639
+  },
+  {
+   "id": "huoshankou",
+   "name": "雷琼火山口",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "haikou",
+   "desc": "万年火山地质公园：火山口与熔岩隧道，海口石山镇的黑豆腐与荔枝。",
+   "img": "assets/images/hai_huoshankou.jpg",
+   "ticket": "60 元",
+   "season": "全年",
+   "lat": 19.89797,
+   "lng": 110.27425
+  },
+  {
+   "id": "guanyinhu",
+   "name": "观澜湖电影公社",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "haikou",
+   "desc": "冯小刚电影主题街区：民国街与南洋街，电影取景地与温泉度假区。",
+   "img": "assets/images/hai_guanlanhu.jpg",
+   "ticket": "各街区",
+   "season": "全年",
+   "lat": 19.93797,
+   "lng": 110.3043
+  },
+  {
+   "id": "yalongwan",
+   "name": "亚龙湾",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "sanya",
+   "desc": "「天下第一湾」：7 公里银沙与清澈海水，海南最高端的度假海湾。",
+   "img": "assets/images/hai_yalongwan.jpg",
+   "season": "11 月–次年 4 月",
+   "free": true,
+   "key": true,
+   "lat": 18.2082,
+   "lng": 109.64399
+  },
+  {
+   "id": "wuzhizhou",
+   "name": "蜈支洲岛",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "sanya",
+   "desc": "中国的马尔代夫：潜水天堂与情人岛，海水能见度与珊瑚礁最佳。",
+   "img": "assets/images/hai_wuzhizhou.jpg",
+   "ticket": "船票+门票 168 元",
+   "season": "全年，潜水",
+   "key": true,
+   "lat": 18.31831,
+   "lng": 109.76416
+  },
+  {
+   "id": "tianyahaijiao",
+   "name": "天涯海角",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "sanya",
+   "desc": "「天涯」与「海角」巨石：中国最南的浪漫地标，爱情的象征。",
+   "img": "assets/images/hai_tianyahaijiao.jpg",
+   "ticket": "81 元",
+   "season": "全年",
+   "key": true,
+   "lat": 18.23452,
+   "lng": 109.40428
+  },
+  {
+   "id": "nanshan",
+   "name": "南山文化旅游区",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "sanya",
+   "desc": "108 米海上观音：佛教文化园与不二法门，三亚湾西端的地标。",
+   "img": "assets/images/hai_nanshan.jpg",
+   "ticket": "129 元",
+   "season": "全年",
+   "key": true,
+   "lat": 18.28835,
+   "lng": 109.21403
+  },
+  {
+   "id": "dadonghai",
+   "name": "大东海",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "sanya",
+   "desc": "市区最方便的海湾：免费开放，沙滩平缓、夜生活丰富，背包客聚集地。",
+   "img": "assets/images/hai_dadonghai.jpg",
+   "season": "全年",
+   "free": true,
+   "lat": 18.22831,
+   "lng": 109.51409
+  },
+  {
+   "id": "gumyantian",
+   "name": "千年古盐田",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "danzhou",
+   "desc": "洋浦 1200 年古法晒盐：千余个砚式石盐槽，中国保存最完整的古盐场。",
+   "img": "assets/images/hai_gumyantian.jpg",
+   "season": "全年",
+   "free": true,
+   "key": true,
+   "lat": 19.72813,
+   "lng": 109.20411
+  },
+  {
+   "id": "dongpo",
+   "name": "东坡书院",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "danzhou",
+   "desc": "苏轼谪居儋州讲学处：载酒堂与东坡井，海南文脉的源头之一。",
+   "img": "assets/images/hai_dongpo.jpg",
+   "ticket": "10 元",
+   "season": "全年",
+   "lat": 19.67813,
+   "lng": 109.28412
+  },
+  {
+   "id": "boao",
+   "name": "博鳌亚洲论坛会址",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "qionghai",
+   "desc": "博鳌亚洲论坛永久会址：万泉河入海口，中国面向亚洲的外交小镇。",
+   "img": "assets/images/hai_boao.jpg",
+   "ticket": "128 元",
+   "season": "全年，年会期",
+   "key": true,
+   "lat": 19.15811,
+   "lng": 110.58413
+  },
+  {
+   "id": "yudaitan",
+   "name": "玉带滩",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "qionghai",
+   "desc": "博鳌河海分界沙洲：一侧万泉河一侧南海， Guinness 记录的狭长沙滩。",
+   "img": "assets/images/hai_yudaitan.jpg",
+   "season": "全年",
+   "lat": 19.1681,
+   "lng": 110.59413
+  },
+  {
+   "id": "shimeiwan",
+   "name": "石梅湾",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "wanning",
+   "desc": "青皮林与加井岛：《非诚勿扰2》取景地，艾美酒店与宁静海湾。",
+   "img": "assets/images/hai_shimeiwan.jpg",
+   "season": "11 月–次年 4 月",
+   "key": true,
+   "lat": 18.6983,
+   "lng": 110.30424
+  },
+  {
+   "id": "riyuewan",
+   "name": "日月湾",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "wanning",
+   "desc": "中国冲浪之都：常年浪况稳定，国内外冲浪爱好者的聚集海湾。",
+   "img": "assets/images/hai_riyuewan.jpg",
+   "season": "全年冲浪",
+   "key": true,
+   "lat": 18.61842,
+   "lng": 110.37438
+  },
+  {
+   "id": "dongshanling",
+   "name": "东山岭",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "wanning",
+   "desc": "「海南第一山」：摩崖石刻与潮音寺，东山羊的原产地。",
+   "img": "assets/images/hai_dongshanling.jpg",
+   "ticket": "50 元",
+   "season": "全年",
+   "lat": 18.78844,
+   "lng": 110.39441
+  },
+  {
+   "id": "hangtian",
+   "name": "文昌航天发射场",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "wenchang",
+   "desc": "中国最南的航天母港：龙楼镇可近距离观看火箭发射，航天科普中心。",
+   "img": "assets/images/hai_hangtian.jpg",
+   "ticket": "发射观礼另计",
+   "season": "看发射日历",
+   "key": true,
+   "lat": 19.61803,
+   "lng": 110.85438
+  },
+  {
+   "id": "tongguling",
+   "name": "铜鼓岭",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "wenchang",
+   "desc": "海南东海岸最高峰：俯瞰月亮湾与铜鼓角，原始海岸与观日胜地。",
+   "img": "assets/images/hai_tongguling.jpg",
+   "ticket": "40 元",
+   "season": "全年",
+   "lat": 19.65797,
+   "lng": 110.87437
+  },
+  {
+   "id": "dongjiao",
+   "name": "东郊椰林",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "wenchang",
+   "desc": "「文昌椰子半海南」：十里椰林海岸与清澜港，文昌鸡与椰子饭。",
+   "img": "assets/images/hai_dongjiao.jpg",
+   "season": "全年",
+   "lat": 19.58808,
+   "lng": 110.8344
+  },
+  {
+   "id": "fenjiezhou",
+   "name": "分界洲岛",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "lingshui",
+   "desc": "潜水与海洋动物互动：海南南北气候分界岭下的海岛，水质清澈。",
+   "img": "assets/images/hai_fenjiezhou.jpg",
+   "ticket": "船票+门票 150 元",
+   "season": "全年",
+   "key": true,
+   "lat": 18.57834,
+   "lng": 110.18425
+  },
+  {
+   "id": "qingshuiwan",
+   "name": "清水湾",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "lingshui",
+   "desc": "「会唱歌的沙滩」：沙质细腻走上去发声，高端度假与高尔夫。",
+   "img": "assets/images/hai_qingshuiwan.jpg",
+   "season": "11 月–次年 4 月",
+   "key": true,
+   "lat": 18.4984,
+   "lng": 110.05431
+  },
+  {
+   "id": "nanwan",
+   "name": "南湾猴岛",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "lingshui",
+   "desc": "猕猴自然保护区：跨海缆车与猕猴表演，半岛上的野生猴群。",
+   "img": "assets/images/hai_nanwan.jpg",
+   "ticket": "158 元含缆车",
+   "season": "全年",
+   "lat": 18.39838,
+   "lng": 110.03425
+  },
+  {
+   "id": "yanoda",
+   "name": "呀诺达雨林",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "baoting",
+   "desc": "热带雨林文化区：踏瀑戏水与高空滑索，北纬 18° 的雨林奇观。",
+   "img": "assets/images/hai_yanoda.jpg",
+   "ticket": "155 元",
+   "season": "全年",
+   "key": true,
+   "lat": 18.41828,
+   "lng": 109.74416
+  },
+  {
+   "id": "binglanggu",
+   "name": "槟榔谷",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "baoting",
+   "desc": "黎苗文化活态博物馆：非遗村寨与实景演出，海南原住民文化窗口。",
+   "img": "assets/images/hai_binglanggu.jpg",
+   "ticket": "98 元",
+   "season": "全年",
+   "key": true,
+   "lat": 18.46823,
+   "lng": 109.70412
+  },
+  {
+   "id": "qixianling",
+   "name": "七仙岭",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "baoting",
+   "desc": "雨林温泉：七座山峰如指，山脚的天然热泉与热带植物园。",
+   "img": "assets/images/hai_qixianling.jpg",
+   "ticket": "各温泉分售",
+   "season": "全年，温泉",
+   "lat": 18.61824,
+   "lng": 109.72415
+  },
+  {
+   "id": "wuzhishanfeng",
+   "name": "五指山热带雨林",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "wuzhishan",
+   "desc": "海南最高峰 1867 m：热带雨林国家公园核心，五指状峰峦与云雾。",
+   "img": "assets/images/hai_wuzhishanfeng.jpg",
+   "ticket": "各景点",
+   "season": "全年",
+   "key": true,
+   "lat": 18.87818,
+   "lng": 109.6841
+  },
+  {
+   "id": "yahu",
+   "name": "牙胡梯田",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "wuzhishan",
+   "desc": "海南最美梯田：层层叠叠的稻浪与云雾，摄影与农耕景观。",
+   "img": "assets/images/hai_yahu.jpg",
+   "season": "5–6 月灌水，9–10 月稻黄",
+   "free": true,
+   "lat": 18.94808,
+   "lng": 109.60398
+  },
+  {
+   "id": "qiziwan",
+   "name": "棋子湾",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "changjiang",
+   "desc": "西海岸最美海湾：落日、礁石与银沙，海南最干净的原始海岸之一。",
+   "img": "assets/images/hai_qiziwan.jpg",
+   "season": "11 月–次年 4 月",
+   "key": true,
+   "lat": 19.34812,
+   "lng": 108.95376
+  },
+  {
+   "id": "bawangling",
+   "name": "霸王岭",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "changjiang",
+   "desc": "热带雨林与海南长臂猿：中国唯一长臂猿栖息地，原始森林徒步。",
+   "img": "assets/images/hai_bawangling.jpg",
+   "ticket": "40 元",
+   "season": "全年",
+   "lat": 19.14841,
+   "lng": 109.05409
+  },
+  {
+   "id": "jianfengling",
+   "name": "尖峰岭",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "ledong",
+   "desc": "中国最美十大森林：主峰天池与热带雨林，避暑与观鸟胜地。",
+   "img": "assets/images/hai_jianfengling.jpg",
+   "ticket": "50 元",
+   "season": "全年",
+   "key": true,
+   "lat": 18.72809,
+   "lng": 108.87366
+  },
+  {
+   "id": "yinggehai",
+   "name": "莺歌海盐场",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "ledong",
+   "desc": "南方最大海盐场：天空之镜般的盐田与落日，工业景观摄影地。",
+   "img": "assets/images/hai_yinggehai.jpg",
+   "season": "全年，傍晚",
+   "free": true,
+   "lat": 18.49822,
+   "lng": 108.7037
+  },
+  {
+   "id": "fushan",
+   "name": "福山咖啡小镇",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "chengmai",
+   "desc": "中国咖啡文化名镇：福山咖啡与长寿之乡，火山岩土壤的咖啡馆。",
+   "img": "assets/images/hai_fushan.jpg",
+   "season": "全年",
+   "lat": 19.74802,
+   "lng": 109.98417
+  }
+ ],
+ "foods": [
+  {
+   "name": "文昌鸡",
+   "city": "wenchang",
+   "cityName": "文昌",
+   "desc": "海南四大名菜之首：白切皮黄骨酥、肉质嫩滑，配鸡油饭与橘酱。",
+   "img": "assets/images/fd_hai_01.jpg"
+  },
+  {
+   "name": "东山羊",
+   "city": "wanning",
+   "cityName": "万宁",
+   "desc": "四大名菜：东山岭放养黑山羊，红焖或白切，皮脆肉嫩、无膻味。",
+   "img": "assets/images/fd_hai_02.jpg"
+  },
+  {
+   "name": "和乐蟹",
+   "city": "wanning",
+   "cityName": "万宁",
+   "desc": "四大名菜：港北港青蟹膏满肉肥，清蒸最鲜，海南蟹中之王。",
+   "img": "assets/images/fd_hai_03.jpg"
+  },
+  {
+   "name": "嘉积鸭",
+   "city": "qionghai",
+   "cityName": "琼海",
+   "desc": "四大名菜：万泉河番鸭，白切或板鸭，皮薄肉嫩、肥而不腻。",
+   "img": "assets/images/fd_hai_04.jpg"
+  },
+  {
+   "name": "海南粉",
+   "city": "haikou",
+   "cityName": "海口",
+   "desc": "腌粉配酸菜花生与牛肉干：海口人的早餐，拌粉与汤粉两吃。",
+   "img": "assets/images/fd_hai_05.jpg"
+  },
+  {
+   "name": "三亚海鲜",
+   "city": "sanya",
+   "cityName": "三亚",
+   "desc": "第一市场自选海鲜加工：和乐蟹、龙虾与芒果螺，现挑现做最划算。",
+   "img": "assets/images/fd_hai_06.jpg"
+  },
+  {
+   "name": "陵水酸粉",
+   "city": "lingshui",
+   "cityName": "陵水",
+   "desc": "细粉配酸汤与小鱼干、牛肉干：酸辣开胃，海南南部的特色腌粉。",
+   "img": "assets/images/fd_hai_07.jpg"
+  },
+  {
+   "name": "福山咖啡",
+   "city": "chengmai",
+   "cityName": "澄迈",
+   "desc": "火山岩土壤种的罗布斯塔咖啡：炭烧浓香，配咖啡糕的长寿乡味道。",
+   "img": "assets/images/fd_hai_08.jpg"
+  }
+ ],
+ "loops": [
+  {
+   "name": "东线阳光海岸环线",
+   "days": "5–6 天",
+   "km": "约 400 km",
+   "desc": "海口→文昌→琼海→万宁→陵水→三亚的经典东线：航天城、博鳌、冲浪与海岛。",
+   "path": "海口(骑楼·火山口) → 文昌(航天发射场·铜鼓岭) → 琼海(博鳌·玉带滩) → 万宁(石梅湾·日月湾) → 陵水(分界洲岛) → 三亚 → 海口",
+   "note": "东线高速最成熟；文昌看火箭发射查日历；蜈支洲岛与分界洲岛潜水需提前订船票。",
+   "pts": [
+    [
+     20.04189,
+     110.20329,
+     "海口"
+    ],
+    [
+     19.61116,
+     110.75745,
+     "文昌"
+    ],
+    [
+     19.61803,
+     110.85438,
+     "文昌航天发射场"
+    ],
+    [
+     19.25636,
+     110.47636,
+     "琼海"
+    ],
+    [
+     19.15811,
+     110.58413,
+     "博鳌"
+    ],
+    [
+     18.79444,
+     110.39341,
+     "万宁"
+    ],
+    [
+     18.6983,
+     110.30424,
+     "石梅湾"
+    ],
+    [
+     18.50437,
+     110.04128,
+     "陵水"
+    ],
+    [
+     18.57834,
+     110.18425,
+     "分界洲岛"
+    ],
+    [
+     18.25129,
+     109.51608,
+     "三亚"
+    ],
+    [
+     20.04189,
+     110.20329,
+     "海口"
+    ]
+   ]
+  },
+  {
+   "name": "西线原始秘境环线",
+   "days": "4–5 天",
+   "km": "约 500 km",
+   "desc": "三亚→乐东→昌江→儋州→海口的西线：尖峰岭、棋子湾、古盐田，人少景美。",
+   "path": "三亚 → 乐东(尖峰岭·莺歌海盐场) → 昌江(棋子湾·霸王岭) → 儋州(千年古盐田·东坡书院) → 海口 → 三亚",
+   "note": "西线高速路况好但景点分散；尖峰岭天池需上山；棋子湾看落日；古盐田在洋浦。",
+   "pts": [
+    [
+     18.25129,
+     109.51608,
+     "三亚"
+    ],
+    [
+     18.74434,
+     109.1791,
+     "乐东"
+    ],
+    [
+     18.72809,
+     108.87366,
+     "尖峰岭"
+    ],
+    [
+     19.29641,
+     109.05811,
+     "昌江"
+    ],
+    [
+     19.34812,
+     108.95376,
+     "棋子湾"
+    ],
+    [
+     19.51903,
+     109.58501,
+     "儋州"
+    ],
+    [
+     19.72813,
+     109.20411,
+     "千年古盐田"
+    ],
+    [
+     20.04189,
+     110.20329,
+     "海口"
+    ],
+    [
+     18.25129,
+     109.51608,
+     "三亚"
+    ]
+   ]
+  },
+  {
+   "name": "中线雨林民族环线",
+   "days": "3–4 天",
+   "km": "约 350 km",
+   "desc": "三亚→保亭→五指山的中线：呀诺达、槟榔谷与五指山雨林，黎苗文化与温泉。",
+   "path": "三亚 → 保亭(呀诺达·槟榔谷·七仙岭温泉) → 五指山(热带雨林·牙胡梯田) → 海口 → 三亚",
+   "note": "中线山路弯多备晕车药；呀诺达踏瀑戏水备换洗衣物；五指山雨林徒步防滑防蚊。",
+   "pts": [
+    [
+     18.25129,
+     109.51608,
+     "三亚"
+    ],
+    [
+     18.63521,
+     109.70713,
+     "保亭"
+    ],
+    [
+     18.41828,
+     109.74416,
+     "呀诺达"
+    ],
+    [
+     18.46823,
+     109.70412,
+     "槟榔谷"
+    ],
+    [
+     18.61824,
+     109.72415,
+     "七仙岭"
+    ],
+    [
+     18.7732,
+     109.52109,
+     "五指山"
+    ],
+    [
+     18.87818,
+     109.6841,
+     "五指山雨林"
+    ],
+    [
+     20.04189,
+     110.20329,
+     "海口"
+    ],
+    [
+     18.25129,
+     109.51608,
+     "三亚"
+    ]
+   ]
+  },
+  {
+   "name": "三亚海岛度假短线",
+   "days": "2–3 天",
+   "km": "约 120 km",
+   "desc": "三亚市内的海湾与海岛精华：亚龙湾、蜈支洲岛、天涯海角与南山。",
+   "path": "三亚(亚龙湾) → 蜈支洲岛 → 天涯海角 → 南山文化旅游区 → 三亚",
+   "note": "蜈支洲岛潜水与水上项目最全；南山海上观音需大半天；天涯海角与南山同在市区西。",
+   "pts": [
+    [
+     18.25129,
+     109.51608,
+     "三亚"
+    ],
+    [
+     18.2082,
+     109.64399,
+     "亚龙湾"
+    ],
+    [
+     18.31831,
+     109.76416,
+     "蜈支洲岛"
+    ],
+    [
+     18.23452,
+     109.40428,
+     "天涯海角"
+    ],
+    [
+     18.28835,
+     109.21403,
+     "南山"
+    ],
+    [
+     18.25129,
+     109.51608,
+     "三亚"
+    ]
+   ]
+  }
+ ],
+ "tips": [
+  [
+   "三亚",
+   "亚龙湾沙质最好、蜈支洲岛潜水最美、大东海最方便；旺季（春节）房价翻数倍需早订。"
+  ],
+  [
+   "海岛潜水",
+   "蜈支洲岛、分界洲岛、西岛需坐船，晕船备药；潜水选正规俱乐部，遵守珊瑚保护规定。"
+  ],
+  [
+   "雨林",
+   "呀诺达、五指山、霸王岭是热带雨林，徒步防滑防蚊；霸王岭与尖峰岭可遇海南长臂猿。"
+  ],
+  [
+   "西沙",
+   "三沙西沙群岛仅对中国公民开放，需从三亚凤凰岛坐邮轮并提前政审，行程受海况影响大。"
+  ],
+  [
+   "季节",
+   "11 月–次年 4 月是黄金季（干爽避寒）；5–10 月炎热多雨且有台风，出行务必看台风预警。"
+  ]
+ ],
+ "features": {
+  "intro": "海南是中国唯一的热带海岛省份：3.54 万平方公里陆域、200 万平方公里海域，年均气温 24℃、森林覆盖率 62.1%。从三亚亚龙湾到五指山热带雨林，从黎族船形屋到自贸港免税城，海南把热带度假、民族风情与国家战略叠在同一座岛上。",
+  "groups": [
+   {
+    "name": "热带滨海度假",
+    "icon": "湾",
+    "color": "#1A6B8A",
+    "intro": "海南岛海岸线长 1944 公里，拥有中国最优质的热带沙滩资源；亚龙湾、清水湾与蜈支洲岛构成三大度假标杆，海水能见度与沙质均达国际顶级标准。",
+    "items": [
+     {
+      "name": "亚龙湾 · 天下第一湾",
+      "tag": "7.5 km · 水温 22–28℃",
+      "spot": "yalongwan",
+      "text": "亚龙湾沙滩全长 7.5 公里，沙质细白如粉，海水能见度 8–10 米，年平均水温 22–28℃，被《中国国家地理》评为中国最美八大海岸之首；湾区聚集了丽思卡尔顿、瑞吉等国际度假酒店群，是海南高端度假的代名词。"
+     },
+     {
+      "name": "蜈支洲岛 · 潜水圣地",
+      "tag": "1.48 km² · 能见度 27m",
+      "spot": "wuzhizhou",
+      "text": "蜈支洲岛面积 1.48 平方公里，四周海水能见度最高达 27 米，是中国最适合潜水的海岛之一；岛上珊瑚礁保存完好，已发现鱼类 200 余种、珊瑚 100 余种，情人桥与观日岩是陆地打卡点，冬季水温仍保持在 22℃ 以上。"
+     },
+     {
+      "name": "清水湾 · 会唱歌的沙滩",
+      "tag": "沙滩长 12 km · 赤脚踩沙有声",
+      "spot": "qingshuiwan",
+      "text": "陵水清水湾沙滩全长 12 公里，因沙粒含石英量高、颗粒均匀，赤脚踩踏时会发出清脆鸣响，被称为「会唱歌的沙滩」；湾区背靠牛岭、面朝南海，开发密度低于亚龙湾，保留了更多原始海岸风貌，是近年海南度假的新热点。"
+     }
+    ]
+   },
+   {
+    "name": "热带雨林国家公园",
+    "icon": "林",
+    "color": "#2E8B6F",
+    "intro": "海南热带雨林国家公园是中国首批 5 个国家公园之一，覆盖五指山、霸王岭、尖峰岭等核心片区，保存着中国最完整的热带原始雨林生态系统。",
+    "items": [
+     {
+      "name": "五指山 · 海南第一高峰",
+      "tag": "海拔 1867 m · 昌化江源头",
+      "spot": "wuzhishanfeng",
+      "text": "五指山主峰海拔 1867 米，是海南岛最高峰、昌化江发源地；山体由花岗岩构成，五峰并列形似手指，热带雨林垂直带谱从沟谷雨林到山顶苔藓矮林完整呈现，是海南长臂猿等珍稀物种的核心栖息地。"
+     },
+     {
+      "name": "霸王岭 · 海南长臂猿家园",
+      "tag": "种群 37 只 · 全球最濒危灵长类",
+      "spot": "bawangling",
+      "text": "霸王岭国家级自然保护区是全球最濒危灵长类动物海南长臂猿的唯一栖息地，2024 年监测到种群数量恢复至 37 只（7 群）；保护区内热带雨林面积达 2998 公顷，树冠层高度超过 30 米，板根、绞杀榕与空中花园现象密集出现。"
+     },
+     {
+      "name": "尖峰岭 · 中国最美十大森林",
+      "tag": "1412 m · 天池 800 m",
+      "spot": "jianfengling",
+      "text": "尖峰岭国家森林公园主峰海拔 1412 米，山顶天池海拔约 800 米、水面面积 40 公顷，是中国现存面积最大、保存最完好的热带原始雨林之一；2005 年被《中国国家地理》评为中国最美十大森林第四名，负氧离子浓度峰值达 10 万个/cm³。"
+     }
+    ]
+   },
+   {
+    "name": "黎苗文化与历史",
+    "icon": "黎",
+    "color": "#8A5A2B",
+    "intro": "海南是黎族苗族聚居地，黎族人口占全国黎族总数的 95% 以上；船形屋、黎锦织造与三月三节庆构成独特的民族文化体系，东坡书院则记录了宋代贬谪文人的海南足迹。",
+    "items": [
+     {
+      "name": "槟榔谷 · 黎族文化活态博物馆",
+      "tag": "船形屋 · 黎锦世界非遗",
+      "spot": "binglanggu",
+      "text": "保亭槟榔谷黎苗文化旅游区保存着完整的黎族船形屋建筑群，屋顶以茅草覆盖、形似倒扣船只，是黎族千年居住形态的实物见证；黎族传统纺染织绣技艺 2009 年列入联合国急需保护的非物质文化遗产名录，景区内可观摩黎锦织造全过程。"
+     },
+     {
+      "name": "东坡书院 · 苏轼贬谪讲学地",
+      "tag": "1097 年儋州 · 载酒堂",
+      "spot": "dongpo",
+      "text": "儋州东坡书院是北宋绍圣四年（1097 年）苏轼被贬海南时的讲学与居住地，原名载酒堂；苏轼在此教化乡民、传播中原文化，开创了海南文教之先河，现存钦帅堂、载酒亭与碑刻群，是海南最重要的历史文化遗址。"
+     },
+     {
+      "name": "骑楼老街 · 南洋建筑遗存",
+      "tag": "1849 年始建 · 600+ 骑楼",
+      "spot": "qilou",
+      "text": "海口骑楼老街始建于清道光二十九年（1849 年），现存骑楼建筑 600 余栋，分布在博爱路、中山路与得胜沙路一带；建筑风格融合南洋、欧式与岭南元素，是水客贸易时代的产物，2009 年获评首届「中国历史文化名街」。"
+     }
+    ]
+   },
+   {
+    "name": "航天与自贸港",
+    "icon": "港",
+    "color": "#2C5F8A",
+    "intro": "文昌航天发射场是中国首个低纬度滨海发射基地，海南自贸港则是中国开放水平最高的特殊经济功能区；两大国家战略让海南从度假岛升级为科技与制度创新的前沿。",
+    "items": [
+     {
+      "name": "文昌航天发射场",
+      "tag": "纬度 19° · 长征五号主场",
+      "spot": "hangtian",
+      "text": "文昌航天发射场位于北纬 19°，是中国纬度最低的航天发射基地，地球同步轨道运载能力比西昌提高 10%–15%；2016 年首次启用即发射长征七号，现为长征五号系列火箭的主发射场，嫦娥五号、天问一号均从此升空，游客可在铜鼓岭或淇水湾观看发射。"
+     },
+     {
+      "name": "博鳌亚洲论坛 · 永久会址",
+      "tag": "2001 年成立 · 东方达沃斯",
+      "spot": "boao",
+      "text": "博鳌亚洲论坛 2001 年在琼海博鳌镇成立，是总部设在中国的非官方国际组织，每年春季年会汇聚各国政商学界领袖；永久会址所在地玉带滩是分隔河海的狭长沙洲，外侧南海波涛汹涌、内侧万泉河平静如镜，自然奇观与国际会议场所同框。"
+     },
+     {
+      "name": "离岛免税 · 年度额度 10 万元",
+      "tag": "2020 年新政 · 45 类商品",
+      "text": "2020 年 7 月海南离岛免税新政将每人每年免税购物额度提升至 10 万元、不限次数，覆盖化妆品、手表、箱包等 45 类商品；三亚国际免税城建筑面积 12 万平方米，是全球最大的单体免税店，2023 年海南离岛免税销售额突破 430 亿元。"
+     }
+    ]
+   },
+   {
+    "name": "琼味与物产",
+    "icon": "鲜",
+    "color": "#B8432F",
+    "intro": "海南菜以「鲜」为魂：文昌鸡、加积鸭、东山羊、和乐蟹并称四大名菜；椰子、咖啡与热带水果则构成岛屿味觉的另一面。",
+    "items": [
+     {
+      "name": "文昌鸡 · 海南四大名菜之首",
+      "tag": "放养 120 天 · 白切配蘸料",
+      "text": "文昌鸡原产于文昌市潭牛镇，传统做法是果园放养 120 天以上、育肥期喂椰子丝与花生饼；白切后皮脆肉嫩、骨酥味香，配蒜泥青桔酱油蘸料是标准吃法，海南人宴席无鸡不成席，文昌鸡居四大名菜之首。"
+     },
+     {
+      "name": "福山咖啡 · 中国最早咖啡产区",
+      "tag": "1935 年引种 · 罗布斯塔种",
+      "text": "澄迈福山镇 1935 年由华侨从南洋引进罗布斯塔咖啡种植，是中国最早的咖啡规模化产区；福山咖啡口感醇厚微苦、焦糖香明显，镇上咖啡馆密度全国罕见，「福山咖啡」已获国家地理标志保护产品认证。"
+     },
+     {
+      "name": "椰子 · 海南标志性物产",
+      "tag": "年产 2.5 亿个 · 全省种植面积",
+      "text": "海南是中国唯一的椰子主产区，年产量约 2.5 亿个，占全国总产量的 99% 以上；东郊椰林有「文昌椰子半海南」之说，椰树种植面积超 50 万亩，椰子水、椰奶、椰油与椰雕构成完整的产业链，椰树也是海南最具辨识度的视觉符号。"
+     }
+    ]
+   }
+  ]
+ }
+};

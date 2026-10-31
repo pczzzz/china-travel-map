@@ -1,2 +1,1011 @@
 window.PROV_DATA = window.PROV_DATA || {};
-PROV_DATA.guangdong = {"meta":{"id":"guangdong","name":"广东","en":"Guangdong","capital":"广州","tagline":"岭南烟火 · 千里海岸 · 食不厌精","geoTitle":"一江一海一山，珠三角连着潮汕与粤西","geoSub":"先认清格局再排行程：珠三角读广州佛山的岭南烟火、东线吃潮汕与海岸、北线登丹霞与南华寺、西线追海岛与碉楼。","intro":["广东把「吃」与「海」写进省格：广州早茶的一盅两件、潮汕牛肉火锅的三起三落、顺德双皮奶的奶香，再配上丹霞山的赤壁、开平碉楼的侨乡记忆、南澳岛与海陵岛的蓝、以及深圳珠海的城市海岸线，一条省域线吃得明白也看得辽阔。","本页按 11 个地市整理精选停靠点、地方代表味道与省内环线；带 ★ 的是重点停靠点，免费景点标「免费」；数据为整理版本（坐标 GCJ-02），门票与船票价格随季节调整，出行前以景区与官方公告为准。"],"facts":[["面积","17.98 万 km²"],["常住人口","12706 万（2023 年末）"],["地级市","21 个"],["省会","广州"],["海岸线","约 4114 km（全国最长）"],["世界遗产","丹霞山 · 开平碉楼与村落"]],"regions":[["珠三角 · 广佛深珠","早茶、骑楼与岭南园林的烟火带，加上深圳珠海的现代海岸线与主题乐园。"],["东线 · 潮汕与粤东海岸","潮州古城与广济桥、汕头小公园与南澳岛：潮汕美食与侨乡文化的双主线。"],["北线与西线 · 山与海","韶关丹霞山与南华寺的禅意赤壁，江门碉楼、阳江海陵岛与湛江海鲜的粤西走廊。"]]},"cities":[{"id":"guangzhou","name":"广州","lat":23.12632,"lng":113.26933,"role":"省会 · 食府","desc":"早茶、骑楼与珠江夜游：千年商都的烟火气，从一盅两件吃到深夜大排档。","spots":["gzt","sm","cjs","qyf","bys","cl","shj","yxgy"],"cap":true},{"id":"shenzhen","name":"深圳","lat":22.54028,"lng":114.06311,"role":"特区 · 新城","desc":"四十年从渔村到都会：莲花山看市民中心轴线，深圳湾看候鸟与天际线。","spots":["lhs","lhshan","wcgd"]},{"id":"zhuhai","name":"珠海","lat":22.26798,"lng":113.58204,"role":"百岛之市","desc":"情侣路与渔女像的浪漫海岸：港珠澳大桥在此入海，海岛线是隐藏玩法。","spots":["zhyl","zl","wld"]},{"id":"shantou","name":"汕头","lat":23.35034,"lng":116.68647,"role":"特区 · 侨乡","desc":"小公园骑楼群与牛肉火锅：潮汕美食的第一站，夜粥摊是深夜食堂。","spots":["nad","stxy"]},{"id":"chaozhou","name":"潮州","lat":23.65425,"lng":116.62636,"role":"古城 · 工夫茶","desc":"广济桥、牌坊街与开元寺：一座活着的古城，工夫茶与潮剧是日常背景音。","spots":["gjq","kys","czpf"]},{"id":"foshan","name":"佛山","lat":23.01845,"lng":113.12748,"role":"武术 · 顺德","desc":"祖庙黄飞鸿与顺德双皮奶：岭南武术之乡与联合国美食之城合体。","spots":["fszm","xqshan","qhy"]},{"id":"shaoguan","name":"韶关","lat":24.80694,"lng":113.60219,"role":"丹霞 · 禅宗","desc":"丹霞山赤壁与南华寺六祖道场：粤北的山与禅，秋天银杏村加分。","spots":["dxs","nhs","nlgs"]},{"id":"zhanjiang","name":"湛江","lat":21.26762,"lng":110.3635,"role":"港城 · 生蚝","desc":"中国大陆最南端的地级市：湖光岩玛珥湖与炭烧生蚝，海鲜价格感人。","spots":["hgy"]},{"id":"huizhou","name":"惠州","lat":23.1085,"lng":114.42097,"role":"半城山色","desc":"西湖、罗浮山与双月湾：山海湖齐备的珠三角后花园。","spots":["syw","lfs","hzxh"]},{"id":"jiangmen","name":"江门","lat":22.57631,"lng":113.08645,"role":"侨乡 · 碉楼","desc":"开平碉楼与赤坎老街：世界遗产级的侨乡建筑群，电影取景地密度高。","spots":["kpdl","scd"]},{"id":"yangjiang","name":"阳江","lat":21.85427,"lng":111.98707,"role":"刀城 · 海岛","desc":"海陵岛大角湾与南海一号博物馆：粤西海岛度假与水下考古双名片。","spots":["hld"]}],"spots":[{"id":"gzt","name":"广州塔","cat":"landmark","catName":"地标","city":"guangzhou","desc":"小蛮腰的 450 m 观景台：摩天轮与珠江夜景同框，黄昏档最值。","img":"assets/images/gd_gzt.jpg","ticket":"150 元起","season":"全年","key":true,"lat":23.1034,"lng":113.32942},{"id":"sm","name":"沙面岛","cat":"culture","catName":"人文","city":"guangzhou","desc":"租界时期的欧陆建筑群：150 栋老洋房与古树，漫步半日读广州近代史。","img":"assets/images/gd_sm.jpg","season":"全年","free":true,"lat":23.10231,"lng":113.24033},{"id":"cjs","name":"陈家祠","cat":"culture","catName":"人文","city":"guangzhou","desc":"岭南祠堂建筑的三雕两塑一铸：屋脊陶塑与木雕是工艺天花板。","img":"assets/images/gd_cjs.jpg","ticket":"10 元","season":"全年","key":true,"lat":23.12332,"lng":113.25132},{"id":"qyf","name":"永庆坊","cat":"culture","catName":"人文","city":"guangzhou","desc":"西关骑楼与荔枝湾涌：非遗小店与粤剧博物馆，老城更新的样本。","img":"assets/images/gd_qyf.jpg","season":"全年","free":true,"lat":23.11232,"lng":113.24133},{"id":"bys","name":"白云山","cat":"scenery","catName":"景色","city":"guangzhou","desc":"羊城第一秀：摩星岭看城市天际线，清晨云雾与晚风皆宜。","img":"assets/images/gd_bys.jpg","ticket":"5 元","season":"全年","lat":23.17737,"lng":113.29536},{"id":"cl","name":"长隆旅游度假区","cat":"scenery","catName":"景色","city":"guangzhou","desc":"野生动物世界与马戏：亲子线顶配，缆车穿越散养区看长颈鹿。","img":"assets/images/gd_cl.jpg","ticket":"300 元起","season":"全年","key":true,"lat":22.99736,"lng":113.33543},{"id":"dxs","name":"丹霞山","cat":"mountain","catName":"山岳·徒步","city":"shaoguan","desc":"丹霞地貌命名地：阳元石与锦江游船，赤壁丹崖配云海是封面机位。","img":"assets/images/gd_dxs.jpg","ticket":"100 元","season":"全年，秋看银杏","level":"世界遗产","key":true,"lat":25.03716,"lng":113.75533},{"id":"nhs","name":"南华寺","cat":"culture","catName":"人文","city":"shaoguan","desc":"六祖惠能弘法道场：曹溪门与灵照塔千年香火，禅宗祖庭的静气。","img":"assets/images/gd_nhs.jpg","ticket":"20 元","season":"全年","lat":24.66695,"lng":113.63519},{"id":"gjq","name":"广济桥","cat":"culture","catName":"人文","city":"chaozhou","desc":"十八梭船廿四洲的启闭式古桥：白天过江晚上看灯光秀，桥上工夫茶摊别错过。","img":"assets/images/gd_gjq.jpg","ticket":"20 元","season":"全年","key":true,"lat":23.66027,"lng":116.64239},{"id":"kys","name":"开元寺","cat":"culture","catName":"人文","city":"chaozhou","desc":"唐代古刹与石经幢：古城中心的香火地，门票随喜。","img":"assets/images/gd_kys.jpg","season":"全年","free":true,"lat":23.66228,"lng":116.6464},{"id":"nad","name":"南澳岛","cat":"scenery","catName":"景色","city":"shantou","desc":"青澳湾与风电场风车阵：跨海大桥上岛，环岛路一边山一边海。","img":"assets/images/gd_nad.jpg","ticket":"上岛免费","season":"4–11 月","key":true,"lat":23.41749,"lng":117.02477},{"id":"stxy","name":"汕头小公园","cat":"culture","catName":"人文","city":"shantou","desc":"放射状骑楼老街与南生百货：修复后的侨商街区，夜灯下最出片。","img":"assets/images/gd_stxy.jpg","season":"全年","free":true,"lat":23.35734,"lng":116.68647},{"id":"lhs","name":"莲花山公园","cat":"landmark","catName":"地标","city":"shenzhen","desc":"山顶广场看市民中心与福田轴线：邓小平铜像前的城市封面机位。","img":"assets/images/gd_lhs.jpg","season":"全年","free":true,"lat":22.55128,"lng":114.06011},{"id":"zhyl","name":"情侣路·珠海渔女","cat":"landmark","catName":"地标","city":"zhuhai","desc":"28 km 海岸步道与渔女像：日落时港珠澳大桥在远处亮灯。","img":"assets/images/gd_zhyl.jpg","season":"全年","free":true,"lat":22.25698,"lng":113.58503},{"id":"kpdl","name":"开平碉楼与村落","cat":"culture","catName":"人文","city":"jiangmen","desc":"自力村与立园的碉楼群：稻田里的中西合璧塔楼，世界遗产级的侨乡记忆。","img":"assets/images/gd_kpdl.jpg","ticket":"联票 180 元","season":"全年","level":"世界遗产","key":true,"lat":22.31697,"lng":112.57493},{"id":"hld","name":"海陵岛·大角湾","cat":"scenery","catName":"景色","city":"yangjiang","desc":"十里银滩与南海一号博物馆：粤西海岛度假首选，开渔节最热闹。","img":"assets/images/gd_hld.jpg","ticket":"大角湾 40 元","season":"4–11 月","key":true,"lat":21.5673,"lng":111.85499},{"id":"hgy","name":"湖光岩","cat":"scenery","catName":"景色","city":"zhanjiang","desc":"中国最大玛珥湖：火山口湖环湖骑行，湖水如镜倒映火山壁。","img":"assets/images/gd_hgy.jpg","ticket":"50 元","season":"全年","lat":21.14765,"lng":110.40454},{"id":"syw","name":"双月湾","cat":"scenery","catName":"景色","city":"huizhou","desc":"两湾相抱的双月形海岸：观景台看左湾风平右湾浪涌，海龟湾在侧。","img":"assets/images/gd_syw.jpg","season":"4–11 月","key":true,"lat":22.56696,"lng":114.90448},{"id":"lfs","name":"罗浮山","cat":"mountain","catName":"山岳·徒步","city":"huizhou","desc":"岭南第一山与冲虚古观：葛洪炼丹传说地，索道直达飞云顶。","img":"assets/images/gd_lfs.jpg","ticket":"60 元","season":"全年","lat":23.25753,"lng":114.06516},{"id":"zl","name":"长隆海洋王国","cat":"scenery","catName":"景色","city":"zhuhai","desc":"横琴岛的海洋主题乐园：鲸鲨馆与夜间烟花，亲子线顶配。","img":"assets/images/gd_zl.jpg","ticket":"395 元起","season":"全年","key":true,"lat":22.09711,"lng":113.54511},{"id":"fszm","name":"佛山祖庙","cat":"culture","catName":"人文","city":"foshan","desc":"岭南建筑艺术之宫：黄飞鸿叶问堂+每日醒狮表演，三雕两塑满屋生辉。","img":"assets/images/gd_fszm.jpg","ticket":"20 元","season":"全年","key":true,"lat":23.02646,"lng":113.11849},{"id":"xqshan","name":"西樵山","cat":"mountain","catName":"山岳·徒步","city":"foshan","desc":"珠江文明灯塔：61.9 米南海观音俯瞰桑基鱼塘，宝峰寺与天湖藏于火山古径。","img":"assets/images/gd_xqshan.jpg","ticket":"70 元","season":"全年","level":"5A","lat":22.88312,"lng":112.97114},{"id":"qhy","name":"顺德清晖园","cat":"culture","catName":"人文","city":"foshan","desc":"岭南四大名园：水木清华的小院套小院，逛完直接杀入大良美食街。","img":"assets/images/gd_qhy.jpg","ticket":"15 元","season":"全年","lat":22.8352,"lng":113.25831},{"id":"lhshan","name":"深圳莲花山","cat":"scenery","catName":"景色","city":"shenzhen","desc":"市民中心后花园：山顶广场瞻仰邓小平铜像，俯瞰福田 CBD 中轴线。","img":"assets/images/gd_lhshan.jpg","ticket":"免费","season":"全年","lat":22.55729,"lng":114.06712},{"id":"wcgd","name":"深圳世界之窗","cat":"culture","catName":"人文","city":"shenzhen","desc":"微缩地标主题公园鼻祖：埃菲尔铁塔与金字塔同园，夜场灯光烟花怀旧又出片。","img":"assets/images/gd_wcgd.jpg","ticket":"220 元","season":"全年","lat":22.53307,"lng":113.98394},{"id":"wld","name":"珠海万山·外伶仃岛","cat":"scenery","catName":"景色","city":"zhuhai","desc":"伶仃洋上的石景山房：文天祥「零丁洋里叹零丁」处，海钓与石景公园看落日。","img":"assets/images/gd_wld.jpg","ticket":"船票约 120 元往返","season":"4–11 月","lat":21.9851,"lng":113.62901},{"id":"hzxh","name":"惠州西湖","cat":"scenery","catName":"景色","city":"huizhou","desc":"「苏东坡寓惠」的城中湖：六桥烟柳不输杭州，泗洲塔下看平湖夜月。","img":"assets/images/gd_hzxh.jpg","ticket":"免费","season":"全年","level":"5A","lat":23.0955,"lng":114.40898},{"id":"czpf","name":"潮州牌坊街","cat":"culture","catName":"人文","city":"chaozhou","desc":"22 座明清牌坊连成千米长街：骑楼老字号里吃腐乳饼、看广济桥灯光秀。","img":"assets/images/gd_czpf.jpg","ticket":"免费","season":"全年","key":true,"lat":23.66626,"lng":116.63538},{"id":"scd","name":"江门上川岛","cat":"scenery","catName":"景色","city":"jiangmen","desc":"南海碧波中的大岛：飞沙滩冲浪、风车公路环岛，海鲜大排档开到深夜。","img":"assets/images/gd_scd.jpg","ticket":"船票+门票约 160 元","season":"4–11 月","lat":21.74436,"lng":112.7831},{"id":"nlgs","name":"韶关南岭国家森林公园","cat":"mountain","catName":"山岳·徒步","city":"shaoguan","desc":"广东屋脊石坑崆：原始森林瀑布群与小黄山云海，秋冬红叶是粤北限定。","img":"assets/images/gd_nlgs.jpg","ticket":"80 元","season":"全年，10–12 月红叶","lat":24.90719,"lng":113.02546},{"id":"shj","name":"广州石室圣心大教堂","cat":"culture","catName":"人文","city":"guangzhou","desc":"全球四座全石构哥特教堂之一：双尖塔与彩色玻璃窗，一德路市井中的庄严。","img":"assets/images/gd_shj.jpg","ticket":"免费","season":"全年","key":true,"lat":23.12132,"lng":113.27133},{"id":"yxgy","name":"广州越秀公园·五羊像","cat":"scenery","catName":"景色","city":"guangzhou","desc":"羊城名片：五羊石像+镇海楼（广州博物馆）+明代古城墙，一次读懂广州。","img":"assets/images/gd_yxgy.jpg","ticket":"免费，镇海楼 10 元","season":"全年","lat":23.13633,"lng":113.27133}],"foods":[{"name":"广式早茶","city":"guangzhou","cityName":"广州","desc":"虾饺、烧卖与凤爪的一盅两件：茶楼晨市从 7 点排到 10 点，是广州的生活仪式。","img":"assets/images/fd_gd_01.jpg"},{"name":"深井烧鹅","city":"guangzhou","cityName":"广州","desc":"荔枝木明炉烧出的脆皮烧鹅：皮脆肉嫩带汁，斩料配酸梅酱。","img":"assets/images/fd_gd_02.jpg"},{"name":"肠粉","city":"guangzhou","cityName":"广州","desc":"布拉肠的薄皮裹虾与牛肉：豉油是灵魂，老街档口最地道。","img":"assets/images/fd_gd_03.jpg"},{"name":"潮汕牛肉火锅","city":"shantou","cityName":"汕头","desc":"三起三落的吊龙与匙柄：手打牛肉丸能当乒乓球，沙茶酱是标配。","img":"assets/images/fd_gd_04.jpg"},{"name":"潮州蚝烙","city":"chaozhou","cityName":"潮州","desc":"薯粉煎蚝配鱼露：外脆内嫩，古城小摊的招牌味。","img":"assets/images/fd_gd_05.jpg"},{"name":"湛江白切鸡","city":"zhanjiang","cityName":"湛江","desc":"三黄鸡白切配沙姜酱油：皮爽肉滑，粤西鸡的天花板。","img":"assets/images/fd_gd_06.jpg"},{"name":"客家盐焗鸡","city":"huizhou","cityName":"惠州","desc":"粗盐焗出的金黄鸡：咸香入骨，手撕着吃最香。","img":"assets/images/fd_gd_07.jpg"},{"name":"顺德双皮奶","city":"foshan","cityName":"佛山","desc":"水牛奶结出两层奶皮：冷热皆宜，配红豆或姜汁。","img":"assets/images/fd_gd_08.jpg"},{"name":"汕头牛肉丸粿条","city":"shantou","cityName":"汕头","desc":"手打牛肉丸配粿条汤：汤清丸弹，早餐与夜宵都合适。","img":"assets/images/fd_gd_09.jpg"},{"name":"广州老火靓汤","city":"guangzhou","cityName":"广州","desc":"煲足三小时的例汤：粉葛鲮鱼与椰子鸡，粤式养生的日常。","img":"assets/images/fd_gd_10.jpg"},{"name":"广州云吞面","city":"guangzhou","cityName":"广州","desc":"竹升面+鲜虾云吞+大地鱼汤：老西关一口三宝，汤清面弹才是正宗。","img":"assets/images/fd_gd_11.jpg"},{"name":"陈村粉","city":"foshan","cityName":"佛山","desc":"顺德陈村的薄透米粉：蒸排骨或凉拌，米香与嫩滑是早茶隐形冠军。","img":"assets/images/fd_gd_12.jpg"}],"loops":[{"name":"珠三角 · 美食文化环线","days":"4–6 天","km":"约 700 km","desc":"早茶、顺德双皮奶与碉楼侨乡：一条线吃透广佛江珠的岭南烟火。","path":"广州 → 佛山(顺德) → 江门(开平碉楼) → 珠海 → 广州","note":"顺德觅食留一整天：清晖园旁老字号与容桂夜粥都要排队。","pts":[[23.12632,113.26933,"广州"],[23.01845,113.12748,"佛山"],[22.57631,113.08645,"江门"],[22.26798,113.58204,"珠海"],[23.12632,113.26933,"广州"]]},{"name":"潮汕 · 美食文化环线","days":"4–6 天","km":"约 1100 km","desc":"潮州古城与广济桥、汕头小公园与牛肉火锅、南澳岛海风收尾。","path":"广州 → 惠州 → 汕头 → 潮州 → 南澳岛 → 广州","note":"牛肉火锅避开 12–13 点与 18–19 点高峰；南澳大桥节假日限行需查公告。","pts":[[23.12632,113.26933,"广州"],[23.1085,114.42097,"惠州"],[23.35034,116.68647,"汕头"],[23.65425,116.62636,"潮州"],[23.41749,117.02477,"南澳岛"],[23.12632,113.26933,"广州"]]},{"name":"粤北 · 丹霞禅意环线","days":"4–6 天","km":"约 800 km","desc":"丹霞山赤壁与南华寺禅意：粤北的山、寺与秋天银杏村。","path":"广州 → 韶关(丹霞山+南华寺) → 广州","note":"丹霞山日落与日出分属不同观景点，住山脚民宿两全；11 月帽子峰银杏最佳。","pts":[[23.12632,113.26933,"广州"],[24.80694,113.60219,"韶关"],[23.12632,113.26933,"广州"]]},{"name":"粤西 · 海岸环线","days":"5–7 天","km":"约 1200 km","desc":"开平碉楼、海陵岛沙滩与湛江生蚝：粤西走廊的海与侨乡记忆。","path":"广州 → 阳江(海陵岛) → 湛江(湖光岩) → 广州","note":"8 月休渔期后开渔节最热闹；海岛台风季（7–9 月）留意停航公告。","pts":[[23.12632,113.26933,"广州"],[21.85427,111.98707,"阳江"],[21.26762,110.3635,"湛江"],[23.12632,113.26933,"广州"]]}],"tips":[["早茶礼仪","叩指谢茶、揭盖续水：茶楼晨市 7–10 点最正宗，周末老字号需取号。"],["台风季","7–9 月台风频发：海岛船班与跨海大桥可能临时管制，行前查海事与交警公告。"],["潮汕排队","牛肉火锅与夜粥摊高峰排队 1 小时+：错峰 15–17 点或 21 点后到店。"],["丹霞防晒","赤壁丹崖无遮蔽：夏季登山备 2 L 水与防晒衣，长老峰段台阶陡穿防滑鞋。"],["自驾与限行","广州深圳工作日高峰限外：外地车提前申请通行证或停地铁接驳点。"],["甜品时段","双皮奶与糖水铺营业到深夜：晚餐后 21–23 点是本地人的甜品档。"]]};
+PROV_DATA.guangdong = {
+ "meta": {
+  "id": "guangdong",
+  "name": "广东",
+  "en": "Guangdong",
+  "capital": "广州",
+  "tagline": "岭南烟火 · 千里海岸 · 食不厌精",
+  "geoTitle": "一江一海一山，珠三角连着潮汕与粤西",
+  "geoSub": "先认清格局再排行程：珠三角读广州佛山的岭南烟火、东线吃潮汕与海岸、北线登丹霞与南华寺、西线追海岛与碉楼。",
+  "intro": [
+   "广东把「吃」与「海」写进省格：广州早茶的一盅两件、潮汕牛肉火锅的三起三落、顺德双皮奶的奶香，再配上丹霞山的赤壁、开平碉楼的侨乡记忆、南澳岛与海陵岛的蓝、以及深圳珠海的城市海岸线，一条省域线吃得明白也看得辽阔。",
+   "本页按 11 个地市整理精选停靠点、地方代表味道与省内环线；带 ★ 的是重点停靠点，免费景点标「免费」；数据为整理版本（坐标 GCJ-02），门票与船票价格随季节调整，出行前以景区与官方公告为准。"
+  ],
+  "facts": [
+   [
+    "面积",
+    "17.98 万 km²"
+   ],
+   [
+    "常住人口",
+    "12706 万（2023 年末）"
+   ],
+   [
+    "地级市",
+    "21 个"
+   ],
+   [
+    "省会",
+    "广州"
+   ],
+   [
+    "海岸线",
+    "约 4114 km（全国最长）"
+   ],
+   [
+    "世界遗产",
+    "丹霞山 · 开平碉楼与村落"
+   ]
+  ],
+  "regions": [
+   [
+    "珠三角 · 广佛深珠",
+    "早茶、骑楼与岭南园林的烟火带，加上深圳珠海的现代海岸线与主题乐园。"
+   ],
+   [
+    "东线 · 潮汕与粤东海岸",
+    "潮州古城与广济桥、汕头小公园与南澳岛：潮汕美食与侨乡文化的双主线。"
+   ],
+   [
+    "北线与西线 · 山与海",
+    "韶关丹霞山与南华寺的禅意赤壁，江门碉楼、阳江海陵岛与湛江海鲜的粤西走廊。"
+   ]
+  ]
+ },
+ "cities": [
+  {
+   "id": "guangzhou",
+   "name": "广州",
+   "lat": 23.12632,
+   "lng": 113.26933,
+   "role": "省会 · 食府",
+   "desc": "早茶、骑楼与珠江夜游：千年商都的烟火气，从一盅两件吃到深夜大排档。",
+   "spots": [
+    "gzt",
+    "sm",
+    "cjs",
+    "qyf",
+    "bys",
+    "cl",
+    "shj",
+    "yxgy"
+   ],
+   "cap": true
+  },
+  {
+   "id": "shenzhen",
+   "name": "深圳",
+   "lat": 22.54028,
+   "lng": 114.06311,
+   "role": "特区 · 新城",
+   "desc": "四十年从渔村到都会：莲花山看市民中心轴线，深圳湾看候鸟与天际线。",
+   "spots": [
+    "lhs",
+    "lhshan",
+    "wcgd"
+   ]
+  },
+  {
+   "id": "zhuhai",
+   "name": "珠海",
+   "lat": 22.26798,
+   "lng": 113.58204,
+   "role": "百岛之市",
+   "desc": "情侣路与渔女像的浪漫海岸：港珠澳大桥在此入海，海岛线是隐藏玩法。",
+   "spots": [
+    "zhyl",
+    "zl",
+    "wld"
+   ]
+  },
+  {
+   "id": "shantou",
+   "name": "汕头",
+   "lat": 23.35034,
+   "lng": 116.68647,
+   "role": "特区 · 侨乡",
+   "desc": "小公园骑楼群与牛肉火锅：潮汕美食的第一站，夜粥摊是深夜食堂。",
+   "spots": [
+    "nad",
+    "stxy"
+   ]
+  },
+  {
+   "id": "chaozhou",
+   "name": "潮州",
+   "lat": 23.65425,
+   "lng": 116.62636,
+   "role": "古城 · 工夫茶",
+   "desc": "广济桥、牌坊街与开元寺：一座活着的古城，工夫茶与潮剧是日常背景音。",
+   "spots": [
+    "gjq",
+    "kys",
+    "czpf"
+   ]
+  },
+  {
+   "id": "foshan",
+   "name": "佛山",
+   "lat": 23.01845,
+   "lng": 113.12748,
+   "role": "武术 · 顺德",
+   "desc": "祖庙黄飞鸿与顺德双皮奶：岭南武术之乡与联合国美食之城合体。",
+   "spots": [
+    "fszm",
+    "xqshan",
+    "qhy"
+   ]
+  },
+  {
+   "id": "shaoguan",
+   "name": "韶关",
+   "lat": 24.80694,
+   "lng": 113.60219,
+   "role": "丹霞 · 禅宗",
+   "desc": "丹霞山赤壁与南华寺六祖道场：粤北的山与禅，秋天银杏村加分。",
+   "spots": [
+    "dxs",
+    "nhs",
+    "nlgs"
+   ]
+  },
+  {
+   "id": "zhanjiang",
+   "name": "湛江",
+   "lat": 21.26762,
+   "lng": 110.3635,
+   "role": "港城 · 生蚝",
+   "desc": "中国大陆最南端的地级市：湖光岩玛珥湖与炭烧生蚝，海鲜价格感人。",
+   "spots": [
+    "hgy"
+   ]
+  },
+  {
+   "id": "huizhou",
+   "name": "惠州",
+   "lat": 23.1085,
+   "lng": 114.42097,
+   "role": "半城山色",
+   "desc": "西湖、罗浮山与双月湾：山海湖齐备的珠三角后花园。",
+   "spots": [
+    "syw",
+    "lfs",
+    "hzxh"
+   ]
+  },
+  {
+   "id": "jiangmen",
+   "name": "江门",
+   "lat": 22.57631,
+   "lng": 113.08645,
+   "role": "侨乡 · 碉楼",
+   "desc": "开平碉楼与赤坎老街：世界遗产级的侨乡建筑群，电影取景地密度高。",
+   "spots": [
+    "kpdl",
+    "scd"
+   ]
+  },
+  {
+   "id": "yangjiang",
+   "name": "阳江",
+   "lat": 21.85427,
+   "lng": 111.98707,
+   "role": "刀城 · 海岛",
+   "desc": "海陵岛大角湾与南海一号博物馆：粤西海岛度假与水下考古双名片。",
+   "spots": [
+    "hld"
+   ]
+  }
+ ],
+ "spots": [
+  {
+   "id": "gzt",
+   "name": "广州塔",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "guangzhou",
+   "desc": "小蛮腰的 450 m 观景台：摩天轮与珠江夜景同框，黄昏档最值。",
+   "img": "assets/images/gd_gzt.jpg",
+   "ticket": "150 元起",
+   "season": "全年",
+   "key": true,
+   "lat": 23.1034,
+   "lng": 113.32942
+  },
+  {
+   "id": "sm",
+   "name": "沙面岛",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "guangzhou",
+   "desc": "租界时期的欧陆建筑群：150 栋老洋房与古树，漫步半日读广州近代史。",
+   "img": "assets/images/gd_sm.jpg",
+   "season": "全年",
+   "free": true,
+   "lat": 23.10231,
+   "lng": 113.24033
+  },
+  {
+   "id": "cjs",
+   "name": "陈家祠",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "guangzhou",
+   "desc": "岭南祠堂建筑的三雕两塑一铸：屋脊陶塑与木雕是工艺天花板。",
+   "img": "assets/images/gd_cjs.jpg",
+   "ticket": "10 元",
+   "season": "全年",
+   "key": true,
+   "lat": 23.12332,
+   "lng": 113.25132
+  },
+  {
+   "id": "qyf",
+   "name": "永庆坊",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "guangzhou",
+   "desc": "西关骑楼与荔枝湾涌：非遗小店与粤剧博物馆，老城更新的样本。",
+   "img": "assets/images/gd_qyf.jpg",
+   "season": "全年",
+   "free": true,
+   "lat": 23.11232,
+   "lng": 113.24133
+  },
+  {
+   "id": "bys",
+   "name": "白云山",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "guangzhou",
+   "desc": "羊城第一秀：摩星岭看城市天际线，清晨云雾与晚风皆宜。",
+   "img": "assets/images/gd_bys.jpg",
+   "ticket": "5 元",
+   "season": "全年",
+   "lat": 23.17737,
+   "lng": 113.29536
+  },
+  {
+   "id": "cl",
+   "name": "长隆旅游度假区",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "guangzhou",
+   "desc": "野生动物世界与马戏：亲子线顶配，缆车穿越散养区看长颈鹿。",
+   "img": "assets/images/gd_cl.jpg",
+   "ticket": "300 元起",
+   "season": "全年",
+   "key": true,
+   "lat": 22.99736,
+   "lng": 113.33543
+  },
+  {
+   "id": "dxs",
+   "name": "丹霞山",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "shaoguan",
+   "desc": "丹霞地貌命名地：阳元石与锦江游船，赤壁丹崖配云海是封面机位。",
+   "img": "assets/images/gd_dxs.jpg",
+   "ticket": "100 元",
+   "season": "全年，秋看银杏",
+   "level": "世界遗产",
+   "key": true,
+   "lat": 25.03716,
+   "lng": 113.75533
+  },
+  {
+   "id": "nhs",
+   "name": "南华寺",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "shaoguan",
+   "desc": "六祖惠能弘法道场：曹溪门与灵照塔千年香火，禅宗祖庭的静气。",
+   "img": "assets/images/gd_nhs.jpg",
+   "ticket": "20 元",
+   "season": "全年",
+   "lat": 24.66695,
+   "lng": 113.63519
+  },
+  {
+   "id": "gjq",
+   "name": "广济桥",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "chaozhou",
+   "desc": "十八梭船廿四洲的启闭式古桥：白天过江晚上看灯光秀，桥上工夫茶摊别错过。",
+   "img": "assets/images/gd_gjq.jpg",
+   "ticket": "20 元",
+   "season": "全年",
+   "key": true,
+   "lat": 23.66027,
+   "lng": 116.64239
+  },
+  {
+   "id": "kys",
+   "name": "开元寺",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "chaozhou",
+   "desc": "唐代古刹与石经幢：古城中心的香火地，门票随喜。",
+   "img": "assets/images/gd_kys.jpg",
+   "season": "全年",
+   "free": true,
+   "lat": 23.66228,
+   "lng": 116.6464
+  },
+  {
+   "id": "nad",
+   "name": "南澳岛",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "shantou",
+   "desc": "青澳湾与风电场风车阵：跨海大桥上岛，环岛路一边山一边海。",
+   "img": "assets/images/gd_nad.jpg",
+   "ticket": "上岛免费",
+   "season": "4–11 月",
+   "key": true,
+   "lat": 23.41749,
+   "lng": 117.02477
+  },
+  {
+   "id": "stxy",
+   "name": "汕头小公园",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "shantou",
+   "desc": "放射状骑楼老街与南生百货：修复后的侨商街区，夜灯下最出片。",
+   "img": "assets/images/gd_stxy.jpg",
+   "season": "全年",
+   "free": true,
+   "lat": 23.35734,
+   "lng": 116.68647
+  },
+  {
+   "id": "lhs",
+   "name": "莲花山公园",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "shenzhen",
+   "desc": "山顶广场看市民中心与福田轴线：邓小平铜像前的城市封面机位。",
+   "img": "assets/images/gd_lhs.jpg",
+   "season": "全年",
+   "free": true,
+   "lat": 22.55128,
+   "lng": 114.06011
+  },
+  {
+   "id": "zhyl",
+   "name": "情侣路·珠海渔女",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "zhuhai",
+   "desc": "28 km 海岸步道与渔女像：日落时港珠澳大桥在远处亮灯。",
+   "img": "assets/images/gd_zhyl.jpg",
+   "season": "全年",
+   "free": true,
+   "lat": 22.25698,
+   "lng": 113.58503
+  },
+  {
+   "id": "kpdl",
+   "name": "开平碉楼与村落",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "jiangmen",
+   "desc": "自力村与立园的碉楼群：稻田里的中西合璧塔楼，世界遗产级的侨乡记忆。",
+   "img": "assets/images/gd_kpdl.jpg",
+   "ticket": "联票 180 元",
+   "season": "全年",
+   "level": "世界遗产",
+   "key": true,
+   "lat": 22.31697,
+   "lng": 112.57493
+  },
+  {
+   "id": "hld",
+   "name": "海陵岛·大角湾",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "yangjiang",
+   "desc": "十里银滩与南海一号博物馆：粤西海岛度假首选，开渔节最热闹。",
+   "img": "assets/images/gd_hld.jpg",
+   "ticket": "大角湾 40 元",
+   "season": "4–11 月",
+   "key": true,
+   "lat": 21.5673,
+   "lng": 111.85499
+  },
+  {
+   "id": "hgy",
+   "name": "湖光岩",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "zhanjiang",
+   "desc": "中国最大玛珥湖：火山口湖环湖骑行，湖水如镜倒映火山壁。",
+   "img": "assets/images/gd_hgy.jpg",
+   "ticket": "50 元",
+   "season": "全年",
+   "lat": 21.14765,
+   "lng": 110.40454
+  },
+  {
+   "id": "syw",
+   "name": "双月湾",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "huizhou",
+   "desc": "两湾相抱的双月形海岸：观景台看左湾风平右湾浪涌，海龟湾在侧。",
+   "img": "assets/images/gd_syw.jpg",
+   "season": "4–11 月",
+   "key": true,
+   "lat": 22.56696,
+   "lng": 114.90448
+  },
+  {
+   "id": "lfs",
+   "name": "罗浮山",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "huizhou",
+   "desc": "岭南第一山与冲虚古观：葛洪炼丹传说地，索道直达飞云顶。",
+   "img": "assets/images/gd_lfs.jpg",
+   "ticket": "60 元",
+   "season": "全年",
+   "lat": 23.25753,
+   "lng": 114.06516
+  },
+  {
+   "id": "zl",
+   "name": "长隆海洋王国",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "zhuhai",
+   "desc": "横琴岛的海洋主题乐园：鲸鲨馆与夜间烟花，亲子线顶配。",
+   "img": "assets/images/gd_zl.jpg",
+   "ticket": "395 元起",
+   "season": "全年",
+   "key": true,
+   "lat": 22.09711,
+   "lng": 113.54511
+  },
+  {
+   "id": "fszm",
+   "name": "佛山祖庙",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "foshan",
+   "desc": "岭南建筑艺术之宫：黄飞鸿叶问堂+每日醒狮表演，三雕两塑满屋生辉。",
+   "img": "assets/images/gd_fszm.jpg",
+   "ticket": "20 元",
+   "season": "全年",
+   "key": true,
+   "lat": 23.02646,
+   "lng": 113.11849
+  },
+  {
+   "id": "xqshan",
+   "name": "西樵山",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "foshan",
+   "desc": "珠江文明灯塔：61.9 米南海观音俯瞰桑基鱼塘，宝峰寺与天湖藏于火山古径。",
+   "img": "assets/images/gd_xqshan.jpg",
+   "ticket": "70 元",
+   "season": "全年",
+   "level": "5A",
+   "lat": 22.88312,
+   "lng": 112.97114
+  },
+  {
+   "id": "qhy",
+   "name": "顺德清晖园",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "foshan",
+   "desc": "岭南四大名园：水木清华的小院套小院，逛完直接杀入大良美食街。",
+   "img": "assets/images/gd_qhy.jpg",
+   "ticket": "15 元",
+   "season": "全年",
+   "lat": 22.8352,
+   "lng": 113.25831
+  },
+  {
+   "id": "lhshan",
+   "name": "深圳莲花山",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "shenzhen",
+   "desc": "市民中心后花园：山顶广场瞻仰邓小平铜像，俯瞰福田 CBD 中轴线。",
+   "img": "assets/images/gd_lhshan.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "lat": 22.55729,
+   "lng": 114.06712
+  },
+  {
+   "id": "wcgd",
+   "name": "深圳世界之窗",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "shenzhen",
+   "desc": "微缩地标主题公园鼻祖：埃菲尔铁塔与金字塔同园，夜场灯光烟花怀旧又出片。",
+   "img": "assets/images/gd_wcgd.jpg",
+   "ticket": "220 元",
+   "season": "全年",
+   "lat": 22.53307,
+   "lng": 113.98394
+  },
+  {
+   "id": "wld",
+   "name": "珠海万山·外伶仃岛",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "zhuhai",
+   "desc": "伶仃洋上的石景山房：文天祥「零丁洋里叹零丁」处，海钓与石景公园看落日。",
+   "img": "assets/images/gd_wld.jpg",
+   "ticket": "船票约 120 元往返",
+   "season": "4–11 月",
+   "lat": 21.9851,
+   "lng": 113.62901
+  },
+  {
+   "id": "hzxh",
+   "name": "惠州西湖",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "huizhou",
+   "desc": "「苏东坡寓惠」的城中湖：六桥烟柳不输杭州，泗洲塔下看平湖夜月。",
+   "img": "assets/images/gd_hzxh.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "level": "5A",
+   "lat": 23.0955,
+   "lng": 114.40898
+  },
+  {
+   "id": "czpf",
+   "name": "潮州牌坊街",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "chaozhou",
+   "desc": "22 座明清牌坊连成千米长街：骑楼老字号里吃腐乳饼、看广济桥灯光秀。",
+   "img": "assets/images/gd_czpf.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "key": true,
+   "lat": 23.66626,
+   "lng": 116.63538
+  },
+  {
+   "id": "scd",
+   "name": "江门上川岛",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "jiangmen",
+   "desc": "南海碧波中的大岛：飞沙滩冲浪、风车公路环岛，海鲜大排档开到深夜。",
+   "img": "assets/images/gd_scd.jpg",
+   "ticket": "船票+门票约 160 元",
+   "season": "4–11 月",
+   "lat": 21.74436,
+   "lng": 112.7831
+  },
+  {
+   "id": "nlgs",
+   "name": "韶关南岭国家森林公园",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "shaoguan",
+   "desc": "广东屋脊石坑崆：原始森林瀑布群与小黄山云海，秋冬红叶是粤北限定。",
+   "img": "assets/images/gd_nlgs.jpg",
+   "ticket": "80 元",
+   "season": "全年，10–12 月红叶",
+   "lat": 24.90719,
+   "lng": 113.02546
+  },
+  {
+   "id": "shj",
+   "name": "广州石室圣心大教堂",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "guangzhou",
+   "desc": "全球四座全石构哥特教堂之一：双尖塔与彩色玻璃窗，一德路市井中的庄严。",
+   "img": "assets/images/gd_shj.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "key": true,
+   "lat": 23.12132,
+   "lng": 113.27133
+  },
+  {
+   "id": "yxgy",
+   "name": "广州越秀公园·五羊像",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "guangzhou",
+   "desc": "羊城名片：五羊石像+镇海楼（广州博物馆）+明代古城墙，一次读懂广州。",
+   "img": "assets/images/gd_yxgy.jpg",
+   "ticket": "免费，镇海楼 10 元",
+   "season": "全年",
+   "lat": 23.13633,
+   "lng": 113.27133
+  }
+ ],
+ "foods": [
+  {
+   "name": "广式早茶",
+   "city": "guangzhou",
+   "cityName": "广州",
+   "desc": "虾饺、烧卖与凤爪的一盅两件：茶楼晨市从 7 点排到 10 点，是广州的生活仪式。",
+   "img": "assets/images/fd_gd_01.jpg"
+  },
+  {
+   "name": "深井烧鹅",
+   "city": "guangzhou",
+   "cityName": "广州",
+   "desc": "荔枝木明炉烧出的脆皮烧鹅：皮脆肉嫩带汁，斩料配酸梅酱。",
+   "img": "assets/images/fd_gd_02.jpg"
+  },
+  {
+   "name": "肠粉",
+   "city": "guangzhou",
+   "cityName": "广州",
+   "desc": "布拉肠的薄皮裹虾与牛肉：豉油是灵魂，老街档口最地道。",
+   "img": "assets/images/fd_gd_03.jpg"
+  },
+  {
+   "name": "潮汕牛肉火锅",
+   "city": "shantou",
+   "cityName": "汕头",
+   "desc": "三起三落的吊龙与匙柄：手打牛肉丸能当乒乓球，沙茶酱是标配。",
+   "img": "assets/images/fd_gd_04.jpg"
+  },
+  {
+   "name": "潮州蚝烙",
+   "city": "chaozhou",
+   "cityName": "潮州",
+   "desc": "薯粉煎蚝配鱼露：外脆内嫩，古城小摊的招牌味。",
+   "img": "assets/images/fd_gd_05.jpg"
+  },
+  {
+   "name": "湛江白切鸡",
+   "city": "zhanjiang",
+   "cityName": "湛江",
+   "desc": "三黄鸡白切配沙姜酱油：皮爽肉滑，粤西鸡的天花板。",
+   "img": "assets/images/fd_gd_06.jpg"
+  },
+  {
+   "name": "客家盐焗鸡",
+   "city": "huizhou",
+   "cityName": "惠州",
+   "desc": "粗盐焗出的金黄鸡：咸香入骨，手撕着吃最香。",
+   "img": "assets/images/fd_gd_07.jpg"
+  },
+  {
+   "name": "顺德双皮奶",
+   "city": "foshan",
+   "cityName": "佛山",
+   "desc": "水牛奶结出两层奶皮：冷热皆宜，配红豆或姜汁。",
+   "img": "assets/images/fd_gd_08.jpg"
+  },
+  {
+   "name": "汕头牛肉丸粿条",
+   "city": "shantou",
+   "cityName": "汕头",
+   "desc": "手打牛肉丸配粿条汤：汤清丸弹，早餐与夜宵都合适。",
+   "img": "assets/images/fd_gd_09.jpg"
+  },
+  {
+   "name": "广州老火靓汤",
+   "city": "guangzhou",
+   "cityName": "广州",
+   "desc": "煲足三小时的例汤：粉葛鲮鱼与椰子鸡，粤式养生的日常。",
+   "img": "assets/images/fd_gd_10.jpg"
+  },
+  {
+   "name": "广州云吞面",
+   "city": "guangzhou",
+   "cityName": "广州",
+   "desc": "竹升面+鲜虾云吞+大地鱼汤：老西关一口三宝，汤清面弹才是正宗。",
+   "img": "assets/images/fd_gd_11.jpg"
+  },
+  {
+   "name": "陈村粉",
+   "city": "foshan",
+   "cityName": "佛山",
+   "desc": "顺德陈村的薄透米粉：蒸排骨或凉拌，米香与嫩滑是早茶隐形冠军。",
+   "img": "assets/images/fd_gd_12.jpg"
+  }
+ ],
+ "loops": [
+  {
+   "name": "珠三角 · 美食文化环线",
+   "days": "4–6 天",
+   "km": "约 700 km",
+   "desc": "早茶、顺德双皮奶与碉楼侨乡：一条线吃透广佛江珠的岭南烟火。",
+   "path": "广州 → 佛山(顺德) → 江门(开平碉楼) → 珠海 → 广州",
+   "note": "顺德觅食留一整天：清晖园旁老字号与容桂夜粥都要排队。",
+   "pts": [
+    [
+     23.12632,
+     113.26933,
+     "广州"
+    ],
+    [
+     23.01845,
+     113.12748,
+     "佛山"
+    ],
+    [
+     22.57631,
+     113.08645,
+     "江门"
+    ],
+    [
+     22.26798,
+     113.58204,
+     "珠海"
+    ],
+    [
+     23.12632,
+     113.26933,
+     "广州"
+    ]
+   ]
+  },
+  {
+   "name": "潮汕 · 美食文化环线",
+   "days": "4–6 天",
+   "km": "约 1100 km",
+   "desc": "潮州古城与广济桥、汕头小公园与牛肉火锅、南澳岛海风收尾。",
+   "path": "广州 → 惠州 → 汕头 → 潮州 → 南澳岛 → 广州",
+   "note": "牛肉火锅避开 12–13 点与 18–19 点高峰；南澳大桥节假日限行需查公告。",
+   "pts": [
+    [
+     23.12632,
+     113.26933,
+     "广州"
+    ],
+    [
+     23.1085,
+     114.42097,
+     "惠州"
+    ],
+    [
+     23.35034,
+     116.68647,
+     "汕头"
+    ],
+    [
+     23.65425,
+     116.62636,
+     "潮州"
+    ],
+    [
+     23.41749,
+     117.02477,
+     "南澳岛"
+    ],
+    [
+     23.12632,
+     113.26933,
+     "广州"
+    ]
+   ]
+  },
+  {
+   "name": "粤北 · 丹霞禅意环线",
+   "days": "4–6 天",
+   "km": "约 800 km",
+   "desc": "丹霞山赤壁与南华寺禅意：粤北的山、寺与秋天银杏村。",
+   "path": "广州 → 韶关(丹霞山+南华寺) → 广州",
+   "note": "丹霞山日落与日出分属不同观景点，住山脚民宿两全；11 月帽子峰银杏最佳。",
+   "pts": [
+    [
+     23.12632,
+     113.26933,
+     "广州"
+    ],
+    [
+     24.80694,
+     113.60219,
+     "韶关"
+    ],
+    [
+     23.12632,
+     113.26933,
+     "广州"
+    ]
+   ]
+  },
+  {
+   "name": "粤西 · 海岸环线",
+   "days": "5–7 天",
+   "km": "约 1200 km",
+   "desc": "开平碉楼、海陵岛沙滩与湛江生蚝：粤西走廊的海与侨乡记忆。",
+   "path": "广州 → 阳江(海陵岛) → 湛江(湖光岩) → 广州",
+   "note": "8 月休渔期后开渔节最热闹；海岛台风季（7–9 月）留意停航公告。",
+   "pts": [
+    [
+     23.12632,
+     113.26933,
+     "广州"
+    ],
+    [
+     21.85427,
+     111.98707,
+     "阳江"
+    ],
+    [
+     21.26762,
+     110.3635,
+     "湛江"
+    ],
+    [
+     23.12632,
+     113.26933,
+     "广州"
+    ]
+   ]
+  }
+ ],
+ "tips": [
+  [
+   "早茶礼仪",
+   "叩指谢茶、揭盖续水：茶楼晨市 7–10 点最正宗，周末老字号需取号。"
+  ],
+  [
+   "台风季",
+   "7–9 月台风频发：海岛船班与跨海大桥可能临时管制，行前查海事与交警公告。"
+  ],
+  [
+   "潮汕排队",
+   "牛肉火锅与夜粥摊高峰排队 1 小时+：错峰 15–17 点或 21 点后到店。"
+  ],
+  [
+   "丹霞防晒",
+   "赤壁丹崖无遮蔽：夏季登山备 2 L 水与防晒衣，长老峰段台阶陡穿防滑鞋。"
+  ],
+  [
+   "自驾与限行",
+   "广州深圳工作日高峰限外：外地车提前申请通行证或停地铁接驳点。"
+  ],
+  [
+   "甜品时段",
+   "双皮奶与糖水铺营业到深夜：晚餐后 21–23 点是本地人的甜品档。"
+  ]
+ ],
+ "features": {
+  "intro": "广东是岭南文化的核心区：17.97 万平方公里内，珠江三角洲的城市群、粤北丹霞山的世界自然遗产、潮汕地区的工夫茶与侨乡碉楼并存。从广州早茶到顺德私房菜，从开平碉楼到南澳岛灯塔，广东把千年商埠、海洋文明与味觉巅峰折叠在同一省域。",
+  "groups": [
+   {
+    "name": "岭南文化地标",
+    "icon": "岭",
+    "color": "#8A5A2B",
+    "intro": "广州是岭南文化中心地：陈家祠木雕砖雕、沙面欧陆建筑群与广州塔小蛮腰，串起从清代到当代的城市记忆。",
+    "items": [
+     {
+      "name": "陈家祠 · 岭南建筑瑰宝",
+      "tag": "1894 年建成 · 七绝工艺集大成",
+      "spot": "cjs",
+      "text": "陈家祠（陈氏书院）建于清光绪二十年（1894 年），占地 1.5 万平方米，是广东现存规模最大、保存最完整的传统祠堂建筑；木雕、砖雕、石雕、陶塑、灰塑、铜铁铸「七绝」工艺集于一体，被誉为岭南民间建筑装饰艺术的巅峰之作。"
+     },
+     {
+      "name": "沙面岛 · 欧陆建筑露天博物馆",
+      "tag": "150+ 栋欧式建筑 · 0.3 km²",
+      "spot": "sm",
+      "text": "沙面岛面积仅 0.3 平方公里，却集中了 150 多栋 19 世纪末至 20 世纪初的欧式建筑，涵盖新巴洛克、仿哥特、券廊式等多种风格；这里曾是英法租界，现为全国重点文保单位，步行环岛约 40 分钟即可看遍百年殖民建筑史。"
+     },
+     {
+      "name": "广州塔 · 小蛮腰 600 米",
+      "tag": "高 600 m · 世界第三高电视塔",
+      "spot": "gzt",
+      "text": "广州塔总高度 600 米，其中主塔体 454 米、天线桅杆 146 米，是世界第三高电视塔；腰部最细处直径仅 30 米，故昵称「小蛮腰」；塔顶设有摩天轮与垂直速降体验，夜间灯光秀每半小时变换一次主题色。"
+     }
+    ]
+   },
+   {
+    "name": "世界遗产与侨乡",
+    "icon": "侨",
+    "color": "#6A4C93",
+    "intro": "广东拥有 2 处世界文化遗产：开平碉楼与村落是华侨文化的实物档案，丹霞山则是中国丹霞地貌的命名地与模式地。",
+    "items": [
+     {
+      "name": "开平碉楼 · 世界文化遗产",
+      "tag": "2007 年列入 · 现存 1833 座",
+      "spot": "kpdl",
+      "text": "开平碉楼与村落 2007 年列入世界文化遗产，是广东省首处世界遗产；现存碉楼 1833 座，融合了古希腊、古罗马、伊斯兰与中国传统建筑风格，自力村、马降龙与锦江里三大片区最具代表性，是近代华侨返乡建屋的历史见证。"
+     },
+     {
+      "name": "丹霞山 · 中国丹霞命名地",
+      "tag": "2010 世遗 · 丹崖 680 m",
+      "spot": "dxs",
+      "text": "韶关丹霞山是中国丹霞地貌的命名地与模式地，2010 年作为「中国丹霞」组成部分列入世界自然遗产；长老峰赤壁丹崖相对高差达 680 米，阳元石与阴元石是标志性象形景观，锦江竹筏漂流可从水上仰视丹霞群峰。"
+     },
+     {
+      "name": "南华寺 · 禅宗六祖道场",
+      "tag": "始建于 502 年 · 六祖真身供奉",
+      "spot": "nhs",
+      "text": "韶关南华寺始建于南朝梁天监元年（502 年），是禅宗六祖惠能弘法 37 年的道场；寺内供奉六祖惠能真身舍利，还有北宋木雕罗汉像 360 尊与唐代千佛铁塔，被佛教界尊为「岭南禅林之冠」。"
+     }
+    ]
+   },
+   {
+    "name": "潮汕人文",
+    "icon": "潮",
+    "color": "#2C5F8A",
+    "intro": "潮汕地区保留着中国最完整的传统宗族文化与饮食体系：牌坊街、广济桥与开元寺构成潮州古城核心，汕头小公园则是民国骑楼群的活化石。",
+    "items": [
+     {
+      "name": "潮州牌坊街 · 23 座明清牌坊",
+      "tag": "全长 1948 m · 非遗展示带",
+      "spot": "czpf",
+      "text": "潮州牌坊街全长 1948 米，历史上曾有 91 座牌坊，现修复重建 23 座，是全国规模最大的骑楼牌坊街；每座牌坊对应一位历史名人或科举功名，街上嵌入潮绣、木雕、手拉壶等国家级非遗工坊，是潮汕传统文化的集中展示窗口。"
+     },
+     {
+      "name": "广济桥 · 中国四大古桥",
+      "tag": "始建于 1170 年 · 启闭式浮桥",
+      "spot": "gjq",
+      "text": "潮州广济桥始建于南宋乾道六年（1170 年），全长 518 米，由东西两段石梁桥与中间 18 艘梭船组成的浮桥连接，是中国唯一可启闭的桥梁；白天通船、夜晚合桥，桥上亭台楼阁 26 座，与对岸韩文公祠隔江相望。"
+     },
+     {
+      "name": "汕头小公园 · 民国骑楼群",
+      "tag": "1930 年代 · 放射状街区",
+      "spot": "stxy",
+      "text": "汕头小公园历史文化街区建于 1930 年代，以中山纪念亭为中心呈放射状布局，保存着中国大陆最完整的开埠区骑楼建筑群；南生百货、永安堂与邮政局旧址经修缮后活化利用，夜景灯光还原了民国商埠的繁华氛围。"
+     }
+    ]
+   },
+   {
+    "name": "海岸与海岛",
+    "icon": "湾",
+    "color": "#1A6B8A",
+    "intro": "广东大陆海岸线长 4114 公里，居全国首位；从珠海情侣路到阳江海陵岛，从惠州双月湾到南澳岛灯塔，滨海度假资源密度极高。",
+    "items": [
+     {
+      "name": "海陵岛 · 南海一号博物馆",
+      "tag": "十里银滩 12 km · 宋代沉船",
+      "spot": "hld",
+      "text": "阳江海陵岛十里银滩全长 12 公里，沙质细白、坡度平缓；岛上的广东海上丝绸之路博物馆展出南宋沉船「南海一号」出土文物 18 万余件，这艘 1987 年发现的古船是目前世界上保存最完整的远洋贸易商船。"
+     },
+     {
+      "name": "南澳岛 · 广东唯一海岛县",
+      "tag": "113.8 km² · 灯塔 12 座",
+      "spot": "nad",
+      "text": "南澳岛面积 113.8 平方公里，是广东省唯一的海岛县，也是闽粤交界处的海上要塞；岛上现存明清以来灯塔 12 座，三囱崖灯塔与蛴仔澎风车阵构成网红打卡点，青澳湾是广东少有的天然深水沙滩浴场。"
+     },
+     {
+      "name": "双月湾 · 左湾右湾双弧",
+      "tag": "两湾背靠背 · 登大星山俯瞰",
+      "spot": "syw",
+      "text": "惠州双月湾因形状如两轮新月背靠背而得名，左湾水平如镜、右湾波涛汹涌，形成鲜明对比；登上大星山观景台可同时俯瞰两湾全景，日落时分金色光线洒在双弧海岸线上，是珠三角周末自驾最热门的滨海目的地之一。"
+     }
+    ]
+   },
+   {
+    "name": "粤菜与早茶",
+    "icon": "食",
+    "color": "#B8432F",
+    "intro": "粤菜是中国八大菜系中海外影响力最大的一支；广州早茶、顺德私房菜与潮汕牛肉火锅构成三大味觉支柱，「食在广州、厨出凤城」绝非虚言。",
+    "items": [
+     {
+      "name": "广州早茶 · 一盅两件",
+      "tag": "虾饺+烧卖+叉烧包 · 百年传统",
+      "text": "广州早茶始于清咸丰年间，「一盅两件」（一壶茶配两款点心）是基本配置；虾饺要求皮薄馅大、褶数不少于 13 折，烧卖干蒸不塌底，叉烧包开口露馅如雀笼，老字号陶陶居与点都德至今保持手工现做标准。"
+     },
+     {
+      "name": "顺德 · 世界美食之都",
+      "tag": "2014 年 UNESCO · 厨出凤城",
+      "text": "佛山顺德区 2014 年被联合国教科文组织授予「世界美食之都」称号，是中国第二个获此殊荣的城市；双皮奶、均安蒸猪、大良崩砂与陈村粉是代表菜品，民间有「食在广州、厨出凤城（顺德别称）」之说，私房菜馆需提前数日预订。"
+     },
+     {
+      "name": "潮汕牛肉火锅 · 现切鲜涮",
+      "tag": "屠宰后 4 h 内上桌 · 十部位分切",
+      "text": "潮汕牛肉火锅讲究「新鲜」二字：牛只屠宰后 4 小时内必须上桌，按脖仁、吊龙、五花趾、胸口朥等十余个部位精细分切，每个部位涮烫时间精确到秒；沙茶酱蘸料是灵魂，汕头八合里与官塘兄弟是本地人认可的老字号。"
+     }
+    ]
+   }
+  ]
+ }
+};

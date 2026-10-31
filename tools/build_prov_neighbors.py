@@ -27,6 +27,10 @@ PROVINCES = ["yunnan", "guizhou", "chongqing", "shaanxi", "gansu", "qinghai", "t
 PREFIX = {"yunnan": "yn_", "guizhou": "gz_", "chongqing": "cq_", "shaanxi": "sx_",
           "gansu": "gs_", "qinghai": "qh_", "tibet": "xz_"}
 
+# 美食配图前缀（assets/images/fd_<前缀>_<两位序号>.jpg，与 gen_jobs_neighbors.py 一致）
+FOOD_PREFIX = {"yunnan": "yn", "guizhou": "gz", "chongqing": "cq",
+               "shaanxi": "sx", "gansu": "gs", "qinghai": "qh", "tibet": "xz"}
+
 # 索引排序（四川为中心，其余由南向北、由东向西）
 ORDER = ["sichuan", "chongqing", "guizhou", "yunnan", "tibet", "qinghai", "gansu", "shaanxi"]
 
@@ -120,7 +124,13 @@ def build_one(pid):
             c["cap"] = True
         cities.append(c)
 
-    foods = [{"name": n, "city": c, "desc": d} for n, c, d in M.FOODS]
+    foods = []
+    for fi, (n, c, d) in enumerate(M.FOODS):
+        item = {"name": n, "city": c, "desc": d}
+        img = "fd_%s_%02d.jpg" % (FOOD_PREFIX[pid], fi + 1)
+        if os.path.exists(os.path.join(IMAGES, img)):
+            item["img"] = "assets/images/" + img
+        foods.append(item)
     city_names = {c["id"]: c["name"] for c in cities}
     for f in foods:
         if f["city"] not in city_ids:

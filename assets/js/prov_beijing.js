@@ -1,2 +1,1690 @@
 window.PROV_DATA = window.PROV_DATA || {};
-PROV_DATA.beijing = {"meta":{"id":"beijing","name":"北京","en":"Beijing","capital":"东城 · 西城","tagline":"三千年建城史 · 中轴线上的帝国与现代","geoTitle":"一圈城墙定格局，五环外才是山水","geoSub":"先认清三层：核心区看中轴线与皇城，近郊看三山五园与明陵，远郊看长城、峡谷与水库。","intro":["北京的城市结构极其清楚：一条 7.8 公里的中轴线从永定门到钟鼓楼，故宫居中，四坛（天、地、日、月）分列四方，二环以内基本就是老城范围。2024 年「北京中轴线」列入《世界遗产名录》，把这条线走一遍等于读懂了整座城。","出了五环，北京立刻变成另一个地方：西北是太行山余脉（门头沟、房山），北边是燕山与长城带（延庆、怀柔、密云），京郊的长城有八达岭、慕田峪、司马台、箭扣、居庸关五六种完全不同的走法，山路、水库与秋色都能撑起两三天。","自驾在北京要接受一个现实：核心区停车贵、限行严、拥堵常态化，市区景点最好地铁+步行；车留给京郊——长城、古村、峡谷与环线才是北京自驾真正的价值所在。本页按 12 个城区/郊区分组整理停靠点。"],"facts":[["面积","1.64 万 km²"],["常住人口","2185 万（2023 年末）"],["行政区","16 个市辖区"],["世界遗产","8 项（故宫·长城·天坛·颐和园·周口店·明十三陵·中轴线·大运河）"],["最高峰","东灵山 2303 m"],["环线起点","G1/G2/G3/G4/G5/G6/G7 七条放射高速的零公里点"]],"regions":[["老城核心 · 中轴线与皇城","二环以内：故宫、天坛、景山、北海、钟鼓楼、雍和宫与胡同区，步行与地铁最高效，自驾基本无用武之地。"],["三山五园 · 西北郊园林带","海淀西部：颐和园、圆明园、香山、植物园与大觉寺，清代皇家园林群，秋季红叶与春季花期是两个高峰。"],["长城明陵 · 北郊山前带","昌平与延庆：十三陵、居庸关、八达岭、银山塔林，加上怀柔慕田峪、密云司马台，构成北京最经典的自驾走廊。"],["京西山水 · 太行余脉","门头沟与房山：潭柘寺、戒台寺、爨底下、百花山、十渡、云居寺与周口店，古村、峡谷与溶洞密度极高。"]],"capLabel":"中心城区"},"cities":[{"id":"dongcheng","name":"东城 · 中轴线","lat":39.9303,"lng":116.42364,"role":"皇城核心","desc":"故宫、天坛、景山、钟鼓楼、雍和宫与国子监都在这一片，7.8 公里中轴线的主段；建议全程步行或共享单车。","spots":["gugong","tiananmen","tiantan","jingshan","gulouzhonglou","nanluoguxiang","yonghegong","guozijian","zhitan","zhihuasi"],"cap":true},{"id":"xicheng","name":"西城 · 老城西区","lat":39.91368,"lng":116.37201,"role":"皇城与市井","desc":"北海、什刹海、恭王府、白塔寺、琉璃厂与大观园：皇城西半部加上最有味道的胡同与旧书肆街区。","spots":["beihai","gongwangfu","shichahai","baitasi","liulichang","daguanyuan","taoranting"]},{"id":"haidian","name":"海淀 · 三山五园","lat":39.96056,"lng":116.30398,"role":"皇家园林带","desc":"颐和园、圆明园、香山、国家植物园与大觉寺集中于此，加上清华北大与五塔寺，是北京文化密度最高的一区。","spots":["yiheyuan","yuanmingyuan","xiangshan","zhiwuyuan","dajuesi","wutasi","qinghuabeida"]},{"id":"chaoyang","name":"朝阳 · 现代北京","lat":39.92327,"lng":116.4497,"role":"当代与工业遗产","desc":"798 与草场地艺术区、奥林匹克公园、三里屯、CBD 与亮马河：北京的另一副面孔，夜景与展馆都在这里。","spots":["798","aolinpike","sanlitun"]},{"id":"fengtai","name":"丰台石景山 · 卢沟桥","lat":39.90122,"lng":116.24603,"role":"西南门户","desc":"卢沟桥与宛平城、中国人民抗日战争纪念馆、首钢园与八大处：工业遗产与近代史叠加，秋天模式口与八大处最好走。","spots":["shougangyuan","lugouqiao","badachu"]},{"id":"mentougou","name":"门头沟 · 京西古道","lat":39.9419,"lng":116.10803,"role":"古寺与古村","desc":"潭柘寺、戒台寺、爨底下、灵水村与百花山：京西古道沿线，山路弯多但风景与古建密度是京郊第一。","spots":["tanzhesi","jietaisi","cuandixia","lingshuicun","baihuashan","miaofengshan"]},{"id":"changping","name":"昌平 · 明陵","lat":40.22205,"lng":116.23728,"role":"十三陵与居庸关","desc":"明十三陵、居庸关、银山塔林与蟒山：明代的陵寝与关城连成一片，秋天是昌平最好的季节。","spots":["shisanling","juyongguan","yinshanlin","mangshan"]},{"id":"yanqing","name":"延庆 · 长城世园","lat":40.46676,"lng":115.99115,"role":"八达岭门户","desc":"八达岭长城、古崖居、龙庆峡、野鸭湖与世园公园：海拔比城区高 400 米，夏天凉爽、秋天红叶最早。","spots":["badaling","guyaju","longqingxia","yeyahu","shiyuan"]},{"id":"huairou","name":"怀柔密云 · 燕山长城","lat":40.31721,"lng":116.63768,"role":"长城与水","desc":"慕田峪、司马台、古北水镇、雁栖湖、红螺寺、云蒙山与密云水库：北京最经典的自驾山水带，需住一晚才从容。","spots":["mutianyu","simatai","gubeishuizhen","yanqihu","hongluosi","yunmengshan","miyunshuiku"]},{"id":"fangshan","name":"房山 · 周口店十渡","lat":39.74995,"lng":116.14933,"role":"溶洞与峡谷","desc":"周口店北京人遗址、云居寺、石花洞、十渡拒马河与坡峰岭：北京西南的地质与佛教石刻重镇。","spots":["zhoukoudian","yunjusi","shihuadong","shidu","pofengling"]},{"id":"tongzhou","name":"通州 · 城市副中心","lat":39.9107,"lng":116.66249,"role":"大运河终点","desc":"燃灯塔、大运河森林公园、城市绿心与北京环球影城：京杭大运河的北终点，也是北京最新的娱乐目的地。","spots":["randengta","dayunhe","huanqiu","lvxin"]},{"id":"pinggu","name":"平谷 · 京东山水","lat":40.14522,"lng":117.12826,"role":"金海湖与石林峡","desc":"金海湖、石林峡、丫髻山与京东大峡谷：北京最东端的山区，桃花季（4 月）与大桃季（7–9 月）是两个高峰。","spots":["jinhaifu","shilinxia","yujishan","jingdongdaxiagu"]}],"spots":[{"id":"gugong","name":"故宫博物院","cat":"culture","catName":"人文","city":"dongcheng","desc":"明清两代皇宫，世界上现存规模最大、保存最完整的木结构宫殿群：9000 余间房屋沿中轴线铺开，太和殿、乾清宫与御花园是主线，珍宝馆与钟表馆另收费。","img":"assets/images/bj_gugong.jpg","ticket":"60 元（旺季）","season":"全年，周一闭馆","level":"世界遗产","key":true,"lat":39.9177,"lng":116.40344},{"id":"tiananmen","name":"天安门广场 · 国旗护卫队","cat":"landmark","catName":"地标","city":"dongcheng","desc":"中轴线的中心节点：广场每日升降旗时间随日出日落调整，人民英雄纪念碑、正阳门与两侧建筑构成中国最熟悉的公共空间。","img":"assets/images/bj_tiananmen.jpg","ticket":"免费","season":"全年","free":true,"lat":39.9049,"lng":116.40374},{"id":"tiantan","name":"天坛公园","cat":"culture","catName":"人文","city":"dongcheng","desc":"明清皇帝祭天之所，祈年殿三重檐攒尖顶不用一根大梁：圜丘、皇穹宇与回音壁在同一条轴线上，清晨本地人锻炼的场景比景点更动人。","img":"assets/images/bj_tiantan.jpg","ticket":"15 元（联票 34）","season":"全年","level":"世界遗产","key":true,"lat":39.8836,"lng":116.41284},{"id":"jingshan","name":"景山公园 · 万春亭","cat":"scenery","catName":"景色","city":"dongcheng","desc":"故宫正北的人工土山，万春亭是北京中轴线最佳观景点：日落前上山可一眼看完故宫金顶全貌与远处的北海白塔、国贸三期。","img":"assets/images/bj_jingshan.jpg","ticket":"2 元","season":"全年","key":true,"lat":39.9269,"lng":116.40295},{"id":"beihai","name":"北海公园","cat":"culture","catName":"人文","city":"xicheng","desc":"辽金元明清五朝皇家园林，白塔立于琼华岛顶：「让我们荡起双桨」写的就是这里，冬天冰场开放，夏天可划船到五龙亭。","img":"assets/images/bj_beihai.jpg","ticket":"10 元","season":"全年","lat":39.9261,"lng":116.39554},{"id":"gulouzhonglou","name":"钟楼 · 鼓楼","cat":"culture","catName":"人文","city":"dongcheng","desc":"元代以来的城市报时中心，登鼓楼可俯瞰大片灰瓦胡同与什刹海水系：晚上鼓楼东大街是北京最热闹的酒吧与小店街区之一。","img":"assets/images/bj_gulouzhonglou.jpg","ticket":"20 元","season":"全年","lat":39.9426,"lng":116.39975},{"id":"nanluoguxiang","name":"南锣鼓巷 · 胡同区","cat":"culture","catName":"人文","city":"dongcheng","desc":"元大都时期留下的鱼骨状胡同格局，800 年未变：主街商业化严重，真正值得走的是雨儿胡同、帽儿胡同一带的支巷与四合院门楼。","img":"assets/images/bj_nanluoguxiang.jpg","ticket":"免费","season":"全年","free":true,"lat":39.93841,"lng":116.40925},{"id":"yonghegong","name":"雍和宫","cat":"culture","catName":"人文","city":"dongcheng","desc":"雍正府邸改建的藏传佛教寺院，北京规格最高的皇家寺庙：万福阁内独木大佛高 18 米，白檀木雕成，法会日香火极盛。","img":"assets/images/bj_yonghegong.jpg","ticket":"25 元","season":"全年","key":true,"lat":39.9492,"lng":116.42374},{"id":"guozijian","name":"国子监 · 孔庙","cat":"culture","catName":"人文","city":"dongcheng","desc":"元明清三代国家最高学府：辟雍殿是乾隆建的方形讲堂，四周环水；孔庙内 198 座进士题名碑刻着 5 万余名进士姓名。","img":"assets/images/bj_guozijian.jpg","ticket":"30 元","season":"全年，周一闭馆","lat":39.9486,"lng":116.41655},{"id":"zhitan","name":"地坛公园","cat":"scenery","catName":"景色","city":"dongcheng","desc":"明清祭地之所，方泽坛与皇祇室保存完整：秋天银杏大道是北京最著名的落叶景观之一，10 月底到 11 月上旬金黄一片。","img":"assets/images/bj_zhitan.jpg","ticket":"2 元","season":"全年，10 月底银杏最佳","lat":39.9504,"lng":116.41925},{"id":"zhihuasi","name":"智化寺","cat":"culture","catName":"人文","city":"dongcheng","desc":"明代太监王振家庙，保存着北京最完整的明代木结构与藻井：寺内每天上演「京音乐」——传承 500 余年的笙管古乐，值得专程听一场。","img":"assets/images/bj_zhihuasi.jpg","ticket":"20 元","season":"全年","lat":39.92609,"lng":116.42983},{"id":"gongwangfu","name":"恭王府","cat":"culture","catName":"人文","city":"xicheng","desc":"和珅旧宅、后为恭亲王奕訢府邸，清代王府格局保存最完整的一座：锡晋斋金丝楠木大殿与后花园蝠池是精华，「一座恭王府，半部清代史」。","img":"assets/images/bj_gongwangfu.jpg","ticket":"40 元","season":"全年","key":true,"lat":39.9394,"lng":116.38924},{"id":"shichahai","name":"什刹海 · 银锭桥","cat":"scenery","catName":"景色","city":"xicheng","desc":"前海、后海、西海三片水域连成的老城水系：银锭观山是燕京小八景，夏天摇橹船、冬天冰场，环湖酒吧与胡同并存。","img":"assets/images/bj_shichahai.jpg","ticket":"免费","season":"全年","free":true,"key":true,"lat":39.9414,"lng":116.39354},{"id":"baitasi","name":"妙应寺白塔","cat":"culture","catName":"人文","city":"xicheng","desc":"元代尼泊尔工匠阿尼哥设计修建的覆钵式白塔，中国现存最大的元代佛塔：塔院与胡同民居贴在一起，白塔寺东夹道是最佳拍摄角度。","img":"assets/images/bj_baitasi.jpg","ticket":"20 元","season":"全年","lat":39.92506,"lng":116.3626},{"id":"liulichang","name":"琉璃厂文化街","cat":"culture","catName":"人文","city":"xicheng","desc":"清代以来的旧书、字画、文房四宝集散地：荣宝斋、中国书店与几十家老字号还在营业，逛完可步行到不远处的湖广会馆与纪晓岚故居。","img":"assets/images/bj_liulichang.jpg","ticket":"免费","season":"全年","free":true,"lat":39.89589,"lng":116.38723},{"id":"daguanyuan","name":"北京大观园","cat":"culture","catName":"人文","city":"xicheng","desc":"为 1987 版《红楼梦》电视剧按原著描写建造的园林：怡红院、潇湘馆、蘅芜苑与大观楼复原度极高，红迷值得细看。","img":"assets/images/bj_daguanyuan.jpg","ticket":"40 元","season":"全年","lat":39.87836,"lng":116.36119},{"id":"taoranting","name":"陶然亭公园","cat":"scenery","catName":"景色","city":"xicheng","desc":"取自白居易「更待菊黄家酝熟，共君一醉一陶然」：慈悲庵、华夏名亭园与湖岸垂柳，是老北京文人聚会的旧址，冬天有大型雪场。","img":"assets/images/bj_taoranting.jpg","ticket":"2 元","season":"全年","lat":39.87939,"lng":116.38222},{"id":"yiheyuan","name":"颐和园","cat":"culture","catName":"人文","city":"haidian","desc":"清代皇家园林的集大成者，昆明湖与万寿山构成 290 公顷山水格局：长廊 728 米绘 1.4 万幅彩画，佛香阁、十七孔桥与苏州街是主线。","img":"assets/images/bj_yiheyuan.jpg","ticket":"30 元（旺季）","season":"全年，4–10 月最佳","level":"世界遗产","key":true,"lat":40.00113,"lng":116.28155},{"id":"yuanmingyuan","name":"圆明园遗址公园","cat":"culture","catName":"人文","city":"haidian","desc":"万园之园的残迹：西洋楼大水法石柱是被烧毁后的原物，园区极大建议坐船或电瓶车，秋天银杏与残荷是两个高光时段。","img":"assets/images/bj_yuanmingyuan.jpg","ticket":"25 元（联票）","season":"全年","key":true,"lat":40.00996,"lng":116.30478},{"id":"xiangshan","name":"香山公园","cat":"mountain","catName":"山岳·徒步","city":"haidian","desc":"燕京小八景之一「香山红叶」：10 月中下旬 10 万株黄栌变红，香炉峰海拔 575 米，索道与步行两条上山路线，红叶季需提前预约。","img":"assets/images/bj_xiangshan.jpg","diff":2,"ticket":"10 元（红叶季 25）","season":"10 月中下旬红叶","key":true,"lat":39.99628,"lng":116.19614},{"id":"zhiwuyuan","name":"国家植物园","cat":"scenery","catName":"景色","city":"haidian","desc":"由原北京植物园与中科院植物园合并，卧佛寺、樱桃沟与曹雪芹纪念馆在园内：4 月桃花节、5 月月季与温室展览是三大看点。","img":"assets/images/bj_zhiwuyuan.jpg","ticket":"10 元","season":"4–10 月","lat":40.00625,"lng":116.2111},{"id":"dajuesi","name":"大觉寺","cat":"culture","catName":"人文","city":"haidian","desc":"辽代古刹，寺内玉兰花树龄 300 余年：四月初白玉兰盛开是北京春天最值得等的场景之一，古银杏与无量寿佛殿同样出色。","img":"assets/images/bj_dajuesi.jpg","ticket":"20 元","season":"全年，4 月初玉兰","lat":40.0414,"lng":116.10634},{"id":"wutasi","name":"五塔寺 · 北京石刻艺术博物馆","cat":"culture","catName":"人文","city":"haidian","desc":"明代真觉寺金刚宝座塔，仿印度菩提伽耶形制：塔顶五座小塔，院内收集北京各处石碑石刻 1000 余件，秋天两株古银杏极美。","img":"assets/images/bj_wutasi.jpg","ticket":"20 元","season":"全年","lat":39.94431,"lng":116.33514},{"id":"qinghuabeida","name":"清华大学 · 北京大学","cat":"landmark","catName":"地标","city":"haidian","desc":"中国最著名的两所校园：清华二校门与大礼堂、北大未名湖与博雅塔，需提前在官方公众号预约入校，寒暑假名额紧张。","img":"assets/images/bj_qinghuabeida.jpg","ticket":"免费","season":"全年","free":true,"lat":39.99929,"lng":116.32212},{"id":"798","name":"798 艺术区","cat":"culture","catName":"人文","city":"chaoyang","desc":"原国营 798 厂改建的当代艺术聚落，包豪斯锯齿形厂房是最大特色：UCCA 尤伦斯、佩斯画廊与几十家独立空间集中，周末最热闹。","img":"assets/images/bj_798.jpg","ticket":"免费（展馆另收）","season":"全年","key":true,"lat":39.98544,"lng":116.50074},{"id":"aolinpike","name":"奥林匹克公园 · 鸟巢水立方","cat":"landmark","catName":"地标","city":"chaoyang","desc":"2008 与 2022 双奥核心区：鸟巢、水立方、国家体育馆与奥林匹克塔集中，夜晚灯光比白天好看，中轴线在此向北延伸。","img":"assets/images/bj_aolinpike.jpg","ticket":"公园免费，场馆另收","season":"全年","lat":39.99431,"lng":116.40205},{"id":"sanlitun","name":"三里屯 · 亮马河","cat":"scenery","catName":"景色","city":"chaoyang","desc":"北京最国际化的街区，太古里与周边酒吧街构成夜生活核心：亮马河国际风情水岸可坐船夜游，两岸灯光带是北京新的城市名片。","img":"assets/images/bj_sanlitun.jpg","ticket":"免费","season":"全年","free":true,"lat":39.93465,"lng":116.46037},{"id":"shougangyuan","name":"首钢园","cat":"landmark","catName":"地标","city":"fengtai","desc":"百年钢厂改造的工业遗产园区：三高炉、滑雪大跳台、冷却塔与空中步道共存，2022 冬奥后成为北京最出片的工业风拍摄地。","img":"assets/images/bj_shougangyuan.jpg","ticket":"免费","season":"全年","key":true,"lat":39.98054,"lng":116.16452},{"id":"lugouqiao","name":"卢沟桥 · 宛平城","cat":"culture","catName":"人文","city":"fengtai","desc":"1189 年建成的十一孔联拱石桥，501 只石狮各不相同：马可·波罗称其为「世界上最好的石桥」，1937 年七七事变发生地，桥东即宛平城与抗战馆。","img":"assets/images/bj_lugouqiao.jpg","ticket":"20 元","season":"全年","level":"全国重点文保","key":true,"lat":39.84704,"lng":116.21936},{"id":"badachu","name":"八大处公园","cat":"mountain","catName":"山岳·徒步","city":"fengtai","desc":"西山余脉中八座古刹的统称，从一处长安寺到八处证果寺：滑道下山是北京孩子的记忆，秋天红叶与春天杏花是两个高峰。","img":"assets/images/bj_badachu.jpg","diff":1,"ticket":"10 元","season":"4–11 月","lat":39.9471,"lng":116.18117},{"id":"tanzhesi","name":"潭柘寺","cat":"culture","catName":"人文","city":"mentougou","desc":"北京最古老的寺庙，民谚「先有潭柘寺，后有北京城」：寺内帝王树银杏高 40 米、树龄千年，清代皇帝多次到此，古建与银杏同看。","img":"assets/images/bj_tanzhesi.jpg","ticket":"55 元","season":"全年，10 月底银杏","key":true,"lat":39.94497,"lng":116.0269},{"id":"jietaisi","name":"戒台寺","cat":"culture","catName":"人文","city":"mentougou","desc":"以戒坛闻名的千年古刹，与泉州开元寺、杭州昭庆寺并称中国三大戒坛：寺内古松姿态奇特，「戒台松风」是燕京胜景，秋天红叶极佳。","img":"assets/images/bj_jietaisi.jpg","ticket":"45 元","season":"全年","lat":39.92448,"lng":116.08072},{"id":"cuandixia","name":"爨底下村","cat":"culture","catName":"人文","city":"mentougou","desc":"明代戍边军户后裔聚居的山村，70 余座明清四合院依山层叠：石板路、门楼砖雕与老墙保存完整，是北京最完整的古村落，可住民宿过夜。","img":"assets/images/bj_cuandixia.jpg","ticket":"35 元","season":"4–11 月","key":true,"lat":39.98435,"lng":115.8729},{"id":"lingshuicun","name":"灵水村","cat":"culture","catName":"人文","city":"mentougou","desc":"「举人村」：明清两代出过 22 名举人，古宅、古树与科举文化遗存完整，电影《投名状》取景地，游客比爨底下少得多。","img":"assets/images/bj_lingshuicun.jpg","ticket":"35 元","season":"4–11 月","lat":39.96775,"lng":115.93926},{"id":"baihuashan","name":"百花山自然保护区","cat":"mountain","catName":"山岳·徒步","city":"mentougou","desc":"北京第三高峰（2049 米）与高山草甸：夏季野花铺满山脊，云海与日出概率高，盘山公路弯急，需在景区门口换乘或步行上山。","img":"assets/images/bj_baihuashan.jpg","elev":2049,"diff":3,"ticket":"60 元","season":"6–9 月","key":true,"lat":39.9712,"lng":115.73625},{"id":"miaofengshan","name":"妙峰山","cat":"mountain","catName":"山岳·徒步","city":"mentougou","desc":"京西香火最盛的娘娘庙，玫瑰谷花期五月满山：古香道从三家店一路盘上，是旧时香会朝顶的路线，秋天红叶同样出名。","img":"assets/images/bj_miaofengshan.jpg","diff":2,"ticket":"40 元","season":"5 月玫瑰、9–10 月红叶","lat":40.03876,"lng":116.01979},{"id":"shisanling","name":"明十三陵 · 长陵定陵","cat":"culture","catName":"人文","city":"changping","desc":"明代十三位皇帝的陵寝群：长陵祾恩殿内 60 根金丝楠木大柱是全国仅此一处，定陵是唯一被发掘的皇陵，地下宫殿可入内参观。","img":"assets/images/bj_shisanling.jpg","ticket":"长陵 50 / 定陵 60","season":"全年","level":"世界遗产","key":true,"lat":40.29996,"lng":116.24189},{"id":"juyongguan","name":"居庸关长城","cat":"culture","catName":"人文","city":"changping","desc":"长城四大名关之一，「居庸叠翠」为燕京八景：关城呈圆形，云台石刻六道文字的真言与《建白塔碑》是国宝级文物。","img":"assets/images/bj_juyongguan.jpg","ticket":"45 元","season":"4–10 月","level":"世界遗产","key":true,"lat":40.29322,"lng":116.07987},{"id":"yinshanlin","name":"银山塔林","cat":"culture","catName":"人文","city":"changping","desc":"辽金时期的佛教圣地，现存 5 座密檐式砖塔与 13 座墓塔：塔群立在山谷中，秋天红叶环绕，游客极少，是北京最安静的古塔群。","img":"assets/images/bj_yinshanlin.jpg","ticket":"25 元","season":"全年","lat":40.28469,"lng":116.35623},{"id":"mangshan","name":"蟒山国家森林公园","cat":"mountain","catName":"山岳·徒步","city":"changping","desc":"北京面积最大的国家森林公园，1299 级台阶登顶可看十三陵水库全景：秋天红叶与春天山花两季最好，山路较陡。","img":"assets/images/bj_mangshan.jpg","diff":2,"ticket":"30 元","season":"4–11 月","lat":40.25547,"lng":116.28939},{"id":"badaling","name":"八达岭长城","cat":"culture","catName":"人文","city":"yanqing","desc":"长城知名度最高的一段，明长城精华：北八楼是制高点，可乘索道或滑车上下，节假日人流极大，建议清晨或非周末前往。","img":"assets/images/bj_badaling.jpg","ticket":"40 元（旺季）","season":"全年，4–10 月最佳","level":"世界遗产","key":true,"lat":40.35528,"lng":116.0109},{"id":"guyaju","name":"古崖居遗址","cat":"culture","catName":"人文","city":"yanqing","desc":"在陡峭岩壁上人工开凿的 147 个石室，被称为「中国最大的古代洞窟聚落」：谁开凿、为何废弃至今无定论，攀爬栈道体验独特。","img":"assets/images/bj_guyaju.jpg","ticket":"40 元","season":"4–10 月","key":true,"lat":40.50953,"lng":115.9728},{"id":"longqingxia","name":"龙庆峡","cat":"scenery","catName":"景色","city":"yanqing","desc":"燕山深处的峡谷水库，「小漓江」：坐船穿峡谷看两岸峭壁，冬天是著名的冰灯艺术节场地，冰雕规模在北京最大。","img":"assets/images/bj_longqingxia.jpg","ticket":"40 元（船另收）","season":"夏季峡谷、冬季冰灯","lat":40.52208,"lng":115.98945},{"id":"yeyahu","name":"野鸭湖国家湿地公园","cat":"scenery","catName":"景色","city":"yanqing","desc":"官厅水库边的北京最大湿地，候鸟迁徙通道：春秋两季数十万只水鸟过境，观鸟屋与木栈道深入芦苇荡，是京郊最安静的自然景点。","img":"assets/images/bj_yeyahu.jpg","ticket":"50 元","season":"4–5 月、9–11 月观鸟","lat":40.44283,"lng":115.93932},{"id":"shiyuan","name":"北京世园公园","cat":"scenery","catName":"景色","city":"yanqing","desc":"2019 世界园艺博览会原址：中国馆、国际馆与永宁阁保留，花海面积大，秋天有大型灯会与音乐节，适合带孩子与野餐。","img":"assets/images/bj_shiyuan.jpg","ticket":"40 元","season":"5–10 月","lat":40.45945,"lng":115.94773},{"id":"mutianyu","name":"慕田峪长城","cat":"culture","catName":"人文","city":"huairou","desc":"明长城保存最好的一段之一，植被覆盖率 90% 以上：敌楼密集、游客比八达岭少，缆车上、滑道下，14–20 号敌楼段风景最佳。","img":"assets/images/bj_mutianyu.jpg","ticket":"45 元","season":"全年，4–10 月最佳","level":"世界遗产","key":true,"lat":40.43304,"lng":116.57397},{"id":"simatai","name":"司马台长城","cat":"culture","catName":"人文","city":"huairou","desc":"唯一保留明代原貌的古长城段，以险、密、齐、巧、全著称：望京楼海拔 986 米可远眺北京城，夜游长城是国内独有的体验。","img":"assets/images/bj_simatai.jpg","ticket":"40 元","season":"全年","level":"世界遗产","key":true,"lat":40.65974,"lng":117.25227},{"id":"gubeishuizhen","name":"古北水镇","cat":"culture","catName":"人文","city":"huairou","desc":"在司马台长城脚下按北方水镇格局新建的度假区：温泉、民宿、夜景与长城夜游组合，是北京周边最成熟的过夜目的地。","img":"assets/images/bj_gubeishuizhen.jpg","ticket":"140 元","season":"全年","key":true,"lat":40.65428,"lng":117.20371},{"id":"yanqihu","name":"雁栖湖","cat":"scenery","catName":"景色","city":"huairou","desc":"2014 APEC 与 2016 G20 相关会议举办地，湖畔的雁栖塔与国际会议中心是新地标：环湖 21 公里骑行道，秋天山色倒映湖面。","img":"assets/images/bj_yanqihu.jpg","ticket":"20 元","season":"4–11 月","lat":40.40538,"lng":116.66425},{"id":"hongluosi","name":"红螺寺","cat":"culture","catName":"人文","city":"huairou","desc":"千年古刹，「南有普陀，北有红螺」：寺前雌雄两株古银杏与殿后紫藤寄松是奇观，后山 800 米步道可看燕山秋色。","img":"assets/images/bj_hongluosi.jpg","ticket":"54 元","season":"全年，10 月红叶","lat":40.38035,"lng":116.65593},{"id":"yunmengshan","name":"云蒙山国家森林公园","cat":"mountain","catName":"山岳·徒步","city":"huairou","desc":"燕山主峰之一，海拔 1414 米，被称为「北方小黄山」：奇峰、怪石、瀑布与云海，登山步道较长，需一整天。","img":"assets/images/bj_yunmengshan.jpg","elev":1414,"diff":3,"ticket":"60 元","season":"5–10 月","lat":40.54305,"lng":116.73945},{"id":"miyunshuiku","name":"密云水库","cat":"scenery","catName":"景色","city":"huairou","desc":"华北最大水库，北京饮用水源地：环湖公路 100 余公里，白河堡与云蒙山景观相连，库区禁止下水，但沿岸观景与骑行极好。","img":"assets/images/bj_miyunshuiku.jpg","ticket":"免费（部分区域管制）","season":"全年","free":true,"lat":40.4845,"lng":116.85604},{"id":"zhoukoudian","name":"周口店北京人遗址","cat":"culture","catName":"人文","city":"fangshan","desc":"1929 年在此发现距今 70 万年的北京猿人头盖骨，改写了人类演化史：遗址公园与博物馆可看猿人洞发掘现场剖面。","img":"assets/images/bj_zhoukoudian.jpg","ticket":"30 元","season":"全年","level":"世界遗产","key":true,"lat":39.68851,"lng":115.92421},{"id":"yunjusi","name":"云居寺","cat":"culture","catName":"人文","city":"fangshan","desc":"隋代静琬法师开创的石经刻藏地，房山石经 1.4 万余块是世界上规模最大的石刻佛经：唐代小塔群与地宫舍利同样重要。","img":"assets/images/bj_yunjusi.jpg","ticket":"50 元","season":"全年","level":"全国重点文保","key":true,"lat":39.61787,"lng":115.75621},{"id":"shihuadong","name":"石花洞","cat":"scenery","catName":"景色","city":"fangshan","desc":"华北最大的地下地质奇观，被称为「地下地质奇景博物馆」：六层洞府、石钟乳与石花形态完整，洞内常年 15 ℃。","img":"assets/images/bj_shihuadong.jpg","ticket":"70 元","season":"全年","lat":39.79288,"lng":115.99779},{"id":"shidu","name":"十渡 · 拒马河","cat":"scenery","catName":"景色","city":"fangshan","desc":"华北唯一的岩溶峰林峡谷，拒马河把山地切成十处渡口：漂流、蹦极、竹筏与沿河自驾公路是主要玩法，六渡到十五渡风景最好。","img":"assets/images/bj_shidu.jpg","ticket":"沿河免费，项目另收","season":"5–9 月","key":true,"lat":39.63429,"lng":115.58933},{"id":"pofengling","name":"坡峰岭","cat":"mountain","catName":"山岳·徒步","city":"fangshan","desc":"北京秋季红叶密度最高的山区之一，10 月中下旬漫山黄栌变红：步道 6 公里、爬升约 500 米，比香山人少、比百花山好走。","img":"assets/images/bj_pofengling.jpg","diff":2,"ticket":"45 元","season":"10 月中下旬","lat":39.73435,"lng":115.86428},{"id":"randengta","name":"燃灯塔 · 大运河通州段","cat":"culture","catName":"人文","city":"tongzhou","desc":"辽代古塔，京杭大运河北终点的标志：「一支塔影认通州」，塔旁是三庙一塔景区，夜里亮灯后倒映在运河上。","img":"assets/images/bj_randengta.jpg","ticket":"20 元","season":"全年","lat":39.90941,"lng":116.6684},{"id":"dayunhe","name":"大运河森林公园","cat":"scenery","catName":"景色","city":"tongzhou","desc":"沿运河两岸 8 公里长的免费城市公园：漕运码头、月岛闻莺与大片草坪，可租自行车或坐游船，是北京最适合野餐的地方之一。","img":"assets/images/bj_dayunhe.jpg","ticket":"免费","season":"4–10 月","free":true,"lat":39.88445,"lng":116.68926},{"id":"huanqiu","name":"北京环球影城","cat":"landmark","catName":"地标","city":"tongzhou","desc":"亚洲第三座环球影城，哈利波特、变形金刚、侏罗纪与功夫熊猫七大主题区：需提前购票并下载官方 App 排队，节假日单日 8 万人。","img":"assets/images/bj_huanqiu.jpg","ticket":"418 元起","season":"全年","lat":39.86475,"lng":116.68956},{"id":"lvxin","name":"城市绿心森林公园","cat":"scenery","catName":"景色","city":"tongzhou","desc":"在原东方化工厂址上建成的 11 平方公里城市森林：无围栏、免费，24 节气林窗与运河故道贯穿，副中心的绿色核心。","img":"assets/images/bj_lvxin.jpg","ticket":"免费","season":"全年","free":true,"lat":39.89116,"lng":116.69598},{"id":"jinhaifu","name":"金海湖","cat":"scenery","catName":"景色","city":"pinggu","desc":"北京第三大水库，湖岸线 40 公里：夏季水上项目、秋季环湖红叶，湖东的三泉寺与大峡谷可连成一天，人比京西少很多。","img":"assets/images/bj_jinhaifu.jpg","ticket":"45 元","season":"5–10 月","lat":40.1846,"lng":117.20644},{"id":"shilinxia","name":"石林峡","cat":"mountain","catName":"山岳·徒步","city":"pinggu","desc":"京东大峡谷北侧的石英岩峰林，山顶玻璃观景台悬挑 33 米：可坐索道省 2 小时爬升，春天山花、秋天红叶两季最好。","img":"assets/images/bj_shilinxia.jpg","diff":2,"ticket":"78 元","season":"4–11 月","lat":40.14705,"lng":117.26061},{"id":"yujishan","name":"丫髻山","cat":"culture","catName":"人文","city":"pinggu","desc":"道教名山，双峰高耸如古代女童发髻：365 级台阶象征一年，庙会规模在京东最大，山顶可看平谷平原全景。","img":"assets/images/bj_yujishan.jpg","ticket":"45 元","season":"全年","lat":40.18473,"lng":117.08985},{"id":"jingdongdaxiagu","name":"京东大峡谷","cat":"scenery","catName":"景色","city":"pinggu","desc":"平谷北部 6 公里长的峡谷：龙潭、飞瀑与玻璃栈道串在一条步道上，夏天水量最大、可踩水，秋天红叶夹岸，比石林峡轻松。","img":"assets/images/bj_jingdongdaxiagu.jpg","diff":1,"ticket":"45 元","season":"5–10 月","lat":40.18464,"lng":117.18149}],"foods":[{"name":"北京烤鸭","city":"dongcheng","cityName":"东城 · 中轴线","desc":"挂炉与焖炉两派：全聚德挂炉、便宜坊焖炉，片鸭三吃（皮蘸糖、肉卷饼、架熬汤），大董与四季民福是新一代代表。","img":"assets/images/fd_bj_01.jpg"},{"name":"铜锅涮羊肉","city":"dongcheng","cityName":"东城 · 中轴线","desc":"清水铜锅只放葱姜，靠羊肉本身与麻酱：手切鲜羊肉、上脑、黄瓜条与糖蒜是标配，聚宝源、南门涮肉排队最凶。","img":"assets/images/fd_bj_02.jpg"},{"name":"老北京炸酱面","city":"xicheng","cityName":"西城 · 老城西区","desc":"黄酱加五花肉丁炸出的干酱拌手擀面，配八样菜码（黄瓜丝、心里美、豆芽、青豆、黄豆、芹菜、白菜、大蒜）。","img":"assets/images/fd_bj_03.jpg"},{"name":"卤煮火烧","city":"xicheng","cityName":"西城 · 老城西区","desc":"火烧、豆腐、猪肠与猪肺在老汤里同煮：汤浓味重，配蒜汁与辣椒油，小肠陈是最有名的一家，是检验北京胃的试金石。","img":"assets/images/fd_bj_04.jpg"},{"name":"爆肚","city":"dongcheng","cityName":"东城 · 中轴线","desc":"牛羊肚的不同部位按秒汆烫：肚仁、散丹、蘑菇头口感各异，蘸麻酱、醋、辣椒油与香菜，讲究「脆嫩」二字。","img":"assets/images/fd_bj_05.jpg"},{"name":"豆汁儿 · 焦圈","city":"dongcheng","cityName":"东城 · 中轴线","desc":"绿豆发酵后的酸浆，配炸得酥脆的焦圈与咸菜丝：味道极具争议，是老北京身份认同的边界，建议先小口试。","img":"assets/images/fd_bj_06.jpg"},{"name":"炒肝 · 包子","city":"xicheng","cityName":"西城 · 老城西区","desc":"猪肝猪肠勾芡成糊，蒜香浓重，吃法是端碗转圈吸溜不用勺：配猪肉大葱包子，姚记炒肝与赵记是最常被提的两家。","img":"assets/images/fd_bj_07.jpg"},{"name":"门钉肉饼","city":"dongcheng","cityName":"东城 · 中轴线","desc":"形似宫门上的门钉，牛肉大葱馅煎到两面金黄、咬开一包汤汁：白魁老号与门钉李最有名，趁热吃。","img":"assets/images/fd_bj_08.jpg"},{"name":"京味点心八件","city":"xicheng","cityName":"西城 · 老城西区","desc":"稻香村的自来红、自来白、萨其马、豌豆黄、艾窝窝与驴打滚：宫廷点心平民化的结果，是带走最合适的伴手礼。","img":"assets/images/fd_bj_09.jpg"},{"name":"奶酪魏 · 双皮奶","city":"xicheng","cityName":"西城 · 老城西区","desc":"宫廷传下的米酒发酵奶酪，凝固成半固体、口感似布丁而更清爽：牛街与南锣鼓巷都有店，夏天冰镇最好。","img":"assets/images/fd_bj_10.jpg"},{"name":"炙子烤肉","city":"xicheng","cityName":"西城 · 老城西区","desc":"铁炙子上烤腌好的牛羊肉，旧时食客一只脚踩长凳、边烤边吃：烤肉宛（牛肉）与烤肉季（羊肉，什刹海银锭桥畔）是两家老字号。","img":"assets/images/fd_bj_11.jpg"},{"name":"京郊虹鳟与柴鸡","city":"huairou","cityName":"怀柔密云 · 燕山长城","desc":"怀柔神堂峪、密云水库周边的农家院标配：虹鳟鱼一鱼两吃、栗子焖柴鸡、贴饼子与山野菜，走长城线时顺路解决午饭。","img":"assets/images/fd_bj_12.jpg"},{"name":"牛街清真小吃","city":"xicheng","cityName":"西城 · 老城西区","desc":"北京最大的回族聚居区：白记年糕、洪记小吃、聚宝源涮肉与牛街清真超市的熟食，密度高、价格比景区实在。","img":"assets/images/fd_bj_13.jpg"}],"loops":[{"name":"中轴线 · 老城徒步线","days":"1–2 天","km":"步行约 12 km","desc":"2024 年新晋世界遗产「北京中轴线」的完整走法：永定门起步，经天坛、正阳门、天安门、故宫、景山、万宁桥到钟鼓楼，全程地铁+步行。","path":"永定门 → 先农坛 → 天坛 → 前门大栅栏 → 天安门广场 → 故宫 → 景山万春亭 → 北海 → 什刹海 → 钟鼓楼","note":"故宫必须提前 7 天在官方小程序实名预约，周一闭馆；中轴线核心区停车几乎不可能，建议把车停在酒店。","pts":[[39.8797,116.40374,"永定门"],[39.8836,116.41284,"天坛"],[39.9004,116.40424,"前门大栅栏"],[39.9177,116.40344,"故宫"],[39.9269,116.40295,"景山万春亭"],[39.9261,116.39554,"北海公园"],[39.9414,116.39354,"什刹海银锭桥"],[39.9426,116.39975,"钟鼓楼"]]},{"name":"三山五园 · 西北郊园林线","days":"2 天","km":"约 90 km","desc":"清代皇家园林群一次看完：颐和园、圆明园、香山、植物园、大觉寺与五塔寺，秋天可加香山红叶与潭柘寺银杏。","path":"颐和园 → 圆明园 → 清华北大 → 五塔寺 → 国家植物园 → 香山 → 大觉寺","note":"红叶季（10 月中下旬）香山与植物园周边严重拥堵，建议 7 点前到；颐和园与圆明园都极大，各需大半天。","pts":[[40.00113,116.28155,"颐和园"],[40.00996,116.30478,"圆明园"],[39.99929,116.32212,"清华北大"],[39.94431,116.33514,"五塔寺"],[40.00625,116.2111,"国家植物园"],[39.99628,116.19614,"香山公园"],[40.0414,116.10634,"大觉寺"]]},{"name":"长城明陵 · 北郊山前环线","days":"2–3 天","km":"约 320 km","desc":"北京最经典的自驾走廊：十三陵、居庸关、八达岭、古崖居、龙庆峡与野鸭湖，一路串起明代陵寝、关城与长城精华段。","path":"市区 → 明十三陵(长陵+定陵) → 居庸关 → 八达岭 → 古崖居 → 龙庆峡 → 野鸭湖 → 世园公园 → 市区","note":"八达岭节假日单日客流可达 5 万，尽量非周末清晨前往；京藏高速（G6）出京方向早高峰拥堵，建议 6 点前出发或走 G7。","pts":[[40.29996,116.24189,"明十三陵长陵"],[40.29322,116.07987,"居庸关"],[40.35528,116.0109,"八达岭长城"],[40.50953,115.9728,"古崖居"],[40.52208,115.98945,"龙庆峡"],[40.44283,115.93932,"野鸭湖湿地"],[40.45945,115.94773,"世园公园"]]},{"name":"燕山长城 · 怀柔密云深度线","days":"3 天","km":"约 420 km","desc":"长城最美的一段加京郊最好的山水：慕田峪、司马台、古北水镇过夜、雁栖湖、红螺寺与云蒙山，需在古北水镇住一晚。","path":"市区 → 慕田峪 → 雁栖湖 → 红螺寺 → 云蒙山 → 密云水库 → 古北水镇(住) → 司马台夜长城 → 市区","note":"古北水镇与司马台是同一景区，夜游长城需另购票且天气允许才开放；云蒙山步道长，体力有限可只走慕田峪。","pts":[[40.43304,116.57397,"慕田峪长城"],[40.40538,116.66425,"雁栖湖"],[40.38035,116.65593,"红螺寺"],[40.54305,116.73945,"云蒙山"],[40.4845,116.85604,"密云水库"],[40.65428,117.20371,"古北水镇"],[40.65974,117.25227,"司马台长城"]]},{"name":"京西山水 · 门头沟房山大环线","days":"3–4 天","km":"约 480 km","desc":"太行山余脉里的古寺、古村、峡谷与溶洞：潭柘寺、戒台寺、爨底下、百花山，再接房山周口店、云居寺、石花洞与十渡。","path":"市区 → 潭柘寺 → 戒台寺 → 爨底下(住民宿) → 灵水村 → 百花山 → 周口店 → 云居寺 → 石花洞 → 坡峰岭 → 十渡 → 市区","note":"门头沟与房山山路弯急、部分路段无护栏，雨后谨慎；爨底下与百花山周边民宿周末需提前订，十渡夏季漂流排队久。","pts":[[39.94497,116.0269,"潭柘寺"],[39.92448,116.08072,"戒台寺"],[39.98435,115.8729,"爨底下村"],[39.96775,115.93926,"灵水村"],[39.9712,115.73625,"百花山"],[39.68851,115.92421,"周口店遗址"],[39.61787,115.75621,"云居寺"],[39.79288,115.99779,"石花洞"],[39.73435,115.86428,"坡峰岭"],[39.63429,115.58933,"十渡拒马河"]]}],"tips":[["限行","工作日 7:00–20:00 尾号限行（本地车按尾号轮换，外地车需办进京证且早晚高峰禁入五环），自驾前务必查当日限行尾号与进京证政策。"],["预约","故宫、国博、军博、首博与清华北大都需提前实名预约，故宫提前 7 天放票、节假日常秒光；没约到就别去门口碰运气。"],["停车","二环内停车费普遍 12–15 元/小时且车位紧张，景区周边违章抓拍严；市区游玩建议地铁+共享单车，车只用于京郊。"],["季节","北京最好的季节是 9–10 月（秋高气爽、红叶银杏）与 4–5 月（花期）；夏季 7–8 月闷热多雨，冬季干冷但人少、雪后故宫极美。"],["红叶","香山 10 月中下旬、坡峰岭与百花山 10 月上旬、潭柘寺帝王树银杏 10 月底到 11 月初，时间差约两周，可连着安排。"],["长城","八达岭人最多但交通最方便，慕田峪风景与人流平衡最好，司马台可夜游、箭扣是未开放野长城（危险且违规，不要走）。"],["住宿","建议按行程分段住：老城线住前门/南锣鼓巷附近，长城线住古北水镇或延庆，京西线住爨底下民宿；市区到京郊普遍 1–1.5 小时车程。"]]};
+PROV_DATA.beijing = {
+ "meta": {
+  "id": "beijing",
+  "name": "北京",
+  "en": "Beijing",
+  "capital": "东城 · 西城",
+  "tagline": "三千年建城史 · 中轴线上的帝国与现代",
+  "geoTitle": "一圈城墙定格局，五环外才是山水",
+  "geoSub": "先认清三层：核心区看中轴线与皇城，近郊看三山五园与明陵，远郊看长城、峡谷与水库。",
+  "intro": [
+   "北京的城市结构极其清楚：一条 7.8 公里的中轴线从永定门到钟鼓楼，故宫居中，四坛（天、地、日、月）分列四方，二环以内基本就是老城范围。2024 年「北京中轴线」列入《世界遗产名录》，把这条线走一遍等于读懂了整座城。",
+   "出了五环，北京立刻变成另一个地方：西北是太行山余脉（门头沟、房山），北边是燕山与长城带（延庆、怀柔、密云），京郊的长城有八达岭、慕田峪、司马台、箭扣、居庸关五六种完全不同的走法，山路、水库与秋色都能撑起两三天。",
+   "自驾在北京要接受一个现实：核心区停车贵、限行严、拥堵常态化，市区景点最好地铁+步行；车留给京郊——长城、古村、峡谷与环线才是北京自驾真正的价值所在。本页按 12 个城区/郊区分组整理停靠点。"
+  ],
+  "facts": [
+   [
+    "面积",
+    "1.64 万 km²"
+   ],
+   [
+    "常住人口",
+    "2185 万（2023 年末）"
+   ],
+   [
+    "行政区",
+    "16 个市辖区"
+   ],
+   [
+    "世界遗产",
+    "8 项（故宫·长城·天坛·颐和园·周口店·明十三陵·中轴线·大运河）"
+   ],
+   [
+    "最高峰",
+    "东灵山 2303 m"
+   ],
+   [
+    "环线起点",
+    "G1/G2/G3/G4/G5/G6/G7 七条放射高速的零公里点"
+   ]
+  ],
+  "regions": [
+   [
+    "老城核心 · 中轴线与皇城",
+    "二环以内：故宫、天坛、景山、北海、钟鼓楼、雍和宫与胡同区，步行与地铁最高效，自驾基本无用武之地。"
+   ],
+   [
+    "三山五园 · 西北郊园林带",
+    "海淀西部：颐和园、圆明园、香山、植物园与大觉寺，清代皇家园林群，秋季红叶与春季花期是两个高峰。"
+   ],
+   [
+    "长城明陵 · 北郊山前带",
+    "昌平与延庆：十三陵、居庸关、八达岭、银山塔林，加上怀柔慕田峪、密云司马台，构成北京最经典的自驾走廊。"
+   ],
+   [
+    "京西山水 · 太行余脉",
+    "门头沟与房山：潭柘寺、戒台寺、爨底下、百花山、十渡、云居寺与周口店，古村、峡谷与溶洞密度极高。"
+   ]
+  ],
+  "capLabel": "中心城区"
+ },
+ "cities": [
+  {
+   "id": "dongcheng",
+   "name": "东城 · 中轴线",
+   "lat": 39.9303,
+   "lng": 116.42364,
+   "role": "皇城核心",
+   "desc": "故宫、天坛、景山、钟鼓楼、雍和宫与国子监都在这一片，7.8 公里中轴线的主段；建议全程步行或共享单车。",
+   "spots": [
+    "gugong",
+    "tiananmen",
+    "tiantan",
+    "jingshan",
+    "gulouzhonglou",
+    "nanluoguxiang",
+    "yonghegong",
+    "guozijian",
+    "zhitan",
+    "zhihuasi"
+   ],
+   "cap": true
+  },
+  {
+   "id": "xicheng",
+   "name": "西城 · 老城西区",
+   "lat": 39.91368,
+   "lng": 116.37201,
+   "role": "皇城与市井",
+   "desc": "北海、什刹海、恭王府、白塔寺、琉璃厂与大观园：皇城西半部加上最有味道的胡同与旧书肆街区。",
+   "spots": [
+    "beihai",
+    "gongwangfu",
+    "shichahai",
+    "baitasi",
+    "liulichang",
+    "daguanyuan",
+    "taoranting"
+   ]
+  },
+  {
+   "id": "haidian",
+   "name": "海淀 · 三山五园",
+   "lat": 39.96056,
+   "lng": 116.30398,
+   "role": "皇家园林带",
+   "desc": "颐和园、圆明园、香山、国家植物园与大觉寺集中于此，加上清华北大与五塔寺，是北京文化密度最高的一区。",
+   "spots": [
+    "yiheyuan",
+    "yuanmingyuan",
+    "xiangshan",
+    "zhiwuyuan",
+    "dajuesi",
+    "wutasi",
+    "qinghuabeida"
+   ]
+  },
+  {
+   "id": "chaoyang",
+   "name": "朝阳 · 现代北京",
+   "lat": 39.92327,
+   "lng": 116.4497,
+   "role": "当代与工业遗产",
+   "desc": "798 与草场地艺术区、奥林匹克公园、三里屯、CBD 与亮马河：北京的另一副面孔，夜景与展馆都在这里。",
+   "spots": [
+    "798",
+    "aolinpike",
+    "sanlitun"
+   ]
+  },
+  {
+   "id": "fengtai",
+   "name": "丰台石景山 · 卢沟桥",
+   "lat": 39.90122,
+   "lng": 116.24603,
+   "role": "西南门户",
+   "desc": "卢沟桥与宛平城、中国人民抗日战争纪念馆、首钢园与八大处：工业遗产与近代史叠加，秋天模式口与八大处最好走。",
+   "spots": [
+    "shougangyuan",
+    "lugouqiao",
+    "badachu"
+   ]
+  },
+  {
+   "id": "mentougou",
+   "name": "门头沟 · 京西古道",
+   "lat": 39.9419,
+   "lng": 116.10803,
+   "role": "古寺与古村",
+   "desc": "潭柘寺、戒台寺、爨底下、灵水村与百花山：京西古道沿线，山路弯多但风景与古建密度是京郊第一。",
+   "spots": [
+    "tanzhesi",
+    "jietaisi",
+    "cuandixia",
+    "lingshuicun",
+    "baihuashan",
+    "miaofengshan"
+   ]
+  },
+  {
+   "id": "changping",
+   "name": "昌平 · 明陵",
+   "lat": 40.22205,
+   "lng": 116.23728,
+   "role": "十三陵与居庸关",
+   "desc": "明十三陵、居庸关、银山塔林与蟒山：明代的陵寝与关城连成一片，秋天是昌平最好的季节。",
+   "spots": [
+    "shisanling",
+    "juyongguan",
+    "yinshanlin",
+    "mangshan"
+   ]
+  },
+  {
+   "id": "yanqing",
+   "name": "延庆 · 长城世园",
+   "lat": 40.46676,
+   "lng": 115.99115,
+   "role": "八达岭门户",
+   "desc": "八达岭长城、古崖居、龙庆峡、野鸭湖与世园公园：海拔比城区高 400 米，夏天凉爽、秋天红叶最早。",
+   "spots": [
+    "badaling",
+    "guyaju",
+    "longqingxia",
+    "yeyahu",
+    "shiyuan"
+   ]
+  },
+  {
+   "id": "huairou",
+   "name": "怀柔密云 · 燕山长城",
+   "lat": 40.31721,
+   "lng": 116.63768,
+   "role": "长城与水",
+   "desc": "慕田峪、司马台、古北水镇、雁栖湖、红螺寺、云蒙山与密云水库：北京最经典的自驾山水带，需住一晚才从容。",
+   "spots": [
+    "mutianyu",
+    "simatai",
+    "gubeishuizhen",
+    "yanqihu",
+    "hongluosi",
+    "yunmengshan",
+    "miyunshuiku"
+   ]
+  },
+  {
+   "id": "fangshan",
+   "name": "房山 · 周口店十渡",
+   "lat": 39.74995,
+   "lng": 116.14933,
+   "role": "溶洞与峡谷",
+   "desc": "周口店北京人遗址、云居寺、石花洞、十渡拒马河与坡峰岭：北京西南的地质与佛教石刻重镇。",
+   "spots": [
+    "zhoukoudian",
+    "yunjusi",
+    "shihuadong",
+    "shidu",
+    "pofengling"
+   ]
+  },
+  {
+   "id": "tongzhou",
+   "name": "通州 · 城市副中心",
+   "lat": 39.9107,
+   "lng": 116.66249,
+   "role": "大运河终点",
+   "desc": "燃灯塔、大运河森林公园、城市绿心与北京环球影城：京杭大运河的北终点，也是北京最新的娱乐目的地。",
+   "spots": [
+    "randengta",
+    "dayunhe",
+    "huanqiu",
+    "lvxin"
+   ]
+  },
+  {
+   "id": "pinggu",
+   "name": "平谷 · 京东山水",
+   "lat": 40.14522,
+   "lng": 117.12826,
+   "role": "金海湖与石林峡",
+   "desc": "金海湖、石林峡、丫髻山与京东大峡谷：北京最东端的山区，桃花季（4 月）与大桃季（7–9 月）是两个高峰。",
+   "spots": [
+    "jinhaifu",
+    "shilinxia",
+    "yujishan",
+    "jingdongdaxiagu"
+   ]
+  }
+ ],
+ "spots": [
+  {
+   "id": "gugong",
+   "name": "故宫博物院",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "dongcheng",
+   "desc": "明清两代皇宫，世界上现存规模最大、保存最完整的木结构宫殿群：9000 余间房屋沿中轴线铺开，太和殿、乾清宫与御花园是主线，珍宝馆与钟表馆另收费。",
+   "img": "assets/images/bj_gugong.jpg",
+   "ticket": "60 元（旺季）",
+   "season": "全年，周一闭馆",
+   "level": "世界遗产",
+   "key": true,
+   "lat": 39.9177,
+   "lng": 116.40344
+  },
+  {
+   "id": "tiananmen",
+   "name": "天安门广场 · 国旗护卫队",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "dongcheng",
+   "desc": "中轴线的中心节点：广场每日升降旗时间随日出日落调整，人民英雄纪念碑、正阳门与两侧建筑构成中国最熟悉的公共空间。",
+   "img": "assets/images/bj_tiananmen.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 39.9049,
+   "lng": 116.40374
+  },
+  {
+   "id": "tiantan",
+   "name": "天坛公园",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "dongcheng",
+   "desc": "明清皇帝祭天之所，祈年殿三重檐攒尖顶不用一根大梁：圜丘、皇穹宇与回音壁在同一条轴线上，清晨本地人锻炼的场景比景点更动人。",
+   "img": "assets/images/bj_tiantan.jpg",
+   "ticket": "15 元（联票 34）",
+   "season": "全年",
+   "level": "世界遗产",
+   "key": true,
+   "lat": 39.8836,
+   "lng": 116.41284
+  },
+  {
+   "id": "jingshan",
+   "name": "景山公园 · 万春亭",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "dongcheng",
+   "desc": "故宫正北的人工土山，万春亭是北京中轴线最佳观景点：日落前上山可一眼看完故宫金顶全貌与远处的北海白塔、国贸三期。",
+   "img": "assets/images/bj_jingshan.jpg",
+   "ticket": "2 元",
+   "season": "全年",
+   "key": true,
+   "lat": 39.9269,
+   "lng": 116.40295
+  },
+  {
+   "id": "beihai",
+   "name": "北海公园",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "xicheng",
+   "desc": "辽金元明清五朝皇家园林，白塔立于琼华岛顶：「让我们荡起双桨」写的就是这里，冬天冰场开放，夏天可划船到五龙亭。",
+   "img": "assets/images/bj_beihai.jpg",
+   "ticket": "10 元",
+   "season": "全年",
+   "lat": 39.9261,
+   "lng": 116.39554
+  },
+  {
+   "id": "gulouzhonglou",
+   "name": "钟楼 · 鼓楼",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "dongcheng",
+   "desc": "元代以来的城市报时中心，登鼓楼可俯瞰大片灰瓦胡同与什刹海水系：晚上鼓楼东大街是北京最热闹的酒吧与小店街区之一。",
+   "img": "assets/images/bj_gulouzhonglou.jpg",
+   "ticket": "20 元",
+   "season": "全年",
+   "lat": 39.9426,
+   "lng": 116.39975
+  },
+  {
+   "id": "nanluoguxiang",
+   "name": "南锣鼓巷 · 胡同区",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "dongcheng",
+   "desc": "元大都时期留下的鱼骨状胡同格局，800 年未变：主街商业化严重，真正值得走的是雨儿胡同、帽儿胡同一带的支巷与四合院门楼。",
+   "img": "assets/images/bj_nanluoguxiang.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 39.93841,
+   "lng": 116.40925
+  },
+  {
+   "id": "yonghegong",
+   "name": "雍和宫",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "dongcheng",
+   "desc": "雍正府邸改建的藏传佛教寺院，北京规格最高的皇家寺庙：万福阁内独木大佛高 18 米，白檀木雕成，法会日香火极盛。",
+   "img": "assets/images/bj_yonghegong.jpg",
+   "ticket": "25 元",
+   "season": "全年",
+   "key": true,
+   "lat": 39.9492,
+   "lng": 116.42374
+  },
+  {
+   "id": "guozijian",
+   "name": "国子监 · 孔庙",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "dongcheng",
+   "desc": "元明清三代国家最高学府：辟雍殿是乾隆建的方形讲堂，四周环水；孔庙内 198 座进士题名碑刻着 5 万余名进士姓名。",
+   "img": "assets/images/bj_guozijian.jpg",
+   "ticket": "30 元",
+   "season": "全年，周一闭馆",
+   "lat": 39.9486,
+   "lng": 116.41655
+  },
+  {
+   "id": "zhitan",
+   "name": "地坛公园",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "dongcheng",
+   "desc": "明清祭地之所，方泽坛与皇祇室保存完整：秋天银杏大道是北京最著名的落叶景观之一，10 月底到 11 月上旬金黄一片。",
+   "img": "assets/images/bj_zhitan.jpg",
+   "ticket": "2 元",
+   "season": "全年，10 月底银杏最佳",
+   "lat": 39.9504,
+   "lng": 116.41925
+  },
+  {
+   "id": "zhihuasi",
+   "name": "智化寺",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "dongcheng",
+   "desc": "明代太监王振家庙，保存着北京最完整的明代木结构与藻井：寺内每天上演「京音乐」——传承 500 余年的笙管古乐，值得专程听一场。",
+   "img": "assets/images/bj_zhihuasi.jpg",
+   "ticket": "20 元",
+   "season": "全年",
+   "lat": 39.92609,
+   "lng": 116.42983
+  },
+  {
+   "id": "gongwangfu",
+   "name": "恭王府",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "xicheng",
+   "desc": "和珅旧宅、后为恭亲王奕訢府邸，清代王府格局保存最完整的一座：锡晋斋金丝楠木大殿与后花园蝠池是精华，「一座恭王府，半部清代史」。",
+   "img": "assets/images/bj_gongwangfu.jpg",
+   "ticket": "40 元",
+   "season": "全年",
+   "key": true,
+   "lat": 39.9394,
+   "lng": 116.38924
+  },
+  {
+   "id": "shichahai",
+   "name": "什刹海 · 银锭桥",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "xicheng",
+   "desc": "前海、后海、西海三片水域连成的老城水系：银锭观山是燕京小八景，夏天摇橹船、冬天冰场，环湖酒吧与胡同并存。",
+   "img": "assets/images/bj_shichahai.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "key": true,
+   "lat": 39.9414,
+   "lng": 116.39354
+  },
+  {
+   "id": "baitasi",
+   "name": "妙应寺白塔",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "xicheng",
+   "desc": "元代尼泊尔工匠阿尼哥设计修建的覆钵式白塔，中国现存最大的元代佛塔：塔院与胡同民居贴在一起，白塔寺东夹道是最佳拍摄角度。",
+   "img": "assets/images/bj_baitasi.jpg",
+   "ticket": "20 元",
+   "season": "全年",
+   "lat": 39.92506,
+   "lng": 116.3626
+  },
+  {
+   "id": "liulichang",
+   "name": "琉璃厂文化街",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "xicheng",
+   "desc": "清代以来的旧书、字画、文房四宝集散地：荣宝斋、中国书店与几十家老字号还在营业，逛完可步行到不远处的湖广会馆与纪晓岚故居。",
+   "img": "assets/images/bj_liulichang.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 39.89589,
+   "lng": 116.38723
+  },
+  {
+   "id": "daguanyuan",
+   "name": "北京大观园",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "xicheng",
+   "desc": "为 1987 版《红楼梦》电视剧按原著描写建造的园林：怡红院、潇湘馆、蘅芜苑与大观楼复原度极高，红迷值得细看。",
+   "img": "assets/images/bj_daguanyuan.jpg",
+   "ticket": "40 元",
+   "season": "全年",
+   "lat": 39.87836,
+   "lng": 116.36119
+  },
+  {
+   "id": "taoranting",
+   "name": "陶然亭公园",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "xicheng",
+   "desc": "取自白居易「更待菊黄家酝熟，共君一醉一陶然」：慈悲庵、华夏名亭园与湖岸垂柳，是老北京文人聚会的旧址，冬天有大型雪场。",
+   "img": "assets/images/bj_taoranting.jpg",
+   "ticket": "2 元",
+   "season": "全年",
+   "lat": 39.87939,
+   "lng": 116.38222
+  },
+  {
+   "id": "yiheyuan",
+   "name": "颐和园",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "haidian",
+   "desc": "清代皇家园林的集大成者，昆明湖与万寿山构成 290 公顷山水格局：长廊 728 米绘 1.4 万幅彩画，佛香阁、十七孔桥与苏州街是主线。",
+   "img": "assets/images/bj_yiheyuan.jpg",
+   "ticket": "30 元（旺季）",
+   "season": "全年，4–10 月最佳",
+   "level": "世界遗产",
+   "key": true,
+   "lat": 40.00113,
+   "lng": 116.28155
+  },
+  {
+   "id": "yuanmingyuan",
+   "name": "圆明园遗址公园",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "haidian",
+   "desc": "万园之园的残迹：西洋楼大水法石柱是被烧毁后的原物，园区极大建议坐船或电瓶车，秋天银杏与残荷是两个高光时段。",
+   "img": "assets/images/bj_yuanmingyuan.jpg",
+   "ticket": "25 元（联票）",
+   "season": "全年",
+   "key": true,
+   "lat": 40.00996,
+   "lng": 116.30478
+  },
+  {
+   "id": "xiangshan",
+   "name": "香山公园",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "haidian",
+   "desc": "燕京小八景之一「香山红叶」：10 月中下旬 10 万株黄栌变红，香炉峰海拔 575 米，索道与步行两条上山路线，红叶季需提前预约。",
+   "img": "assets/images/bj_xiangshan.jpg",
+   "diff": 2,
+   "ticket": "10 元（红叶季 25）",
+   "season": "10 月中下旬红叶",
+   "key": true,
+   "lat": 39.99628,
+   "lng": 116.19614
+  },
+  {
+   "id": "zhiwuyuan",
+   "name": "国家植物园",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "haidian",
+   "desc": "由原北京植物园与中科院植物园合并，卧佛寺、樱桃沟与曹雪芹纪念馆在园内：4 月桃花节、5 月月季与温室展览是三大看点。",
+   "img": "assets/images/bj_zhiwuyuan.jpg",
+   "ticket": "10 元",
+   "season": "4–10 月",
+   "lat": 40.00625,
+   "lng": 116.2111
+  },
+  {
+   "id": "dajuesi",
+   "name": "大觉寺",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "haidian",
+   "desc": "辽代古刹，寺内玉兰花树龄 300 余年：四月初白玉兰盛开是北京春天最值得等的场景之一，古银杏与无量寿佛殿同样出色。",
+   "img": "assets/images/bj_dajuesi.jpg",
+   "ticket": "20 元",
+   "season": "全年，4 月初玉兰",
+   "lat": 40.0414,
+   "lng": 116.10634
+  },
+  {
+   "id": "wutasi",
+   "name": "五塔寺 · 北京石刻艺术博物馆",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "haidian",
+   "desc": "明代真觉寺金刚宝座塔，仿印度菩提伽耶形制：塔顶五座小塔，院内收集北京各处石碑石刻 1000 余件，秋天两株古银杏极美。",
+   "img": "assets/images/bj_wutasi.jpg",
+   "ticket": "20 元",
+   "season": "全年",
+   "lat": 39.94431,
+   "lng": 116.33514
+  },
+  {
+   "id": "qinghuabeida",
+   "name": "清华大学 · 北京大学",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "haidian",
+   "desc": "中国最著名的两所校园：清华二校门与大礼堂、北大未名湖与博雅塔，需提前在官方公众号预约入校，寒暑假名额紧张。",
+   "img": "assets/images/bj_qinghuabeida.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 39.99929,
+   "lng": 116.32212
+  },
+  {
+   "id": "798",
+   "name": "798 艺术区",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "chaoyang",
+   "desc": "原国营 798 厂改建的当代艺术聚落，包豪斯锯齿形厂房是最大特色：UCCA 尤伦斯、佩斯画廊与几十家独立空间集中，周末最热闹。",
+   "img": "assets/images/bj_798.jpg",
+   "ticket": "免费（展馆另收）",
+   "season": "全年",
+   "key": true,
+   "lat": 39.98544,
+   "lng": 116.50074
+  },
+  {
+   "id": "aolinpike",
+   "name": "奥林匹克公园 · 鸟巢水立方",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "chaoyang",
+   "desc": "2008 与 2022 双奥核心区：鸟巢、水立方、国家体育馆与奥林匹克塔集中，夜晚灯光比白天好看，中轴线在此向北延伸。",
+   "img": "assets/images/bj_aolinpike.jpg",
+   "ticket": "公园免费，场馆另收",
+   "season": "全年",
+   "lat": 39.99431,
+   "lng": 116.40205
+  },
+  {
+   "id": "sanlitun",
+   "name": "三里屯 · 亮马河",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "chaoyang",
+   "desc": "北京最国际化的街区，太古里与周边酒吧街构成夜生活核心：亮马河国际风情水岸可坐船夜游，两岸灯光带是北京新的城市名片。",
+   "img": "assets/images/bj_sanlitun.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 39.93465,
+   "lng": 116.46037
+  },
+  {
+   "id": "shougangyuan",
+   "name": "首钢园",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "fengtai",
+   "desc": "百年钢厂改造的工业遗产园区：三高炉、滑雪大跳台、冷却塔与空中步道共存，2022 冬奥后成为北京最出片的工业风拍摄地。",
+   "img": "assets/images/bj_shougangyuan.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "key": true,
+   "lat": 39.98054,
+   "lng": 116.16452
+  },
+  {
+   "id": "lugouqiao",
+   "name": "卢沟桥 · 宛平城",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "fengtai",
+   "desc": "1189 年建成的十一孔联拱石桥，501 只石狮各不相同：马可·波罗称其为「世界上最好的石桥」，1937 年七七事变发生地，桥东即宛平城与抗战馆。",
+   "img": "assets/images/bj_lugouqiao.jpg",
+   "ticket": "20 元",
+   "season": "全年",
+   "level": "全国重点文保",
+   "key": true,
+   "lat": 39.84704,
+   "lng": 116.21936
+  },
+  {
+   "id": "badachu",
+   "name": "八大处公园",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "fengtai",
+   "desc": "西山余脉中八座古刹的统称，从一处长安寺到八处证果寺：滑道下山是北京孩子的记忆，秋天红叶与春天杏花是两个高峰。",
+   "img": "assets/images/bj_badachu.jpg",
+   "diff": 1,
+   "ticket": "10 元",
+   "season": "4–11 月",
+   "lat": 39.9471,
+   "lng": 116.18117
+  },
+  {
+   "id": "tanzhesi",
+   "name": "潭柘寺",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "mentougou",
+   "desc": "北京最古老的寺庙，民谚「先有潭柘寺，后有北京城」：寺内帝王树银杏高 40 米、树龄千年，清代皇帝多次到此，古建与银杏同看。",
+   "img": "assets/images/bj_tanzhesi.jpg",
+   "ticket": "55 元",
+   "season": "全年，10 月底银杏",
+   "key": true,
+   "lat": 39.94497,
+   "lng": 116.0269
+  },
+  {
+   "id": "jietaisi",
+   "name": "戒台寺",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "mentougou",
+   "desc": "以戒坛闻名的千年古刹，与泉州开元寺、杭州昭庆寺并称中国三大戒坛：寺内古松姿态奇特，「戒台松风」是燕京胜景，秋天红叶极佳。",
+   "img": "assets/images/bj_jietaisi.jpg",
+   "ticket": "45 元",
+   "season": "全年",
+   "lat": 39.92448,
+   "lng": 116.08072
+  },
+  {
+   "id": "cuandixia",
+   "name": "爨底下村",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "mentougou",
+   "desc": "明代戍边军户后裔聚居的山村，70 余座明清四合院依山层叠：石板路、门楼砖雕与老墙保存完整，是北京最完整的古村落，可住民宿过夜。",
+   "img": "assets/images/bj_cuandixia.jpg",
+   "ticket": "35 元",
+   "season": "4–11 月",
+   "key": true,
+   "lat": 39.98435,
+   "lng": 115.8729
+  },
+  {
+   "id": "lingshuicun",
+   "name": "灵水村",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "mentougou",
+   "desc": "「举人村」：明清两代出过 22 名举人，古宅、古树与科举文化遗存完整，电影《投名状》取景地，游客比爨底下少得多。",
+   "img": "assets/images/bj_lingshuicun.jpg",
+   "ticket": "35 元",
+   "season": "4–11 月",
+   "lat": 39.96775,
+   "lng": 115.93926
+  },
+  {
+   "id": "baihuashan",
+   "name": "百花山自然保护区",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "mentougou",
+   "desc": "北京第三高峰（2049 米）与高山草甸：夏季野花铺满山脊，云海与日出概率高，盘山公路弯急，需在景区门口换乘或步行上山。",
+   "img": "assets/images/bj_baihuashan.jpg",
+   "elev": 2049,
+   "diff": 3,
+   "ticket": "60 元",
+   "season": "6–9 月",
+   "key": true,
+   "lat": 39.9712,
+   "lng": 115.73625
+  },
+  {
+   "id": "miaofengshan",
+   "name": "妙峰山",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "mentougou",
+   "desc": "京西香火最盛的娘娘庙，玫瑰谷花期五月满山：古香道从三家店一路盘上，是旧时香会朝顶的路线，秋天红叶同样出名。",
+   "img": "assets/images/bj_miaofengshan.jpg",
+   "diff": 2,
+   "ticket": "40 元",
+   "season": "5 月玫瑰、9–10 月红叶",
+   "lat": 40.03876,
+   "lng": 116.01979
+  },
+  {
+   "id": "shisanling",
+   "name": "明十三陵 · 长陵定陵",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "changping",
+   "desc": "明代十三位皇帝的陵寝群：长陵祾恩殿内 60 根金丝楠木大柱是全国仅此一处，定陵是唯一被发掘的皇陵，地下宫殿可入内参观。",
+   "img": "assets/images/bj_shisanling.jpg",
+   "ticket": "长陵 50 / 定陵 60",
+   "season": "全年",
+   "level": "世界遗产",
+   "key": true,
+   "lat": 40.29996,
+   "lng": 116.24189
+  },
+  {
+   "id": "juyongguan",
+   "name": "居庸关长城",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "changping",
+   "desc": "长城四大名关之一，「居庸叠翠」为燕京八景：关城呈圆形，云台石刻六道文字的真言与《建白塔碑》是国宝级文物。",
+   "img": "assets/images/bj_juyongguan.jpg",
+   "ticket": "45 元",
+   "season": "4–10 月",
+   "level": "世界遗产",
+   "key": true,
+   "lat": 40.29322,
+   "lng": 116.07987
+  },
+  {
+   "id": "yinshanlin",
+   "name": "银山塔林",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "changping",
+   "desc": "辽金时期的佛教圣地，现存 5 座密檐式砖塔与 13 座墓塔：塔群立在山谷中，秋天红叶环绕，游客极少，是北京最安静的古塔群。",
+   "img": "assets/images/bj_yinshanlin.jpg",
+   "ticket": "25 元",
+   "season": "全年",
+   "lat": 40.28469,
+   "lng": 116.35623
+  },
+  {
+   "id": "mangshan",
+   "name": "蟒山国家森林公园",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "changping",
+   "desc": "北京面积最大的国家森林公园，1299 级台阶登顶可看十三陵水库全景：秋天红叶与春天山花两季最好，山路较陡。",
+   "img": "assets/images/bj_mangshan.jpg",
+   "diff": 2,
+   "ticket": "30 元",
+   "season": "4–11 月",
+   "lat": 40.25547,
+   "lng": 116.28939
+  },
+  {
+   "id": "badaling",
+   "name": "八达岭长城",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "yanqing",
+   "desc": "长城知名度最高的一段，明长城精华：北八楼是制高点，可乘索道或滑车上下，节假日人流极大，建议清晨或非周末前往。",
+   "img": "assets/images/bj_badaling.jpg",
+   "ticket": "40 元（旺季）",
+   "season": "全年，4–10 月最佳",
+   "level": "世界遗产",
+   "key": true,
+   "lat": 40.35528,
+   "lng": 116.0109
+  },
+  {
+   "id": "guyaju",
+   "name": "古崖居遗址",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "yanqing",
+   "desc": "在陡峭岩壁上人工开凿的 147 个石室，被称为「中国最大的古代洞窟聚落」：谁开凿、为何废弃至今无定论，攀爬栈道体验独特。",
+   "img": "assets/images/bj_guyaju.jpg",
+   "ticket": "40 元",
+   "season": "4–10 月",
+   "key": true,
+   "lat": 40.50953,
+   "lng": 115.9728
+  },
+  {
+   "id": "longqingxia",
+   "name": "龙庆峡",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "yanqing",
+   "desc": "燕山深处的峡谷水库，「小漓江」：坐船穿峡谷看两岸峭壁，冬天是著名的冰灯艺术节场地，冰雕规模在北京最大。",
+   "img": "assets/images/bj_longqingxia.jpg",
+   "ticket": "40 元（船另收）",
+   "season": "夏季峡谷、冬季冰灯",
+   "lat": 40.52208,
+   "lng": 115.98945
+  },
+  {
+   "id": "yeyahu",
+   "name": "野鸭湖国家湿地公园",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "yanqing",
+   "desc": "官厅水库边的北京最大湿地，候鸟迁徙通道：春秋两季数十万只水鸟过境，观鸟屋与木栈道深入芦苇荡，是京郊最安静的自然景点。",
+   "img": "assets/images/bj_yeyahu.jpg",
+   "ticket": "50 元",
+   "season": "4–5 月、9–11 月观鸟",
+   "lat": 40.44283,
+   "lng": 115.93932
+  },
+  {
+   "id": "shiyuan",
+   "name": "北京世园公园",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "yanqing",
+   "desc": "2019 世界园艺博览会原址：中国馆、国际馆与永宁阁保留，花海面积大，秋天有大型灯会与音乐节，适合带孩子与野餐。",
+   "img": "assets/images/bj_shiyuan.jpg",
+   "ticket": "40 元",
+   "season": "5–10 月",
+   "lat": 40.45945,
+   "lng": 115.94773
+  },
+  {
+   "id": "mutianyu",
+   "name": "慕田峪长城",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "huairou",
+   "desc": "明长城保存最好的一段之一，植被覆盖率 90% 以上：敌楼密集、游客比八达岭少，缆车上、滑道下，14–20 号敌楼段风景最佳。",
+   "img": "assets/images/bj_mutianyu.jpg",
+   "ticket": "45 元",
+   "season": "全年，4–10 月最佳",
+   "level": "世界遗产",
+   "key": true,
+   "lat": 40.43304,
+   "lng": 116.57397
+  },
+  {
+   "id": "simatai",
+   "name": "司马台长城",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "huairou",
+   "desc": "唯一保留明代原貌的古长城段，以险、密、齐、巧、全著称：望京楼海拔 986 米可远眺北京城，夜游长城是国内独有的体验。",
+   "img": "assets/images/bj_simatai.jpg",
+   "ticket": "40 元",
+   "season": "全年",
+   "level": "世界遗产",
+   "key": true,
+   "lat": 40.65974,
+   "lng": 117.25227
+  },
+  {
+   "id": "gubeishuizhen",
+   "name": "古北水镇",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "huairou",
+   "desc": "在司马台长城脚下按北方水镇格局新建的度假区：温泉、民宿、夜景与长城夜游组合，是北京周边最成熟的过夜目的地。",
+   "img": "assets/images/bj_gubeishuizhen.jpg",
+   "ticket": "140 元",
+   "season": "全年",
+   "key": true,
+   "lat": 40.65428,
+   "lng": 117.20371
+  },
+  {
+   "id": "yanqihu",
+   "name": "雁栖湖",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "huairou",
+   "desc": "2014 APEC 与 2016 G20 相关会议举办地，湖畔的雁栖塔与国际会议中心是新地标：环湖 21 公里骑行道，秋天山色倒映湖面。",
+   "img": "assets/images/bj_yanqihu.jpg",
+   "ticket": "20 元",
+   "season": "4–11 月",
+   "lat": 40.40538,
+   "lng": 116.66425
+  },
+  {
+   "id": "hongluosi",
+   "name": "红螺寺",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "huairou",
+   "desc": "千年古刹，「南有普陀，北有红螺」：寺前雌雄两株古银杏与殿后紫藤寄松是奇观，后山 800 米步道可看燕山秋色。",
+   "img": "assets/images/bj_hongluosi.jpg",
+   "ticket": "54 元",
+   "season": "全年，10 月红叶",
+   "lat": 40.38035,
+   "lng": 116.65593
+  },
+  {
+   "id": "yunmengshan",
+   "name": "云蒙山国家森林公园",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "huairou",
+   "desc": "燕山主峰之一，海拔 1414 米，被称为「北方小黄山」：奇峰、怪石、瀑布与云海，登山步道较长，需一整天。",
+   "img": "assets/images/bj_yunmengshan.jpg",
+   "elev": 1414,
+   "diff": 3,
+   "ticket": "60 元",
+   "season": "5–10 月",
+   "lat": 40.54305,
+   "lng": 116.73945
+  },
+  {
+   "id": "miyunshuiku",
+   "name": "密云水库",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "huairou",
+   "desc": "华北最大水库，北京饮用水源地：环湖公路 100 余公里，白河堡与云蒙山景观相连，库区禁止下水，但沿岸观景与骑行极好。",
+   "img": "assets/images/bj_miyunshuiku.jpg",
+   "ticket": "免费（部分区域管制）",
+   "season": "全年",
+   "free": true,
+   "lat": 40.4845,
+   "lng": 116.85604
+  },
+  {
+   "id": "zhoukoudian",
+   "name": "周口店北京人遗址",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "fangshan",
+   "desc": "1929 年在此发现距今 70 万年的北京猿人头盖骨，改写了人类演化史：遗址公园与博物馆可看猿人洞发掘现场剖面。",
+   "img": "assets/images/bj_zhoukoudian.jpg",
+   "ticket": "30 元",
+   "season": "全年",
+   "level": "世界遗产",
+   "key": true,
+   "lat": 39.68851,
+   "lng": 115.92421
+  },
+  {
+   "id": "yunjusi",
+   "name": "云居寺",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "fangshan",
+   "desc": "隋代静琬法师开创的石经刻藏地，房山石经 1.4 万余块是世界上规模最大的石刻佛经：唐代小塔群与地宫舍利同样重要。",
+   "img": "assets/images/bj_yunjusi.jpg",
+   "ticket": "50 元",
+   "season": "全年",
+   "level": "全国重点文保",
+   "key": true,
+   "lat": 39.61787,
+   "lng": 115.75621
+  },
+  {
+   "id": "shihuadong",
+   "name": "石花洞",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "fangshan",
+   "desc": "华北最大的地下地质奇观，被称为「地下地质奇景博物馆」：六层洞府、石钟乳与石花形态完整，洞内常年 15 ℃。",
+   "img": "assets/images/bj_shihuadong.jpg",
+   "ticket": "70 元",
+   "season": "全年",
+   "lat": 39.79288,
+   "lng": 115.99779
+  },
+  {
+   "id": "shidu",
+   "name": "十渡 · 拒马河",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "fangshan",
+   "desc": "华北唯一的岩溶峰林峡谷，拒马河把山地切成十处渡口：漂流、蹦极、竹筏与沿河自驾公路是主要玩法，六渡到十五渡风景最好。",
+   "img": "assets/images/bj_shidu.jpg",
+   "ticket": "沿河免费，项目另收",
+   "season": "5–9 月",
+   "key": true,
+   "lat": 39.63429,
+   "lng": 115.58933
+  },
+  {
+   "id": "pofengling",
+   "name": "坡峰岭",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "fangshan",
+   "desc": "北京秋季红叶密度最高的山区之一，10 月中下旬漫山黄栌变红：步道 6 公里、爬升约 500 米，比香山人少、比百花山好走。",
+   "img": "assets/images/bj_pofengling.jpg",
+   "diff": 2,
+   "ticket": "45 元",
+   "season": "10 月中下旬",
+   "lat": 39.73435,
+   "lng": 115.86428
+  },
+  {
+   "id": "randengta",
+   "name": "燃灯塔 · 大运河通州段",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "tongzhou",
+   "desc": "辽代古塔，京杭大运河北终点的标志：「一支塔影认通州」，塔旁是三庙一塔景区，夜里亮灯后倒映在运河上。",
+   "img": "assets/images/bj_randengta.jpg",
+   "ticket": "20 元",
+   "season": "全年",
+   "lat": 39.90941,
+   "lng": 116.6684
+  },
+  {
+   "id": "dayunhe",
+   "name": "大运河森林公园",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "tongzhou",
+   "desc": "沿运河两岸 8 公里长的免费城市公园：漕运码头、月岛闻莺与大片草坪，可租自行车或坐游船，是北京最适合野餐的地方之一。",
+   "img": "assets/images/bj_dayunhe.jpg",
+   "ticket": "免费",
+   "season": "4–10 月",
+   "free": true,
+   "lat": 39.88445,
+   "lng": 116.68926
+  },
+  {
+   "id": "huanqiu",
+   "name": "北京环球影城",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "tongzhou",
+   "desc": "亚洲第三座环球影城，哈利波特、变形金刚、侏罗纪与功夫熊猫七大主题区：需提前购票并下载官方 App 排队，节假日单日 8 万人。",
+   "img": "assets/images/bj_huanqiu.jpg",
+   "ticket": "418 元起",
+   "season": "全年",
+   "lat": 39.86475,
+   "lng": 116.68956
+  },
+  {
+   "id": "lvxin",
+   "name": "城市绿心森林公园",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "tongzhou",
+   "desc": "在原东方化工厂址上建成的 11 平方公里城市森林：无围栏、免费，24 节气林窗与运河故道贯穿，副中心的绿色核心。",
+   "img": "assets/images/bj_lvxin.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 39.89116,
+   "lng": 116.69598
+  },
+  {
+   "id": "jinhaifu",
+   "name": "金海湖",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "pinggu",
+   "desc": "北京第三大水库，湖岸线 40 公里：夏季水上项目、秋季环湖红叶，湖东的三泉寺与大峡谷可连成一天，人比京西少很多。",
+   "img": "assets/images/bj_jinhaifu.jpg",
+   "ticket": "45 元",
+   "season": "5–10 月",
+   "lat": 40.1846,
+   "lng": 117.20644
+  },
+  {
+   "id": "shilinxia",
+   "name": "石林峡",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "pinggu",
+   "desc": "京东大峡谷北侧的石英岩峰林，山顶玻璃观景台悬挑 33 米：可坐索道省 2 小时爬升，春天山花、秋天红叶两季最好。",
+   "img": "assets/images/bj_shilinxia.jpg",
+   "diff": 2,
+   "ticket": "78 元",
+   "season": "4–11 月",
+   "lat": 40.14705,
+   "lng": 117.26061
+  },
+  {
+   "id": "yujishan",
+   "name": "丫髻山",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "pinggu",
+   "desc": "道教名山，双峰高耸如古代女童发髻：365 级台阶象征一年，庙会规模在京东最大，山顶可看平谷平原全景。",
+   "img": "assets/images/bj_yujishan.jpg",
+   "ticket": "45 元",
+   "season": "全年",
+   "lat": 40.18473,
+   "lng": 117.08985
+  },
+  {
+   "id": "jingdongdaxiagu",
+   "name": "京东大峡谷",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "pinggu",
+   "desc": "平谷北部 6 公里长的峡谷：龙潭、飞瀑与玻璃栈道串在一条步道上，夏天水量最大、可踩水，秋天红叶夹岸，比石林峡轻松。",
+   "img": "assets/images/bj_jingdongdaxiagu.jpg",
+   "diff": 1,
+   "ticket": "45 元",
+   "season": "5–10 月",
+   "lat": 40.18464,
+   "lng": 117.18149
+  }
+ ],
+ "foods": [
+  {
+   "name": "北京烤鸭",
+   "city": "dongcheng",
+   "cityName": "东城 · 中轴线",
+   "desc": "挂炉与焖炉两派：全聚德挂炉、便宜坊焖炉，片鸭三吃（皮蘸糖、肉卷饼、架熬汤），大董与四季民福是新一代代表。",
+   "img": "assets/images/fd_bj_01.jpg"
+  },
+  {
+   "name": "铜锅涮羊肉",
+   "city": "dongcheng",
+   "cityName": "东城 · 中轴线",
+   "desc": "清水铜锅只放葱姜，靠羊肉本身与麻酱：手切鲜羊肉、上脑、黄瓜条与糖蒜是标配，聚宝源、南门涮肉排队最凶。",
+   "img": "assets/images/fd_bj_02.jpg"
+  },
+  {
+   "name": "老北京炸酱面",
+   "city": "xicheng",
+   "cityName": "西城 · 老城西区",
+   "desc": "黄酱加五花肉丁炸出的干酱拌手擀面，配八样菜码（黄瓜丝、心里美、豆芽、青豆、黄豆、芹菜、白菜、大蒜）。",
+   "img": "assets/images/fd_bj_03.jpg"
+  },
+  {
+   "name": "卤煮火烧",
+   "city": "xicheng",
+   "cityName": "西城 · 老城西区",
+   "desc": "火烧、豆腐、猪肠与猪肺在老汤里同煮：汤浓味重，配蒜汁与辣椒油，小肠陈是最有名的一家，是检验北京胃的试金石。",
+   "img": "assets/images/fd_bj_04.jpg"
+  },
+  {
+   "name": "爆肚",
+   "city": "dongcheng",
+   "cityName": "东城 · 中轴线",
+   "desc": "牛羊肚的不同部位按秒汆烫：肚仁、散丹、蘑菇头口感各异，蘸麻酱、醋、辣椒油与香菜，讲究「脆嫩」二字。",
+   "img": "assets/images/fd_bj_05.jpg"
+  },
+  {
+   "name": "豆汁儿 · 焦圈",
+   "city": "dongcheng",
+   "cityName": "东城 · 中轴线",
+   "desc": "绿豆发酵后的酸浆，配炸得酥脆的焦圈与咸菜丝：味道极具争议，是老北京身份认同的边界，建议先小口试。",
+   "img": "assets/images/fd_bj_06.jpg"
+  },
+  {
+   "name": "炒肝 · 包子",
+   "city": "xicheng",
+   "cityName": "西城 · 老城西区",
+   "desc": "猪肝猪肠勾芡成糊，蒜香浓重，吃法是端碗转圈吸溜不用勺：配猪肉大葱包子，姚记炒肝与赵记是最常被提的两家。",
+   "img": "assets/images/fd_bj_07.jpg"
+  },
+  {
+   "name": "门钉肉饼",
+   "city": "dongcheng",
+   "cityName": "东城 · 中轴线",
+   "desc": "形似宫门上的门钉，牛肉大葱馅煎到两面金黄、咬开一包汤汁：白魁老号与门钉李最有名，趁热吃。",
+   "img": "assets/images/fd_bj_08.jpg"
+  },
+  {
+   "name": "京味点心八件",
+   "city": "xicheng",
+   "cityName": "西城 · 老城西区",
+   "desc": "稻香村的自来红、自来白、萨其马、豌豆黄、艾窝窝与驴打滚：宫廷点心平民化的结果，是带走最合适的伴手礼。",
+   "img": "assets/images/fd_bj_09.jpg"
+  },
+  {
+   "name": "奶酪魏 · 双皮奶",
+   "city": "xicheng",
+   "cityName": "西城 · 老城西区",
+   "desc": "宫廷传下的米酒发酵奶酪，凝固成半固体、口感似布丁而更清爽：牛街与南锣鼓巷都有店，夏天冰镇最好。",
+   "img": "assets/images/fd_bj_10.jpg"
+  },
+  {
+   "name": "炙子烤肉",
+   "city": "xicheng",
+   "cityName": "西城 · 老城西区",
+   "desc": "铁炙子上烤腌好的牛羊肉，旧时食客一只脚踩长凳、边烤边吃：烤肉宛（牛肉）与烤肉季（羊肉，什刹海银锭桥畔）是两家老字号。",
+   "img": "assets/images/fd_bj_11.jpg"
+  },
+  {
+   "name": "京郊虹鳟与柴鸡",
+   "city": "huairou",
+   "cityName": "怀柔密云 · 燕山长城",
+   "desc": "怀柔神堂峪、密云水库周边的农家院标配：虹鳟鱼一鱼两吃、栗子焖柴鸡、贴饼子与山野菜，走长城线时顺路解决午饭。",
+   "img": "assets/images/fd_bj_12.jpg"
+  },
+  {
+   "name": "牛街清真小吃",
+   "city": "xicheng",
+   "cityName": "西城 · 老城西区",
+   "desc": "北京最大的回族聚居区：白记年糕、洪记小吃、聚宝源涮肉与牛街清真超市的熟食，密度高、价格比景区实在。",
+   "img": "assets/images/fd_bj_13.jpg"
+  }
+ ],
+ "loops": [
+  {
+   "name": "中轴线 · 老城徒步线",
+   "days": "1–2 天",
+   "km": "步行约 12 km",
+   "desc": "2024 年新晋世界遗产「北京中轴线」的完整走法：永定门起步，经天坛、正阳门、天安门、故宫、景山、万宁桥到钟鼓楼，全程地铁+步行。",
+   "path": "永定门 → 先农坛 → 天坛 → 前门大栅栏 → 天安门广场 → 故宫 → 景山万春亭 → 北海 → 什刹海 → 钟鼓楼",
+   "note": "故宫必须提前 7 天在官方小程序实名预约，周一闭馆；中轴线核心区停车几乎不可能，建议把车停在酒店。",
+   "pts": [
+    [
+     39.8797,
+     116.40374,
+     "永定门"
+    ],
+    [
+     39.8836,
+     116.41284,
+     "天坛"
+    ],
+    [
+     39.9004,
+     116.40424,
+     "前门大栅栏"
+    ],
+    [
+     39.9177,
+     116.40344,
+     "故宫"
+    ],
+    [
+     39.9269,
+     116.40295,
+     "景山万春亭"
+    ],
+    [
+     39.9261,
+     116.39554,
+     "北海公园"
+    ],
+    [
+     39.9414,
+     116.39354,
+     "什刹海银锭桥"
+    ],
+    [
+     39.9426,
+     116.39975,
+     "钟鼓楼"
+    ]
+   ]
+  },
+  {
+   "name": "三山五园 · 西北郊园林线",
+   "days": "2 天",
+   "km": "约 90 km",
+   "desc": "清代皇家园林群一次看完：颐和园、圆明园、香山、植物园、大觉寺与五塔寺，秋天可加香山红叶与潭柘寺银杏。",
+   "path": "颐和园 → 圆明园 → 清华北大 → 五塔寺 → 国家植物园 → 香山 → 大觉寺",
+   "note": "红叶季（10 月中下旬）香山与植物园周边严重拥堵，建议 7 点前到；颐和园与圆明园都极大，各需大半天。",
+   "pts": [
+    [
+     40.00113,
+     116.28155,
+     "颐和园"
+    ],
+    [
+     40.00996,
+     116.30478,
+     "圆明园"
+    ],
+    [
+     39.99929,
+     116.32212,
+     "清华北大"
+    ],
+    [
+     39.94431,
+     116.33514,
+     "五塔寺"
+    ],
+    [
+     40.00625,
+     116.2111,
+     "国家植物园"
+    ],
+    [
+     39.99628,
+     116.19614,
+     "香山公园"
+    ],
+    [
+     40.0414,
+     116.10634,
+     "大觉寺"
+    ]
+   ]
+  },
+  {
+   "name": "长城明陵 · 北郊山前环线",
+   "days": "2–3 天",
+   "km": "约 320 km",
+   "desc": "北京最经典的自驾走廊：十三陵、居庸关、八达岭、古崖居、龙庆峡与野鸭湖，一路串起明代陵寝、关城与长城精华段。",
+   "path": "市区 → 明十三陵(长陵+定陵) → 居庸关 → 八达岭 → 古崖居 → 龙庆峡 → 野鸭湖 → 世园公园 → 市区",
+   "note": "八达岭节假日单日客流可达 5 万，尽量非周末清晨前往；京藏高速（G6）出京方向早高峰拥堵，建议 6 点前出发或走 G7。",
+   "pts": [
+    [
+     40.29996,
+     116.24189,
+     "明十三陵长陵"
+    ],
+    [
+     40.29322,
+     116.07987,
+     "居庸关"
+    ],
+    [
+     40.35528,
+     116.0109,
+     "八达岭长城"
+    ],
+    [
+     40.50953,
+     115.9728,
+     "古崖居"
+    ],
+    [
+     40.52208,
+     115.98945,
+     "龙庆峡"
+    ],
+    [
+     40.44283,
+     115.93932,
+     "野鸭湖湿地"
+    ],
+    [
+     40.45945,
+     115.94773,
+     "世园公园"
+    ]
+   ]
+  },
+  {
+   "name": "燕山长城 · 怀柔密云深度线",
+   "days": "3 天",
+   "km": "约 420 km",
+   "desc": "长城最美的一段加京郊最好的山水：慕田峪、司马台、古北水镇过夜、雁栖湖、红螺寺与云蒙山，需在古北水镇住一晚。",
+   "path": "市区 → 慕田峪 → 雁栖湖 → 红螺寺 → 云蒙山 → 密云水库 → 古北水镇(住) → 司马台夜长城 → 市区",
+   "note": "古北水镇与司马台是同一景区，夜游长城需另购票且天气允许才开放；云蒙山步道长，体力有限可只走慕田峪。",
+   "pts": [
+    [
+     40.43304,
+     116.57397,
+     "慕田峪长城"
+    ],
+    [
+     40.40538,
+     116.66425,
+     "雁栖湖"
+    ],
+    [
+     40.38035,
+     116.65593,
+     "红螺寺"
+    ],
+    [
+     40.54305,
+     116.73945,
+     "云蒙山"
+    ],
+    [
+     40.4845,
+     116.85604,
+     "密云水库"
+    ],
+    [
+     40.65428,
+     117.20371,
+     "古北水镇"
+    ],
+    [
+     40.65974,
+     117.25227,
+     "司马台长城"
+    ]
+   ]
+  },
+  {
+   "name": "京西山水 · 门头沟房山大环线",
+   "days": "3–4 天",
+   "km": "约 480 km",
+   "desc": "太行山余脉里的古寺、古村、峡谷与溶洞：潭柘寺、戒台寺、爨底下、百花山，再接房山周口店、云居寺、石花洞与十渡。",
+   "path": "市区 → 潭柘寺 → 戒台寺 → 爨底下(住民宿) → 灵水村 → 百花山 → 周口店 → 云居寺 → 石花洞 → 坡峰岭 → 十渡 → 市区",
+   "note": "门头沟与房山山路弯急、部分路段无护栏，雨后谨慎；爨底下与百花山周边民宿周末需提前订，十渡夏季漂流排队久。",
+   "pts": [
+    [
+     39.94497,
+     116.0269,
+     "潭柘寺"
+    ],
+    [
+     39.92448,
+     116.08072,
+     "戒台寺"
+    ],
+    [
+     39.98435,
+     115.8729,
+     "爨底下村"
+    ],
+    [
+     39.96775,
+     115.93926,
+     "灵水村"
+    ],
+    [
+     39.9712,
+     115.73625,
+     "百花山"
+    ],
+    [
+     39.68851,
+     115.92421,
+     "周口店遗址"
+    ],
+    [
+     39.61787,
+     115.75621,
+     "云居寺"
+    ],
+    [
+     39.79288,
+     115.99779,
+     "石花洞"
+    ],
+    [
+     39.73435,
+     115.86428,
+     "坡峰岭"
+    ],
+    [
+     39.63429,
+     115.58933,
+     "十渡拒马河"
+    ]
+   ]
+  }
+ ],
+ "tips": [
+  [
+   "限行",
+   "工作日 7:00–20:00 尾号限行（本地车按尾号轮换，外地车需办进京证且早晚高峰禁入五环），自驾前务必查当日限行尾号与进京证政策。"
+  ],
+  [
+   "预约",
+   "故宫、国博、军博、首博与清华北大都需提前实名预约，故宫提前 7 天放票、节假日常秒光；没约到就别去门口碰运气。"
+  ],
+  [
+   "停车",
+   "二环内停车费普遍 12–15 元/小时且车位紧张，景区周边违章抓拍严；市区游玩建议地铁+共享单车，车只用于京郊。"
+  ],
+  [
+   "季节",
+   "北京最好的季节是 9–10 月（秋高气爽、红叶银杏）与 4–5 月（花期）；夏季 7–8 月闷热多雨，冬季干冷但人少、雪后故宫极美。"
+  ],
+  [
+   "红叶",
+   "香山 10 月中下旬、坡峰岭与百花山 10 月上旬、潭柘寺帝王树银杏 10 月底到 11 月初，时间差约两周，可连着安排。"
+  ],
+  [
+   "长城",
+   "八达岭人最多但交通最方便，慕田峪风景与人流平衡最好，司马台可夜游、箭扣是未开放野长城（危险且违规，不要走）。"
+  ],
+  [
+   "住宿",
+   "建议按行程分段住：老城线住前门/南锣鼓巷附近，长城线住古北水镇或延庆，京西线住爨底下民宿；市区到京郊普遍 1–1.5 小时车程。"
+  ]
+ ],
+ "features": {
+  "intro": "北京是八百年古都、世界遗产最多的中国城市之一：7.8 公里中轴线串联起故宫、天坛与钟鼓楼，三山五园铺展西山脚下，长城蜿蜒于北部群山，胡同深处藏着京味儿烟火气——这里是读懂中国的起点。",
+  "groups": [
+   {
+    "name": "中轴皇城",
+    "icon": "轴",
+    "color": "#8B4513",
+    "intro": "2024 年列入世界遗产的北京中轴线全长 7.8 公里，是世界上现存最长的城市轴线，串联起 15 处遗产构成要素。",
+    "items": [
+     {
+      "name": "北京中轴线",
+      "tag": "7.8 公里 · 2024 年世界遗产",
+      "spot": "gulouzhonglou",
+      "text": "北京中轴线南起永定门、北至钟鼓楼，全长 7.8 公里，始建于元代、成型于明代，2024 年 7 月列入《世界遗产名录》，遗产区面积 589 公顷，涵盖故宫、天坛、太庙等 15 处要素，是世界城市规划史上独一无二的都城范式。"
+     },
+     {
+      "name": "故宫博物院",
+      "tag": "980 座建筑 · 186 万件藏品",
+      "spot": "gugong",
+      "text": "故宫占地 72 万平方米，有大小宫殿七十多座、房屋九千余间，是世界上现存规模最大、保存最完整的木质结构古建筑群；馆藏文物超过 186 万件，涵盖书画、陶瓷、玉器、青铜器等门类。"
+     },
+     {
+      "name": "天坛公园",
+      "tag": "1420 年建成 · 祭天祈谷圣地",
+      "spot": "tiantan",
+      "text": "天坛始建于明永乐十八年（1420 年），占地约 273 公顷，是明清两代皇帝祭天祈谷的场所；圜丘坛三层台面直径分别为 21.6 米、15 米和 9 米，回音壁与三音石展现了古代声学建筑的精妙技艺。"
+     },
+     {
+      "name": "景山万春亭",
+      "tag": "中轴线最高点 · 俯瞰紫禁城",
+      "spot": "jingshan",
+      "text": "景山海拔 94.2 米，山顶万春亭是北京城中轴线的几何中心与制高点，登亭可 360 度俯瞰故宫全景与南北中轴线，是拍摄紫禁城全貌的最佳机位，也是老北京人晨练遛鸟的日常去处。"
+     }
+    ]
+   },
+   {
+    "name": "三山五园",
+    "icon": "园",
+    "color": "#2E8B57",
+    "intro": "清代皇家园林集群「三山五园」沿西山展开，颐和园、圆明园、香山等构成了世界上规模最大的皇家园林带。",
+    "items": [
+     {
+      "name": "颐和园",
+      "tag": "290 公顷 · 最大皇家园林",
+      "spot": "yiheyuan",
+      "text": "颐和园占地 290 公顷，其中水面占四分之三，是中国现存最大的皇家园林；长廊全长 728 米、绘有 14000 余幅彩画，十七孔桥长 150 米、宽 8 米，佛香阁高 41 米矗立于万寿山上，集江南园林与皇家气派于一体。"
+     },
+     {
+      "name": "圆明园遗址",
+      "tag": "350 公顷 · 万园之园遗迹",
+      "spot": "yuanmingyuan",
+      "text": "圆明园鼎盛时占地 350 公顷、建筑面积超 16 万平方米，被誉为「万园之园」；1860 年遭英法联军焚毁，现仅存西洋楼大水法等石构残迹，是全国重点文物保护单位与爱国主义教育基地。"
+     },
+     {
+      "name": "香山公园",
+      "tag": "红叶 10 万株 · 双清别墅",
+      "spot": "xiangshan",
+      "text": "香山主峰香炉峰海拔 575 米，园内种植黄栌等红叶树种逾 10 万株，每年 10 月下旬至 11 月中旬层林尽染；双清别墅是 1949 年中共中央进驻北平的第一站，见证了新中国成立前夕的关键决策。"
+     }
+    ]
+   },
+   {
+    "name": "长城雄关",
+    "icon": "城",
+    "color": "#6B4226",
+    "intro": "北京境内长城总长约 520 公里，八达岭、慕田峪、司马台各具风貌，是万里长城中保存最好、开放最早的精华段。",
+    "items": [
+     {
+      "name": "八达岭长城",
+      "tag": "23 公里 · 1987 世界遗产",
+      "spot": "badaling",
+      "text": "八达岭长城全长 23274 米，含敌台 83 座，始建于明弘治十八年（1505 年），是万里长城中最早向游人开放的段落；1987 年作为长城代表列入世界文化遗产，截至 2022 年累计接待 500 余位国家元首。"
+     },
+     {
+      "name": "慕田峪长城",
+      "tag": "植被覆盖 96% · 23 座敌楼",
+      "spot": "mutianyu",
+      "text": "慕田峪长城全长 5400 米，设有 23 座敌楼，植被覆盖率高达 96%，是长城中绿化最好的一段；独特的双面垛口设计和正关台三座敌楼并立的格局，在万里长城中极为罕见。"
+     },
+     {
+      "name": "司马台长城",
+      "tag": "唯一保留原貌 · 险峻奇绝",
+      "spot": "simatai",
+      "text": "司马台长城全长 5.4 公里，以「险、密、齐、巧、全」著称，是国内唯一保留明代原始风貌的长城段；望京楼海拔 986 米，两侧悬崖直落百米，被联合国教科文组织认定为「原始长城」。"
+     }
+    ]
+   },
+   {
+    "name": "明陵古刹",
+    "icon": "陵",
+    "color": "#704214",
+    "intro": "明十三陵埋葬 13 位皇帝，潭柘寺号称「先有潭柘后有北京」，千年古刹与皇家陵寝共同撑起北京的历史纵深。",
+    "items": [
+     {
+      "name": "明十三陵",
+      "tag": "13 帝 · 2003 世界遗产",
+      "spot": "shisanling",
+      "text": "明十三陵陵区面积约 120 平方公里，葬有 13 位皇帝、23 位皇后及数十名妃嫔，是世界上埋葬皇帝最多的帝王墓葬群；2003 年作为「明清皇家陵寝」扩展项目列入世界文化遗产，定陵出土文物 3000 余件。"
+     },
+     {
+      "name": "潭柘寺",
+      "tag": "始建于西晋 · 北京最古老寺庙",
+      "spot": "tanzhesi",
+      "text": "潭柘寺始建于西晋永嘉年间（约 307 年），距今已有 1700 余年历史，民间素有「先有潭柘寺，后有北京城」之说；寺内毗卢阁高 23 米、流杯亭为清代遗存，银杏树「帝王树」相传植于唐代。"
+     },
+     {
+      "name": "戒台寺",
+      "tag": "戒坛全国之首 · 古松奇观",
+      "spot": "jietaisi",
+      "text": "戒台寺建于唐武德五年（622 年），以全国最大的佛教戒坛闻名，戒坛殿内汉白玉戒坛高 3.5 米、分三层，可授最高等级的菩萨戒；寺内古松造型奇特，「抱塔松」「卧龙松」等皆为千年名木。"
+     }
+    ]
+   },
+   {
+    "name": "双奥之城",
+    "icon": "奥",
+    "color": "#1E90FF",
+    "intro": "北京是全球唯一既举办过夏季奥运会又举办过冬季奥运会的城市，鸟巢、水立方与首钢园成为新时代的国家地标。",
+    "items": [
+     {
+      "name": "奥林匹克公园",
+      "tag": "2008 夏奥 · 鸟巢水立方",
+      "spot": "aolinpike",
+      "text": "国家体育场「鸟巢」总建筑面积 25.8 万平方米、固定座位 8 万个，国家游泳中心「水立方」膜结构气泡达 3000 余个；2008 年北京奥运会在此举行开闭幕式，2022 年冬奥会冰壶比赛也在水立方进行。"
+     },
+     {
+      "name": "首钢园",
+      "tag": "冬奥滑雪大跳台 · 工业遗产转型",
+      "spot": "shougangyuan",
+      "text": "首钢园由百年钢铁厂改造而成，2022 年冬奥会自由式滑雪大跳台「雪飞天」就建在原冷却塔旁，高 64 米、长 164 米；园区保留了高炉、筒仓等工业遗存，成为全球首个城市更新与奥运结合的范例。"
+     },
+     {
+      "name": "北京环球影城",
+      "tag": "全球第五座 · 2021 年开园",
+      "spot": "huanqiu",
+      "text": "北京环球影城 2021 年 9 月开园，是全球第五座、亚洲第三座环球主题公园，占地约 4 平方公里；七大主题景区涵盖变形金刚、侏罗纪、哈利·波特等 IP，开业首年接待游客超 1000 万人次。"
+     }
+    ]
+   },
+   {
+    "name": "胡同京味",
+    "icon": "巷",
+    "color": "#CD853F",
+    "intro": "胡同是北京城的毛细血管，四合院里藏着老北京的起居礼仪、市井烟火与非遗手艺，是活着的城市记忆。",
+    "items": [
+     {
+      "name": "南锣鼓巷胡同区",
+      "tag": "元大都棋盘格局 · 16 条胡同",
+      "spot": "nanluoguxiang",
+      "text": "南锣鼓巷片区保留了元代大都的棋盘式街巷格局，南北主街长 787 米、东西各 8 条对称胡同，是北京老城保护最完整的传统居住区之一；帽儿胡同、雨儿胡同等仍可见清末民初的四合院门楼与砖雕。"
+     },
+     {
+      "name": "什刹海银锭桥",
+      "tag": "前海后海西海 · 燕京小八景",
+      "spot": "shichahai",
+      "text": "什刹海由前海、后海、西海三片水域组成，总面积约 33 公顷，银锭桥始建于明代、因形似银锭得名；「银锭观山」是「燕京小八景」之一，站在桥上可远眺西山晴雪，是老北京水岸生活的缩影。"
+     },
+     {
+      "name": "琉璃厂文化街",
+      "tag": "荣宝斋 · 古籍文房集散地",
+      "spot": "liulichang",
+      "text": "琉璃厂全长约 800 米，自清代乾隆年间起就是古籍、字画、文房四宝的集散地；荣宝斋创立于 1672 年，以木版水印技艺闻名，其复制的《韩熙载夜宴图》几可乱真，是国家级非遗代表性项目。"
+     }
+    ]
+   }
+  ]
+ }
+};

@@ -1,2 +1,980 @@
 window.PROV_DATA = window.PROV_DATA || {};
-PROV_DATA.guangxi = {"meta":{"id":"guangxi","name":"广西","en":"Guangxi","capital":"南宁","tagline":"桂林山水甲天下 · 边关瀑布与碧海银滩","geoTitle":"桂林山水甲天下，边关瀑布碧海珠","geoSub":"先认清地形再排行程：桂北看喀斯特峰林、桂南看边关与海湾、桂西看天坑与梯田。","intro":["广西的山水有三副面孔：桂林漓江的喀斯特峰丛是水墨画，中越边境的德天瀑布是交响乐，北部湾的涠洲岛与银滩是度假片。再加上龙脊梯田的农耕史诗与侗寨风雨桥的木构智慧，一省之内景观类型几乎不重样。","本页按 8 个地市整理精选停靠点、地方代表味道与省内环线；带 ★ 的是重点停靠点，免费景点标「免费」；数据为整理版本（坐标 GCJ-02），门票与竹筏价格随季节调整，出行前以景区与官方公告为准。"],"facts":[["面积","23.76 万 km²"],["常住人口","5027 万（2023 年末）"],["地级市","14 个"],["首府","南宁"],["世界遗产","2 处（桂林喀斯特·左江花山岩画）"],["海岸线","约 1600 km"]],"regions":[["桂北 · 桂林与漓江","喀斯特峰林与漓江竹筏：兴坪二十元人民币背景、龙脊梯田与阳朔西街，中国山水的封面区。"],["桂西南 · 边关山水","中越边境线：德天跨国瀑布、明仕田园与友谊关，左江花山岩画是两千年前的 red 色谜题。"],["桂南 · 北部湾","北海银滩、涠洲岛火山岩与侨港风情街：冬无严寒的海滨度假带。"]]},"cities":[{"id":"guilin","name":"桂林","lat":25.27116,"lng":110.29458,"role":"山水封面","desc":"漓江、象鼻山与两江四湖：城在景中、景在城中，阳朔与龙脊皆以其为大本营。","spots":["liriver","xianggong","elephant","longji","weststreet","yulong","ludi","jjwf","yls","lssj"]},{"id":"liuzhou","name":"柳州","lat":24.3123,"lng":109.4336,"role":"工业+螺蛳粉","desc":"百里柳江与紫荆花城：三江侗寨在境内，螺蛳粉是城市名片兼嗅觉地标。","spots":["chengyang"]},{"id":"nanning","name":"南宁","lat":22.81431,"lng":108.37007,"role":"首府 · 绿城","desc":"半城绿树半城楼：青秀山与三街两巷，老友粉的酸笋香是清晨暗号。","spots":["qingxiu","gxmus","ymgz"],"cap":true},{"id":"beihai","name":"北海","lat":21.47861,"lng":109.12429,"role":"滨海度假","desc":"银滩、老街与涠洲岛：北部湾的阳光与海鲜，冬季避寒的南方选项。","spots":["silver","weizhou","oldstreet"]},{"id":"chongzuo","name":"崇左","lat":22.37425,"lng":107.36916,"role":"边关画廊","desc":"德天瀑布、明仕田园与花山岩画：中越边境线上的山水长廊。","spots":["detian","mingshi","huashan","youyi"]},{"id":"hechi","name":"河池","lat":24.69025,"lng":108.08925,"role":"长寿之乡","desc":"巴马盘阳河与凤山三门海：喀斯特天窗与长寿村养生线。","spots":["bama","yzzj","dqsl"]},{"id":"baise","name":"百色","lat":23.8991,"lng":106.62141,"role":"红城峡谷","desc":"通灵大峡谷与靖西鹅泉：桂西秘境，红色起义纪念地。","spots":["tongling","eqquan","leysts"]},{"id":"hezhou","name":"贺州","lat":24.39996,"lng":111.57311,"role":"古镇温泉","desc":"黄姚古镇与姑婆山：喀斯特古镇慢生活，粤桂湘交界的后花园。","spots":["huangyao","gusl"]}],"spots":[{"id":"liriver","name":"漓江 · 兴坪段","cat":"scenery","catName":"景色","city":"guilin","desc":"二十元人民币背景取景地：杨堤到兴坪的竹筏漂流看九马画山与黄布倒影。","img":"assets/images/gx_liriver.jpg","ticket":"竹筏约 216 元/筏","season":"4–10 月","key":true,"lat":24.91303,"lng":110.53152},{"id":"xianggong","name":"相公山","cat":"scenery","catName":"景色","city":"guilin","desc":"兴坪对岸的摄影山头：15 分钟登顶看漓江第一湾晨雾与峰丛日出。","img":"assets/images/gx_xianggong.jpg","ticket":"60 元","season":"全年，晨昏最佳","lat":24.92705,"lng":110.52454},{"id":"elephant","name":"象鼻山","cat":"landmark","catName":"地标","city":"guilin","desc":"桂林城徽：漓江水月洞如巨象饮江，夜游两江四湖看日月双塔灯光。","img":"assets/images/gx_elephant.jpg","season":"全年","free":true,"key":true,"lat":25.25817,"lng":110.29559},{"id":"longji","name":"龙脊梯田","cat":"scenery","catName":"景色","city":"guilin","desc":"壮瑶两族七百年的山地雕塑：平安寨与金坑大寨，灌水期镜面与秋金两季最壮。","img":"assets/images/gx_longji.jpg","ticket":"80 元","season":"4–6 月灌水、9–10 月金黄","key":true,"lat":25.78714,"lng":110.11477},{"id":"weststreet","name":"阳朔西街","cat":"culture","catName":"人文","city":"guilin","desc":"1400 年的老街+国际化夜生活：啤酒鱼与酒吧街，骑行遇龙河是白天正解。","img":"assets/images/gx_weststreet.jpg","season":"全年","free":true,"lat":24.77211,"lng":110.49761},{"id":"yulong","name":"遇龙河竹筏","cat":"scenery","catName":"景色","city":"guilin","desc":"人工撑筏的安静漓江支流：金龙桥到旧县段最精华，水坝跌水刺激刚好。","img":"assets/images/gx_yulong.jpg","ticket":"约 240 元/筏","season":"4–10 月","key":true,"lat":24.79718,"lng":110.47467},{"id":"chengyang","name":"程阳八寨 · 风雨桥","cat":"culture","catName":"人文","city":"liuzhou","desc":"三江侗族木构集群：程阳永济桥不用一钉一铆，百家宴与侗族大歌是活态非遗。","img":"assets/images/gx_chengyang.jpg","ticket":"100 元","season":"全年","key":true,"lat":25.85674,"lng":109.63438},{"id":"qingxiu","name":"青秀山","cat":"scenery","catName":"景色","city":"nanning","desc":"绿城之肺：龙象塔俯瞰邕江，苏铁园与观音禅寺半日闲逛刚好。","img":"assets/images/gx_qingxiu.jpg","ticket":"20 元","season":"全年","lat":22.77732,"lng":108.38409},{"id":"gxmus","name":"广西民族博物馆","cat":"museum","catName":"博物馆","city":"nanning","desc":"铜鼓王与十二世居民族陈列：免费了解壮锦、瑶绣与歌圩文化第一课。","img":"assets/images/gx_mus.jpg","season":"全年（周一闭馆）","free":true,"lat":22.80932,"lng":108.37608},{"id":"silver","name":"北海银滩","cat":"scenery","catName":"景色","city":"beihai","desc":"「滩长平、沙细白」：石英砂海滩日落与沙雕园，夏季夜泳人气旺。","img":"assets/images/gx_silver.jpg","season":"4–11 月","free":true,"lat":21.42761,"lng":109.13428},{"id":"weizhou","name":"涠洲岛","cat":"scenery","catName":"景色","city":"beihai","desc":"中国最年轻的火山岛：鳄鱼山火山口、五彩滩日出与教堂村，住一晚看银河。","img":"assets/images/gx_weizhou.jpg","ticket":"98 元+船票","season":"4–11 月","key":true,"lat":21.03764,"lng":109.11427},{"id":"oldstreet","name":"北海老街","cat":"culture","catName":"人文","city":"beihai","desc":"百年骑楼商埠：虾饼、糖水与斑驳山花墙，傍晚灯光最有味道。","img":"assets/images/gx_oldstreet.jpg","season":"全年","free":true,"lat":21.47862,"lng":109.11429},{"id":"detian","name":"德天跨国瀑布","cat":"scenery","catName":"景色","city":"chongzuo","desc":"亚洲第一大跨国瀑布：三级跌落与越南板约瀑布相连，竹筏可近观水雾。","img":"assets/images/gx_detian.jpg","ticket":"115 元含观光车","season":"6–11 月丰水","key":true,"lat":22.84714,"lng":106.72359},{"id":"mingshi","name":"明仕田园","cat":"scenery","catName":"景色","city":"chongzuo","desc":"「小桂林」式的峰林田园：竹筏漂流+骑行绿道，《花千骨》取景地。","img":"assets/images/gx_mingshi.jpg","ticket":"120 元含竹筏","season":"4–11 月","lat":22.827,"lng":106.86354},{"id":"huashan","name":"左江花山岩画","cat":"culture","catName":"人文","city":"chongzuo","desc":"骆越人两千年前的赭红色崖壁画：乘船仰观千人舞蹈图案，世界遗产。","img":"assets/images/gx_huashan.jpg","ticket":"船票约 120 元","season":"全年","level":"世界遗产","key":true,"lat":22.24725,"lng":107.05395},{"id":"youyi","name":"友谊关","cat":"landmark","catName":"地标","city":"chongzuo","desc":"中国九大名关之一的南疆国门：关楼与中越边境口岸，历史课收尾点。","img":"assets/images/gx_youyi.jpg","ticket":"42 元","season":"全年","lat":22.37706,"lng":106.71355},{"id":"bama","name":"巴马长寿村","cat":"scenery","catName":"景色","city":"hechi","desc":"盘阳河畔的百岁村：百魔洞磁疗与命河观景台，养生旅居者的圣地。","img":"assets/images/gx_bama.jpg","season":"全年","lat":24.14718,"lng":107.24402},{"id":"tongling","name":"通灵大峡谷","cat":"scenery","catName":"景色","city":"baise","desc":"188 m 单级落差的通灵瀑布+地下暗河：峡谷栈道穿行原始植被。","img":"assets/images/gx_tongling.jpg","ticket":"115 元","season":"5–10 月","lat":23.02709,"lng":106.65343},{"id":"eqquan","name":"靖西鹅泉","cat":"scenery","catName":"景色","city":"baise","desc":"西南三大名泉之一：清澈泉眼与十五孔古桥，晨雾时如水墨小品。","img":"assets/images/gx_eqquan.jpg","ticket":"48 元","season":"全年","lat":23.08743,"lng":106.42367},{"id":"huangyao","name":"黄姚古镇","cat":"culture","catName":"人文","city":"hezhou","desc":"喀斯特峰丛下的明清古镇：带龙桥、古榕与豆豉香，比凤凰安静十倍。","img":"assets/images/gx_huangyao.jpg","ticket":"100 元","season":"全年","key":true,"lat":24.24723,"lng":111.19514},{"id":"ludi","name":"桂林芦笛岩","cat":"scenery","catName":"景色","city":"guilin","desc":"「大自然的艺术之宫」：石狮乳石千姿百态，86 版《西游记》东海龙宫取景地。","img":"assets/images/gx_ludi.jpg","ticket":"110 元","season":"全年","level":"5A","lat":25.28014,"lng":110.26855},{"id":"jjwf","name":"靖江王府·独秀峰","cat":"culture","catName":"人文","city":"guilin","desc":"明代藩王府邸：「桂林山水甲天下」摩崖石刻原址，独秀峰顶俯瞰全城。","img":"assets/images/gx_jjwf.jpg","ticket":"100 元","season":"全年","key":true,"lat":25.27517,"lng":110.29559},{"id":"yls","name":"阳朔月亮山·十里画廊","cat":"scenery","catName":"景色","city":"guilin","desc":"骑行经典线：月亮石拱、大榕树与聚龙潭串成十里画廊，夜遇《印象·刘三姐》。","img":"assets/images/gx_yls.jpg","ticket":"免费（各景点另收）","season":"全年","lat":24.74505,"lng":110.51755},{"id":"lssj","name":"印象·刘三姐","cat":"culture","catName":"人文","city":"guilin","desc":"张艺谋山水实景演出开山作：漓江为幕群山为景，红衣渔火场面震撼。","img":"assets/images/gx_lssj.jpg","ticket":"238 元起","season":"全年","key":true,"lat":24.78507,"lng":110.51157},{"id":"yzzj","name":"宜州·刘三姐故里","cat":"culture","catName":"人文","city":"hechi","desc":"下枧河上对山歌：壮族歌仙传说发源地，会仙山与白龙洞顺游。","img":"assets/images/gx_yzzj.jpg","ticket":"80 元","season":"全年","lat":24.48596,"lng":108.6619},{"id":"leysts","name":"乐业大石围天坑群","cat":"scenery","catName":"景色","city":"baise","desc":"世界天坑之都：28 个天坑串珠，西峰玻璃悬廊俯瞰 613 米深坑底原始森林。","img":"assets/images/gx_leysts.jpg","ticket":"90 元+观光车","season":"全年","key":true,"lat":24.79688,"lng":106.58343},{"id":"gusl","name":"贺州姑婆山","cat":"mountain","catName":"山岳·徒步","city":"hezhou","desc":"华南天然氧吧：方家茶园与仙姑庙藏于瀑布群，《酒是故乡醇》取景地。","img":"assets/images/gx_gusl.jpg","ticket":"100 元","season":"全年","lat":24.35696,"lng":111.62511},{"id":"ymgz","name":"南宁扬美古镇","cat":"culture","catName":"人文","city":"nanning","desc":"左江边的明清古镇：金马广场与清代老街，比黄姚更市井的烟火气。","img":"assets/images/gx_ymgz.jpg","ticket":"免费","season":"全年","lat":22.74604,"lng":107.97489},{"id":"dqsl","name":"都安地下河·桃花水母","cat":"scenery","catName":"景色","city":"hechi","desc":"世界潜水圣地：澄江地下河天窗群，桃花水母季节限定，蓝刀鱼风暴出圈。","img":"assets/images/gx_dqsl.jpg","ticket":"潜水另议","season":"全年","lat":24.09739,"lng":108.10422}],"foods":[{"name":"桂林米粉","city":"guilin","cityName":"桂林","desc":"卤菜粉干拌加锅烧脆皮：先拌后加汤是本地流程，卤水是各家秘方。","img":"assets/images/fd_gx_01.jpg"},{"name":"阳朔啤酒鱼","city":"guilin","cityName":"桂林","desc":"漓江鱼带鳞煎焖配啤酒与番茄：西街大排档的招牌，剑骨鱼版本最嫩。","img":"assets/images/fd_gx_02.jpg"},{"name":"柳州螺蛳粉","city":"liuzhou","cityName":"柳州","desc":"酸笋+螺汤+腐竹花生的嗅觉炸弹：现煮版比袋装多一层镬气。","img":"assets/images/fd_gx_03.jpg"},{"name":"南宁老友粉","city":"nanning","cityName":"南宁","desc":"蒜末豆豉酸笋爆香煮粉：酸辣开胃，感冒时的本地处方。","img":"assets/images/fd_gx_04.jpg"},{"name":"武鸣柠檬鸭","city":"nanning","cityName":"南宁","desc":"陈年柠檬与酸荞头焖鸭：酸甜咸鲜四味打架又和解的邕菜代表。","img":"assets/images/fd_gx_05.jpg"},{"name":"北海虾饼","city":"beihai","cityName":"北海","desc":"现炸的整虾米面饼：老街摊位趁热吃，酥到掉渣配糖水。","img":"assets/images/fd_gx_06.jpg"},{"name":"五色糯米饭","city":"chongzuo","cityName":"崇左","desc":"壮家植物染色的节日主食：枫叶、红蓝草榨汁浸米，蒸出五彩饭团。","img":"assets/images/fd_gx_07.jpg"},{"name":"贺州酿菜","city":"hezhou","cityName":"贺州","desc":"豆腐酿、瓜花酿与菜包酿：无菜不酿的客家与土瑶智慧，黄姚豆豉是灵魂。","img":"assets/images/fd_gx_08.jpg"},{"name":"南宁卷筒粉","city":"nanning","cityName":"南宁","desc":"米浆现蒸卷肉末豆角：淋黄皮酱是南宁灵魂，早餐摊排队王。","img":"assets/images/fd_gx_09.jpg"},{"name":"桂林马蹄糕","city":"guilin","cityName":"桂林","desc":"荸荠粉蒸出的晶莹甜糕：马蹄粒脆甜，漓江游船上的老点心。","img":"assets/images/fd_gx_10.jpg"},{"name":"梧州纸包鸡","city":"liuzhou","cityName":"柳州","desc":"玉扣纸包裹炸出的嫩鸡：梧州百年名吃，纸不焦而鸡锁汁。","img":"assets/images/fd_gx_11.jpg"},{"name":"环江香猪","city":"hechi","cityName":"河池","desc":"世界长寿之乡的小猪：烤香猪皮脆肉嫩，芭蕉叶上吃是毛南族礼数。","img":"assets/images/fd_gx_12.jpg"}],"loops":[{"name":"桂林山水经典环线","days":"4–5 天","km":"约 600 km","desc":"漓江+阳朔+龙脊的标准答案：竹筏、骑行与梯田日出一次集齐。","path":"桂林 → 象鼻山/两江四湖 → 杨堤-兴坪竹筏 → 相公山 → 阳朔(遇龙河+西街) → 龙脊梯田 → 桂林","note":"漓江竹筏旺季需提前订；龙脊住金坑大寨看日出省时。","pts":[[25.27116,110.29458,"桂林"],[25.25817,110.29559,"象鼻山"],[24.91303,110.53152,"兴坪"],[24.92705,110.52454,"相公山"],[24.77211,110.49761,"阳朔"],[25.78714,110.11477,"龙脊梯田"],[25.27116,110.29458,"桂林"]]},{"name":"中越边关瀑布环线","days":"3–4 天","km":"约 700 km","desc":"德天+明仕+友谊关的边境线：喀斯特田园与国门同框。","path":"南宁 → 崇左(花山岩画) → 明仕田园 → 德天瀑布 → 友谊关 → 南宁","note":"德天丰水期 6–11 月最壮；边境公路检查站需身份证。","pts":[[22.81431,108.37007,"南宁"],[22.24725,107.05395,"花山岩画"],[22.827,106.86354,"明仕田园"],[22.84714,106.72359,"德天瀑布"],[22.37706,106.71355,"友谊关"],[22.81431,108.37007,"南宁"]]},{"name":"北部湾滨海环线","days":"3–4 天","km":"约 500 km","desc":"银滩+涠洲岛的海岛假期：火山岩、教堂村与银河。","path":"南宁 → 北海(老街+银滩) → 涠洲岛(1–2 天) → 北海 → 南宁","note":"涠洲船票旺季提前 3 天订；岛上租电动车环岛最自由。","pts":[[22.81431,108.37007,"南宁"],[21.47861,109.12429,"北海"],[21.03764,109.11427,"涠洲岛"],[22.81431,108.37007,"南宁"]]},{"name":"桂西秘境环线","days":"4–5 天","km":"约 900 km","desc":"巴马+通灵+鹅泉+黄姚的冷门组合：长寿乡与古镇慢线。","path":"南宁 → 巴马(百魔洞) → 百色(通灵大峡谷+鹅泉) → 贺州(黄姚) → 南宁","note":"桂西山路段多弯，预留白天行车；黄姚住一晚看晨雾。","pts":[[22.81431,108.37007,"南宁"],[24.14718,107.24402,"巴马"],[23.8991,106.62141,"百色"],[23.02709,106.65343,"通灵大峡谷"],[24.39996,111.57311,"贺州"],[24.24723,111.19514,"黄姚古镇"],[22.81431,108.37007,"南宁"]]}],"tips":[["竹筏","漓江与遇龙河竹筏按筏计价非按人，拼筏或包筏提前问清；雨季停航看水位公告。"],["边境","崇左段沿边公路检查站多，身份证随身；无人机在边境区域禁飞。"],["涠洲岛","船票+上岛票分开买；台风季 7–9 月偶停航，留机动半天。"],["季节","4–6 月龙脊灌水与漓江烟雨最仙；9–11 月梯田金黄+瀑布丰水尾声。"],["米粉","桂林米粉先干拌、柳州螺蛳粉加鸭脚、南宁老友粉趁热：三城三吃法别混淆。"]]};
+PROV_DATA.guangxi = {
+ "meta": {
+  "id": "guangxi",
+  "name": "广西",
+  "en": "Guangxi",
+  "capital": "南宁",
+  "tagline": "桂林山水甲天下 · 边关瀑布与碧海银滩",
+  "geoTitle": "桂林山水甲天下，边关瀑布碧海珠",
+  "geoSub": "先认清地形再排行程：桂北看喀斯特峰林、桂南看边关与海湾、桂西看天坑与梯田。",
+  "intro": [
+   "广西的山水有三副面孔：桂林漓江的喀斯特峰丛是水墨画，中越边境的德天瀑布是交响乐，北部湾的涠洲岛与银滩是度假片。再加上龙脊梯田的农耕史诗与侗寨风雨桥的木构智慧，一省之内景观类型几乎不重样。",
+   "本页按 8 个地市整理精选停靠点、地方代表味道与省内环线；带 ★ 的是重点停靠点，免费景点标「免费」；数据为整理版本（坐标 GCJ-02），门票与竹筏价格随季节调整，出行前以景区与官方公告为准。"
+  ],
+  "facts": [
+   [
+    "面积",
+    "23.76 万 km²"
+   ],
+   [
+    "常住人口",
+    "5027 万（2023 年末）"
+   ],
+   [
+    "地级市",
+    "14 个"
+   ],
+   [
+    "首府",
+    "南宁"
+   ],
+   [
+    "世界遗产",
+    "2 处（桂林喀斯特·左江花山岩画）"
+   ],
+   [
+    "海岸线",
+    "约 1600 km"
+   ]
+  ],
+  "regions": [
+   [
+    "桂北 · 桂林与漓江",
+    "喀斯特峰林与漓江竹筏：兴坪二十元人民币背景、龙脊梯田与阳朔西街，中国山水的封面区。"
+   ],
+   [
+    "桂西南 · 边关山水",
+    "中越边境线：德天跨国瀑布、明仕田园与友谊关，左江花山岩画是两千年前的 red 色谜题。"
+   ],
+   [
+    "桂南 · 北部湾",
+    "北海银滩、涠洲岛火山岩与侨港风情街：冬无严寒的海滨度假带。"
+   ]
+  ]
+ },
+ "cities": [
+  {
+   "id": "guilin",
+   "name": "桂林",
+   "lat": 25.27116,
+   "lng": 110.29458,
+   "role": "山水封面",
+   "desc": "漓江、象鼻山与两江四湖：城在景中、景在城中，阳朔与龙脊皆以其为大本营。",
+   "spots": [
+    "liriver",
+    "xianggong",
+    "elephant",
+    "longji",
+    "weststreet",
+    "yulong",
+    "ludi",
+    "jjwf",
+    "yls",
+    "lssj"
+   ]
+  },
+  {
+   "id": "liuzhou",
+   "name": "柳州",
+   "lat": 24.3123,
+   "lng": 109.4336,
+   "role": "工业+螺蛳粉",
+   "desc": "百里柳江与紫荆花城：三江侗寨在境内，螺蛳粉是城市名片兼嗅觉地标。",
+   "spots": [
+    "chengyang"
+   ]
+  },
+  {
+   "id": "nanning",
+   "name": "南宁",
+   "lat": 22.81431,
+   "lng": 108.37007,
+   "role": "首府 · 绿城",
+   "desc": "半城绿树半城楼：青秀山与三街两巷，老友粉的酸笋香是清晨暗号。",
+   "spots": [
+    "qingxiu",
+    "gxmus",
+    "ymgz"
+   ],
+   "cap": true
+  },
+  {
+   "id": "beihai",
+   "name": "北海",
+   "lat": 21.47861,
+   "lng": 109.12429,
+   "role": "滨海度假",
+   "desc": "银滩、老街与涠洲岛：北部湾的阳光与海鲜，冬季避寒的南方选项。",
+   "spots": [
+    "silver",
+    "weizhou",
+    "oldstreet"
+   ]
+  },
+  {
+   "id": "chongzuo",
+   "name": "崇左",
+   "lat": 22.37425,
+   "lng": 107.36916,
+   "role": "边关画廊",
+   "desc": "德天瀑布、明仕田园与花山岩画：中越边境线上的山水长廊。",
+   "spots": [
+    "detian",
+    "mingshi",
+    "huashan",
+    "youyi"
+   ]
+  },
+  {
+   "id": "hechi",
+   "name": "河池",
+   "lat": 24.69025,
+   "lng": 108.08925,
+   "role": "长寿之乡",
+   "desc": "巴马盘阳河与凤山三门海：喀斯特天窗与长寿村养生线。",
+   "spots": [
+    "bama",
+    "yzzj",
+    "dqsl"
+   ]
+  },
+  {
+   "id": "baise",
+   "name": "百色",
+   "lat": 23.8991,
+   "lng": 106.62141,
+   "role": "红城峡谷",
+   "desc": "通灵大峡谷与靖西鹅泉：桂西秘境，红色起义纪念地。",
+   "spots": [
+    "tongling",
+    "eqquan",
+    "leysts"
+   ]
+  },
+  {
+   "id": "hezhou",
+   "name": "贺州",
+   "lat": 24.39996,
+   "lng": 111.57311,
+   "role": "古镇温泉",
+   "desc": "黄姚古镇与姑婆山：喀斯特古镇慢生活，粤桂湘交界的后花园。",
+   "spots": [
+    "huangyao",
+    "gusl"
+   ]
+  }
+ ],
+ "spots": [
+  {
+   "id": "liriver",
+   "name": "漓江 · 兴坪段",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "guilin",
+   "desc": "二十元人民币背景取景地：杨堤到兴坪的竹筏漂流看九马画山与黄布倒影。",
+   "img": "assets/images/gx_liriver.jpg",
+   "ticket": "竹筏约 216 元/筏",
+   "season": "4–10 月",
+   "key": true,
+   "lat": 24.91303,
+   "lng": 110.53152
+  },
+  {
+   "id": "xianggong",
+   "name": "相公山",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "guilin",
+   "desc": "兴坪对岸的摄影山头：15 分钟登顶看漓江第一湾晨雾与峰丛日出。",
+   "img": "assets/images/gx_xianggong.jpg",
+   "ticket": "60 元",
+   "season": "全年，晨昏最佳",
+   "lat": 24.92705,
+   "lng": 110.52454
+  },
+  {
+   "id": "elephant",
+   "name": "象鼻山",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "guilin",
+   "desc": "桂林城徽：漓江水月洞如巨象饮江，夜游两江四湖看日月双塔灯光。",
+   "img": "assets/images/gx_elephant.jpg",
+   "season": "全年",
+   "free": true,
+   "key": true,
+   "lat": 25.25817,
+   "lng": 110.29559
+  },
+  {
+   "id": "longji",
+   "name": "龙脊梯田",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "guilin",
+   "desc": "壮瑶两族七百年的山地雕塑：平安寨与金坑大寨，灌水期镜面与秋金两季最壮。",
+   "img": "assets/images/gx_longji.jpg",
+   "ticket": "80 元",
+   "season": "4–6 月灌水、9–10 月金黄",
+   "key": true,
+   "lat": 25.78714,
+   "lng": 110.11477
+  },
+  {
+   "id": "weststreet",
+   "name": "阳朔西街",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "guilin",
+   "desc": "1400 年的老街+国际化夜生活：啤酒鱼与酒吧街，骑行遇龙河是白天正解。",
+   "img": "assets/images/gx_weststreet.jpg",
+   "season": "全年",
+   "free": true,
+   "lat": 24.77211,
+   "lng": 110.49761
+  },
+  {
+   "id": "yulong",
+   "name": "遇龙河竹筏",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "guilin",
+   "desc": "人工撑筏的安静漓江支流：金龙桥到旧县段最精华，水坝跌水刺激刚好。",
+   "img": "assets/images/gx_yulong.jpg",
+   "ticket": "约 240 元/筏",
+   "season": "4–10 月",
+   "key": true,
+   "lat": 24.79718,
+   "lng": 110.47467
+  },
+  {
+   "id": "chengyang",
+   "name": "程阳八寨 · 风雨桥",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "liuzhou",
+   "desc": "三江侗族木构集群：程阳永济桥不用一钉一铆，百家宴与侗族大歌是活态非遗。",
+   "img": "assets/images/gx_chengyang.jpg",
+   "ticket": "100 元",
+   "season": "全年",
+   "key": true,
+   "lat": 25.85674,
+   "lng": 109.63438
+  },
+  {
+   "id": "qingxiu",
+   "name": "青秀山",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "nanning",
+   "desc": "绿城之肺：龙象塔俯瞰邕江，苏铁园与观音禅寺半日闲逛刚好。",
+   "img": "assets/images/gx_qingxiu.jpg",
+   "ticket": "20 元",
+   "season": "全年",
+   "lat": 22.77732,
+   "lng": 108.38409
+  },
+  {
+   "id": "gxmus",
+   "name": "广西民族博物馆",
+   "cat": "museum",
+   "catName": "博物馆",
+   "city": "nanning",
+   "desc": "铜鼓王与十二世居民族陈列：免费了解壮锦、瑶绣与歌圩文化第一课。",
+   "img": "assets/images/gx_mus.jpg",
+   "season": "全年（周一闭馆）",
+   "free": true,
+   "lat": 22.80932,
+   "lng": 108.37608
+  },
+  {
+   "id": "silver",
+   "name": "北海银滩",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "beihai",
+   "desc": "「滩长平、沙细白」：石英砂海滩日落与沙雕园，夏季夜泳人气旺。",
+   "img": "assets/images/gx_silver.jpg",
+   "season": "4–11 月",
+   "free": true,
+   "lat": 21.42761,
+   "lng": 109.13428
+  },
+  {
+   "id": "weizhou",
+   "name": "涠洲岛",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "beihai",
+   "desc": "中国最年轻的火山岛：鳄鱼山火山口、五彩滩日出与教堂村，住一晚看银河。",
+   "img": "assets/images/gx_weizhou.jpg",
+   "ticket": "98 元+船票",
+   "season": "4–11 月",
+   "key": true,
+   "lat": 21.03764,
+   "lng": 109.11427
+  },
+  {
+   "id": "oldstreet",
+   "name": "北海老街",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "beihai",
+   "desc": "百年骑楼商埠：虾饼、糖水与斑驳山花墙，傍晚灯光最有味道。",
+   "img": "assets/images/gx_oldstreet.jpg",
+   "season": "全年",
+   "free": true,
+   "lat": 21.47862,
+   "lng": 109.11429
+  },
+  {
+   "id": "detian",
+   "name": "德天跨国瀑布",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "chongzuo",
+   "desc": "亚洲第一大跨国瀑布：三级跌落与越南板约瀑布相连，竹筏可近观水雾。",
+   "img": "assets/images/gx_detian.jpg",
+   "ticket": "115 元含观光车",
+   "season": "6–11 月丰水",
+   "key": true,
+   "lat": 22.84714,
+   "lng": 106.72359
+  },
+  {
+   "id": "mingshi",
+   "name": "明仕田园",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "chongzuo",
+   "desc": "「小桂林」式的峰林田园：竹筏漂流+骑行绿道，《花千骨》取景地。",
+   "img": "assets/images/gx_mingshi.jpg",
+   "ticket": "120 元含竹筏",
+   "season": "4–11 月",
+   "lat": 22.827,
+   "lng": 106.86354
+  },
+  {
+   "id": "huashan",
+   "name": "左江花山岩画",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "chongzuo",
+   "desc": "骆越人两千年前的赭红色崖壁画：乘船仰观千人舞蹈图案，世界遗产。",
+   "img": "assets/images/gx_huashan.jpg",
+   "ticket": "船票约 120 元",
+   "season": "全年",
+   "level": "世界遗产",
+   "key": true,
+   "lat": 22.24725,
+   "lng": 107.05395
+  },
+  {
+   "id": "youyi",
+   "name": "友谊关",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "chongzuo",
+   "desc": "中国九大名关之一的南疆国门：关楼与中越边境口岸，历史课收尾点。",
+   "img": "assets/images/gx_youyi.jpg",
+   "ticket": "42 元",
+   "season": "全年",
+   "lat": 22.37706,
+   "lng": 106.71355
+  },
+  {
+   "id": "bama",
+   "name": "巴马长寿村",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "hechi",
+   "desc": "盘阳河畔的百岁村：百魔洞磁疗与命河观景台，养生旅居者的圣地。",
+   "img": "assets/images/gx_bama.jpg",
+   "season": "全年",
+   "lat": 24.14718,
+   "lng": 107.24402
+  },
+  {
+   "id": "tongling",
+   "name": "通灵大峡谷",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "baise",
+   "desc": "188 m 单级落差的通灵瀑布+地下暗河：峡谷栈道穿行原始植被。",
+   "img": "assets/images/gx_tongling.jpg",
+   "ticket": "115 元",
+   "season": "5–10 月",
+   "lat": 23.02709,
+   "lng": 106.65343
+  },
+  {
+   "id": "eqquan",
+   "name": "靖西鹅泉",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "baise",
+   "desc": "西南三大名泉之一：清澈泉眼与十五孔古桥，晨雾时如水墨小品。",
+   "img": "assets/images/gx_eqquan.jpg",
+   "ticket": "48 元",
+   "season": "全年",
+   "lat": 23.08743,
+   "lng": 106.42367
+  },
+  {
+   "id": "huangyao",
+   "name": "黄姚古镇",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "hezhou",
+   "desc": "喀斯特峰丛下的明清古镇：带龙桥、古榕与豆豉香，比凤凰安静十倍。",
+   "img": "assets/images/gx_huangyao.jpg",
+   "ticket": "100 元",
+   "season": "全年",
+   "key": true,
+   "lat": 24.24723,
+   "lng": 111.19514
+  },
+  {
+   "id": "ludi",
+   "name": "桂林芦笛岩",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "guilin",
+   "desc": "「大自然的艺术之宫」：石狮乳石千姿百态，86 版《西游记》东海龙宫取景地。",
+   "img": "assets/images/gx_ludi.jpg",
+   "ticket": "110 元",
+   "season": "全年",
+   "level": "5A",
+   "lat": 25.28014,
+   "lng": 110.26855
+  },
+  {
+   "id": "jjwf",
+   "name": "靖江王府·独秀峰",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "guilin",
+   "desc": "明代藩王府邸：「桂林山水甲天下」摩崖石刻原址，独秀峰顶俯瞰全城。",
+   "img": "assets/images/gx_jjwf.jpg",
+   "ticket": "100 元",
+   "season": "全年",
+   "key": true,
+   "lat": 25.27517,
+   "lng": 110.29559
+  },
+  {
+   "id": "yls",
+   "name": "阳朔月亮山·十里画廊",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "guilin",
+   "desc": "骑行经典线：月亮石拱、大榕树与聚龙潭串成十里画廊，夜遇《印象·刘三姐》。",
+   "img": "assets/images/gx_yls.jpg",
+   "ticket": "免费（各景点另收）",
+   "season": "全年",
+   "lat": 24.74505,
+   "lng": 110.51755
+  },
+  {
+   "id": "lssj",
+   "name": "印象·刘三姐",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "guilin",
+   "desc": "张艺谋山水实景演出开山作：漓江为幕群山为景，红衣渔火场面震撼。",
+   "img": "assets/images/gx_lssj.jpg",
+   "ticket": "238 元起",
+   "season": "全年",
+   "key": true,
+   "lat": 24.78507,
+   "lng": 110.51157
+  },
+  {
+   "id": "yzzj",
+   "name": "宜州·刘三姐故里",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "hechi",
+   "desc": "下枧河上对山歌：壮族歌仙传说发源地，会仙山与白龙洞顺游。",
+   "img": "assets/images/gx_yzzj.jpg",
+   "ticket": "80 元",
+   "season": "全年",
+   "lat": 24.48596,
+   "lng": 108.6619
+  },
+  {
+   "id": "leysts",
+   "name": "乐业大石围天坑群",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "baise",
+   "desc": "世界天坑之都：28 个天坑串珠，西峰玻璃悬廊俯瞰 613 米深坑底原始森林。",
+   "img": "assets/images/gx_leysts.jpg",
+   "ticket": "90 元+观光车",
+   "season": "全年",
+   "key": true,
+   "lat": 24.79688,
+   "lng": 106.58343
+  },
+  {
+   "id": "gusl",
+   "name": "贺州姑婆山",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "hezhou",
+   "desc": "华南天然氧吧：方家茶园与仙姑庙藏于瀑布群，《酒是故乡醇》取景地。",
+   "img": "assets/images/gx_gusl.jpg",
+   "ticket": "100 元",
+   "season": "全年",
+   "lat": 24.35696,
+   "lng": 111.62511
+  },
+  {
+   "id": "ymgz",
+   "name": "南宁扬美古镇",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "nanning",
+   "desc": "左江边的明清古镇：金马广场与清代老街，比黄姚更市井的烟火气。",
+   "img": "assets/images/gx_ymgz.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "lat": 22.74604,
+   "lng": 107.97489
+  },
+  {
+   "id": "dqsl",
+   "name": "都安地下河·桃花水母",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "hechi",
+   "desc": "世界潜水圣地：澄江地下河天窗群，桃花水母季节限定，蓝刀鱼风暴出圈。",
+   "img": "assets/images/gx_dqsl.jpg",
+   "ticket": "潜水另议",
+   "season": "全年",
+   "lat": 24.09739,
+   "lng": 108.10422
+  }
+ ],
+ "foods": [
+  {
+   "name": "桂林米粉",
+   "city": "guilin",
+   "cityName": "桂林",
+   "desc": "卤菜粉干拌加锅烧脆皮：先拌后加汤是本地流程，卤水是各家秘方。",
+   "img": "assets/images/fd_gx_01.jpg"
+  },
+  {
+   "name": "阳朔啤酒鱼",
+   "city": "guilin",
+   "cityName": "桂林",
+   "desc": "漓江鱼带鳞煎焖配啤酒与番茄：西街大排档的招牌，剑骨鱼版本最嫩。",
+   "img": "assets/images/fd_gx_02.jpg"
+  },
+  {
+   "name": "柳州螺蛳粉",
+   "city": "liuzhou",
+   "cityName": "柳州",
+   "desc": "酸笋+螺汤+腐竹花生的嗅觉炸弹：现煮版比袋装多一层镬气。",
+   "img": "assets/images/fd_gx_03.jpg"
+  },
+  {
+   "name": "南宁老友粉",
+   "city": "nanning",
+   "cityName": "南宁",
+   "desc": "蒜末豆豉酸笋爆香煮粉：酸辣开胃，感冒时的本地处方。",
+   "img": "assets/images/fd_gx_04.jpg"
+  },
+  {
+   "name": "武鸣柠檬鸭",
+   "city": "nanning",
+   "cityName": "南宁",
+   "desc": "陈年柠檬与酸荞头焖鸭：酸甜咸鲜四味打架又和解的邕菜代表。",
+   "img": "assets/images/fd_gx_05.jpg"
+  },
+  {
+   "name": "北海虾饼",
+   "city": "beihai",
+   "cityName": "北海",
+   "desc": "现炸的整虾米面饼：老街摊位趁热吃，酥到掉渣配糖水。",
+   "img": "assets/images/fd_gx_06.jpg"
+  },
+  {
+   "name": "五色糯米饭",
+   "city": "chongzuo",
+   "cityName": "崇左",
+   "desc": "壮家植物染色的节日主食：枫叶、红蓝草榨汁浸米，蒸出五彩饭团。",
+   "img": "assets/images/fd_gx_07.jpg"
+  },
+  {
+   "name": "贺州酿菜",
+   "city": "hezhou",
+   "cityName": "贺州",
+   "desc": "豆腐酿、瓜花酿与菜包酿：无菜不酿的客家与土瑶智慧，黄姚豆豉是灵魂。",
+   "img": "assets/images/fd_gx_08.jpg"
+  },
+  {
+   "name": "南宁卷筒粉",
+   "city": "nanning",
+   "cityName": "南宁",
+   "desc": "米浆现蒸卷肉末豆角：淋黄皮酱是南宁灵魂，早餐摊排队王。",
+   "img": "assets/images/fd_gx_09.jpg"
+  },
+  {
+   "name": "桂林马蹄糕",
+   "city": "guilin",
+   "cityName": "桂林",
+   "desc": "荸荠粉蒸出的晶莹甜糕：马蹄粒脆甜，漓江游船上的老点心。",
+   "img": "assets/images/fd_gx_10.jpg"
+  },
+  {
+   "name": "梧州纸包鸡",
+   "city": "liuzhou",
+   "cityName": "柳州",
+   "desc": "玉扣纸包裹炸出的嫩鸡：梧州百年名吃，纸不焦而鸡锁汁。",
+   "img": "assets/images/fd_gx_11.jpg"
+  },
+  {
+   "name": "环江香猪",
+   "city": "hechi",
+   "cityName": "河池",
+   "desc": "世界长寿之乡的小猪：烤香猪皮脆肉嫩，芭蕉叶上吃是毛南族礼数。",
+   "img": "assets/images/fd_gx_12.jpg"
+  }
+ ],
+ "loops": [
+  {
+   "name": "桂林山水经典环线",
+   "days": "4–5 天",
+   "km": "约 600 km",
+   "desc": "漓江+阳朔+龙脊的标准答案：竹筏、骑行与梯田日出一次集齐。",
+   "path": "桂林 → 象鼻山/两江四湖 → 杨堤-兴坪竹筏 → 相公山 → 阳朔(遇龙河+西街) → 龙脊梯田 → 桂林",
+   "note": "漓江竹筏旺季需提前订；龙脊住金坑大寨看日出省时。",
+   "pts": [
+    [
+     25.27116,
+     110.29458,
+     "桂林"
+    ],
+    [
+     25.25817,
+     110.29559,
+     "象鼻山"
+    ],
+    [
+     24.91303,
+     110.53152,
+     "兴坪"
+    ],
+    [
+     24.92705,
+     110.52454,
+     "相公山"
+    ],
+    [
+     24.77211,
+     110.49761,
+     "阳朔"
+    ],
+    [
+     25.78714,
+     110.11477,
+     "龙脊梯田"
+    ],
+    [
+     25.27116,
+     110.29458,
+     "桂林"
+    ]
+   ]
+  },
+  {
+   "name": "中越边关瀑布环线",
+   "days": "3–4 天",
+   "km": "约 700 km",
+   "desc": "德天+明仕+友谊关的边境线：喀斯特田园与国门同框。",
+   "path": "南宁 → 崇左(花山岩画) → 明仕田园 → 德天瀑布 → 友谊关 → 南宁",
+   "note": "德天丰水期 6–11 月最壮；边境公路检查站需身份证。",
+   "pts": [
+    [
+     22.81431,
+     108.37007,
+     "南宁"
+    ],
+    [
+     22.24725,
+     107.05395,
+     "花山岩画"
+    ],
+    [
+     22.827,
+     106.86354,
+     "明仕田园"
+    ],
+    [
+     22.84714,
+     106.72359,
+     "德天瀑布"
+    ],
+    [
+     22.37706,
+     106.71355,
+     "友谊关"
+    ],
+    [
+     22.81431,
+     108.37007,
+     "南宁"
+    ]
+   ]
+  },
+  {
+   "name": "北部湾滨海环线",
+   "days": "3–4 天",
+   "km": "约 500 km",
+   "desc": "银滩+涠洲岛的海岛假期：火山岩、教堂村与银河。",
+   "path": "南宁 → 北海(老街+银滩) → 涠洲岛(1–2 天) → 北海 → 南宁",
+   "note": "涠洲船票旺季提前 3 天订；岛上租电动车环岛最自由。",
+   "pts": [
+    [
+     22.81431,
+     108.37007,
+     "南宁"
+    ],
+    [
+     21.47861,
+     109.12429,
+     "北海"
+    ],
+    [
+     21.03764,
+     109.11427,
+     "涠洲岛"
+    ],
+    [
+     22.81431,
+     108.37007,
+     "南宁"
+    ]
+   ]
+  },
+  {
+   "name": "桂西秘境环线",
+   "days": "4–5 天",
+   "km": "约 900 km",
+   "desc": "巴马+通灵+鹅泉+黄姚的冷门组合：长寿乡与古镇慢线。",
+   "path": "南宁 → 巴马(百魔洞) → 百色(通灵大峡谷+鹅泉) → 贺州(黄姚) → 南宁",
+   "note": "桂西山路段多弯，预留白天行车；黄姚住一晚看晨雾。",
+   "pts": [
+    [
+     22.81431,
+     108.37007,
+     "南宁"
+    ],
+    [
+     24.14718,
+     107.24402,
+     "巴马"
+    ],
+    [
+     23.8991,
+     106.62141,
+     "百色"
+    ],
+    [
+     23.02709,
+     106.65343,
+     "通灵大峡谷"
+    ],
+    [
+     24.39996,
+     111.57311,
+     "贺州"
+    ],
+    [
+     24.24723,
+     111.19514,
+     "黄姚古镇"
+    ],
+    [
+     22.81431,
+     108.37007,
+     "南宁"
+    ]
+   ]
+  }
+ ],
+ "tips": [
+  [
+   "竹筏",
+   "漓江与遇龙河竹筏按筏计价非按人，拼筏或包筏提前问清；雨季停航看水位公告。"
+  ],
+  [
+   "边境",
+   "崇左段沿边公路检查站多，身份证随身；无人机在边境区域禁飞。"
+  ],
+  [
+   "涠洲岛",
+   "船票+上岛票分开买；台风季 7–9 月偶停航，留机动半天。"
+  ],
+  [
+   "季节",
+   "4–6 月龙脊灌水与漓江烟雨最仙；9–11 月梯田金黄+瀑布丰水尾声。"
+  ],
+  [
+   "米粉",
+   "桂林米粉先干拌、柳州螺蛳粉加鸭脚、南宁老友粉趁热：三城三吃法别混淆。"
+  ]
+ ],
+ "features": {
+  "intro": "广西是「桂林山水甲天下」的实景地：23.76 万平方公里内，喀斯特峰林、边关瀑布、北部湾海岸与壮族歌圩交织。从漓江竹筏到德天跨国瀑布，从龙脊梯田到涠洲岛火山岩，一自治区之内集齐山、水、海、边四种极致景观。",
+  "groups": [
+   {
+    "name": "漓江山水",
+    "icon": "漓",
+    "color": "#1A6B8A",
+    "intro": "漓江全长 164 公里，桂林至阳朔段 83 公里是世界喀斯特景观的巅峰；人民币 20 元背景图就取自兴坪黄布倒影。",
+    "items": [
+     {
+      "name": "漓江精华段 · 20 元人民币背景",
+      "tag": "83 km · 九马画山+黄布倒影",
+      "spot": "liriver",
+      "text": "漓江桂林至阳朔段全长 83 公里，沿途经过九马画山、黄布倒影等经典景观，其中黄布倒影就是第五套人民币 20 元纸币背面图案的取景地；竹筏漂流全程约 4 小时，两岸喀斯特峰丛倒映水中，被誉为全球最美的河流景观之一。"
+     },
+     {
+      "name": "相公山 · 漓江最佳俯瞰点",
+      "tag": "海拔 600 m · 日出云海",
+      "spot": "xianggong",
+      "text": "相公山位于阳朔兴坪镇，海拔约 600 米，登顶仅需 15 分钟，是拍摄漓江第一湾与日出的最佳机位；清晨云雾缭绕时，喀斯特峰林如水墨画般层层叠叠，被《中国国家地理》评为中国十大非著名山峰之一。"
+     },
+     {
+      "name": "遇龙河 · 人工竹筏慢漂",
+      "tag": "全长 43.5 km · 双人竹筏",
+      "spot": "yulong",
+      "text": "遇龙河全长 43.5 公里，是漓江最长的支流，水质优于漓江主航道；金龙桥至旧县段双人竹筏漂流约 1.5 小时，全程无马达噪音，只有撑篙声与水鸟鸣叫，被称为「小漓江」但比漓江更安静原始。"
+     }
+    ]
+   },
+   {
+    "name": "边关与瀑布",
+    "icon": "瀑",
+    "color": "#2E8B6F",
+    "intro": "广西与越南接壤的边境线上，德天跨国瀑布横跨两国，明仕田园与通灵大峡谷则藏着中越边境最隐秘的喀斯特秘境。",
+    "items": [
+     {
+      "name": "德天跨国瀑布 · 亚洲第一",
+      "tag": "宽 200 m · 落差 70 m",
+      "spot": "detian",
+      "text": "德天瀑布横跨中越两国边境，宽约 200 米、垂直落差 70 米，分三级跌落，是亚洲第一大跨国瀑布；雨季（6–10 月）水量最大，可乘竹筏靠近瀑布脚下感受水雾，对岸即越南板约瀑布，两国瀑布同框是世界罕见的边境奇观。"
+     },
+     {
+      "name": "明仕田园 · 边境喀斯特田园",
+      "tag": "20 km 画廊 · 《花千骨》取景",
+      "spot": "mingshi",
+      "text": "明仕田园位于大新县中越边境，20 公里长的明仕河穿行于喀斯特峰林之间，稻田、竹林与壮族村寨交替出现；电视剧《花千骨》在此取景后知名度大增，骑行或竹筏漫游是最舒适的打开方式。"
+     },
+     {
+      "name": "通灵大峡谷 · 单级落差 188 m",
+      "tag": "深 300 m · 古崖洞葬",
+      "spot": "tongling",
+      "text": "靖西通灵大峡谷全长约 2.8 公里、最深 300 米，峡谷底部的通灵瀑布单级落差 188 米，是中国单级落差最大的瀑布之一；谷内保存着宋代以来的古崖洞葬遗址与桫椤等珍稀植物，是边境线上最震撼的地质奇观。"
+     }
+    ]
+   },
+   {
+    "name": "民族与梯田",
+    "icon": "民",
+    "color": "#8A5A2B",
+    "intro": "广西有 12 个世居少数民族，壮族人口全国最多；龙脊梯田是壮瑶两族千年农耕杰作，三江风雨桥与程阳八寨则是侗族建筑的活标本。",
+    "items": [
+     {
+      "name": "龙脊梯田 · 壮瑶千年农耕",
+      "tag": "海拔 300–1100 m · 始建于元",
+      "spot": "longji",
+      "text": "龙脊梯田分布在海拔 300 至 1100 米的山坡上，始建于元代、完工于清初，距今已有 700 多年历史；金坑大寨为红瑶聚居，平安壮寨为壮族聚居，5 月底灌水期镜面效果最佳，10 月金秋稻浪最为壮观。"
+     },
+     {
+      "name": "程阳八寨 · 世界文化遗产预备",
+      "tag": "永济桥 1912 年 · 侗族木构",
+      "spot": "chengyang",
+      "text": "三江程阳八寨由八个侗族自然村组成，核心景观程阳永济桥建于 1912 年，全长 77.76 米、五墩四孔，是世界四大历史名桥之一；整座桥不用一钉一铆，纯榫卯木构，已列入世界文化遗产预备名录。"
+     },
+     {
+      "name": "花山岩画 · 世界文化遗产",
+      "tag": "2016 年列入 · 2000 年前骆越",
+      "spot": "huashan",
+      "text": "宁明花山岩画 2016 年列入世界文化遗产，是中国第一个岩画类世遗；左江沿岸悬崖上保存着 2000 多年前骆越人绘制的赭红色人形图案 1900 余个，最大人像高 3 米，祭祀场景至今未被完全破译。"
+     }
+    ]
+   },
+   {
+    "name": "北部湾海岸",
+    "icon": "海",
+    "color": "#2C5F8A",
+    "intro": "广西南部濒临北部湾，海岸线长 1595 公里；涠洲岛是中国最大最年轻的火山岛，北海银滩则以石英砂细白著称。",
+    "items": [
+     {
+      "name": "涠洲岛 · 中国最大火山岛",
+      "tag": "面积 24.74 km² · 万年火山口",
+      "spot": "weizhou",
+      "text": "涠洲岛面积 24.74 平方公里，是中国最大、地质年龄最年轻的火山岛，最后一次喷发约在 1 万年前；南湾鳄鱼山景区保留着完整的火山口遗迹与海蚀崖，五彩滩的火山岩潮汐地貌与滴水丹屏的日落构成岛上三大必看点。"
+     },
+     {
+      "name": "北海银滩 · 天下第一滩",
+      "tag": "24 km · 石英砂 0.1 mm",
+      "spot": "silver",
+      "text": "北海银滩全长约 24 公里，沙滩由高品质石英砂堆积而成，平均粒径仅 0.1 毫米，在阳光下泛出银光，故得名「银滩」；沙质细白松软、海水清澈平缓，1990 年代就被评为中国 35 个王牌景点之一。"
+     },
+     {
+      "name": "三娘湾 · 中华白海豚故乡",
+      "tag": "常年可见 · 种群约 300 头",
+      "text": "钦州三娘湾是中华白海豚在中国大陆沿海最稳定的栖息地，常年可见种群约 300 头；每年 4–10 月出海观赏成功率最高，粉色成年海豚与灰色幼豚同游的画面是三娘湾独有的海洋生态名片。"
+     }
+    ]
+   },
+   {
+    "name": "长寿与康养",
+    "icon": "寿",
+    "color": "#6A4C93",
+    "intro": "巴马是世界五大长寿之乡之一，百岁以上老人比例远超国际标准；盘阳河、百魔洞与水晶宫构成的喀斯特康养带，吸引着全国各地的旅居者。",
+    "items": [
+     {
+      "name": "巴马 · 世界长寿之乡",
+      "tag": "百岁 81 位 · 地磁 0.58Gs",
+      "spot": "bama",
+      "text": "巴马瑶族自治县 2020 年普查有百岁及以上老人 81 位，每 10 万人中百岁老人数达 33.4 位，远超世界长寿之乡标准（7/10 万）；当地地磁场强度约 0.58 高斯、空气负氧离子峰值达 3 万个/cm³，盘阳河水呈弱碱性，三重因素被认为是长寿密码。"
+     },
+     {
+      "name": "百魔洞 · 天然氧吧",
+      "tag": "负氧离子 3 万/cm³ · 磁疗区",
+      "text": "巴马百魔洞洞内空气负氧离子浓度峰值达 3 万个/cm³，洞口区域地磁强度异常，被旅居者称为「天然磁疗舱」；每天清晨数百人在洞口打坐、吸氧、饮泉水，形成了独特的候鸟式康养社群文化。"
+     }
+    ]
+   },
+   {
+    "name": "桂味与米粉",
+    "icon": "粉",
+    "color": "#B8432F",
+    "intro": "广西是全国米粉种类最多的省份：柳州螺蛳粉、桂林米粉、南宁老友粉并称三大名粉，酸笋、腐竹与卤水是各自的灵魂。",
+    "items": [
+     {
+      "name": "螺蛳粉 · 柳州城市名片",
+      "tag": "2021 年产值 500 亿 · 预包装",
+      "text": "柳州螺蛳粉以石螺熬汤、酸笋提味、腐竹花生作配，辣鲜酸烫四味一体；2021 年柳州螺蛳粉全产业链销售收入突破 500 亿元，预包装产品出口 28 个国家，从街边小吃逆袭为国家级非遗与城市产业支柱。"
+     },
+     {
+      "name": "桂林米粉 · 卤水为王",
+      "tag": "圆粉直径 1.6 mm · 干拌吃法",
+      "text": "桂林米粉用籼米制成圆形湿粉，直径约 1.6 毫米，口感爽滑；正宗吃法是先干拌卤水、锅烧与酸豆角，吃完再加骨头汤，而非直接泡汤；卤水配方各家不同，是桂林米粉店的核心竞争力，老店往往传承三代以上。"
+     },
+     {
+      "name": "老友粉 · 南宁酸辣代表",
+      "tag": "酸笋+豆豉+辣椒 · 现炒现煮",
+      "text": "南宁老友粉以酸笋、豆豉、蒜末与辣椒爆炒后加高汤煮粉，酸辣开胃、镬气十足；相传源于民国时期一位老店主为生病老友特制，故名「老友」，现已成为南宁早餐与夜宵的双重标配。"
+     }
+    ]
+   }
+  ]
+ }
+};

@@ -1,2 +1,1311 @@
 window.PROV_DATA = window.PROV_DATA || {};
-PROV_DATA.zhejiang = {"meta":{"id":"zhejiang","name":"浙江","en":"Zhejiang","capital":"杭州","tagline":"七山一水二分田 · 古镇、海岛与秘境三线并行","geoTitle":"陆上是古镇与山，海上是岛，浙南是秘境","geoSub":"先认清地形再排行程：环杭州湾走古镇、浙东走海岛与佛教名山、浙南走山水与古村。","intro":["浙江的地形是七山一水二分田，交通把三种完全不同的玩法压缩在一起：北部环杭州湾是乌镇西塘南浔的江南水乡与良渚文明；东部是普陀山、天台山与舟山群岛、嵊泗东极的海岛线；南部雁荡山、楠溪江、缙云仙都与松阳古村，才是自驾真正能开出门道的地方。","本页按 11 个地市整理精选停靠点、地方代表味道与省内环线；带 ★ 的是重点停靠点，免费景点标「免费」；数据为整理版本（坐标 GCJ-02），海岛船票、景区门票与索道价格随季节调整，出行前以景区与官方公告为准。"],"facts":[["面积","10.55 万 km²"],["常住人口","6627 万（2023 年末）"],["地级市","11 个"],["省会","杭州"],["世界遗产","4 处（西湖·良渚·大运河·江郎山丹霞）"],["海岸线","约 6600 km（含海岛）"]],"regions":[["环杭州湾 · 水乡与文明","西湖、良渚、大运河与乌镇西塘南浔：江南水乡古镇密度全国第一，商业化也最重。"],["浙东 · 海岛与佛道名山","普陀山、天台山、雪窦山与舟山群岛、嵊泗、东极岛：靠船票与台风窗口决定行程。"],["浙南 · 山水秘境","雁荡山、楠溪江、缙云仙都、云和梯田与松阳古村群：自驾价值最高、游客相对最少的一段。"]]},"cities":[{"id":"hangzhou","name":"杭州","lat":30.27167,"lng":120.15969,"role":"省会 · 西湖","desc":"西湖、良渚与大运河三处世界遗产：城市即景区，龙井茶山与西溪湿地都在半小时车程内。","spots":["xihu","lingyin","xixi","longjing","liangzhu","qiandaohu","gongchen"],"cap":true},{"id":"ningbo","name":"宁波","lat":29.86543,"lng":121.54817,"role":"书藏古今","desc":"天一阁与河姆渡文脉：港口城市气质，溪口雪窦山与象山石浦渔港是市郊两大出口。","spots":["tianyi","xuedou","shipu"]},{"id":"wenzhou","name":"温州","lat":27.99072,"lng":120.70306,"role":"山水奇秀","desc":"雁荡山与楠溪江：浙南山水的天花板，泰顺廊桥藏在深山里，民营经济气息浓。","spots":["yandang","nanxi","taishun"]},{"id":"jiaxing","name":"嘉兴","lat":30.7437,"lng":120.75932,"role":"水乡腹地","desc":"乌镇与西塘两大古镇：沪杭之间的平原水乡，南湖与月河街区是市区补充。","spots":["wuzhen","xitang","nanhu"]},{"id":"huzhou","name":"湖州","lat":30.86794,"lng":120.09787,"role":"竹乡民宿","desc":"莫干山民宿群与南浔古镇：安吉竹海与大竹海，是长三角周末度假的第一选择。","spots":["mogan","nanxun","anji"]},{"id":"shaoxing","name":"绍兴","lat":30.02736,"lng":120.58408,"role":"名士之乡","desc":"鲁迅故里、兰亭与安昌古镇：黄酒、乌篷船与台门建筑，绍兴老城适合步行。","spots":["luxun","lanting","anchang"]},{"id":"jinhua","name":"金华","lat":29.07602,"lng":119.6517,"role":"影视婺州","desc":"横店影视城与双龙洞：兰溪诸葛八卦村是全国最大诸葛亮后裔聚居地，火腿是名片。","spots":["hengdian","shuanglong","zhuge"]},{"id":"quzhou","name":"衢州","lat":28.93189,"lng":118.86379,"role":"四省通衢","desc":"江郎山丹霞与廿八都古镇：龙游石窟的成因至今是谜，浙闽赣皖交界的门户。","spots":["jianglang","longyou","ershibadu"]},{"id":"zhoushan","name":"舟山","lat":29.9826,"lng":122.21116,"role":"千岛之市","desc":"普陀山与嵊泗、东极岛：中国唯一以群岛建制的地级市，海鲜与海岛是全部内容。","spots":["putuo","shengsi","dongji"]},{"id":"taizhou","name":"台州","lat":28.65305,"lng":121.42543,"role":"山海之间","desc":"神仙居、天台山与临海府城：温岭石塘是新千年中国大陆第一缕曙光首照地。","spots":["shenxianju","tiantai","tzfu","shitang"]},{"id":"lishui","name":"丽水","lat":28.46359,"lng":119.9274,"role":"浙江绿谷","desc":"缙云仙都、云和梯田与松阳古村群：全省生态最好、最原生态的一市，自驾首选。","spots":["xiandu","yunhe","songyang"]}],"spots":[{"id":"xihu","name":"西湖 · 苏堤","cat":"scenery","catName":"景色","city":"hangzhou","desc":"世界遗产与十景：苏堤春晓、断桥残雪与三潭印月，环湖 15 km 建议骑行或坐船，避开周末。","img":"assets/images/zj_xihu.jpg","season":"全年，3–4 月与 11 月最佳","level":"世界遗产","free":true,"key":true,"lat":30.24168,"lng":120.15371},{"id":"lingyin","name":"灵隐寺 · 飞来峰","cat":"culture","catName":"人文","city":"hangzhou","desc":"东晋古刹与石窟造像：飞来峰 470 余尊石刻、灵隐寺大雄宝殿，早上 7 点前人最少。","img":"assets/images/zj_lingyin.jpg","ticket":"飞来峰 45+寺 30 元","season":"全年","lat":30.23773,"lng":120.10381},{"id":"xixi","name":"西溪湿地","cat":"scenery","catName":"景色","city":"hangzhou","desc":"城市里的国家湿地公园：摇橹船穿芦苇荡，11 月火柿映波与芦花飞雪是招牌。","img":"assets/images/zj_xixi.jpg","ticket":"80 元+船票","season":"全年，10–11 月最佳","lat":30.2647,"lng":120.06781},{"id":"longjing","name":"龙井 · 梅家坞","cat":"scenery","catName":"景色","city":"hangzhou","desc":"西湖龙井核心产区：狮峰、龙井与梅家坞茶村，清明前后采茶炒茶可看全程。","img":"assets/images/zj_longjing.jpg","season":"3–4 月采茶季","free":true,"lat":30.21372,"lng":120.1088},{"id":"liangzhu","name":"良渚古城遗址","cat":"culture","catName":"人文","city":"hangzhou","desc":"实证中华五千年文明的圣地：莫角山宫殿、反山王陵与水利系统，园区需坐摆渡车。","img":"assets/images/zj_liangzhu.jpg","ticket":"60 元","season":"全年（周一闭园）","level":"世界遗产","key":true,"lat":30.38455,"lng":120.00168},{"id":"qiandaohu","name":"千岛湖","cat":"scenery","catName":"景色","city":"hangzhou","desc":"新安江水库形成的 1078 个岛屿：中心湖区游船、环湖东南线自驾与骑行道最出名。","img":"assets/images/zj_qiandaohu.jpg","ticket":"150 元+船","season":"4–11 月","key":true,"lat":29.60135,"lng":118.96189},{"id":"gongchen","name":"拱宸桥 · 大运河","cat":"culture","catName":"人文","city":"hangzhou","desc":"京杭大运河南端标志：三孔石拱桥、桥西历史街区与刀剪剑博物馆，夜里灯光更好。","img":"assets/images/zj_gongchen.jpg","season":"全年","level":"世界遗产","free":true,"lat":30.31671,"lng":120.13975},{"id":"tianyi","name":"天一阁","cat":"museum","catName":"博物馆","city":"ningbo","desc":"中国现存最古老的私家藏书楼：明代范氏藏书与麻将起源地陈列，园林小而精。","img":"assets/images/zj_tianyi.jpg","ticket":"30 元","season":"全年","lat":29.86943,"lng":121.54718},{"id":"xuedou","name":"溪口 · 雪窦山","cat":"scenery","catName":"景色","city":"ningbo","desc":"蒋氏故里与弥勒道场：千丈岩瀑布、妙高台与雪窦寺露天大佛，山海之间。","img":"assets/images/zj_xuedou.jpg","ticket":"120 元","season":"全年","lat":29.69355,"lng":121.29133},{"id":"shipu","name":"石浦渔港古城","cat":"culture","catName":"人文","city":"ningbo","desc":"六百年渔港：依山而建的石阶老街、渔家习俗与中国开渔节主会场，海鲜直供。","img":"assets/images/zj_shipu.jpg","ticket":"60 元","season":"全年，9 月开渔节","lat":29.19412,"lng":121.93396},{"id":"yandang","name":"雁荡山","cat":"mountain","catName":"山岳·徒步","city":"wenzhou","desc":"世界地质公园与东南第一山：灵峰夜景看合掌峰、灵岩飞渡与大龙湫瀑布，需两天。","img":"assets/images/zj_yandang.jpg","elev":1056,"diff":2,"time":"360","ticket":"各景区分售","season":"全年","key":true,"lat":28.37794,"lng":121.09138},{"id":"nanxi","name":"楠溪江","cat":"scenery","catName":"景色","city":"wenzhou","desc":"三百里楠溪与古村落群：狮子岩竹筏、石桅岩与苍坡古村的宋代耕读布局，水质极好。","img":"assets/images/zj_nanxi.jpg","ticket":"分段售票","season":"3–11 月","key":true,"lat":29.28734,"lng":120.7562},{"id":"taishun","name":"泰顺廊桥","cat":"culture","catName":"人文","city":"wenzhou","desc":"世界最美廊桥：泗溪北涧桥与溪东桥的编梁木拱结构，无一颗钉子，藏在深山里。","img":"assets/images/zj_taishun.jpg","season":"全年","free":true,"key":true,"lat":27.65165,"lng":119.55964},{"id":"wuzhen","name":"乌镇","cat":"culture","catName":"人文","city":"jiaxing","desc":"江南水乡的标本：东栅看生活、西栅看夜景与民宿，戏剧节与互联网大会让它国际化。","img":"assets/images/zj_wuzhen.jpg","ticket":"东栅 110/西栅 150 元","season":"全年","key":true,"lat":30.74374,"lng":120.49142},{"id":"xitang","name":"西塘","cat":"culture","catName":"人文","city":"jiaxing","desc":"生活着的千年古镇：烟雨长廊 1200 m、24 座石桥与酒吧街，清晨与深夜最好。","img":"assets/images/zj_xitang.jpg","ticket":"95 元","season":"全年","key":true,"lat":30.94263,"lng":120.89513},{"id":"nanhu","name":"南湖 · 月河街区","cat":"culture","catName":"人文","city":"jiaxing","desc":"红船起航地与市区水乡街区：南湖烟雨楼、月河历史街区与粽子文化博物馆。","img":"assets/images/zj_nanhu.jpg","ticket":"60 元含船","season":"全年","lat":30.7457,"lng":120.77131},{"id":"mogan","name":"莫干山","cat":"mountain","catName":"山岳·徒步","city":"huzhou","desc":"中国民宿的发源地：裸心谷、大坑景区与剑池，夏季山上比上海低 6–8 ℃。","img":"assets/images/zj_mogan.jpg","elev":719,"ticket":"80 元","season":"全年，5–10 月最佳","key":true,"lat":30.54043,"lng":119.88361},{"id":"nanxun","name":"南浔古镇","cat":"culture","catName":"人文","city":"huzhou","desc":"最富庶也最安静的江南古镇：小莲庄、嘉业堂藏书楼与百间楼，中西合璧的巨贾宅第。","img":"assets/images/zj_nanxun.jpg","ticket":"80 元","season":"全年","level":"世界遗产（大运河）","key":true,"lat":30.86792,"lng":120.44558},{"id":"anji","name":"安吉大竹海","cat":"scenery","catName":"景色","city":"huzhou","desc":"《卧虎藏龙》竹林取景地：万亩毛竹、藏龙百瀑与余村「绿水青山」发源地。","img":"assets/images/zj_anji.jpg","ticket":"58 元","season":"全年，4–10 月最佳","lat":30.55743,"lng":119.6248},{"id":"luxun","name":"鲁迅故里 · 沈园","cat":"culture","catName":"人文","city":"shaoxing","desc":"三味书屋、百草园与咸亨酒店：鲁迅笔下的场景全部可走，旁边沈园是陆游唐琬的园子。","img":"assets/images/zj_luxun.jpg","season":"全年","free":true,"key":true,"lat":29.99136,"lng":120.58508},{"id":"lanting","name":"兰亭","cat":"culture","catName":"人文","city":"shaoxing","desc":"王羲之写《兰亭集序》的地方：鹅池、曲水流觞与御碑亭，书法爱好者的朝圣地。","img":"assets/images/zj_lanting.jpg","ticket":"70 元","season":"全年","lat":29.94754,"lng":120.50331},{"id":"anchang","name":"安昌古镇","cat":"culture","catName":"人文","city":"shaoxing","desc":"绍兴最原生态的水乡：腊肠挂满河岸、师爷馆与石板桥，商业化程度远低于乌镇。","img":"assets/images/zj_anchang.jpg","ticket":"40 元","season":"全年，12–1 月腊味季","lat":30.04755,"lng":120.50033},{"id":"hengdian","name":"横店影视城","cat":"landmark","catName":"地标","city":"jinhua","desc":"中国好莱坞：秦王宫、清明上河图与广州街，剧组拍摄现场常见，夜游梦幻谷最热闹。","img":"assets/images/zj_hengdian.jpg","ticket":"分景区 100–200 元","season":"全年","key":true,"lat":29.16929,"lng":120.3044},{"id":"shuanglong","name":"金华双龙洞","cat":"scenery","catName":"景色","city":"jinhua","desc":"叶圣陶《记金华的双龙洞》课本现场：卧船贴岩进洞的体验独一无二，洞内常年 18 ℃。","img":"assets/images/zj_shuanglong.jpg","ticket":"90 元","season":"全年","key":true,"lat":29.12816,"lng":119.70578},{"id":"zhuge","name":"诸葛八卦村","cat":"culture","catName":"人文","city":"jinhua","desc":"全国最大诸葛亮后裔聚居地：九宫八卦布局的村落、丞相祠堂与中药文化，航拍才看得懂。","img":"assets/images/zj_zhuge.jpg","ticket":"100 元","season":"全年","lat":29.25041,"lng":119.4651},{"id":"jianglang","name":"江郎山","cat":"mountain","catName":"山岳·徒步","city":"quzhou","desc":"中国丹霞世界自然遗产：三块巨石拔地而起，一线天最窄处仅 3.5 m，登顶台阶极陡。","img":"assets/images/zj_jianglang.jpg","elev":824,"diff":3,"time":"240","ticket":"100 元","season":"3–11 月","level":"世界自然遗产","key":true,"lat":28.39787,"lng":118.45409},{"id":"longyou","name":"龙游石窟","cat":"culture","catName":"人文","city":"quzhou","desc":"成因至今成谜的人工地下石窟群：24 个洞窟规模宏大、斜撑与凿痕规整，讲解值得听。","img":"assets/images/zj_longyou.jpg","ticket":"65 元","season":"全年","lat":29.01719,"lng":119.18509},{"id":"ershibadu","name":"廿八都古镇","cat":"culture","catName":"人文","city":"quzhou","desc":"一脚踏浙闽赣三省的移民古镇：13 种方言、142 个姓氏共存，枫溪关隘与文昌阁是看点。","img":"assets/images/zj_ershibadu.jpg","ticket":"65 元","season":"全年","lat":28.15685,"lng":118.3551},{"id":"putuo","name":"普陀山","cat":"culture","catName":"人文","city":"zhoushan","desc":"观音道场与海天佛国：普济寺、法雨寺与南海观音，需坐船上岛，香火与海风同在。","img":"assets/images/zj_putuo.jpg","ticket":"160 元+船票","season":"全年","key":true,"lat":29.98775,"lng":122.39031},{"id":"shengsi","name":"嵊泗 · 枸杞岛","cat":"scenery","catName":"景色","city":"zhoushan","desc":"东海最美的列岛之一：贻贝养殖筏、山海奇观与无人沙滩，船程远但海水能见度高。","img":"assets/images/zj_shengsi.jpg","ticket":"船票为主","season":"5–10 月","key":true,"lat":30.71471,"lng":122.77127},{"id":"dongji","name":"东极岛","cat":"scenery","catName":"景色","city":"zhoushan","desc":"《后会无期》取景地与大陆最东岛屿：庙子湖、青浜与东福山，看日出与海钓。","img":"assets/images/zj_dongji.jpg","ticket":"船票为主","season":"5–10 月","lat":30.20054,"lng":122.70716},{"id":"shenxianju","name":"神仙居","cat":"mountain","catName":"山岳·徒步","city":"taizhou","desc":"世界地质公园与火山流纹岩地貌：如意桥、南天顶玻璃观景台与索道，云雾中最仙。","img":"assets/images/zj_shenxianju.jpg","elev":1271,"diff":2,"time":"300","ticket":"125 元+索道","season":"全年","key":true,"lat":28.6977,"lng":120.60397},{"id":"tiantai","name":"天台山 · 国清寺","cat":"culture","catName":"人文","city":"taizhou","desc":"佛教天台宗祖庭与徐霞客开篇之地：国清寺隋塔、石梁飞瀑与华顶杜鹃，寺内免费。","img":"assets/images/zj_tiantai.jpg","season":"全年，5 月杜鹃","free":true,"lat":29.13722,"lng":121.00221},{"id":"tzfu","name":"台州府城 · 紫阳街","cat":"culture","catName":"人文","city":"taizhou","desc":"江南长城与千年古街：临海府城墙保存完好，紫阳街的海苔饼与蛋清羊尾是本地味。","img":"assets/images/zj_tzfu.jpg","ticket":"城墙 65 元","season":"全年","key":true,"lat":28.84815,"lng":121.14439},{"id":"shitang","name":"温岭石塘","cat":"scenery","catName":"景色","city":"taizhou","desc":"新千年中国大陆第一缕曙光首照地：石头房渔村、东海绿道与对戒观景台，看日出住一晚。","img":"assets/images/zj_shitang.jpg","season":"全年","free":true,"key":true,"lat":28.4166,"lng":121.62299},{"id":"xiandu","name":"缙云仙都","cat":"scenery","catName":"景色","city":"lishui","desc":"鼎湖峰 170.8 m 单体石柱与黄帝祠宇：小赤壁、倪翁洞与晨雾中的石桥是摄影名场面。","img":"assets/images/zj_xiandu.jpg","ticket":"100 元联票","season":"全年，晨雾看春秋","key":true,"lat":28.72805,"lng":120.14461},{"id":"yunhe","name":"云和梯田","cat":"scenery","catName":"景色","city":"lishui","desc":"华东最大梯田群：七星墩日出、白银谷云海与梅雨期的水面反光，四季各有版本。","img":"assets/images/zj_yunhe.jpg","ticket":"80 元","season":"全年，4–6 月与 9–10 月最佳","key":true,"lat":28.07955,"lng":119.6046},{"id":"songyang","name":"松阳古村群","cat":"culture","catName":"人文","city":"lishui","desc":"「最后的江南秘境」：陈家铺悬崖书店、杨家堂金色布达拉与平田农耕村，民宿质量高。","img":"assets/images/zj_songyang.jpg","season":"全年","free":true,"key":true,"lat":28.42693,"lng":119.42512}],"foods":[{"name":"西湖醋鱼","city":"hangzhou","cityName":"杭州","desc":"草鱼饿养后氽熟浇糖醋芡：楼外楼的招牌，讲究鱼肉嫩、酸甜平衡，冷盘热做。","img":"assets/images/fd_zj_01.jpg"},{"name":"东坡肉","city":"hangzhou","cityName":"杭州","desc":"苏东坡在杭州留下的做法：五花酒焖小火慢炖至酥而不烂，用小砂盅一人一份上桌。","img":"assets/images/fd_zj_02.jpg"},{"name":"龙井虾仁","city":"hangzhou","cityName":"杭州","desc":"明前龙井与河虾仁同炒：茶香入虾、色泽玉白翠绿，季节性强，清明前后最正。","img":"assets/images/fd_zj_03.jpg"},{"name":"片儿川","city":"hangzhou","cityName":"杭州","desc":"雪菜、笋片与瘦肉丝的杭州面条：奎元馆的老做法，汤清味鲜，是本地人的日常。","img":"assets/images/fd_zj_04.jpg"},{"name":"宁波汤圆","city":"ningbo","cityName":"宁波","desc":"猪油黑芝麻馅的水磨糯米汤圆：咬开流心，宁波人冬至与春节必吃，甜得扎实。","img":"assets/images/fd_zj_05.jpg"},{"name":"雪菜大黄鱼","city":"ningbo","cityName":"宁波","desc":"东海大黄鱼与宁波雪里蕻同烧：咸鲜入味，是浙东家常海鲜菜的代表。","img":"assets/images/fd_zj_06.jpg"},{"name":"嘉兴粽子","city":"jiaxing","cityName":"嘉兴","desc":"五芳斋式鲜肉粽：箬叶包糯米与酱肉，米粒吸油透亮，咸甜两派在浙江各有拥趸。","img":"assets/images/fd_zj_07.jpg"},{"name":"绍兴醉鸡 · 梅干菜扣肉","city":"shaoxing","cityName":"绍兴","desc":"黄酒糟醉与梅干菜是绍兴两大味型：醉鸡冷吃带酒香，扣肉用本地梅干菜蒸透。","img":"assets/images/fd_zj_08.jpg"},{"name":"温州鱼丸 · 灯盏糕","city":"wenzhou","cityName":"温州","desc":"鱼丸是用鮸鱼肉刮茸做的不规则条状，汤里加醋与胡椒；灯盏糕是萝卜丝猪肉油炸饼。","img":"assets/images/fd_zj_09.jpg"},{"name":"湖州千张包","city":"huzhou","cityName":"湖州","desc":"薄千张包肉馅再打结炖煮：丁莲芳的老店做法，配粉丝汤是湖州人的早餐。","img":"assets/images/fd_zj_10.jpg"},{"name":"金华火腿煲","city":"jinhua","cityName":"金华","desc":"两头乌猪腿经腌晒发酵：上好的火腿切薄片与笋同煲，咸香是浙菜的底层味道。","img":"assets/images/fd_zj_11.jpg"},{"name":"衢州三头一掌","city":"quzhou","cityName":"衢州","desc":"兔头、鸭头、鱼头与鸭掌的辣卤：浙江最能吃辣的城市，辣度直接挑战温州台州人。","img":"assets/images/fd_zj_12.jpg"},{"name":"舟山梭子蟹 · 海鲜面","city":"zhoushan","cityName":"舟山","desc":"东海梭子蟹清蒸或葱姜炒，海鲜面把小黄鱼、虾、蛤蜊全放一碗，渔港边最鲜。","img":"assets/images/fd_zj_13.jpg"},{"name":"缙云烧饼","city":"lishui","cityName":"丽水","desc":"梅干菜猪肉馅贴炉烤烧饼：外脆内软、油香重，已从小摊做成了全国连锁。","img":"assets/images/fd_zj_14.jpg"}],"loops":[{"name":"浙南秘境山水大环线","days":"5–7 天","km":"约 1000 km","desc":"浙江自驾最精华的一条：雁荡山+楠溪江+泰顺廊桥+缙云仙都+云和梯田+松阳古村，山水与古村交替。","path":"杭州 → 温州(雁荡山 2 天) → 楠溪江 → 泰顺廊桥 → 丽水(缙云仙都) → 云和梯田 → 松阳古村群 → 台州神仙居 → 杭州","note":"泰顺廊桥分散在多个乡镇，山路弯多；松阳各村之间需自驾串联，陈家铺与杨家堂建议住一晚；神仙居雨天云雾封山看运气。","pts":[[30.27167,120.15969,"杭州"],[27.99072,120.70306,"温州"],[28.37794,121.09138,"雁荡山"],[29.28734,120.7562,"楠溪江"],[27.65165,119.55964,"泰顺廊桥"],[28.46359,119.9274,"丽水"],[28.72805,120.14461,"缙云仙都"],[28.07955,119.6046,"云和梯田"],[28.42693,119.42512,"松阳古村群"],[28.65305,121.42543,"台州"],[28.6977,120.60397,"神仙居"],[30.27167,120.15969,"杭州"]]},{"name":"浙东海岛 · 佛国环线","days":"4–5 天","km":"约 550 km（含船）","desc":"海与信仰：普陀山礼佛+嵊泗或东极岛看海+石浦渔港吃海鲜+温岭石塘看曙光。","path":"宁波(天一阁) → 舟山(普陀山 1 天) → 嵊泗枸杞岛或东极岛(2 天) → 象山石浦渔港 → 台州(温岭石塘+临海府城) → 宁波","note":"海岛船票必须提前订、台风季随时停航，行程留机动日；枸杞岛与东极岛二选一，不要同时排；晕船药备好。","pts":[[29.86543,121.54817,"宁波"],[29.9826,122.21116,"舟山"],[29.98775,122.39031,"普陀山"],[30.71471,122.77127,"嵊泗枸杞岛"],[30.20054,122.70716,"东极岛"],[29.19412,121.93396,"石浦渔港"],[28.65305,121.42543,"台州"],[28.4166,121.62299,"温岭石塘"],[28.84815,121.14439,"台州府城"],[29.86543,121.54817,"宁波"]]},{"name":"水乡古镇 · 文明寻根环线","days":"3–4 天","km":"约 450 km","desc":"平原路况最好、适合家庭：乌镇西塘南浔三大古镇+安昌原生态+良渚文明+西湖。","path":"杭州(西湖+灵隐寺) → 良渚古城遗址 → 湖州南浔 → 嘉兴(乌镇+西塘) → 绍兴(鲁迅故里+安昌) → 杭州","note":"乌镇西栅建议住景区内看夜景与清晨；西塘夜里酒吧街吵，选靠河民宿；良渚周一闭园；安昌 12–1 月腊味季最有味道。","pts":[[30.27167,120.15969,"杭州"],[30.24168,120.15371,"西湖"],[30.38455,120.00168,"良渚古城遗址"],[30.86794,120.09787,"湖州"],[30.86792,120.44558,"南浔古镇"],[30.7437,120.75932,"嘉兴"],[30.74374,120.49142,"乌镇"],[30.94263,120.89513,"西塘"],[30.02736,120.58408,"绍兴"],[29.99136,120.58508,"鲁迅故里"],[30.04755,120.50033,"安昌古镇"],[30.27167,120.15969,"杭州"]]},{"name":"浙中影视 · 丹霞谜窟环线","days":"3–4 天","km":"约 620 km","desc":"金华衢州方向：横店影视城+双龙洞+诸葛八卦村+江郎山丹霞+龙游石窟+廿八都古镇。","path":"杭州 → 金华(双龙洞+横店) → 兰溪诸葛八卦村 → 衢州(江郎山+龙游石窟) → 廿八都古镇 → 杭州","note":"横店分景区售票、夜游梦幻谷另收费；江郎山一线天台阶陡、恐高者慎入；廿八都离衢州城区 60 km 山路。","pts":[[30.27167,120.15969,"杭州"],[29.07602,119.6517,"金华"],[29.12816,119.70578,"双龙洞"],[29.16929,120.3044,"横店影视城"],[29.25041,119.4651,"诸葛八卦村"],[28.93189,118.86379,"衢州"],[28.39787,118.45409,"江郎山"],[29.01719,119.18509,"龙游石窟"],[28.15685,118.3551,"廿八都古镇"],[30.27167,120.15969,"杭州"]]},{"name":"莫干山 · 千岛湖度假环线","days":"2–3 天","km":"约 380 km","desc":"纯度假节奏：莫干山民宿+安吉竹海+千岛湖游船+西溪湿地，适合周末放空。","path":"杭州 → 湖州莫干山(住 1–2 晚) → 安吉大竹海 → 杭州千岛湖(游船+环湖) → 西溪湿地 → 杭州","note":"莫干山民宿旺季价格翻倍且需提前订，山路窄、部分村落限行；千岛湖东南线自驾比游船更自由。","pts":[[30.27167,120.15969,"杭州"],[30.86794,120.09787,"湖州"],[30.54043,119.88361,"莫干山"],[30.55743,119.6248,"安吉大竹海"],[30.27167,120.15969,"杭州"],[29.60135,118.96189,"千岛湖"],[30.2647,120.06781,"西溪湿地"],[30.27167,120.15969,"杭州"]]}],"tips":[["限行","杭州小客车错峰限行（工作日按尾号），西湖景区周末与节假日单双号限行且停车位极少，市区行程优先地铁+共享单车。"],["海岛","舟山与嵊泗、东极的船票需提前 3–7 天订；每年 7–9 月台风季频繁停航，行程必须留机动日与退改预案。"],["季节","6 月中旬至 7 月上旬是梅雨，山区与海岛体验都差；最佳是 3–5 月（茶与花）与 9–11 月（秋高气爽、云和梯田与芦花）。"],["古镇","乌镇西栅、南浔与安昌的差异在于商业化程度：想看夜景住乌镇，想安静住南浔或松阳，想看生活去安昌。"],["预约","良渚古城遗址、灵隐寺、普陀山与西湖部分景点需实名预约；普陀山上岛要买门票+船票两笔。"],["山路","泰顺、松阳、云和与莫干山都是连续盘山窄路，会车困难；雨天与雾天慢行，冬季莫干山可能结冰封路。"],["口味","浙北偏甜（东坡肉、嘉兴粽）、浙东鲜咸（海鲜与雪菜）、衢州嗜辣（三头一掌），点菜按地域切换预期。"]]};
+PROV_DATA.zhejiang = {
+ "meta": {
+  "id": "zhejiang",
+  "name": "浙江",
+  "en": "Zhejiang",
+  "capital": "杭州",
+  "tagline": "七山一水二分田 · 古镇、海岛与秘境三线并行",
+  "geoTitle": "陆上是古镇与山，海上是岛，浙南是秘境",
+  "geoSub": "先认清地形再排行程：环杭州湾走古镇、浙东走海岛与佛教名山、浙南走山水与古村。",
+  "intro": [
+   "浙江的地形是七山一水二分田，交通把三种完全不同的玩法压缩在一起：北部环杭州湾是乌镇西塘南浔的江南水乡与良渚文明；东部是普陀山、天台山与舟山群岛、嵊泗东极的海岛线；南部雁荡山、楠溪江、缙云仙都与松阳古村，才是自驾真正能开出门道的地方。",
+   "本页按 11 个地市整理精选停靠点、地方代表味道与省内环线；带 ★ 的是重点停靠点，免费景点标「免费」；数据为整理版本（坐标 GCJ-02），海岛船票、景区门票与索道价格随季节调整，出行前以景区与官方公告为准。"
+  ],
+  "facts": [
+   [
+    "面积",
+    "10.55 万 km²"
+   ],
+   [
+    "常住人口",
+    "6627 万（2023 年末）"
+   ],
+   [
+    "地级市",
+    "11 个"
+   ],
+   [
+    "省会",
+    "杭州"
+   ],
+   [
+    "世界遗产",
+    "4 处（西湖·良渚·大运河·江郎山丹霞）"
+   ],
+   [
+    "海岸线",
+    "约 6600 km（含海岛）"
+   ]
+  ],
+  "regions": [
+   [
+    "环杭州湾 · 水乡与文明",
+    "西湖、良渚、大运河与乌镇西塘南浔：江南水乡古镇密度全国第一，商业化也最重。"
+   ],
+   [
+    "浙东 · 海岛与佛道名山",
+    "普陀山、天台山、雪窦山与舟山群岛、嵊泗、东极岛：靠船票与台风窗口决定行程。"
+   ],
+   [
+    "浙南 · 山水秘境",
+    "雁荡山、楠溪江、缙云仙都、云和梯田与松阳古村群：自驾价值最高、游客相对最少的一段。"
+   ]
+  ]
+ },
+ "cities": [
+  {
+   "id": "hangzhou",
+   "name": "杭州",
+   "lat": 30.27167,
+   "lng": 120.15969,
+   "role": "省会 · 西湖",
+   "desc": "西湖、良渚与大运河三处世界遗产：城市即景区，龙井茶山与西溪湿地都在半小时车程内。",
+   "spots": [
+    "xihu",
+    "lingyin",
+    "xixi",
+    "longjing",
+    "liangzhu",
+    "qiandaohu",
+    "gongchen"
+   ],
+   "cap": true
+  },
+  {
+   "id": "ningbo",
+   "name": "宁波",
+   "lat": 29.86543,
+   "lng": 121.54817,
+   "role": "书藏古今",
+   "desc": "天一阁与河姆渡文脉：港口城市气质，溪口雪窦山与象山石浦渔港是市郊两大出口。",
+   "spots": [
+    "tianyi",
+    "xuedou",
+    "shipu"
+   ]
+  },
+  {
+   "id": "wenzhou",
+   "name": "温州",
+   "lat": 27.99072,
+   "lng": 120.70306,
+   "role": "山水奇秀",
+   "desc": "雁荡山与楠溪江：浙南山水的天花板，泰顺廊桥藏在深山里，民营经济气息浓。",
+   "spots": [
+    "yandang",
+    "nanxi",
+    "taishun"
+   ]
+  },
+  {
+   "id": "jiaxing",
+   "name": "嘉兴",
+   "lat": 30.7437,
+   "lng": 120.75932,
+   "role": "水乡腹地",
+   "desc": "乌镇与西塘两大古镇：沪杭之间的平原水乡，南湖与月河街区是市区补充。",
+   "spots": [
+    "wuzhen",
+    "xitang",
+    "nanhu"
+   ]
+  },
+  {
+   "id": "huzhou",
+   "name": "湖州",
+   "lat": 30.86794,
+   "lng": 120.09787,
+   "role": "竹乡民宿",
+   "desc": "莫干山民宿群与南浔古镇：安吉竹海与大竹海，是长三角周末度假的第一选择。",
+   "spots": [
+    "mogan",
+    "nanxun",
+    "anji"
+   ]
+  },
+  {
+   "id": "shaoxing",
+   "name": "绍兴",
+   "lat": 30.02736,
+   "lng": 120.58408,
+   "role": "名士之乡",
+   "desc": "鲁迅故里、兰亭与安昌古镇：黄酒、乌篷船与台门建筑，绍兴老城适合步行。",
+   "spots": [
+    "luxun",
+    "lanting",
+    "anchang"
+   ]
+  },
+  {
+   "id": "jinhua",
+   "name": "金华",
+   "lat": 29.07602,
+   "lng": 119.6517,
+   "role": "影视婺州",
+   "desc": "横店影视城与双龙洞：兰溪诸葛八卦村是全国最大诸葛亮后裔聚居地，火腿是名片。",
+   "spots": [
+    "hengdian",
+    "shuanglong",
+    "zhuge"
+   ]
+  },
+  {
+   "id": "quzhou",
+   "name": "衢州",
+   "lat": 28.93189,
+   "lng": 118.86379,
+   "role": "四省通衢",
+   "desc": "江郎山丹霞与廿八都古镇：龙游石窟的成因至今是谜，浙闽赣皖交界的门户。",
+   "spots": [
+    "jianglang",
+    "longyou",
+    "ershibadu"
+   ]
+  },
+  {
+   "id": "zhoushan",
+   "name": "舟山",
+   "lat": 29.9826,
+   "lng": 122.21116,
+   "role": "千岛之市",
+   "desc": "普陀山与嵊泗、东极岛：中国唯一以群岛建制的地级市，海鲜与海岛是全部内容。",
+   "spots": [
+    "putuo",
+    "shengsi",
+    "dongji"
+   ]
+  },
+  {
+   "id": "taizhou",
+   "name": "台州",
+   "lat": 28.65305,
+   "lng": 121.42543,
+   "role": "山海之间",
+   "desc": "神仙居、天台山与临海府城：温岭石塘是新千年中国大陆第一缕曙光首照地。",
+   "spots": [
+    "shenxianju",
+    "tiantai",
+    "tzfu",
+    "shitang"
+   ]
+  },
+  {
+   "id": "lishui",
+   "name": "丽水",
+   "lat": 28.46359,
+   "lng": 119.9274,
+   "role": "浙江绿谷",
+   "desc": "缙云仙都、云和梯田与松阳古村群：全省生态最好、最原生态的一市，自驾首选。",
+   "spots": [
+    "xiandu",
+    "yunhe",
+    "songyang"
+   ]
+  }
+ ],
+ "spots": [
+  {
+   "id": "xihu",
+   "name": "西湖 · 苏堤",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "hangzhou",
+   "desc": "世界遗产与十景：苏堤春晓、断桥残雪与三潭印月，环湖 15 km 建议骑行或坐船，避开周末。",
+   "img": "assets/images/zj_xihu.jpg",
+   "season": "全年，3–4 月与 11 月最佳",
+   "level": "世界遗产",
+   "free": true,
+   "key": true,
+   "lat": 30.24168,
+   "lng": 120.15371
+  },
+  {
+   "id": "lingyin",
+   "name": "灵隐寺 · 飞来峰",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "hangzhou",
+   "desc": "东晋古刹与石窟造像：飞来峰 470 余尊石刻、灵隐寺大雄宝殿，早上 7 点前人最少。",
+   "img": "assets/images/zj_lingyin.jpg",
+   "ticket": "飞来峰 45+寺 30 元",
+   "season": "全年",
+   "lat": 30.23773,
+   "lng": 120.10381
+  },
+  {
+   "id": "xixi",
+   "name": "西溪湿地",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "hangzhou",
+   "desc": "城市里的国家湿地公园：摇橹船穿芦苇荡，11 月火柿映波与芦花飞雪是招牌。",
+   "img": "assets/images/zj_xixi.jpg",
+   "ticket": "80 元+船票",
+   "season": "全年，10–11 月最佳",
+   "lat": 30.2647,
+   "lng": 120.06781
+  },
+  {
+   "id": "longjing",
+   "name": "龙井 · 梅家坞",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "hangzhou",
+   "desc": "西湖龙井核心产区：狮峰、龙井与梅家坞茶村，清明前后采茶炒茶可看全程。",
+   "img": "assets/images/zj_longjing.jpg",
+   "season": "3–4 月采茶季",
+   "free": true,
+   "lat": 30.21372,
+   "lng": 120.1088
+  },
+  {
+   "id": "liangzhu",
+   "name": "良渚古城遗址",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "hangzhou",
+   "desc": "实证中华五千年文明的圣地：莫角山宫殿、反山王陵与水利系统，园区需坐摆渡车。",
+   "img": "assets/images/zj_liangzhu.jpg",
+   "ticket": "60 元",
+   "season": "全年（周一闭园）",
+   "level": "世界遗产",
+   "key": true,
+   "lat": 30.38455,
+   "lng": 120.00168
+  },
+  {
+   "id": "qiandaohu",
+   "name": "千岛湖",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "hangzhou",
+   "desc": "新安江水库形成的 1078 个岛屿：中心湖区游船、环湖东南线自驾与骑行道最出名。",
+   "img": "assets/images/zj_qiandaohu.jpg",
+   "ticket": "150 元+船",
+   "season": "4–11 月",
+   "key": true,
+   "lat": 29.60135,
+   "lng": 118.96189
+  },
+  {
+   "id": "gongchen",
+   "name": "拱宸桥 · 大运河",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "hangzhou",
+   "desc": "京杭大运河南端标志：三孔石拱桥、桥西历史街区与刀剪剑博物馆，夜里灯光更好。",
+   "img": "assets/images/zj_gongchen.jpg",
+   "season": "全年",
+   "level": "世界遗产",
+   "free": true,
+   "lat": 30.31671,
+   "lng": 120.13975
+  },
+  {
+   "id": "tianyi",
+   "name": "天一阁",
+   "cat": "museum",
+   "catName": "博物馆",
+   "city": "ningbo",
+   "desc": "中国现存最古老的私家藏书楼：明代范氏藏书与麻将起源地陈列，园林小而精。",
+   "img": "assets/images/zj_tianyi.jpg",
+   "ticket": "30 元",
+   "season": "全年",
+   "lat": 29.86943,
+   "lng": 121.54718
+  },
+  {
+   "id": "xuedou",
+   "name": "溪口 · 雪窦山",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "ningbo",
+   "desc": "蒋氏故里与弥勒道场：千丈岩瀑布、妙高台与雪窦寺露天大佛，山海之间。",
+   "img": "assets/images/zj_xuedou.jpg",
+   "ticket": "120 元",
+   "season": "全年",
+   "lat": 29.69355,
+   "lng": 121.29133
+  },
+  {
+   "id": "shipu",
+   "name": "石浦渔港古城",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "ningbo",
+   "desc": "六百年渔港：依山而建的石阶老街、渔家习俗与中国开渔节主会场，海鲜直供。",
+   "img": "assets/images/zj_shipu.jpg",
+   "ticket": "60 元",
+   "season": "全年，9 月开渔节",
+   "lat": 29.19412,
+   "lng": 121.93396
+  },
+  {
+   "id": "yandang",
+   "name": "雁荡山",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "wenzhou",
+   "desc": "世界地质公园与东南第一山：灵峰夜景看合掌峰、灵岩飞渡与大龙湫瀑布，需两天。",
+   "img": "assets/images/zj_yandang.jpg",
+   "elev": 1056,
+   "diff": 2,
+   "time": "360",
+   "ticket": "各景区分售",
+   "season": "全年",
+   "key": true,
+   "lat": 28.37794,
+   "lng": 121.09138
+  },
+  {
+   "id": "nanxi",
+   "name": "楠溪江",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "wenzhou",
+   "desc": "三百里楠溪与古村落群：狮子岩竹筏、石桅岩与苍坡古村的宋代耕读布局，水质极好。",
+   "img": "assets/images/zj_nanxi.jpg",
+   "ticket": "分段售票",
+   "season": "3–11 月",
+   "key": true,
+   "lat": 29.28734,
+   "lng": 120.7562
+  },
+  {
+   "id": "taishun",
+   "name": "泰顺廊桥",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "wenzhou",
+   "desc": "世界最美廊桥：泗溪北涧桥与溪东桥的编梁木拱结构，无一颗钉子，藏在深山里。",
+   "img": "assets/images/zj_taishun.jpg",
+   "season": "全年",
+   "free": true,
+   "key": true,
+   "lat": 27.65165,
+   "lng": 119.55964
+  },
+  {
+   "id": "wuzhen",
+   "name": "乌镇",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "jiaxing",
+   "desc": "江南水乡的标本：东栅看生活、西栅看夜景与民宿，戏剧节与互联网大会让它国际化。",
+   "img": "assets/images/zj_wuzhen.jpg",
+   "ticket": "东栅 110/西栅 150 元",
+   "season": "全年",
+   "key": true,
+   "lat": 30.74374,
+   "lng": 120.49142
+  },
+  {
+   "id": "xitang",
+   "name": "西塘",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "jiaxing",
+   "desc": "生活着的千年古镇：烟雨长廊 1200 m、24 座石桥与酒吧街，清晨与深夜最好。",
+   "img": "assets/images/zj_xitang.jpg",
+   "ticket": "95 元",
+   "season": "全年",
+   "key": true,
+   "lat": 30.94263,
+   "lng": 120.89513
+  },
+  {
+   "id": "nanhu",
+   "name": "南湖 · 月河街区",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "jiaxing",
+   "desc": "红船起航地与市区水乡街区：南湖烟雨楼、月河历史街区与粽子文化博物馆。",
+   "img": "assets/images/zj_nanhu.jpg",
+   "ticket": "60 元含船",
+   "season": "全年",
+   "lat": 30.7457,
+   "lng": 120.77131
+  },
+  {
+   "id": "mogan",
+   "name": "莫干山",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "huzhou",
+   "desc": "中国民宿的发源地：裸心谷、大坑景区与剑池，夏季山上比上海低 6–8 ℃。",
+   "img": "assets/images/zj_mogan.jpg",
+   "elev": 719,
+   "ticket": "80 元",
+   "season": "全年，5–10 月最佳",
+   "key": true,
+   "lat": 30.54043,
+   "lng": 119.88361
+  },
+  {
+   "id": "nanxun",
+   "name": "南浔古镇",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "huzhou",
+   "desc": "最富庶也最安静的江南古镇：小莲庄、嘉业堂藏书楼与百间楼，中西合璧的巨贾宅第。",
+   "img": "assets/images/zj_nanxun.jpg",
+   "ticket": "80 元",
+   "season": "全年",
+   "level": "世界遗产（大运河）",
+   "key": true,
+   "lat": 30.86792,
+   "lng": 120.44558
+  },
+  {
+   "id": "anji",
+   "name": "安吉大竹海",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "huzhou",
+   "desc": "《卧虎藏龙》竹林取景地：万亩毛竹、藏龙百瀑与余村「绿水青山」发源地。",
+   "img": "assets/images/zj_anji.jpg",
+   "ticket": "58 元",
+   "season": "全年，4–10 月最佳",
+   "lat": 30.55743,
+   "lng": 119.6248
+  },
+  {
+   "id": "luxun",
+   "name": "鲁迅故里 · 沈园",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "shaoxing",
+   "desc": "三味书屋、百草园与咸亨酒店：鲁迅笔下的场景全部可走，旁边沈园是陆游唐琬的园子。",
+   "img": "assets/images/zj_luxun.jpg",
+   "season": "全年",
+   "free": true,
+   "key": true,
+   "lat": 29.99136,
+   "lng": 120.58508
+  },
+  {
+   "id": "lanting",
+   "name": "兰亭",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "shaoxing",
+   "desc": "王羲之写《兰亭集序》的地方：鹅池、曲水流觞与御碑亭，书法爱好者的朝圣地。",
+   "img": "assets/images/zj_lanting.jpg",
+   "ticket": "70 元",
+   "season": "全年",
+   "lat": 29.94754,
+   "lng": 120.50331
+  },
+  {
+   "id": "anchang",
+   "name": "安昌古镇",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "shaoxing",
+   "desc": "绍兴最原生态的水乡：腊肠挂满河岸、师爷馆与石板桥，商业化程度远低于乌镇。",
+   "img": "assets/images/zj_anchang.jpg",
+   "ticket": "40 元",
+   "season": "全年，12–1 月腊味季",
+   "lat": 30.04755,
+   "lng": 120.50033
+  },
+  {
+   "id": "hengdian",
+   "name": "横店影视城",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "jinhua",
+   "desc": "中国好莱坞：秦王宫、清明上河图与广州街，剧组拍摄现场常见，夜游梦幻谷最热闹。",
+   "img": "assets/images/zj_hengdian.jpg",
+   "ticket": "分景区 100–200 元",
+   "season": "全年",
+   "key": true,
+   "lat": 29.16929,
+   "lng": 120.3044
+  },
+  {
+   "id": "shuanglong",
+   "name": "金华双龙洞",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "jinhua",
+   "desc": "叶圣陶《记金华的双龙洞》课本现场：卧船贴岩进洞的体验独一无二，洞内常年 18 ℃。",
+   "img": "assets/images/zj_shuanglong.jpg",
+   "ticket": "90 元",
+   "season": "全年",
+   "key": true,
+   "lat": 29.12816,
+   "lng": 119.70578
+  },
+  {
+   "id": "zhuge",
+   "name": "诸葛八卦村",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "jinhua",
+   "desc": "全国最大诸葛亮后裔聚居地：九宫八卦布局的村落、丞相祠堂与中药文化，航拍才看得懂。",
+   "img": "assets/images/zj_zhuge.jpg",
+   "ticket": "100 元",
+   "season": "全年",
+   "lat": 29.25041,
+   "lng": 119.4651
+  },
+  {
+   "id": "jianglang",
+   "name": "江郎山",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "quzhou",
+   "desc": "中国丹霞世界自然遗产：三块巨石拔地而起，一线天最窄处仅 3.5 m，登顶台阶极陡。",
+   "img": "assets/images/zj_jianglang.jpg",
+   "elev": 824,
+   "diff": 3,
+   "time": "240",
+   "ticket": "100 元",
+   "season": "3–11 月",
+   "level": "世界自然遗产",
+   "key": true,
+   "lat": 28.39787,
+   "lng": 118.45409
+  },
+  {
+   "id": "longyou",
+   "name": "龙游石窟",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "quzhou",
+   "desc": "成因至今成谜的人工地下石窟群：24 个洞窟规模宏大、斜撑与凿痕规整，讲解值得听。",
+   "img": "assets/images/zj_longyou.jpg",
+   "ticket": "65 元",
+   "season": "全年",
+   "lat": 29.01719,
+   "lng": 119.18509
+  },
+  {
+   "id": "ershibadu",
+   "name": "廿八都古镇",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "quzhou",
+   "desc": "一脚踏浙闽赣三省的移民古镇：13 种方言、142 个姓氏共存，枫溪关隘与文昌阁是看点。",
+   "img": "assets/images/zj_ershibadu.jpg",
+   "ticket": "65 元",
+   "season": "全年",
+   "lat": 28.15685,
+   "lng": 118.3551
+  },
+  {
+   "id": "putuo",
+   "name": "普陀山",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "zhoushan",
+   "desc": "观音道场与海天佛国：普济寺、法雨寺与南海观音，需坐船上岛，香火与海风同在。",
+   "img": "assets/images/zj_putuo.jpg",
+   "ticket": "160 元+船票",
+   "season": "全年",
+   "key": true,
+   "lat": 29.98775,
+   "lng": 122.39031
+  },
+  {
+   "id": "shengsi",
+   "name": "嵊泗 · 枸杞岛",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "zhoushan",
+   "desc": "东海最美的列岛之一：贻贝养殖筏、山海奇观与无人沙滩，船程远但海水能见度高。",
+   "img": "assets/images/zj_shengsi.jpg",
+   "ticket": "船票为主",
+   "season": "5–10 月",
+   "key": true,
+   "lat": 30.71471,
+   "lng": 122.77127
+  },
+  {
+   "id": "dongji",
+   "name": "东极岛",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "zhoushan",
+   "desc": "《后会无期》取景地与大陆最东岛屿：庙子湖、青浜与东福山，看日出与海钓。",
+   "img": "assets/images/zj_dongji.jpg",
+   "ticket": "船票为主",
+   "season": "5–10 月",
+   "lat": 30.20054,
+   "lng": 122.70716
+  },
+  {
+   "id": "shenxianju",
+   "name": "神仙居",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "taizhou",
+   "desc": "世界地质公园与火山流纹岩地貌：如意桥、南天顶玻璃观景台与索道，云雾中最仙。",
+   "img": "assets/images/zj_shenxianju.jpg",
+   "elev": 1271,
+   "diff": 2,
+   "time": "300",
+   "ticket": "125 元+索道",
+   "season": "全年",
+   "key": true,
+   "lat": 28.6977,
+   "lng": 120.60397
+  },
+  {
+   "id": "tiantai",
+   "name": "天台山 · 国清寺",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "taizhou",
+   "desc": "佛教天台宗祖庭与徐霞客开篇之地：国清寺隋塔、石梁飞瀑与华顶杜鹃，寺内免费。",
+   "img": "assets/images/zj_tiantai.jpg",
+   "season": "全年，5 月杜鹃",
+   "free": true,
+   "lat": 29.13722,
+   "lng": 121.00221
+  },
+  {
+   "id": "tzfu",
+   "name": "台州府城 · 紫阳街",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "taizhou",
+   "desc": "江南长城与千年古街：临海府城墙保存完好，紫阳街的海苔饼与蛋清羊尾是本地味。",
+   "img": "assets/images/zj_tzfu.jpg",
+   "ticket": "城墙 65 元",
+   "season": "全年",
+   "key": true,
+   "lat": 28.84815,
+   "lng": 121.14439
+  },
+  {
+   "id": "shitang",
+   "name": "温岭石塘",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "taizhou",
+   "desc": "新千年中国大陆第一缕曙光首照地：石头房渔村、东海绿道与对戒观景台，看日出住一晚。",
+   "img": "assets/images/zj_shitang.jpg",
+   "season": "全年",
+   "free": true,
+   "key": true,
+   "lat": 28.4166,
+   "lng": 121.62299
+  },
+  {
+   "id": "xiandu",
+   "name": "缙云仙都",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "lishui",
+   "desc": "鼎湖峰 170.8 m 单体石柱与黄帝祠宇：小赤壁、倪翁洞与晨雾中的石桥是摄影名场面。",
+   "img": "assets/images/zj_xiandu.jpg",
+   "ticket": "100 元联票",
+   "season": "全年，晨雾看春秋",
+   "key": true,
+   "lat": 28.72805,
+   "lng": 120.14461
+  },
+  {
+   "id": "yunhe",
+   "name": "云和梯田",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "lishui",
+   "desc": "华东最大梯田群：七星墩日出、白银谷云海与梅雨期的水面反光，四季各有版本。",
+   "img": "assets/images/zj_yunhe.jpg",
+   "ticket": "80 元",
+   "season": "全年，4–6 月与 9–10 月最佳",
+   "key": true,
+   "lat": 28.07955,
+   "lng": 119.6046
+  },
+  {
+   "id": "songyang",
+   "name": "松阳古村群",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "lishui",
+   "desc": "「最后的江南秘境」：陈家铺悬崖书店、杨家堂金色布达拉与平田农耕村，民宿质量高。",
+   "img": "assets/images/zj_songyang.jpg",
+   "season": "全年",
+   "free": true,
+   "key": true,
+   "lat": 28.42693,
+   "lng": 119.42512
+  }
+ ],
+ "foods": [
+  {
+   "name": "西湖醋鱼",
+   "city": "hangzhou",
+   "cityName": "杭州",
+   "desc": "草鱼饿养后氽熟浇糖醋芡：楼外楼的招牌，讲究鱼肉嫩、酸甜平衡，冷盘热做。",
+   "img": "assets/images/fd_zj_01.jpg"
+  },
+  {
+   "name": "东坡肉",
+   "city": "hangzhou",
+   "cityName": "杭州",
+   "desc": "苏东坡在杭州留下的做法：五花酒焖小火慢炖至酥而不烂，用小砂盅一人一份上桌。",
+   "img": "assets/images/fd_zj_02.jpg"
+  },
+  {
+   "name": "龙井虾仁",
+   "city": "hangzhou",
+   "cityName": "杭州",
+   "desc": "明前龙井与河虾仁同炒：茶香入虾、色泽玉白翠绿，季节性强，清明前后最正。",
+   "img": "assets/images/fd_zj_03.jpg"
+  },
+  {
+   "name": "片儿川",
+   "city": "hangzhou",
+   "cityName": "杭州",
+   "desc": "雪菜、笋片与瘦肉丝的杭州面条：奎元馆的老做法，汤清味鲜，是本地人的日常。",
+   "img": "assets/images/fd_zj_04.jpg"
+  },
+  {
+   "name": "宁波汤圆",
+   "city": "ningbo",
+   "cityName": "宁波",
+   "desc": "猪油黑芝麻馅的水磨糯米汤圆：咬开流心，宁波人冬至与春节必吃，甜得扎实。",
+   "img": "assets/images/fd_zj_05.jpg"
+  },
+  {
+   "name": "雪菜大黄鱼",
+   "city": "ningbo",
+   "cityName": "宁波",
+   "desc": "东海大黄鱼与宁波雪里蕻同烧：咸鲜入味，是浙东家常海鲜菜的代表。",
+   "img": "assets/images/fd_zj_06.jpg"
+  },
+  {
+   "name": "嘉兴粽子",
+   "city": "jiaxing",
+   "cityName": "嘉兴",
+   "desc": "五芳斋式鲜肉粽：箬叶包糯米与酱肉，米粒吸油透亮，咸甜两派在浙江各有拥趸。",
+   "img": "assets/images/fd_zj_07.jpg"
+  },
+  {
+   "name": "绍兴醉鸡 · 梅干菜扣肉",
+   "city": "shaoxing",
+   "cityName": "绍兴",
+   "desc": "黄酒糟醉与梅干菜是绍兴两大味型：醉鸡冷吃带酒香，扣肉用本地梅干菜蒸透。",
+   "img": "assets/images/fd_zj_08.jpg"
+  },
+  {
+   "name": "温州鱼丸 · 灯盏糕",
+   "city": "wenzhou",
+   "cityName": "温州",
+   "desc": "鱼丸是用鮸鱼肉刮茸做的不规则条状，汤里加醋与胡椒；灯盏糕是萝卜丝猪肉油炸饼。",
+   "img": "assets/images/fd_zj_09.jpg"
+  },
+  {
+   "name": "湖州千张包",
+   "city": "huzhou",
+   "cityName": "湖州",
+   "desc": "薄千张包肉馅再打结炖煮：丁莲芳的老店做法，配粉丝汤是湖州人的早餐。",
+   "img": "assets/images/fd_zj_10.jpg"
+  },
+  {
+   "name": "金华火腿煲",
+   "city": "jinhua",
+   "cityName": "金华",
+   "desc": "两头乌猪腿经腌晒发酵：上好的火腿切薄片与笋同煲，咸香是浙菜的底层味道。",
+   "img": "assets/images/fd_zj_11.jpg"
+  },
+  {
+   "name": "衢州三头一掌",
+   "city": "quzhou",
+   "cityName": "衢州",
+   "desc": "兔头、鸭头、鱼头与鸭掌的辣卤：浙江最能吃辣的城市，辣度直接挑战温州台州人。",
+   "img": "assets/images/fd_zj_12.jpg"
+  },
+  {
+   "name": "舟山梭子蟹 · 海鲜面",
+   "city": "zhoushan",
+   "cityName": "舟山",
+   "desc": "东海梭子蟹清蒸或葱姜炒，海鲜面把小黄鱼、虾、蛤蜊全放一碗，渔港边最鲜。",
+   "img": "assets/images/fd_zj_13.jpg"
+  },
+  {
+   "name": "缙云烧饼",
+   "city": "lishui",
+   "cityName": "丽水",
+   "desc": "梅干菜猪肉馅贴炉烤烧饼：外脆内软、油香重，已从小摊做成了全国连锁。",
+   "img": "assets/images/fd_zj_14.jpg"
+  }
+ ],
+ "loops": [
+  {
+   "name": "浙南秘境山水大环线",
+   "days": "5–7 天",
+   "km": "约 1000 km",
+   "desc": "浙江自驾最精华的一条：雁荡山+楠溪江+泰顺廊桥+缙云仙都+云和梯田+松阳古村，山水与古村交替。",
+   "path": "杭州 → 温州(雁荡山 2 天) → 楠溪江 → 泰顺廊桥 → 丽水(缙云仙都) → 云和梯田 → 松阳古村群 → 台州神仙居 → 杭州",
+   "note": "泰顺廊桥分散在多个乡镇，山路弯多；松阳各村之间需自驾串联，陈家铺与杨家堂建议住一晚；神仙居雨天云雾封山看运气。",
+   "pts": [
+    [
+     30.27167,
+     120.15969,
+     "杭州"
+    ],
+    [
+     27.99072,
+     120.70306,
+     "温州"
+    ],
+    [
+     28.37794,
+     121.09138,
+     "雁荡山"
+    ],
+    [
+     29.28734,
+     120.7562,
+     "楠溪江"
+    ],
+    [
+     27.65165,
+     119.55964,
+     "泰顺廊桥"
+    ],
+    [
+     28.46359,
+     119.9274,
+     "丽水"
+    ],
+    [
+     28.72805,
+     120.14461,
+     "缙云仙都"
+    ],
+    [
+     28.07955,
+     119.6046,
+     "云和梯田"
+    ],
+    [
+     28.42693,
+     119.42512,
+     "松阳古村群"
+    ],
+    [
+     28.65305,
+     121.42543,
+     "台州"
+    ],
+    [
+     28.6977,
+     120.60397,
+     "神仙居"
+    ],
+    [
+     30.27167,
+     120.15969,
+     "杭州"
+    ]
+   ]
+  },
+  {
+   "name": "浙东海岛 · 佛国环线",
+   "days": "4–5 天",
+   "km": "约 550 km（含船）",
+   "desc": "海与信仰：普陀山礼佛+嵊泗或东极岛看海+石浦渔港吃海鲜+温岭石塘看曙光。",
+   "path": "宁波(天一阁) → 舟山(普陀山 1 天) → 嵊泗枸杞岛或东极岛(2 天) → 象山石浦渔港 → 台州(温岭石塘+临海府城) → 宁波",
+   "note": "海岛船票必须提前订、台风季随时停航，行程留机动日；枸杞岛与东极岛二选一，不要同时排；晕船药备好。",
+   "pts": [
+    [
+     29.86543,
+     121.54817,
+     "宁波"
+    ],
+    [
+     29.9826,
+     122.21116,
+     "舟山"
+    ],
+    [
+     29.98775,
+     122.39031,
+     "普陀山"
+    ],
+    [
+     30.71471,
+     122.77127,
+     "嵊泗枸杞岛"
+    ],
+    [
+     30.20054,
+     122.70716,
+     "东极岛"
+    ],
+    [
+     29.19412,
+     121.93396,
+     "石浦渔港"
+    ],
+    [
+     28.65305,
+     121.42543,
+     "台州"
+    ],
+    [
+     28.4166,
+     121.62299,
+     "温岭石塘"
+    ],
+    [
+     28.84815,
+     121.14439,
+     "台州府城"
+    ],
+    [
+     29.86543,
+     121.54817,
+     "宁波"
+    ]
+   ]
+  },
+  {
+   "name": "水乡古镇 · 文明寻根环线",
+   "days": "3–4 天",
+   "km": "约 450 km",
+   "desc": "平原路况最好、适合家庭：乌镇西塘南浔三大古镇+安昌原生态+良渚文明+西湖。",
+   "path": "杭州(西湖+灵隐寺) → 良渚古城遗址 → 湖州南浔 → 嘉兴(乌镇+西塘) → 绍兴(鲁迅故里+安昌) → 杭州",
+   "note": "乌镇西栅建议住景区内看夜景与清晨；西塘夜里酒吧街吵，选靠河民宿；良渚周一闭园；安昌 12–1 月腊味季最有味道。",
+   "pts": [
+    [
+     30.27167,
+     120.15969,
+     "杭州"
+    ],
+    [
+     30.24168,
+     120.15371,
+     "西湖"
+    ],
+    [
+     30.38455,
+     120.00168,
+     "良渚古城遗址"
+    ],
+    [
+     30.86794,
+     120.09787,
+     "湖州"
+    ],
+    [
+     30.86792,
+     120.44558,
+     "南浔古镇"
+    ],
+    [
+     30.7437,
+     120.75932,
+     "嘉兴"
+    ],
+    [
+     30.74374,
+     120.49142,
+     "乌镇"
+    ],
+    [
+     30.94263,
+     120.89513,
+     "西塘"
+    ],
+    [
+     30.02736,
+     120.58408,
+     "绍兴"
+    ],
+    [
+     29.99136,
+     120.58508,
+     "鲁迅故里"
+    ],
+    [
+     30.04755,
+     120.50033,
+     "安昌古镇"
+    ],
+    [
+     30.27167,
+     120.15969,
+     "杭州"
+    ]
+   ]
+  },
+  {
+   "name": "浙中影视 · 丹霞谜窟环线",
+   "days": "3–4 天",
+   "km": "约 620 km",
+   "desc": "金华衢州方向：横店影视城+双龙洞+诸葛八卦村+江郎山丹霞+龙游石窟+廿八都古镇。",
+   "path": "杭州 → 金华(双龙洞+横店) → 兰溪诸葛八卦村 → 衢州(江郎山+龙游石窟) → 廿八都古镇 → 杭州",
+   "note": "横店分景区售票、夜游梦幻谷另收费；江郎山一线天台阶陡、恐高者慎入；廿八都离衢州城区 60 km 山路。",
+   "pts": [
+    [
+     30.27167,
+     120.15969,
+     "杭州"
+    ],
+    [
+     29.07602,
+     119.6517,
+     "金华"
+    ],
+    [
+     29.12816,
+     119.70578,
+     "双龙洞"
+    ],
+    [
+     29.16929,
+     120.3044,
+     "横店影视城"
+    ],
+    [
+     29.25041,
+     119.4651,
+     "诸葛八卦村"
+    ],
+    [
+     28.93189,
+     118.86379,
+     "衢州"
+    ],
+    [
+     28.39787,
+     118.45409,
+     "江郎山"
+    ],
+    [
+     29.01719,
+     119.18509,
+     "龙游石窟"
+    ],
+    [
+     28.15685,
+     118.3551,
+     "廿八都古镇"
+    ],
+    [
+     30.27167,
+     120.15969,
+     "杭州"
+    ]
+   ]
+  },
+  {
+   "name": "莫干山 · 千岛湖度假环线",
+   "days": "2–3 天",
+   "km": "约 380 km",
+   "desc": "纯度假节奏：莫干山民宿+安吉竹海+千岛湖游船+西溪湿地，适合周末放空。",
+   "path": "杭州 → 湖州莫干山(住 1–2 晚) → 安吉大竹海 → 杭州千岛湖(游船+环湖) → 西溪湿地 → 杭州",
+   "note": "莫干山民宿旺季价格翻倍且需提前订，山路窄、部分村落限行；千岛湖东南线自驾比游船更自由。",
+   "pts": [
+    [
+     30.27167,
+     120.15969,
+     "杭州"
+    ],
+    [
+     30.86794,
+     120.09787,
+     "湖州"
+    ],
+    [
+     30.54043,
+     119.88361,
+     "莫干山"
+    ],
+    [
+     30.55743,
+     119.6248,
+     "安吉大竹海"
+    ],
+    [
+     30.27167,
+     120.15969,
+     "杭州"
+    ],
+    [
+     29.60135,
+     118.96189,
+     "千岛湖"
+    ],
+    [
+     30.2647,
+     120.06781,
+     "西溪湿地"
+    ],
+    [
+     30.27167,
+     120.15969,
+     "杭州"
+    ]
+   ]
+  }
+ ],
+ "tips": [
+  [
+   "限行",
+   "杭州小客车错峰限行（工作日按尾号），西湖景区周末与节假日单双号限行且停车位极少，市区行程优先地铁+共享单车。"
+  ],
+  [
+   "海岛",
+   "舟山与嵊泗、东极的船票需提前 3–7 天订；每年 7–9 月台风季频繁停航，行程必须留机动日与退改预案。"
+  ],
+  [
+   "季节",
+   "6 月中旬至 7 月上旬是梅雨，山区与海岛体验都差；最佳是 3–5 月（茶与花）与 9–11 月（秋高气爽、云和梯田与芦花）。"
+  ],
+  [
+   "古镇",
+   "乌镇西栅、南浔与安昌的差异在于商业化程度：想看夜景住乌镇，想安静住南浔或松阳，想看生活去安昌。"
+  ],
+  [
+   "预约",
+   "良渚古城遗址、灵隐寺、普陀山与西湖部分景点需实名预约；普陀山上岛要买门票+船票两笔。"
+  ],
+  [
+   "山路",
+   "泰顺、松阳、云和与莫干山都是连续盘山窄路，会车困难；雨天与雾天慢行，冬季莫干山可能结冰封路。"
+  ],
+  [
+   "口味",
+   "浙北偏甜（东坡肉、嘉兴粽）、浙东鲜咸（海鲜与雪菜）、衢州嗜辣（三头一掌），点菜按地域切换预期。"
+  ]
+ ],
+ "features": {
+  "intro": "浙江以「七山一水二分田」著称，10.55 万平方公里内分布着西湖、千岛湖、普陀山等世界级景观。这里把 3 处世界遗产、中国民营经济第一省的活力、海岛佛国与江南古镇全部编织在一起——一省之内，山水、人文、海洋、产业四条线索同时拉满。",
+  "groups": [
+   {
+    "name": "西湖与大运河",
+    "icon": "湖",
+    "color": "#2E8B6F",
+    "intro": "杭州西湖是中国唯一湖泊类世界文化遗产，京杭大运河杭州段则是活态遗产的典范，两者共同定义了江南城市的审美范式。",
+    "items": [
+     {
+      "name": "西湖文化景观",
+      "tag": "世界文化遗产 · 2011",
+      "spot": "xihu",
+      "text": "杭州西湖 2011 年列入世界文化遗产，核心区面积 49 平方公里，包含苏堤、白堤、雷峰塔、三潭印月等十景；自唐代白居易筑堤以来，历代疏浚治理从未中断，是中国持续经营时间最长的城市湖泊景观。"
+     },
+     {
+      "name": "拱宸桥与大运河",
+      "tag": "世界文化遗产 · 2014",
+      "spot": "gongchen",
+      "text": "京杭大运河杭州段 2014 年作为「中国大运河」组成部分列入世界文化遗产；拱宸桥始建于明崇祯四年（1631 年），长 98 米、高 16 米，是大运河最南端的标志性古桥，桥畔的中国刀剪剑博物馆由旧厂房改建。"
+     },
+     {
+      "name": "良渚古城遗址",
+      "tag": "世界文化遗产 · 2019",
+      "spot": "liangzhu",
+      "text": "良渚古城遗址 2019 年列入世界文化遗产，实证了中华五千年文明史；古城面积约 300 万平方米，外围水利系统控制范围达 100 平方公里，出土玉琮王重 6.5 公斤，是迄今发现最大的新石器时代玉礼器。"
+     }
+    ]
+   },
+   {
+    "name": "名山佛道",
+    "icon": "山",
+    "color": "#6A4C93",
+    "intro": "从普陀山的观音道场到天台山的佛教天台宗祖庭，再到雁荡山的火山奇观，浙江的名山兼具宗教圣境与地质价值。",
+    "items": [
+     {
+      "name": "普陀山",
+      "tag": "四大佛教名山 · 观音道场",
+      "spot": "putuo",
+      "text": "普陀山是中国佛教四大名山之一，面积 12.5 平方公里，相传为观世音菩萨应化道场；普济禅寺始建于后梁贞明二年（916 年），南海观音立像高 33 米，每年农历二月十九、六月十九、九月十九三大香会期信众逾百万人次。"
+     },
+     {
+      "name": "天台山 · 国清寺",
+      "tag": "天台宗祖庭 · 隋代古刹",
+      "spot": "tiantai",
+      "text": "天台山国清寺始建于隋开皇十八年（598 年），是佛教天台宗发祥地，也是日本、韩国天台宗的祖庭；寺前隋梅树龄超 1300 年，石梁飞瀑落差 20 余米，徐霞客《游天台山日记》开篇即写此景。"
+     },
+     {
+      "name": "雁荡山",
+      "tag": "世界地质公园 · 流纹岩地貌",
+      "spot": "yandang",
+      "text": "雁荡山形成于 1.2 亿年前的白垩纪火山喷发，是世界地质公园与中国十大名山之一；灵峰夜景因岩石轮廓随光影变幻而得名，大龙湫瀑布单级落差 197 米，为中国单级落差最大的瀑布之一。"
+     }
+    ]
+   },
+   {
+    "name": "海岛与渔港",
+    "icon": "岛",
+    "color": "#2C62A8",
+    "intro": "浙江拥有全国最多的岛屿（3061 个），舟山群岛、嵊泗列岛与东极岛构成了中国东部最丰富的海岛旅游目的地。",
+    "items": [
+     {
+      "name": "嵊泗 · 枸杞岛",
+      "tag": "浙江最东住人岛 · 贻贝之乡",
+      "spot": "shengsi",
+      "text": "枸杞岛是浙江省最东端的住人岛屿，陆地面积 5.6 平方公里，年产贻贝超 2 万吨，被称为「中国贻贝之乡」；大王沙滩长 200 米、宽约 20 米，沙质细腻，夏季海水能见度可达 3 至 5 米。"
+     },
+     {
+      "name": "东极岛",
+      "tag": "中国大陆最东端 · 日出第一缕",
+      "spot": "dongji",
+      "text": "舟山东极镇位于北纬 30°、东经 122.4°，是中国大陆实际管辖的最东端住人岛屿；庙子湖岛上的财伯公纪念塔海拔 88 米，是观赏中国大陆最早日出的地标，电影《后会无期》在此取景后游客量增长超十倍。"
+     },
+     {
+      "name": "石浦渔港古城",
+      "tag": "600 年 · 中国六大中心渔港",
+      "spot": "shipu",
+      "text": "象山石浦渔港有 600 余年历史，港湾全长 18 公里、可泊万艘渔船，是全国六大中心渔港之一；古城沿山而筑，现存明清街巷 4 条、总长 1670 米，城隍庙始建于明洪武年间，每年九月举办中国开渔节。"
+     }
+    ]
+   },
+   {
+    "name": "江南古镇",
+    "icon": "镇",
+    "color": "#4A6FA5",
+    "intro": "乌镇、西塘、南浔等古镇以完整的水乡格局和活态的民俗传承，成为江南市镇文化的活标本。",
+    "items": [
+     {
+      "name": "乌镇",
+      "tag": "世界互联网大会永久会址",
+      "spot": "wuzhen",
+      "text": "乌镇分东栅、西栅两区，总面积 4.3 平方公里，保留了完整的明清水乡格局；2014 年起成为世界互联网大会永久会址，古老的昭明书院与当代数字展馆在同一街区并存，年接待游客超 900 万人次。"
+     },
+     {
+      "name": "南浔古镇",
+      "tag": "四象八牛 · 中西合璧宅邸",
+      "spot": "nanxun",
+      "text": "南浔古镇在清末民初涌现出「四象八牛七十二金狗」的丝商巨富群体，其中刘镛家族资产折合白银超 2000 万两；小莲庄、张氏旧宅等建筑群融合中式园林与西式舞厅、彩色玻璃，是江南罕见的中西合璧民居样本。"
+     },
+     {
+      "name": "安昌古镇",
+      "tag": "绍兴 · 腊味长廊千米",
+      "spot": "anchang",
+      "text": "安昌古镇始建于北宋，河道全长 1747 米、石桥 17 座，是绍兴师爷文化的发源地；每年腊月沿街悬挂酱鸭、腊肠绵延近千米，仁昌酱园创于清光绪年间，酱油酿造技艺列入省级非物质文化遗产。"
+     }
+    ]
+   },
+   {
+    "name": "民营经济与制造",
+    "icon": "商",
+    "color": "#8A5A2B",
+    "intro": "浙江是中国民营经济第一大省，义乌小商品市场、温州模式与横店影视城代表了民间创造力的三种极致形态。",
+    "items": [
+     {
+      "name": "横店影视城",
+      "tag": "全球最大影视基地 · 年拍千部",
+      "spot": "hengdian",
+      "text": "东阳横店影视城占地 30 多平方公里，建有秦王宫、清明上河图、广州街等 30 余个实景拍摄基地，累计接待剧组超 4000 个、拍摄影视剧逾 3 万部集，是全球规模最大的影视拍摄基地，带动当地就业超 10 万人。"
+     },
+     {
+      "name": "安吉大竹海",
+      "tag": "中国竹乡 · 毛竹林 87 万亩",
+      "spot": "anji",
+      "text": "安吉是中国著名的竹子之乡，毛竹林面积达 87 万亩，占全县林地面积的 60% 以上；电影《卧虎藏龙》竹林打斗场景在此取景，当地竹产业年产值超 200 亿元，涵盖竹地板、竹纤维、竹炭等全产业链。"
+     }
+    ]
+   }
+  ]
+ }
+};

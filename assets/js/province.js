@@ -51,6 +51,9 @@
       " 个景点、" + P.foods.length + " 味代表美食与 " + P.loops.length + " 条省内环线，含地图、海拔、门票与季节建议。");
 
     var TOC = [["#geo", "地理速览"], ["#cities", "城市与景点"], ["#foods", "代表味道"], ["#loops", "省内环线"], ["#tips", "实用提示"]];
+    /* 省份特色为增量模块：只有该省数据里有 features 才进目录，老数据不受影响 */
+    var HAS_FEAT = !!(P.features && (P.features.groups || []).filter(function (g) { return g && (g.items || []).length; }).length);
+    if (HAS_FEAT) TOC.splice(4, 0, ["#features", "省份特色"]);
 
     /* ---------- 页头 + 右侧模块导航条 ---------- */
     $("#pvHead").innerHTML = '<div class="wrap pv-headrow">' +
@@ -395,6 +398,56 @@
         mapIntoView();
       });
     });
+
+    /* ---------- 省份特色（HIGHLIGHTS） ----------
+     * P.features = { intro, groups:[{name,icon,color,intro,items:[{name,tag,text,spot,img}]}] }
+     * item.spot 指向本省已有景点 id：自动取该景点配图作缩略图，点击可在上方地图定位。
+     */
+    (function () {
+      var sec = $("#features");
+      if (!sec) return;
+      var F = P.features || {};
+      var groups = (F.groups || []).filter(function (g) { return g && (g.items || []).length; });
+      if (!groups.length) { sec.hidden = true; return; }
+      sec.hidden = false;
+      var FC = ["#C8442E", "#1F6E43", "#2C62A8", "#B0702A", "#8A2F2F", "#2E8B6F", "#6A4C93"];
+      var spotById = {};
+      P.spots.forEach(function (s) { spotById[s.id] = s; });
+      var nItems = groups.reduce(function (a, g) { return a + g.items.length; }, 0);
+      $("#featH2").textContent = M.name + "的" + cnNum(groups.length) + "张名片 · " + nItems + " 项具体看点";
+      var fi = $("#featIntro");
+      fi.textContent = F.intro || "";
+      fi.style.display = F.intro ? "" : "none";
+      $("#featGrid").innerHTML = groups.map(function (g, gi) {
+        var color = g.color || FC[gi % FC.length];
+        return '<div class="featcard" style="--fc:' + color + '">' +
+          '<div class="fh"><span class="fic">' + esc(String(g.icon || "特").slice(0, 1)) + "</span><b>" + esc(g.name) + "</b>" +
+          '<span class="fn">' + g.items.length + " 项</span></div>" +
+          (g.intro ? '<p class="fgi">' + esc(g.intro) + "</p>" : "") +
+          '<div class="fitems">' + g.items.map(function (it) {
+            var sp = it.spot ? spotById[it.spot] : null;
+            var img = it.img || (sp ? sp.img : "") || "";
+            return '<div class="fitem"' + (sp ? ' data-fspot="' + sp.id + '"' : "") + ">" +
+              (img ? '<div class="fim" style="background-image:url(\'' + img + '\')"></div>' : "") +
+              '<div class="fitx"><b>' + esc(it.name) + (it.tag ? '<span class="ftag">' + esc(it.tag) + "</span>" : "") + "</b>" +
+              "<p>" + esc(it.text) + "</p>" +
+              (sp ? '<span class="fgo">在地图上看 ' + esc(sp.name) + " →</span>" : "") +
+              "</div></div>";
+          }).join("") + "</div></div>";
+      }).join("");
+      var nSpot = document.querySelectorAll("#featGrid .fitem[data-fspot]").length;
+      $("#featNote").textContent = "共 " + groups.length + " 个主题 · " + nItems + " 项特色，数字与纪录为公开资料整理版本，出行前以官方口径为准"
+        + (nSpot ? "；点带图条目可在上方地图定位对应地点。" : "。");
+      document.querySelectorAll("#featGrid .fitem[data-fspot]").forEach(function (el) {
+        el.addEventListener("click", function () {
+          var mk = spotMk[el.getAttribute("data-fspot")];
+          if (!mk) return;
+          m.setView(mk.getLatLng(), Math.max(m.getZoom(), 9), { animate: true });
+          mk.openPopup();
+          mapIntoView();
+        });
+      });
+    })();
 
     function mapIntoView() {
       var el = document.getElementById("pvMap");

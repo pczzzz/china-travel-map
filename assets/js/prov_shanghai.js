@@ -1,2 +1,1351 @@
 window.PROV_DATA = window.PROV_DATA || {};
-PROV_DATA.shanghai = {"meta":{"id":"shanghai","name":"上海","en":"Shanghai","capital":"黄浦 · 徐汇","tagline":"一江一河 · 万国建筑与江南水乡","geoTitle":"黄浦江把城市切成两半，苏州河把历史缝在一起","geoSub":"先认准两条水：黄浦江两岸是外滩万国建筑群与陆家嘴天际线，苏州河两岸是仓库、工厂改造的艺术区与老弄堂。","intro":["上海的看点不在单个景点，而在城市的层次：外滩 52 幢不同国家风格的近代建筑（「万国建筑博览群」）对着陆家嘴三件套，一江之隔就是 1843 年到今天的落差；往里走是衡复风貌区的梧桐与洋房、石库门弄堂与新天地，再往外是朱家角、枫泾这样的江南水乡。","自驾在上海要算清成本：核心区停车贵、外地牌照高架限行（工作日 7–20 点），市区最好地铁+步行；车留给崇明、青浦、松江、临港与金山——那才是上海的水乡、海岸与生态岛部分，也是 G228 沿海线的上海段。","本页按 11 个城区/郊区分组：中心城区看近代建筑与梧桐区，郊区看古镇、佘山、崇明与海岸线，四种玩法互不干扰。"],"facts":[["面积","6340 km²"],["常住人口","2487 万（2023 年末）"],["行政区","16 个市辖区"],["近代建筑","外滩 52 幢 · 衡复风貌区 1000 余幢"],["最高峰","佘山 100.8 m（全市唯一的山）"],["水系","黄浦江 113 km · 苏州河 54 km · 崇明岛 1267 km²"]],"regions":[["外滩 · 万国建筑群","中山东一路 52 幢近代银行与洋行建筑，从外白渡桥到十六铺：夜晚对岸陆家嘴灯光是最经典机位。"],["衡复风貌区 · 梧桐与洋房","武康路、安福路、思南路、复兴西路一带 1000 余幢花园住宅，上海城市气质最浓的一片，适合骑行。"],["一江一河 · 工业遗产带","苏州河与黄浦江两岸贯通的滨水步道：M50、1933 老场坊、民生码头筒仓、杨浦滨江与西岸美术馆群。"],["江南水乡 · 古镇带","朱家角、枫泾、新场、七宝与召稼楼：上海郊区的古镇比苏杭人少，且都通地铁或高速，半天可往返。"],["生态与海岸 · 崇明临港","崇明东滩与西沙湿地、东平森林公园、滴水湖与金山城市沙滩：上海的湿地、森林与海岸线。"]],"capLabel":"中心城区"},"cities":[{"id":"bund","name":"黄浦 · 外滩老城厢","lat":31.23303,"lng":121.48949,"role":"万国建筑","desc":"外滩、南京东路、豫园城隍庙、新天地与人民广场：上海最核心的 3 平方公里，近代建筑、石库门与商业街区叠在一起。","spots":["waitan","nanjingdonglu","yuyuan","xintiandi","tianzifang","shanghai_bowuguan"],"cap":true},{"id":"xuhui","name":"徐汇 · 衡复与西岸","lat":31.19811,"lng":121.4496,"role":"梧桐与美术馆","desc":"武康路、安福路、衡山路、徐家汇书院与西岸美术馆群：上海的梧桐区与当代艺术带都在这里，骑行最舒服。","spots":["wukanglu","hengfu","sinan","xujiahui","xibinjiang"]},{"id":"jingan","name":"静安 · 南京西路","lat":31.22511,"lng":121.45459,"role":"商业与寺庙","desc":"静安寺、南京西路、张园、上海展览中心与玉佛寺：最贵的商业地段与百年寺庙、石库门里弄并存。","spots":["jingansi","zhangyuan","zhanlanguan","yufosi"]},{"id":"pudong","name":"浦东 · 陆家嘴","lat":31.23397,"lng":121.50941,"role":"天际线","desc":"东方明珠、金茂、环球金融中心与上海中心 632 米：中国最高的天际线，加上滨江大道与浦东美术馆。","spots":["lujiazui","binjiangdadao","pudongmeishuguan"]},{"id":"hongkou","name":"虹口杨浦 · 苏州河北岸","lat":31.25802,"lng":121.49447,"role":"工业与文人","desc":"1933 老场坊、多伦路文化名人街、鲁迅公园、提篮桥犹太难民纪念馆与杨浦滨江：老上海的工业与左翼文化现场。","spots":["laocjfang","duolunlu","tilanqiao","yangpubinjiang"]},{"id":"changning","name":"长宁普陀 · 创意园区","lat":31.21815,"lng":121.42464,"role":"园区改造","desc":"上生新所、M50 创意园、苏州河华政段步道与中山公园：仓库与老厂房改造的园区，是上海最日常的一面。","spots":["shangshengxinsuo","m50","suzhouhe"]},{"id":"songjiang","name":"松江 · 广富林佘山","lat":31.05802,"lng":121.15455,"role":"上海之根","desc":"广富林文化遗址、醉白池、方塔、佘山与深坑酒店：松江是上海最早的县城，佘山是全市唯一的山。","spots":["guangfulin","zuihaichi","songjiangfangta","sheshan","shenkeng"]},{"id":"qingpu","name":"青浦 · 朱家角淀山湖","lat":31.10806,"lng":121.05955,"role":"江南水乡","desc":"朱家角古镇、淀山湖、枫泾古镇与青西郊野公园：上海最大的湖泊与最完整的水乡古镇，G50 高速直达。","spots":["zhujiajiao","dianshanhu","fengjing"]},{"id":"chongming","name":"崇明 · 生态岛","lat":31.61826,"lng":121.40469,"role":"湿地与森林","desc":"东滩湿地、西沙湿地、东平国家森林公园与明珠湖：长江入海口的冲积岛，候鸟迁徙与骑行是主题。","spots":["dongtan","xisha","dongping"]},{"id":"lingang","name":"临港金山 · 海岸线","lat":30.84758,"lng":121.60417,"role":"看海","desc":"滴水湖、上海天文馆、海昌海洋公园、金山城市沙滩与枫泾：上海的海岸线与最南端，G228 沿海线的上海段。","spots":["dishuihu","tianwenguan","jinshansha","jinshanzui"]},{"id":"nanhui","name":"浦东南汇 · 迪士尼新场","lat":31.09774,"lng":121.6242,"role":"乐园与古镇","desc":"上海迪士尼、新场古镇、召稼楼与上海野生动物园：浦东南部，乐园与水乡相隔 20 分钟车程。","spots":["disney","xinchang","zhaoshuailou","yeshengdongwuyuan"]}],"spots":[{"id":"waitan","name":"外滩万国建筑博览群","cat":"culture","catName":"人文","city":"bund","desc":"中山东一路 52 幢近代建筑：汇丰银行大楼（1923，穹顶马赛克）、海关大楼（大钟）、和平饭店（绿色金字塔顶）与外滩源，被称为「万国建筑博览群」。","img":"assets/images/sh_waitan.jpg","ticket":"免费","season":"全年，日落与夜景最佳","free":true,"key":true,"lat":31.23802,"lng":121.49447},{"id":"nanjingdonglu","name":"南京东路步行街","cat":"landmark","catName":"地标","city":"bund","desc":"「中华商业第一街」，从外滩一直延伸到人民广场：老字号（第一食品、沈大成、真老大房）与新商场并存，人流全年不断。","img":"assets/images/sh_nanjingdonglu.jpg","ticket":"免费","season":"全年","free":true,"lat":31.23306,"lng":121.47952},{"id":"yuyuan","name":"豫园 · 城隍庙","cat":"culture","catName":"人文","city":"bund","desc":"1559 年潘允端为父母建的江南私家园林：大假山由明代叠山名家张南阳所堆，玉玲珑是宋徽宗花石纲遗物；园外的城隍庙商圈是上海最热闹的旅游集市。","img":"assets/images/sh_yuyuan.jpg","ticket":"40 元","season":"全年","key":true,"lat":31.2255,"lng":121.49696},{"id":"xintiandi","name":"新天地 · 石库门","cat":"culture","catName":"人文","city":"bund","desc":"把石库门里弄外壳保留、内部改造成餐厅与店铺的改造范本：北里是商业，南里更接近居住原貌，旁边的中共一大会址是重点文保。","img":"assets/images/sh_xintiandi.jpg","ticket":"免费","season":"全年","free":true,"lat":31.21805,"lng":121.48051},{"id":"tianzifang","name":"田子坊","cat":"culture","catName":"人文","city":"bund","desc":"泰康路上的石库门弄堂改造艺术区：小店、工作室与居民生活混在一起，比新天地更「野生」，弄堂尺度是上海里弄的典型样本。","img":"assets/images/sh_tianzifang.jpg","ticket":"免费","season":"全年","free":true,"lat":31.20806,"lng":121.47254},{"id":"wukanglu","name":"武康路 · 武康大楼","cat":"culture","catName":"人文","city":"xuhui","desc":"1907 年筑成的梧桐马路，武康大楼（1924，邬达克设计的诺曼底公寓）是上海最出名的建筑之一：沿线还有巴金故居、宋庆龄故居与几十幢名人住宅。","img":"assets/images/sh_wukanglu.jpg","ticket":"免费","season":"全年，秋季梧桐","free":true,"key":true,"lat":31.21113,"lng":121.44162},{"id":"hengfu","name":"衡山路–复兴路历史风貌区","cat":"culture","catName":"人文","city":"xuhui","desc":"上海最大的历史风貌保护区，1000 余幢花园住宅与 40 多条梧桐马路：骑行或步行逛复兴西路、五原路、安福路与乌鲁木齐中路最舒服。","img":"assets/images/sh_hengfu.jpg","ticket":"免费","season":"全年","free":true,"key":true,"lat":31.2031,"lng":121.45459},{"id":"sinan","name":"思南公馆 · 思南路","cat":"culture","catName":"人文","city":"xuhui","desc":"51 幢历史花园住宅组成的街区：思南读书会、复兴公园与周公馆（中共代表团驻地旧址）都在附近，是上海最文气的一片。","img":"assets/images/sh_sinan.jpg","ticket":"免费","season":"全年","free":true,"lat":31.21305,"lng":121.47752},{"id":"xujiahui","name":"徐家汇 · 徐家汇书院","cat":"landmark","catName":"地标","city":"xuhui","desc":"徐家汇天主堂（1910，双尖顶哥特式）、徐家汇书院（新馆，中庭可看教堂立面）、藏书楼与上海交通大学老校门集中在一片。","img":"assets/images/sh_xujiahui.jpg","ticket":"免费（教堂 10 元）","season":"全年","free":true,"lat":31.18812,"lng":121.44261},{"id":"xibinjiang","name":"西岸美术馆群 · 徐汇滨江","cat":"culture","catName":"人文","city":"xuhui","desc":"黄浦江西岸 11 公里滨水带改造：龙美术馆（西岸馆）、西岸美术馆（与蓬皮杜合作）、余德耀美术馆与油罐艺术中心串成一条艺术走廊。","img":"assets/images/sh_xibinjiang.jpg","ticket":"展馆另收","season":"全年","key":true,"lat":31.17807,"lng":121.46456},{"id":"jingansi","name":"静安寺","cat":"culture","catName":"人文","city":"jingan","desc":"相传三国吴赤乌年间始建，现存为 1980 年代后重建的仿明式金顶寺院：被 CBD 高楼包围，「静安寺商圈」是上海最贵的地段之一。","img":"assets/images/sh_jingansi.jpg","ticket":"50 元","season":"全年","lat":31.22182,"lng":121.4501},{"id":"zhangyuan","name":"张园","cat":"culture","catName":"人文","city":"jingan","desc":"上海现存规模最大、保存最完整的石库门里弄群（1882 年）：2023 年整修后开放，40 余幢建筑连成片，是研究上海里弄的最佳现场。","img":"assets/images/sh_zhangyuan.jpg","ticket":"免费","season":"全年","free":true,"lat":31.2261,"lng":121.46257},{"id":"zhanlanguan","name":"上海展览中心","cat":"landmark","catName":"地标","city":"jingan","desc":"1955 年建成的俄罗斯古典主义建筑，原名中苏友好大厦：中央塔楼与尖顶是上海地标，经常举办书展、艺术展与车展。","img":"assets/images/sh_zhanlanguan.jpg","ticket":"视展览","season":"全年","lat":31.22511,"lng":121.45659},{"id":"yufosi","name":"玉佛禅寺","cat":"culture","catName":"人文","city":"jingan","desc":"1882 年创建，因供奉两尊玉佛得名：寺内素斋（玉佛禅寺素面）很有名，建筑为仿宋式，是上海市区香火最盛的寺院之一。","img":"assets/images/sh_yufosi.jpg","ticket":"50 元","season":"全年","lat":31.23913,"lng":121.4516},{"id":"lujiazui","name":"陆家嘴天际线","cat":"landmark","catName":"地标","city":"pudong","desc":"上海中心（632 米，中国第一高楼）、环球金融中心（492 米）、金茂大厦（420.5 米）与东方明珠（468 米）：从外滩看是全景，从上海中心 118 层看是全城。","img":"assets/images/sh_lujiazui.jpg","ticket":"观景台 120–180 元","season":"全年","key":true,"lat":31.23297,"lng":121.50941},{"id":"binjiangdadao","name":"浦东滨江大道 · 后滩","cat":"scenery","catName":"景色","city":"pudong","desc":"黄浦江东岸的滨江步道，从东昌路到后滩公园：正对外滩，是拍对岸天际线最舒服的角度，后滩公园的湿地净化系统本身是景观。","img":"assets/images/sh_binjiangdadao.jpg","ticket":"免费","season":"全年","free":true,"lat":31.21799,"lng":121.49945},{"id":"pudongmeishuguan","name":"浦东美术馆","cat":"museum","catName":"博物馆","city":"pudong","desc":"让·努维尔设计，2021 年开馆：三层玻璃「镜厅」正对外滩，常与泰特、大都会等合作大展，建筑本身即展品。","img":"assets/images/sh_pudongmeishuguan.jpg","ticket":"100 元起","season":"全年，周一闭馆","key":true,"lat":31.23699,"lng":121.50443},{"id":"laocjfang","name":"1933 老场坊","cat":"culture","catName":"人文","city":"hongkou","desc":"1933 年英国设计的宰牲场，混凝土「无梁楼盖」与 26 座廊桥交错：结构极其超现实，现为创意园区，是上海最出片的工业建筑。","img":"assets/images/sh_laocjfang.jpg","ticket":"免费","season":"全年","free":true,"lat":31.25204,"lng":121.48749},{"id":"duolunlu","name":"多伦路文化名人街","cat":"culture","catName":"人文","city":"hongkou","desc":"1920–30 年代鲁迅、茅盾、郭沫若、叶圣陶聚居的街区：鲁迅公园与故居、左联会址纪念馆都在步行范围，是上海左翼文化的现场。","img":"assets/images/sh_duolunlu.jpg","ticket":"免费","season":"全年","free":true,"lat":31.26605,"lng":121.4855},{"id":"tilanqiao","name":"提篮桥 · 上海犹太难民纪念馆","cat":"museum","catName":"博物馆","city":"hongkou","desc":"二战期间 2 万余名欧洲犹太难民在此避难，摩西会堂（1907）保存完好：纪念馆记录了这段「生命签证」历史，展陈克制而有力。","img":"assets/images/sh_tilanqiao.jpg","ticket":"20 元","season":"全年，周一闭馆","lat":31.24898,"lng":121.50742},{"id":"yangpubinjiang","name":"杨浦滨江 · 工业遗存带","cat":"scenery","catName":"景色","city":"hongkou","desc":"15 公里滨水岸线，曾是近代中国工业最密集的「工业锈带」：毛麻仓库、明华糖厂、杨树浦水厂与大量塔吊、轨道被保留为景观。","img":"assets/images/sh_yangpubinjiang.jpg","ticket":"免费","season":"全年","free":true,"key":true,"lat":31.24793,"lng":121.52436},{"id":"shangshengxinsuo","name":"上生新所","cat":"culture","catName":"人文","city":"changning","desc":"1924 年哥伦比亚乡村俱乐部旧址改造：巴洛克泳池、孙科别墅与茑屋书店组合，是上海园区改造里品质最高的一处。","img":"assets/images/sh_shangshengxinsuo.jpg","ticket":"免费","season":"全年","free":true,"lat":31.21114,"lng":121.43463},{"id":"m50","name":"M50 创意园","cat":"culture","catName":"人文","city":"changning","desc":"莫干山路 50 号，原上海春明粗纺厂：100 余家画廊与工作室聚集，苏州河边的涂鸦墙是上海街头艺术的代表，免费开放。","img":"assets/images/sh_m50.jpg","ticket":"免费","season":"全年","free":true,"lat":31.23814,"lng":121.44461},{"id":"suzhouhe","name":"苏州河滨水步道 · 华政段","cat":"scenery","catName":"景色","city":"changning","desc":"苏州河 42 公里岸线已全线贯通：华东政法大学段最经典，13 幢历史建筑沿河排开，加上外白渡桥、四行仓库与昌平路桥灯光带。","img":"assets/images/sh_suzhouhe.jpg","ticket":"免费","season":"全年","free":true,"key":true,"lat":31.22616,"lng":121.42464},{"id":"shanghai_bowuguan","name":"上海博物馆","cat":"museum","catName":"博物馆","city":"bund","desc":"人民广场馆以青铜、陶瓷、书画三大馆闻名，大克鼎与青铜器展是国内顶级；2024 年开放的东馆（浦东）规模更大，需分别预约。","img":"assets/images/sh_shanghai_bowuguan.jpg","ticket":"免费","season":"全年，周一闭馆","free":true,"key":true,"lat":31.22705,"lng":121.47952},{"id":"guangfulin","name":"广富林文化遗址","cat":"culture","catName":"人文","city":"songjiang","desc":"「上海之根」：距今 5000 年的广富林文化遗址，水下博物馆像漂浮的屋顶，遗址公园与知也禅寺连成一片，展示上海成陆史。","img":"assets/images/sh_guangfulin.jpg","ticket":"40 元","season":"全年","lat":31.0579,"lng":121.22443},{"id":"zuihaichi","name":"醉白池","cat":"culture","catName":"人文","city":"songjiang","desc":"上海五大古典园林之一，宋代韩琦醉白堂故址：明代园主人董其昌曾在此作画，园内 300 余年古树与湖石是精华，游客远少于豫园。","img":"assets/images/sh_zuihaichi.jpg","ticket":"12 元","season":"全年","lat":30.99787,"lng":121.22442},{"id":"songjiangfangta","name":"松江方塔园 · 兴圣教寺塔","cat":"culture","catName":"人文","city":"songjiang","desc":"北宋熙宁年间的方形砖木塔（42.5 米），塔身收分优美：园内还有明代照壁、清代天妃宫与兰瑞堂，是上海古建密度最高的一处。","img":"assets/images/sh_songjiangfangta.jpg","ticket":"15 元","season":"全年","lat":30.99785,"lng":121.24441},{"id":"sheshan","name":"佘山","cat":"mountain","catName":"山岳·徒步","city":"songjiang","desc":"上海唯一的山（100.8 米），分东西两峰：山顶有 1925 年建成的佘山进教之佑圣母大殿（远东第一大教堂）与中国近代天文台旧址。","img":"assets/images/sh_sheshan.jpg","diff":1,"ticket":"免费","season":"全年","lat":31.09793,"lng":121.22443},{"id":"shenkeng","name":"深坑酒店 · 天马山采石坑","cat":"landmark","catName":"地标","city":"songjiang","desc":"在废弃采石坑（深 88 米）里建成的酒店，被称为「世界建筑奇迹」：不入住也可在观景平台俯瞰，旁边是深坑秘境主题乐园。","img":"assets/images/sh_shenkeng.jpg","ticket":"观景免费","season":"全年","free":true,"lat":31.08795,"lng":121.20446},{"id":"zhujiajiao","name":"朱家角古镇","cat":"culture","catName":"人文","city":"qingpu","desc":"上海保存最完整的江南水乡古镇：放生桥（明代五孔石拱桥，上海最大）、漕港河两岸明清街、课植园与北大街，地铁 17 号线直达。","img":"assets/images/sh_zhujiajiao.jpg","ticket":"古镇免费，景点联票 80","season":"全年","key":true,"lat":31.10806,"lng":121.05955},{"id":"dianshanhu","name":"淀山湖","cat":"scenery","catName":"景色","city":"qingpu","desc":"上海最大的淡水湖（62 平方公里），黄浦江源头：环湖有帆船、湿地与青西郊野公园的水上森林（池杉林淹在水里，秋季变红最出片）。","img":"assets/images/sh_dianshanhu.jpg","ticket":"免费","season":"全年","free":true,"key":true,"lat":31.12786,"lng":120.9843},{"id":"fengjing","name":"枫泾古镇","cat":"culture","catName":"人文","city":"qingpu","desc":"沪浙交界的水乡古镇，「三步两座桥，一望十条巷」：金山农民画发源地，丁蹄、黄酒与枫泾豆腐干是本地三样。","img":"assets/images/sh_fengjing.jpg","ticket":"古镇免费，景点 50","season":"全年","lat":30.88781,"lng":121.01439},{"id":"dongtan","name":"崇明东滩湿地","cat":"scenery","catName":"景色","city":"chongming","desc":"长江入海口最大的河口湿地，国际重要湿地与候鸟驿站：每年秋冬数十万只雁鸭与鸻鹬类过境，木栈道深入芦苇荡，观鸟屋视野极好。","img":"assets/images/sh_dongtan.jpg","ticket":"50 元","season":"10 月–次年 3 月观鸟","key":true,"lat":31.51794,"lng":121.95417},{"id":"xisha","name":"崇明西沙湿地 · 明珠湖","cat":"scenery","catName":"景色","city":"chongming","desc":"崇明岛西端的潮汐湿地，2 公里木栈道穿过芦苇与滩涂：可看潮汐变化与「崇明日落」，旁边明珠湖是环岛骑行最好的补给点。","img":"assets/images/sh_xisha.jpg","ticket":"免费","season":"全年","free":true,"key":true,"lat":31.67811,"lng":121.30452},{"id":"dongping","name":"东平国家森林公园","cat":"scenery","catName":"景色","city":"chongming","desc":"华东地区最大的平原人造森林（350 公顷）：水杉、池杉与银杏成排，适合骑行、露营与野餐，秋天林相变色是崇明最好的季节。","img":"assets/images/sh_dongping.jpg","ticket":"60 元","season":"4–11 月","lat":31.67821,"lng":121.45463},{"id":"dishuihu","name":"滴水湖 · 临港新片区","cat":"scenery","catName":"景色","city":"lingang","desc":"在滩涂上挖出的人工湖（直径 2.66 公里），临港新城的中心：环湖 8 公里骑行道，湖心岛与新城放射状路网从高处看极规整。","img":"assets/images/sh_dishuihu.jpg","ticket":"免费","season":"全年","free":true,"lat":30.89762,"lng":121.90408},{"id":"tianwenguan","name":"上海天文馆","cat":"museum","catName":"博物馆","city":"lingang","desc":"全球建筑面积最大的天文馆（2021 年开馆），螺旋形态呼应天体运行：家园、宇宙、征程三大展区与球幕影院，需提前数日抢票。","img":"assets/images/sh_tianwenguan.jpg","ticket":"30 元（预约制）","season":"全年，周一闭馆","key":true,"lat":30.89762,"lng":121.90408},{"id":"jinshansha","name":"金山城市沙滩","cat":"scenery","catName":"景色","city":"lingang","desc":"杭州湾北岸的人工沙滩，上海唯一的滨海浴场：夏季开放游泳与水上项目，也是 G228 沿海线进入上海的标志点，旁边是金山嘴渔村。","img":"assets/images/sh_jinshansha.jpg","ticket":"夏季收费","season":"6–9 月","lat":30.71783,"lng":121.35455},{"id":"jinshanzui","name":"金山嘴渔村","cat":"culture","catName":"人文","city":"lingang","desc":"上海最后一个活着的渔村：老街、渔民宅与海鲜排档，海鲜以杭州湾梭子蟹、白虾与黄鱼为主，9–10 月开渔后最肥。","img":"assets/images/sh_jinshanzui.jpg","ticket":"免费","season":"全年","free":true,"lat":30.70786,"lng":121.37458},{"id":"disney","name":"上海迪士尼度假区","cat":"landmark","catName":"地标","city":"nanhui","desc":"2016 年开园，中国内地首座迪士尼：创极速光轮、翱翔·飞越地平线与奇想花园，夜光幻影秀是压轴，需提前购票并用官方 App 排队。","img":"assets/images/sh_disney.jpg","ticket":"475 元起","season":"全年","key":true,"lat":31.14182,"lng":121.66226},{"id":"xinchang","name":"新场古镇","cat":"culture","catName":"人文","city":"nanhui","desc":"浦东唯一保存完整的水乡古镇，因下沙盐场而得名：明清宅院、石拱桥与「十三牌楼九环龙」格局，比朱家角安静，电影取景地。","img":"assets/images/sh_xinchang.jpg","ticket":"免费","season":"全年","free":true,"lat":31.0477,"lng":121.60419},{"id":"zhaoshuailou","name":"召稼楼古镇","cat":"culture","catName":"人文","city":"nanhui","desc":"浦东最早的垦荒之地，元代即有集市：报恩桥、老街与本地小吃（召稼楼汤肉、三黄鸡）曾是上海近郊最地道的古镇，现处于改造期，出发前查开放状态。","img":"assets/images/sh_zhaoshuailou.jpg","ticket":"免费","season":"以官方公告为准","lat":31.08782,"lng":121.53431},{"id":"yeshengdongwuyuan","name":"上海野生动物园","cat":"scenery","catName":"景色","city":"nanhui","desc":"国家级野生动物园，车入区可近距离看猛兽：步行区有大熊猫、长颈鹿与火烈鸟，是上海亲子游的常规选项，需一整天。","img":"assets/images/sh_yeshengdongwuyuan.jpg","ticket":"130 元","season":"全年","lat":31.0177,"lng":121.57421}],"foods":[{"name":"南翔小笼","city":"bund","cityName":"黄浦 · 外滩老城厢","desc":"豫园南翔馒头店的薄皮小笼，「一口开天窗，二口慢慢吸」：蟹粉小笼秋季最肥，二楼堂吃比楼下外卖窗口从容。","img":"assets/images/fd_sh_01.jpg"},{"name":"生煎馒头","city":"bund","cityName":"黄浦 · 外滩老城厢","desc":"上海人的早餐之王：底部煎到金黄酥脆、咬开一包汤汁，大壶春（全发酵面皮、无汤汁派）与小杨生煎（薄皮多汁派）是两种流派。","img":"assets/images/fd_sh_02.jpg"},{"name":"本帮红烧肉","city":"xuhui","cityName":"徐汇 · 衡复与西岸","desc":"浓油赤酱的代表：五花肉用冰糖与酱油小火焖到酥而不烂、色如玛瑙，配卤蛋或百叶结，甜咸平衡是上海菜的核心。","img":"assets/images/fd_sh_03.jpg"},{"name":"腌笃鲜","city":"xuhui","cityName":"徐汇 · 衡复与西岸","desc":"春笋、咸肉与鲜肉同炖：汤白如奶、笋香扑鼻，是上海春天的仪式，「腌」指咸肉、「鲜」指鲜肉、「笃」是吴语小火慢炖。","img":"assets/images/fd_sh_04.jpg"},{"name":"响油鳝糊","city":"bund","cityName":"黄浦 · 外滩老城厢","desc":"鳝丝红烧后上桌，最后浇一勺滚烫葱油发出「刺啦」声：甜咸浓稠，是本帮菜里最考验火候的一道。","img":"assets/images/fd_sh_05.jpg"},{"name":"草头圈子","city":"jingan","cityName":"静安 · 南京西路","desc":"大肠（圈子）红烧到软糯，配生炒草头（苜蓿）解腻：一荤一素同盘，是老上海餐馆的招牌搭配。","img":"assets/images/fd_sh_06.jpg"},{"name":"油爆河虾","city":"bund","cityName":"黄浦 · 外滩老城厢","desc":"活河虾急火爆炒，壳脆肉嫩、连壳可食：讲究「三进三出油锅」，清明前后的河虾最肥。","img":"assets/images/fd_sh_07.jpg"},{"name":"葱油拌面","city":"bund","cityName":"黄浦 · 外滩老城厢","desc":"最简单也最考功夫：葱段用猪油慢熬到焦黄，拌入细面加酱油与糖，一碗好的葱油拌面全靠葱油的火候。","img":"assets/images/fd_sh_08.jpg"},{"name":"大饼油条 · 粢饭糕","city":"bund","cityName":"黄浦 · 外滩老城厢","desc":"上海早餐「四大金刚」是大饼、油条、粢饭、豆浆：粢饭糕是糯米饭压成方块炸到外脆内糯，街边摊 5 点开始卖。","img":"assets/images/fd_sh_09.jpg"},{"name":"排骨年糕","city":"bund","cityName":"黄浦 · 外滩老城厢","desc":"炸猪排配软糯年糕，浇甜面酱或辣酱油：鲜得来的排骨年糕是老字号，一份能当一顿正餐。","img":"assets/images/fd_sh_10.jpg"},{"name":"白斩鸡 · 三黄鸡","city":"bund","cityName":"黄浦 · 外滩老城厢","desc":"小绍兴、振鼎鸡的白斩鸡：鸡皮爽滑、骨中带血是标准，蘸姜葱酱油，配一碗鸡粥是上海人最踏实的一餐。","img":"assets/images/fd_sh_11.jpg"},{"name":"枫泾丁蹄 · 枫泾黄酒","city":"qingpu","cityName":"青浦 · 朱家角淀山湖","desc":"枫泾特产：丁蹄用酱油与冰糖炖到皮肉分离、冷食如冻；枫泾黄酒是上海本地黄酒的代表，冬天温着喝。","img":"assets/images/fd_sh_12.jpg"},{"name":"崇明糕 · 老白酒","city":"chongming","cityName":"崇明 · 生态岛","desc":"崇明糕用糯米、赤豆、枣子、瓜子与猪油蒸制，年节必备；崇明老白酒是米酒，度数低、微甜，配崇明清水蟹与老毛蟹。","img":"assets/images/fd_sh_13.jpg"}],"loops":[{"name":"外滩 · 衡复梧桐步行线","days":"1–2 天","km":"步行约 12 km","desc":"上海最核心的一天：外滩万国建筑 → 南京东路 → 豫园 → 新天地 → 思南路 → 武康路 → 衡复风貌区 → 西岸美术馆群看日落。","path":"外滩 → 南京东路 → 豫园城隍庙 → 新天地 → 田子坊 → 思南公馆 → 武康大楼 → 衡复风貌区 → 西岸滨江","note":"全程地铁+步行或共享单车；外滩夜景建议 19:00 后，灯光到 22:00；武康大楼路口周末人多，早上 8 点前最好拍。","pts":[[31.23802,121.49447,"外滩"],[31.23306,121.47952,"南京东路"],[31.2255,121.49696,"豫园"],[31.21805,121.48051,"新天地"],[31.20806,121.47254,"田子坊"],[31.21305,121.47752,"思南公馆"],[31.21113,121.44162,"武康大楼"],[31.2031,121.45459,"衡复风貌区"],[31.17807,121.46456,"西岸滨江"]]},{"name":"一江一河 · 工业遗产与艺术线","days":"1–2 天","km":"约 40 km","desc":"沿苏州河与黄浦江走一遍上海的城市更新：M50 → 1933 老场坊 → 多伦路 → 提篮桥 → 杨浦滨江 → 陆家嘴 → 西岸。","path":"苏州河华政段 → M50 → 1933 老场坊 → 外白渡桥 → 多伦路 → 提篮桥纪念馆 → 杨浦滨江 → 陆家嘴 → 浦东美术馆 → 西岸","note":"苏州河与黄浦江岸线已全线贯通，适合骑行；杨浦滨江工业遗存最集中，浦东美术馆「镜厅」看外滩最好。","pts":[[31.22616,121.42464,"苏州河华政段"],[31.23814,121.44461,"M50 创意园"],[31.25204,121.48749,"1933 老场坊"],[31.26605,121.4855,"多伦路"],[31.24898,121.50742,"提篮桥纪念馆"],[31.24793,121.52436,"杨浦滨江"],[31.23297,121.50941,"陆家嘴"],[31.23699,121.50443,"浦东美术馆"],[31.17807,121.46456,"西岸滨江"]]},{"name":"江南水乡 · 古镇环线","days":"2 天","km":"约 260 km","desc":"上海郊区的四个水乡古镇一次走完：朱家角（最完整）→ 淀山湖青西郊野公园 → 枫泾（沪浙交界）→ 新场（浦东最安静）。","path":"市区 → 朱家角 → 淀山湖/青西郊野公园 → 枫泾古镇 → 金山嘴渔村 → 新场古镇 → 市区","note":"朱家角通地铁 17 号线，其余需自驾；古镇周末停车紧张，建议 9 点前到；枫泾到金山嘴可顺路吃海鲜。","pts":[[31.22846,121.47822,"上海"],[31.10806,121.05955,"朱家角"],[31.12786,120.9843,"淀山湖"],[30.88781,121.01439,"枫泾古镇"],[30.70786,121.37458,"金山嘴渔村"],[31.0477,121.60419,"新场古镇"],[31.22846,121.47822,"上海"]]},{"name":"崇明生态岛 · 湿地骑行线","days":"2 天","km":"约 240 km","desc":"长江入海口的冲积岛：东滩湿地观鸟 → 东平国家森林公园 → 明珠湖 → 西沙湿地看日落，环岛骑行道是上海最好的骑行环境。","path":"市区(长江隧桥) → 东滩湿地 → 瀛东村 → 东平森林公园 → 明珠湖 → 西沙湿地 → 崇明南门 → 市区","note":"长江隧桥（G40）节假日易堵，建议早出晚归；东滩观鸟最佳是 10 月至次年 3 月，需查潮汐与开放时间；岛上住宿集中在南门与东平。","pts":[[31.22846,121.47822,"上海"],[31.51794,121.95417,"崇明东滩湿地"],[31.67821,121.45463,"东平森林公园"],[31.67811,121.30452,"西沙湿地"],[31.66815,121.32456,"明珠湖"],[31.22846,121.47822,"上海"]]},{"name":"海岸线 · 临港金山 G228 段","days":"1–2 天","km":"约 200 km","desc":"上海唯一的海岸线：金山城市沙滩 → 金山嘴渔村 → 滴水湖 → 上海天文馆 → 海昌海洋公园，是 G228 沿海线的上海段。","path":"市区 → 金山城市沙滩 → 金山嘴渔村 → 杭州湾大堤 → 滴水湖 → 上海天文馆 → 海昌海洋公园 → 市区","note":"金山到临港需绕行杭州湾，约 1.5 小时；天文馆票极难抢，需提前 3–7 天在官方渠道预约；夏季金山沙滩才开放游泳。","pts":[[31.22846,121.47822,"上海"],[30.71783,121.35455,"金山城市沙滩"],[30.70786,121.37458,"金山嘴渔村"],[30.89762,121.90408,"滴水湖"],[30.89762,121.90408,"上海天文馆"],[30.88761,121.90408,"海昌海洋公园"],[31.22846,121.47822,"上海"]]}],"tips":[["限行","外地牌照工作日 7:00–20:00 禁上内环高架、南北高架、延安高架等主要快速路（节假日除外），地面道路不限；市区自驾务必算清这条。"],["停车","核心区停车费普遍 15–20 元/小时且车位紧张，衡复风貌区多为禁停路段；建议地铁+共享单车，车只用于郊区环线。"],["预约","上海博物馆（人民广场馆与东馆分别预约）、天文馆、浦东美术馆与部分美术馆需实名预约，周一多数闭馆；天文馆票最难抢。"],["季节","最佳是 3–5 月（花期、梧桐新绿）与 10–11 月（梧桐落叶、秋高气爽）；6–7 月梅雨闷热，7–9 月台风需查预警，冬季湿冷。"],["梧桐","武康路、复兴西路、衡山路与思南路的梧桐落叶期约在 11 月中下旬到 12 月上旬，部分路段会保留落叶不扫，是上海最好的季节限定。"],["古镇","朱家角最完整但人最多，新场最安静，枫泾最有生活气，七宝最小最方便（地铁直达）；按人少到人多排序选择。"],["住宿","市区住黄浦（外滩/南京东路）或徐汇（衡复）最方便；古镇线住朱家角民宿；崇明线住南门或东平；临港线住滴水湖周边。"]]};
+PROV_DATA.shanghai = {
+ "meta": {
+  "id": "shanghai",
+  "name": "上海",
+  "en": "Shanghai",
+  "capital": "黄浦 · 徐汇",
+  "tagline": "一江一河 · 万国建筑与江南水乡",
+  "geoTitle": "黄浦江把城市切成两半，苏州河把历史缝在一起",
+  "geoSub": "先认准两条水：黄浦江两岸是外滩万国建筑群与陆家嘴天际线，苏州河两岸是仓库、工厂改造的艺术区与老弄堂。",
+  "intro": [
+   "上海的看点不在单个景点，而在城市的层次：外滩 52 幢不同国家风格的近代建筑（「万国建筑博览群」）对着陆家嘴三件套，一江之隔就是 1843 年到今天的落差；往里走是衡复风貌区的梧桐与洋房、石库门弄堂与新天地，再往外是朱家角、枫泾这样的江南水乡。",
+   "自驾在上海要算清成本：核心区停车贵、外地牌照高架限行（工作日 7–20 点），市区最好地铁+步行；车留给崇明、青浦、松江、临港与金山——那才是上海的水乡、海岸与生态岛部分，也是 G228 沿海线的上海段。",
+   "本页按 11 个城区/郊区分组：中心城区看近代建筑与梧桐区，郊区看古镇、佘山、崇明与海岸线，四种玩法互不干扰。"
+  ],
+  "facts": [
+   [
+    "面积",
+    "6340 km²"
+   ],
+   [
+    "常住人口",
+    "2487 万（2023 年末）"
+   ],
+   [
+    "行政区",
+    "16 个市辖区"
+   ],
+   [
+    "近代建筑",
+    "外滩 52 幢 · 衡复风貌区 1000 余幢"
+   ],
+   [
+    "最高峰",
+    "佘山 100.8 m（全市唯一的山）"
+   ],
+   [
+    "水系",
+    "黄浦江 113 km · 苏州河 54 km · 崇明岛 1267 km²"
+   ]
+  ],
+  "regions": [
+   [
+    "外滩 · 万国建筑群",
+    "中山东一路 52 幢近代银行与洋行建筑，从外白渡桥到十六铺：夜晚对岸陆家嘴灯光是最经典机位。"
+   ],
+   [
+    "衡复风貌区 · 梧桐与洋房",
+    "武康路、安福路、思南路、复兴西路一带 1000 余幢花园住宅，上海城市气质最浓的一片，适合骑行。"
+   ],
+   [
+    "一江一河 · 工业遗产带",
+    "苏州河与黄浦江两岸贯通的滨水步道：M50、1933 老场坊、民生码头筒仓、杨浦滨江与西岸美术馆群。"
+   ],
+   [
+    "江南水乡 · 古镇带",
+    "朱家角、枫泾、新场、七宝与召稼楼：上海郊区的古镇比苏杭人少，且都通地铁或高速，半天可往返。"
+   ],
+   [
+    "生态与海岸 · 崇明临港",
+    "崇明东滩与西沙湿地、东平森林公园、滴水湖与金山城市沙滩：上海的湿地、森林与海岸线。"
+   ]
+  ],
+  "capLabel": "中心城区"
+ },
+ "cities": [
+  {
+   "id": "bund",
+   "name": "黄浦 · 外滩老城厢",
+   "lat": 31.23303,
+   "lng": 121.48949,
+   "role": "万国建筑",
+   "desc": "外滩、南京东路、豫园城隍庙、新天地与人民广场：上海最核心的 3 平方公里，近代建筑、石库门与商业街区叠在一起。",
+   "spots": [
+    "waitan",
+    "nanjingdonglu",
+    "yuyuan",
+    "xintiandi",
+    "tianzifang",
+    "shanghai_bowuguan"
+   ],
+   "cap": true
+  },
+  {
+   "id": "xuhui",
+   "name": "徐汇 · 衡复与西岸",
+   "lat": 31.19811,
+   "lng": 121.4496,
+   "role": "梧桐与美术馆",
+   "desc": "武康路、安福路、衡山路、徐家汇书院与西岸美术馆群：上海的梧桐区与当代艺术带都在这里，骑行最舒服。",
+   "spots": [
+    "wukanglu",
+    "hengfu",
+    "sinan",
+    "xujiahui",
+    "xibinjiang"
+   ]
+  },
+  {
+   "id": "jingan",
+   "name": "静安 · 南京西路",
+   "lat": 31.22511,
+   "lng": 121.45459,
+   "role": "商业与寺庙",
+   "desc": "静安寺、南京西路、张园、上海展览中心与玉佛寺：最贵的商业地段与百年寺庙、石库门里弄并存。",
+   "spots": [
+    "jingansi",
+    "zhangyuan",
+    "zhanlanguan",
+    "yufosi"
+   ]
+  },
+  {
+   "id": "pudong",
+   "name": "浦东 · 陆家嘴",
+   "lat": 31.23397,
+   "lng": 121.50941,
+   "role": "天际线",
+   "desc": "东方明珠、金茂、环球金融中心与上海中心 632 米：中国最高的天际线，加上滨江大道与浦东美术馆。",
+   "spots": [
+    "lujiazui",
+    "binjiangdadao",
+    "pudongmeishuguan"
+   ]
+  },
+  {
+   "id": "hongkou",
+   "name": "虹口杨浦 · 苏州河北岸",
+   "lat": 31.25802,
+   "lng": 121.49447,
+   "role": "工业与文人",
+   "desc": "1933 老场坊、多伦路文化名人街、鲁迅公园、提篮桥犹太难民纪念馆与杨浦滨江：老上海的工业与左翼文化现场。",
+   "spots": [
+    "laocjfang",
+    "duolunlu",
+    "tilanqiao",
+    "yangpubinjiang"
+   ]
+  },
+  {
+   "id": "changning",
+   "name": "长宁普陀 · 创意园区",
+   "lat": 31.21815,
+   "lng": 121.42464,
+   "role": "园区改造",
+   "desc": "上生新所、M50 创意园、苏州河华政段步道与中山公园：仓库与老厂房改造的园区，是上海最日常的一面。",
+   "spots": [
+    "shangshengxinsuo",
+    "m50",
+    "suzhouhe"
+   ]
+  },
+  {
+   "id": "songjiang",
+   "name": "松江 · 广富林佘山",
+   "lat": 31.05802,
+   "lng": 121.15455,
+   "role": "上海之根",
+   "desc": "广富林文化遗址、醉白池、方塔、佘山与深坑酒店：松江是上海最早的县城，佘山是全市唯一的山。",
+   "spots": [
+    "guangfulin",
+    "zuihaichi",
+    "songjiangfangta",
+    "sheshan",
+    "shenkeng"
+   ]
+  },
+  {
+   "id": "qingpu",
+   "name": "青浦 · 朱家角淀山湖",
+   "lat": 31.10806,
+   "lng": 121.05955,
+   "role": "江南水乡",
+   "desc": "朱家角古镇、淀山湖、枫泾古镇与青西郊野公园：上海最大的湖泊与最完整的水乡古镇，G50 高速直达。",
+   "spots": [
+    "zhujiajiao",
+    "dianshanhu",
+    "fengjing"
+   ]
+  },
+  {
+   "id": "chongming",
+   "name": "崇明 · 生态岛",
+   "lat": 31.61826,
+   "lng": 121.40469,
+   "role": "湿地与森林",
+   "desc": "东滩湿地、西沙湿地、东平国家森林公园与明珠湖：长江入海口的冲积岛，候鸟迁徙与骑行是主题。",
+   "spots": [
+    "dongtan",
+    "xisha",
+    "dongping"
+   ]
+  },
+  {
+   "id": "lingang",
+   "name": "临港金山 · 海岸线",
+   "lat": 30.84758,
+   "lng": 121.60417,
+   "role": "看海",
+   "desc": "滴水湖、上海天文馆、海昌海洋公园、金山城市沙滩与枫泾：上海的海岸线与最南端，G228 沿海线的上海段。",
+   "spots": [
+    "dishuihu",
+    "tianwenguan",
+    "jinshansha",
+    "jinshanzui"
+   ]
+  },
+  {
+   "id": "nanhui",
+   "name": "浦东南汇 · 迪士尼新场",
+   "lat": 31.09774,
+   "lng": 121.6242,
+   "role": "乐园与古镇",
+   "desc": "上海迪士尼、新场古镇、召稼楼与上海野生动物园：浦东南部，乐园与水乡相隔 20 分钟车程。",
+   "spots": [
+    "disney",
+    "xinchang",
+    "zhaoshuailou",
+    "yeshengdongwuyuan"
+   ]
+  }
+ ],
+ "spots": [
+  {
+   "id": "waitan",
+   "name": "外滩万国建筑博览群",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "bund",
+   "desc": "中山东一路 52 幢近代建筑：汇丰银行大楼（1923，穹顶马赛克）、海关大楼（大钟）、和平饭店（绿色金字塔顶）与外滩源，被称为「万国建筑博览群」。",
+   "img": "assets/images/sh_waitan.jpg",
+   "ticket": "免费",
+   "season": "全年，日落与夜景最佳",
+   "free": true,
+   "key": true,
+   "lat": 31.23802,
+   "lng": 121.49447
+  },
+  {
+   "id": "nanjingdonglu",
+   "name": "南京东路步行街",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "bund",
+   "desc": "「中华商业第一街」，从外滩一直延伸到人民广场：老字号（第一食品、沈大成、真老大房）与新商场并存，人流全年不断。",
+   "img": "assets/images/sh_nanjingdonglu.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 31.23306,
+   "lng": 121.47952
+  },
+  {
+   "id": "yuyuan",
+   "name": "豫园 · 城隍庙",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "bund",
+   "desc": "1559 年潘允端为父母建的江南私家园林：大假山由明代叠山名家张南阳所堆，玉玲珑是宋徽宗花石纲遗物；园外的城隍庙商圈是上海最热闹的旅游集市。",
+   "img": "assets/images/sh_yuyuan.jpg",
+   "ticket": "40 元",
+   "season": "全年",
+   "key": true,
+   "lat": 31.2255,
+   "lng": 121.49696
+  },
+  {
+   "id": "xintiandi",
+   "name": "新天地 · 石库门",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "bund",
+   "desc": "把石库门里弄外壳保留、内部改造成餐厅与店铺的改造范本：北里是商业，南里更接近居住原貌，旁边的中共一大会址是重点文保。",
+   "img": "assets/images/sh_xintiandi.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 31.21805,
+   "lng": 121.48051
+  },
+  {
+   "id": "tianzifang",
+   "name": "田子坊",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "bund",
+   "desc": "泰康路上的石库门弄堂改造艺术区：小店、工作室与居民生活混在一起，比新天地更「野生」，弄堂尺度是上海里弄的典型样本。",
+   "img": "assets/images/sh_tianzifang.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 31.20806,
+   "lng": 121.47254
+  },
+  {
+   "id": "wukanglu",
+   "name": "武康路 · 武康大楼",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "xuhui",
+   "desc": "1907 年筑成的梧桐马路，武康大楼（1924，邬达克设计的诺曼底公寓）是上海最出名的建筑之一：沿线还有巴金故居、宋庆龄故居与几十幢名人住宅。",
+   "img": "assets/images/sh_wukanglu.jpg",
+   "ticket": "免费",
+   "season": "全年，秋季梧桐",
+   "free": true,
+   "key": true,
+   "lat": 31.21113,
+   "lng": 121.44162
+  },
+  {
+   "id": "hengfu",
+   "name": "衡山路–复兴路历史风貌区",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "xuhui",
+   "desc": "上海最大的历史风貌保护区，1000 余幢花园住宅与 40 多条梧桐马路：骑行或步行逛复兴西路、五原路、安福路与乌鲁木齐中路最舒服。",
+   "img": "assets/images/sh_hengfu.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "key": true,
+   "lat": 31.2031,
+   "lng": 121.45459
+  },
+  {
+   "id": "sinan",
+   "name": "思南公馆 · 思南路",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "xuhui",
+   "desc": "51 幢历史花园住宅组成的街区：思南读书会、复兴公园与周公馆（中共代表团驻地旧址）都在附近，是上海最文气的一片。",
+   "img": "assets/images/sh_sinan.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 31.21305,
+   "lng": 121.47752
+  },
+  {
+   "id": "xujiahui",
+   "name": "徐家汇 · 徐家汇书院",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "xuhui",
+   "desc": "徐家汇天主堂（1910，双尖顶哥特式）、徐家汇书院（新馆，中庭可看教堂立面）、藏书楼与上海交通大学老校门集中在一片。",
+   "img": "assets/images/sh_xujiahui.jpg",
+   "ticket": "免费（教堂 10 元）",
+   "season": "全年",
+   "free": true,
+   "lat": 31.18812,
+   "lng": 121.44261
+  },
+  {
+   "id": "xibinjiang",
+   "name": "西岸美术馆群 · 徐汇滨江",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "xuhui",
+   "desc": "黄浦江西岸 11 公里滨水带改造：龙美术馆（西岸馆）、西岸美术馆（与蓬皮杜合作）、余德耀美术馆与油罐艺术中心串成一条艺术走廊。",
+   "img": "assets/images/sh_xibinjiang.jpg",
+   "ticket": "展馆另收",
+   "season": "全年",
+   "key": true,
+   "lat": 31.17807,
+   "lng": 121.46456
+  },
+  {
+   "id": "jingansi",
+   "name": "静安寺",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "jingan",
+   "desc": "相传三国吴赤乌年间始建，现存为 1980 年代后重建的仿明式金顶寺院：被 CBD 高楼包围，「静安寺商圈」是上海最贵的地段之一。",
+   "img": "assets/images/sh_jingansi.jpg",
+   "ticket": "50 元",
+   "season": "全年",
+   "lat": 31.22182,
+   "lng": 121.4501
+  },
+  {
+   "id": "zhangyuan",
+   "name": "张园",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "jingan",
+   "desc": "上海现存规模最大、保存最完整的石库门里弄群（1882 年）：2023 年整修后开放，40 余幢建筑连成片，是研究上海里弄的最佳现场。",
+   "img": "assets/images/sh_zhangyuan.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 31.2261,
+   "lng": 121.46257
+  },
+  {
+   "id": "zhanlanguan",
+   "name": "上海展览中心",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "jingan",
+   "desc": "1955 年建成的俄罗斯古典主义建筑，原名中苏友好大厦：中央塔楼与尖顶是上海地标，经常举办书展、艺术展与车展。",
+   "img": "assets/images/sh_zhanlanguan.jpg",
+   "ticket": "视展览",
+   "season": "全年",
+   "lat": 31.22511,
+   "lng": 121.45659
+  },
+  {
+   "id": "yufosi",
+   "name": "玉佛禅寺",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "jingan",
+   "desc": "1882 年创建，因供奉两尊玉佛得名：寺内素斋（玉佛禅寺素面）很有名，建筑为仿宋式，是上海市区香火最盛的寺院之一。",
+   "img": "assets/images/sh_yufosi.jpg",
+   "ticket": "50 元",
+   "season": "全年",
+   "lat": 31.23913,
+   "lng": 121.4516
+  },
+  {
+   "id": "lujiazui",
+   "name": "陆家嘴天际线",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "pudong",
+   "desc": "上海中心（632 米，中国第一高楼）、环球金融中心（492 米）、金茂大厦（420.5 米）与东方明珠（468 米）：从外滩看是全景，从上海中心 118 层看是全城。",
+   "img": "assets/images/sh_lujiazui.jpg",
+   "ticket": "观景台 120–180 元",
+   "season": "全年",
+   "key": true,
+   "lat": 31.23297,
+   "lng": 121.50941
+  },
+  {
+   "id": "binjiangdadao",
+   "name": "浦东滨江大道 · 后滩",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "pudong",
+   "desc": "黄浦江东岸的滨江步道，从东昌路到后滩公园：正对外滩，是拍对岸天际线最舒服的角度，后滩公园的湿地净化系统本身是景观。",
+   "img": "assets/images/sh_binjiangdadao.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 31.21799,
+   "lng": 121.49945
+  },
+  {
+   "id": "pudongmeishuguan",
+   "name": "浦东美术馆",
+   "cat": "museum",
+   "catName": "博物馆",
+   "city": "pudong",
+   "desc": "让·努维尔设计，2021 年开馆：三层玻璃「镜厅」正对外滩，常与泰特、大都会等合作大展，建筑本身即展品。",
+   "img": "assets/images/sh_pudongmeishuguan.jpg",
+   "ticket": "100 元起",
+   "season": "全年，周一闭馆",
+   "key": true,
+   "lat": 31.23699,
+   "lng": 121.50443
+  },
+  {
+   "id": "laocjfang",
+   "name": "1933 老场坊",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "hongkou",
+   "desc": "1933 年英国设计的宰牲场，混凝土「无梁楼盖」与 26 座廊桥交错：结构极其超现实，现为创意园区，是上海最出片的工业建筑。",
+   "img": "assets/images/sh_laocjfang.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 31.25204,
+   "lng": 121.48749
+  },
+  {
+   "id": "duolunlu",
+   "name": "多伦路文化名人街",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "hongkou",
+   "desc": "1920–30 年代鲁迅、茅盾、郭沫若、叶圣陶聚居的街区：鲁迅公园与故居、左联会址纪念馆都在步行范围，是上海左翼文化的现场。",
+   "img": "assets/images/sh_duolunlu.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 31.26605,
+   "lng": 121.4855
+  },
+  {
+   "id": "tilanqiao",
+   "name": "提篮桥 · 上海犹太难民纪念馆",
+   "cat": "museum",
+   "catName": "博物馆",
+   "city": "hongkou",
+   "desc": "二战期间 2 万余名欧洲犹太难民在此避难，摩西会堂（1907）保存完好：纪念馆记录了这段「生命签证」历史，展陈克制而有力。",
+   "img": "assets/images/sh_tilanqiao.jpg",
+   "ticket": "20 元",
+   "season": "全年，周一闭馆",
+   "lat": 31.24898,
+   "lng": 121.50742
+  },
+  {
+   "id": "yangpubinjiang",
+   "name": "杨浦滨江 · 工业遗存带",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "hongkou",
+   "desc": "15 公里滨水岸线，曾是近代中国工业最密集的「工业锈带」：毛麻仓库、明华糖厂、杨树浦水厂与大量塔吊、轨道被保留为景观。",
+   "img": "assets/images/sh_yangpubinjiang.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "key": true,
+   "lat": 31.24793,
+   "lng": 121.52436
+  },
+  {
+   "id": "shangshengxinsuo",
+   "name": "上生新所",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "changning",
+   "desc": "1924 年哥伦比亚乡村俱乐部旧址改造：巴洛克泳池、孙科别墅与茑屋书店组合，是上海园区改造里品质最高的一处。",
+   "img": "assets/images/sh_shangshengxinsuo.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 31.21114,
+   "lng": 121.43463
+  },
+  {
+   "id": "m50",
+   "name": "M50 创意园",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "changning",
+   "desc": "莫干山路 50 号，原上海春明粗纺厂：100 余家画廊与工作室聚集，苏州河边的涂鸦墙是上海街头艺术的代表，免费开放。",
+   "img": "assets/images/sh_m50.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 31.23814,
+   "lng": 121.44461
+  },
+  {
+   "id": "suzhouhe",
+   "name": "苏州河滨水步道 · 华政段",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "changning",
+   "desc": "苏州河 42 公里岸线已全线贯通：华东政法大学段最经典，13 幢历史建筑沿河排开，加上外白渡桥、四行仓库与昌平路桥灯光带。",
+   "img": "assets/images/sh_suzhouhe.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "key": true,
+   "lat": 31.22616,
+   "lng": 121.42464
+  },
+  {
+   "id": "shanghai_bowuguan",
+   "name": "上海博物馆",
+   "cat": "museum",
+   "catName": "博物馆",
+   "city": "bund",
+   "desc": "人民广场馆以青铜、陶瓷、书画三大馆闻名，大克鼎与青铜器展是国内顶级；2024 年开放的东馆（浦东）规模更大，需分别预约。",
+   "img": "assets/images/sh_shanghai_bowuguan.jpg",
+   "ticket": "免费",
+   "season": "全年，周一闭馆",
+   "free": true,
+   "key": true,
+   "lat": 31.22705,
+   "lng": 121.47952
+  },
+  {
+   "id": "guangfulin",
+   "name": "广富林文化遗址",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "songjiang",
+   "desc": "「上海之根」：距今 5000 年的广富林文化遗址，水下博物馆像漂浮的屋顶，遗址公园与知也禅寺连成一片，展示上海成陆史。",
+   "img": "assets/images/sh_guangfulin.jpg",
+   "ticket": "40 元",
+   "season": "全年",
+   "lat": 31.0579,
+   "lng": 121.22443
+  },
+  {
+   "id": "zuihaichi",
+   "name": "醉白池",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "songjiang",
+   "desc": "上海五大古典园林之一，宋代韩琦醉白堂故址：明代园主人董其昌曾在此作画，园内 300 余年古树与湖石是精华，游客远少于豫园。",
+   "img": "assets/images/sh_zuihaichi.jpg",
+   "ticket": "12 元",
+   "season": "全年",
+   "lat": 30.99787,
+   "lng": 121.22442
+  },
+  {
+   "id": "songjiangfangta",
+   "name": "松江方塔园 · 兴圣教寺塔",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "songjiang",
+   "desc": "北宋熙宁年间的方形砖木塔（42.5 米），塔身收分优美：园内还有明代照壁、清代天妃宫与兰瑞堂，是上海古建密度最高的一处。",
+   "img": "assets/images/sh_songjiangfangta.jpg",
+   "ticket": "15 元",
+   "season": "全年",
+   "lat": 30.99785,
+   "lng": 121.24441
+  },
+  {
+   "id": "sheshan",
+   "name": "佘山",
+   "cat": "mountain",
+   "catName": "山岳·徒步",
+   "city": "songjiang",
+   "desc": "上海唯一的山（100.8 米），分东西两峰：山顶有 1925 年建成的佘山进教之佑圣母大殿（远东第一大教堂）与中国近代天文台旧址。",
+   "img": "assets/images/sh_sheshan.jpg",
+   "diff": 1,
+   "ticket": "免费",
+   "season": "全年",
+   "lat": 31.09793,
+   "lng": 121.22443
+  },
+  {
+   "id": "shenkeng",
+   "name": "深坑酒店 · 天马山采石坑",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "songjiang",
+   "desc": "在废弃采石坑（深 88 米）里建成的酒店，被称为「世界建筑奇迹」：不入住也可在观景平台俯瞰，旁边是深坑秘境主题乐园。",
+   "img": "assets/images/sh_shenkeng.jpg",
+   "ticket": "观景免费",
+   "season": "全年",
+   "free": true,
+   "lat": 31.08795,
+   "lng": 121.20446
+  },
+  {
+   "id": "zhujiajiao",
+   "name": "朱家角古镇",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "qingpu",
+   "desc": "上海保存最完整的江南水乡古镇：放生桥（明代五孔石拱桥，上海最大）、漕港河两岸明清街、课植园与北大街，地铁 17 号线直达。",
+   "img": "assets/images/sh_zhujiajiao.jpg",
+   "ticket": "古镇免费，景点联票 80",
+   "season": "全年",
+   "key": true,
+   "lat": 31.10806,
+   "lng": 121.05955
+  },
+  {
+   "id": "dianshanhu",
+   "name": "淀山湖",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "qingpu",
+   "desc": "上海最大的淡水湖（62 平方公里），黄浦江源头：环湖有帆船、湿地与青西郊野公园的水上森林（池杉林淹在水里，秋季变红最出片）。",
+   "img": "assets/images/sh_dianshanhu.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "key": true,
+   "lat": 31.12786,
+   "lng": 120.9843
+  },
+  {
+   "id": "fengjing",
+   "name": "枫泾古镇",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "qingpu",
+   "desc": "沪浙交界的水乡古镇，「三步两座桥，一望十条巷」：金山农民画发源地，丁蹄、黄酒与枫泾豆腐干是本地三样。",
+   "img": "assets/images/sh_fengjing.jpg",
+   "ticket": "古镇免费，景点 50",
+   "season": "全年",
+   "lat": 30.88781,
+   "lng": 121.01439
+  },
+  {
+   "id": "dongtan",
+   "name": "崇明东滩湿地",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "chongming",
+   "desc": "长江入海口最大的河口湿地，国际重要湿地与候鸟驿站：每年秋冬数十万只雁鸭与鸻鹬类过境，木栈道深入芦苇荡，观鸟屋视野极好。",
+   "img": "assets/images/sh_dongtan.jpg",
+   "ticket": "50 元",
+   "season": "10 月–次年 3 月观鸟",
+   "key": true,
+   "lat": 31.51794,
+   "lng": 121.95417
+  },
+  {
+   "id": "xisha",
+   "name": "崇明西沙湿地 · 明珠湖",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "chongming",
+   "desc": "崇明岛西端的潮汐湿地，2 公里木栈道穿过芦苇与滩涂：可看潮汐变化与「崇明日落」，旁边明珠湖是环岛骑行最好的补给点。",
+   "img": "assets/images/sh_xisha.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "key": true,
+   "lat": 31.67811,
+   "lng": 121.30452
+  },
+  {
+   "id": "dongping",
+   "name": "东平国家森林公园",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "chongming",
+   "desc": "华东地区最大的平原人造森林（350 公顷）：水杉、池杉与银杏成排，适合骑行、露营与野餐，秋天林相变色是崇明最好的季节。",
+   "img": "assets/images/sh_dongping.jpg",
+   "ticket": "60 元",
+   "season": "4–11 月",
+   "lat": 31.67821,
+   "lng": 121.45463
+  },
+  {
+   "id": "dishuihu",
+   "name": "滴水湖 · 临港新片区",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "lingang",
+   "desc": "在滩涂上挖出的人工湖（直径 2.66 公里），临港新城的中心：环湖 8 公里骑行道，湖心岛与新城放射状路网从高处看极规整。",
+   "img": "assets/images/sh_dishuihu.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 30.89762,
+   "lng": 121.90408
+  },
+  {
+   "id": "tianwenguan",
+   "name": "上海天文馆",
+   "cat": "museum",
+   "catName": "博物馆",
+   "city": "lingang",
+   "desc": "全球建筑面积最大的天文馆（2021 年开馆），螺旋形态呼应天体运行：家园、宇宙、征程三大展区与球幕影院，需提前数日抢票。",
+   "img": "assets/images/sh_tianwenguan.jpg",
+   "ticket": "30 元（预约制）",
+   "season": "全年，周一闭馆",
+   "key": true,
+   "lat": 30.89762,
+   "lng": 121.90408
+  },
+  {
+   "id": "jinshansha",
+   "name": "金山城市沙滩",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "lingang",
+   "desc": "杭州湾北岸的人工沙滩，上海唯一的滨海浴场：夏季开放游泳与水上项目，也是 G228 沿海线进入上海的标志点，旁边是金山嘴渔村。",
+   "img": "assets/images/sh_jinshansha.jpg",
+   "ticket": "夏季收费",
+   "season": "6–9 月",
+   "lat": 30.71783,
+   "lng": 121.35455
+  },
+  {
+   "id": "jinshanzui",
+   "name": "金山嘴渔村",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "lingang",
+   "desc": "上海最后一个活着的渔村：老街、渔民宅与海鲜排档，海鲜以杭州湾梭子蟹、白虾与黄鱼为主，9–10 月开渔后最肥。",
+   "img": "assets/images/sh_jinshanzui.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 30.70786,
+   "lng": 121.37458
+  },
+  {
+   "id": "disney",
+   "name": "上海迪士尼度假区",
+   "cat": "landmark",
+   "catName": "地标",
+   "city": "nanhui",
+   "desc": "2016 年开园，中国内地首座迪士尼：创极速光轮、翱翔·飞越地平线与奇想花园，夜光幻影秀是压轴，需提前购票并用官方 App 排队。",
+   "img": "assets/images/sh_disney.jpg",
+   "ticket": "475 元起",
+   "season": "全年",
+   "key": true,
+   "lat": 31.14182,
+   "lng": 121.66226
+  },
+  {
+   "id": "xinchang",
+   "name": "新场古镇",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "nanhui",
+   "desc": "浦东唯一保存完整的水乡古镇，因下沙盐场而得名：明清宅院、石拱桥与「十三牌楼九环龙」格局，比朱家角安静，电影取景地。",
+   "img": "assets/images/sh_xinchang.jpg",
+   "ticket": "免费",
+   "season": "全年",
+   "free": true,
+   "lat": 31.0477,
+   "lng": 121.60419
+  },
+  {
+   "id": "zhaoshuailou",
+   "name": "召稼楼古镇",
+   "cat": "culture",
+   "catName": "人文",
+   "city": "nanhui",
+   "desc": "浦东最早的垦荒之地，元代即有集市：报恩桥、老街与本地小吃（召稼楼汤肉、三黄鸡）曾是上海近郊最地道的古镇，现处于改造期，出发前查开放状态。",
+   "img": "assets/images/sh_zhaoshuailou.jpg",
+   "ticket": "免费",
+   "season": "以官方公告为准",
+   "lat": 31.08782,
+   "lng": 121.53431
+  },
+  {
+   "id": "yeshengdongwuyuan",
+   "name": "上海野生动物园",
+   "cat": "scenery",
+   "catName": "景色",
+   "city": "nanhui",
+   "desc": "国家级野生动物园，车入区可近距离看猛兽：步行区有大熊猫、长颈鹿与火烈鸟，是上海亲子游的常规选项，需一整天。",
+   "img": "assets/images/sh_yeshengdongwuyuan.jpg",
+   "ticket": "130 元",
+   "season": "全年",
+   "lat": 31.0177,
+   "lng": 121.57421
+  }
+ ],
+ "foods": [
+  {
+   "name": "南翔小笼",
+   "city": "bund",
+   "cityName": "黄浦 · 外滩老城厢",
+   "desc": "豫园南翔馒头店的薄皮小笼，「一口开天窗，二口慢慢吸」：蟹粉小笼秋季最肥，二楼堂吃比楼下外卖窗口从容。",
+   "img": "assets/images/fd_sh_01.jpg"
+  },
+  {
+   "name": "生煎馒头",
+   "city": "bund",
+   "cityName": "黄浦 · 外滩老城厢",
+   "desc": "上海人的早餐之王：底部煎到金黄酥脆、咬开一包汤汁，大壶春（全发酵面皮、无汤汁派）与小杨生煎（薄皮多汁派）是两种流派。",
+   "img": "assets/images/fd_sh_02.jpg"
+  },
+  {
+   "name": "本帮红烧肉",
+   "city": "xuhui",
+   "cityName": "徐汇 · 衡复与西岸",
+   "desc": "浓油赤酱的代表：五花肉用冰糖与酱油小火焖到酥而不烂、色如玛瑙，配卤蛋或百叶结，甜咸平衡是上海菜的核心。",
+   "img": "assets/images/fd_sh_03.jpg"
+  },
+  {
+   "name": "腌笃鲜",
+   "city": "xuhui",
+   "cityName": "徐汇 · 衡复与西岸",
+   "desc": "春笋、咸肉与鲜肉同炖：汤白如奶、笋香扑鼻，是上海春天的仪式，「腌」指咸肉、「鲜」指鲜肉、「笃」是吴语小火慢炖。",
+   "img": "assets/images/fd_sh_04.jpg"
+  },
+  {
+   "name": "响油鳝糊",
+   "city": "bund",
+   "cityName": "黄浦 · 外滩老城厢",
+   "desc": "鳝丝红烧后上桌，最后浇一勺滚烫葱油发出「刺啦」声：甜咸浓稠，是本帮菜里最考验火候的一道。",
+   "img": "assets/images/fd_sh_05.jpg"
+  },
+  {
+   "name": "草头圈子",
+   "city": "jingan",
+   "cityName": "静安 · 南京西路",
+   "desc": "大肠（圈子）红烧到软糯，配生炒草头（苜蓿）解腻：一荤一素同盘，是老上海餐馆的招牌搭配。",
+   "img": "assets/images/fd_sh_06.jpg"
+  },
+  {
+   "name": "油爆河虾",
+   "city": "bund",
+   "cityName": "黄浦 · 外滩老城厢",
+   "desc": "活河虾急火爆炒，壳脆肉嫩、连壳可食：讲究「三进三出油锅」，清明前后的河虾最肥。",
+   "img": "assets/images/fd_sh_07.jpg"
+  },
+  {
+   "name": "葱油拌面",
+   "city": "bund",
+   "cityName": "黄浦 · 外滩老城厢",
+   "desc": "最简单也最考功夫：葱段用猪油慢熬到焦黄，拌入细面加酱油与糖，一碗好的葱油拌面全靠葱油的火候。",
+   "img": "assets/images/fd_sh_08.jpg"
+  },
+  {
+   "name": "大饼油条 · 粢饭糕",
+   "city": "bund",
+   "cityName": "黄浦 · 外滩老城厢",
+   "desc": "上海早餐「四大金刚」是大饼、油条、粢饭、豆浆：粢饭糕是糯米饭压成方块炸到外脆内糯，街边摊 5 点开始卖。",
+   "img": "assets/images/fd_sh_09.jpg"
+  },
+  {
+   "name": "排骨年糕",
+   "city": "bund",
+   "cityName": "黄浦 · 外滩老城厢",
+   "desc": "炸猪排配软糯年糕，浇甜面酱或辣酱油：鲜得来的排骨年糕是老字号，一份能当一顿正餐。",
+   "img": "assets/images/fd_sh_10.jpg"
+  },
+  {
+   "name": "白斩鸡 · 三黄鸡",
+   "city": "bund",
+   "cityName": "黄浦 · 外滩老城厢",
+   "desc": "小绍兴、振鼎鸡的白斩鸡：鸡皮爽滑、骨中带血是标准，蘸姜葱酱油，配一碗鸡粥是上海人最踏实的一餐。",
+   "img": "assets/images/fd_sh_11.jpg"
+  },
+  {
+   "name": "枫泾丁蹄 · 枫泾黄酒",
+   "city": "qingpu",
+   "cityName": "青浦 · 朱家角淀山湖",
+   "desc": "枫泾特产：丁蹄用酱油与冰糖炖到皮肉分离、冷食如冻；枫泾黄酒是上海本地黄酒的代表，冬天温着喝。",
+   "img": "assets/images/fd_sh_12.jpg"
+  },
+  {
+   "name": "崇明糕 · 老白酒",
+   "city": "chongming",
+   "cityName": "崇明 · 生态岛",
+   "desc": "崇明糕用糯米、赤豆、枣子、瓜子与猪油蒸制，年节必备；崇明老白酒是米酒，度数低、微甜，配崇明清水蟹与老毛蟹。",
+   "img": "assets/images/fd_sh_13.jpg"
+  }
+ ],
+ "loops": [
+  {
+   "name": "外滩 · 衡复梧桐步行线",
+   "days": "1–2 天",
+   "km": "步行约 12 km",
+   "desc": "上海最核心的一天：外滩万国建筑 → 南京东路 → 豫园 → 新天地 → 思南路 → 武康路 → 衡复风貌区 → 西岸美术馆群看日落。",
+   "path": "外滩 → 南京东路 → 豫园城隍庙 → 新天地 → 田子坊 → 思南公馆 → 武康大楼 → 衡复风貌区 → 西岸滨江",
+   "note": "全程地铁+步行或共享单车；外滩夜景建议 19:00 后，灯光到 22:00；武康大楼路口周末人多，早上 8 点前最好拍。",
+   "pts": [
+    [
+     31.23802,
+     121.49447,
+     "外滩"
+    ],
+    [
+     31.23306,
+     121.47952,
+     "南京东路"
+    ],
+    [
+     31.2255,
+     121.49696,
+     "豫园"
+    ],
+    [
+     31.21805,
+     121.48051,
+     "新天地"
+    ],
+    [
+     31.20806,
+     121.47254,
+     "田子坊"
+    ],
+    [
+     31.21305,
+     121.47752,
+     "思南公馆"
+    ],
+    [
+     31.21113,
+     121.44162,
+     "武康大楼"
+    ],
+    [
+     31.2031,
+     121.45459,
+     "衡复风貌区"
+    ],
+    [
+     31.17807,
+     121.46456,
+     "西岸滨江"
+    ]
+   ]
+  },
+  {
+   "name": "一江一河 · 工业遗产与艺术线",
+   "days": "1–2 天",
+   "km": "约 40 km",
+   "desc": "沿苏州河与黄浦江走一遍上海的城市更新：M50 → 1933 老场坊 → 多伦路 → 提篮桥 → 杨浦滨江 → 陆家嘴 → 西岸。",
+   "path": "苏州河华政段 → M50 → 1933 老场坊 → 外白渡桥 → 多伦路 → 提篮桥纪念馆 → 杨浦滨江 → 陆家嘴 → 浦东美术馆 → 西岸",
+   "note": "苏州河与黄浦江岸线已全线贯通，适合骑行；杨浦滨江工业遗存最集中，浦东美术馆「镜厅」看外滩最好。",
+   "pts": [
+    [
+     31.22616,
+     121.42464,
+     "苏州河华政段"
+    ],
+    [
+     31.23814,
+     121.44461,
+     "M50 创意园"
+    ],
+    [
+     31.25204,
+     121.48749,
+     "1933 老场坊"
+    ],
+    [
+     31.26605,
+     121.4855,
+     "多伦路"
+    ],
+    [
+     31.24898,
+     121.50742,
+     "提篮桥纪念馆"
+    ],
+    [
+     31.24793,
+     121.52436,
+     "杨浦滨江"
+    ],
+    [
+     31.23297,
+     121.50941,
+     "陆家嘴"
+    ],
+    [
+     31.23699,
+     121.50443,
+     "浦东美术馆"
+    ],
+    [
+     31.17807,
+     121.46456,
+     "西岸滨江"
+    ]
+   ]
+  },
+  {
+   "name": "江南水乡 · 古镇环线",
+   "days": "2 天",
+   "km": "约 260 km",
+   "desc": "上海郊区的四个水乡古镇一次走完：朱家角（最完整）→ 淀山湖青西郊野公园 → 枫泾（沪浙交界）→ 新场（浦东最安静）。",
+   "path": "市区 → 朱家角 → 淀山湖/青西郊野公园 → 枫泾古镇 → 金山嘴渔村 → 新场古镇 → 市区",
+   "note": "朱家角通地铁 17 号线，其余需自驾；古镇周末停车紧张，建议 9 点前到；枫泾到金山嘴可顺路吃海鲜。",
+   "pts": [
+    [
+     31.22846,
+     121.47822,
+     "上海"
+    ],
+    [
+     31.10806,
+     121.05955,
+     "朱家角"
+    ],
+    [
+     31.12786,
+     120.9843,
+     "淀山湖"
+    ],
+    [
+     30.88781,
+     121.01439,
+     "枫泾古镇"
+    ],
+    [
+     30.70786,
+     121.37458,
+     "金山嘴渔村"
+    ],
+    [
+     31.0477,
+     121.60419,
+     "新场古镇"
+    ],
+    [
+     31.22846,
+     121.47822,
+     "上海"
+    ]
+   ]
+  },
+  {
+   "name": "崇明生态岛 · 湿地骑行线",
+   "days": "2 天",
+   "km": "约 240 km",
+   "desc": "长江入海口的冲积岛：东滩湿地观鸟 → 东平国家森林公园 → 明珠湖 → 西沙湿地看日落，环岛骑行道是上海最好的骑行环境。",
+   "path": "市区(长江隧桥) → 东滩湿地 → 瀛东村 → 东平森林公园 → 明珠湖 → 西沙湿地 → 崇明南门 → 市区",
+   "note": "长江隧桥（G40）节假日易堵，建议早出晚归；东滩观鸟最佳是 10 月至次年 3 月，需查潮汐与开放时间；岛上住宿集中在南门与东平。",
+   "pts": [
+    [
+     31.22846,
+     121.47822,
+     "上海"
+    ],
+    [
+     31.51794,
+     121.95417,
+     "崇明东滩湿地"
+    ],
+    [
+     31.67821,
+     121.45463,
+     "东平森林公园"
+    ],
+    [
+     31.67811,
+     121.30452,
+     "西沙湿地"
+    ],
+    [
+     31.66815,
+     121.32456,
+     "明珠湖"
+    ],
+    [
+     31.22846,
+     121.47822,
+     "上海"
+    ]
+   ]
+  },
+  {
+   "name": "海岸线 · 临港金山 G228 段",
+   "days": "1–2 天",
+   "km": "约 200 km",
+   "desc": "上海唯一的海岸线：金山城市沙滩 → 金山嘴渔村 → 滴水湖 → 上海天文馆 → 海昌海洋公园，是 G228 沿海线的上海段。",
+   "path": "市区 → 金山城市沙滩 → 金山嘴渔村 → 杭州湾大堤 → 滴水湖 → 上海天文馆 → 海昌海洋公园 → 市区",
+   "note": "金山到临港需绕行杭州湾，约 1.5 小时；天文馆票极难抢，需提前 3–7 天在官方渠道预约；夏季金山沙滩才开放游泳。",
+   "pts": [
+    [
+     31.22846,
+     121.47822,
+     "上海"
+    ],
+    [
+     30.71783,
+     121.35455,
+     "金山城市沙滩"
+    ],
+    [
+     30.70786,
+     121.37458,
+     "金山嘴渔村"
+    ],
+    [
+     30.89762,
+     121.90408,
+     "滴水湖"
+    ],
+    [
+     30.89762,
+     121.90408,
+     "上海天文馆"
+    ],
+    [
+     30.88761,
+     121.90408,
+     "海昌海洋公园"
+    ],
+    [
+     31.22846,
+     121.47822,
+     "上海"
+    ]
+   ]
+  }
+ ],
+ "tips": [
+  [
+   "限行",
+   "外地牌照工作日 7:00–20:00 禁上内环高架、南北高架、延安高架等主要快速路（节假日除外），地面道路不限；市区自驾务必算清这条。"
+  ],
+  [
+   "停车",
+   "核心区停车费普遍 15–20 元/小时且车位紧张，衡复风貌区多为禁停路段；建议地铁+共享单车，车只用于郊区环线。"
+  ],
+  [
+   "预约",
+   "上海博物馆（人民广场馆与东馆分别预约）、天文馆、浦东美术馆与部分美术馆需实名预约，周一多数闭馆；天文馆票最难抢。"
+  ],
+  [
+   "季节",
+   "最佳是 3–5 月（花期、梧桐新绿）与 10–11 月（梧桐落叶、秋高气爽）；6–7 月梅雨闷热，7–9 月台风需查预警，冬季湿冷。"
+  ],
+  [
+   "梧桐",
+   "武康路、复兴西路、衡山路与思南路的梧桐落叶期约在 11 月中下旬到 12 月上旬，部分路段会保留落叶不扫，是上海最好的季节限定。"
+  ],
+  [
+   "古镇",
+   "朱家角最完整但人最多，新场最安静，枫泾最有生活气，七宝最小最方便（地铁直达）；按人少到人多排序选择。"
+  ],
+  [
+   "住宿",
+   "市区住黄浦（外滩/南京东路）或徐汇（衡复）最方便；古镇线住朱家角民宿；崇明线住南门或东平；临港线住滴水湖周边。"
+  ]
+ ],
+ "features": {
+  "intro": "上海是中国近代城市文明的缩影：外滩 52 幢万国建筑与陆家嘴摩天楼隔江对望，苏州河与黄浦江串联起百年工业遗存和当代艺术群落。这座 6340 平方公里的城市把海派文化、江南古镇、世界级博物馆群和全球最高的天际线折叠在一起——一城之内，历史纵深与未来感同时拉满。",
+  "groups": [
+   {
+    "name": "外滩万国建筑",
+    "icon": "楼",
+    "color": "#8A5A2B",
+    "intro": "外滩 1.5 公里岸线上集中了 52 幢风格迥异的历史建筑，被称为「万国建筑博览群」，是近代中国金融与贸易史的实物档案。",
+    "items": [
+     {
+      "name": "外滩建筑群",
+      "tag": "52 幢 · 全国重点文保",
+      "spot": "waitan",
+      "text": "外滩北起外白渡桥、南至延安东路，全长约 1.5 公里，现存 52 幢建于 19 世纪末至 20 世纪 30 年代的建筑，涵盖新古典主义、装饰艺术、巴洛克等多种风格；1996 年被列为全国重点文物保护单位，是中国近代建筑史最集中的露天博物馆。"
+     },
+     {
+      "name": "武康大楼",
+      "tag": "1924 年 · 邬达克设计",
+      "spot": "wukanglu",
+      "text": "武康大楼原名诺曼底公寓，由匈牙利建筑师邬达克于 1924 年设计，是上海最早的外廊式公寓建筑；位于武康路与淮海中路交汇的锐角地块上，底层骑楼、顶层露台与法式铁艺阳台构成经典的海派街景。"
+     },
+     {
+      "name": "衡复风貌区",
+      "tag": "775 公顷 · 最大历史保护区",
+      "spot": "hengfu",
+      "text": "衡山路–复兴路历史文化风貌区总面积 775 公顷，是上海中心城区规模最大的历史风貌保护区，内有优秀历史建筑 1074 幢；梧桐掩映下的洋房、花园住宅与名人故居密度居全国之首。"
+     }
+    ]
+   },
+   {
+    "name": "一江一河",
+    "icon": "水",
+    "color": "#2C62A8",
+    "intro": "黄浦江两岸 45 公里与苏州河两岸 42 公里滨水空间全线贯通，把码头、仓库、船厂改造为美术馆、步道与公共客厅。",
+    "items": [
+     {
+      "name": "徐汇滨江美术馆群",
+      "tag": "西岸 · 11.4 公里艺术岸线",
+      "spot": "xibinjiang",
+      "text": "徐汇滨江（西岸）沿黄浦江南延伸 11.4 公里，聚集了龙美术馆、余德耀美术馆、西岸美术馆等十余座艺术机构，是全球密度最高的滨江美术馆集群之一；原龙华机场跑道与油罐艺术中心保留了工业时代的混凝土筒仓。"
+     },
+     {
+      "name": "杨浦滨江工业遗存",
+      "tag": "5.5 公里 · 世界最长工业锈带",
+      "spot": "yangpubinjiang",
+      "text": "杨浦滨江 5.5 公里岸线保留了杨树浦水厂、永安栈房、绿之丘等 24 处百年工业遗存，被联合国教科文组织评为「世界最长连续工业锈带转型案例」；2019 年全线贯通后成为市民跑步、观展、看江的开放空间。"
+     },
+     {
+      "name": "苏州河华政段",
+      "tag": "滨河步道 · 百年校园围墙打开",
+      "spot": "suzhouhe",
+      "text": "苏州河华东政法大学段于 2021 年打通，将原本封闭的百年校园围墙向公众开放，滨河步道长约 900 米；沿途可见韬奋纪念馆旧址、圣约翰大学时期的格致楼等历史建筑，是苏州河贯通工程的标志性节点。"
+     }
+    ]
+   },
+   {
+    "name": "海派文化",
+    "icon": "派",
+    "color": "#6A4C93",
+    "intro": "石库门里弄、爵士乐、旗袍与咖啡馆共同塑造了「海派」这一中西交融的文化标签，从新天地到多伦路处处可触。",
+    "items": [
+     {
+      "name": "新天地 · 石库门",
+      "tag": "1999 年改造 · 里弄活化样本",
+      "spot": "xintiandi",
+      "text": "新天地项目 1999 年启动，保留了太平桥地区成片石库门里弄的外墙与屋顶，内部置换为商业与文化空间，是中国城市更新中「整旧如旧」的标杆案例；中共一大会址紧邻其侧，历史与当代在同一街区并存。"
+     },
+     {
+      "name": "多伦路文化名人街",
+      "tag": "鲁迅 · 左联成立地",
+      "spot": "duolunlu",
+      "text": "多伦路全长仅 550 米，却密集分布着鲁迅、茅盾、丁玲等 30 余位现代文学名人的故居与活动旧址；1930 年中国左翼作家联盟在此成立，这条小街因此成为中国现代文学史上最重要的地理坐标之一。"
+     },
+     {
+      "name": "提篮桥犹太难民纪念馆",
+      "tag": "二战 · 2 万犹太人避难所",
+      "spot": "tilanqiao",
+      "text": "1938 至 1945 年间，约 2 万名欧洲犹太难民在上海虹口提篮桥地区获得庇护，摩西会堂是当时远东最大的犹太教堂；2007 年改建为上海犹太难民纪念馆，被列入《世界记忆名录》候选名单。"
+     }
+    ]
+   },
+   {
+    "name": "摩天天际线",
+    "icon": "高",
+    "color": "#1F6E43",
+    "intro": "陆家嘴三件套与东方明珠构成了全球辨识度最高的城市天际线之一，上海中心大厦以 632 米刷新了中国建筑高度纪录。",
+    "items": [
+     {
+      "name": "陆家嘴天际线",
+      "tag": "632 米 · 中国第一高楼",
+      "spot": "lujiazui",
+      "text": "陆家嘴金融城核心区聚集了上海中心大厦（632 米）、环球金融中心（492 米）、金茂大厦（420.5 米）三座超高层建筑，加上东方明珠广播电视塔（468 米），形成全球最密集的 400 米以上建筑群；上海中心大厦 2015 年竣工，至今保持中国已建成最高建筑纪录。"
+     },
+     {
+      "name": "浦东美术馆",
+      "tag": "让·努维尔设计 · 黄浦江畔",
+      "spot": "pudongmeishuguan",
+      "text": "浦东美术馆由法国建筑师让·努维尔设计，2021 年开馆，建筑面积 4 万平方米，外墙采用白色花岗岩与玻璃幕墙交替；馆内设有面向外滩的「镜厅」，将浦江对岸的历史建筑群实时反射进展厅，实现新旧对话。"
+     }
+    ]
+   },
+   {
+    "name": "江南古镇",
+    "icon": "古",
+    "color": "#4A6FA5",
+    "intro": "上海郊区仍保留着朱家角、枫泾、新场等水乡古镇，放生桥、课植园与盐商老街延续了江南市镇的生活肌理。",
+    "items": [
+     {
+      "name": "朱家角古镇",
+      "tag": "上海最大古镇 · 放生桥",
+      "spot": "zhujiajiao",
+      "text": "朱家角是上海地区面积最大的水乡古镇，核心保护区约 2.4 平方公里，放生桥始建于明万历年间、五孔石拱跨漕港河，是江南地区最大的五孔石桥；课植园建于 1912 年，是镇上保存最完整的私家园林。"
+     },
+     {
+      "name": "枫泾古镇",
+      "tag": "1500 年 · 丁蹄与状元糕",
+      "spot": "fengjing",
+      "text": "枫泾古镇建镇已有 1500 余年，现存明清建筑 5 万多平方米，河道总长 3.5 公里、桥梁 52 座；丁蹄创始于清咸丰二年（1852 年），状元糕始于同治年间，两者均为上海市非物质文化遗产代表性项目。"
+     },
+     {
+      "name": "广富林文化遗址",
+      "tag": "5000 年 · 上海文明之源",
+      "spot": "guangfulin",
+      "text": "松江广富林遗址考古发掘证实距今约 5000 年前已有先民在此定居，填补了上海史前文化的空白；2018 年建成的广富林文化展示馆以水下建筑形式呈现，屋顶没入水面之下，象征文明沉潜与重现。"
+     }
+    ]
+   },
+   {
+    "name": "科普与新地标",
+    "icon": "新",
+    "color": "#8A2F2F",
+    "intro": "从天文馆到迪士尼，从深坑酒店到临港滴水湖，上海不断用新地标重新定义城市的想象力边界。",
+    "items": [
+     {
+      "name": "上海天文馆",
+      "tag": "全球最大天文馆 · 2021",
+      "spot": "tianwenguan",
+      "text": "上海天文馆（上海科技馆分馆）2021 年 7 月开馆，建筑面积 3.8 万平方米，是全球建筑面积最大的天文馆；馆藏陨石标本 70 余件，太阳塔配备国内首台双焦点光学望远镜，可实时观测太阳色球层与日冕。"
+     },
+     {
+      "name": "深坑酒店",
+      "tag": "地下 88 米 · 世界首个坑内酒店",
+      "spot": "shenkeng",
+      "text": "上海佘山世茂洲际酒店建于废弃采石坑内，地面以上 2 层、地下 16 层，最深一间客房距地表 88 米，是世界首个建造在废石坑内的五星级酒店；工程历时 12 年，解决了坑内防水、抗震与消防等多项技术难题。"
+     }
+    ]
+   }
+  ]
+ }
+};
